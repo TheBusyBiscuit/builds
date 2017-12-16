@@ -1,0 +1,242 @@
+html, body {
+    background-color: rgb(245, 245, 245);
+    font-family: 'Noto Sans', sans-serif;
+    height: 100%;
+    margin: 0;
+    width: 100%;
+}
+a {
+    text-decoration: none;
+}
+svg {
+    height: 30px;
+    min-height: 30px;
+    min-width: 30px;
+    width: 30px;
+}
+.current_icon {
+    height: 60px;
+    min-height: 60px;
+    min-width: 60px;
+    width: 60px;
+}
+.current {
+    display: block;
+    width: 100%;
+}
+.current_header {
+    display: flex;
+}
+.current_status {
+    margin-bottom: auto;
+    margin-top: auto;
+}
+.current_name {
+    margin: auto;
+    text-align: center;
+    width: 100%;
+}
+.current_body {
+    display: block;
+    width: 100%;
+}
+.current_info {
+    border: 2px rgb(200, 200, 200) solid;
+    margin: auto;
+    width: auto;
+}
+.current_commit {
+    border: 2px rgb(200, 200, 200) solid;
+    display: table;
+    margin: auto;
+    text-align: center;
+    width: auto;
+}
+.current_commit_header {
+    display: flex;
+}
+.current_commit_text {
+    margin: auto;
+}
+.current_commit_avatar {
+    height: 40px;
+    width: 40px;
+}
+.current_commit_bottom {
+    font-size: 120%;
+}
+.icon {
+    height: 20px;
+    min-height: 20px;
+    min-width: 20px;
+    width: 20px;
+}
+td.icon {
+    height: 34px;
+    min-height: 34px;
+    min-width: 34px;
+    text-align: center;
+    width: 34px;
+}
+table {
+    border: none;
+    border-collapse: collapse;
+    width: 100%;
+}
+tr {
+    width: 100%;
+}
+td {
+    border-bottom: solid 1px rgb(253, 253, 253);
+    border-top: solid 1px rgb(253, 253, 253);
+    padding: 0;
+}
+tr:nth-child(even) {
+    background-color: rgb(242, 242, 242);
+}
+tr:nth-child(odd) {
+    background-color: rgb(248, 248, 248);
+}
+.page {
+    height: 92%;
+}
+.box {
+    background-color: rgb(253, 253, 253);
+	box-shadow: 0 3px 6px rgba(0,0,0,0.2), 0 3px 6px rgba(0,0,0,0.35);
+}
+.header {
+    background-color: rgb(8, 8, 8);
+    display: table;
+    height: 6%;
+    margin-bottom: 10px;
+    width: 100%;
+}
+.sidebar {
+    display: flex;
+    float: left;
+    height: 100%;
+    margin-left: 1%;
+    width: 30.5%;
+}
+.sidebar_content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.content {
+    display: flex;
+    float: right;
+    height: 100%;
+    margin-right: 1%;
+    width: 66.5%;
+}
+.sidebar_info {
+    display: block;
+}
+.container_builds {
+    height: 100%;
+}
+.sidebar_builds {
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+.builds {
+    background-color: rgb(244, 244, 244);
+    border: 2px rgb(200, 200, 200) solid;
+    height: 100%;
+    margin: 2px;
+    overflow-y: scroll;
+    transform: translateY(-8px);
+}
+.build_header {
+    background-color: rgb(200, 200, 200);
+    color: rgb(20, 20, 20);
+    height: 32px;
+    margin-left: 2px;
+    margin-right: 2px;
+    text-align: center;
+}
+.build:nth-child(even) {
+    background-color: rgb(231, 231, 231);
+}
+.build:nth-child(odd) {
+    background-color: rgb(236, 236, 236);
+}
+.build {
+    display: flex;
+    float: left;
+    height: 60px;
+    margin: 2px 4px 2px 4px;
+    width: 98%;
+}
+.build_child {
+    height: 100%;
+    margin: auto;
+}
+a.build_child {
+    height: 100%;
+    margin: auto;
+    transform: translateY(30%);
+    white-space: nowrap;
+}
+.build_state {
+    margin-left: 6px;
+}
+.link_main {
+    color: rgb(253, 253, 253);
+    display: table-cell;
+    height: 100%;
+    padding-left: 2%;
+    vertical-align: middle;
+}
+.link_main:hover {
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+}
+.link_info {
+    color: rgb(80, 80, 220);
+    padding-left: 4px;
+}
+.link_info:hover {
+    color: rgb(16, 16, 200);
+    text-decoration: underline;
+}
+.link_build {
+    color: rgb(16, 16, 16);
+    padding-left: 4px;
+}
+.link_build:hover {
+    color: rgb(16, 16, 200);
+    text-decoration: underline;
+}
+.link_date {
+    color: rgb(180, 180, 180);
+    padding-left: 4px;
+}
+.link_date:hover {
+    color: rgb(180, 180, 220);
+    text-decoration: underline;
+}
+.link_commit {
+    color: rgb(16, 16, 16);
+    float: right;
+    height: 100%;
+}
+.link_commit:hover {
+    color: rgb(16, 16, 200);
+    text-decoration: underline;
+}
+.loading {
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-name: spinner;
+}
+@keyframes spinner {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
