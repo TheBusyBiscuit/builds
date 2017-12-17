@@ -105,6 +105,10 @@ tr:nth-child(odd) {
     background-color: rgb(253, 253, 253);
 	box-shadow: 0 3px 6px rgba(0,0,0,0.2), 0 3px 6px rgba(0,0,0,0.35);
 }
+.repo {
+    margin: auto;
+    width: 60%;
+}
 .header {
     background-color: rgb(8, 8, 8);
     display: table;
