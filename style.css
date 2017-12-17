@@ -32,6 +32,7 @@ svg {
     margin-top: auto;
 }
 .current_name {
+    font-size: 130%;
     margin: auto;
     text-align: center;
     width: 100%;
