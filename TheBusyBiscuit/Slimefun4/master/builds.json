@@ -11,11 +11,9 @@
             "name": "GNU General Public License v3.0",
             "id": "GPL-3.0",
             "url": "https://api.github.com/licenses/gpl-3.0"
-        }
+        },
+        "status": "SUCCESS"
     },
-    "latest": {
-        "id": 1,
-        "sha": "a93a5e88d6fb0435360447570f0e0c4e76a19ca5",
-        "timestamp": 20171202203816
-    }
+    "latest": 1,
+    "last_successful": 1
 }
