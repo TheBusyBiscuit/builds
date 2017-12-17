@@ -1,0 +1,104 @@
+[INFO] Scanning for projects...
+
+[INFO] 
+
+[INFO] ------------------------------------------------------------------------
+
+[INFO] ------------------------------------------------------------------------
+
+[INFO] Building CS-CoreLib 1.5.16
+
+[WARNING] The POM for com.wasteofplastic:askyblock:jar:3.0.6.9 is invalid, transitive dependencies (if any) will not be availabl
+e, enable debug logging for more details
+
+[WARNING] The POM for com.github.dmulloy2.LWC:lwc:jar:master-4.5.1-g2100b5e-18 is invalid, transitive dependencies (if any) will
+ not be available, enable debug logging for more details
+
+[WARNING] The POM for com.massivecraft.massivecore:MassiveCore:jar:2.13.0 is missing, no dependency information available
+
+[WARNING] The POM for com.massivecraft.factions:Factions:jar:2.13.0 is missing, no dependency information available
+
+Downloading from worldedit-worldguard-repo: http://maven.sk89q.com/repo/org/bukkit/bukkit/maven-metadata.xml
+
+[WARNING] Could not transfer metadata org.bukkit:bukkit/maven-metadata.xml from/to worldedit-worldguard-repo (http://maven.sk89q.com/repo/): Failed to transfer file: http://maven.sk89q.com/repo/org/bukkit/bukkit/maven-metadata.xml. Return code is: 500 , Re
+asonPhrase:Internal Server Error.
+
+[WARNING] Failure to transfer org.bukkit:bukkit/maven-metadata.xml from http://maven.sk89q.com/repo/ was cached in the local repository, resolution will not be reattempted until the update interval of worldedit-worldguard-repo has elapsed or updates are fo
+rced. Original error: Could not transfer metadata org.bukkit:bukkit/maven-metadata.xml from/to worldedit-worldguard-repo (http://maven.sk89q.com/repo/): Failed to transfer file: http://maven.sk89q.com/repo/org/bukkit/bukkit/maven-metadata.xml. Return code is: 500 , ReasonPhrase:Internal Server Error.
+
+[INFO] 
+
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ CS-CoreLib ---
+
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+
+[INFO] Copying 1 resource
+
+[INFO] 
+
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ CS-CoreLib ---
+
+[INFO] Changes detected - recompiling the module!
+
+[INFO] Compiling 100 source files to E:\Projects\GitHub\builds\TheBusyBiscuit\CS-CoreLib\master\files\target\classes
+
+[WARNING] /E:/Projects/GitHub/builds/TheBusyBiscuit/CS-CoreLib/master/files/src/me/mrCookieSlime/CSCoreLibPlugin/Configuration/Config.java:[208,60] unmappable character for encoding UTF-8
+
+[WARNING] /E:/Projects/GitHub/builds/TheBusyBiscuit/CS-CoreLib/master/files/src/me/mrCookieSlime/CSCoreLibPlugin/general/audio/SoundConfig.java:[321,88] unmappable character for encoding UTF-8
+[WARNING] /E:/Projects/GitHub/builds/TheBusyBiscuit/CS-CoreLib/master/files/src/me/mrCookieSlime/CSCoreLibPlugin/general/audio/SoundConfig.java:[321,101] unmappable character for encoding UTF-8
+[WARNING] /E:/Projects/GitHub/builds/TheBusyBiscuit/CS-CoreLib/master/files/src/me/mrCookieSlime/CSCoreLibPlugin/general/audio/SoundConfig.java:[321,119] unmappable character for encoding UTF-8
+[WARNING] /E:/Projects/GitHub/builds/TheBusyBiscuit/CS-CoreLib/master/files/src/me/mrCookieSlime/CSCoreLibPlugin/general/audio/SoundConfig.java:[321,158] unmappable character for encoding UTF-8
+[WARNING] /E:/Projects/GitHub/builds/TheBusyBiscuit/CS-CoreLib/master/files/src/me/mrCookieSlime/CSCoreLibPlugin/general/audio/SoundConfig.java:[321,168] unmappable character for encoding UTF-8
+[WARNING] /E:/Projects/GitHub/builds/TheBusyBiscuit/CS-CoreLib/master/files/src/me/mrCookieSlime/CSCoreLibPlugin/general/audio/SoundConfig.java:[321,208] unmappable character for encoding UTF-8
+[WARNING] /E:/Projects/GitHub/builds/TheBusyBiscuit/CS-CoreLib/master/files/src/me/mrCookieSlime/CSCoreLibPlugin/general/audio/SoundConfig.java:[321,217] unmappable character for encoding UTF-8
+[WARNING] /E:/Projects/GitHub/builds/TheBusyBiscuit/CS-CoreLib/master/files/src/me/mrCookieSlime/CSCoreLibPlugin/general/audio/SoundConfig.java:[321,260] unmappable character for encoding UTF-8
+
+[WARNING] /E:/Projects/GitHub/builds/TheBusyBiscuit/CS-CoreLib/master/files/src/me/mrCookieSlime/CSCoreLibPlugin/general/Inventory/MenuHelper.java:[25,67] unmappable character for encoding UTF-8
+[WARNING] /E:/Projects/GitHub/builds/TheBusyBiscuit/CS-CoreLib/master/files/src/me/mrCookieSlime/CSCoreLibPlugin/general/Inventory/Item/CustomItemSerializer.java:[75,104] unmappable character for encoding UTF-8
+[WARNING] /E:/Projects/GitHub/builds/TheBusyBiscuit/CS-CoreLib/master/files/src/me/mrCookieSlime/CSCoreLibPlugin/general/Inventory/Item/CustomItemSerializer.java:[84,108] unmappable character for encoding UTF-8
+[WARNING] /E:/Projects/GitHub/builds/TheBusyBiscuit/CS-CoreLib/master/files/src/me/mrCookieSlime/CSCoreLibPlugin/general/audio/SoundConfig.java:[309,49] unmappable character for encoding UTF-8
+[WARNING] /E:/Projects/GitHub/builds/TheBusyBiscuit/CS-CoreLib/master/files/src/me/mrCookieSlime/CSCoreLibPlugin/general/audio/SoundConfig.java:[311,86] unmappable character for encoding UTF-8
+[WARNING] /E:/Projects/GitHub/builds/TheBusyBiscuit/CS-CoreLib/master/files/src/me/mrCookieSlime/CSCoreLibPlugin/general/audio/SoundConfig.java:[311,107] unmappable character for encoding UTF-8
+
+[WARNING] /E:/Projects/GitHub/builds/TheBusyBiscuit/CS-CoreLib/master/files/src/me/mrCookieSlime/CSCoreLibPlugin/general/audio/SoundConfig.java:[331,92] unmappable character for encoding UTF-8
+[WARNING] /E:/Projects/GitHub/builds/TheBusyBiscuit/CS-CoreLib/master/files/src/me/mrCookieSlime/CSCoreLibPlugin/general/audio/S
+oundConfig.java:[331,112] unmappable character for encoding UTF-8
+[WARNING] /E:/Projects/GitHub/builds/TheBusyBiscuit/CS-CoreLib/master/files/src/me/mrCookieSlime/CSCoreLibPlugin/general/Inventory/Item/CustomBanner.java: Some input files use or override a deprecated API.
+[WARNING] /E:/Projects/GitHub/builds/TheBusyBiscuit/CS-CoreLib/master/files/src/me/mrCookieSlime/CSCoreLibPlugin/general/Inventory/Item/CustomBanner.java: Recompile with -Xlint:deprecation for details.
+
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ CS-CoreLib ---
+
+[INFO] 
+
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+
+[INFO] skip non existing resourceDirectory E:\Projects\GitHub\builds\TheBusyBiscuit\CS-CoreLib\master\files\tests\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ CS-CoreLib ---
+
+[INFO] No sources to compile
+
+[INFO] 
+
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ CS-CoreLib ---
+
+[INFO] No tests to run.
+
+[INFO] 
+
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ CS-CoreLib ---
+
+[INFO] Building jar: E:\Projects\GitHub\builds\TheBusyBiscuit\CS-CoreLib\master\files\target\CS-CoreLib-1.jar
+
+[INFO] ------------------------------------------------------------------------
+
+[INFO] Total time: 7.273 s
+[INFO] Finished at: 2017-12-17T18:03:23+01:00
+
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+
+[INFO] Final Memory: 23M/219M
+
+[INFO] ------------------------------------------------------------------------
+

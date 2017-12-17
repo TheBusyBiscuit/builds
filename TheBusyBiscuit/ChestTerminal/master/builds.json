@@ -1,0 +1,19 @@
+{
+    "1": {
+        "id": 1,
+        "sha": "855f2797d2b9eccf1a8b35afeae528c1b21d5eec",
+        "date": "02 Dec 2017 (11:03:11)",
+        "timestamp": 20171202110311,
+        "message": "Added Maven Support",
+        "author": "TheBusyBiscuit",
+        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
+        "license": {
+            "name": "MIT License",
+            "id": "MIT",
+            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/ChestTerminal/master/LICENSE"
+        },
+        "status": "SUCCESS"
+    },
+    "latest": 1,
+    "last_successful": 1
+}
