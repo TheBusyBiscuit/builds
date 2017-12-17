@@ -186,7 +186,7 @@ function compareBuilds(author, repo, branch, builds, commit) {
         generateHTML(author, repo, branch, builds);
     }
     else {
-        finishJob();
+        jobs--;
     }
 }
 
