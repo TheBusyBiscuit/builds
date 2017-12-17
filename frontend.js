@@ -33,6 +33,7 @@ $(function() {
         // Build List
         var list_builds = $("#buildlist");
 
+        list_builds.html("");
         for (var i = builds.latest; i > 0; i--) {
             list_builds.append(build(builds, i));
         }
