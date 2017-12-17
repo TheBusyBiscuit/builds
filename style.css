@@ -57,7 +57,8 @@ svg {
     display: flex;
 }
 .current_commit_text {
-    margin: auto;
+    margin-bottom: auto;
+    margin-top: auto;
 }
 .current_commit_avatar {
     height: 40px;
