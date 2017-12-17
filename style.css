@@ -106,8 +106,14 @@ tr:nth-child(odd) {
 	box-shadow: 0 3px 6px rgba(0,0,0,0.2), 0 3px 6px rgba(0,0,0,0.35);
 }
 .repo {
+    font-size: 110%;
     margin: auto;
     width: 60%;
+}
+.link_repo {
+    display: block;
+    margin-bottom: 10px;
+    text-align: center;
 }
 .header {
     background-color: rgb(8, 8, 8);
