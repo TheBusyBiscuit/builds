@@ -12,7 +12,8 @@
             "id": "GPL-3.0",
             "url": "https://raw.githubusercontent.com/TheBusyBiscuit/CS-CoreLib/master/LICENSE"
         },
-        "status": "PENDING"
+        "status": "SUCCESS"
     },
-    "latest": 1
+    "latest": 1,
+    "last_successful": 1
 }
