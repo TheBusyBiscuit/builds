@@ -24,6 +24,7 @@ console.log = function(msg) {
 }
 
 console.log("Watching Repositories...");
+var jobs = 0;
 
 FileSystem.readFile('repos.json', 'UTF-8', function(err, data) {
     if (!err) {
@@ -32,6 +33,7 @@ FileSystem.readFile('repos.json', 'UTF-8', function(err, data) {
         for (var author in repos) {
             console.log(" Watching Author \"" + author + "\"...");
             for (var i in repos[author]) {
+                jobs++;
                 var repo = repos[author][i];
                 var repository = repo.split(':')[0];
                 var branch = repo.split(':')[1];
@@ -183,6 +185,8 @@ function compareBuilds(author, repo, branch, builds, commit) {
         clone(author, repo, branch, commit.sha, builds, data);
         generateHTML(author, repo, branch, builds);
     }
+
+    finishJob();
 }
 
 function clone(author, repo, branch, commit, builds, data) {
@@ -276,8 +280,11 @@ function compile(author, repo, branch, builds, id) {
                     FileSystem.rename(author + "/" + repo + "/" + branch + "/files/target/" + repo + "-" + id + ".jar", author + "/" + repo + "/" + branch + "/" + repo + "-" + id + ".jar", function(err) {
                         if (!err) {
                             clearFolder(author + "/" + repo + "/" + branch + "/files", function(err) {
-                                if (err) {
-                                    // FINISHED
+                                if (!err) {
+                                    // FINISHED: SUCCESS
+                                    finishJob();
+                                }
+                                else {
                                     console.log(err);
                                 }
                             });
@@ -295,6 +302,9 @@ function compile(author, repo, branch, builds, id) {
         else {
             builds[id].status = "FAILURE";
             FileSystem.writeFile(author + "/" + repo + "/" + branch + "/builds.json", JSON.stringify(builds, null, 4), 'UTF-8');
+
+            // FINISHED: FAILURE
+            finishJob();
         }
     });
 }
@@ -374,4 +384,44 @@ function clearFolder(path, callback) {
             });
         }
     });
-  }
+}
+
+function finishJob() {
+    jobs--;
+
+    if (jobs === 0) {
+        var add = child_process.spawn("git", ["add", "*"]);
+
+        add.stderr.on('data', function(data) {
+            console.log(" " + data);
+        });
+
+        add.stdout.on('data', function(data) {
+            console.log(" " + data);
+        });
+
+        add.on('close', function(status) {
+            var commit = child_process.spawn("git", ["commit", "-m", "Automatically Compiled"]);
+
+            commit.stderr.on('data', function(data) {
+                console.log(" " + data);
+            });
+
+            commit.stdout.on('data', function(data) {
+                console.log(" " + data);
+            });
+
+            commit.on('close', function(status) {
+                var push = child_process.spawn("git", ["push"]);
+
+                push.stderr.on('data', function(data) {
+                    console.log(" " + data);
+                });
+
+                push.stdout.on('data', function(data) {
+                    console.log(" " + data);
+                });
+            });
+        });
+    }
+}

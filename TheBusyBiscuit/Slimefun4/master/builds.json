@@ -1,10 +1,10 @@
 {
     "1": {
         "id": 1,
-        "sha": "a93a5e88d6fb0435360447570f0e0c4e76a19ca5",
-        "date": "02 Dec 2017 (20:38:16)",
-        "timestamp": 20171202203816,
-        "message": "Fixed Christmas Cake Recipe",
+        "sha": "def05c3d2ff82a74b7995d3be2243e87ea3e4e81",
+        "date": "17 Dec 2017 (18:24:49)",
+        "timestamp": 20171217182449,
+        "message": "Update README.md",
         "author": "TheBusyBiscuit",
         "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
         "license": {
@@ -12,8 +12,7 @@
             "id": "GPL-3.0",
             "url": "https://raw.githubusercontent.com/TheBusyBiscuit/Slimefun4/master/LICENSE"
         },
-        "status": "SUCCESS"
+        "status": "PENDING"
     },
-    "latest": 1,
-    "last_successful": 1
+    "latest": 1
 }
