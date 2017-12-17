@@ -14,6 +14,21 @@
         },
         "status": "SUCCESS"
     },
-    "latest": 1,
-    "last_successful": 1
+    "2": {
+        "id": 2,
+        "sha": "f9e7c3cae69edf27261322ca8e83de19fb7756ce",
+        "date": "17 Dec 2017 (19:02:27)",
+        "timestamp": 20171217190227,
+        "message": "Merge pull request #529 from Poslovitch/smelters-fix\n\nFix NPE on BlockBreakEvent with Smelter's Pickaxe",
+        "author": "TheBusyBiscuit",
+        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
+        "license": {
+            "name": "GNU General Public License v3.0",
+            "id": "GPL-3.0",
+            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/Slimefun4/master/LICENSE"
+        },
+        "status": "SUCCESS"
+    },
+    "latest": 2,
+    "last_successful": 2
 }

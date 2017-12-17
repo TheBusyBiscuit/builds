@@ -185,6 +185,9 @@ function compareBuilds(author, repo, branch, builds, commit) {
         clone(author, repo, branch, commit.sha, builds, data);
         generateHTML(author, repo, branch, builds);
     }
+    else {
+        finishJob();
+    }
 }
 
 function clone(author, repo, branch, commit, builds, data) {
