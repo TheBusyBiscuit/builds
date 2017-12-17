@@ -52,7 +52,7 @@
                                     </td>
                                     <td>Last successful Build</td>
                                     <td>
-                                        <a id="link_last_successful_build" class="trigger link_info" href="${last-successful}">#${last-successful}</a>
+                                        <a id="link_last_successful_build" class="trigger link_info" href="${last-successful}"><img style="width: 20px;" class="loading" src="https://thebusybiscuit.github.io/content/octicons/sync.svg"/></a>
                                     </td>
                                 </tr>
                             </table>
@@ -63,6 +63,7 @@
                     <div class="sidebar_builds">
                         <div class="container_builds">
                             <div id="buildlist" class="builds">
+                                <img style="width: 20px;" class="loading" src="https://thebusybiscuit.github.io/content/octicons/sync.svg"/>
                             <!--
                                 <div class="build" id="2">
                                     <svg class="build_child build_state">
@@ -90,15 +91,14 @@
                 <div class="current">
                     <div class="current_header">
                         <svg id="current_icon" class="current_icon">
-                            <circle cx="31" cy="31" r="23" stroke="rgb(100, 60, 60)" stroke-width="2" fill="rgb(255, 20, 20)"/>
                         </svg>
                         <div id="current_status" class="current_status">
-                            ${current_status}
+                            <img style="width: 20px;" class="loading" src="https://thebusybiscuit.github.io/content/octicons/sync.svg"/>
                         </div>
                     </div>
 
                     <div id="current_name" class="current_name">
-                        Slimefun4 #${current_build}
+                        <img style="width: 20px;" class="loading" src="https://thebusybiscuit.github.io/content/octicons/sync.svg"/>
                     </div>
                     <div class="current_body">
                         <br>
@@ -109,7 +109,7 @@
                                 </td>
                                 <td>Download (.jar)</td>
                                 <td>
-                                    <a id="current_download_jar" class="link_info" target="_blank" href="/Slimefun4-${current_build}.jar">Slimefun4-${current_build}.jar</a>
+                                    <a id="current_download_jar" class="link_info" target="_blank" href="/Slimefun4-${current_build}.jar"><img style="width: 20px;" class="loading" src="https://thebusybiscuit.github.io/content/octicons/sync.svg"/></a>
                                 </td>
                             </tr>
                             <tr>
@@ -118,7 +118,7 @@
                                 </td>
                                 <td>Build Log</td>
                                 <td>
-                                    <a id="current_download_log" class="link_info" target="_blank" href="/Slimefun4-${current_build}.log">Slimefun4-${current_build}.log</a>
+                                    <a id="current_download_log" class="link_info" target="_blank" href="/Slimefun4-${current_build}.log"><img style="width: 20px;" class="loading" src="https://thebusybiscuit.github.io/content/octicons/sync.svg"/></a>
                                 </td>
                             </tr>
                             <tr>
@@ -136,7 +136,7 @@
                                 </td>
                                 <td>License</td>
                                 <td>
-                                    <a id="current_license" class="link_info" href="${current_license_url}">${current_license}</a>
+                                    <a id="current_license" class="link_info" href="${current_license_url}"><img style="width: 20px;" class="loading" src="https://thebusybiscuit.github.io/content/octicons/sync.svg"/></a>
                                 </td>
                             </tr>
                         </table>
@@ -145,24 +145,24 @@
                             <div class="current_commit_header">
                                 <img id="current_commit_avatar" class="current_commit_avatar" src="${current_commit_avatar}"/>
                                 <div id="current_commit_committer" class="current_commit_text current_commit_committer">
-                                    ${current_commit_committer}
+                                    <img style="width: 20px;" class="loading" src="https://thebusybiscuit.github.io/content/octicons/sync.svg"/>
                                 </div>
                                 <div class="current_commit_text">
                                     &nbsp;commited on&nbsp;
                                 </div>
                                 <div id="current_commit_date" class="current_commit_text current_commit_date">
-                                    ${current_commit_date}
+                                    <img style="width: 20px;" class="loading" src="https://thebusybiscuit.github.io/content/octicons/sync.svg"/>
                                 </div>
                             </div>
-                            <a id="current_commit" class="link_info" href="https://github.com/TheBusyBiscuit/Slimefun4/commit/${current_commit}">${current_commit}</a>
+                            <a id="current_commit" class="link_info" href="https://github.com/TheBusyBiscuit/Slimefun4/commit/${current_commit}"><img style="width: 20px;" class="loading" src="https://thebusybiscuit.github.io/content/octicons/sync.svg"/></a>
                             <div id="current_commit_message" class="current_commit_bottom">
-                                ${current_commit_message}
+                                <img style="width: 20px;" class="loading" src="https://thebusybiscuit.github.io/content/octicons/sync.svg"/>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <!--<img style="width: 100px;" class="loading" src="https://thebusybiscuit.github.io/content/octicons/sync.svg">-->
+        <!--<img style="width: 100px;" class="loading" src="https://thebusybiscuit.github.io/content/octicons/sync.svg"/>-->
     </body>
 </html>

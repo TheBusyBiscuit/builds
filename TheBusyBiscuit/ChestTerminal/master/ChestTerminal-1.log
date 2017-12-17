@@ -9,8 +9,7 @@
 [WARNING] The POM for com.wasteofplastic:askyblock:jar:3.0.6.9 is invalid, transitive dependencies (if any) will not be availabl
 e, enable debug logging for more details
 
-[WARNING] The POM for com.github.dmulloy2.LWC:lwc:jar:master-4.5.1-g2100b5e-18 is invalid, transitive dependencies (if any) will
- not be available, enable debug logging for more details
+[WARNING] The POM for com.github.dmulloy2.LWC:lwc:jar:master-4.5.1-g2100b5e-18 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
 
 [WARNING] The POM for com.massivecraft.massivecore:MassiveCore:jar:2.13.0 is missing, no dependency information available
 
@@ -18,8 +17,8 @@ e, enable debug logging for more details
 
 Downloading from worldedit-worldguard-repo: http://maven.sk89q.com/repo/org/bukkit/bukkit/maven-metadata.xml
 
-[WARNING] Could not transfer metadata org.bukkit:bukkit/maven-metadata.xml from/to worldedit-worldguard-repo (http://maven.sk89q.com/repo/): Failed to transfer file: http://maven.sk89q.com/repo/org/bukkit/bukkit/maven-metadata.xml. Return code is: 500 , Re
-asonPhrase:Internal Server Error.
+[WARNING] Could not transfer metadata org.bukkit:bukkit/maven-metadata.xml from/to worldedit-worldguard-repo (http://maven.sk89q
+.com/repo/): Failed to transfer file: http://maven.sk89q.com/repo/org/bukkit/bukkit/maven-metadata.xml. Return code is: 500 , ReasonPhrase:Internal Server Error.
 
 [WARNING] Failure to transfer org.bukkit:bukkit/maven-metadata.xml from http://maven.sk89q.com/repo/ was cached in the local repository, resolution will not be reattempted until the update interval of worldedit-worldguard-repo has elapsed or updates are forced. Original error: Could not transfer metadata org.bukkit:bukkit/maven-metadata.xml from/to worldedit-worldguard-repo (http://maven.sk89q.com/repo/): Failed to transfer file: http://maven.sk89q.com/repo/org/bukkit/bukkit/maven-metadata.xml. Return code is: 500 , ReasonPhrase:Internal Server Error.
 
@@ -47,9 +46,9 @@ asonPhrase:Internal Server Error.
 [WARNING] /E:/Projects/GitHub/builds/TheBusyBiscuit/ChestTerminal/master/files/src/me/mrCookieSlime/ChestTerminal/ImportBus.java:[41,135] unmappable character for encoding UTF-8
 [WARNING] /E:/Projects/GitHub/builds/TheBusyBiscuit/ChestTerminal/master/files/src/me/mrCookieSlime/ChestTerminal/ImportBus.java:[41,154] unmappable character for encoding UTF-8
 [WARNING] /E:/Projects/GitHub/builds/TheBusyBiscuit/ChestTerminal/master/files/src/me/mrCookieSlime/ChestTerminal/ImportBus.java:[53,138] unmappable character for encoding UTF-8
+
 [WARNING] /E:/Projects/GitHub/builds/TheBusyBiscuit/ChestTerminal/master/files/src/me/mrCookieSlime/ChestTerminal/ImportBus.java:[53,146] unmappable character for encoding UTF-8
 [WARNING] /E:/Projects/GitHub/builds/TheBusyBiscuit/ChestTerminal/master/files/src/me/mrCookieSlime/ChestTerminal/ImportBus.java:[53,165] unmappable character for encoding UTF-8
-
 [WARNING] /E:/Projects/GitHub/builds/TheBusyBiscuit/ChestTerminal/master/files/src/me/mrCookieSlime/ChestTerminal/ImportBus.java:[66,145] unmappable character for encoding UTF-8
 [WARNING] /E:/Projects/GitHub/builds/TheBusyBiscuit/ChestTerminal/master/files/src/me/mrCookieSlime/ChestTerminal/ImportBus.java:[66,175] unmappable character for encoding UTF-8
 [WARNING] /E:/Projects/GitHub/builds/TheBusyBiscuit/ChestTerminal/master/files/src/me/mrCookieSlime/ChestTerminal/ImportBus.java:[66,191] unmappable character for encoding UTF-8
@@ -57,53 +56,31 @@ asonPhrase:Internal Server Error.
 [WARNING] /E:/Projects/GitHub/builds/TheBusyBiscuit/ChestTerminal/master/files/src/me/mrCookieSlime/ChestTerminal/ImportBus.java:[78,174] unmappable character for encoding UTF-8
 [WARNING] /E:/Projects/GitHub/builds/TheBusyBiscuit/ChestTerminal/master/files/src/me/mrCookieSlime/ChestTerminal/ImportBus.java:[78,190] unmappable character for encoding UTF-8
 [WARNING] /E:/Projects/GitHub/builds/TheBusyBiscuit/ChestTerminal/master/files/src/me/mrCookieSlime/ChestTerminal/ImportBus.java:[91,132] unmappable character for encoding UTF-8
-
 [WARNING] /E:/Projects/GitHub/builds/TheBusyBiscuit/ChestTerminal/master/files/src/me/mrCookieSlime/ChestTerminal/ImportBus.java:[91,148] unmappable character for encoding UTF-8
 [WARNING] /E:/Projects/GitHub/builds/TheBusyBiscuit/ChestTerminal/master/files/src/me/mrCookieSlime/ChestTerminal/ImportBus.java:[91,164] unmappable character for encoding UTF-8
-
-[WARNING] /E:/Projects/GitHub/builds/TheBusyBiscuit/ChestTerminal/master/files/src/me/mrCookieSlime/ChestTerminal/ImportBus.java
-:[103,132] unmappable character for encoding UTF-8
-
-[WARNING] /E:/Projects/GitHub/builds/TheBusyBiscuit/ChestTerminal/master/files/src/me/mrCookieSlime/ChestTerminal/ImportBus.java
-:[103,148] unmappable character for encoding UTF-8
-
-:[103,164] unmappable character for encoding UTF-8
+[WARNING] /E:/Projects/GitHub/builds/TheBusyBiscuit/ChestTerminal/master/files/src/me/mrCookieSlime/ChestTerminal/ImportBus.java:[103,132] unmappable character for encoding UTF-8
+[WARNING] /E:/Projects/GitHub/builds/TheBusyBiscuit/ChestTerminal/master/files/src/me/mrCookieSlime/ChestTerminal/ImportBus.java:[103,148] unmappable character for encoding UTF-8
+[WARNING] /E:/Projects/GitHub/builds/TheBusyBiscuit/ChestTerminal/master/files/src/me/mrCookieSlime/ChestTerminal/ImportBus.java:[103,164] unmappable character for encoding UTF-8
 [WARNING] /E:/Projects/GitHub/builds/TheBusyBiscuit/ChestTerminal/master/files/src/me/mrCookieSlime/ChestTerminal/ImportBus.java:[216,85] unmappable character for encoding UTF-8
 [WARNING] /E:/Projects/GitHub/builds/TheBusyBiscuit/ChestTerminal/master/files/src/me/mrCookieSlime/ChestTerminal/ImportBus.java:[216,100] unmappable character for encoding UTF-8
 [WARNING] /E:/Projects/GitHub/builds/TheBusyBiscuit/ChestTerminal/master/files/src/me/mrCookieSlime/ChestTerminal/ImportBus.java:[216,134] unmappable character for encoding UTF-8
 [WARNING] /E:/Projects/GitHub/builds/TheBusyBiscuit/ChestTerminal/master/files/src/me/mrCookieSlime/ChestTerminal/AccessTerminal.java:[31,44] unmappable character for encoding UTF-8
-
 [WARNING] /E:/Projects/GitHub/builds/TheBusyBiscuit/ChestTerminal/master/files/src/me/mrCookieSlime/ChestTerminal/AccessTerminal.java:[41,291] unmappable character for encoding UTF-8
-
-[WARNING] /E:/Projects/GitHub/builds/TheBusyBiscuit/ChestTerminal/master/files/src/me/mrCookieSlime/ChestTerminal/AccessTerminal
-.java:[41,321] unmappable character for encoding UTF-8
-
-[WARNING] /E:/Projects/GitHub/builds/TheBusyBiscuit/ChestTerminal/master/files/src/me/mrCookieSlime/ChestTerminal/ImportBus.java
-[WARNING] /E:/Projects/GitHub/builds/TheBusyBiscuit/ChestTerminal/master/files/src/me/mrCookieSlime/ChestTerminal/AccessTerminal
+[WARNING] /E:/Projects/GitHub/builds/TheBusyBiscuit/ChestTerminal/master/files/src/me/mrCookieSlime/ChestTerminal/AccessTerminal.java:[41,321] unmappable character for encoding UTF-8
 [WARNING] /E:/Projects/GitHub/builds/TheBusyBiscuit/ChestTerminal/master/files/src/me/mrCookieSlime/ChestTerminal/AccessTerminal.java:[55,291] unmappable character for encoding UTF-8
-
-.java:[55,317] unmappable character for encoding UTF-8
+[WARNING] /E:/Projects/GitHub/builds/TheBusyBiscuit/ChestTerminal/master/files/src/me/mrCookieSlime/ChestTerminal/AccessTerminal.java:[55,317] unmappable character for encoding UTF-8
 [WARNING] /E:/Projects/GitHub/builds/TheBusyBiscuit/ChestTerminal/master/files/src/me/mrCookieSlime/ChestTerminal/AccessTerminal.java:[243,100] unmappable character for encoding UTF-8
 [WARNING] /E:/Projects/GitHub/builds/TheBusyBiscuit/ChestTerminal/master/files/src/me/mrCookieSlime/ChestTerminal/QuartzDrill.java:[133,25] unmappable character for encoding UTF-8
 [WARNING] /E:/Projects/GitHub/builds/TheBusyBiscuit/ChestTerminal/master/files/src/me/mrCookieSlime/ChestTerminal/ChestTerminal.java:[34,96] unmappable character for encoding UTF-8
 [WARNING] /E:/Projects/GitHub/builds/TheBusyBiscuit/ChestTerminal/master/files/src/me/mrCookieSlime/ChestTerminal/ChestTerminal.java:[38,96] unmappable character for encoding UTF-8
 [WARNING] /E:/Projects/GitHub/builds/TheBusyBiscuit/ChestTerminal/master/files/src/me/mrCookieSlime/ChestTerminal/ChestTerminal.java:[38,120] unmappable character for encoding UTF-8
-
-[WARNING] /E:/Projects/GitHub/builds/TheBusyBiscuit/ChestTerminal/master/files/src/me/mrCookieSlime/ChestTerminal/ChestTerminal.
-java:[40,107] unmappable character for encoding UTF-8
+[WARNING] /E:/Projects/GitHub/builds/TheBusyBiscuit/ChestTerminal/master/files/src/me/mrCookieSlime/ChestTerminal/ChestTerminal.java:[40,107] unmappable character for encoding UTF-8
 [WARNING] /E:/Projects/GitHub/builds/TheBusyBiscuit/ChestTerminal/master/files/src/me/mrCookieSlime/ChestTerminal/ChestTerminal.java:[40,137] unmappable character for encoding UTF-8
-
-[WARNING] /E:/Projects/GitHub/builds/TheBusyBiscuit/ChestTerminal/master/files/src/me/mrCookieSlime/ChestTerminal/ChestTerminal.
-java:[40,147] unmappable character for encoding UTF-8
-
-[WARNING] /E:/Projects/GitHub/builds/TheBusyBiscuit/ChestTerminal/master/files/src/me/mrCookieSlime/ChestTerminal/ChestTerminal.
-java:[40,156] unmappable character for encoding UTF-8
-
+[WARNING] /E:/Projects/GitHub/builds/TheBusyBiscuit/ChestTerminal/master/files/src/me/mrCookieSlime/ChestTerminal/ChestTerminal.java:[40,147] unmappable character for encoding UTF-8
+[WARNING] /E:/Projects/GitHub/builds/TheBusyBiscuit/ChestTerminal/master/files/src/me/mrCookieSlime/ChestTerminal/ChestTerminal.java:[40,156] unmappable character for encoding UTF-8
 [WARNING] /E:/Projects/GitHub/builds/TheBusyBiscuit/ChestTerminal/master/files/src/me/mrCookieSlime/ChestTerminal/ChestTerminal.java:[40,169] unmappable character for encoding UTF-8
-
 [WARNING] /E:/Projects/GitHub/builds/TheBusyBiscuit/ChestTerminal/master/files/src/me/mrCookieSlime/ChestTerminal/ChestTerminal.java:[40,182] unmappable character for encoding UTF-8
-
-java:[40,191] unmappable character for encoding UTF-8
+[WARNING] /E:/Projects/GitHub/builds/TheBusyBiscuit/ChestTerminal/master/files/src/me/mrCookieSlime/ChestTerminal/ChestTerminal.java:[40,191] unmappable character for encoding UTF-8
 [WARNING] /E:/Projects/GitHub/builds/TheBusyBiscuit/ChestTerminal/master/files/src/me/mrCookieSlime/ChestTerminal/ChestTerminal.java:[40,200] unmappable character for encoding UTF-8
 [WARNING] /E:/Projects/GitHub/builds/TheBusyBiscuit/ChestTerminal/master/files/src/me/mrCookieSlime/ChestTerminal/ChestTerminal.java:[40,215] unmappable character for encoding UTF-8
 [WARNING] /E:/Projects/GitHub/builds/TheBusyBiscuit/ChestTerminal/master/files/src/me/mrCookieSlime/ChestTerminal/ChestTerminal.java:[40,217] unmappable character for encoding UTF-8
@@ -141,7 +118,6 @@ java:[40,191] unmappable character for encoding UTF-8
 [WARNING] /E:/Projects/GitHub/builds/TheBusyBiscuit/ChestTerminal/master/files/src/me/mrCookieSlime/ChestTerminal/ChestTerminal.java:[42,220] unmappable character for encoding UTF-8
 [WARNING] /E:/Projects/GitHub/builds/TheBusyBiscuit/ChestTerminal/master/files/src/me/mrCookieSlime/ChestTerminal/ChestTerminal.java:[42,222] unmappable character for encoding UTF-8
 [WARNING] /E:/Projects/GitHub/builds/TheBusyBiscuit/ChestTerminal/master/files/src/me/mrCookieSlime/ChestTerminal/ChestTerminal.java:[42,231] unmappable character for encoding UTF-8
-
 [WARNING] /E:/Projects/GitHub/builds/TheBusyBiscuit/ChestTerminal/master/files/src/me/mrCookieSlime/ChestTerminal/ChestTerminal.java:[42,240] unmappable character for encoding UTF-8
 [WARNING] /E:/Projects/GitHub/builds/TheBusyBiscuit/ChestTerminal/master/files/src/me/mrCookieSlime/ChestTerminal/ChestTerminal.java:[42,258] unmappable character for encoding UTF-8
 [WARNING] /E:/Projects/GitHub/builds/TheBusyBiscuit/ChestTerminal/master/files/src/me/mrCookieSlime/ChestTerminal/ChestTerminal.java:[42,309] unmappable character for encoding UTF-8
@@ -166,20 +142,13 @@ java:[40,191] unmappable character for encoding UTF-8
 [WARNING] /E:/Projects/GitHub/builds/TheBusyBiscuit/ChestTerminal/master/files/src/me/mrCookieSlime/ChestTerminal/ChestTerminal.java:[44,111] unmappable character for encoding UTF-8
 [WARNING] /E:/Projects/GitHub/builds/TheBusyBiscuit/ChestTerminal/master/files/src/me/mrCookieSlime/ChestTerminal/ChestTerminal.java:[44,142] unmappable character for encoding UTF-8
 [WARNING] /E:/Projects/GitHub/builds/TheBusyBiscuit/ChestTerminal/master/files/src/me/mrCookieSlime/ChestTerminal/ChestTerminal.java:[44,144] unmappable character for encoding UTF-8
-
 [INFO] 
-
 [INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ ChestTerminal ---
-
-[WARNING] /E:/Projects/GitHub/builds/TheBusyBiscuit/ChestTerminal/master/files/src/me/mrCookieSlime/ChestTerminal/ChestTerminal.
 [INFO] Using 'UTF-8' encoding to copy filtered resources.
-
 [INFO] skip non existing resourceDirectory E:\Projects\GitHub\builds\TheBusyBiscuit\ChestTerminal\master\files\tests\resources
 [INFO] 
 [INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ ChestTerminal ---
-
 [INFO] No sources to compile
-
 [INFO] 
 [INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ ChestTerminal ---
 
@@ -192,14 +161,11 @@ java:[40,191] unmappable character for encoding UTF-8
 [INFO] Building jar: E:\Projects\GitHub\builds\TheBusyBiscuit\ChestTerminal\master\files\target\ChestTerminal-1.jar
 
 [INFO] ------------------------------------------------------------------------
-
-[INFO] Total time: 3.510 s
-[INFO] Finished at: 2017-12-17T18:03:08+01:00
-
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
+[INFO] Total time: 10.118 s
+[INFO] Finished at: 2017-12-17T18:21:45+01:00
 
-[INFO] Final Memory: 23M/309M
-
+[INFO] Final Memory: 20M/195M
 [INFO] ------------------------------------------------------------------------
 
