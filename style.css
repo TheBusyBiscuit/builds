@@ -108,11 +108,12 @@ tr:nth-child(odd) {
 .repo {
     font-size: 110%;
     margin: auto;
+    margin-bottom: 10px;
     width: 60%;
 }
 .link_repo {
     display: block;
-    margin-bottom: 10px;
+    margin-bottom: 12px;
     text-align: center;
 }
 .header {
