@@ -55,6 +55,7 @@ svg {
 }
 .current_commit_header {
     display: flex;
+    justify-content: center;
 }
 .current_commit_text {
     margin-bottom: auto;
