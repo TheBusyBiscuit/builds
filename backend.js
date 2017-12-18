@@ -24,7 +24,7 @@ console.log = function(msg) {
 }
 
 console.log("Watching Repositories...");
-var jobs = 0;
+var jobs = [];
 
 FileSystem.readFile('repos.json', 'UTF-8', function(err, data) {
     if (!err) {
@@ -33,26 +33,27 @@ FileSystem.readFile('repos.json', 'UTF-8', function(err, data) {
         for (var author in repos) {
             console.log(" Watching Author \"" + author + "\"...");
             for (var i in repos[author]) {
-                jobs++;
                 var repo = repos[author][i];
                 var repository = repo.split(':')[0];
                 var branch = repo.split(':')[1];
 
-                console.log("  Watching Repository \"" + author + "/" + repository + "\" on Branch \"" + branch + "\"...");
-
-                loadLatestCommit(author, repository, branch);
+                jobs.push({"author": author, "repo": repository, "branch": branch});
             }
         }
+
+        nextJob();
     }
     else {
         console.log(error);
     }
 });
 
-function loadLatestCommit(author, repo, branch) {
+function loadLatestCommit(job) {
+    console.log("  Watching Repository \"" + job.author + "/" + job.repo + "\" on Branch \"" + job.branch + "\"...");
+
     var options = {
         host: "api.github.com",
-        path: "/repos/" + author +"/" + repo + "/commits?per_page=1&sha=" + branch,
+        path: "/repos/" + job.author +"/" + job.repo + "/commits?per_page=1&sha=" + job.branch,
         headers: header
     }
 
@@ -69,10 +70,10 @@ function loadLatestCommit(author, repo, branch) {
                 var json = JSON.parse(body);
 
                 if (!json.documentation_url) {
-                    getLicense(author, repo, branch, json[0]);
+                    getLicense(job, json[0]);
                 }
                 else {
-                    console.log(author + "/" + repo + ": " + json.message);
+                    console.log(job.author + "/" + job.repo + ": " + json.message);
                 }
             });
         }
@@ -81,12 +82,13 @@ function loadLatestCommit(author, repo, branch) {
     });
 }
 
-function getLicense(author, repo, branch, commit) {
+function getLicense(job, commit) {
     var options = {
         host: "api.github.com",
-        path: "/repos/" + author +"/" + repo + "/license",
+        path: "/repos/" + job.author +"/" + job.repo + "/license",
         headers: header
     }
+
     https.get(options, function(response) {
         console.log(response.statusCode + " - " + response.statusMessage);
         if (response.statusCode == 200) {
@@ -114,7 +116,7 @@ function getLicense(author, repo, branch, commit) {
                     }
                 }
 
-                watchRepository(author, repo, branch, commit);
+                watchRepository(job, commit);
             });
         }
     }).on('error', function(err) {
@@ -122,36 +124,36 @@ function getLicense(author, repo, branch, commit) {
     });
 }
 
-function watchRepository(author, repo, branch, commit) {
-    if (!FileSystem.existsSync(author)) {
-        FileSystem.mkdirSync(author);
+function watchRepository(job, commit) {
+    if (!FileSystem.existsSync(job.author)) {
+        FileSystem.mkdirSync(job.author);
     }
-    if (!FileSystem.existsSync(author + "/" + repo)) {
-        FileSystem.mkdirSync(author + "/" + repo);
+    if (!FileSystem.existsSync(job.author + "/" + job.repo)) {
+        FileSystem.mkdirSync(job.author + "/" + job.repo);
     }
-    if (!FileSystem.existsSync(author + "/" + repo + "/" + branch)) {
-        FileSystem.mkdirSync(author + "/" + repo + "/" + branch);
+    if (!FileSystem.existsSync(job.author + "/" + job.repo + "/" + job.branch)) {
+        FileSystem.mkdirSync(job.author + "/" + job.repo + "/" + job.branch);
     }
-    if (!FileSystem.existsSync(author + "/" + repo + "/" + branch + "/files")) {
-        FileSystem.mkdirSync(author + "/" + repo + "/" + branch + "/files");
+    if (!FileSystem.existsSync(job.author + "/" + job.repo + "/" + job.branch + "/files")) {
+        FileSystem.mkdirSync(job.author + "/" + job.repo + "/" + job.branch + "/files");
     }
 
-    if (FileSystem.existsSync(author + "/" + repo + "/" + branch + "/builds.json")) {
-        FileSystem.readFile(author + "/" + repo + "/" + branch + "/builds.json", 'UTF-8', function(err, data) {
+    if (FileSystem.existsSync(job.author + "/" + job.repo + "/" + job.branch + "/builds.json")) {
+        FileSystem.readFile(job.author + "/" + job.repo + "/" + job.branch + "/builds.json", 'UTF-8', function(err, data) {
             if (err) {
                 console.log(err);
             }
             else {
-                compareBuilds(author, repo, branch, JSON.parse(data), commit);
+                compareBuilds(job, JSON.parse(data), commit);
             }
         });
     }
     else {
-        compareBuilds(author, repo, branch, {}, commit);
+        compareBuilds(job, {}, commit);
     }
 }
 
-function compareBuilds(author, repo, branch, builds, commit) {
+function compareBuilds(job, builds, commit) {
     var date = "";
 
     date += commit.commit.committer.date.split("T")[0].split("-")[2] + " ";
@@ -180,19 +182,20 @@ function compareBuilds(author, repo, branch, builds, commit) {
 
         builds[data.id] = data;
 
-        FileSystem.writeFile(author + "/" + repo + "/" + branch + "/builds.json", JSON.stringify(builds, null, 4), 'UTF-8');
+        FileSystem.writeFile(job.author + "/" + job.repo + "/" + job.branch + "/builds.json", JSON.stringify(builds, null, 4), 'UTF-8');
 
-        clone(author, repo, branch, commit.sha, builds, data);
-        generateHTML(author, repo, branch, builds);
+        job.id = data.id;
+        clone(job, commit.sha, builds);
+        generateHTML(job, builds);
     }
     else {
-        jobs--;
+        nextJob(job);
     }
 }
 
-function clone(author, repo, branch, commit, builds, data) {
-    console.log("Cloning Repository \"" + author + "/" + repo + "\"...");
-    var clone = child_process.spawn("git", ["clone", "https://github.com/" + author + "/" + repo + ".git", author + "/" + repo + "/" + branch + "/files", "-b", branch, "--single-branch"]);
+function clone(job, commit, builds) {
+    console.log("Cloning Repository \"" + job.author + "/" + job.repo + "\"...");
+    var clone = child_process.spawn("git", ["clone", "https://github.com/" + job.author + "/" + job.repo + ".git", job.author + "/" + job.repo + "/" + job.branch + "/files", "-b", job.branch, "--single-branch"]);
 
     clone.stderr.on('data', function(data) {
         console.log(" " + data);
@@ -203,16 +206,16 @@ function clone(author, repo, branch, commit, builds, data) {
     });
 
     clone.on('close', function(status) {
-        var reset = child_process.spawn("git", ["reset", "--hard", commit], {cwd: author + "/" + repo + "/" + branch + "/files"});
+        var reset = child_process.spawn("git", ["reset", "--hard", commit], {cwd: __dirname + "/" + job.author + "/" + job.repo + "/" + job.branch + "/files"});
 
         reset.on('close', function() {
-            pom(author, repo, branch, builds, data.id);
+            pom(job, builds);
         });
     });
 }
 
-function pom(author, repo, branch, builds, id) {
-    FileSystem.readFile(author + "/" + repo + "/" + branch + "/files/pom.xml", 'UTF-8', function(err, data) {
+function pom(job, builds) {
+    FileSystem.readFile(job.author + "/" + job.repo + "/" + job.branch + "/files/pom.xml", 'UTF-8', function(err, data) {
         if (!err) {
             data = data.replace(/\r?\n|\r/g, "");
             var build = data.match(/<build>.*<\/build>/)[0];
@@ -230,11 +233,11 @@ function pom(author, repo, branch, builds, id) {
                 else return "";
             }
 
-            data = data.replace(/<build>.*<\/build>/, "<build><finalName>" + repo + "-" + id + "</finalName>" + important + "</build>");
+            data = data.replace(/<build>.*<\/build>/, "<build><finalName>" + job.repo + "-" + job.id + "</finalName>" + important + "</build>");
 
-            FileSystem.writeFile(author + "/" + repo + "/" + branch + "/files/pom.xml", data, 'UTF-8', function(err) {
+            FileSystem.writeFile(job.author + "/" + job.repo + "/" + job.branch + "/files/pom.xml", data, 'UTF-8', function(err) {
                 if (!err) {
-                    compile(author, repo, branch, builds, id);
+                    compile(job, builds);
                 }
                 else {
                     console.log(err);
@@ -247,14 +250,14 @@ function pom(author, repo, branch, builds, id) {
     });
 }
 
-function compile(author, repo, branch, builds, id) {
-    console.log("Compiling Repository \"" + author + "/" + repo + "\"...");
-    var maven = child_process.spawn("mvn", ["package"], {cwd: __dirname + "/" + author + "/" + repo + "/" + branch + "/files", shell: true});
+function compile(job, builds) {
+    console.log("Compiling Repository \"" + job.author + "/" + job.repo + "\"...");
+    var maven = child_process.spawn("mvn", ["package"], {cwd: __dirname + "/" + job.author + "/" + job.repo + "/" + job.branch + "/files", shell: true});
 
     maven.stderr.on('data', function(data) {
         console.log(" " + data);
 
-        FileSystem.appendFile(author + "/" + repo + "/" + branch + "/" + repo + "-" + id + ".log", data + "\n", function(err) {
+        FileSystem.appendFile(job.author + "/" + job.repo + "/" + job.branch + "/" + job.repo + "-" + job.id + ".log", data, function(err) {
             if (err) {
                 console.log(err);
             }
@@ -264,7 +267,7 @@ function compile(author, repo, branch, builds, id) {
     maven.stdout.on('data', function(data) {
         console.log(" " + data);
 
-        FileSystem.appendFile(author + "/" + repo + "/" + branch + "/" + repo + "-" + id + ".log", data + "\n", function(err) {
+        FileSystem.appendFile(job.author + "/" + job.repo + "/" + job.branch + "/" + job.repo + "-" + job.id + ".log", data, function(err) {
             if (err) {
                 console.log(err);
             }
@@ -273,17 +276,17 @@ function compile(author, repo, branch, builds, id) {
 
     maven.on('close', function(status) {
         if (status == 0) {
-            builds[id].status = "SUCCESS";
-            builds.last_successful = id;
+            builds[job.id].status = "SUCCESS";
+            builds.last_successful = job.id;
 
-            FileSystem.writeFile(author + "/" + repo + "/" + branch + "/builds.json", JSON.stringify(builds, null, 4), 'UTF-8', function(err) {
+            FileSystem.writeFile(job.author + "/" + job.repo + "/" + job.branch + "/builds.json", JSON.stringify(builds, null, 4), 'UTF-8', function(err) {
                 if (!err) {
-                    FileSystem.rename(author + "/" + repo + "/" + branch + "/files/target/" + repo + "-" + id + ".jar", author + "/" + repo + "/" + branch + "/" + repo + "-" + id + ".jar", function(err) {
+                    FileSystem.rename(job.author + "/" + job.repo + "/" + job.branch + "/files/target/" + job.repo + "-" + job.id + ".jar", job.author + "/" + job.repo + "/" + job.branch + "/" + job.repo + "-" + job.id + ".jar", function(err) {
                         if (!err) {
-                            clearFolder(author + "/" + repo + "/" + branch + "/files", function(err) {
+                            clearFolder(job.author + "/" + job.repo + "/" + job.branch + "/files", function(err) {
                                 if (!err) {
                                     // FINISHED: SUCCESS
-                                    finishJob();
+                                    nextJob(job);
                                 }
                                 else {
                                     console.log(err);
@@ -301,24 +304,24 @@ function compile(author, repo, branch, builds, id) {
             });
         }
         else {
-            builds[id].status = "FAILURE";
-            FileSystem.writeFile(author + "/" + repo + "/" + branch + "/builds.json", JSON.stringify(builds, null, 4), 'UTF-8');
+            builds[job.id].status = "FAILURE";
+            FileSystem.writeFile(job.author + "/" + job.repo + "/" + job.branch + "/builds.json", JSON.stringify(builds, null, 4), 'UTF-8');
 
             // FINISHED: FAILURE
-            finishJob();
+            nextJob(job);
         }
     });
 }
 
-function generateHTML(author, repo, branch, builds) {
+function generateHTML(job, builds) {
     FileSystem.readFile("template.html", 'UTF-8', function(err, data) {
         if (!err) {
-            data = data.replace(/\${owner}/g, author);
-            data = data.replace(/\${repository}/g, repo);
-            data = data.replace(/\${branch}/g, branch);
+            data = data.replace(/\${owner}/g, job.author);
+            data = data.replace(/\${repository}/g, job.repo);
+            data = data.replace(/\${branch}/g, job.branch);
             data = data.replace(/\${builds}/g, builds.latest);
 
-            FileSystem.writeFile(author + "/" + repo + "/" + branch + "/index.html", data, 'UTF-8');
+            FileSystem.writeFile(job.author + "/" + job.repo + "/" + job.branch + "/index.html", data, 'UTF-8');
         }
         else {
             console.log(err);
@@ -387,11 +390,9 @@ function clearFolder(path, callback) {
     });
 }
 
-function finishJob() {
-    jobs--;
-
-    if (jobs === 0) {
-        var add = child_process.spawn("git", ["add", "*"]);
+function nextJob(job) {
+    if (job) {
+        var add = child_process.spawn("git", ["add", job.author + "/" + job.repo + "/" + job.branch + "/*"]);
 
         add.stderr.on('data', function(data) {
             console.log(" " + data);
@@ -402,7 +403,10 @@ function finishJob() {
         });
 
         add.on('close', function(status) {
-            var commit = child_process.spawn("git", ["commit", "-m", "Automatically Compiled"]);
+            var name = job.author + "/" + job.repo + ":" + job.branch;
+            if (job.id) name += " (" + job.id + ")";
+
+            var commit = child_process.spawn("git", ["commit", "-m", "Compiled: " + name]);
 
             commit.stderr.on('data', function(data) {
                 console.log(" " + data);
@@ -413,7 +417,7 @@ function finishJob() {
             });
 
             commit.on('close', function(status) {
-                var push = child_process.spawn("git", ["push"]);
+                /*var push = child_process.spawn("git", ["push"]);
 
                 push.stderr.on('data', function(data) {
                     console.log(" " + data);
@@ -422,7 +426,15 @@ function finishJob() {
                 push.stdout.on('data', function(data) {
                     console.log(" " + data);
                 });
+                */
             });
         });
+
+        var index = jobs.indexOf(job);
+        jobs.splice(index, 1);
+    }
+
+    if (jobs.length > 0) {
+        loadLatestCommit(jobs[0]);
     }
 }

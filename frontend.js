@@ -110,7 +110,7 @@ $(function() {
 
         var current_commit = $("#current_commit");
         current_commit.attr("href", "https://github.com/" + owner +"/" + repository + "/commit/" + builds[id].sha);
-        current_commit.text("#" + builds[id].sha.substr(0, 10));
+        current_commit.text("#" + builds[id].sha.substr(0, 5));
 
         $("#current_commit_avatar").attr("src", builds[id].avatar);
         $("#current_commit_committer").text(builds[id].author);
