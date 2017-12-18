@@ -208,6 +208,14 @@ function clone(job, commit, builds) {
     clone.on('close', function(status) {
         var reset = child_process.spawn("git", ["reset", "--hard", commit], {cwd: __dirname + "/" + job.author + "/" + job.repo + "/" + job.branch + "/files"});
 
+        reset.stderr.on('data', function(data) {
+            console.log(" " + data);
+        });
+
+        reset.stdout.on('data', function(data) {
+            console.log(" " + data);
+        });
+
         reset.on('close', function() {
             pom(job, builds);
         });
@@ -392,43 +400,44 @@ function clearFolder(path, callback) {
 
 function nextJob(job) {
     if (job) {
-        var add = child_process.spawn("git", ["add", job.author + "/" + job.repo + "/" + job.branch + "/*"]);
+        if (job.id) {
+            var add = child_process.spawn("git", ["add", job.author + "/" + job.repo + "/" + job.branch + "/*"]);
 
-        add.stderr.on('data', function(data) {
-            console.log(" " + data);
-        });
-
-        add.stdout.on('data', function(data) {
-            console.log(" " + data);
-        });
-
-        add.on('close', function(status) {
-            var name = job.author + "/" + job.repo + ":" + job.branch;
-            if (job.id) name += " (" + job.id + ")";
-
-            var commit = child_process.spawn("git", ["commit", "-m", "Compiled: " + name]);
-
-            commit.stderr.on('data', function(data) {
+            add.stderr.on('data', function(data) {
                 console.log(" " + data);
             });
 
-            commit.stdout.on('data', function(data) {
+            add.stdout.on('data', function(data) {
                 console.log(" " + data);
             });
 
-            commit.on('close', function(status) {
-                /*var push = child_process.spawn("git", ["push"]);
+            add.on('close', function(status) {
+                var name = job.author + "/" + job.repo + ":" + job.branch;
+                if (job.id) name += " (" + job.id + ")";
 
-                push.stderr.on('data', function(data) {
+                var commit = child_process.spawn("git", ["commit", "-m", "Compiled: " + name]);
+
+                commit.stderr.on('data', function(data) {
                     console.log(" " + data);
                 });
 
-                push.stdout.on('data', function(data) {
+                commit.stdout.on('data', function(data) {
                     console.log(" " + data);
                 });
-                */
+
+                commit.on('close', function(status) {
+                    var push = child_process.spawn("git", ["push"]);
+
+                    push.stderr.on('data', function(data) {
+                        console.log(" " + data);
+                    });
+
+                    push.stdout.on('data', function(data) {
+                        console.log(" " + data);
+                    });
+                });
             });
-        });
+        }
 
         var index = jobs.indexOf(job);
         jobs.splice(index, 1);
@@ -436,5 +445,8 @@ function nextJob(job) {
 
     if (jobs.length > 0) {
         loadLatestCommit(jobs[0]);
+    }
+    else {
+        console.log("-- FINISHED --");
     }
 }
