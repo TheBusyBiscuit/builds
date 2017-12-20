@@ -29,6 +29,21 @@
         },
         "status": "SUCCESS"
     },
-    "latest": 2,
-    "last_successful": 2
+    "3": {
+        "id": 3,
+        "sha": "5c6b8bd838f5df049cf2678f1c715457d906c2bc",
+        "date": "20 Dec 2017 (20:09:43)",
+        "timestamp": 20171220200943,
+        "message": "Merge pull request #541 from Meta-Win/master\n\nChanged getName to getID and some deprecation fix",
+        "author": "TheBusyBiscuit",
+        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
+        "license": {
+            "name": "GNU General Public License v3.0",
+            "id": "GPL-3.0",
+            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/Slimefun4/master/LICENSE"
+        },
+        "status": "SUCCESS"
+    },
+    "latest": 3,
+    "last_successful": 3
 }
