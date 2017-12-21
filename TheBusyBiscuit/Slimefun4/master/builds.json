@@ -59,6 +59,21 @@
         },
         "status": "SUCCESS"
     },
-    "latest": 4,
-    "last_successful": 4
+    "5": {
+        "id": 5,
+        "sha": "4f0aeed504a523049a7cfb3c41ae492118bc8e7b",
+        "date": "21 Dec 2017 (14:06:27)",
+        "timestamp": 20171221140627,
+        "message": "Merge pull request #544 from Poslovitch/settings-panel\n\nImproved Settings & Contributors panels",
+        "author": "TheBusyBiscuit",
+        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
+        "license": {
+            "name": "GNU General Public License v3.0",
+            "id": "GPL-3.0",
+            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/Slimefun4/master/LICENSE"
+        },
+        "status": "SUCCESS"
+    },
+    "latest": 5,
+    "last_successful": 5
 }
