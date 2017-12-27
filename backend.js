@@ -293,8 +293,7 @@ function compile(job, builds) {
                         if (!err) {
                             clearFolder(job.author + "/" + job.repo + "/" + job.branch + "/files", function(err) {
                                 if (!err) {
-                                    // FINISHED: SUCCESS
-                                    nextJob(job);
+                                    finishJob(job, true);
                                 }
                                 else {
                                     console.log(err);
@@ -312,11 +311,7 @@ function compile(job, builds) {
             });
         }
         else {
-            builds[job.id].status = "FAILURE";
-            FileSystem.writeFile(job.author + "/" + job.repo + "/" + job.branch + "/builds.json", JSON.stringify(builds, null, 4), 'UTF-8');
-
-            // FINISHED: FAILURE
-            nextJob(job);
+            finishJob(job, false);
         }
     });
 }
@@ -396,6 +391,14 @@ function clearFolder(path, callback) {
             });
         }
     });
+}
+
+function finishJob(job, status) {
+    if (!status) {
+        builds[job.id].status = "FAILURE";
+        FileSystem.writeFile(job.author + "/" + job.repo + "/" + job.branch + "/builds.json", JSON.stringify(builds, null, 4), 'UTF-8');
+    }
+    nextJob(job);
 }
 
 function nextJob(job) {
