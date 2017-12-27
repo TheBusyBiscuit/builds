@@ -32,7 +32,7 @@ startWatcher();
 function startWatcher() {
     stopwatch = Date.now();
     jobs = [];
-    
+
     console.log("Watching Repositories...");
 
     FileSystem.readFile('repos.json', 'UTF-8', function(err, data) {
@@ -321,6 +321,9 @@ function compile(job, builds) {
             });
         }
         else {
+            builds[job.id].status = "FAILURE";
+            FileSystem.writeFile(job.author + "/" + job.repo + "/" + job.branch + "/builds.json", JSON.stringify(builds, null, 4), 'UTF-8');
+
             finishJob(job, false);
         }
     });
@@ -404,10 +407,7 @@ function clearFolder(path, callback) {
 }
 
 function finishJob(job, status) {
-    if (!status) {
-        builds[job.id].status = "FAILURE";
-        FileSystem.writeFile(job.author + "/" + job.repo + "/" + job.branch + "/builds.json", JSON.stringify(builds, null, 4), 'UTF-8');
-    }
+    // TODO: Notifications?
     nextJob(job);
 }
 
