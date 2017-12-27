@@ -412,6 +412,23 @@ function finishJob(job, status) {
 }
 
 function nextJob(job) {
+    function continueWorkflow() {
+        if (jobs.length > 0) {
+            loadLatestCommit(jobs[0]);
+        }
+        else {
+            console.log("-- FINISHED --");
+            var delta = (10 * 60 * 1000) - (Date.now() - stopwatch);
+
+            if (delta < 0) delta = 0;
+
+            console.log("\n\n");
+            console.log("Waiting " + (delta / 1000) + "s...");
+            console.log("\n\n");
+            setTimeout(startWatcher, delta);
+        }
+    }
+
     if (job) {
         if (job.id) {
             var add = child_process.spawn("git", ["add", job.author + "/" + job.repo + "/" + job.branch + "/*"]);
@@ -448,24 +465,22 @@ function nextJob(job) {
                     push.stdout.on('data', function(data) {
                         console.log(" " + data);
                     });
+
+                    push.on('close', function(status) {
+                        var index = jobs.indexOf(job);
+                        jobs.splice(index, 1);
+                        continueWorkflow();
+                    });
                 });
             });
         }
-
-        var index = jobs.indexOf(job);
-        jobs.splice(index, 1);
-    }
-
-    if (jobs.length > 0) {
-        loadLatestCommit(jobs[0]);
+        else {
+            var index = jobs.indexOf(job);
+            jobs.splice(index, 1);
+            continueWorkflow();
+        }
     }
     else {
-        console.log("-- FINISHED --");
-        var delta = (10 * 60 * 1000) - (Date.now() - stopwatch);
-
-        if (delta < 0) delta = 0;
-
-        console.log("\n\n");
-        setTimeout(startWatcher, delta);
+        continueWorkflow();
     }
 }
