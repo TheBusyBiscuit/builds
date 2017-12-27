@@ -26,6 +26,8 @@ console.log = function(msg) {
     });
 }
 
+startWatcher();
+
 function startWatcher() {
     stopwatch = Date.now();
 
