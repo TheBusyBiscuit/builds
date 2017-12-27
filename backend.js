@@ -11,7 +11,9 @@ const header = {
 }
 var stopwatch;
 
-FileSystem.unlinkSync("app.log");
+if (FileSystem.existsSync("app.log")) {
+    FileSystem.unlinkSync("app.log");
+}
 
 var log = console.log;
 
