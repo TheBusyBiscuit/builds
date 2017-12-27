@@ -105,7 +105,7 @@ tr:nth-child(odd) {
 }
 .box {
     background-color: rgb(253, 253, 253);
-	box-shadow: 0 3px 6px rgba(0,0,0,0.2), 0 3px 6px rgba(0,0,0,0.35);
+    box-shadow: 0 3px 6px rgba(0,0,0,0.2), 0 3px 6px rgba(0,0,0,0.35);
 }
 .repo {
     font-size: 110%;
