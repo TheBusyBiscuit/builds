@@ -10,6 +10,7 @@ const header = {
     "Time-Zone": "UTC"
 }
 var stopwatch;
+var jobs = [];
 
 if (FileSystem.existsSync("app.log")) {
     FileSystem.unlinkSync("app.log");
@@ -30,9 +31,9 @@ startWatcher();
 
 function startWatcher() {
     stopwatch = Date.now();
-
+    jobs = [];
+    
     console.log("Watching Repositories...");
-    var jobs = [];
 
     FileSystem.readFile('repos.json', 'UTF-8', function(err, data) {
         if (!err) {
