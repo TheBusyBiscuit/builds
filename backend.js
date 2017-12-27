@@ -20,7 +20,7 @@ var log = console.log;
 
 console.log = function(msg) {
     log(msg);
-    FileSystem.appendFile("app.log", msg + "\n", function(err) {
+    FileSystem.appendFile("app.log", msg + "\n", "UTF-8", function(err) {
         if (err) {
             log(err);
         }
@@ -275,7 +275,7 @@ function compile(job, builds) {
     maven.stderr.on('data', function(data) {
         console.log(" " + data);
 
-        FileSystem.appendFile(job.author + "/" + job.repo + "/" + job.branch + "/" + job.repo + "-" + job.id + ".log", data, function(err) {
+        FileSystem.appendFile(job.author + "/" + job.repo + "/" + job.branch + "/" + job.repo + "-" + job.id + ".log", data, "UTF-8", function(err) {
             if (err) {
                 console.log(err);
             }
@@ -285,7 +285,7 @@ function compile(job, builds) {
     maven.stdout.on('data', function(data) {
         console.log(" " + data);
 
-        FileSystem.appendFile(job.author + "/" + job.repo + "/" + job.branch + "/" + job.repo + "-" + job.id + ".log", data, function(err) {
+        FileSystem.appendFile(job.author + "/" + job.repo + "/" + job.branch + "/" + job.repo + "-" + job.id + ".log", data, "UTF-8", function(err) {
             if (err) {
                 console.log(err);
             }
