@@ -89,6 +89,21 @@
         },
         "status": "SUCCESS"
     },
-    "latest": 6,
-    "last_successful": 6
+    "7": {
+        "id": 7,
+        "sha": "0c76e1978f257fe5dd5da91603af905a9726f2be",
+        "date": "27 Dec 2017 (12:55:14)",
+        "timestamp": 20171227125514,
+        "message": "Merge pull request #551 from Poslovitch/security\n\nExplicitly disallow registering two SFItems with same ID",
+        "author": "TheBusyBiscuit",
+        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
+        "license": {
+            "name": "GNU General Public License v3.0",
+            "id": "GPL-3.0",
+            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/Slimefun4/master/LICENSE"
+        },
+        "status": "SUCCESS"
+    },
+    "latest": 7,
+    "last_successful": 7
 }
