@@ -9,6 +9,7 @@ const header = {
     "User-Agent": "The Busy Biscuit's Repository Compiler",
     "Time-Zone": "UTC"
 }
+var stopwatch;
 
 FileSystem.unlinkSync("app.log");
 
@@ -23,30 +24,34 @@ console.log = function(msg) {
     });
 }
 
-console.log("Watching Repositories...");
-var jobs = [];
+function startWatcher() {
+    stopwatch = Date.now();
 
-FileSystem.readFile('repos.json', 'UTF-8', function(err, data) {
-    if (!err) {
-        var repos = JSON.parse(data);
+    console.log("Watching Repositories...");
+    var jobs = [];
 
-        for (var author in repos) {
-            console.log(" Watching Author \"" + author + "\"...");
-            for (var i in repos[author]) {
-                var repo = repos[author][i];
-                var repository = repo.split(':')[0];
-                var branch = repo.split(':')[1];
+    FileSystem.readFile('repos.json', 'UTF-8', function(err, data) {
+        if (!err) {
+            var repos = JSON.parse(data);
 
-                jobs.push({"author": author, "repo": repository, "branch": branch});
+            for (var author in repos) {
+                console.log(" Watching Author \"" + author + "\"...");
+                for (var i in repos[author]) {
+                    var repo = repos[author][i];
+                    var repository = repo.split(':')[0];
+                    var branch = repo.split(':')[1];
+
+                    jobs.push({"author": author, "repo": repository, "branch": branch});
+                }
             }
-        }
 
-        nextJob();
-    }
-    else {
-        console.log(error);
-    }
-});
+            nextJob();
+        }
+        else {
+            console.log(error);
+        }
+    });
+}
 
 function loadLatestCommit(job) {
     console.log("  Watching Repository \"" + job.author + "/" + job.repo + "\" on Branch \"" + job.branch + "\"...");
@@ -451,5 +456,11 @@ function nextJob(job) {
     }
     else {
         console.log("-- FINISHED --");
+        var delta = (10 * 60 * 1000) - (Date.now() - stopwatch);
+
+        if (delta < 0) delta = 0;
+
+        console.log("\n\n");
+        setTimeout(startWatcher, delta);
     }
 }
