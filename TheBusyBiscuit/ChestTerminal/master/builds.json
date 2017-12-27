@@ -14,6 +14,21 @@
         },
         "status": "SUCCESS"
     },
-    "latest": 1,
-    "last_successful": 1
+    "2": {
+        "id": 2,
+        "sha": "00111cb748101b52749dff9923e4b346ede63b27",
+        "date": "23 Dec 2017 (19:14:52)",
+        "timestamp": 20171223191452,
+        "message": "Update README.md",
+        "author": "TheBusyBiscuit",
+        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
+        "license": {
+            "name": "MIT License",
+            "id": "MIT",
+            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/ChestTerminal/master/LICENSE"
+        },
+        "status": "SUCCESS"
+    },
+    "latest": 2,
+    "last_successful": 2
 }
