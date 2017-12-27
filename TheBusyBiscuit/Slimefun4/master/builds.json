@@ -74,6 +74,21 @@
         },
         "status": "SUCCESS"
     },
-    "latest": 5,
-    "last_successful": 5
+    "6": {
+        "id": 6,
+        "sha": "04bdac84625d88d2c8eb14bcc370b9d8be306b81",
+        "date": "24 Dec 2017 (09:03:22)",
+        "timestamp": 20171224090322,
+        "message": "Update CONTRIBUTING.md",
+        "author": "TheBusyBiscuit",
+        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
+        "license": {
+            "name": "GNU General Public License v3.0",
+            "id": "GPL-3.0",
+            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/Slimefun4/master/LICENSE"
+        },
+        "status": "SUCCESS"
+    },
+    "latest": 6,
+    "last_successful": 6
 }
