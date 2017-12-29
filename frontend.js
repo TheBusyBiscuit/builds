@@ -88,19 +88,19 @@ $(function() {
         $("#current_name").text(repository + " - #" + id);
 
         if (builds[id].status === "SUCCESS") {
-            $(".download_section").css("display", "");
+            $("#download_section").css("display", "");
 
             var download_jar = $("#current_download_jar");
             download_jar.text(repository + "-" + id + ".jar");
             download_jar.attr("href", repository + "-" + id + ".jar");
-
-            var download_log = $("#current_download_log");
-            download_log.text(repository + "-" + id + ".log");
-            download_log.attr("href", repository + "-" + id + ".log");
         }
         else {
-            $(".download_section").css("display", "none");
+            $("#download_section").css("display", "none");
         }
+
+        var download_log = $("#current_download_log");
+        download_log.text(repository + "-" + id + ".log");
+        download_log.attr("href", repository + "-" + id + ".log");
 
         $("#current_tree").attr("href", "https://github.com/" + owner + "/" + repository + "/tree/" + builds[id].sha);
 
