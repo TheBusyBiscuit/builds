@@ -324,7 +324,14 @@ function compile(job, builds) {
             builds[job.id].status = "FAILURE";
             FileSystem.writeFile(job.author + "/" + job.repo + "/" + job.branch + "/builds.json", JSON.stringify(builds, null, 4), 'UTF-8');
 
-            finishJob(job, false);
+            clearFolder(job.author + "/" + job.repo + "/" + job.branch + "/files", function(err) {
+                if (!err) {
+                    finishJob(job, false);
+                }
+                else {
+                    console.log(err);
+                }
+            });
         }
     });
 }
