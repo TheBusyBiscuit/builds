@@ -119,6 +119,21 @@
         },
         "status": "FAILURE"
     },
-    "latest": 8,
+    "9": {
+        "id": 9,
+        "sha": "f5d9170961b89a6815aba34cb32dbaa5240bead8",
+        "date": "29 Dec 2017 (11:01:22)",
+        "timestamp": 20171229110122,
+        "message": "Fixed Import",
+        "author": "TheBusyBiscuit",
+        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
+        "license": {
+            "name": "GNU General Public License v3.0",
+            "id": "GPL-3.0",
+            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/Slimefun4/master/LICENSE"
+        },
+        "status": "FAILURE"
+    },
+    "latest": 9,
     "last_successful": 7
 }
