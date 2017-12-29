@@ -104,6 +104,21 @@
         },
         "status": "SUCCESS"
     },
-    "latest": 7,
+    "8": {
+        "id": 8,
+        "sha": "691c8740d5d9f89b4ed242cc33df97b6627ad173",
+        "date": "29 Dec 2017 (10:55:59)",
+        "timestamp": 20171229105559,
+        "message": "Merge pull request #549 from Redemption198/master\n\nFixed Pedestal not dropping item when is broken or explodes",
+        "author": "TheBusyBiscuit",
+        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
+        "license": {
+            "name": "GNU General Public License v3.0",
+            "id": "GPL-3.0",
+            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/Slimefun4/master/LICENSE"
+        },
+        "status": "FAILURE"
+    },
+    "latest": 8,
     "last_successful": 7
 }
