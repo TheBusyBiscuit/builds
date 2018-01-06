@@ -22,7 +22,7 @@ $(function() {
         }
 
         // Load currently selected Build
-        loadBuild(builds, current);
+        loadBuild(owner, repository, builds, current);
 
         // "Last Successful Build" Link
         var link_last_successful = $("#link_last_successful_build");
@@ -40,7 +40,7 @@ $(function() {
 
         // Add Click Events
         $(".trigger").click(function() {
-            loadBuild(builds, parseInt($(this).attr("href").substr(1)));
+            loadBuild(owner, repository, builds, parseInt($(this).attr("href").substr(1)));
         })
     });
 
@@ -68,7 +68,7 @@ $(function() {
         return html;
     }
 
-    function loadBuild(builds, id) {
+    function loadBuild(owner, repository, builds, id) {
         var stroke = "rgb(110, 110, 110)";
         var color = "rgb(160, 160, 160)";
 
@@ -122,6 +122,14 @@ $(function() {
         $("#current_commit_avatar").attr("src", builds[id].avatar);
         $("#current_commit_committer").text(builds[id].author);
         $("#current_commit_date").text(builds[id].date);
-        $("#current_commit_message").text("\"" + builds[id].message + "\"");
+
+        var msg = "\"" + builds[id].message + "\"";
+        var match = msg.match(/#[0-9]+/g);
+
+        for (var i in match) {
+            msg.replace(match[i], "<a class=\"link_info\" href=https://github.com/" + owner + "/" + repository + "/issues/" + match[i].replace("#", "") + ">" + match[i] + "</a>");
+        }
+
+        $("#current_commit_message").text(msg);
     }
 });
