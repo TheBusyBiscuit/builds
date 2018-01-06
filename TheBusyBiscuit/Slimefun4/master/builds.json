@@ -179,6 +179,21 @@
         },
         "status": "SUCCESS"
     },
-    "latest": 12,
-    "last_successful": 12
+    "13": {
+        "id": 13,
+        "sha": "9a948b705a73b9c048b2318a9db09f7b08403f28",
+        "date": "06 Jan 2018 (11:53:07)",
+        "timestamp": 20180106115307,
+        "message": "Merge pull request #560 from Poslovitch/preparing-new-guide-layout\n\nPreparing new guide layout",
+        "author": "TheBusyBiscuit",
+        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
+        "license": {
+            "name": "GNU General Public License v3.0",
+            "id": "GPL-3.0",
+            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/Slimefun4/master/LICENSE"
+        },
+        "status": "SUCCESS"
+    },
+    "latest": 13,
+    "last_successful": 13
 }
