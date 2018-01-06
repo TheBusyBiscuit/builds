@@ -127,7 +127,7 @@ $(function() {
         var match = msg.match(/#[0-9]+/g);
 
         for (var i in match) {
-            msg.replace(match[i], "<a class=\"link_info\" href=https://github.com/" + owner + "/" + repository + "/issues/" + match[i].replace("#", "") + ">" + match[i] + "</a>");
+            msg = msg.replace(match[i], "<a class=\"link_info\" href=https://github.com/" + owner + "/" + repository + "/issues/" + match[i].replace("#", "") + ">" + match[i] + "</a>");
         }
 
         $("#current_commit_message").text(msg);
