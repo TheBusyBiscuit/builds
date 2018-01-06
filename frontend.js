@@ -125,8 +125,8 @@ $(function() {
 
         var msg = "\"" + builds[id].message + "\"";
         // Prevent XSS
-        msg = msg.replace(/</g, "&#60;")
-        msg = msg.replace(/>/g, "&#62;")
+        msg = msg.replace(/</g, "")
+        msg = msg.replace(/>/g, "")
 
         var match = msg.match(/#[0-9]+/g);
 
