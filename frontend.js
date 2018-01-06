@@ -124,12 +124,16 @@ $(function() {
         $("#current_commit_date").text(builds[id].date);
 
         var msg = "\"" + builds[id].message + "\"";
+        // Prevent XSS
+        msg = msg.replace(/</g, "&#60;")
+        msg = msg.replace(/>/g, "&#62;")
+
         var match = msg.match(/#[0-9]+/g);
 
         for (var i in match) {
             msg = msg.replace(match[i], "<a class=\"link_info\" href=https://github.com/" + owner + "/" + repository + "/issues/" + match[i].replace("#", "") + ">" + match[i] + "</a>");
         }
 
-        $("#current_commit_message").text(msg);
+        $("#current_commit_message").html(msg);
     }
 });
