@@ -149,6 +149,21 @@
         },
         "status": "SUCCESS"
     },
-    "latest": 10,
-    "last_successful": 10
+    "11": {
+        "id": 11,
+        "sha": "2782fa6064371c761a0702d83bc127301a566a41",
+        "date": "06 Jan 2018 (10:31:49)",
+        "timestamp": 20180106103149,
+        "message": "Fixed config.yml being empty",
+        "author": "TheBusyBiscuit",
+        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
+        "license": {
+            "name": "GNU General Public License v3.0",
+            "id": "GPL-3.0",
+            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/Slimefun4/master/LICENSE"
+        },
+        "status": "SUCCESS"
+    },
+    "latest": 11,
+    "last_successful": 11
 }
