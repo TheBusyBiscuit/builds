@@ -14,6 +14,21 @@
         },
         "status": "SUCCESS"
     },
-    "latest": 1,
-    "last_successful": 1
+    "2": {
+        "id": 2,
+        "sha": "d4799034b310553a92e6a9ec5680915e6f0a3294",
+        "date": "06 Jan 2018 (10:32:19)",
+        "timestamp": 20180106103219,
+        "message": "Fixed config.yml being empty",
+        "author": "TheBusyBiscuit",
+        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
+        "license": {
+            "name": "GNU General Public License v3.0",
+            "id": "GPL-3.0",
+            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/CS-CoreLib/master/LICENSE"
+        },
+        "status": "SUCCESS"
+    },
+    "latest": 2,
+    "last_successful": 2
 }
