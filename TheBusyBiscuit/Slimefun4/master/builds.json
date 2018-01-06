@@ -164,6 +164,21 @@
         },
         "status": "SUCCESS"
     },
-    "latest": 11,
-    "last_successful": 11
+    "12": {
+        "id": 12,
+        "sha": "4f9c36c8a23a479bb66905fd66a92d88c4f320a5",
+        "date": "06 Jan 2018 (11:49:49)",
+        "timestamp": 20180106114949,
+        "message": "Merge pull request #557 from StarWishsama/master\n\ncorrect word in Files.java",
+        "author": "TheBusyBiscuit",
+        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
+        "license": {
+            "name": "GNU General Public License v3.0",
+            "id": "GPL-3.0",
+            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/Slimefun4/master/LICENSE"
+        },
+        "status": "SUCCESS"
+    },
+    "latest": 12,
+    "last_successful": 12
 }
