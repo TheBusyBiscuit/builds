@@ -242,6 +242,22 @@
         "candidate": "DEVELOPMENT",
         "status": "SUCCESS"
     },
-    "latest": 16,
-    "last_successful": 16
+    "17": {
+        "id": 17,
+        "sha": "0a6f54ec8daf1794163f68b0035a6777777b1829",
+        "date": "07 Jan 2018 (19:48:12)",
+        "timestamp": 20180107194812,
+        "message": "Merge pull request #569 from Poslovitch/documentation\n\nDocumentation fixes and improvements",
+        "author": "TheBusyBiscuit",
+        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
+        "license": {
+            "name": "GNU General Public License v3.0",
+            "id": "GPL-3.0",
+            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/Slimefun4/master/LICENSE"
+        },
+        "candidate": "DEVELOPMENT",
+        "status": "SUCCESS"
+    },
+    "latest": 17,
+    "last_successful": 17
 }
