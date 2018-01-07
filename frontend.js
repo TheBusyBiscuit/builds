@@ -57,7 +57,7 @@ $(function() {
             color = "rgb(255, 20, 20)";
         }
 
-        var html = "<div class=\"build\" id=\"" + id + "\">";
+        var html = "<div class=\"build\" id=\"build_" + id + "\">";
         html += "<svg class=\"build_child build_state\">";
         html += "<circle cx=\"12\" cy=\"29\" r=\"11\" stroke=\"" + stroke + "\" stroke-width=\"2\" fill=\"" + color + "\"/></svg>";
         html += "<a class=\"trigger build_child link_build\" href=\"#" + id + "\">#" + id + "</a>";
