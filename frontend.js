@@ -67,7 +67,7 @@ $(function() {
         if (builds[id].candidate === "RELEASE") html += " release";
         else html += " dev";
 
-        html += ""\" id=\"build_" + id + "\">";
+        html += "\" id=\"build_" + id + "\">";
         html += "<svg class=\"build_child build_state\">";
         html += "<circle cx=\"12\" cy=\"29\" r=\"11\" stroke=\"" + stroke + "\" stroke-width=\"2\" fill=\"" + color + "\"/></svg>";
         html += "<a class=\"trigger build_child link_build\" href=\"#" + id + "\">" + name + "</a>";
