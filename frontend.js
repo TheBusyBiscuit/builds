@@ -47,6 +47,7 @@ $(function() {
     function build(builds, id) {
         var stroke = "rgb(110, 110, 110)";
         var color = "rgb(160, 160, 160)";
+        var name = "#" + id;
 
         if (builds[id].status === "SUCCESS") {
             stroke = "rgb(60, 100, 60)";
@@ -57,10 +58,19 @@ $(function() {
             color = "rgb(255, 20, 20)";
         }
 
-        var html = "<div class=\"build\" id=\"build_" + id + "\">";
+        if (builds[id].candidate === "RELEASE") {
+            name = builds[id].tag;
+        }
+
+        var html = "<div class=\"build";
+
+        if (builds[id].candidate === "RELEASE") html += " release";
+        else html += " dev";
+
+        html += ""\" id=\"build_" + id + "\">";
         html += "<svg class=\"build_child build_state\">";
         html += "<circle cx=\"12\" cy=\"29\" r=\"11\" stroke=\"" + stroke + "\" stroke-width=\"2\" fill=\"" + color + "\"/></svg>";
-        html += "<a class=\"trigger build_child link_build\" href=\"#" + id + "\">#" + id + "</a>";
+        html += "<a class=\"trigger build_child link_build\" href=\"#" + id + "\">" + name + "</a>";
         html += "<a class=\"trigger build_child link_date\" href=\"#" + id + "\">" + builds[id].date + "</a>";
         html += "<a class=\"build_child link_commit\" href=https://github.com/" + owner + "/" + repository + "/commit/" + builds[id].sha + ">#" + builds[id].sha.substr(0, 5) + "</a>";
         html += "</div>";

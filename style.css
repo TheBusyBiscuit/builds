@@ -171,11 +171,17 @@ tr:nth-child(odd) {
     margin-right: 2px;
     text-align: center;
 }
-.build:nth-child(even) {
+.dev:nth-child(even) {
     background-color: rgb(231, 231, 231);
 }
-.build:nth-child(odd) {
+.dev:nth-child(odd) {
     background-color: rgb(236, 236, 236);
+}
+.release:nth-child(even) {
+    background-color: rgb(210, 255, 210);
+}
+.release:nth-child(odd) {
+    background-color: rgb(218, 255, 218);
 }
 .build {
     display: flex;

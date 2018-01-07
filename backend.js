@@ -68,7 +68,7 @@ function loadLatestCommit(job) {
     }
 
     https.get(options, function(response) {
-        console.log(response.statusCode + " - " + response.statusMessage);
+        console.log("COMMITS: " + response.statusCode + " - " + response.statusMessage);
         if (response.statusCode == 200) {
             var body = '';
 
@@ -100,7 +100,7 @@ function getLicense(job, commit) {
     }
 
     https.get(options, function(response) {
-        console.log(response.statusCode + " - " + response.statusMessage);
+        console.log("LICENSE: " + response.statusCode + " - " + response.statusMessage);
         if (response.statusCode == 200) {
             var body = '';
 
@@ -126,6 +126,45 @@ function getLicense(job, commit) {
                     }
                 }
 
+                getTags(job, commit);
+            });
+        }
+    }).on('error', function(err) {
+        console.log(err);
+    });
+}
+
+function getTags(job, commit) {
+    var options = {
+        host: "api.github.com",
+        path: "/repos/" + job.author +"/" + job.repo + "/tags",
+        headers: header
+    }
+
+    https.get(options, function(response) {
+        console.log("TAGS: " + response.statusCode + " - " + response.statusMessage);
+        if (response.statusCode == 200) {
+            var body = '';
+
+            response.on('data', function(data) {
+                body += data;
+            });
+
+            response.on('end', function() {
+                var json = JSON.parse(body);
+
+                if (!json.documentation_url) {
+                    for (var i in json) {
+                        if (json[i].commit.sha === commit.sha) {
+                            commit.candidate = "RELEASE";
+                            commit.tag = json[i].name;
+                            watchRepository(job, commit);
+                            return;
+                        }
+                    }
+                }
+
+                commit.candidate = "DEVELOPMENT";
                 watchRepository(job, commit);
             });
         }
@@ -180,6 +219,8 @@ function compareBuilds(job, builds, commit) {
         author: commit.author.login,
         avatar: commit.author.avatar_url,
         license: commit.license,
+        candidate: commit.candidate,
+        tag: commit.tag,
         status: "PENDING"
     }
 
