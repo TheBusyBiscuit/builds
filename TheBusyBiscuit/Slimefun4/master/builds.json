@@ -226,6 +226,22 @@
         "tag": "v4.1.13",
         "status": "SUCCESS"
     },
-    "latest": 15,
-    "last_successful": 15
+    "16": {
+        "id": 16,
+        "sha": "1d0660db535cbefc87ec1d5dd5863c450401ed3b",
+        "date": "07 Jan 2018 (19:29:14)",
+        "timestamp": 20180107192914,
+        "message": "Merge pull request #570 from Redemption198/master\n\nFixed Android Miner not breaking Slimefun blocks correctly",
+        "author": "TheBusyBiscuit",
+        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
+        "license": {
+            "name": "GNU General Public License v3.0",
+            "id": "GPL-3.0",
+            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/Slimefun4/master/LICENSE"
+        },
+        "candidate": "DEVELOPMENT",
+        "status": "SUCCESS"
+    },
+    "latest": 16,
+    "last_successful": 16
 }
