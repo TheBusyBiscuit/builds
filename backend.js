@@ -455,8 +455,22 @@ function clearFolder(path, callback) {
 }
 
 function finishJob(job, status) {
-    // TODO: Notifications?
-    nextJob(job);
+    generateBadge(job, status);
+}
+
+function generateBadge(job, status) {
+    FileSystem.readFile("badge.svg", 'UTF-8', function(err, data) {
+        if (!err) {
+            data = data.replace(/\${status}/g, status ? "SUCCESS": "FAILURE");
+            data = data.replace(/\${color}/g, status ? "rgb(30, 220, 30)": "rgb(220, 30, 30)");
+
+            FileSystem.writeFile(job.author + "/" + job.repo + "/" + job.branch + "/badge.svg", data, 'UTF-8');
+            nextJob(job);
+        }
+        else {
+            console.log(err);
+        }
+    });
 }
 
 function nextJob(job) {

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="142" height="32">
+  <g>
+    <rect width="56" height="32" fill="#5F5F5F"/>
+    <rect x="56" width="86" height="32" fill="${color}"/>
+  </g>
+  
+  <g fill="#fff" text-anchor="middle" font-family="DejaVu Sans,Verdana,sans-serif" font-size="106">
+    <text x="300" y="192" transform="scale(0.1)" textLength="360" lengthAdjust="spacing">BUILD</text>
+    <text x="990" y="192" transform="scale(0.1)" textLength="660" lengthAdjust="spacing" font-weight="bold">${status}</text>
+  </g>
+</svg>
