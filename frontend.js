@@ -95,7 +95,6 @@ $(function() {
 
         $("#current_icon").html(current_icon);
         $("#current_status").text(builds[id].status);
-        $("#current_name").text(repository + " - #" + id);
 
         if (builds[id].status === "SUCCESS") {
             $("#download_section").css("display", "");
@@ -106,6 +105,19 @@ $(function() {
         }
         else {
             $("#download_section").css("display", "none");
+        }
+
+        if (builds[id].candidate === "RELEASE") {
+            $("#current_name").text(repository + " - " + builds[id].tag);
+            $("#tag_section").css("display", "");
+
+            var current_tag = $("#current_tag");
+            current_tag.attr("href", "https://github.com/" + owner +"/" + repository + "/releases/tag/" + builds[id].tag);
+            current_tag.text(builds[id].tag);
+        }
+        else {
+            $("#current_name").text(repository + " - #" + id);
+            $("#tag_section").css("display", "none");
         }
 
         var download_log = $("#current_download_log");
