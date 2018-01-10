@@ -24,6 +24,9 @@ svg {
 .badge_header {
     margin-bottom: 6px;
 }
+.badge {
+    padding-top: 6px;
+}
 .badge_url {
     height: 18px;
     width: 80%;
