@@ -14,6 +14,20 @@ svg {
     min-width: 30px;
     width: 30px;
 }
+.badge_box {
+    background-color: rgb(247, 247, 247);
+    box-shadow: 0 3px 6px rgba(0,0,0,0.2), 0 3px 6px rgba(0,0,0,0.35);
+    margin: auto;
+    text-align: center;
+    width: 95%;
+}
+.badge_header {
+    margin-bottom: 6px;
+}
+.badge_url {
+    height: 18px;
+    width: 80%;
+}
 .current_icon {
     height: 60px;
     min-height: 60px;
@@ -39,6 +53,7 @@ svg {
 }
 .current_body {
     display: block;
+    margin-bottom: 40px;
     width: 100%;
 }
 .current_info {

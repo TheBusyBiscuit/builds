@@ -4,6 +4,9 @@ $(function() {
     var repository = body.attr("repository");
     var branch = body.attr("branch");
 
+    createBadge(owner, repository, branch, "markdown");
+    createBadge(owner, repository, branch, "html");
+
     $.getJSON("https://thebusybiscuit.github.io/builds/" + owner + "/" + repository + "/" + branch + "/builds.json", function(builds) {
         var last_successful = builds.last_successful;
 
@@ -159,3 +162,20 @@ $(function() {
         $("#current_commit_message").html(msg);
     }
 });
+
+function createBadge(owner, repository, branch, language) {
+    var url = "";
+
+    if (language === "markdown") {
+        url = "[![Build Status](https://thebusybiscuit.github.io/builds/" + owner + "/" + repository + "/" + branch + "/badge.svg)](https://thebusybiscuit.github.io/builds/" + owner + "/" + repository + "/" + branch + ")"
+    }
+    else if (language === "html") {
+        url = "<a href=\"https://thebusybiscuit.github.io/builds/" + owner + "/" + repository + "/" + branch + "\"><img src=\"https://thebusybiscuit.github.io/builds/" + owner + "/" + repository + "/" + branch + "/badge.svg\" alt=\"Build Status\"/></a>";
+    }
+
+    $("#badge_" + language).attr("value", url);
+    $("#copy_" + language).click(function() {
+        $("#badge_" + language).select();
+        document.execCommand("Copy");
+    });
+}
