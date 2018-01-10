@@ -272,6 +272,22 @@
         "candidate": "DEVELOPMENT",
         "status": "SUCCESS"
     },
-    "latest": 17,
-    "last_successful": 17
+    "18": {
+        "id": 18,
+        "sha": "7fefb0ea153037fbe8e6cc4439d6d6c2c9869275",
+        "date": "10 Jan 2018 (11:30:58)",
+        "timestamp": 20180110113058,
+        "message": "Merge pull request #573 from AtomicScience/master\n\nFixed Cooler rejecting Juices",
+        "author": "TheBusyBiscuit",
+        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
+        "license": {
+            "name": "GNU General Public License v3.0",
+            "id": "GPL-3.0",
+            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/Slimefun4/master/LICENSE"
+        },
+        "candidate": "DEVELOPMENT",
+        "status": "SUCCESS"
+    },
+    "latest": 18,
+    "last_successful": 18
 }
