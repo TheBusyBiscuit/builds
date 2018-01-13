@@ -44,7 +44,15 @@ $(function() {
         // Add Click Events
         $(".trigger").click(function() {
             loadBuild(owner, repository, builds, parseInt($(this).attr("href").substr(1)));
-        })
+        });
+    });
+
+    $("#badge_click").click(function() {
+        $(".overlay").css("display", "");
+    });
+
+    $("#close_badge").click(function() {
+        $(".overlay").css("display", "none");
     });
 
     function build(builds, id) {

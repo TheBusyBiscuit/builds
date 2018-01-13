@@ -14,18 +14,36 @@ svg {
     min-width: 30px;
     width: 30px;
 }
+.overlay {
+    background-color: rgba(30, 30, 30, 0.9);
+    height: 100%;
+    margin-top: -10px;
+    position: fixed;
+    width: 100%;
+    z-index: 8;
+}
+.close_badge_button {
+    margin-top: 4px;
+    position: absolute;
+    right: 10px;
+}
 .badge_box {
     background-color: rgb(247, 247, 247);
+    border: 2px rgb(200, 200, 200) solid;
     box-shadow: 0 3px 6px rgba(0,0,0,0.2), 0 3px 6px rgba(0,0,0,0.35);
+    left: 5%;
     margin: auto;
+    position: fixed;
     text-align: center;
-    width: 95%;
+    top: 40%;
+    width: 90%;
+    z-index: 10;
+}
+.badge_table:hover {
+    cursor: pointer;
 }
 .badge_header {
     margin-bottom: 6px;
-}
-.badge {
-    padding-top: 6px;
 }
 .badge_url {
     height: 18px;
