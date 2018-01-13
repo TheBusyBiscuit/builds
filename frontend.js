@@ -33,6 +33,8 @@ $(function() {
         link_last_successful.text("#" + last_successful);
         link_last_successful.attr("href", "#" + last_successful);
 
+        $(".build_header").text("Builds (" + builds.latest + ")");
+
         // Build List
         var list_builds = $("#buildlist");
 

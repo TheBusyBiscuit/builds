@@ -237,7 +237,7 @@ function compareBuilds(job, builds, commit) {
 
         job.id = data.id;
         clone(job, commit.sha, builds);
-        generateHTML(job, builds);
+        generateHTML(job);
     }
     else {
         nextJob(job);
@@ -377,13 +377,13 @@ function compile(job, builds) {
     });
 }
 
-function generateHTML(job, builds) {
+function generateHTML(job) {
+    console.log("Exporting \"index.html\" for Job \"" + job.author + "/" + job.repo + ":" + job.branch + "\"");
     FileSystem.readFile("template.html", 'UTF-8', function(err, data) {
         if (!err) {
             data = data.replace(/\${owner}/g, job.author);
             data = data.replace(/\${repository}/g, job.repo);
             data = data.replace(/\${branch}/g, job.branch);
-            data = data.replace(/\${builds}/g, builds.latest);
 
             FileSystem.writeFile(job.author + "/" + job.repo + "/" + job.branch + "/index.html", data, 'UTF-8');
         }
