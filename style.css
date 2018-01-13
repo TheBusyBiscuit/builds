@@ -188,7 +188,7 @@ tr:nth-child(odd) {
 }
 .sidebar_builds {
     display: block;
-    height: 79%;
+    height: 75%;
     width: 100%;
 }
 .builds {
@@ -197,7 +197,7 @@ tr:nth-child(odd) {
     height: 100%;
     margin: 2px;
     overflow-y: scroll;
-    transform: translateY(-8px);
+    transform: translateY(-5px);
 }
 .build_header {
     background-color: rgb(200, 200, 200);

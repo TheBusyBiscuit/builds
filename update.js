@@ -56,7 +56,7 @@ function nextJob() {
         generateHTML(job);
     }
     else {
-        var add = child_process.spawn("git", ["add", "*"]);
+        var add = child_process.spawn("git", ["add", "/*"]);
 
         add.stderr.on('data', function(data) {
             console.log(" " + data);
