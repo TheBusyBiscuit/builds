@@ -23,14 +23,14 @@
                         var job = status.jobs[i];
 
                         content += "<tr><td class=\"icon\"><img class=\"icon\" src=\"https://thebusybiscuit.github.io/content/octicons/briefcase.svg\"></td>"
-                        + "<td>" + job.author + "/" + job.repo + " (" + job.branch + ")" + "</td></tr><tr style=\"color: rgb(90, 90, 90);\"><td></td><td>" + status.task[job.author + "/" + job.repo + "/" + job.branch] + "</td><td></td></tr>";
+                        + "<td>" + job.author + "/" + job.repo + " (" + job.branch + ")" + "</td></tr><tr style=\"color: rgb(90, 90, 90);\"><td></td><td>" + status.task[job.author + "/" + job.repo + "/" + job.branch] + "</td><td><br></td></tr>";
                     }
 
                     var timestamp = (10 * 60) - (Date.now() - status.timestamp) / 1000;
                     var minutes = Math.floor(timestamp / 60);
                     var time = minutes + "m " + Math.floor(timestamp - minutes * 60) + "s";
 
-                    content += "<tr><td><br></td></tr><tr><td class=\"icon\"><img class=\"icon\" src=\"https://thebusybiscuit.github.io/content/octicons/light-bulb.svg\"></td><td>CPU Usage</td><td>"
+                    content += "<tr><td><br></td><td><br></td><td><br></td></tr><tr><td class=\"icon\"><img class=\"icon\" src=\"https://thebusybiscuit.github.io/content/octicons/light-bulb.svg\"></td><td>CPU Usage</td><td>"
                     + status.cpu + "%</td></tr>";
 
                     content += "<tr><td class=\"icon\"><img class=\"icon\" src=\"https://thebusybiscuit.github.io/content/octicons/clock.svg\"></td><td>Next Run</td><td>"
