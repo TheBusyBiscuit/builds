@@ -1,0 +1,65 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Repo Server (Remote)</title>
+
+		<link rel="stylesheet" href="https://thebusybiscuit.github.io/builds/style.css">
+        <link href="https://fonts.googleapis.com/css?family=Noto+Sans:400,700" rel="stylesheet">
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+        <script>
+            $(function() {
+                update();
+            });
+
+            function update() {
+                $.getJSON("/status.json", function(status) {
+                    $("#log").html(status.log);
+
+                    var content = "";
+
+                    for (var i in status.jobs) {
+                        var job = status.jobs[i];
+
+                        content += "<tr><td class=\"icon\"><img class=\"icon\" src=\"https://thebusybiscuit.github.io/content/octicons/briefcase.svg\"></td>"
+                        + "<td>" + job.author + "/" + job.repo + " (" + job.branch + ")" + "</td></tr><tr style=\"color: rgb(90, 90, 90);\"><td></td><td>" + status.task[job.author + "/" + job.repo + "/" + job.branch] + "</td><td></td></tr>";
+                    }
+
+                    var timestamp = (10 * 60) - (Date.now() - status.timestamp) / 1000;
+                    var minutes = Math.floor(timestamp / 60);
+                    var time = minutes + "m " + Math.floor(timestamp - minutes * 60) + "s";
+
+                    content += "<tr><td><br></td></tr><tr><td class=\"icon\"><img class=\"icon\" src=\"https://thebusybiscuit.github.io/content/octicons/light-bulb.svg\"></td><td>CPU Usage</td><td>"
+                    + status.cpu + "%</td></tr>";
+
+                    content += "<tr><td class=\"icon\"><img class=\"icon\" src=\"https://thebusybiscuit.github.io/content/octicons/clock.svg\"></td><td>Next Run</td><td>"
+                    + time + "</td></tr>";
+
+                    content += "<td class=\"icon\"><img class=\"icon\" src=\"https://thebusybiscuit.github.io/content/octicons/plug.svg\"></td><td><a class=\"link_info\" href=\"shutdown\">Shutdown</a></td><td></td></tr>";
+
+                    $("#queue").html(content);
+                    setTimeout(update, 400);
+                });
+            }
+        </script>
+    </head>
+    <body>
+        <div class="header">
+            <a class="link_main" href="">TheBusyBiscuit's Repo Server</a>
+        </div>
+
+        <div class="page">
+            <div class="box sidebar">
+                <table id="queue" class="info_table">
+
+                </table>
+            </div>
+            <div class="box content">
+                <div id="log" class="console">
+
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

@@ -12,26 +12,29 @@ const header = {
 var stopwatch;
 var jobs = [];
 
-if (FileSystem.existsSync("app.log")) {
-    FileSystem.unlinkSync("app.log");
+module.exports = function() {
+    if (FileSystem.existsSync("app.log")) {
+        FileSystem.unlinkSync("app.log");
+    }
+
+    var log = console.log;
+
+    console.log = function(msg) {
+        log(msg);
+        FileSystem.appendFile("app.log", msg + "\n", "UTF-8", function(err) {
+            if (err) {
+                log(err);
+            }
+        });
+    }
+
+    startWatcher();
 }
-
-var log = console.log;
-
-console.log = function(msg) {
-    log(msg);
-    FileSystem.appendFile("app.log", msg + "\n", "UTF-8", function(err) {
-        if (err) {
-            log(err);
-        }
-    });
-}
-
-startWatcher();
 
 function startWatcher() {
     stopwatch = Date.now();
     jobs = [];
+    global.status.timestamp = stopwatch;
 
     console.log("Watching Repositories...");
 
@@ -46,10 +49,16 @@ function startWatcher() {
                     var repository = repo.split(':')[0];
                     var branch = repo.split(':')[1];
 
-                    jobs.push({"author": author, "repo": repository, "branch": branch});
+                    console.log("Found Project \"" + author + "/" + repo + "\"");
+
+                    var job = {"author": author, "repo": repository, "branch": branch};
+
+                    jobs.push(job);
+                    global.status.task[job.author + "/" + job.repo + "/" + job.branch] = "Queued";
                 }
             }
 
+            global.status.jobs = jobs.slice(0);
             nextJob();
         }
         else {
@@ -59,6 +68,7 @@ function startWatcher() {
 }
 
 function loadLatestCommit(job) {
+    global.status.task[job.author + "/" + job.repo + "/" + job.branch] = "Pulling Commits";
     console.log("  Watching Repository \"" + job.author + "/" + job.repo + "\" on Branch \"" + job.branch + "\"...");
 
     var options = {
@@ -83,16 +93,19 @@ function loadLatestCommit(job) {
                     getLicense(job, json[0]);
                 }
                 else {
+                    global.status.task[job.author + "/" + job.repo + "/" + job.branch] = "Exception?";
                     console.log(job.author + "/" + job.repo + ": " + json.message);
                 }
             });
         }
     }).on('error', function(err) {
         console.log(err);
+        global.status.task[job.author + "/" + job.repo + "/" + job.branch] = "Exception?";
     });
 }
 
 function getLicense(job, commit) {
+    global.status.task[job.author + "/" + job.repo + "/" + job.branch] = "Pulling License";
     var options = {
         host: "api.github.com",
         path: "/repos/" + job.author +"/" + job.repo + "/license",
@@ -131,10 +144,12 @@ function getLicense(job, commit) {
         }
     }).on('error', function(err) {
         console.log(err);
+        global.status.task[job.author + "/" + job.repo + "/" + job.branch] = "Exception?";
     });
 }
 
 function getTags(job, commit) {
+    global.status.task[job.author + "/" + job.repo + "/" + job.branch] = "Pulling Tags";
     var options = {
         host: "api.github.com",
         path: "/repos/" + job.author +"/" + job.repo + "/tags",
@@ -169,11 +184,14 @@ function getTags(job, commit) {
             });
         }
     }).on('error', function(err) {
+        global.status.task[job.author + "/" + job.repo + "/" + job.branch] = "Exception?";
         console.log(err);
     });
 }
 
 function watchRepository(job, commit) {
+    global.status.task[job.author + "/" + job.repo + "/" + job.branch] = "Comparing Commits";
+
     if (!FileSystem.existsSync(job.author)) {
         FileSystem.mkdirSync(job.author);
     }
@@ -190,6 +208,7 @@ function watchRepository(job, commit) {
     if (FileSystem.existsSync(job.author + "/" + job.repo + "/" + job.branch + "/builds.json")) {
         FileSystem.readFile(job.author + "/" + job.repo + "/" + job.branch + "/builds.json", 'UTF-8', function(err, data) {
             if (err) {
+                global.status.task[job.author + "/" + job.repo + "/" + job.branch] = "Exception?";
                 console.log(err);
             }
             else {
@@ -245,6 +264,8 @@ function compareBuilds(job, builds, commit) {
 }
 
 function clone(job, commit, builds) {
+    global.status.task[job.author + "/" + job.repo + "/" + job.branch] = "Downloading Files";
+
     console.log("Cloning Repository \"" + job.author + "/" + job.repo + "\"...");
     var clone = child_process.spawn("git", ["clone", "https://github.com/" + job.author + "/" + job.repo + ".git", job.author + "/" + job.repo + "/" + job.branch + "/files", "-b", job.branch, "--single-branch"]);
 
@@ -274,6 +295,8 @@ function clone(job, commit, builds) {
 }
 
 function pom(job, builds) {
+    global.status.task[job.author + "/" + job.repo + "/" + job.branch] = "Preparing";
+
     FileSystem.readFile(job.author + "/" + job.repo + "/" + job.branch + "/files/pom.xml", 'UTF-8', function(err, data) {
         if (!err) {
             data = data.replace(/\r?\n|\r/g, "");
@@ -299,6 +322,7 @@ function pom(job, builds) {
                     compile(job, builds);
                 }
                 else {
+                    global.status.task[job.author + "/" + job.repo + "/" + job.branch] = "Exception?";
                     console.log(err);
                 }
             });
@@ -310,6 +334,8 @@ function pom(job, builds) {
 }
 
 function compile(job, builds) {
+    global.status.task[job.author + "/" + job.repo + "/" + job.branch] = "Compiling";
+
     console.log("Compiling Repository \"" + job.author + "/" + job.repo + "\"...");
     var maven = child_process.spawn("mvn", ["package"], {cwd: __dirname + "/" + job.author + "/" + job.repo + "/" + job.branch + "/files", shell: true});
 
@@ -347,16 +373,19 @@ function compile(job, builds) {
                                     finishJob(job, true);
                                 }
                                 else {
+                                    global.status.task[job.author + "/" + job.repo + "/" + job.branch] = "Exception?";
                                     console.log(err);
                                 }
                             });
                         }
                         else {
+                            global.status.task[job.author + "/" + job.repo + "/" + job.branch] = "Exception?";
                             console.log(err);
                         }
                     });
                 }
                 else {
+                    global.status.task[job.author + "/" + job.repo + "/" + job.branch] = "Exception?";
                     console.log(err);
                 }
             });
@@ -370,6 +399,7 @@ function compile(job, builds) {
                     finishJob(job, false);
                 }
                 else {
+                    global.status.task[job.author + "/" + job.repo + "/" + job.branch] = "Exception?";
                     console.log(err);
                 }
             });
@@ -459,6 +489,7 @@ function finishJob(job, status) {
 }
 
 function generateBadge(job, status) {
+    global.status.task[job.author + "/" + job.repo + "/" + job.branch] = "Generating Badge";
     FileSystem.readFile("badge.svg", 'UTF-8', function(err, data) {
         if (!err) {
             data = data.replace(/\${status}/g, status ? "SUCCESS": "FAILURE");
@@ -468,6 +499,7 @@ function generateBadge(job, status) {
             nextJob(job);
         }
         else {
+            global.status.task[job.author + "/" + job.repo + "/" + job.branch] = "Exception?";
             console.log(err);
         }
     });
@@ -476,9 +508,11 @@ function generateBadge(job, status) {
 function nextJob(job) {
     function continueWorkflow() {
         if (jobs.length > 0) {
+            global.status.job = jobs[0];
             loadLatestCommit(jobs[0]);
         }
         else {
+            global.status.job = null;
             console.log("-- FINISHED --");
             var delta = (10 * 60 * 1000) - (Date.now() - stopwatch);
 
@@ -492,6 +526,8 @@ function nextJob(job) {
     }
 
     if (job) {
+        global.status.task[job.author + "/" + job.repo + "/" + job.branch] = "Finished";
+
         if (job.id) {
             var add = child_process.spawn("git", ["add", job.author + "/" + job.repo + "/" + job.branch + "/*"]);
 
