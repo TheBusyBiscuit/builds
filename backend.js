@@ -11,21 +11,27 @@ const header = {
 }
 var stopwatch;
 var jobs = [];
+var timer;
 
 module.exports = function() {
-    if (FileSystem.existsSync("app.log")) {
-        FileSystem.unlinkSync("app.log");
+    if (timer) {
+        clearTimeout(timer);
     }
+    else {
+        if (FileSystem.existsSync("app.log")) {
+            FileSystem.unlinkSync("app.log");
+        }
 
-    var log = console.log;
+        var log = console.log;
 
-    console.log = function(msg) {
-        log(msg);
-        FileSystem.appendFile("app.log", msg + "\n", "UTF-8", function(err) {
-            if (err) {
-                log(err);
-            }
-        });
+        console.log = function(msg) {
+            log(msg);
+            FileSystem.appendFile("app.log", msg + "\n", "UTF-8", function(err) {
+                if (err) {
+                    log(err);
+                }
+            });
+        }
     }
 
     startWatcher();
@@ -98,6 +104,10 @@ function loadLatestCommit(job) {
                 }
             });
         }
+        else {
+            nextJob(job);
+            global.status.task[job.author + "/" + job.repo + "/" + job.branch] = "BAD RESPONSE";
+        }
     }).on('error', function(err) {
         console.log(err);
         global.status.task[job.author + "/" + job.repo + "/" + job.branch] = "Exception?";
@@ -142,6 +152,10 @@ function getLicense(job, commit) {
                 getTags(job, commit);
             });
         }
+        else {
+            nextJob(job);
+            global.status.task[job.author + "/" + job.repo + "/" + job.branch] = "BAD RESPONSE";
+        }
     }).on('error', function(err) {
         console.log(err);
         global.status.task[job.author + "/" + job.repo + "/" + job.branch] = "Exception?";
@@ -182,6 +196,10 @@ function getTags(job, commit) {
                 commit.candidate = "DEVELOPMENT";
                 watchRepository(job, commit);
             });
+        }
+        else {
+            nextJob(job);
+            global.status.task[job.author + "/" + job.repo + "/" + job.branch] = "BAD RESPONSE";
         }
     }).on('error', function(err) {
         global.status.task[job.author + "/" + job.repo + "/" + job.branch] = "Exception?";
@@ -521,7 +539,8 @@ function nextJob(job) {
             console.log("\n\n");
             console.log("Waiting " + (delta / 1000) + "s...");
             console.log("\n\n");
-            setTimeout(startWatcher, delta);
+
+            timer = setTimeout(startWatcher, delta);
         }
     }
 

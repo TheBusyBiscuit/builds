@@ -10,12 +10,20 @@
 
         <script>
             $(function() {
-                update();
+                setInterval(update, 400);
             });
 
             function update() {
                 $.getJSON("/status.json", function(status) {
-                    $("#log").html(status.log);
+                    var terminal = $("#log");
+
+                    if (terminal.html() !== status.log) {
+                        terminal.animate({
+                            scrollTop: terminal.height()
+                        }, 100);
+                    }
+
+                    terminal.html(status.log);
 
                     var content = "";
 
@@ -36,10 +44,11 @@
                     content += "<tr><td class=\"icon\"><img class=\"icon\" src=\"https://thebusybiscuit.github.io/content/octicons/clock.svg\"></td><td>Next Run</td><td>"
                     + time + "</td></tr>";
 
+                    content += "<td class=\"icon\"><img class=\"icon\" src=\"https://thebusybiscuit.github.io/content/octicons/beaker.svg\"></td><td><a class=\"link_info\" href=\"run\">Force Restart</a></td><td></td></tr>";
+
                     content += "<td class=\"icon\"><img class=\"icon\" src=\"https://thebusybiscuit.github.io/content/octicons/plug.svg\"></td><td><a class=\"link_info\" href=\"shutdown\">Shutdown</a></td><td></td></tr>";
 
                     $("#queue").html(content);
-                    setTimeout(update, 400);
                 });
             }
         </script>

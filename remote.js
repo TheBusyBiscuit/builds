@@ -32,6 +32,15 @@ FileSystem.readFile("remote.html", 'UTF-8', function(err, page) {
                     response.end();
                     break;
                 }
+                case '/run': {
+                    response.writeHead(302, {'Location': "/"});
+                    response.end();
+
+                    console.log("Restarting Submodule...");
+                    backend();
+
+                    break;
+                }
                 case '/shutdown': {
                     response.writeHead(200, {'Content-Type': 'text/html'});
                     response.write("Goodbye!");
