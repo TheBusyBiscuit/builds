@@ -28,10 +28,9 @@ function addRepository(owner, repo, branch) {
     html += "<td>Latest Build</td><td>";
     html += "<a id=\"latest_" + owner + "_" + repo + "_" + branch + "\" class=\"link_info\" href=\"${latest}\">";
     html += "<img style=\"width: 20px;\" class=\"loading\" src=\"https://thebusybiscuit.github.io/content/octicons/sync.svg\"/></a></td></tr>";
-    html += "<tr><td class=\"icon\"><img class=\"icon\" src=\"https://thebusybiscuit.github.io/content/octicons/checklist.svg\"></td>";
-    html += "<td>Last Successful Build</td><td>";
-    html += "<a id=\"successful_" + owner + "_" + repo + "_" + branch + "\" class=\"link_info\" href=\"${last-successful}\">";
-    html += "<img style=\"width: 20px;\" class=\"loading\" src=\"https://thebusybiscuit.github.io/content/octicons/sync.svg\"/></a></td></tr>";
+    html += "<tr><td class=\"icon\"><img class=\"icon\" src=\"https://thebusybiscuit.github.io/content/octicons/briefcase.svg\"></td>";
+    html += "<td>Status Badge</td><td>";
+    html += "<img src=\"https://thebusybiscuit.github.io/builds/" + owner + "/" + repo + "/" + branch + "/badge.svg\"/></td></tr>";
     html += "</table></div>";
 
     $("#repos").append(html);
