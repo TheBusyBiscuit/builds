@@ -56,11 +56,11 @@ FileSystem.readFile("remote.html", 'UTF-8', function(err, page) {
                     break;
                 }
                 default: {
+                    response.end();
                     break;
                 }
             }
 
-            response.end();
         }).listen(port);
 
         dns.lookup(os.hostname(), function (err, ip, fam) {
