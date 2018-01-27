@@ -15,75 +15,128 @@ global.status = {
 };
 
 var cpu = [0, 0];
+var log = console.log;
 
-FileSystem.readFile("remote.html", 'UTF-8', function(err, page) {
-    if (!err) {
-        http.createServer(function(request, response) {
-            switch(request.url) {
-                case '/': {
-                    response.writeHead(200, {'Content-Type': 'text/html'});
-                    response.write(page);
-                    response.end();
-                    break;
-                }
-                case '/status.json': {
-                    response.writeHead(200, {'Content-Type': 'application/json'});
-                    response.write(JSON.stringify(global.status));
-                    response.end();
-                    break;
-                }
-                case '/run': {
-                    response.writeHead(302, {'Location': "/"});
-                    response.end();
+console.log = function(msg) {
+    log(msg);
+    status.log += msg + "<br>";
+}
 
-                    console.log("Restarting Submodule...");
-                    backend();
-
-                    break;
-                }
-                case '/shutdown': {
-                    response.writeHead(200, {'Content-Type': 'text/html'});
-                    response.write("Goodbye!");
-                    response.end();
-
-                    if (process.platform === "win32") {
-                        child_process.exec("shutdown -s -t 0");
-                    }
-                    else {
-                        child_process.exec("sudo shutdown -h now");
-                    }
-
-                    break;
-                }
-                default: {
-                    response.end();
-                    break;
-                }
-            }
-
-        }).listen(port);
-
-        dns.lookup(os.hostname(), function (err, ip, fam) {
-            console.log("Now serving at " + ip + ":" + port);
-
-            var log = console.log;
-
-            console.log = function(msg) {
-                log(msg);
-                status.log += msg + "<br>";
-            }
-
-            console.log("Starting Submodule...");
-
-            backend();
-        })
-
-        usage();
+var libraries = [
+    {
+        name: "Node.js",
+        command: "node -v"
+    },
+    {
+        name: "Java",
+        command: "java -version"
+    },
+    {
+        name: "Apache Maven",
+        command: "mvn -v"
+    },
+    {
+        name: "Git",
+        command: "git --version"
     }
-    else {
-        console.log(err);
+]
+
+for (var i in libraries) {
+    var lib = libraries[i];
+
+    child_process.exec(lib.command, callback(lib));
+}
+
+function callback(lib) {
+    return function(err, stdout, stderr) {
+        console.log("");
+        console.log("==== Environment: " + lib.name + " ====")
+
+        if (stderr) {
+            console.log(stderr);
+        }
+
+        if (!err) {
+            console.log(stdout);
+            var index = libraries.indexOf(lib);
+            libraries.splice(index, 1);
+            run();
+        }
+        else {
+            console.log("ERROR: " + lib.name + " not found!");
+            throw err;
+        }
+    };
+}
+
+function run() {
+    if (libraries.length > 0) {
+        return;
     }
-})
+
+    console.log("");
+    FileSystem.readFile("remote.html", 'UTF-8', function(err, page) {
+        if (!err) {
+            http.createServer(function(request, response) {
+                switch(request.url) {
+                    case '/': {
+                        response.writeHead(200, {'Content-Type': 'text/html'});
+                        response.write(page);
+                        response.end();
+                        break;
+                    }
+                    case '/status.json': {
+                        response.writeHead(200, {'Content-Type': 'application/json'});
+                        response.write(JSON.stringify(global.status));
+                        response.end();
+                        break;
+                    }
+                    case '/run': {
+                        response.writeHead(302, {'Location': "/"});
+                        response.end();
+
+                        console.log("Restarting Submodule...");
+                        backend();
+
+                        break;
+                    }
+                    case '/shutdown': {
+                        response.writeHead(200, {'Content-Type': 'text/html'});
+                        response.write("Goodbye!");
+                        response.end();
+
+                        if (process.platform === "win32") {
+                            child_process.exec("shutdown -s -t 0");
+                        }
+                        else {
+                            child_process.exec("sudo shutdown -h now");
+                        }
+
+                        break;
+                    }
+                    default: {
+                        response.end();
+                        break;
+                    }
+                }
+
+            }).listen(port);
+
+            dns.lookup(os.hostname(), function (err, ip, fam) {
+                log("Now serving at " + ip + ":" + port);
+
+                console.log("Starting Submodule...");
+
+                backend();
+            })
+
+            usage();
+        }
+        else {
+            console.log(err);
+        }
+    })
+}
 
 function usage() {
   var idle = 0;
