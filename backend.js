@@ -1,6 +1,7 @@
 const https = require('https');
 const FileSystem = require('fs');
 const child_process = require('child_process');
+const XML = require('./xml.js');
 
 const months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
 
@@ -317,27 +318,28 @@ function pom(job, builds) {
 
     FileSystem.readFile(job.author + "/" + job.repo + "/" + job.branch + "/files/pom.xml", 'UTF-8', function(err, data) {
         if (!err) {
-            data = data.replace(/\r?\n|\r/g, "");
-            var build = data.match(/<build>.*<\/build>/)[0];
-
-            var important = "";
-            important += pomFilter(build, /<resources>.*<\/resources>/);
-            important += pomFilter(build, /<testResources>.*<\/testResources>/);
-            important += pomFilter(build, /<sourceDirectory>.*<\/sourceDirectory>/);
-            important += pomFilter(build, /<testSourceDirectory>.*<\/testSourceDirectory>/);
-
-            function pomFilter(build, regex) {
-                var match = build.match(regex);
-
-                if (match) return match[0];
-                else return "";
-            }
-
-            data = data.replace(/<build>.*<\/build>/, "<build><finalName>" + job.repo + "-" + job.id + "</finalName>" + important + "</build>");
-
-            FileSystem.writeFile(job.author + "/" + job.repo + "/" + job.branch + "/files/pom.xml", data, 'UTF-8', function(err) {
+            XML.parseXML(data, function(err, json) {
                 if (!err) {
-                    compile(job, builds);
+                    json.elements["version[0]"].value = "DEV #" + job.id;
+                    json.elements["build[0]"].elements["finalName[0]"].value = job.repo + "-" + job.id;
+
+                    XML.parseJSON(json, function(err, xml) {
+                        if (!err) {
+                            FileSystem.writeFile(job.author + "/" + job.repo + "/" + job.branch + "/files/pom.xml", xml, 'UTF-8', function(err) {
+                                if (!err) {
+                                    compile(job, builds);
+                                }
+                                else {
+                                    global.status.task[job.author + "/" + job.repo + "/" + job.branch] = "Exception?";
+                                    console.log(err);
+                                }
+                            });
+                        }
+                        else {
+                            global.status.task[job.author + "/" + job.repo + "/" + job.branch] = "Exception?";
+                            console.log(err);
+                        }
+                    });
                 }
                 else {
                     global.status.task[job.author + "/" + job.repo + "/" + job.branch] = "Exception?";
