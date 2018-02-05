@@ -45,6 +45,22 @@
         "candidate": "DEVELOPMENT",
         "status": "SUCCESS"
     },
-    "latest": 3,
-    "last_successful": 3
+    "4": {
+        "id": 4,
+        "sha": "9ab3da833d649ca1d39347785fe648174124d168",
+        "date": "05 Feb 2018 (15:29:01)",
+        "timestamp": 20180205152901,
+        "message": "Merge pull request #35 from Redemption198/master\n\n#canAccessChest() now checks for the right permission",
+        "author": "TheBusyBiscuit",
+        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
+        "license": {
+            "name": "GNU General Public License v3.0",
+            "id": "GPL-3.0",
+            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/CS-CoreLib/master/LICENSE"
+        },
+        "candidate": "DEVELOPMENT",
+        "status": "SUCCESS"
+    },
+    "latest": 4,
+    "last_successful": 4
 }
