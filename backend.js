@@ -10,6 +10,7 @@ const header = {
     "User-Agent": "The Busy Biscuit's Repository Compiler",
     "Time-Zone": "UTC"
 }
+
 var stopwatch;
 var jobs = [];
 var timer;
@@ -320,8 +321,8 @@ function pom(job, builds) {
         if (!err) {
             XML.parseXML(data, function(err, json) {
                 if (!err) {
-                    json.elements["version[0]"].value = "DEV #" + job.id;
-                    json.elements["build[0]"].elements["finalName[0]"].value = job.repo + "-" + job.id;
+                    json.getChild("version").setValue("DEV #" + job.id);
+                    json.getChild(["build", "finalVersion"]).setValue(job.repo + "-" + job.id);
 
                     XML.parseJSON(json, function(err, xml) {
                         if (!err) {
