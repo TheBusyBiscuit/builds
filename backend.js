@@ -324,7 +324,7 @@ function pom(job, builds) {
                     json.getChild("version").setValue("DEV #" + job.id + " (git: " + builds[job.id].sha + ")");
                     json.getChild(["build", "finalName"]).setValue(job.repo + "-" + job.id);
 
-                    XML.parseJSON(json, function(err, xml) {
+                    json.asXMLString(function(err, xml) {
                         if (!err) {
                             FileSystem.writeFile(job.author + "/" + job.repo + "/" + job.branch + "/files/pom.xml", xml, 'UTF-8', function(err) {
                                 if (!err) {
