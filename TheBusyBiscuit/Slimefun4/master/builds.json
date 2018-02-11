@@ -288,6 +288,22 @@
         "candidate": "DEVELOPMENT",
         "status": "SUCCESS"
     },
-    "latest": 18,
-    "last_successful": 18
+    "19": {
+        "id": 19,
+        "sha": "018e8b955b3ca76241be1054d1cc98edffd480a0",
+        "date": "11 Feb 2018 (11:18:28)",
+        "timestamp": 20180211111828,
+        "message": "Merge pull request #591 from Puremin0rez/master\n\nFix Reinforced Spawners being a Pig Spawner when placed.",
+        "author": "TheBusyBiscuit",
+        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
+        "license": {
+            "name": "GNU General Public License v3.0",
+            "id": "GPL-3.0",
+            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/Slimefun4/master/LICENSE"
+        },
+        "candidate": "DEVELOPMENT",
+        "status": "SUCCESS"
+    },
+    "latest": 19,
+    "last_successful": 19
 }
