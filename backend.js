@@ -523,8 +523,15 @@ function generateBadge(job, status) {
             data = data.replace(/\${status}/g, status ? "SUCCESS": "FAILURE");
             data = data.replace(/\${color}/g, status ? "rgb(30, 220, 30)": "rgb(220, 30, 30)");
 
-            FileSystem.writeFile(job.author + "/" + job.repo + "/" + job.branch + "/badge.svg", data, 'UTF-8');
-            nextJob(job);
+            FileSystem.writeFile(job.author + "/" + job.repo + "/" + job.branch + "/badge.svg", data, 'UTF-8', function(err) {
+                if (!err) {
+                    nextJob(job);
+                }
+                else {
+                    global.status.task[job.author + "/" + job.repo + "/" + job.branch] = "Exception?";
+                    console.log(err);
+                }
+            });
         }
         else {
             global.status.task[job.author + "/" + job.repo + "/" + job.branch] = "Exception?";
