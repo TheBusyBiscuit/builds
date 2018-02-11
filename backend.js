@@ -1,7 +1,7 @@
 const https = require('https');
 const FileSystem = require('fs');
 const child_process = require('child_process');
-const XML = require('./xml.js');
+const XML = require('./XML4JS.js');
 
 const months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
 

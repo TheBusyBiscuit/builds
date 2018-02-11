@@ -1,3 +1,5 @@
+// Copyright (c) 2018 TheBusyBiscuit
+
 /**
  *   Parses XML text and outputs a JSON XMLNode object
  *
@@ -166,16 +168,13 @@ module.exports.parseXML = function(xml, callback) {
     callback(null, json);
 }
 
-/** Export our class to be used when importing this module */
-module.exports.XMLNode = XMLNode;
-
 /** Our XML Node class, that can contain a value, attributes and children (of type XMLNode) */
-var XMLNode = class XMLNode {
+class XMLNode {
 
     /**
      *   Constructor for a new XML Node
      *   @param {String} name       The node's name
-     *   @param {Object} [attributes] The node's attributes
+     *   @param {Object|String} [attributes] The node's attributes or value (if it's a String)
      *   @param {Object} [children]   Be careful with this one, refer to XMLNode#addChild(node: XMLNode) instead
      */
     constructor(name, attributes, children) {
@@ -183,6 +182,10 @@ var XMLNode = class XMLNode {
 
         /** 'this.attributes' has to be a proper JSON Object */
         if (attributes instanceof Object) this.attributes = attributes;
+        else if (attributes instanceof String || typeof(attributes) === "string") {
+            this.attributes = {};
+            this.value = attributes;
+        }
         else this.attributes = {};
 
         /** 'this.elements' has to be a proper JSON Object */
@@ -315,12 +318,20 @@ var XMLNode = class XMLNode {
         }
         /** Fill in missing options */
         else {
-            if (!options.hasOwnProperty("indent")) options.indent = 2;
-            if (!options.hasOwnProperty("new_lines")) options.new_lines = true;
+            let defaults = defaultOptions();
+            if (!options.hasOwnProperty("indent")) options.indent = defaults.indent;
+            if (!options.hasOwnProperty("new_lines")) options.new_lines = defaults.new_lines;
+            if (!options.hasOwnProperty("quote_content")) options.quote_content = defaults.quote_content;
+            if (!options.hasOwnProperty("header")) options.header = defaults.header;
         }
 
         let xml = "";
         let level = 0;
+
+        if (options.header) {
+            xml = options.header;
+            if (options.new_lines) xml += "\n";
+        }
 
         /** Add this node aka our root in this case */
         addNode(json, function() {
@@ -334,6 +345,8 @@ var XMLNode = class XMLNode {
         function defaultOptions() {
             return {
                 indent: 2,
+                header: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>",
+                quote_content: true,
                 new_lines: true
             };
         }
@@ -360,7 +373,8 @@ var XMLNode = class XMLNode {
 
             /** Adding the node's value (if it has one) */
             if (node.hasOwnProperty("value")) {
-                xml += node.value;
+                if (options.quote_content) xml += "\"" + node.value + "\"";
+                else xml += node.value;
             }
 
             /** Append a new line, if there are children following this (and if the options allow us to do so) */
@@ -396,3 +410,6 @@ var XMLNode = class XMLNode {
     }
 
 }
+
+/** Export our class to be used when importing this module */
+module.exports.XMLNode = XMLNode;

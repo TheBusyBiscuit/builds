@@ -18,12 +18,15 @@
                     var terminal = $("#log");
 
                     if (terminal.html() !== status.log) {
+                        terminal.html(status.log);
+
                         terminal.animate({
-                            scrollTop: terminal.height()
+                            scrollTop: terminal.scrollHeight
                         }, 100);
                     }
-
-                    terminal.html(status.log);
+                    else {
+                        terminal.html(status.log);
+                    }
 
                     var content = "";
 
