@@ -1,3 +1,4 @@
+'use strict'
 // Copyright (c) 2018 TheBusyBiscuit
 
 /**
