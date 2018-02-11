@@ -11,6 +11,13 @@ const header = {
     "Time-Zone": "UTC"
 }
 
+const xml_options = {
+    indent: 0,
+    header: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>",
+    quote_content: false,
+    new_lines: false
+};
+
 var stopwatch;
 var jobs = [];
 var timer;
@@ -324,7 +331,7 @@ function pom(job, builds) {
                     json.getChild("version").setValue("DEV #" + job.id + " (git: " + builds[job.id].sha + ")");
                     json.getChild(["build", "finalName"]).setValue(job.repo + "-" + job.id);
 
-                    json.asXMLString(function(err, xml) {
+                    json.asXMLString(xml_options, function(err, xml) {
                         if (!err) {
                             FileSystem.writeFile(job.author + "/" + job.repo + "/" + job.branch + "/files/pom.xml", xml, 'UTF-8', function(err) {
                                 if (!err) {
