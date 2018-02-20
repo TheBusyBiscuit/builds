@@ -327,7 +327,7 @@ function pom(job, builds) {
         if (!err) {
             XML.parseXML(data, function(err, json) {
                 if (!err) {
-                    json.getChild("version").setValue("DEV #" + job.id + " (git: " + builds[job.id].sha.substr(0, 5) + ")");
+                    json.getChild("version").setValue("DEV #" + job.id + " (git " + builds[job.id].sha.substr(0, 5) + ")");
                     json.getChild(["build", "finalName"]).setValue(job.repo + "-" + job.id);
 
                     json.asXMLString(xml_options, function(err, xml) {
@@ -364,7 +364,7 @@ function compile(job, builds) {
     global.status.task[job.author + "/" + job.repo + "/" + job.branch] = "Compiling";
 
     console.log("Compiling Repository \"" + job.author + "/" + job.repo + "\"...");
-    var maven = child_process.spawn("mvn", ["package", "-Dstyle.debug=default", "-Dstyle.info=default", "-Dstyle.warning=default", "-Dstyle.error=default", "-Dstyle.success=default", "-Dstyle.failure=default", "-Dstyle.strong=default", "-Dstyle.mojo=default", "-Dstyle.project=default"], {cwd: __dirname + "/" + job.author + "/" + job.repo + "/" + job.branch + "/files", shell: true});
+    var maven = child_process.spawn("mvn", ["package"], {cwd: __dirname + "/" + job.author + "/" + job.repo + "/" + job.branch + "/files", shell: true});
 
     maven.stderr.on('data', function(data) {
         console.log(" " + data);
