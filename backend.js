@@ -327,7 +327,7 @@ function pom(job, builds) {
         if (!err) {
             XML.parseXML(data, function(err, json) {
                 if (!err) {
-                    json.getChild("version").setValue("DEV #" + job.id + " (git " + builds[job.id].sha.substr(0, 5) + ")");
+                    json.getChild("version").setValue("DEV #" + job.id + " (git " + builds[job.id].sha.substr(0, 8) + ")");
                     json.getChild(["build", "finalName"]).setValue(job.repo + "-" + job.id);
 
                     json.asXMLString(xml_options, function(err, xml) {
