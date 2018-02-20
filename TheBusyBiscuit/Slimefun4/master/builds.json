@@ -304,6 +304,22 @@
         "candidate": "DEVELOPMENT",
         "status": "SUCCESS"
     },
-    "latest": 19,
-    "last_successful": 19
+    "20": {
+        "id": 20,
+        "sha": "b69e80dfaa0623f6167503d99b1941a4d061ada4",
+        "date": "20 Feb 2018 (22:34:13)",
+        "timestamp": 20180220223413,
+        "message": "Merge pull request #608 from VoidAngel/patch-1\n\nFix for #532 - Limited disenchanter dupe glitch",
+        "author": "TheBusyBiscuit",
+        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
+        "license": {
+            "name": "GNU General Public License v3.0",
+            "id": "GPL-3.0",
+            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/Slimefun4/master/LICENSE"
+        },
+        "candidate": "DEVELOPMENT",
+        "status": "SUCCESS"
+    },
+    "latest": 20,
+    "last_successful": 20
 }
