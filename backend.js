@@ -1,7 +1,7 @@
 const https = require('https');
 const FileSystem = require('fs');
 const child_process = require('child_process');
-const XML = require('./XML4JS.js');
+const XML = require('./XML.js');
 
 const months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
 
@@ -14,7 +14,6 @@ const header = {
 const xml_options = {
     indent: 0,
     header: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>",
-    quote_content: false,
     new_lines: false
 };
 
@@ -328,7 +327,7 @@ function pom(job, builds) {
         if (!err) {
             XML.parseXML(data, function(err, json) {
                 if (!err) {
-                    json.getChild("version").setValue("DEV #" + job.id + " (git: " + builds[job.id].sha + ")");
+                    json.getChild("version").setValue("DEV #" + job.id + " (git: " + builds[job.id].sha.substr(0, 5) + ")");
                     json.getChild(["build", "finalName"]).setValue(job.repo + "-" + job.id);
 
                     json.asXMLString(xml_options, function(err, xml) {

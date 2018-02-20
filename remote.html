@@ -18,14 +18,9 @@
                     var terminal = $("#log");
 
                     if (terminal.html() !== status.log) {
-                        terminal.html(status.log);
+                        terminal.html(status.log + "<p id=\"bottom_log\"></p>");
 
-                        terminal.animate({
-                            scrollTop: terminal.scrollHeight
-                        }, 100);
-                    }
-                    else {
-                        terminal.html(status.log);
+                        $("#bottom_log")[0].scrollIntoView();
                     }
 
                     var content = "";
