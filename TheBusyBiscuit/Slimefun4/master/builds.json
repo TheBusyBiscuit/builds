@@ -320,6 +320,22 @@
         "candidate": "DEVELOPMENT",
         "status": "SUCCESS"
     },
-    "latest": 20,
-    "last_successful": 20
+    "21": {
+        "id": 21,
+        "sha": "c33c8e065e3e72863f751d9979cb4244cac5f764",
+        "date": "20 Feb 2018 (22:47:06)",
+        "timestamp": 20180220224706,
+        "message": "Merge pull request #597 from Meta-Win/master\n\nFix #575",
+        "author": "TheBusyBiscuit",
+        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
+        "license": {
+            "name": "GNU General Public License v3.0",
+            "id": "GPL-3.0",
+            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/Slimefun4/master/LICENSE"
+        },
+        "candidate": "DEVELOPMENT",
+        "status": "SUCCESS"
+    },
+    "latest": 21,
+    "last_successful": 21
 }

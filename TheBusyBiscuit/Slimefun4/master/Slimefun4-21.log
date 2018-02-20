@@ -1,0 +1,55 @@
+[[39mINFO[m] Scanning for projects...
+[[39mWARNING[m] 
+[[39mWARNING[m] Some problems were encountered while building the effective model for me.mrCookieSlime:Slimefun:jar:DEV #21 (git: c33c8)
+[[39mWARNING[m] 'dependencies.dependency.systemPath' for me.mrCookieSlime:EmeraldEnchants:jar should not point at files within the project directory, ${project.basedir}/lib/EmeraldEnchants v2.0.jar will be unresolvable by dependent projects @ line 1, column 2543
+[[39mWARNING[m] 'dependencies.dependency.systemPath' for me.mrCookieSlime:ExoticGarden:jar should not point at files within the project directory, ${project.basedir}/lib/ExoticGarden v1.2.0.jar will be unresolvable by dependent projects @ line 1, column 2757
+[[39mWARNING[m] 'version' must not contain any of these characters \/:"<>|?* but found : @ line 1, column 353
+[[39mWARNING[m] 
+[[39mWARNING[m] It is highly recommended to fix these problems because they threaten the stability of your build.
+[[39mWARNING[m] 
+[[39mWARNING[m] For this reason, future Maven versions might no longer support building such malformed projects.
+[[39mWARNING[m] 
+[[39mINFO[m] 
+[[39mINFO[m] [39m------------------------------------------------------------------------[m
+[[39mINFO[m] [39mBuilding Slimefun DEV #21 (git: c33c8)[m
+[[39mINFO[m] [39m------------------------------------------------------------------------[m
+[[39mWARNING[m] The POM for com.wasteofplastic:askyblock:jar:3.0.6.9 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+[[39mWARNING[m] The POM for com.github.dmulloy2.LWC:lwc:jar:master-4.5.1-g2100b5e-18 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+[[39mWARNING[m] The POM for com.massivecraft.massivecore:MassiveCore:jar:2.13.0 is missing, no dependency information available
+[[39mWARNING[m] The POM for com.massivecraft.factions:Factions:jar:2.13.0 is missing, no dependency information available
+Downloading from maven-codearts-jp: http://maven.codearts.jp/org/bukkit/bukkit/maven-metadata.xml
+Downloading from worldedit-worldguard-repo: http://maven.sk89q.com/repo/org/bukkit/bukkit/maven-metadata.xml
+[[39mWARNING[m] Could not transfer metadata org.bukkit:bukkit/maven-metadata.xml from/to worldedit-worldguard-repo (http://maven.sk89q.com/repo/): Failed to transfer file: http://maven.sk89q.com/repo/org/bukkit/bukkit/maven-metadata.xml. Return code is: 500 , ReasonPhrase:Internal Server Error.
+[[39mWARNING[m] Could not transfer metadata org.bukkit:bukkit/maven-metadata.xml from/to maven-codearts-jp (http://maven.codearts.jp/): maven.codearts.jp: unknown error
+[[39mWARNING[m] Failure to transfer org.bukkit:bukkit/maven-metadata.xml from http://maven.sk89q.com/repo/ was cached in the local repository, resolution will not be reattempted until the update interval of worldedit-worldguard-repo has elapsed or updates are forced. Original error: Could not transfer metadata org.bukkit:bukkit/maven-metadata.xml from/to worldedit-worldguard-repo (http://maven.sk89q.com/repo/): Failed to transfer file: http://maven.sk89q.com/repo/org/bukkit/bukkit/maven-metadata.xml. Return code is: 500 , ReasonPhrase:Internal Server Error.
+[[39mWARNING[m] Failure to transfer org.bukkit:bukkit/maven-metadata.xml from http://maven.codearts.jp/ was cached in the local repository, resolution will not be reattempted until the update interval of maven-codearts-jp has elapsed or updates are forced. Original error: Could not transfer metadata org.bukkit:bukkit/maven-metadata.xml from/to maven-codearts-jp (http://maven.codearts.jp/): maven.codearts.jp: unknown error
+[[39mINFO[m] 
+[[39mINFO[m] [39m--- [0;39mmaven-resources-plugin:2.6:resources[m [39m(default-resources)[m @ [39mSlimefun[0;39m ---[m
+[[39mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[39mINFO[m] Copying 2 resources
+[[39mINFO[m] 
+[[39mINFO[m] [39m--- [0;39mmaven-compiler-plugin:3.1:compile[m [39m(default-compile)[m @ [39mSlimefun[0;39m ---[m
+[[39mINFO[m] Changes detected - recompiling the module!
+[[39mINFO[m] Compiling 195 source files to /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/target/classes
+[[39mWARNING[m] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/listeners/ItemPickupListener.java: Some input files use or override a deprecated API.
+[[39mWARNING[m] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/listeners/ItemPickupListener.java: Recompile with -Xlint:deprecation for details.
+[[39mINFO[m] 
+[[39mINFO[m] [39m--- [0;39mmaven-resources-plugin:2.6:testResources[m [39m(default-testResources)[m @ [39mSlimefun[0;39m ---[m
+[[39mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[39mINFO[m] skip non existing resourceDirectory /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/tests/resources
+[[39mINFO[m] 
+[[39mINFO[m] [39m--- [0;39mmaven-compiler-plugin:3.1:testCompile[m [39m(default-testCompile)[m @ [39mSlimefun[0;39m ---[m
+[[39mINFO[m] No sources to compile
+[[39mINFO[m] 
+[[39mINFO[m] [39m--- [0;39mmaven-surefire-plugin:2.12.4:test[m [39m(default-test)[m @ [39mSlimefun[0;39m ---[m
+[[39mINFO[m] No tests to run.
+[[39mINFO[m] 
+[[39mINFO[m] [39m--- [0;39mmaven-jar-plugin:2.4:jar[m [39m(default-jar)[m @ [39mSlimefun[0;39m ---[m
+[[39mINFO[m] Building jar: /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/target/Slimefun4-21.jar
+[[39mINFO[m] [39m------------------------------------------------------------------------[m
+[[39mINFO[m] [39mBUILD SUCCESS[m
+[[39mINFO[m] [39m------------------------------------------------------------------------[m
+[[39mINFO[m] Total time: 27.385 s
+[[39mINFO[m] Finished at: 2018-02-20T22:47:59Z
+[[39mINFO[m] Final Memory: 20M/89M
+[[39mINFO[m] [39m------------------------------------------------------------------------[m
