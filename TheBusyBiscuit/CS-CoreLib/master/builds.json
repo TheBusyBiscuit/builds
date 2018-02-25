@@ -61,6 +61,22 @@
         "candidate": "DEVELOPMENT",
         "status": "SUCCESS"
     },
-    "latest": 4,
-    "last_successful": 4
+    "5": {
+        "id": 5,
+        "sha": "eb701558651e8282916bb7c53851c9d3481aa547",
+        "date": "25 Feb 2018 (08:15:27)",
+        "timestamp": 20180225081527,
+        "message": "Merge pull request #37 from creator3/plotsquared-fix\n\nFix PlotSquaredProtectionModule",
+        "author": "TheBusyBiscuit",
+        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
+        "license": {
+            "name": "GNU General Public License v3.0",
+            "id": "GPL-3.0",
+            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/CS-CoreLib/master/LICENSE"
+        },
+        "candidate": "DEVELOPMENT",
+        "status": "SUCCESS"
+    },
+    "latest": 5,
+    "last_successful": 5
 }
