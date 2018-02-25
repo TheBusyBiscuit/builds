@@ -336,6 +336,22 @@
         "candidate": "DEVELOPMENT",
         "status": "SUCCESS"
     },
-    "latest": 21,
-    "last_successful": 21
+    "22": {
+        "id": 22,
+        "sha": "9e0262d8b55ac72fad108e2d727f201039ec5722",
+        "date": "25 Feb 2018 (08:15:12)",
+        "timestamp": 20180225081512,
+        "message": "Merge pull request #610 from VoidAngel/patch-1\n\nFix discrepancies between block storage data and server events",
+        "author": "TheBusyBiscuit",
+        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
+        "license": {
+            "name": "GNU General Public License v3.0",
+            "id": "GPL-3.0",
+            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/Slimefun4/master/LICENSE"
+        },
+        "candidate": "DEVELOPMENT",
+        "status": "SUCCESS"
+    },
+    "latest": 22,
+    "last_successful": 22
 }
