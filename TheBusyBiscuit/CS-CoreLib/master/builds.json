@@ -77,6 +77,22 @@
         "candidate": "DEVELOPMENT",
         "status": "SUCCESS"
     },
-    "latest": 5,
-    "last_successful": 5
+    "6": {
+        "id": 6,
+        "sha": "6626819daccbe9a841e75ebeb8989a11a45776d0",
+        "date": "25 Feb 2018 (08:18:31)",
+        "timestamp": 20180225081831,
+        "message": "Merge pull request #38 from creator3/config-changes\n\nChange Config.java to Enable SlimeFun-side Optimization",
+        "author": "TheBusyBiscuit",
+        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
+        "license": {
+            "name": "GNU General Public License v3.0",
+            "id": "GPL-3.0",
+            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/CS-CoreLib/master/LICENSE"
+        },
+        "candidate": "DEVELOPMENT",
+        "status": "SUCCESS"
+    },
+    "latest": 6,
+    "last_successful": 6
 }
