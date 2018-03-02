@@ -384,6 +384,22 @@
         "candidate": "DEVELOPMENT",
         "status": "SUCCESS"
     },
-    "latest": 24,
-    "last_successful": 24
+    "25": {
+        "id": 25,
+        "sha": "ef51932e310d40174c798f7b126356a5efc9bce6",
+        "date": "02 Mar 2018 (21:51:36)",
+        "timestamp": 20180302215136,
+        "message": "Merge pull request #619 from meiamsome/electric-dust-washer\n\nFix #617: Electric Dust Washer - Dust Choice.",
+        "author": "TheBusyBiscuit",
+        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
+        "license": {
+            "name": "GNU General Public License v3.0",
+            "id": "GPL-3.0",
+            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/Slimefun4/master/LICENSE"
+        },
+        "candidate": "DEVELOPMENT",
+        "status": "SUCCESS"
+    },
+    "latest": 25,
+    "last_successful": 25
 }
