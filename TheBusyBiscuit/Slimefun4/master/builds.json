@@ -368,6 +368,22 @@
         "candidate": "DEVELOPMENT",
         "status": "SUCCESS"
     },
-    "latest": 23,
-    "last_successful": 23
+    "24": {
+        "id": 24,
+        "sha": "25539be913e4df236b0d113943749161158a9cba",
+        "date": "02 Mar 2018 (21:45:10)",
+        "timestamp": 20180302214510,
+        "message": "Merge pull request #620 from meiamsome/error-file-creation-fix\n\nSimplify error file name generation",
+        "author": "TheBusyBiscuit",
+        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
+        "license": {
+            "name": "GNU General Public License v3.0",
+            "id": "GPL-3.0",
+            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/Slimefun4/master/LICENSE"
+        },
+        "candidate": "DEVELOPMENT",
+        "status": "SUCCESS"
+    },
+    "latest": 24,
+    "last_successful": 24
 }
