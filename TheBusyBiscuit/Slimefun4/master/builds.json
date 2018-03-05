@@ -336,6 +336,119 @@
         "candidate": "DEVELOPMENT",
         "status": "SUCCESS"
     },
-    "latest": 21,
-    "last_successful": 21
+    "22": {
+        "id": 22,
+        "sha": "9e0262d8b55ac72fad108e2d727f201039ec5722",
+        "date": "25 Feb 2018 (08:15:12)",
+        "timestamp": 20180225081512,
+        "message": "Merge pull request #610 from VoidAngel/patch-1\n\nFix discrepancies between block storage data and server events",
+        "author": "TheBusyBiscuit",
+        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
+        "license": {
+            "name": "GNU General Public License v3.0",
+            "id": "GPL-3.0",
+            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/Slimefun4/master/LICENSE"
+        },
+        "candidate": "DEVELOPMENT",
+        "status": "SUCCESS"
+    },
+    "23": {
+        "id": 23,
+        "sha": "fd8967e773c4b37f273935c9dc23955fa7ae944d",
+        "date": "02 Mar 2018 (21:42:44)",
+        "timestamp": 20180302214244,
+        "message": "Merge pull request #618 from meiamsome/altar-animation-cleanup\n\nSimplify the RitualAnimation",
+        "author": "TheBusyBiscuit",
+        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
+        "license": {
+            "name": "GNU General Public License v3.0",
+            "id": "GPL-3.0",
+            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/Slimefun4/master/LICENSE"
+        },
+        "candidate": "DEVELOPMENT",
+        "status": "SUCCESS"
+    },
+    "24": {
+        "id": 24,
+        "sha": "25539be913e4df236b0d113943749161158a9cba",
+        "date": "02 Mar 2018 (21:45:10)",
+        "timestamp": 20180302214510,
+        "message": "Merge pull request #620 from meiamsome/error-file-creation-fix\n\nSimplify error file name generation",
+        "author": "TheBusyBiscuit",
+        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
+        "license": {
+            "name": "GNU General Public License v3.0",
+            "id": "GPL-3.0",
+            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/Slimefun4/master/LICENSE"
+        },
+        "candidate": "DEVELOPMENT",
+        "status": "SUCCESS"
+    },
+    "25": {
+        "id": 25,
+        "sha": "ef51932e310d40174c798f7b126356a5efc9bce6",
+        "date": "02 Mar 2018 (21:51:36)",
+        "timestamp": 20180302215136,
+        "message": "Merge pull request #619 from meiamsome/electric-dust-washer\n\nFix #617: Electric Dust Washer - Dust Choice.",
+        "author": "TheBusyBiscuit",
+        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
+        "license": {
+            "name": "GNU General Public License v3.0",
+            "id": "GPL-3.0",
+            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/Slimefun4/master/LICENSE"
+        },
+        "candidate": "DEVELOPMENT",
+        "status": "SUCCESS"
+    },
+    "26": {
+        "id": 26,
+        "sha": "b3e5e45b2c31f3c10e59102ef21f24e836692e83",
+        "date": "03 Mar 2018 (16:42:43)",
+        "timestamp": 20180303164243,
+        "message": "Merge pull request #623 from AtomicScience/master\n\n Fixed incompatibility with KeepItems-like plugins",
+        "author": "TheBusyBiscuit",
+        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
+        "license": {
+            "name": "GNU General Public License v3.0",
+            "id": "GPL-3.0",
+            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/Slimefun4/master/LICENSE"
+        },
+        "candidate": "DEVELOPMENT",
+        "status": "SUCCESS"
+    },
+    "27": {
+        "id": 27,
+        "sha": "313d71c2cd363e11bfc5961cb66363af217b5224",
+        "date": "05 Mar 2018 (20:21:41)",
+        "timestamp": 20180305202141,
+        "message": "Merge pull request #627 from meiamsome/hunter_talisman_fix\n\nPrevent Talisman of the Hunter from duping armour/heads",
+        "author": "TheBusyBiscuit",
+        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
+        "license": {
+            "name": "GNU General Public License v3.0",
+            "id": "GPL-3.0",
+            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/Slimefun4/master/LICENSE"
+        },
+        "candidate": "DEVELOPMENT",
+        "status": "SUCCESS"
+    },
+    "28": {
+        "id": 28,
+        "sha": "195ebe7735c11fb10c49f67e2f380a67dd31d243",
+        "date": "05 Mar 2018 (20:25:16)",
+        "timestamp": 20180305202516,
+        "message": "Updated to Version: 4.1.14",
+        "author": "TheBusyBiscuit",
+        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
+        "license": {
+            "name": "GNU General Public License v3.0",
+            "id": "GPL-3.0",
+            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/Slimefun4/master/LICENSE"
+        },
+        "candidate": "RELEASE",
+        "tag": "v4.1.14",
+        "status": "SUCCESS"
+    },
+    "latest": 28,
+    "last_successful": 28
 }
