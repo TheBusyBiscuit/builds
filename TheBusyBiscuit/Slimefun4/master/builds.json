@@ -416,6 +416,22 @@
         "candidate": "DEVELOPMENT",
         "status": "SUCCESS"
     },
-    "latest": 26,
-    "last_successful": 26
+    "27": {
+        "id": 27,
+        "sha": "313d71c2cd363e11bfc5961cb66363af217b5224",
+        "date": "05 Mar 2018 (20:21:41)",
+        "timestamp": 20180305202141,
+        "message": "Merge pull request #627 from meiamsome/hunter_talisman_fix\n\nPrevent Talisman of the Hunter from duping armour/heads",
+        "author": "TheBusyBiscuit",
+        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
+        "license": {
+            "name": "GNU General Public License v3.0",
+            "id": "GPL-3.0",
+            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/Slimefun4/master/LICENSE"
+        },
+        "candidate": "DEVELOPMENT",
+        "status": "SUCCESS"
+    },
+    "latest": 27,
+    "last_successful": 27
 }
