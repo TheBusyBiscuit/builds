@@ -432,6 +432,23 @@
         "candidate": "DEVELOPMENT",
         "status": "SUCCESS"
     },
-    "latest": 27,
-    "last_successful": 27
+    "28": {
+        "id": 28,
+        "sha": "195ebe7735c11fb10c49f67e2f380a67dd31d243",
+        "date": "05 Mar 2018 (20:25:16)",
+        "timestamp": 20180305202516,
+        "message": "Updated to Version: 4.1.14",
+        "author": "TheBusyBiscuit",
+        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
+        "license": {
+            "name": "GNU General Public License v3.0",
+            "id": "GPL-3.0",
+            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/Slimefun4/master/LICENSE"
+        },
+        "candidate": "RELEASE",
+        "tag": "v4.1.14",
+        "status": "SUCCESS"
+    },
+    "latest": 28,
+    "last_successful": 28
 }
