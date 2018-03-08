@@ -1,20 +1,18 @@
 $(function() {
     $.getJSON("https://thebusybiscuit.github.io/builds/repos.json", function(repos) {
         $("#repos").html("");
-        for (var author in repos) {
-            for (var i in repos[author]) {
-                var repo = repos[author][i];
-                var repository = repo.split(':')[0];
-                var branch = repo.split(':')[1];
-
-                addRepository(author, repository, branch);
+        
+        for (let author in repos) {
+            for (let i in repos[author]) {
+                let repo = repos[author][i];
+                addRepository(author, repo.split(':')[0], repo.split(':')[1]);
             }
         }
     });
 });
 
 function addRepository(owner, repo, branch) {
-    var html = "<div class=\"box repo\">";
+    let html = "<div class=\"box repo\">";
     html += "<a class=\"link_build link_repo\" href=\"" + owner + "/" + repo + "/" + branch + "\">";
     html += owner + "/" + repo + " (" + branch + ")</a>";
     html += "<table class=\"info_table\">";
@@ -36,14 +34,14 @@ function addRepository(owner, repo, branch) {
     $("#repos").append(html);
 
     $.getJSON("https://thebusybiscuit.github.io/builds/" + owner + "/" + repo + "/" + branch + "/builds.json", function(builds) {
-        var latest = $("#latest_" + owner + "_" + repo + "_" + branch);
+        let latest = $("#latest_" + owner + "_" + repo + "_" + branch);
 
         latest.attr("href", owner + "/" + repo + "/" + branch + "#" + builds.latest);
         latest.text("#" + builds.latest + " - " + builds[builds.latest].date);
 
-        var last_successful = $("#successful_" + owner + "_" + repo + "_" + branch);
+        let last_successful = $("#successful_" + owner + "_" + repo + "_" + branch);
 
         last_successful.attr("href", owner + "/" + repo + "/" + branch + "#" + builds.last_successful);
-        last_successful.text("#" + builds.last_successful + " - " + builds[builds.last_successful].date);
+        last_successful.text("#" + (builds[builds.last_successful].tag ? builds[builds.last_successful].tag: builds.last_successful) + " - " + builds[builds.last_successful].date);
     });
 }
