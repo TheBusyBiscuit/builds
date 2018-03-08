@@ -306,3 +306,7 @@ a.build_child {
     overflow-y: scroll;
     width: 99.5%;
 }
+
+.table_label {
+    width: 25%;
+}
