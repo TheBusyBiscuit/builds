@@ -1,7 +1,7 @@
 $(function() {
     $.getJSON("https://thebusybiscuit.github.io/builds/repos.json", function(repos) {
         $("#repos").html("");
-        
+
         for (let author in repos) {
             for (let i in repos[author]) {
                 let repo = repos[author][i];
@@ -37,11 +37,6 @@ function addRepository(owner, repo, branch) {
         let latest = $("#latest_" + owner + "_" + repo + "_" + branch);
 
         latest.attr("href", owner + "/" + repo + "/" + branch + "#" + builds.latest);
-        latest.text("#" + builds.latest + " - " + builds[builds.latest].date);
-
-        let last_successful = $("#successful_" + owner + "_" + repo + "_" + branch);
-
-        last_successful.attr("href", owner + "/" + repo + "/" + branch + "#" + builds.last_successful);
-        last_successful.text("#" + (builds[builds.last_successful].tag ? builds[builds.last_successful].tag: builds.last_successful) + " - " + builds[builds.last_successful].date);
+        latest.text("#" + (builds[builds.latest].tag ? builds[builds.latest].tag: builds.latest) + " - " + builds[builds.latest].date);
     });
 }
