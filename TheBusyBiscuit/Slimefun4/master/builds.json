@@ -449,6 +449,22 @@
         "tag": "v4.1.14",
         "status": "SUCCESS"
     },
-    "latest": 28,
-    "last_successful": 28
+    "29": {
+        "id": 29,
+        "sha": "2f2cf7300f4d2baff5ae9bccfa5b139151c640c6",
+        "date": "25 Mar 2018 (08:09:33)",
+        "timestamp": 20180325080933,
+        "message": "Merge pull request #629 from meiamsome/nuclear-reactor-fix\n\nFix AReactor Issue",
+        "author": "TheBusyBiscuit",
+        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
+        "license": {
+            "name": "GNU General Public License v3.0",
+            "id": "GPL-3.0",
+            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/Slimefun4/master/LICENSE"
+        },
+        "candidate": "DEVELOPMENT",
+        "status": "SUCCESS"
+    },
+    "latest": 29,
+    "last_successful": 29
 }
