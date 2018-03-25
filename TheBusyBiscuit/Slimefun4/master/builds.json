@@ -465,6 +465,22 @@
         "candidate": "DEVELOPMENT",
         "status": "SUCCESS"
     },
-    "latest": 29,
-    "last_successful": 29
+    "30": {
+        "id": 30,
+        "sha": "3d90994d9fc0330923325518cf4ee4d811c0f1be",
+        "date": "25 Mar 2018 (08:11:50)",
+        "timestamp": 20180325081150,
+        "message": "Merge pull request #632 from meiamsome/fix-509\n\nCheck if the chunk is loaded instead of relying on exceptions",
+        "author": "TheBusyBiscuit",
+        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
+        "license": {
+            "name": "GNU General Public License v3.0",
+            "id": "GPL-3.0",
+            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/Slimefun4/master/LICENSE"
+        },
+        "candidate": "DEVELOPMENT",
+        "status": "SUCCESS"
+    },
+    "latest": 30,
+    "last_successful": 30
 }
