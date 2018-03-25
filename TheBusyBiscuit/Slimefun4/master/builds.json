@@ -481,6 +481,22 @@
         "candidate": "DEVELOPMENT",
         "status": "SUCCESS"
     },
-    "latest": 30,
-    "last_successful": 30
+    "31": {
+        "id": 31,
+        "sha": "7b07bc8c611d24eef498991835b77cd45d1851a9",
+        "date": "25 Mar 2018 (08:19:07)",
+        "timestamp": 20180325081907,
+        "message": "Merge pull request #630 from meiamsome/network-caching\n\nCreate a Network class to manage networks in a stateful way",
+        "author": "TheBusyBiscuit",
+        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
+        "license": {
+            "name": "GNU General Public License v3.0",
+            "id": "GPL-3.0",
+            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/Slimefun4/master/LICENSE"
+        },
+        "candidate": "DEVELOPMENT",
+        "status": "SUCCESS"
+    },
+    "latest": 31,
+    "last_successful": 31
 }
