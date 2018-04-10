@@ -93,6 +93,22 @@
         "candidate": "DEVELOPMENT",
         "status": "SUCCESS"
     },
-    "latest": 6,
-    "last_successful": 6
+    "7": {
+        "id": 7,
+        "sha": "2b6a13922ffdbeea8c65c44c965a1fd63f7b111a",
+        "date": "10 Apr 2018 (06:03:29)",
+        "timestamp": 20180410060329,
+        "message": "Merge pull request #40 from DrOreo002/master\n\nAdded a support for RedProtect",
+        "author": "TheBusyBiscuit",
+        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
+        "license": {
+            "name": "GNU General Public License v3.0",
+            "id": "GPL-3.0",
+            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/CS-CoreLib/master/LICENSE"
+        },
+        "candidate": "DEVELOPMENT",
+        "status": "SUCCESS"
+    },
+    "latest": 7,
+    "last_successful": 7
 }
