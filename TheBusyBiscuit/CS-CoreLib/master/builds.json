@@ -125,6 +125,22 @@
         "candidate": "DEVELOPMENT",
         "status": "SUCCESS"
     },
-    "latest": 8,
-    "last_successful": 8
+    "9": {
+        "id": 9,
+        "sha": "e6afb6dad7067ded698bb7d559a96a7d157da30e",
+        "date": "16 Apr 2018 (21:45:14)",
+        "timestamp": 20180416214514,
+        "message": "Merge pull request #43 from creator3/master\n\nSignal with BlockBreakEvent.setDropItems(false)",
+        "author": "TheBusyBiscuit",
+        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
+        "license": {
+            "name": "GNU General Public License v3.0",
+            "id": "GPL-3.0",
+            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/CS-CoreLib/master/LICENSE"
+        },
+        "candidate": "DEVELOPMENT",
+        "status": "SUCCESS"
+    },
+    "latest": 9,
+    "last_successful": 9
 }
