@@ -497,6 +497,22 @@
         "candidate": "DEVELOPMENT",
         "status": "SUCCESS"
     },
-    "latest": 31,
+    "32": {
+        "id": 32,
+        "sha": "0ce04d6a495d801c24651164851b39658b8d27e4",
+        "date": "16 Apr 2018 (21:50:22)",
+        "timestamp": 20180416215022,
+        "message": "Merge pull request #656 from SoSeDiK/Fixes\n\nA small bunch of something",
+        "author": "TheBusyBiscuit",
+        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
+        "license": {
+            "name": "GNU General Public License v3.0",
+            "id": "GPL-3.0",
+            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/Slimefun4/master/LICENSE"
+        },
+        "candidate": "DEVELOPMENT",
+        "status": "FAILURE"
+    },
+    "latest": 32,
     "last_successful": 31
 }
