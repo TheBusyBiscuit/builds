@@ -109,6 +109,22 @@
         "candidate": "DEVELOPMENT",
         "status": "SUCCESS"
     },
-    "latest": 7,
-    "last_successful": 7
+    "8": {
+        "id": 8,
+        "sha": "04e24a2211d77cf312100001f05a5f1bdd935a28",
+        "date": "16 Apr 2018 (21:41:17)",
+        "timestamp": 20180416214117,
+        "message": "Merge pull request #42 from SoSeDiK/New-CutsomPotion\n\nAdded a new CustomPotion method",
+        "author": "TheBusyBiscuit",
+        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
+        "license": {
+            "name": "GNU General Public License v3.0",
+            "id": "GPL-3.0",
+            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/CS-CoreLib/master/LICENSE"
+        },
+        "candidate": "DEVELOPMENT",
+        "status": "SUCCESS"
+    },
+    "latest": 8,
+    "last_successful": 8
 }
