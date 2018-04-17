@@ -303,7 +303,7 @@ function compareBuilds(job, builds, commit) {
     }
 }
 
-function clone(job, commit, builds, callback) {
+function clone(job, commit, builds) {
     global.status.task[job.author + "/" + job.repo + "/" + job.branch] = "Downloading Files";
 
     console.log("Cloning Repository \"" + job.author + "/" + job.repo + "\"...");
