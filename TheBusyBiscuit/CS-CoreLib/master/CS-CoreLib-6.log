@@ -1,61 +1,61 @@
-[[1;34mINFO[m] Scanning for projects...
-[[1;34mINFO[m] 
-[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
-[[1;34mINFO[m] [1mBuilding CS-CoreLib DEV #6 (git 6626819d)[m
-[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
-[[1;33mWARNING[m] The POM for com.wasteofplastic:askyblock:jar:3.0.6.9 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
-[[1;33mWARNING[m] The POM for com.github.dmulloy2.LWC:lwc:jar:master-4.5.1-g2100b5e-18 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
-[[1;33mWARNING[m] The POM for com.massivecraft.massivecore:MassiveCore:jar:2.13.0 is missing, no dependency information available
-[[1;33mWARNING[m] The POM for com.massivecraft.factions:Factions:jar:2.13.0 is missing, no dependency information available
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Building CS-CoreLib DEV #6 (git 6626819d)
+[INFO] ------------------------------------------------------------------------
+[WARNING] The POM for com.wasteofplastic:askyblock:jar:3.0.6.9 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+[WARNING] The POM for com.github.dmulloy2.LWC:lwc:jar:master-4.5.1-g2100b5e-18 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+[WARNING] The POM for com.massivecraft.massivecore:MassiveCore:jar:2.13.0 is missing, no dependency information available
+[WARNING] The POM for com.massivecraft.factions:Factions:jar:2.13.0 is missing, no dependency information available
 Downloading from maven-codearts-jp: http://maven.codearts.jp/org/bukkit/bukkit/maven-metadata.xml
 Downloading from worldedit-worldguard-repo: http://maven.sk89q.com/repo/org/bukkit/bukkit/maven-metadata.xml
-[[1;33mWARNING[m] Could not transfer metadata org.bukkit:bukkit/maven-metadata.xml from/to worldedit-worldguard-repo (http://maven.sk89q.com/repo/): Failed to transfer file: http://maven.sk89q.com/repo/org/bukkit/bukkit/maven-metadata.xml. Return code is: 500 , ReasonPhrase:Internal Server Error.
-[[1;33mWARNING[m] Could not transfer metadata org.bukkit:bukkit/maven-metadata.xml from/to maven-codearts-jp (http://maven.codearts.jp/): maven.codearts.jp: unknown error
-[[1;33mWARNING[m] Failure to transfer org.bukkit:bukkit/maven-metadata.xml from http://maven.sk89q.com/repo/ was cached in the local repository, resolution will not be reattempted until the update interval of worldedit-worldguard-repo has elapsed or updates are forced. Original error: Could not transfer metadata org.bukkit:bukkit/maven-metadata.xml from/to worldedit-worldguard-repo (http://maven.sk89q.com/repo/): Failed to transfer file: http://maven.sk89q.com/repo/org/bukkit/bukkit/maven-metadata.xml. Return code is: 500 , ReasonPhrase:Internal Server Error.
-[[1;33mWARNING[m] Failure to transfer org.bukkit:bukkit/maven-metadata.xml from http://maven.codearts.jp/ was cached in the local repository, resolution will not be reattempted until the update interval of maven-codearts-jp has elapsed or updates are forced. Original error: Could not transfer metadata org.bukkit:bukkit/maven-metadata.xml from/to maven-codearts-jp (http://maven.codearts.jp/): maven.codearts.jp: unknown error
-[[1;34mINFO[m] 
-[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:resources[m [1m(default-resources)[m @ [36mCS-CoreLib[0;1m ---[m
-[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
-[[1;34mINFO[m] Copying 2 resources
-[[1;34mINFO[m] 
-[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.1:compile[m [1m(default-compile)[m @ [36mCS-CoreLib[0;1m ---[m
-[[1;34mINFO[m] Changes detected - recompiling the module!
-[[1;34mINFO[m] Compiling 101 source files to /home/pi/builds/TheBusyBiscuit/CS-CoreLib/master/files/target/classes
-[[1;33mWARNING[m] /home/pi/builds/TheBusyBiscuit/CS-CoreLib/master/files/src/me/mrCookieSlime/CSCoreLibPlugin/general/audio/SoundConfig.java:[309,49] unmappable character for encoding UTF-8
-[[1;33mWARNING[m] /home/pi/builds/TheBusyBiscuit/CS-CoreLib/master/files/src/me/mrCookieSlime/CSCoreLibPlugin/general/audio/SoundConfig.java:[311,86] unmappable character for encoding UTF-8
-[[1;33mWARNING[m] /home/pi/builds/TheBusyBiscuit/CS-CoreLib/master/files/src/me/mrCookieSlime/CSCoreLibPlugin/general/audio/SoundConfig.java:[311,107] unmappable character for encoding UTF-8
-[[1;33mWARNING[m] /home/pi/builds/TheBusyBiscuit/CS-CoreLib/master/files/src/me/mrCookieSlime/CSCoreLibPlugin/general/audio/SoundConfig.java:[321,88] unmappable character for encoding UTF-8
-[[1;33mWARNING[m] /home/pi/builds/TheBusyBiscuit/CS-CoreLib/master/files/src/me/mrCookieSlime/CSCoreLibPlugin/general/audio/SoundConfig.java:[321,101] unmappable character for encoding UTF-8
-[[1;33mWARNING[m] /home/pi/builds/TheBusyBiscuit/CS-CoreLib/master/files/src/me/mrCookieSlime/CSCoreLibPlugin/general/audio/SoundConfig.java:[321,119] unmappable character for encoding UTF-8
-[[1;33mWARNING[m] /home/pi/builds/TheBusyBiscuit/CS-CoreLib/master/files/src/me/mrCookieSlime/CSCoreLibPlugin/general/audio/SoundConfig.java:[321,158] unmappable character for encoding UTF-8
-[[1;33mWARNING[m] /home/pi/builds/TheBusyBiscuit/CS-CoreLib/master/files/src/me/mrCookieSlime/CSCoreLibPlugin/general/audio/SoundConfig.java:[321,168] unmappable character for encoding UTF-8
-[[1;33mWARNING[m] /home/pi/builds/TheBusyBiscuit/CS-CoreLib/master/files/src/me/mrCookieSlime/CSCoreLibPlugin/general/audio/SoundConfig.java:[321,208] unmappable character for encoding UTF-8
-[[1;33mWARNING[m] /home/pi/builds/TheBusyBiscuit/CS-CoreLib/master/files/src/me/mrCookieSlime/CSCoreLibPlugin/general/audio/SoundConfig.java:[321,217] unmappable character for encoding UTF-8
-[[1;33mWARNING[m] /home/pi/builds/TheBusyBiscuit/CS-CoreLib/master/files/src/me/mrCookieSlime/CSCoreLibPlugin/general/audio/SoundConfig.java:[321,260] unmappable character for encoding UTF-8
-[[1;33mWARNING[m] /home/pi/builds/TheBusyBiscuit/CS-CoreLib/master/files/src/me/mrCookieSlime/CSCoreLibPlugin/general/audio/SoundConfig.java:[331,92] unmappable character for encoding UTF-8
-[[1;33mWARNING[m] /home/pi/builds/TheBusyBiscuit/CS-CoreLib/master/files/src/me/mrCookieSlime/CSCoreLibPlugin/general/audio/SoundConfig.java:[331,112] unmappable character for encoding UTF-8
-[[1;33mWARNING[m] /home/pi/builds/TheBusyBiscuit/CS-CoreLib/master/files/src/me/mrCookieSlime/CSCoreLibPlugin/general/Inventory/Item/CustomItemSerializer.java:[75,104] unmappable character for encoding UTF-8
-[[1;33mWARNING[m] /home/pi/builds/TheBusyBiscuit/CS-CoreLib/master/files/src/me/mrCookieSlime/CSCoreLibPlugin/general/Inventory/Item/CustomItemSerializer.java:[84,108] unmappable character for encoding UTF-8
-[[1;33mWARNING[m] /home/pi/builds/TheBusyBiscuit/CS-CoreLib/master/files/src/me/mrCookieSlime/CSCoreLibPlugin/general/Inventory/MenuHelper.java:[25,67] unmappable character for encoding UTF-8
-[[1;33mWARNING[m] /home/pi/builds/TheBusyBiscuit/CS-CoreLib/master/files/src/me/mrCookieSlime/CSCoreLibPlugin/general/Inventory/Item/CustomBanner.java: Some input files use or override a deprecated API.
-[[1;33mWARNING[m] /home/pi/builds/TheBusyBiscuit/CS-CoreLib/master/files/src/me/mrCookieSlime/CSCoreLibPlugin/general/Inventory/Item/CustomBanner.java: Recompile with -Xlint:deprecation for details.
-[[1;34mINFO[m] 
-[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:testResources[m [1m(default-testResources)[m @ [36mCS-CoreLib[0;1m ---[m
-[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
-[[1;34mINFO[m] skip non existing resourceDirectory /home/pi/builds/TheBusyBiscuit/CS-CoreLib/master/files/tests/resources
-[[1;34mINFO[m] 
-[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.1:testCompile[m [1m(default-testCompile)[m @ [36mCS-CoreLib[0;1m ---[m
-[[1;34mINFO[m] No sources to compile
-[[1;34mINFO[m] 
-[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:2.12.4:test[m [1m(default-test)[m @ [36mCS-CoreLib[0;1m ---[m
-[[1;34mINFO[m] No tests to run.
-[[1;34mINFO[m] 
-[[1;34mINFO[m] [1m--- [0;32mmaven-jar-plugin:2.4:jar[m [1m(default-jar)[m @ [36mCS-CoreLib[0;1m ---[m
-[[1;34mINFO[m] Building jar: /home/pi/builds/TheBusyBiscuit/CS-CoreLib/master/files/target/CS-CoreLib-6.jar
-[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
-[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
-[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
-[[1;34mINFO[m] Total time: 16.322 s
-[[1;34mINFO[m] Finished at: 2018-02-25T08:20:09Z
-[[1;34mINFO[m] Final Memory: 16M/53M
-[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[WARNING] Could not transfer metadata org.bukkit:bukkit/maven-metadata.xml from/to worldedit-worldguard-repo (http://maven.sk89q.com/repo/): Failed to transfer file: http://maven.sk89q.com/repo/org/bukkit/bukkit/maven-metadata.xml. Return code is: 500 , ReasonPhrase:Internal Server Error.
+[WARNING] Could not transfer metadata org.bukkit:bukkit/maven-metadata.xml from/to maven-codearts-jp (http://maven.codearts.jp/): maven.codearts.jp: unknown error
+[WARNING] Failure to transfer org.bukkit:bukkit/maven-metadata.xml from http://maven.sk89q.com/repo/ was cached in the local repository, resolution will not be reattempted until the update interval of worldedit-worldguard-repo has elapsed or updates are forced. Original error: Could not transfer metadata org.bukkit:bukkit/maven-metadata.xml from/to worldedit-worldguard-repo (http://maven.sk89q.com/repo/): Failed to transfer file: http://maven.sk89q.com/repo/org/bukkit/bukkit/maven-metadata.xml. Return code is: 500 , ReasonPhrase:Internal Server Error.
+[WARNING] Failure to transfer org.bukkit:bukkit/maven-metadata.xml from http://maven.codearts.jp/ was cached in the local repository, resolution will not be reattempted until the update interval of maven-codearts-jp has elapsed or updates are forced. Original error: Could not transfer metadata org.bukkit:bukkit/maven-metadata.xml from/to maven-codearts-jp (http://maven.codearts.jp/): maven.codearts.jp: unknown error
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ CS-CoreLib ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ CS-CoreLib ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 101 source files to /home/pi/builds/TheBusyBiscuit/CS-CoreLib/master/files/target/classes
+[WARNING] /home/pi/builds/TheBusyBiscuit/CS-CoreLib/master/files/src/me/mrCookieSlime/CSCoreLibPlugin/general/audio/SoundConfig.java:[309,49] unmappable character for encoding UTF-8
+[WARNING] /home/pi/builds/TheBusyBiscuit/CS-CoreLib/master/files/src/me/mrCookieSlime/CSCoreLibPlugin/general/audio/SoundConfig.java:[311,86] unmappable character for encoding UTF-8
+[WARNING] /home/pi/builds/TheBusyBiscuit/CS-CoreLib/master/files/src/me/mrCookieSlime/CSCoreLibPlugin/general/audio/SoundConfig.java:[311,107] unmappable character for encoding UTF-8
+[WARNING] /home/pi/builds/TheBusyBiscuit/CS-CoreLib/master/files/src/me/mrCookieSlime/CSCoreLibPlugin/general/audio/SoundConfig.java:[321,88] unmappable character for encoding UTF-8
+[WARNING] /home/pi/builds/TheBusyBiscuit/CS-CoreLib/master/files/src/me/mrCookieSlime/CSCoreLibPlugin/general/audio/SoundConfig.java:[321,101] unmappable character for encoding UTF-8
+[WARNING] /home/pi/builds/TheBusyBiscuit/CS-CoreLib/master/files/src/me/mrCookieSlime/CSCoreLibPlugin/general/audio/SoundConfig.java:[321,119] unmappable character for encoding UTF-8
+[WARNING] /home/pi/builds/TheBusyBiscuit/CS-CoreLib/master/files/src/me/mrCookieSlime/CSCoreLibPlugin/general/audio/SoundConfig.java:[321,158] unmappable character for encoding UTF-8
+[WARNING] /home/pi/builds/TheBusyBiscuit/CS-CoreLib/master/files/src/me/mrCookieSlime/CSCoreLibPlugin/general/audio/SoundConfig.java:[321,168] unmappable character for encoding UTF-8
+[WARNING] /home/pi/builds/TheBusyBiscuit/CS-CoreLib/master/files/src/me/mrCookieSlime/CSCoreLibPlugin/general/audio/SoundConfig.java:[321,208] unmappable character for encoding UTF-8
+[WARNING] /home/pi/builds/TheBusyBiscuit/CS-CoreLib/master/files/src/me/mrCookieSlime/CSCoreLibPlugin/general/audio/SoundConfig.java:[321,217] unmappable character for encoding UTF-8
+[WARNING] /home/pi/builds/TheBusyBiscuit/CS-CoreLib/master/files/src/me/mrCookieSlime/CSCoreLibPlugin/general/audio/SoundConfig.java:[321,260] unmappable character for encoding UTF-8
+[WARNING] /home/pi/builds/TheBusyBiscuit/CS-CoreLib/master/files/src/me/mrCookieSlime/CSCoreLibPlugin/general/audio/SoundConfig.java:[331,92] unmappable character for encoding UTF-8
+[WARNING] /home/pi/builds/TheBusyBiscuit/CS-CoreLib/master/files/src/me/mrCookieSlime/CSCoreLibPlugin/general/audio/SoundConfig.java:[331,112] unmappable character for encoding UTF-8
+[WARNING] /home/pi/builds/TheBusyBiscuit/CS-CoreLib/master/files/src/me/mrCookieSlime/CSCoreLibPlugin/general/Inventory/Item/CustomItemSerializer.java:[75,104] unmappable character for encoding UTF-8
+[WARNING] /home/pi/builds/TheBusyBiscuit/CS-CoreLib/master/files/src/me/mrCookieSlime/CSCoreLibPlugin/general/Inventory/Item/CustomItemSerializer.java:[84,108] unmappable character for encoding UTF-8
+[WARNING] /home/pi/builds/TheBusyBiscuit/CS-CoreLib/master/files/src/me/mrCookieSlime/CSCoreLibPlugin/general/Inventory/MenuHelper.java:[25,67] unmappable character for encoding UTF-8
+[WARNING] /home/pi/builds/TheBusyBiscuit/CS-CoreLib/master/files/src/me/mrCookieSlime/CSCoreLibPlugin/general/Inventory/Item/CustomBanner.java: Some input files use or override a deprecated API.
+[WARNING] /home/pi/builds/TheBusyBiscuit/CS-CoreLib/master/files/src/me/mrCookieSlime/CSCoreLibPlugin/general/Inventory/Item/CustomBanner.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ CS-CoreLib ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/pi/builds/TheBusyBiscuit/CS-CoreLib/master/files/tests/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ CS-CoreLib ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ CS-CoreLib ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ CS-CoreLib ---
+[INFO] Building jar: /home/pi/builds/TheBusyBiscuit/CS-CoreLib/master/files/target/CS-CoreLib-6.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 16.322 s
+[INFO] Finished at: 2018-02-25T08:20:09Z
+[INFO] Final Memory: 16M/53M
+[INFO] ------------------------------------------------------------------------

@@ -1,18 +1,18 @@
-[[1;34mINFO[m] Scanning for projects...
-[[1;33mWARNING[m] 
-[[1;33mWARNING[m] Some problems were encountered while building the effective model for me.mrCookieSlime:Slimefun:jar:DEV #19 (git: 018e8b955b3ca76241be1054d1cc98edffd480a0)
-[[1;33mWARNING[m] 'dependencies.dependency.systemPath' for me.mrCookieSlime:EmeraldEnchants:jar should not point at files within the project directory, ${project.basedir}/lib/EmeraldEnchants v2.0.jar will be unresolvable by dependent projects @ line 1, column 2578
-[[1;33mWARNING[m] 'dependencies.dependency.systemPath' for me.mrCookieSlime:ExoticGarden:jar should not point at files within the project directory, ${project.basedir}/lib/ExoticGarden v1.2.0.jar will be unresolvable by dependent projects @ line 1, column 2792
-[[1;33mWARNING[m] 'version' must not contain any of these characters \/:"<>|?* but found : @ line 1, column 353
-[[1;33mWARNING[m] 
-[[1;33mWARNING[m] It is highly recommended to fix these problems because they threaten the stability of your build.
-[[1;33mWARNING[m] 
-[[1;33mWARNING[m] For this reason, future Maven versions might no longer support building such malformed projects.
-[[1;33mWARNING[m] 
-[[1;34mINFO[m] 
-[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
-[[1;34mINFO[m] [1mBuilding Slimefun DEV #19 (git: 018e8b955b3ca76241be1054d1cc98edffd480a0)[m
-[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for me.mrCookieSlime:Slimefun:jar:DEV #19 (git: 018e8b955b3ca76241be1054d1cc98edffd480a0)
+[WARNING] 'dependencies.dependency.systemPath' for me.mrCookieSlime:EmeraldEnchants:jar should not point at files within the project directory, ${project.basedir}/lib/EmeraldEnchants v2.0.jar will be unresolvable by dependent projects @ line 1, column 2578
+[WARNING] 'dependencies.dependency.systemPath' for me.mrCookieSlime:ExoticGarden:jar should not point at files within the project directory, ${project.basedir}/lib/ExoticGarden v1.2.0.jar will be unresolvable by dependent projects @ line 1, column 2792
+[WARNING] 'version' must not contain any of these characters \/:"<>|?* but found : @ line 1, column 353
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Slimefun DEV #19 (git: 018e8b955b3ca76241be1054d1cc98edffd480a0)
+[INFO] ------------------------------------------------------------------------
 Downloading from worldedit-worldguard-repo: http://maven.sk89q.com/repo/org/bukkit/bukkit/1.12-R0.1-SNAPSHOT/maven-metadata.xml
 Downloading from jitpack.io: https://jitpack.io/org/bukkit/bukkit/1.12-R0.1-SNAPSHOT/maven-metadata.xml
 Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/bukkit/bukkit/1.12-R0.1-SNAPSHOT/maven-metadata.xml
@@ -100,8 +100,8 @@ Downloading from massivecore-factions-repo: http://repo.dustplanet.de/artifactor
 Downloading from sk89q-repo: http://maven.sk89q.com/repo/org/bukkit/bukkit/1.8.6-R0.1-SNAPSHOT/maven-metadata.xml
 Downloaded from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/bukkit/bukkit/1.8.6-R0.1-SNAPSHOT/maven-metadata.xml (1.4 kB at 2.2 kB/s)
 Progress (1): 1.4 kB                    Downloaded from simpleclans-preciousstones-repo: http://104.236.246.108:8081/artifactory/remote-repos/org/bukkit/bukkit/1.8.6-R0.1-SNAPSHOT/maven-metadata.xml (1.4 kB at 1.3 kB/s)
-[[1;33mWARNING[m] The POM for com.wasteofplastic:askyblock:jar:3.0.6.9 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
-[[1;33mWARNING[m] The POM for com.github.dmulloy2.LWC:lwc:jar:master-4.5.1-g2100b5e-18 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+[WARNING] The POM for com.wasteofplastic:askyblock:jar:3.0.6.9 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+[WARNING] The POM for com.github.dmulloy2.LWC:lwc:jar:master-4.5.1-g2100b5e-18 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
 Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/massivecraft/massivecore/MassiveCore/2.13.0/MassiveCore-2.13.0.pom
 Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/massivecraft/massivecore/MassiveCore/2.13.0/MassiveCore-2.13.0.pom
 Downloading from worldedit-worldguard-repo: http://maven.sk89q.com/repo/com/massivecraft/massivecore/MassiveCore/2.13.0/MassiveCore-2.13.0.pom
@@ -112,7 +112,7 @@ Downloading from central: https://repo.maven.apache.org/maven2/com/massivecraft/
 Downloading from simpleclans-preciousstones-repo: http://104.236.246.108:8081/artifactory/remote-repos/com/massivecraft/massivecore/MassiveCore/2.13.0/MassiveCore-2.13.0.pom
 Downloading from bintray-tastybento-maven-repo: http://dl.bintray.com/tastybento/maven-repo/com/massivecraft/massivecore/MassiveCore/2.13.0/MassiveCore-2.13.0.pom
 Downloading from massivecore-factions-repo: http://repo.dustplanet.de/artifactory/ext-release-local/com/massivecraft/massivecore/MassiveCore/2.13.0/MassiveCore-2.13.0.pom
-[[1;33mWARNING[m] The POM for com.massivecraft.massivecore:MassiveCore:jar:2.13.0 is missing, no dependency information available
+[WARNING] The POM for com.massivecraft.massivecore:MassiveCore:jar:2.13.0 is missing, no dependency information available
 Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/massivecraft/factions/Factions/2.13.0/Factions-2.13.0.pom
 Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/massivecraft/factions/Factions/2.13.0/Factions-2.13.0.pom
 Downloading from worldedit-worldguard-repo: http://maven.sk89q.com/repo/com/massivecraft/factions/Factions/2.13.0/Factions-2.13.0.pom
@@ -123,7 +123,7 @@ Downloading from central: https://repo.maven.apache.org/maven2/com/massivecraft/
 Downloading from simpleclans-preciousstones-repo: http://104.236.246.108:8081/artifactory/remote-repos/com/massivecraft/factions/Factions/2.13.0/Factions-2.13.0.pom
 Downloading from bintray-tastybento-maven-repo: http://dl.bintray.com/tastybento/maven-repo/com/massivecraft/factions/Factions/2.13.0/Factions-2.13.0.pom
 Downloading from massivecore-factions-repo: http://repo.dustplanet.de/artifactory/ext-release-local/com/massivecraft/factions/Factions/2.13.0/Factions-2.13.0.pom
-[[1;33mWARNING[m] The POM for com.massivecraft.factions:Factions:jar:2.13.0 is missing, no dependency information available
+[WARNING] The POM for com.massivecraft.factions:Factions:jar:2.13.0 is missing, no dependency information available
 Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/bukkit/bukkit/maven-metadata.xml
 Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/bukkit/bukkit/maven-metadata.xml
 Downloading from jitpack.io: https://jitpack.io/org/bukkit/bukkit/maven-metadata.xml
@@ -137,12 +137,12 @@ Downloading from bintray-tastybento-maven-repo: http://dl.bintray.com/tastybento
 Downloading from massivecore-factions-repo: http://repo.dustplanet.de/artifactory/ext-release-local/org/bukkit/bukkit/maven-metadata.xml
 Downloading from maven-codearts-jp: http://maven.codearts.jp/org/bukkit/bukkit/maven-metadata.xml
 Progress (1): 1.3 kB                    Downloaded from simpleclans-preciousstones-repo: http://104.236.246.108:8081/artifactory/remote-repos/org/bukkit/bukkit/maven-metadata.xml (1.3 kB at 916 B/s)
-[[1;33mWARNING[m] Could not transfer metadata org.bukkit:bukkit/maven-metadata.xml from/to worldedit-worldguard-repo (http://maven.sk89q.com/repo/): Failed to transfer file: http://maven.sk89q.com/repo/org/bukkit/bukkit/maven-metadata.xml. Return code is: 500 , ReasonPhrase:Internal Server Error.
-[[1;33mWARNING[m] Could not transfer metadata org.bukkit:bukkit/maven-metadata.xml from/to maven-codearts-jp (http://maven.codearts.jp/): maven.codearts.jp: unknown error
+[WARNING] Could not transfer metadata org.bukkit:bukkit/maven-metadata.xml from/to worldedit-worldguard-repo (http://maven.sk89q.com/repo/): Failed to transfer file: http://maven.sk89q.com/repo/org/bukkit/bukkit/maven-metadata.xml. Return code is: 500 , ReasonPhrase:Internal Server Error.
+[WARNING] Could not transfer metadata org.bukkit:bukkit/maven-metadata.xml from/to maven-codearts-jp (http://maven.codearts.jp/): maven.codearts.jp: unknown error
 Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/bukkit/bukkit/1.12.2-R0.1-SNAPSHOT/maven-metadata.xml
 Progress (1): 1.5 kB                    Downloaded from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/bukkit/bukkit/1.12.2-R0.1-SNAPSHOT/maven-metadata.xml (1.5 kB at 4.5 kB/s)
-[[1;33mWARNING[m] Failure to transfer org.bukkit:bukkit/maven-metadata.xml from http://maven.sk89q.com/repo/ was cached in the local repository, resolution will not be reattempted until the update interval of worldedit-worldguard-repo has elapsed or updates are forced. Original error: Could not transfer metadata org.bukkit:bukkit/maven-metadata.xml from/to worldedit-worldguard-repo (http://maven.sk89q.com/repo/): Failed to transfer file: http://maven.sk89q.com/repo/org/bukkit/bukkit/maven-metadata.xml. Return code is: 500 , ReasonPhrase:Internal Server Error.
-[[1;33mWARNING[m] Failure to transfer org.bukkit:bukkit/maven-metadata.xml from http://maven.codearts.jp/ was cached in the local repository, resolution will not be reattempted until the update interval of maven-codearts-jp has elapsed or updates are forced. Original error: Could not transfer metadata org.bukkit:bukkit/maven-metadata.xml from/to maven-codearts-jp (http://maven.codearts.jp/): maven.codearts.jp: unknown error
+[WARNING] Failure to transfer org.bukkit:bukkit/maven-metadata.xml from http://maven.sk89q.com/repo/ was cached in the local repository, resolution will not be reattempted until the update interval of worldedit-worldguard-repo has elapsed or updates are forced. Original error: Could not transfer metadata org.bukkit:bukkit/maven-metadata.xml from/to worldedit-worldguard-repo (http://maven.sk89q.com/repo/): Failed to transfer file: http://maven.sk89q.com/repo/org/bukkit/bukkit/maven-metadata.xml. Return code is: 500 , ReasonPhrase:Internal Server Error.
+[WARNING] Failure to transfer org.bukkit:bukkit/maven-metadata.xml from http://maven.codearts.jp/ was cached in the local repository, resolution will not be reattempted until the update interval of maven-codearts-jp has elapsed or updates are forced. Original error: Could not transfer metadata org.bukkit:bukkit/maven-metadata.xml from/to maven-codearts-jp (http://maven.codearts.jp/): maven.codearts.jp: unknown error
 Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/bukkit/bukkit/1.12.2-R0.1-SNAPSHOT/bukkit-1.12.2-R0.1-20180210.012117-109.pom
 Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/bukkit/bukkit/1.12.2-R0.1-SNAPSHOT/bukkit-1.12.2-R0.1-20180210.012117-109.pom
 Progress (1): 1.4 kBProgress (1): 3.7 kBProgress (1): 6.0 kB                    Downloaded from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/bukkit/bukkit/1.12.2-R0.1-SNAPSHOT/bukkit-1.12.2-R0.1-20180210.012117-109.pom (6.0 kB at 15 kB/s)
@@ -161,33 +161,33 @@ Downloading from clearlag-repo: http://minebuilders.me:8080/job/Clearlag/lastSuc
 Downloading from robomwm-repo: https://dl.bintray.com/robomwm/maven/me/minebuilders/clearlag/2.9.0-SNAPSHOT/maven-metadata.xml
 Downloading from sk89q-repo: http://maven.sk89q.com/repo/me/minebuilders/clearlag/2.9.0-SNAPSHOT/maven-metadata.xml
 Progress (1): 444 B                   Downloaded from clearlag-repo: http://minebuilders.me:8080/job/Clearlag/lastSuccessfulBuild/maven-repository/repository/me/minebuilders/clearlag/2.9.0-SNAPSHOT/maven-metadata.xml (444 B at 1.4 kB/s)
-[[1;34mINFO[m] 
-[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:resources[m [1m(default-resources)[m @ [36mSlimefun[0;1m ---[m
-[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
-[[1;34mINFO[m] Copying 2 resources
-[[1;34mINFO[m] 
-[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.1:compile[m [1m(default-compile)[m @ [36mSlimefun[0;1m ---[m
-[[1;34mINFO[m] Changes detected - recompiling the module!
-[[1;34mINFO[m] Compiling 195 source files to /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/target/classes
-[[1;33mWARNING[m] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/listeners/ItemPickupListener.java: Some input files use or override a deprecated API.
-[[1;33mWARNING[m] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/listeners/ItemPickupListener.java: Recompile with -Xlint:deprecation for details.
-[[1;34mINFO[m] 
-[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:testResources[m [1m(default-testResources)[m @ [36mSlimefun[0;1m ---[m
-[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
-[[1;34mINFO[m] skip non existing resourceDirectory /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/tests/resources
-[[1;34mINFO[m] 
-[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.1:testCompile[m [1m(default-testCompile)[m @ [36mSlimefun[0;1m ---[m
-[[1;34mINFO[m] No sources to compile
-[[1;34mINFO[m] 
-[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:2.12.4:test[m [1m(default-test)[m @ [36mSlimefun[0;1m ---[m
-[[1;34mINFO[m] No tests to run.
-[[1;34mINFO[m] 
-[[1;34mINFO[m] [1m--- [0;32mmaven-jar-plugin:2.4:jar[m [1m(default-jar)[m @ [36mSlimefun[0;1m ---[m
-[[1;34mINFO[m] Building jar: /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/target/Slimefun4-19.jar
-[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
-[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
-[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
-[[1;34mINFO[m] Total time: 01:02 min
-[[1;34mINFO[m] Finished at: 2018-02-11T11:44:47Z
-[[1;34mINFO[m] Final Memory: 20M/72M
-[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ Slimefun ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ Slimefun ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 195 source files to /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/target/classes
+[WARNING] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/listeners/ItemPickupListener.java: Some input files use or override a deprecated API.
+[WARNING] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/listeners/ItemPickupListener.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ Slimefun ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/tests/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ Slimefun ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ Slimefun ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ Slimefun ---
+[INFO] Building jar: /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/target/Slimefun4-19.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 01:02 min
+[INFO] Finished at: 2018-02-11T11:44:47Z
+[INFO] Final Memory: 20M/72M
+[INFO] ------------------------------------------------------------------------
