@@ -141,6 +141,22 @@
         "candidate": "DEVELOPMENT",
         "status": "SUCCESS"
     },
-    "latest": 9,
-    "last_successful": 9
+    "10": {
+        "id": 10,
+        "sha": "9fd3a90b31dd735e8cb9a987d38cf1a0b846e612",
+        "date": "17 Apr 2018 (08:08:54)",
+        "timestamp": 20180417080854,
+        "message": "Merge pull request #41 from SoSeDiK/Fix-for-Vein-mode\n\nFix for redstone ore",
+        "author": "TheBusyBiscuit",
+        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
+        "license": {
+            "name": "GNU General Public License v3.0",
+            "id": "GPL-3.0",
+            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/CS-CoreLib/master/LICENSE"
+        },
+        "candidate": "DEVELOPMENT",
+        "status": "SUCCESS"
+    },
+    "latest": 10,
+    "last_successful": 10
 }
