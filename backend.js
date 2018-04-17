@@ -20,6 +20,7 @@ const xml_options = {
 var stopwatch;
 var jobs = [];
 var timer;
+var access_token = "";
 
 module.exports = function() {
     if (timer) {
@@ -28,6 +29,14 @@ module.exports = function() {
     else {
         if (FileSystem.existsSync("app.log")) {
             FileSystem.unlinkSync("app.log");
+        }
+
+        if (FileSystem.existsSync("ACCESS_TOKEN.txt")) {
+            FileSystem.readFile('ACCESS_TOKEN.txt', 'UTF-8', function(err, data) {
+                if (!err) {
+                    access_token = data;
+                }
+            });
         }
 
         var log = console.log;
@@ -65,7 +74,11 @@ function startWatcher() {
 
                     console.log("Found Project \"" + author + "/" + repo + "\"");
 
-                    var job = {"author": author, "repo": repository, "branch": branch};
+                    var job = {
+                        "author": author,
+                        "repo": repository,
+                        "branch": branch
+                    };
 
                     jobs.push(job);
                     global.status.task[job.author + "/" + job.repo + "/" + job.branch] = "Queued";
@@ -87,7 +100,7 @@ function loadLatestCommit(job) {
 
     var options = {
         host: "api.github.com",
-        path: "/repos/" + job.author +"/" + job.repo + "/commits?per_page=1&sha=" + job.branch,
+        path: "/repos/" + job.author +"/" + job.repo + "/commits?per_page=1&sha=" + job.branch + "&access_token=" + access_token,
         headers: header
     }
 
@@ -126,7 +139,7 @@ function getLicense(job, commit) {
     global.status.task[job.author + "/" + job.repo + "/" + job.branch] = "Pulling License";
     var options = {
         host: "api.github.com",
-        path: "/repos/" + job.author +"/" + job.repo + "/license",
+        path: "/repos/" + job.author +"/" + job.repo + "/license?access_token=" + access_token,
         headers: header
     }
 
@@ -174,7 +187,7 @@ function getTags(job, commit) {
     global.status.task[job.author + "/" + job.repo + "/" + job.branch] = "Pulling Tags";
     var options = {
         host: "api.github.com",
-        path: "/repos/" + job.author +"/" + job.repo + "/tags",
+        path: "/repos/" + job.author +"/" + job.repo + "/tags?access_token=" + access_token,
         headers: header
     }
 
@@ -191,6 +204,7 @@ function getTags(job, commit) {
                 var json = JSON.parse(body);
 
                 if (!json.documentation_url) {
+                    global.status.version[job.author + "/" + job.repo + "/" + job.branch] = json[0].name;
                     for (var i in json) {
                         if (json[i].commit.sha === commit.sha) {
                             commit.candidate = "RELEASE";
@@ -289,7 +303,7 @@ function compareBuilds(job, builds, commit) {
     }
 }
 
-function clone(job, commit, builds) {
+function clone(job, commit, builds, callback) {
     global.status.task[job.author + "/" + job.repo + "/" + job.branch] = "Downloading Files";
 
     console.log("Cloning Repository \"" + job.author + "/" + job.repo + "\"...");
@@ -304,55 +318,160 @@ function clone(job, commit, builds) {
     });
 
     clone.on('close', function(status) {
-        var reset = child_process.spawn("git", ["reset", "--hard", commit], {cwd: __dirname + "/" + job.author + "/" + job.repo + "/" + job.branch + "/files"});
+        if (commit != null) {
+            var reset = child_process.spawn("git", ["reset", "--hard", commit], {cwd: __dirname + "/" + job.author + "/" + job.repo + "/" + job.branch + "/files"});
 
-        reset.stderr.on('data', function(data) {
-            console.log(" " + data);
-        });
+            reset.stderr.on('data', function(data) {
+                console.log(" " + data);
+            });
 
-        reset.stdout.on('data', function(data) {
-            console.log(" " + data);
-        });
+            reset.stdout.on('data', function(data) {
+                console.log(" " + data);
+            });
 
-        reset.on('close', function() {
+            reset.on('close', function() {
+                pom(job, builds);
+            });
+        }
+        else {
             pom(job, builds);
-        });
+        }
     });
 }
 
 function pom(job, builds) {
-    global.status.task[job.author + "/" + job.repo + "/" + job.branch] = "Preparing";
+    global.status.task[job.author + "/" + job.repo + "/" + job.branch] = "Preparing pom.xml";
 
     FileSystem.readFile(job.author + "/" + job.repo + "/" + job.branch + "/files/pom.xml", 'UTF-8', function(err, data) {
         if (!err) {
             XML.parseXML(data, function(err, json) {
                 if (!err) {
-                    if (builds[job.id].tag) {
-                        json.getChild("version").setValue(builds[job.id].tag);
-                    }
-                    else {
-                        json.getChild("version").setValue("DEV #" + job.id + " (git " + builds[job.id].sha.substr(0, 8) + ")");
-                    }
-                    
-                    json.getChild(["build", "finalName"]).setValue(job.repo + "-" + job.id);
-
-                    json.asXMLString(xml_options, function(err, xml) {
-                        if (!err) {
-                            FileSystem.writeFile(job.author + "/" + job.repo + "/" + job.branch + "/files/pom.xml", xml, 'UTF-8', function(err) {
-                                if (!err) {
-                                    compile(job, builds);
-                                }
-                                else {
-                                    global.status.task[job.author + "/" + job.repo + "/" + job.branch] = "Exception?";
-                                    console.log(err);
-                                }
-                            });
+                    if (builds != null) {
+                        if (builds[job.id].tag) {
+                            json.getChild("version").setValue(builds[job.id].tag);
                         }
                         else {
-                            global.status.task[job.author + "/" + job.repo + "/" + job.branch] = "Exception?";
-                            console.log(err);
+                            json.getChild("version").setValue("DEV #" + job.id + " (git " + builds[job.id].sha.substr(0, 8) + ")");
                         }
-                    });
+
+                        json.getChild(["build", "finalName"]).setValue(job.repo + "-" + job.id);
+
+                        json.asXMLString(xml_options, function(err, xml) {
+                            if (!err) {
+                                FileSystem.writeFile(job.author + "/" + job.repo + "/" + job.branch + "/files/pom.xml", xml, 'UTF-8', function(err) {
+                                    if (!err) {
+                                        compile(job, builds);
+                                    }
+                                    else {
+                                        global.status.task[job.author + "/" + job.repo + "/" + job.branch] = "Exception?";
+                                        console.log(err);
+                                    }
+                                });
+                            }
+                            else {
+                                global.status.task[job.author + "/" + job.repo + "/" + job.branch] = "Exception?";
+                                console.log(err);
+                            }
+                        });
+                    }
+                    else {
+                        var version = global.status.updates[job.author + "/" + job.repo + "/" + job.branch];
+                        json.getChild("version").setValue(version);
+
+                        json.asXMLString({ indent: 4, header: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>", new_lines: true }, function(err, xml) {
+                            if (!err) {
+                                FileSystem.writeFile(job.author + "/" + job.repo + "/" + job.branch + "/files/pom.xml", xml, 'UTF-8', function(err) {
+                                    if (!err) {
+                                        var add = child_process.spawn("git", ["add", "pom.xml"], {cwd: __dirname + "/" + job.author + "/" + job.repo + "/" + job.branch + "/files"});
+
+                                        add.stderr.on('data', function(data) {
+                                            console.log(" " + data);
+                                        });
+
+                                        add.stdout.on('data', function(data) {
+                                            console.log(" " + data);
+                                        });
+
+                                        add.on('close', function() {
+                                            var commit = child_process.spawn("git", ["commit", "-m", "Updated to Version: " + version], {cwd: __dirname + "/" + job.author + "/" + job.repo + "/" + job.branch + "/files"});
+
+                                            commit.stderr.on('data', function(data) {
+                                                console.log(" " + data);
+                                            });
+
+                                            commit.stdout.on('data', function(data) {
+                                                console.log(" " + data);
+                                            });
+
+                                            commit.on('close', function() {
+                                                global.status.task[job.author + "/" + job.repo + "/" + job.branch] = "Tagging Version";
+
+                                                var push = child_process.spawn("git", ["push"], {cwd: __dirname + "/" + job.author + "/" + job.repo + "/" + job.branch + "/files"});
+
+                                                push.stderr.on('data', function(data) {
+                                                    console.log(" " + data);
+                                                });
+
+                                                push.stdout.on('data', function(data) {
+                                                    console.log(" " + data);
+                                                });
+
+                                                push.on('close', function() {
+                                                    var date = new Date();
+
+                                                    var tag = child_process.spawn("git", ["tag", "-a", version, "-m", (job.repo + " " + version + " (" + months[date.getMonth()] + " " + date.getDate() + ", " + date.getFullYear() + ")")], {cwd: __dirname + "/" + job.author + "/" + job.repo + "/" + job.branch + "/files"});
+
+                                                    tag.stderr.on('data', function(data) {
+                                                        console.log(" " + data);
+                                                    });
+
+                                                    tag.stdout.on('data', function(data) {
+                                                        console.log(" " + data);
+                                                    });
+
+                                                    tag.on('close', function() {
+                                                        var tags = child_process.spawn("git", ["push", "origin", "--tags"], {cwd: __dirname + "/" + job.author + "/" + job.repo + "/" + job.branch + "/files"});
+
+                                                        tags.stderr.on('data', function(data) {
+                                                            console.log(" " + data);
+                                                        });
+
+                                                        tags.stdout.on('data', function(data) {
+                                                            console.log(" " + data);
+                                                        });
+
+                                                        tags.on('close', function() {
+                                                            delete global.status.updates[job.author + "/" + job.repo + "/" + job.branch];
+
+                                                            global.status.task[job.author + "/" + job.repo + "/" + job.branch] = "Clearing Files";
+
+                                                            clearFolder(job.author + "/" + job.repo + "/" + job.branch + "/files", function(err) {
+                                                                if (!err) {
+                                                                    loadLatestCommit(job);
+                                                                }
+                                                                else {
+                                                                    global.status.task[job.author + "/" + job.repo + "/" + job.branch] = "Exception?";
+                                                                    console.log(err);
+                                                                }
+                                                            });
+                                                        });
+                                                    });
+                                                });
+                                            });
+                                        });
+                                    }
+                                    else {
+                                        global.status.task[job.author + "/" + job.repo + "/" + job.branch] = "Exception?";
+                                        console.log(err);
+                                    }
+                                });
+                            }
+                            else {
+                                global.status.task[job.author + "/" + job.repo + "/" + job.branch] = "Exception?";
+                                console.log(err);
+                            }
+                        });
+                    }
                 }
                 else {
                     global.status.task[job.author + "/" + job.repo + "/" + job.branch] = "Exception?";
@@ -549,7 +668,14 @@ function nextJob(job) {
     function continueWorkflow() {
         if (jobs.length > 0) {
             global.status.job = jobs[0];
-            loadLatestCommit(jobs[0]);
+
+            if (global.status.updates[jobs[0].author + "/" + jobs[0].repo + "/" + jobs[0].branch] != null) {
+                clone(jobs[0], null, null);
+                generateHTML(jobs[0]);
+            }
+            else {
+                loadLatestCommit(jobs[0]);
+            }
         }
         else {
             global.status.job = null;

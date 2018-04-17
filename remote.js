@@ -1,4 +1,5 @@
 const http = require('http');
+const url = require('url');
 const dns = require('dns');
 const os = require('os');
 const FileSystem = require('fs');
@@ -10,6 +11,8 @@ const port = 8085;
 global.status = {
     log: "",
     task: {},
+    version: {},
+    updates: {},
     cpu: 0,
     timestamp: Date.now()
 };
@@ -78,7 +81,7 @@ function run() {
     FileSystem.readFile("remote.html", 'UTF-8', function(err, page) {
         if (!err) {
             http.createServer(function(request, response) {
-                switch(request.url) {
+                switch(url.parse(request.url, true).pathname) {
                     case '/': {
                         response.writeHead(200, {'Content-Type': 'text/html'});
                         response.write(page);
@@ -97,6 +100,29 @@ function run() {
 
                         console.log("Restarting Submodule...");
                         backend();
+
+                        break;
+                    }
+                    case '/prompt': {
+                        var project = url.parse(request.url, true).query.project;
+                        var version = global.status.version[project];
+
+                        response.writeHead(200, {'Content-Type': 'text/html'});
+                        response.write('<script>var version = prompt("Please enter a Version for ' + project + '", "' + version + '"); window.location.href="update?project=' + project + '&version=" + version;</script>');
+                        response.end();
+
+                        break;
+                    }
+                    case '/update': {
+                        var query = url.parse(request.url, true).query;
+                        global.status.updates[query.project] = query.version;
+                        console.log("Scheduled Update: " + query.project + " => " + query.version);
+
+                        console.log("Restarting Submodule...");
+                        backend();
+
+                        response.writeHead(302, {'Location': "/"});
+                        response.end();
 
                         break;
                     }

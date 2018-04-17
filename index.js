@@ -37,6 +37,6 @@ function addRepository(owner, repo, branch) {
         let latest = $("#latest_" + owner + "_" + repo + "_" + branch);
 
         latest.attr("href", owner + "/" + repo + "/" + branch + "#" + builds.latest);
-        latest.text((builds[builds.latest].candiate === "RELEASE" ? builds[builds.latest].tag: ("#" + builds.latest)) + " - " + builds[builds.latest].date);
+        latest.text((builds[builds.latest].candidate === "RELEASE" ? builds[builds.latest].tag: ("#" + builds.latest)) + " - " + builds[builds.latest].date);
     });
 }
