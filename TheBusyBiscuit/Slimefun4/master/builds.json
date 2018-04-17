@@ -513,6 +513,22 @@
         "candidate": "DEVELOPMENT",
         "status": "FAILURE"
     },
-    "latest": 32,
-    "last_successful": 31
+    "33": {
+        "id": 33,
+        "sha": "5b51953423d84bffdc4bc2af0d2715c131bf3ba6",
+        "date": "17 Apr 2018 (11:47:55)",
+        "timestamp": 20180417114755,
+        "message": "Localized Clearlag repo",
+        "author": "TheBusyBiscuit",
+        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
+        "license": {
+            "name": "GNU General Public License v3.0",
+            "id": "GPL-3.0",
+            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/Slimefun4/master/LICENSE"
+        },
+        "candidate": "DEVELOPMENT",
+        "status": "SUCCESS"
+    },
+    "latest": 33,
+    "last_successful": 33
 }
