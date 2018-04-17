@@ -157,6 +157,23 @@
         "candidate": "DEVELOPMENT",
         "status": "SUCCESS"
     },
-    "latest": 10,
-    "last_successful": 10
+    "11": {
+        "id": 11,
+        "sha": "d3f7970b6a6ed38d071da61b82f894fe70da8e98",
+        "date": "17 Apr 2018 (10:43:05)",
+        "timestamp": 20180417104305,
+        "message": "Updated to Version: v1.5.17",
+        "author": "TheBusyBiscuit",
+        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
+        "license": {
+            "name": "GNU General Public License v3.0",
+            "id": "GPL-3.0",
+            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/CS-CoreLib/master/LICENSE"
+        },
+        "candidate": "RELEASE",
+        "tag": "v1.5.17",
+        "status": "SUCCESS"
+    },
+    "latest": 11,
+    "last_successful": 11
 }
