@@ -1,0 +1,20 @@
+{
+    "1": {
+        "id": 1,
+        "sha": "b1af04961627021d23065f71138fd2bb5a46b279",
+        "date": "02 Dec 2017 (10:50:27)",
+        "timestamp": 20171202105027,
+        "message": "Update plugin.yml",
+        "author": "TheBusyBiscuit",
+        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
+        "license": {
+            "name": "MIT License",
+            "id": "MIT",
+            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/ExoticGarden/master/LICENSE"
+        },
+        "candidate": "DEVELOPMENT",
+        "status": "SUCCESS"
+    },
+    "latest": 1,
+    "last_successful": 1
+}
