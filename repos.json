@@ -2,6 +2,7 @@
 	"TheBusyBiscuit": [
 		"CS-CoreLib:master",
 		"Slimefun4:master",
-		"ChestTerminal:master"
+		"ChestTerminal:master",
+		"ExoticGarden:master"
 	]
 }

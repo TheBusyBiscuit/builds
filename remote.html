@@ -9,6 +9,9 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 		<script>window.$ = window.jQuery = require('jquery');</script>
         <script>
+
+            var log;
+
             $(function() {
                 setInterval(update, 400);
             });
@@ -17,7 +20,8 @@
                 $.getJSON("/status.json", function(status) {
                     var terminal = $("#log");
 
-                    if (terminal.html() !== status.log) {
+                    if (log !== status.log) {
+                        log = status.log;
                         terminal.html(status.log + "<p id=\"bottom_log\"></p>");
 
                         $("#bottom_log")[0].scrollIntoView();
