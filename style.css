@@ -189,6 +189,8 @@ tr:nth-child(odd) {
 .sidebar_builds {
     display: block;
     height: 75%;
+    margin-bottom: 3px;
+	overflow-y: hidden;
     width: 100%;
 }
 .builds {
