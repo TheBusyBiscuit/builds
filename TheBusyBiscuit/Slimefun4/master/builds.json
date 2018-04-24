@@ -529,6 +529,22 @@
         "candidate": "DEVELOPMENT",
         "status": "SUCCESS"
     },
-    "latest": 33,
-    "last_successful": 33
+    "34": {
+        "id": 34,
+        "sha": "af9a09e2c925a4fdfabd296c9076bb5da9af3b74",
+        "date": "24 Apr 2018 (09:24:29)",
+        "timestamp": 20180424092429,
+        "message": "Merge pull request #659 from mrcoffee1026/master\n\nAnvil / Broken Spawner patch, Further Fix for keep-inv flags, Soulbound Backpack Recipe fix",
+        "author": "TheBusyBiscuit",
+        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
+        "license": {
+            "name": "GNU General Public License v3.0",
+            "id": "GPL-3.0",
+            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/Slimefun4/master/LICENSE"
+        },
+        "candidate": "DEVELOPMENT",
+        "status": "SUCCESS"
+    },
+    "latest": 34,
+    "last_successful": 34
 }
