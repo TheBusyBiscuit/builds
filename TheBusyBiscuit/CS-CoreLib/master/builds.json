@@ -190,6 +190,23 @@
         "candidate": "DEVELOPMENT",
         "status": "SUCCESS"
     },
-    "latest": 12,
-    "last_successful": 12
+    "13": {
+        "id": 13,
+        "sha": "4d0245e020f3c5d58a4d54ca2585e2b6ff312583",
+        "date": "25 Apr 2018 (21:54:01)",
+        "timestamp": 20180425215401,
+        "message": "Updated to Version: v1.5.18",
+        "author": "TheBusyBot",
+        "avatar": "https://avatars1.githubusercontent.com/u/33297977?v=4",
+        "license": {
+            "name": "GNU General Public License v3.0",
+            "id": "GPL-3.0",
+            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/CS-CoreLib/master/LICENSE"
+        },
+        "candidate": "RELEASE",
+        "tag": "v1.5.18",
+        "status": "SUCCESS"
+    },
+    "latest": 13,
+    "last_successful": 13
 }
