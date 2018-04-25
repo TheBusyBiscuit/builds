@@ -545,6 +545,22 @@
         "candidate": "DEVELOPMENT",
         "status": "SUCCESS"
     },
-    "latest": 34,
-    "last_successful": 34
+    "35": {
+        "id": 35,
+        "sha": "5cf4f0bbebf0cc1bc5def1c476640eed96aed047",
+        "date": "25 Apr 2018 (22:01:51)",
+        "timestamp": 20180425220151,
+        "message": "Updated to CS-CoreLib 1.5.18",
+        "author": "TheBusyBiscuit",
+        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
+        "license": {
+            "name": "GNU General Public License v3.0",
+            "id": "GPL-3.0",
+            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/Slimefun4/master/LICENSE"
+        },
+        "candidate": "DEVELOPMENT",
+        "status": "SUCCESS"
+    },
+    "latest": 35,
+    "last_successful": 35
 }
