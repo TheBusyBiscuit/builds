@@ -575,8 +575,8 @@
             "url": "https://raw.githubusercontent.com/TheBusyBiscuit/Slimefun4/master/LICENSE"
         },
         "candidate": "DEVELOPMENT",
-        "status": "PENDING"
+        "status": "SUCCESS"
     },
     "latest": 36,
-    "last_successful": 35
+    "last_successful": 36
 }
