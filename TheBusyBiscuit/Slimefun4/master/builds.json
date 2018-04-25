@@ -561,6 +561,22 @@
         "candidate": "DEVELOPMENT",
         "status": "SUCCESS"
     },
-    "latest": 35,
+    "36": {
+        "id": 36,
+        "sha": "dbdfa3cdb7eeae11aea1e1cdd977ca1c729c40e6",
+        "date": "25 Apr 2018 (22:04:15)",
+        "timestamp": 20180425220415,
+        "message": "Merge pull request #662 from Redemption198/master\n\nAdded CS-CoreLib permission check for Slimefun Machines",
+        "author": "TheBusyBiscuit",
+        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
+        "license": {
+            "name": "GNU General Public License v3.0",
+            "id": "GPL-3.0",
+            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/Slimefun4/master/LICENSE"
+        },
+        "candidate": "DEVELOPMENT",
+        "status": "PENDING"
+    },
+    "latest": 36,
     "last_successful": 35
 }
