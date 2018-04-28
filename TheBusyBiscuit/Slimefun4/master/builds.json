@@ -577,6 +577,22 @@
         "candidate": "DEVELOPMENT",
         "status": "SUCCESS"
     },
-    "latest": 36,
-    "last_successful": 36
+    "37": {
+        "id": 37,
+        "sha": "9270b08d25f8ad2176f60801dbf4ff3c353add35",
+        "date": "28 Apr 2018 (20:41:16)",
+        "timestamp": 20180428204116,
+        "message": "Merge pull request #667 from KyleEstein/Issue412\n\nFix Two Player Device Inventory Item Duplication Bug",
+        "author": "TheBusyBiscuit",
+        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
+        "license": {
+            "name": "GNU General Public License v3.0",
+            "id": "GPL-3.0",
+            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/Slimefun4/master/LICENSE"
+        },
+        "candidate": "DEVELOPMENT",
+        "status": "SUCCESS"
+    },
+    "latest": 37,
+    "last_successful": 37
 }
