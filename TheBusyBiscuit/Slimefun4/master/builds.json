@@ -593,6 +593,22 @@
         "candidate": "DEVELOPMENT",
         "status": "SUCCESS"
     },
-    "latest": 37,
-    "last_successful": 37
+    "38": {
+        "id": 38,
+        "sha": "183a34a99c1d46b1223f7360bbb40f0aa408141c",
+        "date": "03 May 2018 (08:49:21)",
+        "timestamp": 20180503084921,
+        "message": "Merge pull request #674 from VoidAngel/master\n\nUpdated saw mill protection check",
+        "author": "TheBusyBiscuit",
+        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
+        "license": {
+            "name": "GNU General Public License v3.0",
+            "id": "GPL-3.0",
+            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/Slimefun4/master/LICENSE"
+        },
+        "candidate": "DEVELOPMENT",
+        "status": "SUCCESS"
+    },
+    "latest": 38,
+    "last_successful": 38
 }
