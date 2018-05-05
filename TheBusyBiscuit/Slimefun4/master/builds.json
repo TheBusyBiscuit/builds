@@ -609,6 +609,22 @@
         "candidate": "DEVELOPMENT",
         "status": "SUCCESS"
     },
-    "latest": 38,
-    "last_successful": 38
+    "39": {
+        "id": 39,
+        "sha": "c67cc2fbafb01eb4588fbb28e9bab34073801849",
+        "date": "05 May 2018 (17:28:42)",
+        "timestamp": 20180505172842,
+        "message": "Merge pull request #683 from mrcoffee1026/master\n\nResolving the Ancient Altar dupe glitch.",
+        "author": "TheBusyBiscuit",
+        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
+        "license": {
+            "name": "GNU General Public License v3.0",
+            "id": "GPL-3.0",
+            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/Slimefun4/master/LICENSE"
+        },
+        "candidate": "DEVELOPMENT",
+        "status": "SUCCESS"
+    },
+    "latest": 39,
+    "last_successful": 39
 }
