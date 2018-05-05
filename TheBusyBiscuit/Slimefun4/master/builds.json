@@ -625,6 +625,22 @@
         "candidate": "DEVELOPMENT",
         "status": "SUCCESS"
     },
-    "latest": 39,
-    "last_successful": 39
+    "40": {
+        "id": 40,
+        "sha": "439818fb0e8304e375cae21c8c88c228d94c05ec",
+        "date": "05 May 2018 (17:38:29)",
+        "timestamp": 20180505173829,
+        "message": "Merge pull request #673 from KyleEstein/legacy_washers\n\nAllow admins to chose ore washer and dust washer behavior",
+        "author": "TheBusyBiscuit",
+        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
+        "license": {
+            "name": "GNU General Public License v3.0",
+            "id": "GPL-3.0",
+            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/Slimefun4/master/LICENSE"
+        },
+        "candidate": "DEVELOPMENT",
+        "status": "SUCCESS"
+    },
+    "latest": 40,
+    "last_successful": 40
 }
