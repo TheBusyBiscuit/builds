@@ -658,6 +658,22 @@
         "tag": "v4.1.15",
         "status": "SUCCESS"
     },
-    "latest": 41,
-    "last_successful": 41
+    "42": {
+        "id": 42,
+        "sha": "340fc046d0343da12724c6f729143677ae97af6c",
+        "date": "11 May 2018 (11:11:13)",
+        "timestamp": 20180511111113,
+        "message": "Fixed Reactor Overflows",
+        "author": "TheBusyBiscuit",
+        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
+        "license": {
+            "name": "GNU General Public License v3.0",
+            "id": "GPL-3.0",
+            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/Slimefun4/master/LICENSE"
+        },
+        "candidate": "DEVELOPMENT",
+        "status": "SUCCESS"
+    },
+    "latest": 42,
+    "last_successful": 42
 }
