@@ -722,6 +722,22 @@
         "candidate": "DEVELOPMENT",
         "status": "FAILURE"
     },
-    "latest": 45,
+    "46": {
+        "id": 46,
+        "sha": "d4a06ceb901a5b0c4834fa851e2cc15c63f13012",
+        "date": "21 May 2018 (19:17:32)",
+        "timestamp": 20180521191732,
+        "message": "Update README.md",
+        "author": "TheBusyBiscuit",
+        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
+        "license": {
+            "name": "GNU General Public License v3.0",
+            "id": "GPL-3.0",
+            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/Slimefun4/master/LICENSE"
+        },
+        "candidate": "DEVELOPMENT",
+        "status": "FAILURE"
+    },
+    "latest": 46,
     "last_successful": 42
 }

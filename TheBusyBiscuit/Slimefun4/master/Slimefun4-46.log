@@ -1,0 +1,700 @@
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for me.mrCookieSlime:Slimefun:jar:DEV #46 (git d4a06ceb)
+[WARNING] 'dependencies.dependency.systemPath' for me.minebuilders:clearlag-core:jar should not point at files within the project directory, ${project.basedir}/lib/Clearlag.jar will be unresolvable by dependent projects @ line 1, column 2147
+[WARNING] 'dependencies.dependency.systemPath' for me.mrCookieSlime:EmeraldEnchants:jar should not point at files within the project directory, ${project.basedir}/lib/EmeraldEnchants v2.0.jar will be unresolvable by dependent projects @ line 1, column 2470
+[WARNING] 'dependencies.dependency.systemPath' for me.mrCookieSlime:ExoticGarden:jar should not point at files within the project directory, ${project.basedir}/lib/ExoticGarden v1.2.0.jar will be unresolvable by dependent projects @ line 1, column 2684
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Slimefun DEV #46 (git d4a06ceb)
+[INFO] ------------------------------------------------------------------------
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-resources-plugin/2.6/maven-resources-plugin-2.6.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-resources-plugin/2.6/maven-resources-plugin-2.6.pom (8.1 kB at 4.8 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/23/maven-plugins-23.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/23/maven-plugins-23.pom (9.2 kB at 58 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/22/maven-parent-22.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/22/maven-parent-22.pom (30 kB at 148 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/apache/11/apache-11.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/apache/11/apache-11.pom (15 kB at 100 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-resources-plugin/2.6/maven-resources-plugin-2.6.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-resources-plugin/2.6/maven-resources-plugin-2.6.jar (30 kB at 143 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-compiler-plugin/3.1/maven-compiler-plugin-3.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-compiler-plugin/3.1/maven-compiler-plugin-3.1.pom (10 kB at 81 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/24/maven-plugins-24.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/24/maven-plugins-24.pom (11 kB at 68 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/23/maven-parent-23.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/23/maven-parent-23.pom (33 kB at 163 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/apache/13/apache-13.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/apache/13/apache-13.pom (14 kB at 94 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-compiler-plugin/3.1/maven-compiler-plugin-3.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-compiler-plugin/3.1/maven-compiler-plugin-3.1.jar (43 kB at 202 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/2.12.4/maven-surefire-plugin-2.12.4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/2.12.4/maven-surefire-plugin-2.12.4.pom (10 kB at 69 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire/2.12.4/surefire-2.12.4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire/2.12.4/surefire-2.12.4.pom (14 kB at 100 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/2.12.4/maven-surefire-plugin-2.12.4.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/2.12.4/maven-surefire-plugin-2.12.4.jar (30 kB at 159 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-jar-plugin/2.4/maven-jar-plugin-2.4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-jar-plugin/2.4/maven-jar-plugin-2.4.pom (5.8 kB at 48 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/22/maven-plugins-22.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/22/maven-plugins-22.pom (13 kB at 104 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/21/maven-parent-21.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/21/maven-parent-21.pom (26 kB at 192 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/apache/10/apache-10.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/apache/10/apache-10.pom (15 kB at 100 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-jar-plugin/2.4/maven-jar-plugin-2.4.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-jar-plugin/2.4/maven-jar-plugin-2.4.jar (34 kB at 172 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/bukkit/bukkit/1.12-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from worldedit-worldguard-repo: http://maven.sk89q.com/repo/org/bukkit/bukkit/1.12-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/bukkit/bukkit/1.12-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/bukkit/bukkit/1.12-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from robomwm-repo: https://dl.bintray.com/robomwm/maven/org/bukkit/bukkit/1.12-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloaded from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/bukkit/bukkit/1.12-R0.1-SNAPSHOT/maven-metadata.xml (1.4 kB at 1.6 kB/s)
+[WARNING] Could not transfer metadata org.bukkit:bukkit:1.12-R0.1-SNAPSHOT/maven-metadata.xml from/to paper-repo (https://repo.destroystokyo.com/repository/maven-public/): sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+[WARNING] Failure to transfer org.bukkit:bukkit:1.12-R0.1-SNAPSHOT/maven-metadata.xml from https://repo.destroystokyo.com/repository/maven-public/ was cached in the local repository, resolution will not be reattempted until the update interval of paper-repo has elapsed or updates are forced. Original error: Could not transfer metadata org.bukkit:bukkit:1.12-R0.1-SNAPSHOT/maven-metadata.xml from/to paper-repo (https://repo.destroystokyo.com/repository/maven-public/): sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/bukkit/bukkit/1.12-R0.1-SNAPSHOT/bukkit-1.12-R0.1-20170803.111311-74.pom
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/bukkit/bukkit/1.12-R0.1-SNAPSHOT/bukkit-1.12-R0.1-20170803.111311-74.pom
+[INFO] Downloaded from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/bukkit/bukkit/1.12-R0.1-SNAPSHOT/bukkit-1.12-R0.1-20170803.111311-74.pom (5.9 kB at 14 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/sonatype/oss/oss-parent/9/oss-parent-9.pom
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/sonatype/oss/oss-parent/9/oss-parent-9.pom
+[INFO] Downloading from worldedit-worldguard-repo: http://maven.sk89q.com/repo/org/sonatype/oss/oss-parent/9/oss-parent-9.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/sonatype/oss/oss-parent/9/oss-parent-9.pom
+[INFO] Downloading from robomwm-repo: https://dl.bintray.com/robomwm/maven/org/sonatype/oss/oss-parent/9/oss-parent-9.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/sonatype/oss/oss-parent/9/oss-parent-9.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/sonatype/oss/oss-parent/9/oss-parent-9.pom (6.6 kB at 31 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/commons-lang/commons-lang/2.6/commons-lang-2.6.pom
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/commons-lang/commons-lang/2.6/commons-lang-2.6.pom
+[INFO] Downloading from worldedit-worldguard-repo: http://maven.sk89q.com/repo/commons-lang/commons-lang/2.6/commons-lang-2.6.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/commons-lang/commons-lang/2.6/commons-lang-2.6.pom
+[INFO] Downloading from robomwm-repo: https://dl.bintray.com/robomwm/maven/commons-lang/commons-lang/2.6/commons-lang-2.6.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/commons-lang/commons-lang/2.6/commons-lang-2.6.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/commons-lang/commons-lang/2.6/commons-lang-2.6.pom (17 kB at 101 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/apache/commons/commons-parent/17/commons-parent-17.pom
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/apache/commons/commons-parent/17/commons-parent-17.pom
+[INFO] Downloading from worldedit-worldguard-repo: http://maven.sk89q.com/repo/org/apache/commons/commons-parent/17/commons-parent-17.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/apache/commons/commons-parent/17/commons-parent-17.pom
+[INFO] Downloading from robomwm-repo: https://dl.bintray.com/robomwm/maven/org/apache/commons/commons-parent/17/commons-parent-17.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/17/commons-parent-17.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/17/commons-parent-17.pom (31 kB at 128 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/apache/apache/7/apache-7.pom
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/apache/apache/7/apache-7.pom
+[INFO] Downloading from worldedit-worldguard-repo: http://maven.sk89q.com/repo/org/apache/apache/7/apache-7.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/apache/apache/7/apache-7.pom
+[INFO] Downloading from robomwm-repo: https://dl.bintray.com/robomwm/maven/org/apache/apache/7/apache-7.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/apache/7/apache-7.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/apache/7/apache-7.pom (14 kB at 58 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.pom
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.pom
+[INFO] Downloading from worldedit-worldguard-repo: http://maven.sk89q.com/repo/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.pom
+[INFO] Downloading from robomwm-repo: https://dl.bintray.com/robomwm/maven/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.pom (3.5 kB at 19 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/junit/junit/4.10/junit-4.10.pom
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/junit/junit/4.10/junit-4.10.pom
+[INFO] Downloading from worldedit-worldguard-repo: http://maven.sk89q.com/repo/junit/junit/4.10/junit-4.10.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/junit/junit/4.10/junit-4.10.pom
+[INFO] Downloading from robomwm-repo: https://dl.bintray.com/robomwm/maven/junit/junit/4.10/junit-4.10.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/junit/junit/4.10/junit-4.10.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/junit/junit/4.10/junit-4.10.pom (2.3 kB at 14 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.pom
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.pom
+[INFO] Downloading from worldedit-worldguard-repo: http://maven.sk89q.com/repo/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.pom
+[INFO] Downloading from robomwm-repo: https://dl.bintray.com/robomwm/maven/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.pom (481 B at 3.9 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/hamcrest/hamcrest-parent/1.1/hamcrest-parent-1.1.pom
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/hamcrest/hamcrest-parent/1.1/hamcrest-parent-1.1.pom
+[INFO] Downloading from worldedit-worldguard-repo: http://maven.sk89q.com/repo/org/hamcrest/hamcrest-parent/1.1/hamcrest-parent-1.1.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/hamcrest/hamcrest-parent/1.1/hamcrest-parent-1.1.pom
+[INFO] Downloading from robomwm-repo: https://dl.bintray.com/robomwm/maven/org/hamcrest/hamcrest-parent/1.1/hamcrest-parent-1.1.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/hamcrest/hamcrest-parent/1.1/hamcrest-parent-1.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/hamcrest/hamcrest-parent/1.1/hamcrest-parent-1.1.pom (5.9 kB at 32 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/google/guava/guava/21.0/guava-21.0.pom
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/google/guava/guava/21.0/guava-21.0.pom
+[INFO] Downloading from worldedit-worldguard-repo: http://maven.sk89q.com/repo/com/google/guava/guava/21.0/guava-21.0.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/google/guava/guava/21.0/guava-21.0.pom
+[INFO] Downloading from robomwm-repo: https://dl.bintray.com/robomwm/maven/com/google/guava/guava/21.0/guava-21.0.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/21.0/guava-21.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/21.0/guava-21.0.pom (7.0 kB at 28 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/google/guava/guava-parent/21.0/guava-parent-21.0.pom
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/google/guava/guava-parent/21.0/guava-parent-21.0.pom
+[INFO] Downloading from worldedit-worldguard-repo: http://maven.sk89q.com/repo/com/google/guava/guava-parent/21.0/guava-parent-21.0.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/google/guava/guava-parent/21.0/guava-parent-21.0.pom
+[INFO] Downloading from robomwm-repo: https://dl.bintray.com/robomwm/maven/com/google/guava/guava-parent/21.0/guava-parent-21.0.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/21.0/guava-parent-21.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/21.0/guava-parent-21.0.pom (9.7 kB at 71 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/sonatype/oss/oss-parent/7/oss-parent-7.pom
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/sonatype/oss/oss-parent/7/oss-parent-7.pom
+[INFO] Downloading from worldedit-worldguard-repo: http://maven.sk89q.com/repo/org/sonatype/oss/oss-parent/7/oss-parent-7.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/sonatype/oss/oss-parent/7/oss-parent-7.pom
+[INFO] Downloading from robomwm-repo: https://dl.bintray.com/robomwm/maven/org/sonatype/oss/oss-parent/7/oss-parent-7.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/sonatype/oss/oss-parent/7/oss-parent-7.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/sonatype/oss/oss-parent/7/oss-parent-7.pom (4.8 kB at 34 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/google/code/gson/gson/2.8.0/gson-2.8.0.pom
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/google/code/gson/gson/2.8.0/gson-2.8.0.pom
+[INFO] Downloading from worldedit-worldguard-repo: http://maven.sk89q.com/repo/com/google/code/gson/gson/2.8.0/gson-2.8.0.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/google/code/gson/gson/2.8.0/gson-2.8.0.pom
+[INFO] Downloading from robomwm-repo: https://dl.bintray.com/robomwm/maven/com/google/code/gson/gson/2.8.0/gson-2.8.0.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/code/gson/gson/2.8.0/gson-2.8.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/code/gson/gson/2.8.0/gson-2.8.0.pom (1.4 kB at 12 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/google/code/gson/gson-parent/2.8.0/gson-parent-2.8.0.pom
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/google/code/gson/gson-parent/2.8.0/gson-parent-2.8.0.pom
+[INFO] Downloading from worldedit-worldguard-repo: http://maven.sk89q.com/repo/com/google/code/gson/gson-parent/2.8.0/gson-parent-2.8.0.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/google/code/gson/gson-parent/2.8.0/gson-parent-2.8.0.pom
+[INFO] Downloading from robomwm-repo: https://dl.bintray.com/robomwm/maven/com/google/code/gson/gson-parent/2.8.0/gson-parent-2.8.0.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/code/gson/gson-parent/2.8.0/gson-parent-2.8.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/code/gson/gson-parent/2.8.0/gson-parent-2.8.0.pom (3.5 kB at 27 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/yaml/snakeyaml/1.18/snakeyaml-1.18.pom
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/yaml/snakeyaml/1.18/snakeyaml-1.18.pom
+[INFO] Downloading from worldedit-worldguard-repo: http://maven.sk89q.com/repo/org/yaml/snakeyaml/1.18/snakeyaml-1.18.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/yaml/snakeyaml/1.18/snakeyaml-1.18.pom
+[INFO] Downloading from robomwm-repo: https://dl.bintray.com/robomwm/maven/org/yaml/snakeyaml/1.18/snakeyaml-1.18.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/yaml/snakeyaml/1.18/snakeyaml-1.18.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/yaml/snakeyaml/1.18/snakeyaml-1.18.pom (31 kB at 96 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/sk89q/worldedit/worldedit-bukkit/6.1.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/sk89q/worldedit/worldedit-bukkit/6.1.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from worldedit-worldguard-repo: http://maven.sk89q.com/repo/com/sk89q/worldedit/worldedit-bukkit/6.1.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/sk89q/worldedit/worldedit-bukkit/6.1.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from robomwm-repo: https://dl.bintray.com/robomwm/maven/com/sk89q/worldedit/worldedit-bukkit/6.1.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloaded from worldedit-worldguard-repo: http://maven.sk89q.com/repo/com/sk89q/worldedit/worldedit-bukkit/6.1.1-SNAPSHOT/maven-metadata.xml (1.2 kB at 3.6 kB/s)
+[WARNING] Could not transfer metadata com.sk89q.worldedit:worldedit-bukkit:6.1.1-SNAPSHOT/maven-metadata.xml from/to paper-repo (https://repo.destroystokyo.com/repository/maven-public/): sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+[WARNING] Failure to transfer com.sk89q.worldedit:worldedit-bukkit:6.1.1-SNAPSHOT/maven-metadata.xml from https://repo.destroystokyo.com/repository/maven-public/ was cached in the local repository, resolution will not be reattempted until the update interval of paper-repo has elapsed or updates are forced. Original error: Could not transfer metadata com.sk89q.worldedit:worldedit-bukkit:6.1.1-SNAPSHOT/maven-metadata.xml from/to paper-repo (https://repo.destroystokyo.com/repository/maven-public/): sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/sk89q/worldedit/worldedit-bukkit/6.1.1-SNAPSHOT/worldedit-bukkit-6.1.1-20151030.011615-21.pom
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/sk89q/worldedit/worldedit-bukkit/6.1.1-SNAPSHOT/worldedit-bukkit-6.1.1-20151030.011615-21.pom
+[INFO] Downloading from worldedit-worldguard-repo: http://maven.sk89q.com/repo/com/sk89q/worldedit/worldedit-bukkit/6.1.1-SNAPSHOT/worldedit-bukkit-6.1.1-20151030.011615-21.pom
+[INFO] Downloaded from worldedit-worldguard-repo: http://maven.sk89q.com/repo/com/sk89q/worldedit/worldedit-bukkit/6.1.1-SNAPSHOT/worldedit-bukkit-6.1.1-20151030.011615-21.pom (1.4 kB at 3.5 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/sk89q/dummypermscompat/1.8/dummypermscompat-1.8.pom
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/sk89q/dummypermscompat/1.8/dummypermscompat-1.8.pom
+[INFO] Downloading from worldedit-worldguard-repo: http://maven.sk89q.com/repo/com/sk89q/dummypermscompat/1.8/dummypermscompat-1.8.pom
+[INFO] Downloaded from worldedit-worldguard-repo: http://maven.sk89q.com/repo/com/sk89q/dummypermscompat/1.8/dummypermscompat-1.8.pom (1.8 kB at 5.3 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/bukkit/bukkit/1.7.9-R0.2/bukkit-1.7.9-R0.2.pom
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/bukkit/bukkit/1.7.9-R0.2/bukkit-1.7.9-R0.2.pom
+[INFO] Downloading from worldedit-worldguard-repo: http://maven.sk89q.com/repo/org/bukkit/bukkit/1.7.9-R0.2/bukkit-1.7.9-R0.2.pom
+[INFO] Downloaded from worldedit-worldguard-repo: http://maven.sk89q.com/repo/org/bukkit/bukkit/1.7.9-R0.2/bukkit-1.7.9-R0.2.pom (3.8 kB at 6.6 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/sk89q/worldedit/worldedit-core/6.1.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/sk89q/worldedit/worldedit-core/6.1.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/sk89q/worldedit/worldedit-core/6.1.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from worldedit-worldguard-repo: http://maven.sk89q.com/repo/com/sk89q/worldedit/worldedit-core/6.1.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from robomwm-repo: https://dl.bintray.com/robomwm/maven/com/sk89q/worldedit/worldedit-core/6.1.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloaded from worldedit-worldguard-repo: http://maven.sk89q.com/repo/com/sk89q/worldedit/worldedit-core/6.1.1-SNAPSHOT/maven-metadata.xml (1.2 kB at 3.6 kB/s)
+[WARNING] Could not transfer metadata com.sk89q.worldedit:worldedit-core:6.1.1-SNAPSHOT/maven-metadata.xml from/to paper-repo (https://repo.destroystokyo.com/repository/maven-public/): sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+[WARNING] Failure to transfer com.sk89q.worldedit:worldedit-core:6.1.1-SNAPSHOT/maven-metadata.xml from https://repo.destroystokyo.com/repository/maven-public/ was cached in the local repository, resolution will not be reattempted until the update interval of paper-repo has elapsed or updates are forced. Original error: Could not transfer metadata com.sk89q.worldedit:worldedit-core:6.1.1-SNAPSHOT/maven-metadata.xml from/to paper-repo (https://repo.destroystokyo.com/repository/maven-public/): sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/sk89q/worldedit/worldedit-core/6.1.1-SNAPSHOT/worldedit-core-6.1.1-20151030.011615-21.pom
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/sk89q/worldedit/worldedit-core/6.1.1-SNAPSHOT/worldedit-core-6.1.1-20151030.011615-21.pom
+[INFO] Downloading from worldedit-worldguard-repo: http://maven.sk89q.com/repo/com/sk89q/worldedit/worldedit-core/6.1.1-SNAPSHOT/worldedit-core-6.1.1-20151030.011615-21.pom
+[INFO] Downloaded from worldedit-worldguard-repo: http://maven.sk89q.com/repo/com/sk89q/worldedit/worldedit-core/6.1.1-SNAPSHOT/worldedit-core-6.1.1-20151030.011615-21.pom (2.2 kB at 6.7 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/de/schlichtherle/truezip/6.8.3/truezip-6.8.3.pom
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/de/schlichtherle/truezip/6.8.3/truezip-6.8.3.pom
+[INFO] Downloading from worldedit-worldguard-repo: http://maven.sk89q.com/repo/de/schlichtherle/truezip/6.8.3/truezip-6.8.3.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/de/schlichtherle/truezip/6.8.3/truezip-6.8.3.pom
+[INFO] Downloading from robomwm-repo: https://dl.bintray.com/robomwm/maven/de/schlichtherle/truezip/6.8.3/truezip-6.8.3.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/de/schlichtherle/truezip/6.8.3/truezip-6.8.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/de/schlichtherle/truezip/6.8.3/truezip-6.8.3.pom (5.1 kB at 35 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/de/schlichtherle/asl20-oss-parent/13/asl20-oss-parent-13.pom
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/de/schlichtherle/asl20-oss-parent/13/asl20-oss-parent-13.pom
+[INFO] Downloading from worldedit-worldguard-repo: http://maven.sk89q.com/repo/de/schlichtherle/asl20-oss-parent/13/asl20-oss-parent-13.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/de/schlichtherle/asl20-oss-parent/13/asl20-oss-parent-13.pom
+[INFO] Downloading from robomwm-repo: https://dl.bintray.com/robomwm/maven/de/schlichtherle/asl20-oss-parent/13/asl20-oss-parent-13.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/de/schlichtherle/asl20-oss-parent/13/asl20-oss-parent-13.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/de/schlichtherle/asl20-oss-parent/13/asl20-oss-parent-13.pom (9.5 kB at 71 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/google/guava/guava/18.0/guava-18.0.pom
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/google/guava/guava/18.0/guava-18.0.pom
+[INFO] Downloading from worldedit-worldguard-repo: http://maven.sk89q.com/repo/com/google/guava/guava/18.0/guava-18.0.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/google/guava/guava/18.0/guava-18.0.pom
+[INFO] Downloading from robomwm-repo: https://dl.bintray.com/robomwm/maven/com/google/guava/guava/18.0/guava-18.0.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/18.0/guava-18.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/18.0/guava-18.0.pom (5.7 kB at 40 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/google/guava/guava-parent/18.0/guava-parent-18.0.pom
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/google/guava/guava-parent/18.0/guava-parent-18.0.pom
+[INFO] Downloading from worldedit-worldguard-repo: http://maven.sk89q.com/repo/com/google/guava/guava-parent/18.0/guava-parent-18.0.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/google/guava/guava-parent/18.0/guava-parent-18.0.pom
+[INFO] Downloading from robomwm-repo: https://dl.bintray.com/robomwm/maven/com/google/guava/guava-parent/18.0/guava-parent-18.0.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/18.0/guava-parent-18.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/18.0/guava-parent-18.0.pom (7.7 kB at 55 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/rhino/js/1.7R2/js-1.7R2.pom
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/rhino/js/1.7R2/js-1.7R2.pom
+[INFO] Downloading from worldedit-worldguard-repo: http://maven.sk89q.com/repo/rhino/js/1.7R2/js-1.7R2.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/rhino/js/1.7R2/js-1.7R2.pom
+[INFO] Downloading from robomwm-repo: https://dl.bintray.com/robomwm/maven/rhino/js/1.7R2/js-1.7R2.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/rhino/js/1.7R2/js-1.7R2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/rhino/js/1.7R2/js-1.7R2.pom (832 B at 1.9 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/yaml/snakeyaml/1.9/snakeyaml-1.9.pom
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/yaml/snakeyaml/1.9/snakeyaml-1.9.pom
+[INFO] Downloading from worldedit-worldguard-repo: http://maven.sk89q.com/repo/org/yaml/snakeyaml/1.9/snakeyaml-1.9.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/yaml/snakeyaml/1.9/snakeyaml-1.9.pom
+[INFO] Downloading from robomwm-repo: https://dl.bintray.com/robomwm/maven/org/yaml/snakeyaml/1.9/snakeyaml-1.9.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/yaml/snakeyaml/1.9/snakeyaml-1.9.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/yaml/snakeyaml/1.9/snakeyaml-1.9.pom (14 kB at 82 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.pom
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.pom
+[INFO] Downloading from worldedit-worldguard-repo: http://maven.sk89q.com/repo/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.pom
+[INFO] Downloading from robomwm-repo: https://dl.bintray.com/robomwm/maven/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.pom (965 B at 8.1 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/thoughtworks/paranamer/paranamer/2.6/paranamer-2.6.pom
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/thoughtworks/paranamer/paranamer/2.6/paranamer-2.6.pom
+[INFO] Downloading from worldedit-worldguard-repo: http://maven.sk89q.com/repo/com/thoughtworks/paranamer/paranamer/2.6/paranamer-2.6.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/thoughtworks/paranamer/paranamer/2.6/paranamer-2.6.pom
+[INFO] Downloading from robomwm-repo: https://dl.bintray.com/robomwm/maven/com/thoughtworks/paranamer/paranamer/2.6/paranamer-2.6.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/thoughtworks/paranamer/paranamer/2.6/paranamer-2.6.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/thoughtworks/paranamer/paranamer/2.6/paranamer-2.6.pom (4.8 kB at 32 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/thoughtworks/paranamer/paranamer-parent/2.6/paranamer-parent-2.6.pom
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/thoughtworks/paranamer/paranamer-parent/2.6/paranamer-parent-2.6.pom
+[INFO] Downloading from worldedit-worldguard-repo: http://maven.sk89q.com/repo/com/thoughtworks/paranamer/paranamer-parent/2.6/paranamer-parent-2.6.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/thoughtworks/paranamer/paranamer-parent/2.6/paranamer-parent-2.6.pom
+[INFO] Downloading from robomwm-repo: https://dl.bintray.com/robomwm/maven/com/thoughtworks/paranamer/paranamer-parent/2.6/paranamer-parent-2.6.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/thoughtworks/paranamer/paranamer-parent/2.6/paranamer-parent-2.6.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/thoughtworks/paranamer/paranamer-parent/2.6/paranamer-parent-2.6.pom (11 kB at 70 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/codehaus/codehaus-parent/4/codehaus-parent-4.pom
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/codehaus/codehaus-parent/4/codehaus-parent-4.pom
+[INFO] Downloading from worldedit-worldguard-repo: http://maven.sk89q.com/repo/org/codehaus/codehaus-parent/4/codehaus-parent-4.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/codehaus/codehaus-parent/4/codehaus-parent-4.pom
+[INFO] Downloading from robomwm-repo: https://dl.bintray.com/robomwm/maven/org/codehaus/codehaus-parent/4/codehaus-parent-4.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/codehaus-parent/4/codehaus-parent-4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/codehaus-parent/4/codehaus-parent-4.pom (4.8 kB at 38 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/google/code/gson/gson/2.2.4/gson-2.2.4.pom
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/google/code/gson/gson/2.2.4/gson-2.2.4.pom
+[INFO] Downloading from worldedit-worldguard-repo: http://maven.sk89q.com/repo/com/google/code/gson/gson/2.2.4/gson-2.2.4.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/google/code/gson/gson/2.2.4/gson-2.2.4.pom
+[INFO] Downloading from robomwm-repo: https://dl.bintray.com/robomwm/maven/com/google/code/gson/gson/2.2.4/gson-2.2.4.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/code/gson/gson/2.2.4/gson-2.2.4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/code/gson/gson/2.2.4/gson-2.2.4.pom (8.0 kB at 40 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/sk89q/lib/jlibnoise/1.0.0/jlibnoise-1.0.0.pom
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/sk89q/lib/jlibnoise/1.0.0/jlibnoise-1.0.0.pom
+[INFO] Downloading from worldedit-worldguard-repo: http://maven.sk89q.com/repo/com/sk89q/lib/jlibnoise/1.0.0/jlibnoise-1.0.0.pom
+[INFO] Downloaded from worldedit-worldguard-repo: http://maven.sk89q.com/repo/com/sk89q/lib/jlibnoise/1.0.0/jlibnoise-1.0.0.pom (2.2 kB at 5.0 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/sk89q/jchronic/0.2.4a/jchronic-0.2.4a.pom
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/sk89q/jchronic/0.2.4a/jchronic-0.2.4a.pom
+[INFO] Downloading from worldedit-worldguard-repo: http://maven.sk89q.com/repo/com/sk89q/jchronic/0.2.4a/jchronic-0.2.4a.pom
+[WARNING] Could not validate integrity of download from http://maven.sk89q.com/repo/com/sk89q/jchronic/0.2.4a/jchronic-0.2.4a.pom: Checksum validation failed, no checksums available
+[WARNING] Checksum validation failed, no checksums available from worldedit-worldguard-repo for http://maven.sk89q.com/repo/com/sk89q/jchronic/0.2.4a/jchronic-0.2.4a.pom
+[INFO] Downloaded from worldedit-worldguard-repo: http://maven.sk89q.com/repo/com/sk89q/jchronic/0.2.4a/jchronic-0.2.4a.pom (1.7 kB at 2.3 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/junit/junit/4.8.1/junit-4.8.1.pom
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/junit/junit/4.8.1/junit-4.8.1.pom
+[INFO] Downloading from worldedit-worldguard-repo: http://maven.sk89q.com/repo/junit/junit/4.8.1/junit-4.8.1.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/junit/junit/4.8.1/junit-4.8.1.pom
+[INFO] Downloading from robomwm-repo: https://dl.bintray.com/robomwm/maven/junit/junit/4.8.1/junit-4.8.1.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/junit/junit/4.8.1/junit-4.8.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/junit/junit/4.8.1/junit-4.8.1.pom (949 B at 3.5 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/sk89q/bukkit/bukkit-classloader-check/1.7.9-R0.2/bukkit-classloader-check-1.7.9-R0.2.pom
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/sk89q/bukkit/bukkit-classloader-check/1.7.9-R0.2/bukkit-classloader-check-1.7.9-R0.2.pom
+[INFO] Downloading from worldedit-worldguard-repo: http://maven.sk89q.com/repo/org/sk89q/bukkit/bukkit-classloader-check/1.7.9-R0.2/bukkit-classloader-check-1.7.9-R0.2.pom
+[INFO] Downloaded from worldedit-worldguard-repo: http://maven.sk89q.com/repo/org/sk89q/bukkit/bukkit-classloader-check/1.7.9-R0.2/bukkit-classloader-check-1.7.9-R0.2.pom (5.4 kB at 11 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/googlecode/json-simple/json-simple/1.1/json-simple-1.1.pom
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/googlecode/json-simple/json-simple/1.1/json-simple-1.1.pom
+[INFO] Downloading from worldedit-worldguard-repo: http://maven.sk89q.com/repo/com/googlecode/json-simple/json-simple/1.1/json-simple-1.1.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/googlecode/json-simple/json-simple/1.1/json-simple-1.1.pom
+[INFO] Downloading from robomwm-repo: https://dl.bintray.com/robomwm/maven/com/googlecode/json-simple/json-simple/1.1/json-simple-1.1.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/googlecode/json-simple/json-simple/1.1/json-simple-1.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/googlecode/json-simple/json-simple/1.1/json-simple-1.1.pom (1.1 kB at 13 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/avaje/ebean/2.7.3/ebean-2.7.3.pom
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/avaje/ebean/2.7.3/ebean-2.7.3.pom
+[INFO] Downloading from worldedit-worldguard-repo: http://maven.sk89q.com/repo/org/avaje/ebean/2.7.3/ebean-2.7.3.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/avaje/ebean/2.7.3/ebean-2.7.3.pom
+[INFO] Downloading from robomwm-repo: https://dl.bintray.com/robomwm/maven/org/avaje/ebean/2.7.3/ebean-2.7.3.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/avaje/ebean/2.7.3/ebean-2.7.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/avaje/ebean/2.7.3/ebean-2.7.3.pom (15 kB at 71 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/sonatype/oss/oss-parent/5/oss-parent-5.pom
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/sonatype/oss/oss-parent/5/oss-parent-5.pom
+[INFO] Downloading from worldedit-worldguard-repo: http://maven.sk89q.com/repo/org/sonatype/oss/oss-parent/5/oss-parent-5.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/sonatype/oss/oss-parent/5/oss-parent-5.pom
+[INFO] Downloading from robomwm-repo: https://dl.bintray.com/robomwm/maven/org/sonatype/oss/oss-parent/5/oss-parent-5.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/sonatype/oss/oss-parent/5/oss-parent-5.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/sonatype/oss/oss-parent/5/oss-parent-5.pom (4.1 kB at 28 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/javax/persistence/persistence-api/1.0/persistence-api-1.0.pom
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/javax/persistence/persistence-api/1.0/persistence-api-1.0.pom
+[INFO] Downloading from worldedit-worldguard-repo: http://maven.sk89q.com/repo/javax/persistence/persistence-api/1.0/persistence-api-1.0.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/javax/persistence/persistence-api/1.0/persistence-api-1.0.pom
+[INFO] Downloading from robomwm-repo: https://dl.bintray.com/robomwm/maven/javax/persistence/persistence-api/1.0/persistence-api-1.0.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/javax/persistence/persistence-api/1.0/persistence-api-1.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/javax/persistence/persistence-api/1.0/persistence-api-1.0.pom (1.3 kB at 12 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/google/guava/guava/10.0.1/guava-10.0.1.pom
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/google/guava/guava/10.0.1/guava-10.0.1.pom
+[INFO] Downloading from worldedit-worldguard-repo: http://maven.sk89q.com/repo/com/google/guava/guava/10.0.1/guava-10.0.1.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/google/guava/guava/10.0.1/guava-10.0.1.pom
+[INFO] Downloading from robomwm-repo: https://dl.bintray.com/robomwm/maven/com/google/guava/guava/10.0.1/guava-10.0.1.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/10.0.1/guava-10.0.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/10.0.1/guava-10.0.1.pom (5.4 kB at 27 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/google/guava/guava-parent/10.0.1/guava-parent-10.0.1.pom
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/google/guava/guava-parent/10.0.1/guava-parent-10.0.1.pom
+[INFO] Downloading from worldedit-worldguard-repo: http://maven.sk89q.com/repo/com/google/guava/guava-parent/10.0.1/guava-parent-10.0.1.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/google/guava/guava-parent/10.0.1/guava-parent-10.0.1.pom
+[INFO] Downloading from robomwm-repo: https://dl.bintray.com/robomwm/maven/com/google/guava/guava-parent/10.0.1/guava-parent-10.0.1.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/10.0.1/guava-parent-10.0.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/10.0.1/guava-parent-10.0.1.pom (2.0 kB at 16 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/commons-lang/commons-lang/2.3/commons-lang-2.3.pom
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/commons-lang/commons-lang/2.3/commons-lang-2.3.pom
+[INFO] Downloading from worldedit-worldguard-repo: http://maven.sk89q.com/repo/commons-lang/commons-lang/2.3/commons-lang-2.3.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/commons-lang/commons-lang/2.3/commons-lang-2.3.pom
+[INFO] Downloading from robomwm-repo: https://dl.bintray.com/robomwm/maven/commons-lang/commons-lang/2.3/commons-lang-2.3.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/commons-lang/commons-lang/2.3/commons-lang-2.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/commons-lang/commons-lang/2.3/commons-lang-2.3.pom (11 kB at 86 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/github/TheBusyBiscuit/CS-CoreLib/v1.5.18/CS-CoreLib-v1.5.18.pom
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/github/TheBusyBiscuit/CS-CoreLib/v1.5.18/CS-CoreLib-v1.5.18.pom
+[INFO] Downloading from worldedit-worldguard-repo: http://maven.sk89q.com/repo/com/github/TheBusyBiscuit/CS-CoreLib/v1.5.18/CS-CoreLib-v1.5.18.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/github/TheBusyBiscuit/CS-CoreLib/v1.5.18/CS-CoreLib-v1.5.18.pom
+[INFO] Downloaded from jitpack.io: https://jitpack.io/com/github/TheBusyBiscuit/CS-CoreLib/v1.5.18/CS-CoreLib-v1.5.18.pom (6.1 kB at 12 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/sk89q/worldedit/worldedit-bukkit/6.1.4-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from worldedit-worldguard-repo: http://maven.sk89q.com/repo/com/sk89q/worldedit/worldedit-bukkit/6.1.4-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/sk89q/worldedit/worldedit-bukkit/6.1.4-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/sk89q/worldedit/worldedit-bukkit/6.1.4-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from robomwm-repo: https://dl.bintray.com/robomwm/maven/com/sk89q/worldedit/worldedit-bukkit/6.1.4-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/com/sk89q/worldedit/worldedit-bukkit/6.1.4-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from simpleclans-preciousstones-repo: http://104.236.246.108:8081/artifactory/remote-repos/com/sk89q/worldedit/worldedit-bukkit/6.1.4-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from bintray-tastybento-maven-repo: http://dl.bintray.com/tastybento/maven-repo/com/sk89q/worldedit/worldedit-bukkit/6.1.4-SNAPSHOT/maven-metadata.xml
+[INFO] Downloaded from worldedit-worldguard-repo: http://maven.sk89q.com/repo/com/sk89q/worldedit/worldedit-bukkit/6.1.4-SNAPSHOT/maven-metadata.xml (1.2 kB at 2.7 kB/s)
+[INFO] Downloading from massivecore-factions-repo: http://repo.dustplanet.de/artifactory/ext-release-local/com/sk89q/worldedit/worldedit-bukkit/6.1.4-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from plotsquared-repo: http://ci.athion.net/job/PlotSquared/ws/mvn/com/sk89q/worldedit/worldedit-bukkit/6.1.4-SNAPSHOT/maven-metadata.xml
+[WARNING] Could not transfer metadata com.sk89q.worldedit:worldedit-bukkit:6.1.4-SNAPSHOT/maven-metadata.xml from/to paper-repo (https://repo.destroystokyo.com/repository/maven-public/): sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+[WARNING] Failure to transfer com.sk89q.worldedit:worldedit-bukkit:6.1.4-SNAPSHOT/maven-metadata.xml from https://repo.destroystokyo.com/repository/maven-public/ was cached in the local repository, resolution will not be reattempted until the update interval of paper-repo has elapsed or updates are forced. Original error: Could not transfer metadata com.sk89q.worldedit:worldedit-bukkit:6.1.4-SNAPSHOT/maven-metadata.xml from/to paper-repo (https://repo.destroystokyo.com/repository/maven-public/): sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/sk89q/worldedit/worldedit-bukkit/6.1.4-SNAPSHOT/worldedit-bukkit-6.1.4-20160806.113546-4.pom
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/sk89q/worldedit/worldedit-bukkit/6.1.4-SNAPSHOT/worldedit-bukkit-6.1.4-20160806.113546-4.pom
+[INFO] Downloading from worldedit-worldguard-repo: http://maven.sk89q.com/repo/com/sk89q/worldedit/worldedit-bukkit/6.1.4-SNAPSHOT/worldedit-bukkit-6.1.4-20160806.113546-4.pom
+[INFO] Downloaded from worldedit-worldguard-repo: http://maven.sk89q.com/repo/com/sk89q/worldedit/worldedit-bukkit/6.1.4-SNAPSHOT/worldedit-bukkit-6.1.4-20160806.113546-4.pom (1.2 kB at 3.8 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/bukkit/bukkit/1.9.4-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/bukkit/bukkit/1.9.4-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/bukkit/bukkit/1.9.4-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from worldedit-worldguard-repo: http://maven.sk89q.com/repo/org/bukkit/bukkit/1.9.4-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from robomwm-repo: https://dl.bintray.com/robomwm/maven/org/bukkit/bukkit/1.9.4-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/org/bukkit/bukkit/1.9.4-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from simpleclans-preciousstones-repo: http://104.236.246.108:8081/artifactory/remote-repos/org/bukkit/bukkit/1.9.4-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloaded from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/bukkit/bukkit/1.9.4-R0.1-SNAPSHOT/maven-metadata.xml (1.4 kB at 3.1 kB/s)
+[INFO] Downloading from bintray-tastybento-maven-repo: http://dl.bintray.com/tastybento/maven-repo/org/bukkit/bukkit/1.9.4-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from massivecore-factions-repo: http://repo.dustplanet.de/artifactory/ext-release-local/org/bukkit/bukkit/1.9.4-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from plotsquared-repo: http://ci.athion.net/job/PlotSquared/ws/mvn/org/bukkit/bukkit/1.9.4-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloaded from simpleclans-preciousstones-repo: http://104.236.246.108:8081/artifactory/remote-repos/org/bukkit/bukkit/1.9.4-R0.1-SNAPSHOT/maven-metadata.xml (1.4 kB at 3.1 kB/s)
+[WARNING] Could not transfer metadata org.bukkit:bukkit:1.9.4-R0.1-SNAPSHOT/maven-metadata.xml from/to paper-repo (https://repo.destroystokyo.com/repository/maven-public/): sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+[WARNING] Could not transfer metadata org.bukkit:bukkit:1.9.4-R0.1-SNAPSHOT/maven-metadata.xml from/to jitpack.io (https://jitpack.io): Failed to transfer file: https://jitpack.io/org/bukkit/bukkit/1.9.4-R0.1-SNAPSHOT/maven-metadata.xml. Return code is: 500 , ReasonPhrase:Internal Server Error.
+[WARNING] Failure to transfer org.bukkit:bukkit:1.9.4-R0.1-SNAPSHOT/maven-metadata.xml from https://repo.destroystokyo.com/repository/maven-public/ was cached in the local repository, resolution will not be reattempted until the update interval of paper-repo has elapsed or updates are forced. Original error: Could not transfer metadata org.bukkit:bukkit:1.9.4-R0.1-SNAPSHOT/maven-metadata.xml from/to paper-repo (https://repo.destroystokyo.com/repository/maven-public/): sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+[WARNING] Failure to transfer org.bukkit:bukkit:1.9.4-R0.1-SNAPSHOT/maven-metadata.xml from https://jitpack.io was cached in the local repository, resolution will not be reattempted until the update interval of jitpack.io has elapsed or updates are forced. Original error: Could not transfer metadata org.bukkit:bukkit:1.9.4-R0.1-SNAPSHOT/maven-metadata.xml from/to jitpack.io (https://jitpack.io): Failed to transfer file: https://jitpack.io/org/bukkit/bukkit/1.9.4-R0.1-SNAPSHOT/maven-metadata.xml. Return code is: 500 , ReasonPhrase:Internal Server Error.
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/bukkit/bukkit/1.9.4-R0.1-SNAPSHOT/bukkit-1.9.4-R0.1-20160603.113520-25.pom
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/bukkit/bukkit/1.9.4-R0.1-SNAPSHOT/bukkit-1.9.4-R0.1-20160603.113520-25.pom
+[INFO] Downloaded from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/bukkit/bukkit/1.9.4-R0.1-SNAPSHOT/bukkit-1.9.4-R0.1-20160603.113520-25.pom (6.3 kB at 14 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/google/guava/guava/17.0/guava-17.0.pom
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/google/guava/guava/17.0/guava-17.0.pom
+[INFO] Downloading from worldedit-worldguard-repo: http://maven.sk89q.com/repo/com/google/guava/guava/17.0/guava-17.0.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/google/guava/guava/17.0/guava-17.0.pom
+[INFO] Downloading from robomwm-repo: https://dl.bintray.com/robomwm/maven/com/google/guava/guava/17.0/guava-17.0.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/17.0/guava-17.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/17.0/guava-17.0.pom (5.6 kB at 54 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/google/guava/guava-parent/17.0/guava-parent-17.0.pom
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/google/guava/guava-parent/17.0/guava-parent-17.0.pom
+[INFO] Downloading from worldedit-worldguard-repo: http://maven.sk89q.com/repo/com/google/guava/guava-parent/17.0/guava-parent-17.0.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/google/guava/guava-parent/17.0/guava-parent-17.0.pom
+[INFO] Downloading from robomwm-repo: https://dl.bintray.com/robomwm/maven/com/google/guava/guava-parent/17.0/guava-parent-17.0.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/17.0/guava-parent-17.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/17.0/guava-parent-17.0.pom (7.8 kB at 46 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/avaje/ebean/2.8.1/ebean-2.8.1.pom
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/avaje/ebean/2.8.1/ebean-2.8.1.pom
+[INFO] Downloading from worldedit-worldguard-repo: http://maven.sk89q.com/repo/org/avaje/ebean/2.8.1/ebean-2.8.1.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/avaje/ebean/2.8.1/ebean-2.8.1.pom
+[INFO] Downloading from robomwm-repo: https://dl.bintray.com/robomwm/maven/org/avaje/ebean/2.8.1/ebean-2.8.1.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/avaje/ebean/2.8.1/ebean-2.8.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/avaje/ebean/2.8.1/ebean-2.8.1.pom (17 kB at 99 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/yaml/snakeyaml/1.15/snakeyaml-1.15.pom
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/yaml/snakeyaml/1.15/snakeyaml-1.15.pom
+[INFO] Downloading from worldedit-worldguard-repo: http://maven.sk89q.com/repo/org/yaml/snakeyaml/1.15/snakeyaml-1.15.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/yaml/snakeyaml/1.15/snakeyaml-1.15.pom
+[INFO] Downloading from robomwm-repo: https://dl.bintray.com/robomwm/maven/org/yaml/snakeyaml/1.15/snakeyaml-1.15.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/yaml/snakeyaml/1.15/snakeyaml-1.15.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/yaml/snakeyaml/1.15/snakeyaml-1.15.pom (26 kB at 109 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/sk89q/worldedit/worldedit-core/6.1.4-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from worldedit-worldguard-repo: http://maven.sk89q.com/repo/com/sk89q/worldedit/worldedit-core/6.1.4-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/sk89q/worldedit/worldedit-core/6.1.4-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/sk89q/worldedit/worldedit-core/6.1.4-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from robomwm-repo: https://dl.bintray.com/robomwm/maven/com/sk89q/worldedit/worldedit-core/6.1.4-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/com/sk89q/worldedit/worldedit-core/6.1.4-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from simpleclans-preciousstones-repo: http://104.236.246.108:8081/artifactory/remote-repos/com/sk89q/worldedit/worldedit-core/6.1.4-SNAPSHOT/maven-metadata.xml
+[INFO] Downloaded from worldedit-worldguard-repo: http://maven.sk89q.com/repo/com/sk89q/worldedit/worldedit-core/6.1.4-SNAPSHOT/maven-metadata.xml (1.2 kB at 2.6 kB/s)
+[INFO] Downloading from bintray-tastybento-maven-repo: http://dl.bintray.com/tastybento/maven-repo/com/sk89q/worldedit/worldedit-core/6.1.4-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from massivecore-factions-repo: http://repo.dustplanet.de/artifactory/ext-release-local/com/sk89q/worldedit/worldedit-core/6.1.4-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from plotsquared-repo: http://ci.athion.net/job/PlotSquared/ws/mvn/com/sk89q/worldedit/worldedit-core/6.1.4-SNAPSHOT/maven-metadata.xml
+[WARNING] Could not transfer metadata com.sk89q.worldedit:worldedit-core:6.1.4-SNAPSHOT/maven-metadata.xml from/to paper-repo (https://repo.destroystokyo.com/repository/maven-public/): sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+[WARNING] Failure to transfer com.sk89q.worldedit:worldedit-core:6.1.4-SNAPSHOT/maven-metadata.xml from https://repo.destroystokyo.com/repository/maven-public/ was cached in the local repository, resolution will not be reattempted until the update interval of paper-repo has elapsed or updates are forced. Original error: Could not transfer metadata com.sk89q.worldedit:worldedit-core:6.1.4-SNAPSHOT/maven-metadata.xml from/to paper-repo (https://repo.destroystokyo.com/repository/maven-public/): sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/sk89q/worldedit/worldedit-core/6.1.4-SNAPSHOT/worldedit-core-6.1.4-20160806.113546-4.pom
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/sk89q/worldedit/worldedit-core/6.1.4-SNAPSHOT/worldedit-core-6.1.4-20160806.113546-4.pom
+[INFO] Downloading from worldedit-worldguard-repo: http://maven.sk89q.com/repo/com/sk89q/worldedit/worldedit-core/6.1.4-SNAPSHOT/worldedit-core-6.1.4-20160806.113546-4.pom
+[INFO] Downloaded from worldedit-worldguard-repo: http://maven.sk89q.com/repo/com/sk89q/worldedit/worldedit-core/6.1.4-SNAPSHOT/worldedit-core-6.1.4-20160806.113546-4.pom (2.3 kB at 6.5 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/sk89q/worldguard/6.1.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from worldedit-worldguard-repo: http://maven.sk89q.com/repo/com/sk89q/worldguard/6.1.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/sk89q/worldguard/6.1.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/sk89q/worldguard/6.1.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from robomwm-repo: https://dl.bintray.com/robomwm/maven/com/sk89q/worldguard/6.1.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/com/sk89q/worldguard/6.1.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from simpleclans-preciousstones-repo: http://104.236.246.108:8081/artifactory/remote-repos/com/sk89q/worldguard/6.1.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloaded from worldedit-worldguard-repo: http://maven.sk89q.com/repo/com/sk89q/worldguard/6.1.1-SNAPSHOT/maven-metadata.xml (1.7 kB at 3.9 kB/s)
+[INFO] Downloading from bintray-tastybento-maven-repo: http://dl.bintray.com/tastybento/maven-repo/com/sk89q/worldguard/6.1.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from massivecore-factions-repo: http://repo.dustplanet.de/artifactory/ext-release-local/com/sk89q/worldguard/6.1.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from plotsquared-repo: http://ci.athion.net/job/PlotSquared/ws/mvn/com/sk89q/worldguard/6.1.1-SNAPSHOT/maven-metadata.xml
+[WARNING] Could not transfer metadata com.sk89q:worldguard:6.1.1-SNAPSHOT/maven-metadata.xml from/to paper-repo (https://repo.destroystokyo.com/repository/maven-public/): sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+[WARNING] Could not transfer metadata com.sk89q:worldguard:6.1.1-SNAPSHOT/maven-metadata.xml from/to jitpack.io (https://jitpack.io): Failed to transfer file: https://jitpack.io/com/sk89q/worldguard/6.1.1-SNAPSHOT/maven-metadata.xml. Return code is: 500 , ReasonPhrase:Internal Server Error.
+[WARNING] Failure to transfer com.sk89q:worldguard:6.1.1-SNAPSHOT/maven-metadata.xml from https://repo.destroystokyo.com/repository/maven-public/ was cached in the local repository, resolution will not be reattempted until the update interval of paper-repo has elapsed or updates are forced. Original error: Could not transfer metadata com.sk89q:worldguard:6.1.1-SNAPSHOT/maven-metadata.xml from/to paper-repo (https://repo.destroystokyo.com/repository/maven-public/): sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+[WARNING] Failure to transfer com.sk89q:worldguard:6.1.1-SNAPSHOT/maven-metadata.xml from https://jitpack.io was cached in the local repository, resolution will not be reattempted until the update interval of jitpack.io has elapsed or updates are forced. Original error: Could not transfer metadata com.sk89q:worldguard:6.1.1-SNAPSHOT/maven-metadata.xml from/to jitpack.io (https://jitpack.io): Failed to transfer file: https://jitpack.io/com/sk89q/worldguard/6.1.1-SNAPSHOT/maven-metadata.xml. Return code is: 500 , ReasonPhrase:Internal Server Error.
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/sk89q/worldguard/6.1.1-SNAPSHOT/worldguard-6.1.1-20150928.003559-16.pom
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/sk89q/worldguard/6.1.1-SNAPSHOT/worldguard-6.1.1-20150928.003559-16.pom
+[INFO] Downloading from worldedit-worldguard-repo: http://maven.sk89q.com/repo/com/sk89q/worldguard/6.1.1-SNAPSHOT/worldguard-6.1.1-20150928.003559-16.pom
+[INFO] Downloaded from worldedit-worldguard-repo: http://maven.sk89q.com/repo/com/sk89q/worldguard/6.1.1-SNAPSHOT/worldguard-6.1.1-20150928.003559-16.pom (14 kB at 36 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/sk89q/worldedit/5.5.8/worldedit-5.5.8.pom
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/sk89q/worldedit/5.5.8/worldedit-5.5.8.pom
+[INFO] Downloading from worldedit-worldguard-repo: http://maven.sk89q.com/repo/com/sk89q/worldedit/5.5.8/worldedit-5.5.8.pom
+[INFO] Downloaded from worldedit-worldguard-repo: http://maven.sk89q.com/repo/com/sk89q/worldedit/5.5.8/worldedit-5.5.8.pom (13 kB at 34 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/sk89q/spigot/bukkit-classloader-check/1.8-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from worldedit-worldguard-repo: http://maven.sk89q.com/repo/com/sk89q/spigot/bukkit-classloader-check/1.8-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/sk89q/spigot/bukkit-classloader-check/1.8-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/sk89q/spigot/bukkit-classloader-check/1.8-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from robomwm-repo: https://dl.bintray.com/robomwm/maven/com/sk89q/spigot/bukkit-classloader-check/1.8-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/com/sk89q/spigot/bukkit-classloader-check/1.8-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloaded from worldedit-worldguard-repo: http://maven.sk89q.com/repo/com/sk89q/spigot/bukkit-classloader-check/1.8-R0.1-SNAPSHOT/maven-metadata.xml (787 B at 2.3 kB/s)
+[INFO] Downloading from simpleclans-preciousstones-repo: http://104.236.246.108:8081/artifactory/remote-repos/com/sk89q/spigot/bukkit-classloader-check/1.8-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from bintray-tastybento-maven-repo: http://dl.bintray.com/tastybento/maven-repo/com/sk89q/spigot/bukkit-classloader-check/1.8-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from massivecore-factions-repo: http://repo.dustplanet.de/artifactory/ext-release-local/com/sk89q/spigot/bukkit-classloader-check/1.8-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from plotsquared-repo: http://ci.athion.net/job/PlotSquared/ws/mvn/com/sk89q/spigot/bukkit-classloader-check/1.8-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from sk89q-repo: http://maven.sk89q.com/repo/com/sk89q/spigot/bukkit-classloader-check/1.8-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloaded from simpleclans-preciousstones-repo: http://104.236.246.108:8081/artifactory/remote-repos/com/sk89q/spigot/bukkit-classloader-check/1.8-R0.1-SNAPSHOT/maven-metadata.xml (787 B at 1.6 kB/s)
+[INFO] Downloaded from sk89q-repo: http://maven.sk89q.com/repo/com/sk89q/spigot/bukkit-classloader-check/1.8-R0.1-SNAPSHOT/maven-metadata.xml (787 B at 2.3 kB/s)
+[WARNING] Could not transfer metadata com.sk89q.spigot:bukkit-classloader-check:1.8-R0.1-SNAPSHOT/maven-metadata.xml from/to paper-repo (https://repo.destroystokyo.com/repository/maven-public/): sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+[WARNING] Failure to transfer com.sk89q.spigot:bukkit-classloader-check:1.8-R0.1-SNAPSHOT/maven-metadata.xml from https://repo.destroystokyo.com/repository/maven-public/ was cached in the local repository, resolution will not be reattempted until the update interval of paper-repo has elapsed or updates are forced. Original error: Could not transfer metadata com.sk89q.spigot:bukkit-classloader-check:1.8-R0.1-SNAPSHOT/maven-metadata.xml from/to paper-repo (https://repo.destroystokyo.com/repository/maven-public/): sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/sk89q/spigot/bukkit-classloader-check/1.8-R0.1-SNAPSHOT/bukkit-classloader-check-1.8-R0.1-20150310.044714-1.pom
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/sk89q/spigot/bukkit-classloader-check/1.8-R0.1-SNAPSHOT/bukkit-classloader-check-1.8-R0.1-20150310.044714-1.pom
+[INFO] Downloading from worldedit-worldguard-repo: http://maven.sk89q.com/repo/com/sk89q/spigot/bukkit-classloader-check/1.8-R0.1-SNAPSHOT/bukkit-classloader-check-1.8-R0.1-20150310.044714-1.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/sk89q/spigot/bukkit-classloader-check/1.8-R0.1-SNAPSHOT/bukkit-classloader-check-1.8-R0.1-20150310.044714-1.pom
+[INFO] Downloading from robomwm-repo: https://dl.bintray.com/robomwm/maven/com/sk89q/spigot/bukkit-classloader-check/1.8-R0.1-SNAPSHOT/bukkit-classloader-check-1.8-R0.1-20150310.044714-1.pom
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/com/sk89q/spigot/bukkit-classloader-check/1.8-R0.1-SNAPSHOT/bukkit-classloader-check-1.8-R0.1-20150310.044714-1.pom
+[INFO] Downloading from simpleclans-preciousstones-repo: http://104.236.246.108:8081/artifactory/remote-repos/com/sk89q/spigot/bukkit-classloader-check/1.8-R0.1-SNAPSHOT/bukkit-classloader-check-1.8-R0.1-20150310.044714-1.pom
+[INFO] Downloaded from simpleclans-preciousstones-repo: http://104.236.246.108:8081/artifactory/remote-repos/com/sk89q/spigot/bukkit-classloader-check/1.8-R0.1-SNAPSHOT/bukkit-classloader-check-1.8-R0.1-20150310.044714-1.pom (6.0 kB at 8.5 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/yaml/snakeyaml/1.14/snakeyaml-1.14.pom
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/yaml/snakeyaml/1.14/snakeyaml-1.14.pom
+[INFO] Downloading from worldedit-worldguard-repo: http://maven.sk89q.com/repo/org/yaml/snakeyaml/1.14/snakeyaml-1.14.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/yaml/snakeyaml/1.14/snakeyaml-1.14.pom
+[INFO] Downloading from robomwm-repo: https://dl.bintray.com/robomwm/maven/org/yaml/snakeyaml/1.14/snakeyaml-1.14.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/yaml/snakeyaml/1.14/snakeyaml-1.14.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/yaml/snakeyaml/1.14/snakeyaml-1.14.pom (24 kB at 70 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/bukkit/bukkit/1.8.6-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/bukkit/bukkit/1.8.6-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from worldedit-worldguard-repo: http://maven.sk89q.com/repo/org/bukkit/bukkit/1.8.6-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/bukkit/bukkit/1.8.6-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from robomwm-repo: https://dl.bintray.com/robomwm/maven/org/bukkit/bukkit/1.8.6-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/org/bukkit/bukkit/1.8.6-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloaded from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/bukkit/bukkit/1.8.6-R0.1-SNAPSHOT/maven-metadata.xml (1.4 kB at 1.7 kB/s)
+[INFO] Downloading from simpleclans-preciousstones-repo: http://104.236.246.108:8081/artifactory/remote-repos/org/bukkit/bukkit/1.8.6-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from bintray-tastybento-maven-repo: http://dl.bintray.com/tastybento/maven-repo/org/bukkit/bukkit/1.8.6-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from massivecore-factions-repo: http://repo.dustplanet.de/artifactory/ext-release-local/org/bukkit/bukkit/1.8.6-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from plotsquared-repo: http://ci.athion.net/job/PlotSquared/ws/mvn/org/bukkit/bukkit/1.8.6-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloaded from simpleclans-preciousstones-repo: http://104.236.246.108:8081/artifactory/remote-repos/org/bukkit/bukkit/1.8.6-R0.1-SNAPSHOT/maven-metadata.xml (1.4 kB at 3.8 kB/s)
+[INFO] Downloading from sk89q-repo: http://maven.sk89q.com/repo/org/bukkit/bukkit/1.8.6-R0.1-SNAPSHOT/maven-metadata.xml
+[WARNING] Could not transfer metadata org.bukkit:bukkit:1.8.6-R0.1-SNAPSHOT/maven-metadata.xml from/to paper-repo (https://repo.destroystokyo.com/repository/maven-public/): sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+[WARNING] Failure to transfer org.bukkit:bukkit:1.8.6-R0.1-SNAPSHOT/maven-metadata.xml from https://repo.destroystokyo.com/repository/maven-public/ was cached in the local repository, resolution will not be reattempted until the update interval of paper-repo has elapsed or updates are forced. Original error: Could not transfer metadata org.bukkit:bukkit:1.8.6-R0.1-SNAPSHOT/maven-metadata.xml from/to paper-repo (https://repo.destroystokyo.com/repository/maven-public/): sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/bukkit/bukkit/1.8.6-R0.1-SNAPSHOT/bukkit-1.8.6-R0.1-20150605.095643-24.pom
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/bukkit/bukkit/1.8.6-R0.1-SNAPSHOT/bukkit-1.8.6-R0.1-20150605.095643-24.pom
+[INFO] Downloaded from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/bukkit/bukkit/1.8.6-R0.1-SNAPSHOT/bukkit-1.8.6-R0.1-20150605.095643-24.pom (6.3 kB at 13 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/sk89q/commandbook/2.3/commandbook-2.3.pom
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/sk89q/commandbook/2.3/commandbook-2.3.pom
+[INFO] Downloading from worldedit-worldguard-repo: http://maven.sk89q.com/repo/com/sk89q/commandbook/2.3/commandbook-2.3.pom
+[INFO] Downloaded from worldedit-worldguard-repo: http://maven.sk89q.com/repo/com/sk89q/commandbook/2.3/commandbook-2.3.pom (7.0 kB at 15 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/sk89q/worldedit/5.5.6/worldedit-5.5.6.pom
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/sk89q/worldedit/5.5.6/worldedit-5.5.6.pom
+[INFO] Downloading from worldedit-worldguard-repo: http://maven.sk89q.com/repo/com/sk89q/worldedit/5.5.6/worldedit-5.5.6.pom
+[INFO] Downloaded from worldedit-worldguard-repo: http://maven.sk89q.com/repo/com/sk89q/worldedit/5.5.6/worldedit-5.5.6.pom (12 kB at 31 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/net/sf/opencsv/opencsv/2.0/opencsv-2.0.pom
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/net/sf/opencsv/opencsv/2.0/opencsv-2.0.pom
+[INFO] Downloading from worldedit-worldguard-repo: http://maven.sk89q.com/repo/net/sf/opencsv/opencsv/2.0/opencsv-2.0.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/net/sf/opencsv/opencsv/2.0/opencsv-2.0.pom
+[INFO] Downloading from robomwm-repo: https://dl.bintray.com/robomwm/maven/net/sf/opencsv/opencsv/2.0/opencsv-2.0.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/net/sf/opencsv/opencsv/2.0/opencsv-2.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/net/sf/opencsv/opencsv/2.0/opencsv-2.0.pom (5.5 kB at 35 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/apache/logging/log4j/log4j-core/2.8.2/log4j-core-2.8.2.pom
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/apache/logging/log4j/log4j-core/2.8.2/log4j-core-2.8.2.pom
+[INFO] Downloading from worldedit-worldguard-repo: http://maven.sk89q.com/repo/org/apache/logging/log4j/log4j-core/2.8.2/log4j-core-2.8.2.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/apache/logging/log4j/log4j-core/2.8.2/log4j-core-2.8.2.pom
+[INFO] Downloading from robomwm-repo: https://dl.bintray.com/robomwm/maven/org/apache/logging/log4j/log4j-core/2.8.2/log4j-core-2.8.2.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j-core/2.8.2/log4j-core-2.8.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j-core/2.8.2/log4j-core-2.8.2.pom (19 kB at 102 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/apache/logging/log4j/log4j/2.8.2/log4j-2.8.2.pom
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/apache/logging/log4j/log4j/2.8.2/log4j-2.8.2.pom
+[INFO] Downloading from worldedit-worldguard-repo: http://maven.sk89q.com/repo/org/apache/logging/log4j/log4j/2.8.2/log4j-2.8.2.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/apache/logging/log4j/log4j/2.8.2/log4j-2.8.2.pom
+[INFO] Downloading from robomwm-repo: https://dl.bintray.com/robomwm/maven/org/apache/logging/log4j/log4j/2.8.2/log4j-2.8.2.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j/2.8.2/log4j-2.8.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j/2.8.2/log4j-2.8.2.pom (55 kB at 163 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/apache/logging/logging-parent/1/logging-parent-1.pom
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/apache/logging/logging-parent/1/logging-parent-1.pom
+[INFO] Downloading from worldedit-worldguard-repo: http://maven.sk89q.com/repo/org/apache/logging/logging-parent/1/logging-parent-1.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/apache/logging/logging-parent/1/logging-parent-1.pom
+[INFO] Downloading from robomwm-repo: https://dl.bintray.com/robomwm/maven/org/apache/logging/logging-parent/1/logging-parent-1.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/logging/logging-parent/1/logging-parent-1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/logging/logging-parent/1/logging-parent-1.pom (3.2 kB at 23 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/apache/apache/18/apache-18.pom
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/apache/apache/18/apache-18.pom
+[INFO] Downloading from worldedit-worldguard-repo: http://maven.sk89q.com/repo/org/apache/apache/18/apache-18.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/apache/apache/18/apache-18.pom
+[INFO] Downloading from robomwm-repo: https://dl.bintray.com/robomwm/maven/org/apache/apache/18/apache-18.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/apache/18/apache-18.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/apache/18/apache-18.pom (16 kB at 97 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/apache/logging/log4j/log4j-api/2.8.2/log4j-api-2.8.2.pom
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/apache/logging/log4j/log4j-api/2.8.2/log4j-api-2.8.2.pom
+[INFO] Downloading from worldedit-worldguard-repo: http://maven.sk89q.com/repo/org/apache/logging/log4j/log4j-api/2.8.2/log4j-api-2.8.2.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/apache/logging/log4j/log4j-api/2.8.2/log4j-api-2.8.2.pom
+[INFO] Downloading from robomwm-repo: https://dl.bintray.com/robomwm/maven/org/apache/logging/log4j/log4j-api/2.8.2/log4j-api-2.8.2.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j-api/2.8.2/log4j-api-2.8.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j-api/2.8.2/log4j-api-2.8.2.pom (8.7 kB at 84 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/wasteofplastic/askyblock/3.0.8.2/askyblock-3.0.8.2.pom
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/wasteofplastic/askyblock/3.0.8.2/askyblock-3.0.8.2.pom
+[INFO] Downloading from worldedit-worldguard-repo: http://maven.sk89q.com/repo/com/wasteofplastic/askyblock/3.0.8.2/askyblock-3.0.8.2.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/wasteofplastic/askyblock/3.0.8.2/askyblock-3.0.8.2.pom
+[INFO] Downloading from robomwm-repo: https://dl.bintray.com/robomwm/maven/com/wasteofplastic/askyblock/3.0.8.2/askyblock-3.0.8.2.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/wasteofplastic/askyblock/3.0.8.2/askyblock-3.0.8.2.pom
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/com/wasteofplastic/askyblock/3.0.8.2/askyblock-3.0.8.2.pom
+[INFO] Downloading from simpleclans-preciousstones-repo: http://104.236.246.108:8081/artifactory/remote-repos/com/wasteofplastic/askyblock/3.0.8.2/askyblock-3.0.8.2.pom
+[INFO] Downloading from bintray-tastybento-maven-repo: http://dl.bintray.com/tastybento/maven-repo/com/wasteofplastic/askyblock/3.0.8.2/askyblock-3.0.8.2.pom
+[INFO] Downloaded from bintray-tastybento-maven-repo: http://dl.bintray.com/tastybento/maven-repo/com/wasteofplastic/askyblock/3.0.8.2/askyblock-3.0.8.2.pom (7.2 kB at 18 kB/s)
+[WARNING] The POM for com.wasteofplastic:askyblock:jar:3.0.8.2 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/github/dmulloy2/LWC/lwc/master-4.5.1-g2100b5e-18/lwc-master-4.5.1-g2100b5e-18.pom
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/github/dmulloy2/LWC/lwc/master-4.5.1-g2100b5e-18/lwc-master-4.5.1-g2100b5e-18.pom
+[INFO] Downloading from worldedit-worldguard-repo: http://maven.sk89q.com/repo/com/github/dmulloy2/LWC/lwc/master-4.5.1-g2100b5e-18/lwc-master-4.5.1-g2100b5e-18.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/github/dmulloy2/LWC/lwc/master-4.5.1-g2100b5e-18/lwc-master-4.5.1-g2100b5e-18.pom
+[INFO] Downloaded from jitpack.io: https://jitpack.io/com/github/dmulloy2/LWC/lwc/master-4.5.1-g2100b5e-18/lwc-master-4.5.1-g2100b5e-18.pom (5.0 kB at 13 kB/s)
+[WARNING] The POM for com.github.dmulloy2.LWC:lwc:jar:master-4.5.1-g2100b5e-18 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/massivecraft/massivecore/MassiveCore/2.13.0/MassiveCore-2.13.0.pom
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/massivecraft/massivecore/MassiveCore/2.13.0/MassiveCore-2.13.0.pom
+[INFO] Downloading from worldedit-worldguard-repo: http://maven.sk89q.com/repo/com/massivecraft/massivecore/MassiveCore/2.13.0/MassiveCore-2.13.0.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/massivecraft/massivecore/MassiveCore/2.13.0/MassiveCore-2.13.0.pom
+[INFO] Downloading from robomwm-repo: https://dl.bintray.com/robomwm/maven/com/massivecraft/massivecore/MassiveCore/2.13.0/MassiveCore-2.13.0.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/massivecraft/massivecore/MassiveCore/2.13.0/MassiveCore-2.13.0.pom
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/com/massivecraft/massivecore/MassiveCore/2.13.0/MassiveCore-2.13.0.pom
+[INFO] Downloading from simpleclans-preciousstones-repo: http://104.236.246.108:8081/artifactory/remote-repos/com/massivecraft/massivecore/MassiveCore/2.13.0/MassiveCore-2.13.0.pom
+[INFO] Downloading from bintray-tastybento-maven-repo: http://dl.bintray.com/tastybento/maven-repo/com/massivecraft/massivecore/MassiveCore/2.13.0/MassiveCore-2.13.0.pom
+[INFO] Downloading from massivecore-factions-repo: http://repo.dustplanet.de/artifactory/ext-release-local/com/massivecraft/massivecore/MassiveCore/2.13.0/MassiveCore-2.13.0.pom
+[INFO] Downloading from plotsquared-repo: http://ci.athion.net/job/PlotSquared/ws/mvn/com/massivecraft/massivecore/MassiveCore/2.13.0/MassiveCore-2.13.0.pom
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/massivecraft/factions/Factions/2.13.0/Factions-2.13.0.pom
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/massivecraft/factions/Factions/2.13.0/Factions-2.13.0.pom
+[INFO] Downloading from worldedit-worldguard-repo: http://maven.sk89q.com/repo/com/massivecraft/factions/Factions/2.13.0/Factions-2.13.0.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/massivecraft/factions/Factions/2.13.0/Factions-2.13.0.pom
+[INFO] Downloading from robomwm-repo: https://dl.bintray.com/robomwm/maven/com/massivecraft/factions/Factions/2.13.0/Factions-2.13.0.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/massivecraft/factions/Factions/2.13.0/Factions-2.13.0.pom
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/com/massivecraft/factions/Factions/2.13.0/Factions-2.13.0.pom
+[INFO] Downloading from simpleclans-preciousstones-repo: http://104.236.246.108:8081/artifactory/remote-repos/com/massivecraft/factions/Factions/2.13.0/Factions-2.13.0.pom
+[INFO] Downloading from bintray-tastybento-maven-repo: http://dl.bintray.com/tastybento/maven-repo/com/massivecraft/factions/Factions/2.13.0/Factions-2.13.0.pom
+[INFO] Downloading from massivecore-factions-repo: http://repo.dustplanet.de/artifactory/ext-release-local/com/massivecraft/factions/Factions/2.13.0/Factions-2.13.0.pom
+[INFO] Downloading from plotsquared-repo: http://ci.athion.net/job/PlotSquared/ws/mvn/com/massivecraft/factions/Factions/2.13.0/Factions-2.13.0.pom
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/github/LlmDl/Towny/2aeeb30903/Towny-2aeeb30903.pom
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/github/LlmDl/Towny/2aeeb30903/Towny-2aeeb30903.pom
+[INFO] Downloading from worldedit-worldguard-repo: http://maven.sk89q.com/repo/com/github/LlmDl/Towny/2aeeb30903/Towny-2aeeb30903.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/github/LlmDl/Towny/2aeeb30903/Towny-2aeeb30903.pom
+[INFO] Downloaded from jitpack.io: https://jitpack.io/com/github/LlmDl/Towny/2aeeb30903/Towny-2aeeb30903.pom (399 B at 1.7 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/github/fubira/Lockette/9dac96e8f8/Lockette-9dac96e8f8.pom
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/github/fubira/Lockette/9dac96e8f8/Lockette-9dac96e8f8.pom
+[INFO] Downloading from worldedit-worldguard-repo: http://maven.sk89q.com/repo/com/github/fubira/Lockette/9dac96e8f8/Lockette-9dac96e8f8.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/github/fubira/Lockette/9dac96e8f8/Lockette-9dac96e8f8.pom
+[INFO] Downloaded from jitpack.io: https://jitpack.io/com/github/fubira/Lockette/9dac96e8f8/Lockette-9dac96e8f8.pom (2.8 kB at 10 kB/s)
+[INFO] Downloading from worldedit-worldguard-repo: http://maven.sk89q.com/repo/org/bukkit/bukkit/maven-metadata.xml
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/bukkit/bukkit/maven-metadata.xml
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/bukkit/bukkit/maven-metadata.xml
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/bukkit/bukkit/maven-metadata.xml
+[INFO] Downloading from robomwm-repo: https://dl.bintray.com/robomwm/maven/org/bukkit/bukkit/maven-metadata.xml
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/bukkit/bukkit/maven-metadata.xml
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/org/bukkit/bukkit/maven-metadata.xml
+[INFO] Downloaded from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/bukkit/bukkit/maven-metadata.xml (1.2 kB at 2.4 kB/s)
+[INFO] Downloading from simpleclans-preciousstones-repo: http://104.236.246.108:8081/artifactory/remote-repos/org/bukkit/bukkit/maven-metadata.xml
+[INFO] Downloading from bintray-tastybento-maven-repo: http://dl.bintray.com/tastybento/maven-repo/org/bukkit/bukkit/maven-metadata.xml
+[INFO] Downloading from massivecore-factions-repo: http://repo.dustplanet.de/artifactory/ext-release-local/org/bukkit/bukkit/maven-metadata.xml
+[INFO] Downloading from plotsquared-repo: http://ci.athion.net/job/PlotSquared/ws/mvn/org/bukkit/bukkit/maven-metadata.xml
+[INFO] Downloading from maven-codearts-jp: http://maven.codearts.jp/org/bukkit/bukkit/maven-metadata.xml
+[INFO] Downloaded from simpleclans-preciousstones-repo: http://104.236.246.108:8081/artifactory/remote-repos/org/bukkit/bukkit/maven-metadata.xml (1.3 kB at 2.9 kB/s)
+[WARNING] Could not transfer metadata org.bukkit:bukkit/maven-metadata.xml from/to paper-repo (https://repo.destroystokyo.com/repository/maven-public/): sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+[WARNING] Could not transfer metadata org.bukkit:bukkit/maven-metadata.xml from/to worldedit-worldguard-repo (http://maven.sk89q.com/repo/): Failed to transfer file: http://maven.sk89q.com/repo/org/bukkit/bukkit/maven-metadata.xml. Return code is: 500 , ReasonPhrase:Internal Server Error.
+[WARNING] Could not transfer metadata org.bukkit:bukkit/maven-metadata.xml from/to maven-codearts-jp (http://maven.codearts.jp/): maven.codearts.jp: unknown error
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/bukkit/bukkit/1.12.2-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloaded from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/bukkit/bukkit/1.12.2-R0.1-SNAPSHOT/maven-metadata.xml (1.5 kB at 4.4 kB/s)
+[WARNING] Failure to transfer org.bukkit:bukkit/maven-metadata.xml from https://repo.destroystokyo.com/repository/maven-public/ was cached in the local repository, resolution will not be reattempted until the update interval of paper-repo has elapsed or updates are forced. Original error: Could not transfer metadata org.bukkit:bukkit/maven-metadata.xml from/to paper-repo (https://repo.destroystokyo.com/repository/maven-public/): sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+[WARNING] Failure to transfer org.bukkit:bukkit/maven-metadata.xml from http://maven.sk89q.com/repo/ was cached in the local repository, resolution will not be reattempted until the update interval of worldedit-worldguard-repo has elapsed or updates are forced. Original error: Could not transfer metadata org.bukkit:bukkit/maven-metadata.xml from/to worldedit-worldguard-repo (http://maven.sk89q.com/repo/): Failed to transfer file: http://maven.sk89q.com/repo/org/bukkit/bukkit/maven-metadata.xml. Return code is: 500 , ReasonPhrase:Internal Server Error.
+[WARNING] Failure to transfer org.bukkit:bukkit/maven-metadata.xml from http://maven.codearts.jp/ was cached in the local repository, resolution will not be reattempted until the update interval of maven-codearts-jp has elapsed or updates are forced. Original error: Could not transfer metadata org.bukkit:bukkit/maven-metadata.xml from/to maven-codearts-jp (http://maven.codearts.jp/): maven.codearts.jp: unknown error
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/bukkit/bukkit/1.12.2-R0.1-SNAPSHOT/bukkit-1.12.2-R0.1-20180519.032916-145.pom
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/bukkit/bukkit/1.12.2-R0.1-SNAPSHOT/bukkit-1.12.2-R0.1-20180519.032916-145.pom
+[INFO] Downloaded from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/bukkit/bukkit/1.12.2-R0.1-SNAPSHOT/bukkit-1.12.2-R0.1-20180519.032916-145.pom (6.0 kB at 17 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/yaml/snakeyaml/1.19/snakeyaml-1.19.pom
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/yaml/snakeyaml/1.19/snakeyaml-1.19.pom
+[INFO] Downloading from worldedit-worldguard-repo: http://maven.sk89q.com/repo/org/yaml/snakeyaml/1.19/snakeyaml-1.19.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/yaml/snakeyaml/1.19/snakeyaml-1.19.pom
+[INFO] Downloading from robomwm-repo: https://dl.bintray.com/robomwm/maven/org/yaml/snakeyaml/1.19/snakeyaml-1.19.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/yaml/snakeyaml/1.19/snakeyaml-1.19.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/yaml/snakeyaml/1.19/snakeyaml-1.19.pom (35 kB at 72 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/plotsquared/plotsquared-api/17.08.09-ac9042b-1895/plotsquared-api-17.08.09-ac9042b-1895.pom
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/plotsquared/plotsquared-api/17.08.09-ac9042b-1895/plotsquared-api-17.08.09-ac9042b-1895.pom
+[INFO] Downloading from worldedit-worldguard-repo: http://maven.sk89q.com/repo/com/plotsquared/plotsquared-api/17.08.09-ac9042b-1895/plotsquared-api-17.08.09-ac9042b-1895.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/plotsquared/plotsquared-api/17.08.09-ac9042b-1895/plotsquared-api-17.08.09-ac9042b-1895.pom
+[INFO] Downloading from robomwm-repo: https://dl.bintray.com/robomwm/maven/com/plotsquared/plotsquared-api/17.08.09-ac9042b-1895/plotsquared-api-17.08.09-ac9042b-1895.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/plotsquared/plotsquared-api/17.08.09-ac9042b-1895/plotsquared-api-17.08.09-ac9042b-1895.pom
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/com/plotsquared/plotsquared-api/17.08.09-ac9042b-1895/plotsquared-api-17.08.09-ac9042b-1895.pom
+[INFO] Downloading from simpleclans-preciousstones-repo: http://104.236.246.108:8081/artifactory/remote-repos/com/plotsquared/plotsquared-api/17.08.09-ac9042b-1895/plotsquared-api-17.08.09-ac9042b-1895.pom
+[INFO] Downloading from bintray-tastybento-maven-repo: http://dl.bintray.com/tastybento/maven-repo/com/plotsquared/plotsquared-api/17.08.09-ac9042b-1895/plotsquared-api-17.08.09-ac9042b-1895.pom
+[INFO] Downloading from massivecore-factions-repo: http://repo.dustplanet.de/artifactory/ext-release-local/com/plotsquared/plotsquared-api/17.08.09-ac9042b-1895/plotsquared-api-17.08.09-ac9042b-1895.pom
+[INFO] Downloading from plotsquared-repo: http://ci.athion.net/job/PlotSquared/ws/mvn/com/plotsquared/plotsquared-api/17.08.09-ac9042b-1895/plotsquared-api-17.08.09-ac9042b-1895.pom
+[WARNING] Could not validate integrity of download from http://ci.athion.net/job/PlotSquared/ws/mvn/com/plotsquared/plotsquared-api/17.08.09-ac9042b-1895/plotsquared-api-17.08.09-ac9042b-1895.pom: Checksum validation failed, no checksums available
+[WARNING] Checksum validation failed, no checksums available from plotsquared-repo for http://ci.athion.net/job/PlotSquared/ws/mvn/com/plotsquared/plotsquared-api/17.08.09-ac9042b-1895/plotsquared-api-17.08.09-ac9042b-1895.pom
+[INFO] Downloaded from plotsquared-repo: http://ci.athion.net/job/PlotSquared/ws/mvn/com/plotsquared/plotsquared-api/17.08.09-ac9042b-1895/plotsquared-api-17.08.09-ac9042b-1895.pom (1.3 kB at 1.9 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/sk89q/worldedit/worldedit-core/6.1.3-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from worldedit-worldguard-repo: http://maven.sk89q.com/repo/com/sk89q/worldedit/worldedit-core/6.1.3-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/sk89q/worldedit/worldedit-core/6.1.3-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/sk89q/worldedit/worldedit-core/6.1.3-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from robomwm-repo: https://dl.bintray.com/robomwm/maven/com/sk89q/worldedit/worldedit-core/6.1.3-SNAPSHOT/maven-metadata.xml
+[INFO] Downloaded from worldedit-worldguard-repo: http://maven.sk89q.com/repo/com/sk89q/worldedit/worldedit-core/6.1.3-SNAPSHOT/maven-metadata.xml (1.4 kB at 3.2 kB/s)
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/com/sk89q/worldedit/worldedit-core/6.1.3-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from simpleclans-preciousstones-repo: http://104.236.246.108:8081/artifactory/remote-repos/com/sk89q/worldedit/worldedit-core/6.1.3-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from bintray-tastybento-maven-repo: http://dl.bintray.com/tastybento/maven-repo/com/sk89q/worldedit/worldedit-core/6.1.3-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from massivecore-factions-repo: http://repo.dustplanet.de/artifactory/ext-release-local/com/sk89q/worldedit/worldedit-core/6.1.3-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from plotsquared-repo: http://ci.athion.net/job/PlotSquared/ws/mvn/com/sk89q/worldedit/worldedit-core/6.1.3-SNAPSHOT/maven-metadata.xml
+[WARNING] Could not transfer metadata com.sk89q.worldedit:worldedit-core:6.1.3-SNAPSHOT/maven-metadata.xml from/to paper-repo (https://repo.destroystokyo.com/repository/maven-public/): sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+[WARNING] Failure to transfer com.sk89q.worldedit:worldedit-core:6.1.3-SNAPSHOT/maven-metadata.xml from https://repo.destroystokyo.com/repository/maven-public/ was cached in the local repository, resolution will not be reattempted until the update interval of paper-repo has elapsed or updates are forced. Original error: Could not transfer metadata com.sk89q.worldedit:worldedit-core:6.1.3-SNAPSHOT/maven-metadata.xml from/to paper-repo (https://repo.destroystokyo.com/repository/maven-public/): sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/sk89q/worldedit/worldedit-core/6.1.3-SNAPSHOT/worldedit-core-6.1.3-20160618.165029-10.pom
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/sk89q/worldedit/worldedit-core/6.1.3-SNAPSHOT/worldedit-core-6.1.3-20160618.165029-10.pom
+[INFO] Downloading from worldedit-worldguard-repo: http://maven.sk89q.com/repo/com/sk89q/worldedit/worldedit-core/6.1.3-SNAPSHOT/worldedit-core-6.1.3-20160618.165029-10.pom
+[INFO] Downloaded from worldedit-worldguard-repo: http://maven.sk89q.com/repo/com/sk89q/worldedit/worldedit-core/6.1.3-SNAPSHOT/worldedit-core-6.1.3-20160618.165029-10.pom (2.3 kB at 6.6 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/google/guava/guava/10.0/guava-10.0.pom
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/google/guava/guava/10.0/guava-10.0.pom
+[INFO] Downloading from worldedit-worldguard-repo: http://maven.sk89q.com/repo/com/google/guava/guava/10.0/guava-10.0.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/google/guava/guava/10.0/guava-10.0.pom
+[INFO] Downloading from robomwm-repo: https://dl.bintray.com/robomwm/maven/com/google/guava/guava/10.0/guava-10.0.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/10.0/guava-10.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/10.0/guava-10.0.pom (5.4 kB at 12 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/google/guava/guava-parent/10.0/guava-parent-10.0.pom
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/google/guava/guava-parent/10.0/guava-parent-10.0.pom
+[INFO] Downloading from worldedit-worldguard-repo: http://maven.sk89q.com/repo/com/google/guava/guava-parent/10.0/guava-parent-10.0.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/google/guava/guava-parent/10.0/guava-parent-10.0.pom
+[INFO] Downloading from robomwm-repo: https://dl.bintray.com/robomwm/maven/com/google/guava/guava-parent/10.0/guava-parent-10.0.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/10.0/guava-parent-10.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/10.0/guava-parent-10.0.pom (2.0 kB at 11 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/yaml/snakeyaml/1.16/snakeyaml-1.16.pom
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/yaml/snakeyaml/1.16/snakeyaml-1.16.pom
+[INFO] Downloading from worldedit-worldguard-repo: http://maven.sk89q.com/repo/org/yaml/snakeyaml/1.16/snakeyaml-1.16.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/yaml/snakeyaml/1.16/snakeyaml-1.16.pom
+[INFO] Downloading from robomwm-repo: https://dl.bintray.com/robomwm/maven/org/yaml/snakeyaml/1.16/snakeyaml-1.16.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/yaml/snakeyaml/1.16/snakeyaml-1.16.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/yaml/snakeyaml/1.16/snakeyaml-1.16.pom (26 kB at 99 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/net/coreprotect/CoreProtect/2.14.2/CoreProtect-2.14.2.pom
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/net/coreprotect/CoreProtect/2.14.2/CoreProtect-2.14.2.pom
+[INFO] Downloading from worldedit-worldguard-repo: http://maven.sk89q.com/repo/net/coreprotect/CoreProtect/2.14.2/CoreProtect-2.14.2.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/net/coreprotect/CoreProtect/2.14.2/CoreProtect-2.14.2.pom
+[INFO] Downloading from robomwm-repo: https://dl.bintray.com/robomwm/maven/net/coreprotect/CoreProtect/2.14.2/CoreProtect-2.14.2.pom
+[INFO] Downloaded from robomwm-repo: https://dl.bintray.com/robomwm/maven/net/coreprotect/CoreProtect/2.14.2/CoreProtect-2.14.2.pom (400 B at 1.0 kB/s)
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 04:45 min
+[INFO] Finished at: 2018-05-21T19:22:42Z
+[INFO] Final Memory: 10M/25M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal on project Slimefun: Could not resolve dependencies for project me.mrCookieSlime:Slimefun:jar:DEV #46 (git d4a06ceb): Failed to collect dependencies at com.github.TheBusyBiscuit:CS-CoreLib:jar:v1.5.18 -> com.massivecraft.massivecore:MassiveCore:jar:2.13.0: Failed to read artifact descriptor for com.massivecraft.massivecore:MassiveCore:jar:2.13.0: Could not transfer artifact com.massivecraft.massivecore:MassiveCore:pom:2.13.0 from/to paper-repo (https://repo.destroystokyo.com/repository/maven-public/): sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/DependencyResolutionException
