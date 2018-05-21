@@ -674,6 +674,22 @@
         "candidate": "DEVELOPMENT",
         "status": "SUCCESS"
     },
-    "latest": 42,
+    "43": {
+        "id": 43,
+        "sha": "803c19a27ec6088201b5be85ad3fde441c6c08da",
+        "date": "21 May 2018 (18:51:12)",
+        "timestamp": 20180521185112,
+        "message": "Removed BlockBreaker",
+        "author": "TheBusyBiscuit",
+        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
+        "license": {
+            "name": "GNU General Public License v3.0",
+            "id": "GPL-3.0",
+            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/Slimefun4/master/LICENSE"
+        },
+        "candidate": "DEVELOPMENT",
+        "status": "FAILURE"
+    },
+    "latest": 43,
     "last_successful": 42
 }
