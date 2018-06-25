@@ -1,0 +1,212 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Building CS-CoreLib DEV #14 (git ff214192)
+[INFO] ------------------------------------------------------------------------
+[INFO] Downloading from simpleclans-preciousstones-repo: http://104.236.246.108:8081/artifactory/remote-repos/org/bukkit/bukkit/1.12-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/org/bukkit/bukkit/1.12-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from bintray-tastybento-maven-repo: http://dl.bintray.com/tastybento/maven-repo/org/bukkit/bukkit/1.12-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from massivecore-factions-repo: http://repo.dustplanet.de/artifactory/ext-release-local/org/bukkit/bukkit/1.12-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from plotsquared-repo: http://ci.athion.net/job/PlotSquared/ws/mvn/org/bukkit/bukkit/1.12-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloaded from simpleclans-preciousstones-repo: http://104.236.246.108:8081/artifactory/remote-repos/org/bukkit/bukkit/1.12-R0.1-SNAPSHOT/maven-metadata.xml (755 B at 219 B/s)
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/net/sacredlabyrinth/Phaed/PreciousStones/10.1.2/PreciousStones-10.1.2.pom
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/net/sacredlabyrinth/Phaed/PreciousStones/10.1.2/PreciousStones-10.1.2.pom
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/net/sacredlabyrinth/Phaed/PreciousStones/10.1.2/PreciousStones-10.1.2.pom
+[INFO] Downloading from worldedit-worldguard-repo: http://maven.sk89q.com/repo/net/sacredlabyrinth/Phaed/PreciousStones/10.1.2/PreciousStones-10.1.2.pom
+[INFO] Downloading from simpleclans-preciousstones-repo: http://104.236.246.108:8081/artifactory/remote-repos/net/sacredlabyrinth/Phaed/PreciousStones/10.1.2/PreciousStones-10.1.2.pom
+[INFO] Downloaded from simpleclans-preciousstones-repo: http://104.236.246.108:8081/artifactory/remote-repos/net/sacredlabyrinth/Phaed/PreciousStones/10.1.2/PreciousStones-10.1.2.pom (8.2 kB at 18 kB/s)
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/net/sacredlabyrinth/phaed/simpleclans/SimpleClans/2.6.1/SimpleClans-2.6.1.pom
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/net/sacredlabyrinth/phaed/simpleclans/SimpleClans/2.6.1/SimpleClans-2.6.1.pom
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/net/sacredlabyrinth/phaed/simpleclans/SimpleClans/2.6.1/SimpleClans-2.6.1.pom
+[INFO] Downloading from worldedit-worldguard-repo: http://maven.sk89q.com/repo/net/sacredlabyrinth/phaed/simpleclans/SimpleClans/2.6.1/SimpleClans-2.6.1.pom
+[INFO] Downloading from simpleclans-preciousstones-repo: http://104.236.246.108:8081/artifactory/remote-repos/net/sacredlabyrinth/phaed/simpleclans/SimpleClans/2.6.1/SimpleClans-2.6.1.pom
+[INFO] Downloaded from simpleclans-preciousstones-repo: http://104.236.246.108:8081/artifactory/remote-repos/net/sacredlabyrinth/phaed/simpleclans/SimpleClans/2.6.1/SimpleClans-2.6.1.pom (4.5 kB at 12 kB/s)
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/org/getspout/spoutplugin/dev-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from worldedit-worldguard-repo: http://maven.sk89q.com/repo/org/getspout/spoutplugin/dev-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/getspout/spoutplugin/dev-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/getspout/spoutplugin/dev-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from simpleclans-preciousstones-repo: http://104.236.246.108:8081/artifactory/remote-repos/org/getspout/spoutplugin/dev-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/getspout/spoutplugin/dev-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from bintray-tastybento-maven-repo: http://dl.bintray.com/tastybento/maven-repo/org/getspout/spoutplugin/dev-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from massivecore-factions-repo: http://repo.dustplanet.de/artifactory/ext-release-local/org/getspout/spoutplugin/dev-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from plotsquared-repo: http://ci.athion.net/job/PlotSquared/ws/mvn/org/getspout/spoutplugin/dev-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/org/getspout/spoutplugin/dev-SNAPSHOT/spoutplugin-dev-SNAPSHOT.pom
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/getspout/spoutplugin/dev-SNAPSHOT/spoutplugin-dev-SNAPSHOT.pom
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/getspout/spoutplugin/dev-SNAPSHOT/spoutplugin-dev-SNAPSHOT.pom
+[INFO] Downloading from worldedit-worldguard-repo: http://maven.sk89q.com/repo/org/getspout/spoutplugin/dev-SNAPSHOT/spoutplugin-dev-SNAPSHOT.pom
+[INFO] Downloading from simpleclans-preciousstones-repo: http://104.236.246.108:8081/artifactory/remote-repos/org/getspout/spoutplugin/dev-SNAPSHOT/spoutplugin-dev-SNAPSHOT.pom
+[INFO] Downloaded from simpleclans-preciousstones-repo: http://104.236.246.108:8081/artifactory/remote-repos/org/getspout/spoutplugin/dev-SNAPSHOT/spoutplugin-dev-SNAPSHOT.pom (5.3 kB at 990 B/s)
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/com/github/TechFortress/GriefPrevention/16.7.1/GriefPrevention-16.7.1.pom
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/github/TechFortress/GriefPrevention/16.7.1/GriefPrevention-16.7.1.pom
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/github/TechFortress/GriefPrevention/16.7.1/GriefPrevention-16.7.1.pom
+[INFO] Downloading from worldedit-worldguard-repo: http://maven.sk89q.com/repo/com/github/TechFortress/GriefPrevention/16.7.1/GriefPrevention-16.7.1.pom
+[INFO] Downloading from simpleclans-preciousstones-repo: http://104.236.246.108:8081/artifactory/remote-repos/com/github/TechFortress/GriefPrevention/16.7.1/GriefPrevention-16.7.1.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/github/TechFortress/GriefPrevention/16.7.1/GriefPrevention-16.7.1.pom
+[INFO] Downloaded from jitpack.io: https://jitpack.io/com/github/TechFortress/GriefPrevention/16.7.1/GriefPrevention-16.7.1.pom (2.7 kB at 4.2 kB/s)
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/net/milkbowl/vault/VaultAPI/1.6/VaultAPI-1.6.pom
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/net/milkbowl/vault/VaultAPI/1.6/VaultAPI-1.6.pom
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/net/milkbowl/vault/VaultAPI/1.6/VaultAPI-1.6.pom
+[INFO] Downloading from worldedit-worldguard-repo: http://maven.sk89q.com/repo/net/milkbowl/vault/VaultAPI/1.6/VaultAPI-1.6.pom
+[INFO] Downloading from simpleclans-preciousstones-repo: http://104.236.246.108:8081/artifactory/remote-repos/net/milkbowl/vault/VaultAPI/1.6/VaultAPI-1.6.pom
+[INFO] Downloaded from simpleclans-preciousstones-repo: http://104.236.246.108:8081/artifactory/remote-repos/net/milkbowl/vault/VaultAPI/1.6/VaultAPI-1.6.pom (3.5 kB at 5.4 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/bukkit/bukkit/1.9-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/org/bukkit/bukkit/1.9-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/bukkit/bukkit/1.9-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from worldedit-worldguard-repo: http://maven.sk89q.com/repo/org/bukkit/bukkit/1.9-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from simpleclans-preciousstones-repo: http://104.236.246.108:8081/artifactory/remote-repos/org/bukkit/bukkit/1.9-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/bukkit/bukkit/1.9-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from bintray-tastybento-maven-repo: http://dl.bintray.com/tastybento/maven-repo/org/bukkit/bukkit/1.9-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from massivecore-factions-repo: http://repo.dustplanet.de/artifactory/ext-release-local/org/bukkit/bukkit/1.9-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from plotsquared-repo: http://ci.athion.net/job/PlotSquared/ws/mvn/org/bukkit/bukkit/1.9-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from vault-repo: http://nexus.hc.to/content/repositories/pub_releases/org/bukkit/bukkit/1.9-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloaded from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/bukkit/bukkit/1.9-R0.1-SNAPSHOT/maven-metadata.xml (1.4 kB at 670 B/s)
+[INFO] Downloaded from simpleclans-preciousstones-repo: http://104.236.246.108:8081/artifactory/remote-repos/org/bukkit/bukkit/1.9-R0.1-SNAPSHOT/maven-metadata.xml (755 B at 392 B/s)
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/org/bukkit/bukkit/1.9-R0.1-SNAPSHOT/bukkit-1.9-R0.1-20160330.160319-146.pom
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/bukkit/bukkit/1.9-R0.1-SNAPSHOT/bukkit-1.9-R0.1-20160330.160319-146.pom
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/bukkit/bukkit/1.9-R0.1-SNAPSHOT/bukkit-1.9-R0.1-20160330.160319-146.pom
+[INFO] Downloaded from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/bukkit/bukkit/1.9-R0.1-SNAPSHOT/bukkit-1.9-R0.1-20160330.160319-146.pom (6.3 kB at 17 kB/s)
+[WARNING] The POM for com.wasteofplastic:askyblock:jar:3.0.8.2 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+[WARNING] The POM for com.github.dmulloy2.LWC:lwc:jar:master-4.5.1-g2100b5e-18 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+[WARNING] The POM for com.massivecraft.massivecore:MassiveCore:jar:2.13.0 is missing, no dependency information available
+[WARNING] The POM for com.massivecraft.factions:Factions:jar:2.13.0 is missing, no dependency information available
+[INFO] Downloading from maven-codearts-jp: http://maven.codearts.jp/org/bukkit/bukkit/maven-metadata.xml
+[INFO] Downloading from worldedit-worldguard-repo: http://maven.sk89q.com/repo/org/bukkit/bukkit/maven-metadata.xml
+[WARNING] Could not transfer metadata org.bukkit:bukkit/maven-metadata.xml from/to worldedit-worldguard-repo (http://maven.sk89q.com/repo/): Failed to transfer file: http://maven.sk89q.com/repo/org/bukkit/bukkit/maven-metadata.xml. Return code is: 500 , ReasonPhrase:Internal Server Error.
+[WARNING] Could not transfer metadata org.bukkit:bukkit/maven-metadata.xml from/to maven-codearts-jp (http://maven.codearts.jp/): maven.codearts.jp: unknown error
+[WARNING] Failure to transfer org.bukkit:bukkit/maven-metadata.xml from http://maven.sk89q.com/repo/ was cached in the local repository, resolution will not be reattempted until the update interval of worldedit-worldguard-repo has elapsed or updates are forced. Original error: Could not transfer metadata org.bukkit:bukkit/maven-metadata.xml from/to worldedit-worldguard-repo (http://maven.sk89q.com/repo/): Failed to transfer file: http://maven.sk89q.com/repo/org/bukkit/bukkit/maven-metadata.xml. Return code is: 500 , ReasonPhrase:Internal Server Error.
+[WARNING] Failure to transfer org.bukkit:bukkit/maven-metadata.xml from http://maven.codearts.jp/ was cached in the local repository, resolution will not be reattempted until the update interval of maven-codearts-jp has elapsed or updates are forced. Original error: Could not transfer metadata org.bukkit:bukkit/maven-metadata.xml from/to maven-codearts-jp (http://maven.codearts.jp/): maven.codearts.jp: unknown error
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/br/net/fabiozumbi12/RedProtect/RedProtect-Spigot/7.3.0/RedProtect-Spigot-7.3.0.pom
+[INFO] Downloaded from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/br/net/fabiozumbi12/RedProtect/RedProtect-Spigot/7.3.0/RedProtect-Spigot-7.3.0.pom (5.5 kB at 7.5 kB/s)
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/br/net/fabiozumbi12/RedProtect/RedProtect/7.3.0/RedProtect-7.3.0.pom
+[INFO] Downloaded from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/br/net/fabiozumbi12/RedProtect/RedProtect/7.3.0/RedProtect-7.3.0.pom (6.5 kB at 8.4 kB/s)
+[WARNING] The POM for br.net.fabiozumbi12.RedProtect:RedProtect-Spigot:jar:7.3.0 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+[INFO] Downloading from worldedit-worldguard-repo: http://maven.sk89q.com/repo/com/sk89q/worldedit/worldedit-bukkit/6.1.4-SNAPSHOT/worldedit-bukkit-6.1.4-20160806.113546-4.jar
+[INFO] Downloading from worldedit-worldguard-repo: http://maven.sk89q.com/repo/com/sk89q/worldedit/worldedit-core/6.1.4-SNAPSHOT/worldedit-core-6.1.4-20160806.113546-4.jar
+[INFO] Downloaded from worldedit-worldguard-repo: http://maven.sk89q.com/repo/com/sk89q/worldedit/worldedit-bukkit/6.1.4-SNAPSHOT/worldedit-bukkit-6.1.4-20160806.113546-4.jar (178 kB at 135 kB/s)
+[INFO] Downloaded from worldedit-worldguard-repo: http://maven.sk89q.com/repo/com/sk89q/worldedit/worldedit-core/6.1.4-SNAPSHOT/worldedit-core-6.1.4-20160806.113546-4.jar (1.1 MB at 444 kB/s)
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/org/avaje/ebean/2.8.1/ebean-2.8.1.jar
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/net/sacredlabyrinth/Phaed/PreciousStones/10.1.2/PreciousStones-10.1.2.jar
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/net/sacredlabyrinth/phaed/simpleclans/SimpleClans/2.6.1/SimpleClans-2.6.1.jar
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/com/github/TechFortress/GriefPrevention/16.7.1/GriefPrevention-16.7.1.jar
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/org/getspout/spoutplugin/dev-SNAPSHOT/spoutplugin-dev-SNAPSHOT.jar
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/net/milkbowl/vault/VaultAPI/1.6/VaultAPI-1.6.jar
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/br/net/fabiozumbi12/RedProtect/RedProtect-Spigot/7.3.0/RedProtect-Spigot-7.3.0.jar
+[INFO] Downloaded from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/br/net/fabiozumbi12/RedProtect/RedProtect-Spigot/7.3.0/RedProtect-Spigot-7.3.0.jar (466 kB at 231 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/avaje/ebean/2.8.1/ebean-2.8.1.jar
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/net/sacredlabyrinth/Phaed/PreciousStones/10.1.2/PreciousStones-10.1.2.jar
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/net/sacredlabyrinth/phaed/simpleclans/SimpleClans/2.6.1/SimpleClans-2.6.1.jar
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/getspout/spoutplugin/dev-SNAPSHOT/spoutplugin-dev-SNAPSHOT.jar
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/github/TechFortress/GriefPrevention/16.7.1/GriefPrevention-16.7.1.jar
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/net/milkbowl/vault/VaultAPI/1.6/VaultAPI-1.6.jar
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/avaje/ebean/2.8.1/ebean-2.8.1.jar (1.9 MB at 593 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/net/sacredlabyrinth/Phaed/PreciousStones/10.1.2/PreciousStones-10.1.2.jar
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/net/sacredlabyrinth/phaed/simpleclans/SimpleClans/2.6.1/SimpleClans-2.6.1.jar
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/github/TechFortress/GriefPrevention/16.7.1/GriefPrevention-16.7.1.jar
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/net/milkbowl/vault/VaultAPI/1.6/VaultAPI-1.6.jar
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/getspout/spoutplugin/dev-SNAPSHOT/spoutplugin-dev-SNAPSHOT.jar
+[INFO] Downloading from worldedit-worldguard-repo: http://maven.sk89q.com/repo/net/sacredlabyrinth/Phaed/PreciousStones/10.1.2/PreciousStones-10.1.2.jar
+[INFO] Downloading from worldedit-worldguard-repo: http://maven.sk89q.com/repo/org/getspout/spoutplugin/dev-SNAPSHOT/spoutplugin-dev-SNAPSHOT.jar
+[INFO] Downloading from worldedit-worldguard-repo: http://maven.sk89q.com/repo/net/milkbowl/vault/VaultAPI/1.6/VaultAPI-1.6.jar
+[INFO] Downloading from worldedit-worldguard-repo: http://maven.sk89q.com/repo/com/github/TechFortress/GriefPrevention/16.7.1/GriefPrevention-16.7.1.jar
+[INFO] Downloading from worldedit-worldguard-repo: http://maven.sk89q.com/repo/net/sacredlabyrinth/phaed/simpleclans/SimpleClans/2.6.1/SimpleClans-2.6.1.jar
+[INFO] Downloading from simpleclans-preciousstones-repo: http://104.236.246.108:8081/artifactory/remote-repos/net/sacredlabyrinth/Phaed/PreciousStones/10.1.2/PreciousStones-10.1.2.jar
+[INFO] Downloading from simpleclans-preciousstones-repo: http://104.236.246.108:8081/artifactory/remote-repos/net/sacredlabyrinth/phaed/simpleclans/SimpleClans/2.6.1/SimpleClans-2.6.1.jar
+[INFO] Downloading from simpleclans-preciousstones-repo: http://104.236.246.108:8081/artifactory/remote-repos/com/github/TechFortress/GriefPrevention/16.7.1/GriefPrevention-16.7.1.jar
+[INFO] Downloading from simpleclans-preciousstones-repo: http://104.236.246.108:8081/artifactory/remote-repos/net/milkbowl/vault/VaultAPI/1.6/VaultAPI-1.6.jar
+[INFO] Downloading from simpleclans-preciousstones-repo: http://104.236.246.108:8081/artifactory/remote-repos/org/getspout/spoutplugin/dev-SNAPSHOT/spoutplugin-dev-SNAPSHOT.jar
+[INFO] Downloaded from simpleclans-preciousstones-repo: http://104.236.246.108:8081/artifactory/remote-repos/net/milkbowl/vault/VaultAPI/1.6/VaultAPI-1.6.jar (45 kB at 64 kB/s)
+[INFO] Downloaded from simpleclans-preciousstones-repo: http://104.236.246.108:8081/artifactory/remote-repos/net/sacredlabyrinth/phaed/simpleclans/SimpleClans/2.6.1/SimpleClans-2.6.1.jar (262 kB at 239 kB/s)
+[INFO] Downloaded from simpleclans-preciousstones-repo: http://104.236.246.108:8081/artifactory/remote-repos/net/sacredlabyrinth/Phaed/PreciousStones/10.1.2/PreciousStones-10.1.2.jar (1.1 MB at 317 kB/s)
+[INFO] Downloaded from simpleclans-preciousstones-repo: http://104.236.246.108:8081/artifactory/remote-repos/org/getspout/spoutplugin/dev-SNAPSHOT/spoutplugin-dev-SNAPSHOT.jar (1000 kB at 165 kB/s)
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/github/TechFortress/GriefPrevention/16.7.1/GriefPrevention-16.7.1.jar
+[INFO] Downloaded from jitpack.io: https://jitpack.io/com/github/TechFortress/GriefPrevention/16.7.1/GriefPrevention-16.7.1.jar (259 kB at 268 kB/s)
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ CS-CoreLib ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ CS-CoreLib ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 103 source files to /home/pi/builds/TheBusyBiscuit/CS-CoreLib/master/files/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/pi/builds/TheBusyBiscuit/CS-CoreLib/master/files/src/me/mrCookieSlime/CSCoreLibPlugin/general/audio/SoundConfig.java:[309,49] unmappable character for encoding UTF-8
+[ERROR] /home/pi/builds/TheBusyBiscuit/CS-CoreLib/master/files/src/me/mrCookieSlime/CSCoreLibPlugin/general/audio/SoundConfig.java:[311,86] unmappable character for encoding UTF-8
+[ERROR] /home/pi/builds/TheBusyBiscuit/CS-CoreLib/master/files/src/me/mrCookieSlime/CSCoreLibPlugin/general/audio/SoundConfig.java:[311,107] unmappable character for encoding UTF-8
+[ERROR] /home/pi/builds/TheBusyBiscuit/CS-CoreLib/master/files/src/me/mrCookieSlime/CSCoreLibPlugin/general/audio/SoundConfig.java:[321,88] unmappable character for encoding UTF-8
+[ERROR] /home/pi/builds/TheBusyBiscuit/CS-CoreLib/master/files/src/me/mrCookieSlime/CSCoreLibPlugin/general/audio/SoundConfig.java:[321,101] unmappable character for encoding UTF-8
+[ERROR] /home/pi/builds/TheBusyBiscuit/CS-CoreLib/master/files/src/me/mrCookieSlime/CSCoreLibPlugin/general/audio/SoundConfig.java:[321,119] unmappable character for encoding UTF-8
+[ERROR] /home/pi/builds/TheBusyBiscuit/CS-CoreLib/master/files/src/me/mrCookieSlime/CSCoreLibPlugin/general/audio/SoundConfig.java:[321,158] unmappable character for encoding UTF-8
+[ERROR] /home/pi/builds/TheBusyBiscuit/CS-CoreLib/master/files/src/me/mrCookieSlime/CSCoreLibPlugin/general/audio/SoundConfig.java:[321,168] unmappable character for encoding UTF-8
+[ERROR] /home/pi/builds/TheBusyBiscuit/CS-CoreLib/master/files/src/me/mrCookieSlime/CSCoreLibPlugin/general/audio/SoundConfig.java:[321,208] unmappable character for encoding UTF-8
+[ERROR] /home/pi/builds/TheBusyBiscuit/CS-CoreLib/master/files/src/me/mrCookieSlime/CSCoreLibPlugin/general/audio/SoundConfig.java:[321,217] unmappable character for encoding UTF-8
+[ERROR] /home/pi/builds/TheBusyBiscuit/CS-CoreLib/master/files/src/me/mrCookieSlime/CSCoreLibPlugin/general/audio/SoundConfig.java:[321,260] unmappable character for encoding UTF-8
+[ERROR] /home/pi/builds/TheBusyBiscuit/CS-CoreLib/master/files/src/me/mrCookieSlime/CSCoreLibPlugin/general/audio/SoundConfig.java:[331,92] unmappable character for encoding UTF-8
+[ERROR] /home/pi/builds/TheBusyBiscuit/CS-CoreLib/master/files/src/me/mrCookieSlime/CSCoreLibPlugin/general/audio/SoundConfig.java:[331,112] unmappable character for encoding UTF-8
+[ERROR] /home/pi/builds/TheBusyBiscuit/CS-CoreLib/master/files/src/me/mrCookieSlime/CSCoreLibPlugin/general/Inventory/Item/CustomItemSerializer.java:[75,104] unmappable character for encoding UTF-8
+[ERROR] /home/pi/builds/TheBusyBiscuit/CS-CoreLib/master/files/src/me/mrCookieSlime/CSCoreLibPlugin/general/Inventory/Item/CustomItemSerializer.java:[84,108] unmappable character for encoding UTF-8
+[ERROR] /home/pi/builds/TheBusyBiscuit/CS-CoreLib/master/files/src/me/mrCookieSlime/CSCoreLibPlugin/general/Inventory/MenuHelper.java:[25,67] unmappable character for encoding UTF-8
+[ERROR] /home/pi/builds/TheBusyBiscuit/CS-CoreLib/master/files/src/me/mrCookieSlime/CSCoreLibPlugin/protection/modules/FactionsUUIDProtectionModule.java:[6,33] cannot find symbol
+  symbol:   class Board
+  location: package com.massivecraft.factions
+[ERROR] /home/pi/builds/TheBusyBiscuit/CS-CoreLib/master/files/src/me/mrCookieSlime/CSCoreLibPlugin/protection/modules/FactionsUUIDProtectionModule.java:[7,33] cannot find symbol
+  symbol:   class FLocation
+  location: package com.massivecraft.factions
+[ERROR] /home/pi/builds/TheBusyBiscuit/CS-CoreLib/master/files/src/me/mrCookieSlime/CSCoreLibPlugin/protection/modules/FactionsUUIDProtectionModule.java:[8,33] cannot find symbol
+  symbol:   class FPlayer
+  location: package com.massivecraft.factions
+[ERROR] /home/pi/builds/TheBusyBiscuit/CS-CoreLib/master/files/src/me/mrCookieSlime/CSCoreLibPlugin/protection/modules/FactionsUUIDProtectionModule.java:[9,33] cannot find symbol
+  symbol:   class FPlayers
+  location: package com.massivecraft.factions
+[ERROR] /home/pi/builds/TheBusyBiscuit/CS-CoreLib/master/files/src/me/mrCookieSlime/CSCoreLibPlugin/protection/modules/FactionsUUIDProtectionModule.java:[10,33] cannot find symbol
+  symbol:   class Faction
+  location: package com.massivecraft.factions
+[INFO] 21 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 57.445 s
+[INFO] Finished at: 2018-06-25T22:02:00+02:00
+[INFO] Final Memory: 16M/42M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.1:compile (default-compile) on project CS-CoreLib: Compilation failure: Compilation failure: 
+[ERROR] /home/pi/builds/TheBusyBiscuit/CS-CoreLib/master/files/src/me/mrCookieSlime/CSCoreLibPlugin/general/audio/SoundConfig.java:[309,49] unmappable character for encoding UTF-8
+[ERROR] /home/pi/builds/TheBusyBiscuit/CS-CoreLib/master/files/src/me/mrCookieSlime/CSCoreLibPlugin/general/audio/SoundConfig.java:[311,86] unmappable character for encoding UTF-8
+[ERROR] /home/pi/builds/TheBusyBiscuit/CS-CoreLib/master/files/src/me/mrCookieSlime/CSCoreLibPlugin/general/audio/SoundConfig.java:[311,107] unmappable character for encoding UTF-8
+[ERROR] /home/pi/builds/TheBusyBiscuit/CS-CoreLib/master/files/src/me/mrCookieSlime/CSCoreLibPlugin/general/audio/SoundConfig.java:[321,88] unmappable character for encoding UTF-8
+[ERROR] /home/pi/builds/TheBusyBiscuit/CS-CoreLib/master/files/src/me/mrCookieSlime/CSCoreLibPlugin/general/audio/SoundConfig.java:[321,101] unmappable character for encoding UTF-8
+[ERROR] /home/pi/builds/TheBusyBiscuit/CS-CoreLib/master/files/src/me/mrCookieSlime/CSCoreLibPlugin/general/audio/SoundConfig.java:[321,119] unmappable character for encoding UTF-8
+[ERROR] /home/pi/builds/TheBusyBiscuit/CS-CoreLib/master/files/src/me/mrCookieSlime/CSCoreLibPlugin/general/audio/SoundConfig.java:[321,158] unmappable character for encoding UTF-8
+[ERROR] /home/pi/builds/TheBusyBiscuit/CS-CoreLib/master/files/src/me/mrCookieSlime/CSCoreLibPlugin/general/audio/SoundConfig.java:[321,168] unmappable character for encoding UTF-8
+[ERROR] /home/pi/builds/TheBusyBiscuit/CS-CoreLib/master/files/src/me/mrCookieSlime/CSCoreLibPlugin/general/audio/SoundConfig.java:[321,208] unmappable character for encoding UTF-8
+[ERROR] /home/pi/builds/TheBusyBiscuit/CS-CoreLib/master/files/src/me/mrCookieSlime/CSCoreLibPlugin/general/audio/SoundConfig.java:[321,217] unmappable character for encoding UTF-8
+[ERROR] /home/pi/builds/TheBusyBiscuit/CS-CoreLib/master/files/src/me/mrCookieSlime/CSCoreLibPlugin/general/audio/SoundConfig.java:[321,260] unmappable character for encoding UTF-8
+[ERROR] /home/pi/builds/TheBusyBiscuit/CS-CoreLib/master/files/src/me/mrCookieSlime/CSCoreLibPlugin/general/audio/SoundConfig.java:[331,92] unmappable character for encoding UTF-8
+[ERROR] /home/pi/builds/TheBusyBiscuit/CS-CoreLib/master/files/src/me/mrCookieSlime/CSCoreLibPlugin/general/audio/SoundConfig.java:[331,112] unmappable character for encoding UTF-8
+[ERROR] /home/pi/builds/TheBusyBiscuit/CS-CoreLib/master/files/src/me/mrCookieSlime/CSCoreLibPlugin/general/Inventory/Item/CustomItemSerializer.java:[75,104] unmappable character for encoding UTF-8
+[ERROR] /home/pi/builds/TheBusyBiscuit/CS-CoreLib/master/files/src/me/mrCookieSlime/CSCoreLibPlugin/general/Inventory/Item/CustomItemSerializer.java:[84,108] unmappable character for encoding UTF-8
+[ERROR] /home/pi/builds/TheBusyBiscuit/CS-CoreLib/master/files/src/me/mrCookieSlime/CSCoreLibPlugin/general/Inventory/MenuHelper.java:[25,67] unmappable character for encoding UTF-8
+[ERROR] /home/pi/builds/TheBusyBiscuit/CS-CoreLib/master/files/src/me/mrCookieSlime/CSCoreLibPlugin/protection/modules/FactionsUUIDProtectionModule.java:[6,33] cannot find symbol
+[ERROR]   symbol:   class Board
+[ERROR]   location: package com.massivecraft.factions
+[ERROR] /home/pi/builds/TheBusyBiscuit/CS-CoreLib/master/files/src/me/mrCookieSlime/CSCoreLibPlugin/protection/modules/FactionsUUIDProtectionModule.java:[7,33] cannot find symbol
+[ERROR]   symbol:   class FLocation
+[ERROR]   location: package com.massivecraft.factions
+[ERROR] /home/pi/builds/TheBusyBiscuit/CS-CoreLib/master/files/src/me/mrCookieSlime/CSCoreLibPlugin/protection/modules/FactionsUUIDProtectionModule.java:[8,33] cannot find symbol
+[ERROR]   symbol:   class FPlayer
+[ERROR]   location: package com.massivecraft.factions
+[ERROR] /home/pi/builds/TheBusyBiscuit/CS-CoreLib/master/files/src/me/mrCookieSlime/CSCoreLibPlugin/protection/modules/FactionsUUIDProtectionModule.java:[9,33] cannot find symbol
+[ERROR]   symbol:   class FPlayers
+[ERROR]   location: package com.massivecraft.factions
+[ERROR] /home/pi/builds/TheBusyBiscuit/CS-CoreLib/master/files/src/me/mrCookieSlime/CSCoreLibPlugin/protection/modules/FactionsUUIDProtectionModule.java:[10,33] cannot find symbol
+[ERROR]   symbol:   class Faction
+[ERROR]   location: package com.massivecraft.factions
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException

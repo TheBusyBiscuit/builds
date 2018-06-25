@@ -207,6 +207,22 @@
         "tag": "v1.5.18",
         "status": "SUCCESS"
     },
-    "latest": 13,
+    "14": {
+        "id": 14,
+        "sha": "ff214192cf95af50f4a2e6732e82f0de6e5cb521",
+        "date": "16 Jun 2018 (09:12:57)",
+        "timestamp": 20180616091257,
+        "message": "Merge pull request #45 from SoSeDiK/FactionsUUID-support\n\nAdded support for FactionsUUID",
+        "author": "TheBusyBiscuit",
+        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
+        "license": {
+            "name": "GNU General Public License v3.0",
+            "id": "GPL-3.0",
+            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/CS-CoreLib/master/LICENSE"
+        },
+        "candidate": "DEVELOPMENT",
+        "status": "FAILURE"
+    },
+    "latest": 14,
     "last_successful": 13
 }
