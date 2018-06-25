@@ -223,6 +223,22 @@
         "candidate": "DEVELOPMENT",
         "status": "FAILURE"
     },
-    "latest": 14,
+    "15": {
+        "id": 15,
+        "sha": "b94b56cf2cf528768d1ef13b9c2927fa4a9939eb",
+        "date": "25 Jun 2018 (20:09:10)",
+        "timestamp": 20180625200910,
+        "message": "Added FactionsUUID",
+        "author": "TheBusyBiscuit",
+        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
+        "license": {
+            "name": "GNU General Public License v3.0",
+            "id": "GPL-3.0",
+            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/CS-CoreLib/master/LICENSE"
+        },
+        "candidate": "DEVELOPMENT",
+        "status": "FAILURE"
+    },
+    "latest": 15,
     "last_successful": 13
 }
