@@ -738,6 +738,22 @@
         "candidate": "DEVELOPMENT",
         "status": "FAILURE"
     },
-    "latest": 46,
-    "last_successful": 42
+    "47": {
+        "id": 47,
+        "sha": "69e1654985b35111c40542d61b0619daacefb94f",
+        "date": "23 Jun 2018 (12:05:03)",
+        "timestamp": 20180623120503,
+        "message": "Merge pull request #724 from AtomicScience/master\n\nFix issue #690",
+        "author": "TheBusyBiscuit",
+        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
+        "license": {
+            "name": "GNU General Public License v3.0",
+            "id": "GPL-3.0",
+            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/Slimefun4/master/LICENSE"
+        },
+        "candidate": "DEVELOPMENT",
+        "status": "SUCCESS"
+    },
+    "latest": 47,
+    "last_successful": 47
 }
