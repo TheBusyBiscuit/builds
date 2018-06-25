@@ -1,0 +1,15 @@
+[INFO] Scanning for projects...
+[ERROR] [ERROR] Some problems were encountered while processing the POMs:
+[FATAL] Non-parseable POM /home/pi/builds/TheBusyBiscuit/CS-CoreLib/master/files/pom.xml: TEXT must be immediately followed by END_TAG and not START_TAG (position: START_TAG seen ...<url>http:/        <repository>... @1:1566)  @ line 1, column 1566
+ @ 
+[ERROR] The build could not read 1 project -> [Help 1]
+[ERROR]   
+[ERROR]   The project  (/home/pi/builds/TheBusyBiscuit/CS-CoreLib/master/files/pom.xml) has 1 error
+[ERROR]     Non-parseable POM /home/pi/builds/TheBusyBiscuit/CS-CoreLib/master/files/pom.xml: TEXT must be immediately followed by END_TAG and not START_TAG (position: START_TAG seen ...<url>http:/        <repository>... @1:1566)  @ line 1, column 1566 -> [Help 2]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/ProjectBuildingException
+[ERROR] [Help 2] http://cwiki.apache.org/confluence/display/MAVEN/ModelParseException
