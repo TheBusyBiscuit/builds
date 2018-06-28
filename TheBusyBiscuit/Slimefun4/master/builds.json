@@ -754,6 +754,22 @@
         "candidate": "DEVELOPMENT",
         "status": "SUCCESS"
     },
-    "latest": 47,
-    "last_successful": 47
+    "48": {
+        "id": 48,
+        "sha": "2a492ffbf9e678ebc9ac9f8811fbb0ba89786b5e",
+        "date": "28 Jun 2018 (20:32:01)",
+        "timestamp": 20180628203201,
+        "message": "Added versions to provided Maven dependencies",
+        "author": "TheBusyBiscuit",
+        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
+        "license": {
+            "name": "GNU General Public License v3.0",
+            "id": "GPL-3.0",
+            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/Slimefun4/master/LICENSE"
+        },
+        "candidate": "DEVELOPMENT",
+        "status": "SUCCESS"
+    },
+    "latest": 48,
+    "last_successful": 48
 }
