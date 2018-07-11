@@ -287,6 +287,22 @@
         "candidate": "DEVELOPMENT",
         "status": "SUCCESS"
     },
-    "latest": 18,
-    "last_successful": 18
+    "19": {
+        "id": 19,
+        "sha": "11243dd3bc55c9aa1a862a6eed45f9e6e4613629",
+        "date": "28 Jun 2018 (20:36:52)",
+        "timestamp": 20180628203652,
+        "message": "Merge pull request #46 from SoSeDiK/FactionsUUID\n\nUpdated Wilderness' ID",
+        "author": "TheBusyBiscuit",
+        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
+        "license": {
+            "name": "GNU General Public License v3.0",
+            "id": "GPL-3.0",
+            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/CS-CoreLib/master/LICENSE"
+        },
+        "candidate": "DEVELOPMENT",
+        "status": "SUCCESS"
+    },
+    "latest": 19,
+    "last_successful": 19
 }
