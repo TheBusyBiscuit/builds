@@ -770,6 +770,22 @@
         "candidate": "DEVELOPMENT",
         "status": "SUCCESS"
     },
-    "latest": 48,
-    "last_successful": 48
+    "49": {
+        "id": 49,
+        "sha": "af42816c023291f9e0884d26038b39b62bf3ddb9",
+        "date": "11 Jul 2018 (08:24:38)",
+        "timestamp": 20180711082438,
+        "message": "Merge pull request #736 from VoidAngel/patch-3\n\nFix misplaced parentheses for digital miners",
+        "author": "TheBusyBiscuit",
+        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
+        "license": {
+            "name": "GNU General Public License v3.0",
+            "id": "GPL-3.0",
+            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/Slimefun4/master/LICENSE"
+        },
+        "candidate": "DEVELOPMENT",
+        "status": "SUCCESS"
+    },
+    "latest": 49,
+    "last_successful": 49
 }
