@@ -786,6 +786,22 @@
         "candidate": "DEVELOPMENT",
         "status": "SUCCESS"
     },
-    "latest": 49,
-    "last_successful": 49
+    "50": {
+        "id": 50,
+        "sha": "934f46a03f4f74c92d84aab59b38a711cd7bb881",
+        "date": "06 Aug 2018 (19:02:47)",
+        "timestamp": 20180806190247,
+        "message": "Merge pull request #730 from Firebuggie/master\n\nFixes Butcher Androids being able to loot Wither Skeleton Skulls again.",
+        "author": "TheBusyBiscuit",
+        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
+        "license": {
+            "name": "GNU General Public License v3.0",
+            "id": "GPL-3.0",
+            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/Slimefun4/master/LICENSE"
+        },
+        "candidate": "DEVELOPMENT",
+        "status": "SUCCESS"
+    },
+    "latest": 50,
+    "last_successful": 50
 }
