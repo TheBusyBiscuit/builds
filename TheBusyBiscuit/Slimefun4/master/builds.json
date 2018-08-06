@@ -818,6 +818,22 @@
         "candidate": "DEVELOPMENT",
         "status": "SUCCESS"
     },
-    "latest": 51,
+    "52": {
+        "id": 52,
+        "sha": "b7385d1fc1942ff3488975902320048a044c3e48",
+        "date": "06 Aug 2018 (19:17:46)",
+        "timestamp": 20180806191746,
+        "message": "Merge pull request #751 from creator3/master\n\nHopefully reduce input node breakage",
+        "author": "TheBusyBiscuit",
+        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
+        "license": {
+            "name": "GNU General Public License v3.0",
+            "id": "GPL-3.0",
+            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/Slimefun4/master/LICENSE"
+        },
+        "candidate": "DEVELOPMENT",
+        "status": "PENDING"
+    },
+    "latest": 52,
     "last_successful": 51
 }
