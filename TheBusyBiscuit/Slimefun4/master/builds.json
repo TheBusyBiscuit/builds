@@ -802,6 +802,22 @@
         "candidate": "DEVELOPMENT",
         "status": "SUCCESS"
     },
-    "latest": 50,
-    "last_successful": 50
+    "51": {
+        "id": 51,
+        "sha": "54d7ddc98f6189984b63965dbc8328028f876bd9",
+        "date": "06 Aug 2018 (19:13:56)",
+        "timestamp": 20180806191356,
+        "message": "Merge pull request #741 from DrOreo002/master\n\nSome code cleanup (not all of them), Grappling Hook dupe fix, And ancient altar fix",
+        "author": "TheBusyBiscuit",
+        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
+        "license": {
+            "name": "GNU General Public License v3.0",
+            "id": "GPL-3.0",
+            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/Slimefun4/master/LICENSE"
+        },
+        "candidate": "DEVELOPMENT",
+        "status": "SUCCESS"
+    },
+    "latest": 51,
+    "last_successful": 51
 }
