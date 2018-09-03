@@ -303,6 +303,22 @@
         "candidate": "DEVELOPMENT",
         "status": "SUCCESS"
     },
-    "latest": 19,
+    "20": {
+        "id": 20,
+        "sha": "b9e81d7e6625903fd52f82fc8ea8592a74439c74",
+        "date": "03 Sep 2018 (18:25:08)",
+        "timestamp": 20180903182508,
+        "message": "Updated NMS Code to 1.13.1",
+        "author": "TheBusyBiscuit",
+        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
+        "license": {
+            "name": "GNU General Public License v3.0",
+            "id": "GPL-3.0",
+            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/CS-CoreLib/master/LICENSE"
+        },
+        "candidate": "DEVELOPMENT",
+        "status": "FAILURE"
+    },
+    "latest": 20,
     "last_successful": 19
 }
