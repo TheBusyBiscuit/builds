@@ -319,6 +319,22 @@
         "candidate": "DEVELOPMENT",
         "status": "FAILURE"
     },
-    "latest": 20,
+    "21": {
+        "id": 21,
+        "sha": "024a17ff738d7f59d376c65b5f6bcc2baa99ba6c",
+        "date": "03 Sep 2018 (18:48:46)",
+        "timestamp": 20180903184846,
+        "message": "Updated to CB 1.13.1",
+        "author": "TheBusyBiscuit",
+        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
+        "license": {
+            "name": "GNU General Public License v3.0",
+            "id": "GPL-3.0",
+            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/CS-CoreLib/master/LICENSE"
+        },
+        "candidate": "DEVELOPMENT",
+        "status": "FAILURE"
+    },
+    "latest": 21,
     "last_successful": 19
 }
