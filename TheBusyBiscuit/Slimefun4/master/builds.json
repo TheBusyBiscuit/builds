@@ -834,6 +834,22 @@
         "candidate": "DEVELOPMENT",
         "status": "SUCCESS"
     },
-    "latest": 52,
+    "53": {
+        "id": 53,
+        "sha": "93039c7cc3feabc5e3fa4e3961d7213517bdef8a",
+        "date": "04 Sep 2018 (09:33:57)",
+        "timestamp": 20180904093357,
+        "message": "First steps towards 1.13.1 port.",
+        "author": "TheBusyBiscuit",
+        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
+        "license": {
+            "name": "GNU General Public License v3.0",
+            "id": "GPL-3.0",
+            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/Slimefun4/master/LICENSE"
+        },
+        "candidate": "DEVELOPMENT",
+        "status": "FAILURE"
+    },
+    "latest": 53,
     "last_successful": 52
 }

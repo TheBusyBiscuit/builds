@@ -1,0 +1,674 @@
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for me.mrCookieSlime:Slimefun:jar:DEV #53 (git 93039c7c)
+[WARNING] 'dependencies.dependency.systemPath' for me.minebuilders:clearlag-core:jar should not point at files within the project directory, ${project.basedir}/lib/Clearlag.jar will be unresolvable by dependent projects @ line 1, column 2027
+[WARNING] 'dependencies.dependency.systemPath' for me.mrCookieSlime:EmeraldEnchants:jar should not point at files within the project directory, ${project.basedir}/lib/EmeraldEnchants v2.0.jar will be unresolvable by dependent projects @ line 1, column 2303
+[WARNING] 'dependencies.dependency.systemPath' for me.mrCookieSlime:ExoticGarden:jar should not point at files within the project directory, ${project.basedir}/lib/ExoticGarden v1.2.0.jar will be unresolvable by dependent projects @ line 1, column 2493
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Slimefun DEV #53 (git 93039c7c)
+[INFO] ------------------------------------------------------------------------
+[INFO] Downloading from robomwm-repo: https://dl.bintray.com/robomwm/maven/org/bukkit/bukkit/1.13.1-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/yaml/snakeyaml/1.21/snakeyaml-1.21.pom
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/yaml/snakeyaml/1.21/snakeyaml-1.21.pom
+[INFO] Downloading from worldedit-worldguard-repo: http://maven.sk89q.com/repo/org/yaml/snakeyaml/1.21/snakeyaml-1.21.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/yaml/snakeyaml/1.21/snakeyaml-1.21.pom
+[INFO] Downloading from robomwm-repo: https://dl.bintray.com/robomwm/maven/org/yaml/snakeyaml/1.21/snakeyaml-1.21.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/yaml/snakeyaml/1.21/snakeyaml-1.21.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/yaml/snakeyaml/1.21/snakeyaml-1.21.pom (0 B at 0 B/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/sk89q/worldedit/worldedit-bukkit/6.1.1-SNAPSHOT/maven-metadata.xml
+[WARNING] Could not transfer metadata com.sk89q.worldedit:worldedit-bukkit:6.1.1-SNAPSHOT/maven-metadata.xml from/to paper-repo (https://repo.destroystokyo.com/repository/maven-public/): sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+[WARNING] Failure to transfer com.sk89q.worldedit:worldedit-bukkit:6.1.1-SNAPSHOT/maven-metadata.xml from https://repo.destroystokyo.com/repository/maven-public/ was cached in the local repository, resolution will not be reattempted until the update interval of paper-repo has elapsed or updates are forced. Original error: Could not transfer metadata com.sk89q.worldedit:worldedit-bukkit:6.1.1-SNAPSHOT/maven-metadata.xml from/to paper-repo (https://repo.destroystokyo.com/repository/maven-public/): sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/sk89q/worldedit/worldedit-core/6.1.1-SNAPSHOT/maven-metadata.xml
+[WARNING] Could not transfer metadata com.sk89q.worldedit:worldedit-core:6.1.1-SNAPSHOT/maven-metadata.xml from/to paper-repo (https://repo.destroystokyo.com/repository/maven-public/): sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+[WARNING] Failure to transfer com.sk89q.worldedit:worldedit-core:6.1.1-SNAPSHOT/maven-metadata.xml from https://repo.destroystokyo.com/repository/maven-public/ was cached in the local repository, resolution will not be reattempted until the update interval of paper-repo has elapsed or updates are forced. Original error: Could not transfer metadata com.sk89q.worldedit:worldedit-core:6.1.1-SNAPSHOT/maven-metadata.xml from/to paper-repo (https://repo.destroystokyo.com/repository/maven-public/): sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/github/TheBusyBiscuit/CS-CoreLib/2e43353cd0/CS-CoreLib-2e43353cd0.pom
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/github/TheBusyBiscuit/CS-CoreLib/2e43353cd0/CS-CoreLib-2e43353cd0.pom
+[INFO] Downloading from worldedit-worldguard-repo: http://maven.sk89q.com/repo/com/github/TheBusyBiscuit/CS-CoreLib/2e43353cd0/CS-CoreLib-2e43353cd0.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/github/TheBusyBiscuit/CS-CoreLib/2e43353cd0/CS-CoreLib-2e43353cd0.pom
+[INFO] Downloaded from jitpack.io: https://jitpack.io/com/github/TheBusyBiscuit/CS-CoreLib/2e43353cd0/CS-CoreLib-2e43353cd0.pom (5.6 kB at 32 kB/s)
+[WARNING] The POM for com.wasteofplastic:askyblock:jar:3.0.8.2 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+[WARNING] The POM for com.github.dmulloy2.LWC:lwc:jar:master-4.5.1-g2100b5e-18 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+[WARNING] The POM for com.massivecraft.massivecore:MassiveCore:jar:2.13.0 is missing, no dependency information available
+[WARNING] The POM for com.massivecraft.factions:Factions:jar:2.13.0 is missing, no dependency information available
+[INFO] Downloading from robomwm-repo: https://dl.bintray.com/robomwm/maven/mkremins/fanciful/0.4.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from robomwm-repo: https://dl.bintray.com/robomwm/maven/com/darkblade12/particleeffect/1.8.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/yaml/snakeyaml/1.21/snakeyaml-1.21.jar
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/github/TheBusyBiscuit/CS-CoreLib/2e43353cd0/CS-CoreLib-2e43353cd0.jar
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/github/TheBusyBiscuit/CS-CoreLib/2e43353cd0/CS-CoreLib-2e43353cd0.jar
+[INFO] Downloading from worldedit-worldguard-repo: http://maven.sk89q.com/repo/com/github/TheBusyBiscuit/CS-CoreLib/2e43353cd0/CS-CoreLib-2e43353cd0.jar
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/yaml/snakeyaml/1.21/snakeyaml-1.21.jar
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/github/TheBusyBiscuit/CS-CoreLib/2e43353cd0/CS-CoreLib-2e43353cd0.jar
+[INFO] Downloaded from jitpack.io: https://jitpack.io/com/github/TheBusyBiscuit/CS-CoreLib/2e43353cd0/CS-CoreLib-2e43353cd0.jar (204 kB at 335 kB/s)
+[INFO] Downloading from robomwm-repo: https://dl.bintray.com/robomwm/maven/org/yaml/snakeyaml/1.21/snakeyaml-1.21.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/yaml/snakeyaml/1.21/snakeyaml-1.21.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/yaml/snakeyaml/1.21/snakeyaml-1.21.jar (0 B at 0 B/s)
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ Slimefun ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ Slimefun ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 196 source files to /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/target/classes
+[INFO] -------------------------------------------------------------
+[WARNING] COMPILATION WARNING : 
+[INFO] -------------------------------------------------------------
+[WARNING] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/Objects/SlimefunItem/abstractItems/AContainer.java: Some input files use or override a deprecated API.
+[WARNING] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/Objects/SlimefunItem/abstractItems/AContainer.java: Recompile with -Xlint:deprecation for details.
+[WARNING] Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+[INFO] 3 warnings 
+[INFO] -------------------------------------------------------------
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/Objects/SlimefunItem/abstractItems/AContainer.java:[170,83] cannot find symbol
+  symbol:   variable STAINED_GLASS_PANE
+  location: class org.bukkit.Material
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/Objects/SlimefunItem/abstractItems/AContainer.java:[181,83] cannot find symbol
+  symbol:   variable STAINED_GLASS_PANE
+  location: class org.bukkit.Material
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/Objects/SlimefunItem/abstractItems/AContainer.java:[192,83] cannot find symbol
+  symbol:   variable STAINED_GLASS_PANE
+  location: class org.bukkit.Material
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/Objects/SlimefunItem/abstractItems/AContainer.java:[203,76] cannot find symbol
+  symbol:   variable STAINED_GLASS_PANE
+  location: class org.bukkit.Material
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/Objects/SlimefunItem/abstractItems/AContainer.java:[265,63] cannot find symbol
+  symbol:   variable COMMAND
+  location: class org.bukkit.Material
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/Objects/SlimefunItem/abstractItems/AContainer.java:[334,126] cannot find symbol
+  symbol:   variable STAINED_GLASS_PANE
+  location: class org.bukkit.Material
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/Objects/SlimefunItem/machines/AutoAnvil.java:[82,126] cannot find symbol
+  symbol:   variable STAINED_GLASS_PANE
+  location: class org.bukkit.Material
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/Setup/SlimefunManager.java:[59,72] cannot find symbol
+  symbol:   variable WOOL
+  location: class org.bukkit.Material
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/Setup/SlimefunManager.java:[59,87] cannot find symbol
+  symbol:   variable CARPET
+  location: class org.bukkit.Material
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/Setup/SlimefunManager.java:[59,104] cannot find symbol
+  symbol:   variable STAINED_CLAY
+  location: class org.bukkit.Material
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/Setup/SlimefunManager.java:[59,127] cannot find symbol
+  symbol:   variable STAINED_GLASS
+  location: class org.bukkit.Material
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/Setup/SlimefunManager.java:[59,151] cannot find symbol
+  symbol:   variable STAINED_GLASS_PANE
+  location: class org.bukkit.Material
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/Setup/SlimefunManager.java:[59,180] cannot find symbol
+  symbol:   variable INK_SACK
+  location: class org.bukkit.Material
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/Setup/SlimefunManager.java:[59,230] cannot find symbol
+  symbol:   variable SKULL_ITEM
+  location: class org.bukkit.Material
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/Setup/SlimefunManager.java:[59,251] cannot find symbol
+  symbol:   variable RAW_FISH
+  location: class org.bukkit.Material
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/Setup/SlimefunManager.java:[59,270] cannot find symbol
+  symbol:   variable COOKED_FISH
+  location: class org.bukkit.Material
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/listeners/DamageListener.java:[85,73] cannot find symbol
+  symbol:   variable SKULL_ITEM
+  location: class org.bukkit.Material
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/listeners/DamageListener.java:[91,81] cannot find symbol
+  symbol:   variable SKULL_ITEM
+  location: class org.bukkit.Material
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/listeners/DamageListener.java:[96,81] cannot find symbol
+  symbol:   variable SKULL_ITEM
+  location: class org.bukkit.Material
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/listeners/DamageListener.java:[104,73] cannot find symbol
+  symbol:   variable SKULL_ITEM
+  location: class org.bukkit.Material
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/Android/ProgrammableAndroid.java:[203,34] cannot find symbol
+  symbol:   method setData(byte)
+  location: variable b of type org.bukkit.block.Block
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/Android/ProgrammableAndroid.java:[444,84] cannot find symbol
+  symbol:   variable LOG
+  location: class org.bukkit.Material
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/Android/ProgrammableAndroid.java:[444,124] cannot find symbol
+  symbol:   variable LOG_2
+  location: class org.bukkit.Material
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/Android/ProgrammableAndroid.java:[460,118] cannot find symbol
+  symbol:   variable LOG_2
+  location: class org.bukkit.Material
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/Android/ProgrammableAndroid.java:[461,101] cannot find symbol
+  symbol:   variable SAPLING
+  location: class org.bukkit.Material
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/Android/ProgrammableAndroid.java:[462,84] cannot find symbol
+  symbol:   method setData(byte)
+  location: variable log of type org.bukkit.block.Block
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/Android/ProgrammableAndroid.java:[700,47] cannot find symbol
+  symbol:   variable SKULL
+  location: class org.bukkit.Material
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/Android/ProgrammableAndroid.java:[701,30] cannot find symbol
+  symbol:   method setData(byte)
+  location: variable block of type org.bukkit.block.Block
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/Android/ProgrammableAndroid.java:[753,87] cannot find symbol
+  symbol:   variable SKULL
+  location: class org.bukkit.Material
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/Android/ProgrammableAndroid.java:[754,70] cannot find symbol
+  symbol:   method setData(byte)
+  location: variable block of type org.bukkit.block.Block
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/Android/ProgrammableAndroid.java:[771,71] cannot find symbol
+  symbol:   variable SKULL
+  location: class org.bukkit.Material
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/Android/ProgrammableAndroid.java:[772,54] cannot find symbol
+  symbol:   method setData(byte)
+  location: variable block of type org.bukkit.block.Block
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/Android/ProgrammableAndroid.java:[798,18] an enum switch case label must be the unqualified name of an enumeration constant
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/Android/ProgrammableAndroid.java:[803,30] cannot find symbol
+  symbol:   method setData(byte)
+  location: variable block of type org.bukkit.block.Block
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/Android/ProgrammableAndroid.java:[811,60] cannot find symbol
+  symbol:   variable POTATO_ITEM
+  location: class org.bukkit.Material
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/Android/ProgrammableAndroid.java:[814,30] cannot find symbol
+  symbol:   method setData(byte)
+  location: variable block of type org.bukkit.block.Block
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/Android/ProgrammableAndroid.java:[822,60] cannot find symbol
+  symbol:   variable CARROT_ITEM
+  location: class org.bukkit.Material
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/Android/ProgrammableAndroid.java:[825,30] cannot find symbol
+  symbol:   method setData(byte)
+  location: variable block of type org.bukkit.block.Block
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/Android/ProgrammableAndroid.java:[831,18] an enum switch case label must be the unqualified name of an enumeration constant
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/Android/ProgrammableAndroid.java:[836,30] cannot find symbol
+  symbol:   method setData(byte)
+  location: variable block of type org.bukkit.block.Block
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/Android/ProgrammableAndroid.java:[844,63] cannot find symbol
+  symbol:   variable INK_SACK
+  location: class org.bukkit.Material
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/Android/ProgrammableAndroid.java:[847,30] cannot find symbol
+  symbol:   method setData(byte)
+  location: variable block of type org.bukkit.block.Block
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/Android/ProgrammableAndroid.java:[853,18] an enum switch case label must be the unqualified name of an enumeration constant
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/Android/ProgrammableAndroid.java:[855,60] cannot find symbol
+  symbol:   variable NETHER_STALK
+  location: class org.bukkit.Material
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/Android/ProgrammableAndroid.java:[858,30] cannot find symbol
+  symbol:   method setData(byte)
+  location: variable block of type org.bukkit.block.Block
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/Objects/SlimefunItem/machines/CargoCraftingNode.java:[56,110] cannot find symbol
+  symbol:   variable WOOL
+  location: class org.bukkit.Material
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/Objects/SlimefunItem/machines/CargoCraftingNode.java:[125,83] cannot find symbol
+  symbol:   variable STAINED_GLASS_PANE
+  location: class org.bukkit.Material
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/Objects/SlimefunItem/machines/CargoCraftingNode.java:[136,75] cannot find symbol
+  symbol:   variable WORKBENCH
+  location: class org.bukkit.Material
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/Objects/MultiBlock.java:[47,81] cannot find symbol
+  symbol:   variable LOG
+  location: class org.bukkit.Material
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/Objects/MultiBlock.java:[66,73] cannot find symbol
+  symbol:   variable LOG
+  location: class org.bukkit.Material
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/Objects/SlimefunItem/SlimefunMachine.java:[81,57] cannot find symbol
+  symbol:   variable CAULDRON_ITEM
+  location: class org.bukkit.Material
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/Lists/SlimefunItems.java:[27,77] cannot find symbol
+  symbol:   variable EYE_OF_ENDER
+  location: class org.bukkit.Material
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/Lists/SlimefunItems.java:[28,90] cannot find symbol
+  symbol:   variable MOB_SPAWNER
+  location: class org.bukkit.Material
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/Lists/SlimefunItems.java:[29,75] cannot find symbol
+  symbol:   variable MOB_SPAWNER
+  location: class org.bukkit.Material
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/Lists/SlimefunItems.java:[30,93] cannot find symbol
+  symbol:   variable INK_SACK
+  location: class org.bukkit.Material
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/Lists/SlimefunItems.java:[35,73] cannot find symbol
+  symbol:   variable LEASH
+  location: class org.bukkit.Material
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/Lists/SlimefunItems.java:[46,67] cannot find symbol
+  symbol:   variable NETHER_STALK
+  location: class org.bukkit.Material
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/Lists/SlimefunItems.java:[114,76] cannot find symbol
+  symbol:   variable CLAY_BRICK
+  location: class org.bukkit.Material
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/Lists/SlimefunItems.java:[127,76] cannot find symbol
+  symbol:   variable GOLD_SWORD
+  location: class org.bukkit.Material
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/Lists/SlimefunItems.java:[173,77] cannot find symbol
+  symbol:   variable GOLD_HELMET
+  location: class org.bukkit.Material
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/Lists/SlimefunItems.java:[174,81] cannot find symbol
+  symbol:   variable GOLD_CHESTPLATE
+  location: class org.bukkit.Material
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/Lists/SlimefunItems.java:[175,79] cannot find symbol
+  symbol:   variable GOLD_LEGGINGS
+  location: class org.bukkit.Material
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/Lists/SlimefunItems.java:[176,76] cannot find symbol
+  symbol:   variable GOLD_BOOTS
+  location: class org.bukkit.Material
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/Lists/SlimefunItems.java:[177,70] cannot find symbol
+  symbol:   variable GOLD_HELMET
+  location: class org.bukkit.Material
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/Lists/SlimefunItems.java:[178,74] cannot find symbol
+  symbol:   variable GOLD_CHESTPLATE
+  location: class org.bukkit.Material
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/Lists/SlimefunItems.java:[179,72] cannot find symbol
+  symbol:   variable GOLD_LEGGINGS
+  location: class org.bukkit.Material
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/Lists/SlimefunItems.java:[180,69] cannot find symbol
+  symbol:   variable GOLD_BOOTS
+  location: class org.bukkit.Material
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/Lists/SlimefunItems.java:[210,69] cannot find symbol
+  symbol:   variable SULPHUR
+  location: class org.bukkit.Material
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/Lists/SlimefunItems.java:[216,70] cannot find symbol
+  symbol:   variable SNOW_BALL
+  location: class org.bukkit.Material
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/Lists/SlimefunItems.java:[217,70] cannot find symbol
+  symbol:   variable SULPHUR
+  location: class org.bukkit.Material
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/Lists/SlimefunItems.java:[218,73] cannot find symbol
+  symbol:   variable SULPHUR
+  location: class org.bukkit.Material
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/Lists/SlimefunItems.java:[219,75] cannot find symbol
+  symbol:   variable SULPHUR
+  location: class org.bukkit.Material
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/Lists/SlimefunItems.java:[223,90] cannot find symbol
+  symbol:   variable SKULL_ITEM
+  location: class org.bukkit.Material
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/Lists/SlimefunItems.java:[224,79] cannot find symbol
+  symbol:   variable SULPHUR
+  location: class org.bukkit.Material
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/Lists/SlimefunItems.java:[232,90] cannot find symbol
+  symbol:   variable STAINED_GLASS
+  location: class org.bukkit.Material
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/Lists/SlimefunItems.java:[234,94] cannot find symbol
+  symbol:   variable STAINED_GLASS
+  location: class org.bukkit.Material
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/Lists/SlimefunItems.java:[237,72] cannot find symbol
+  symbol:   variable ENCHANTMENT_TABLE
+  location: class org.bukkit.Material
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/Lists/SlimefunItems.java:[240,88] cannot find symbol
+  symbol:   variable WOOL
+  location: class org.bukkit.Material
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/Lists/SlimefunItems.java:[241,89] cannot find symbol
+  symbol:   variable STAINED_GLASS
+  location: class org.bukkit.Material
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/Lists/SlimefunItems.java:[242,88] cannot find symbol
+  symbol:   variable STAINED_CLAY
+  location: class org.bukkit.Material
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/Lists/SlimefunItems.java:[243,94] cannot find symbol
+  symbol:   variable STAINED_GLASS_PANE
+  location: class org.bukkit.Material
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/Lists/SlimefunItems.java:[245,93] cannot find symbol
+  symbol:   variable WOOL
+  location: class org.bukkit.Material
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/Lists/SlimefunItems.java:[246,94] cannot find symbol
+  symbol:   variable STAINED_GLASS
+  location: class org.bukkit.Material
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/Lists/SlimefunItems.java:[247,93] cannot find symbol
+  symbol:   variable STAINED_CLAY
+  location: class org.bukkit.Material
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/Lists/SlimefunItems.java:[248,99] cannot find symbol
+  symbol:   variable STAINED_GLASS_PANE
+  location: class org.bukkit.Material
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/Lists/SlimefunItems.java:[250,98] cannot find symbol
+  symbol:   variable WOOL
+  location: class org.bukkit.Material
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/Lists/SlimefunItems.java:[251,99] cannot find symbol
+  symbol:   variable STAINED_GLASS
+  location: class org.bukkit.Material
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/Lists/SlimefunItems.java:[252,98] cannot find symbol
+  symbol:   variable STAINED_CLAY
+  location: class org.bukkit.Material
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/Lists/SlimefunItems.java:[253,104] cannot find symbol
+  symbol:   variable STAINED_GLASS_PANE
+  location: class org.bukkit.Material
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/Lists/SlimefunItems.java:[256,71] cannot find symbol
+  symbol:   variable CLAY_BRICK
+  location: class org.bukkit.Material
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/Lists/SlimefunItems.java:[267,71] cannot find symbol
+  symbol:   variable CLAY_BRICK
+  location: class org.bukkit.Material
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/Lists/SlimefunItems.java:[293,73] cannot find symbol
+  symbol:   variable CLAY_BRICK
+  location: class org.bukkit.Material
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/Lists/SlimefunItems.java:[313,68] cannot find symbol
+  symbol:   variable SULPHUR
+  location: class org.bukkit.Material
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/Lists/SlimefunItems.java:[319,68] cannot find symbol
+  symbol:   variable SULPHUR
+  location: class org.bukkit.Material
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/Lists/SlimefunItems.java:[324,66] cannot find symbol
+  symbol:   variable FIREWORK_CHARGE
+  location: class org.bukkit.Material
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/Lists/SlimefunItems.java:[329,94] cannot find symbol
+  symbol:   variable INK_SACK
+  location: class org.bukkit.Material
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/Lists/SlimefunItems.java:[366,69] cannot find symbol
+  symbol:   variable PISTON_BASE
+  location: class org.bukkit.Material
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/Lists/SlimefunItems.java:[368,74] cannot find symbol
+  symbol:   variable WORKBENCH
+  location: class org.bukkit.Material
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/Lists/SlimefunItems.java:[369,69] cannot find symbol
+  symbol:   variable CAULDRON_ITEM
+  location: class org.bukkit.Material
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/Lists/SlimefunItems.java:[370,67] cannot find symbol
+  symbol:   variable IRON_FENCE
+  location: class org.bukkit.Material
+[INFO] 100 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 25.718 s
+[INFO] Finished at: 2018-09-04T11:36:26+02:00
+[INFO] Final Memory: 18M/92M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.1:compile (default-compile) on project Slimefun: Compilation failure: Compilation failure: 
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/Objects/SlimefunItem/abstractItems/AContainer.java:[170,83] cannot find symbol
+[ERROR]   symbol:   variable STAINED_GLASS_PANE
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/Objects/SlimefunItem/abstractItems/AContainer.java:[181,83] cannot find symbol
+[ERROR]   symbol:   variable STAINED_GLASS_PANE
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/Objects/SlimefunItem/abstractItems/AContainer.java:[192,83] cannot find symbol
+[ERROR]   symbol:   variable STAINED_GLASS_PANE
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/Objects/SlimefunItem/abstractItems/AContainer.java:[203,76] cannot find symbol
+[ERROR]   symbol:   variable STAINED_GLASS_PANE
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/Objects/SlimefunItem/abstractItems/AContainer.java:[265,63] cannot find symbol
+[ERROR]   symbol:   variable COMMAND
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/Objects/SlimefunItem/abstractItems/AContainer.java:[334,126] cannot find symbol
+[ERROR]   symbol:   variable STAINED_GLASS_PANE
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/Objects/SlimefunItem/machines/AutoAnvil.java:[82,126] cannot find symbol
+[ERROR]   symbol:   variable STAINED_GLASS_PANE
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/Setup/SlimefunManager.java:[59,72] cannot find symbol
+[ERROR]   symbol:   variable WOOL
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/Setup/SlimefunManager.java:[59,87] cannot find symbol
+[ERROR]   symbol:   variable CARPET
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/Setup/SlimefunManager.java:[59,104] cannot find symbol
+[ERROR]   symbol:   variable STAINED_CLAY
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/Setup/SlimefunManager.java:[59,127] cannot find symbol
+[ERROR]   symbol:   variable STAINED_GLASS
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/Setup/SlimefunManager.java:[59,151] cannot find symbol
+[ERROR]   symbol:   variable STAINED_GLASS_PANE
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/Setup/SlimefunManager.java:[59,180] cannot find symbol
+[ERROR]   symbol:   variable INK_SACK
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/Setup/SlimefunManager.java:[59,230] cannot find symbol
+[ERROR]   symbol:   variable SKULL_ITEM
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/Setup/SlimefunManager.java:[59,251] cannot find symbol
+[ERROR]   symbol:   variable RAW_FISH
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/Setup/SlimefunManager.java:[59,270] cannot find symbol
+[ERROR]   symbol:   variable COOKED_FISH
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/listeners/DamageListener.java:[85,73] cannot find symbol
+[ERROR]   symbol:   variable SKULL_ITEM
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/listeners/DamageListener.java:[91,81] cannot find symbol
+[ERROR]   symbol:   variable SKULL_ITEM
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/listeners/DamageListener.java:[96,81] cannot find symbol
+[ERROR]   symbol:   variable SKULL_ITEM
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/listeners/DamageListener.java:[104,73] cannot find symbol
+[ERROR]   symbol:   variable SKULL_ITEM
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/Android/ProgrammableAndroid.java:[203,34] cannot find symbol
+[ERROR]   symbol:   method setData(byte)
+[ERROR]   location: variable b of type org.bukkit.block.Block
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/Android/ProgrammableAndroid.java:[444,84] cannot find symbol
+[ERROR]   symbol:   variable LOG
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/Android/ProgrammableAndroid.java:[444,124] cannot find symbol
+[ERROR]   symbol:   variable LOG_2
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/Android/ProgrammableAndroid.java:[460,118] cannot find symbol
+[ERROR]   symbol:   variable LOG_2
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/Android/ProgrammableAndroid.java:[461,101] cannot find symbol
+[ERROR]   symbol:   variable SAPLING
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/Android/ProgrammableAndroid.java:[462,84] cannot find symbol
+[ERROR]   symbol:   method setData(byte)
+[ERROR]   location: variable log of type org.bukkit.block.Block
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/Android/ProgrammableAndroid.java:[700,47] cannot find symbol
+[ERROR]   symbol:   variable SKULL
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/Android/ProgrammableAndroid.java:[701,30] cannot find symbol
+[ERROR]   symbol:   method setData(byte)
+[ERROR]   location: variable block of type org.bukkit.block.Block
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/Android/ProgrammableAndroid.java:[753,87] cannot find symbol
+[ERROR]   symbol:   variable SKULL
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/Android/ProgrammableAndroid.java:[754,70] cannot find symbol
+[ERROR]   symbol:   method setData(byte)
+[ERROR]   location: variable block of type org.bukkit.block.Block
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/Android/ProgrammableAndroid.java:[771,71] cannot find symbol
+[ERROR]   symbol:   variable SKULL
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/Android/ProgrammableAndroid.java:[772,54] cannot find symbol
+[ERROR]   symbol:   method setData(byte)
+[ERROR]   location: variable block of type org.bukkit.block.Block
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/Android/ProgrammableAndroid.java:[798,18] an enum switch case label must be the unqualified name of an enumeration constant
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/Android/ProgrammableAndroid.java:[803,30] cannot find symbol
+[ERROR]   symbol:   method setData(byte)
+[ERROR]   location: variable block of type org.bukkit.block.Block
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/Android/ProgrammableAndroid.java:[811,60] cannot find symbol
+[ERROR]   symbol:   variable POTATO_ITEM
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/Android/ProgrammableAndroid.java:[814,30] cannot find symbol
+[ERROR]   symbol:   method setData(byte)
+[ERROR]   location: variable block of type org.bukkit.block.Block
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/Android/ProgrammableAndroid.java:[822,60] cannot find symbol
+[ERROR]   symbol:   variable CARROT_ITEM
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/Android/ProgrammableAndroid.java:[825,30] cannot find symbol
+[ERROR]   symbol:   method setData(byte)
+[ERROR]   location: variable block of type org.bukkit.block.Block
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/Android/ProgrammableAndroid.java:[831,18] an enum switch case label must be the unqualified name of an enumeration constant
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/Android/ProgrammableAndroid.java:[836,30] cannot find symbol
+[ERROR]   symbol:   method setData(byte)
+[ERROR]   location: variable block of type org.bukkit.block.Block
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/Android/ProgrammableAndroid.java:[844,63] cannot find symbol
+[ERROR]   symbol:   variable INK_SACK
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/Android/ProgrammableAndroid.java:[847,30] cannot find symbol
+[ERROR]   symbol:   method setData(byte)
+[ERROR]   location: variable block of type org.bukkit.block.Block
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/Android/ProgrammableAndroid.java:[853,18] an enum switch case label must be the unqualified name of an enumeration constant
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/Android/ProgrammableAndroid.java:[855,60] cannot find symbol
+[ERROR]   symbol:   variable NETHER_STALK
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/Android/ProgrammableAndroid.java:[858,30] cannot find symbol
+[ERROR]   symbol:   method setData(byte)
+[ERROR]   location: variable block of type org.bukkit.block.Block
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/Objects/SlimefunItem/machines/CargoCraftingNode.java:[56,110] cannot find symbol
+[ERROR]   symbol:   variable WOOL
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/Objects/SlimefunItem/machines/CargoCraftingNode.java:[125,83] cannot find symbol
+[ERROR]   symbol:   variable STAINED_GLASS_PANE
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/Objects/SlimefunItem/machines/CargoCraftingNode.java:[136,75] cannot find symbol
+[ERROR]   symbol:   variable WORKBENCH
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/Objects/MultiBlock.java:[47,81] cannot find symbol
+[ERROR]   symbol:   variable LOG
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/Objects/MultiBlock.java:[66,73] cannot find symbol
+[ERROR]   symbol:   variable LOG
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/Objects/SlimefunItem/SlimefunMachine.java:[81,57] cannot find symbol
+[ERROR]   symbol:   variable CAULDRON_ITEM
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/Lists/SlimefunItems.java:[27,77] cannot find symbol
+[ERROR]   symbol:   variable EYE_OF_ENDER
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/Lists/SlimefunItems.java:[28,90] cannot find symbol
+[ERROR]   symbol:   variable MOB_SPAWNER
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/Lists/SlimefunItems.java:[29,75] cannot find symbol
+[ERROR]   symbol:   variable MOB_SPAWNER
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/Lists/SlimefunItems.java:[30,93] cannot find symbol
+[ERROR]   symbol:   variable INK_SACK
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/Lists/SlimefunItems.java:[35,73] cannot find symbol
+[ERROR]   symbol:   variable LEASH
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/Lists/SlimefunItems.java:[46,67] cannot find symbol
+[ERROR]   symbol:   variable NETHER_STALK
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/Lists/SlimefunItems.java:[114,76] cannot find symbol
+[ERROR]   symbol:   variable CLAY_BRICK
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/Lists/SlimefunItems.java:[127,76] cannot find symbol
+[ERROR]   symbol:   variable GOLD_SWORD
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/Lists/SlimefunItems.java:[173,77] cannot find symbol
+[ERROR]   symbol:   variable GOLD_HELMET
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/Lists/SlimefunItems.java:[174,81] cannot find symbol
+[ERROR]   symbol:   variable GOLD_CHESTPLATE
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/Lists/SlimefunItems.java:[175,79] cannot find symbol
+[ERROR]   symbol:   variable GOLD_LEGGINGS
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/Lists/SlimefunItems.java:[176,76] cannot find symbol
+[ERROR]   symbol:   variable GOLD_BOOTS
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/Lists/SlimefunItems.java:[177,70] cannot find symbol
+[ERROR]   symbol:   variable GOLD_HELMET
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/Lists/SlimefunItems.java:[178,74] cannot find symbol
+[ERROR]   symbol:   variable GOLD_CHESTPLATE
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/Lists/SlimefunItems.java:[179,72] cannot find symbol
+[ERROR]   symbol:   variable GOLD_LEGGINGS
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/Lists/SlimefunItems.java:[180,69] cannot find symbol
+[ERROR]   symbol:   variable GOLD_BOOTS
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/Lists/SlimefunItems.java:[210,69] cannot find symbol
+[ERROR]   symbol:   variable SULPHUR
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/Lists/SlimefunItems.java:[216,70] cannot find symbol
+[ERROR]   symbol:   variable SNOW_BALL
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/Lists/SlimefunItems.java:[217,70] cannot find symbol
+[ERROR]   symbol:   variable SULPHUR
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/Lists/SlimefunItems.java:[218,73] cannot find symbol
+[ERROR]   symbol:   variable SULPHUR
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/Lists/SlimefunItems.java:[219,75] cannot find symbol
+[ERROR]   symbol:   variable SULPHUR
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/Lists/SlimefunItems.java:[223,90] cannot find symbol
+[ERROR]   symbol:   variable SKULL_ITEM
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/Lists/SlimefunItems.java:[224,79] cannot find symbol
+[ERROR]   symbol:   variable SULPHUR
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/Lists/SlimefunItems.java:[232,90] cannot find symbol
+[ERROR]   symbol:   variable STAINED_GLASS
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/Lists/SlimefunItems.java:[234,94] cannot find symbol
+[ERROR]   symbol:   variable STAINED_GLASS
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/Lists/SlimefunItems.java:[237,72] cannot find symbol
+[ERROR]   symbol:   variable ENCHANTMENT_TABLE
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/Lists/SlimefunItems.java:[240,88] cannot find symbol
+[ERROR]   symbol:   variable WOOL
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/Lists/SlimefunItems.java:[241,89] cannot find symbol
+[ERROR]   symbol:   variable STAINED_GLASS
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/Lists/SlimefunItems.java:[242,88] cannot find symbol
+[ERROR]   symbol:   variable STAINED_CLAY
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/Lists/SlimefunItems.java:[243,94] cannot find symbol
+[ERROR]   symbol:   variable STAINED_GLASS_PANE
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/Lists/SlimefunItems.java:[245,93] cannot find symbol
+[ERROR]   symbol:   variable WOOL
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/Lists/SlimefunItems.java:[246,94] cannot find symbol
+[ERROR]   symbol:   variable STAINED_GLASS
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/Lists/SlimefunItems.java:[247,93] cannot find symbol
+[ERROR]   symbol:   variable STAINED_CLAY
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/Lists/SlimefunItems.java:[248,99] cannot find symbol
+[ERROR]   symbol:   variable STAINED_GLASS_PANE
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/Lists/SlimefunItems.java:[250,98] cannot find symbol
+[ERROR]   symbol:   variable WOOL
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/Lists/SlimefunItems.java:[251,99] cannot find symbol
+[ERROR]   symbol:   variable STAINED_GLASS
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/Lists/SlimefunItems.java:[252,98] cannot find symbol
+[ERROR]   symbol:   variable STAINED_CLAY
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/Lists/SlimefunItems.java:[253,104] cannot find symbol
+[ERROR]   symbol:   variable STAINED_GLASS_PANE
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/Lists/SlimefunItems.java:[256,71] cannot find symbol
+[ERROR]   symbol:   variable CLAY_BRICK
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/Lists/SlimefunItems.java:[267,71] cannot find symbol
+[ERROR]   symbol:   variable CLAY_BRICK
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/Lists/SlimefunItems.java:[293,73] cannot find symbol
+[ERROR]   symbol:   variable CLAY_BRICK
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/Lists/SlimefunItems.java:[313,68] cannot find symbol
+[ERROR]   symbol:   variable SULPHUR
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/Lists/SlimefunItems.java:[319,68] cannot find symbol
+[ERROR]   symbol:   variable SULPHUR
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/Lists/SlimefunItems.java:[324,66] cannot find symbol
+[ERROR]   symbol:   variable FIREWORK_CHARGE
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/Lists/SlimefunItems.java:[329,94] cannot find symbol
+[ERROR]   symbol:   variable INK_SACK
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/Lists/SlimefunItems.java:[366,69] cannot find symbol
+[ERROR]   symbol:   variable PISTON_BASE
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/Lists/SlimefunItems.java:[368,74] cannot find symbol
+[ERROR]   symbol:   variable WORKBENCH
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/Lists/SlimefunItems.java:[369,69] cannot find symbol
+[ERROR]   symbol:   variable CAULDRON_ITEM
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/pi/builds/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/Lists/SlimefunItems.java:[370,67] cannot find symbol
+[ERROR]   symbol:   variable IRON_FENCE
+[ERROR]   location: class org.bukkit.Material
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
