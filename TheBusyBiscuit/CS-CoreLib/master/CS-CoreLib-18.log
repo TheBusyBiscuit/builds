@@ -1,0 +1,154 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Building CS-CoreLib DEV #18 (git 11c1f3c2)
+[INFO] ------------------------------------------------------------------------
+[WARNING] The POM for com.wasteofplastic:askyblock:jar:3.0.8.2 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+[WARNING] The POM for com.github.dmulloy2.LWC:lwc:jar:master-4.5.1-g2100b5e-18 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+[WARNING] The POM for com.massivecraft.massivecore:MassiveCore:jar:2.13.0 is missing, no dependency information available
+[WARNING] The POM for com.massivecraft.factions:Factions:jar:2.13.0 is missing, no dependency information available
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/com/massivecraft/Factions/1.6.9.5-U0.2.2/Factions-1.6.9.5-U0.2.2.pom
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/massivecraft/Factions/1.6.9.5-U0.2.2/Factions-1.6.9.5-U0.2.2.pom
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/massivecraft/Factions/1.6.9.5-U0.2.2/Factions-1.6.9.5-U0.2.2.pom
+[INFO] Downloading from worldedit-worldguard-repo: http://maven.sk89q.com/repo/com/massivecraft/Factions/1.6.9.5-U0.2.2/Factions-1.6.9.5-U0.2.2.pom
+[INFO] Downloading from simpleclans-preciousstones-repo: http://104.236.246.108:8081/artifactory/remote-repos/com/massivecraft/Factions/1.6.9.5-U0.2.2/Factions-1.6.9.5-U0.2.2.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/massivecraft/Factions/1.6.9.5-U0.2.2/Factions-1.6.9.5-U0.2.2.pom
+[INFO] Downloading from bintray-tastybento-maven-repo: http://dl.bintray.com/tastybento/maven-repo/com/massivecraft/Factions/1.6.9.5-U0.2.2/Factions-1.6.9.5-U0.2.2.pom
+[INFO] Downloading from massivecore-factions-repo: http://repo.dustplanet.de/artifactory/ext-release-local/com/massivecraft/Factions/1.6.9.5-U0.2.2/Factions-1.6.9.5-U0.2.2.pom
+[INFO] Downloading from plotsquared-repo: http://ci.athion.net/job/PlotSquared/ws/mvn/com/massivecraft/Factions/1.6.9.5-U0.2.2/Factions-1.6.9.5-U0.2.2.pom
+[INFO] Downloading from FactionsUUID-repo: https://ci.ender.zone/job/FactionsUUID/122/maven-repository/repository/com/massivecraft/Factions/1.6.9.5-U0.2.2/Factions-1.6.9.5-U0.2.2.pom
+[INFO] Downloaded from FactionsUUID-repo: https://ci.ender.zone/job/FactionsUUID/122/maven-repository/repository/com/massivecraft/Factions/1.6.9.5-U0.2.2/Factions-1.6.9.5-U0.2.2.pom (13 kB at 33 kB/s)
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/mkremins/fanciful/0.4.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/mkremins/fanciful/0.4.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from worldedit-worldguard-repo: http://maven.sk89q.com/repo/mkremins/fanciful/0.4.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/mkremins/fanciful/0.4.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from simpleclans-preciousstones-repo: http://104.236.246.108:8081/artifactory/remote-repos/mkremins/fanciful/0.4.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from jitpack.io: https://jitpack.io/mkremins/fanciful/0.4.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from bintray-tastybento-maven-repo: http://dl.bintray.com/tastybento/maven-repo/mkremins/fanciful/0.4.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from massivecore-factions-repo: http://repo.dustplanet.de/artifactory/ext-release-local/mkremins/fanciful/0.4.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from plotsquared-repo: http://ci.athion.net/job/PlotSquared/ws/mvn/mkremins/fanciful/0.4.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from FactionsUUID-repo: https://ci.ender.zone/job/FactionsUUID/122/maven-repository/repository/mkremins/fanciful/0.4.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from vault-repo: http://nexus.hc.to/content/repositories/pub_releases/mkremins/fanciful/0.4.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from ess-repo: http://ci.ender.zone/plugin/repository/everything/mkremins/fanciful/0.4.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from maven.sk89q.com: http://maven.sk89q.com/repo/mkremins/fanciful/0.4.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from repo.mikeprimm.com: http://repo.mikeprimm.com/mkremins/fanciful/0.4.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from placeholderapi: http://repo.extendedclip.com/content/repositories/placeholderapi/mkremins/fanciful/0.4.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from mvdw-software: http://repo.mvdw-software.be/content/groups/public/mkremins/fanciful/0.4.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloaded from ess-repo: http://ci.ender.zone/plugin/repository/everything/mkremins/fanciful/0.4.0-SNAPSHOT/maven-metadata.xml (609 B at 768 B/s)
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/mkremins/fanciful/0.4.0-SNAPSHOT/fanciful-0.4.0-20171219.190606-1.pom
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/mkremins/fanciful/0.4.0-SNAPSHOT/fanciful-0.4.0-20171219.190606-1.pom
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/mkremins/fanciful/0.4.0-SNAPSHOT/fanciful-0.4.0-20171219.190606-1.pom
+[INFO] Downloading from worldedit-worldguard-repo: http://maven.sk89q.com/repo/mkremins/fanciful/0.4.0-SNAPSHOT/fanciful-0.4.0-20171219.190606-1.pom
+[INFO] Downloading from simpleclans-preciousstones-repo: http://104.236.246.108:8081/artifactory/remote-repos/mkremins/fanciful/0.4.0-SNAPSHOT/fanciful-0.4.0-20171219.190606-1.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/mkremins/fanciful/0.4.0-SNAPSHOT/fanciful-0.4.0-20171219.190606-1.pom
+[INFO] Downloading from bintray-tastybento-maven-repo: http://dl.bintray.com/tastybento/maven-repo/mkremins/fanciful/0.4.0-SNAPSHOT/fanciful-0.4.0-20171219.190606-1.pom
+[INFO] Downloading from massivecore-factions-repo: http://repo.dustplanet.de/artifactory/ext-release-local/mkremins/fanciful/0.4.0-SNAPSHOT/fanciful-0.4.0-20171219.190606-1.pom
+[INFO] Downloading from plotsquared-repo: http://ci.athion.net/job/PlotSquared/ws/mvn/mkremins/fanciful/0.4.0-SNAPSHOT/fanciful-0.4.0-20171219.190606-1.pom
+[INFO] Downloading from FactionsUUID-repo: https://ci.ender.zone/job/FactionsUUID/122/maven-repository/repository/mkremins/fanciful/0.4.0-SNAPSHOT/fanciful-0.4.0-20171219.190606-1.pom
+[INFO] Downloading from vault-repo: http://nexus.hc.to/content/repositories/pub_releases/mkremins/fanciful/0.4.0-SNAPSHOT/fanciful-0.4.0-20171219.190606-1.pom
+[INFO] Downloading from ess-repo: http://ci.ender.zone/plugin/repository/everything/mkremins/fanciful/0.4.0-SNAPSHOT/fanciful-0.4.0-20171219.190606-1.pom
+[INFO] Downloaded from ess-repo: http://ci.ender.zone/plugin/repository/everything/mkremins/fanciful/0.4.0-SNAPSHOT/fanciful-0.4.0-20171219.190606-1.pom (2.5 kB at 3.2 kB/s)
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/com/google/code/gson/gson/2.6.2/gson-2.6.2.pom
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/google/code/gson/gson/2.6.2/gson-2.6.2.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/google/code/gson/gson/2.6.2/gson-2.6.2.pom (1.4 kB at 2.9 kB/s)
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/com/google/code/gson/gson-parent/2.6.2/gson-parent-2.6.2.pom
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/google/code/gson/gson-parent/2.6.2/gson-parent-2.6.2.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/google/code/gson/gson-parent/2.6.2/gson-parent-2.6.2.pom (3.6 kB at 14 kB/s)
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/com/darkblade12/particleeffect/1.8.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from worldedit-worldguard-repo: http://maven.sk89q.com/repo/com/darkblade12/particleeffect/1.8.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/darkblade12/particleeffect/1.8.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/darkblade12/particleeffect/1.8.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from simpleclans-preciousstones-repo: http://104.236.246.108:8081/artifactory/remote-repos/com/darkblade12/particleeffect/1.8.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/darkblade12/particleeffect/1.8.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from bintray-tastybento-maven-repo: http://dl.bintray.com/tastybento/maven-repo/com/darkblade12/particleeffect/1.8.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from massivecore-factions-repo: http://repo.dustplanet.de/artifactory/ext-release-local/com/darkblade12/particleeffect/1.8.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from plotsquared-repo: http://ci.athion.net/job/PlotSquared/ws/mvn/com/darkblade12/particleeffect/1.8.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from FactionsUUID-repo: https://ci.ender.zone/job/FactionsUUID/122/maven-repository/repository/com/darkblade12/particleeffect/1.8.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from vault-repo: http://nexus.hc.to/content/repositories/pub_releases/com/darkblade12/particleeffect/1.8.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from ess-repo: http://ci.ender.zone/plugin/repository/everything/com/darkblade12/particleeffect/1.8.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from maven.sk89q.com: http://maven.sk89q.com/repo/com/darkblade12/particleeffect/1.8.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from repo.mikeprimm.com: http://repo.mikeprimm.com/com/darkblade12/particleeffect/1.8.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from placeholderapi: http://repo.extendedclip.com/content/repositories/placeholderapi/com/darkblade12/particleeffect/1.8.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from mvdw-software: http://repo.mvdw-software.be/content/groups/public/com/darkblade12/particleeffect/1.8.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloaded from ess-repo: http://ci.ender.zone/plugin/repository/everything/com/darkblade12/particleeffect/1.8.0-SNAPSHOT/maven-metadata.xml (622 B at 933 B/s)
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/com/darkblade12/particleeffect/1.8.0-SNAPSHOT/particleeffect-1.8.0-20180331.225558-2.pom
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/darkblade12/particleeffect/1.8.0-SNAPSHOT/particleeffect-1.8.0-20180331.225558-2.pom
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/darkblade12/particleeffect/1.8.0-SNAPSHOT/particleeffect-1.8.0-20180331.225558-2.pom
+[INFO] Downloading from worldedit-worldguard-repo: http://maven.sk89q.com/repo/com/darkblade12/particleeffect/1.8.0-SNAPSHOT/particleeffect-1.8.0-20180331.225558-2.pom
+[INFO] Downloading from simpleclans-preciousstones-repo: http://104.236.246.108:8081/artifactory/remote-repos/com/darkblade12/particleeffect/1.8.0-SNAPSHOT/particleeffect-1.8.0-20180331.225558-2.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/darkblade12/particleeffect/1.8.0-SNAPSHOT/particleeffect-1.8.0-20180331.225558-2.pom
+[INFO] Downloading from bintray-tastybento-maven-repo: http://dl.bintray.com/tastybento/maven-repo/com/darkblade12/particleeffect/1.8.0-SNAPSHOT/particleeffect-1.8.0-20180331.225558-2.pom
+[INFO] Downloading from massivecore-factions-repo: http://repo.dustplanet.de/artifactory/ext-release-local/com/darkblade12/particleeffect/1.8.0-SNAPSHOT/particleeffect-1.8.0-20180331.225558-2.pom
+[INFO] Downloading from plotsquared-repo: http://ci.athion.net/job/PlotSquared/ws/mvn/com/darkblade12/particleeffect/1.8.0-SNAPSHOT/particleeffect-1.8.0-20180331.225558-2.pom
+[INFO] Downloading from FactionsUUID-repo: https://ci.ender.zone/job/FactionsUUID/122/maven-repository/repository/com/darkblade12/particleeffect/1.8.0-SNAPSHOT/particleeffect-1.8.0-20180331.225558-2.pom
+[INFO] Downloading from vault-repo: http://nexus.hc.to/content/repositories/pub_releases/com/darkblade12/particleeffect/1.8.0-SNAPSHOT/particleeffect-1.8.0-20180331.225558-2.pom
+[INFO] Downloading from ess-repo: http://ci.ender.zone/plugin/repository/everything/com/darkblade12/particleeffect/1.8.0-SNAPSHOT/particleeffect-1.8.0-20180331.225558-2.pom
+[INFO] Downloaded from ess-repo: http://ci.ender.zone/plugin/repository/everything/com/darkblade12/particleeffect/1.8.0-SNAPSHOT/particleeffect-1.8.0-20180331.225558-2.pom (1.7 kB at 2.5 kB/s)
+[INFO] Downloading from worldedit-worldguard-repo: http://maven.sk89q.com/repo/org/bukkit/bukkit/maven-metadata.xml
+[INFO] Downloading from maven-codearts-jp: http://maven.codearts.jp/org/bukkit/bukkit/maven-metadata.xml
+[WARNING] Could not transfer metadata org.bukkit:bukkit/maven-metadata.xml from/to worldedit-worldguard-repo (http://maven.sk89q.com/repo/): Failed to transfer file: http://maven.sk89q.com/repo/org/bukkit/bukkit/maven-metadata.xml. Return code is: 500 , ReasonPhrase:Internal Server Error.
+[WARNING] Could not transfer metadata org.bukkit:bukkit/maven-metadata.xml from/to maven-codearts-jp (http://maven.codearts.jp/): maven.codearts.jp: unknown error
+[WARNING] Failure to transfer org.bukkit:bukkit/maven-metadata.xml from http://maven.sk89q.com/repo/ was cached in the local repository, resolution will not be reattempted until the update interval of worldedit-worldguard-repo has elapsed or updates are forced. Original error: Could not transfer metadata org.bukkit:bukkit/maven-metadata.xml from/to worldedit-worldguard-repo (http://maven.sk89q.com/repo/): Failed to transfer file: http://maven.sk89q.com/repo/org/bukkit/bukkit/maven-metadata.xml. Return code is: 500 , ReasonPhrase:Internal Server Error.
+[WARNING] Failure to transfer org.bukkit:bukkit/maven-metadata.xml from http://maven.codearts.jp/ was cached in the local repository, resolution will not be reattempted until the update interval of maven-codearts-jp has elapsed or updates are forced. Original error: Could not transfer metadata org.bukkit:bukkit/maven-metadata.xml from/to maven-codearts-jp (http://maven.codearts.jp/): maven.codearts.jp: unknown error
+[WARNING] The POM for br.net.fabiozumbi12.RedProtect:RedProtect-Spigot:jar:7.3.0 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/com/massivecraft/Factions/1.6.9.5-U0.2.2/Factions-1.6.9.5-U0.2.2.jar
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/massivecraft/Factions/1.6.9.5-U0.2.2/Factions-1.6.9.5-U0.2.2.jar
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/massivecraft/Factions/1.6.9.5-U0.2.2/Factions-1.6.9.5-U0.2.2.jar
+[INFO] Downloading from worldedit-worldguard-repo: http://maven.sk89q.com/repo/com/massivecraft/Factions/1.6.9.5-U0.2.2/Factions-1.6.9.5-U0.2.2.jar
+[INFO] Downloading from simpleclans-preciousstones-repo: http://104.236.246.108:8081/artifactory/remote-repos/com/massivecraft/Factions/1.6.9.5-U0.2.2/Factions-1.6.9.5-U0.2.2.jar
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/massivecraft/Factions/1.6.9.5-U0.2.2/Factions-1.6.9.5-U0.2.2.jar
+[INFO] Downloading from bintray-tastybento-maven-repo: http://dl.bintray.com/tastybento/maven-repo/com/massivecraft/Factions/1.6.9.5-U0.2.2/Factions-1.6.9.5-U0.2.2.jar
+[INFO] Downloading from massivecore-factions-repo: http://repo.dustplanet.de/artifactory/ext-release-local/com/massivecraft/Factions/1.6.9.5-U0.2.2/Factions-1.6.9.5-U0.2.2.jar
+[INFO] Downloading from plotsquared-repo: http://ci.athion.net/job/PlotSquared/ws/mvn/com/massivecraft/Factions/1.6.9.5-U0.2.2/Factions-1.6.9.5-U0.2.2.jar
+[INFO] Downloading from FactionsUUID-repo: https://ci.ender.zone/job/FactionsUUID/122/maven-repository/repository/com/massivecraft/Factions/1.6.9.5-U0.2.2/Factions-1.6.9.5-U0.2.2.jar
+[INFO] Downloaded from FactionsUUID-repo: https://ci.ender.zone/job/FactionsUUID/122/maven-repository/repository/com/massivecraft/Factions/1.6.9.5-U0.2.2/Factions-1.6.9.5-U0.2.2.jar (1.1 MB at 641 kB/s)
+[INFO] Downloading from ess-repo: http://ci.ender.zone/plugin/repository/everything/mkremins/fanciful/0.4.0-SNAPSHOT/fanciful-0.4.0-20171219.190606-1.jar
+[INFO] Downloading from ess-repo: http://ci.ender.zone/plugin/repository/everything/com/darkblade12/particleeffect/1.8.0-SNAPSHOT/particleeffect-1.8.0-20180331.225558-2.jar
+[INFO] Downloaded from ess-repo: http://ci.ender.zone/plugin/repository/everything/com/darkblade12/particleeffect/1.8.0-SNAPSHOT/particleeffect-1.8.0-20180331.225558-2.jar (29 kB at 29 kB/s)
+[INFO] Downloaded from ess-repo: http://ci.ender.zone/plugin/repository/everything/mkremins/fanciful/0.4.0-SNAPSHOT/fanciful-0.4.0-20171219.190606-1.jar (213 kB at 190 kB/s)
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ CS-CoreLib ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ CS-CoreLib ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 103 source files to /home/pi/builds/TheBusyBiscuit/CS-CoreLib/master/files/target/classes
+[WARNING] /home/pi/builds/TheBusyBiscuit/CS-CoreLib/master/files/src/me/mrCookieSlime/CSCoreLibPlugin/general/audio/SoundConfig.java:[309,49] unmappable character for encoding UTF-8
+[WARNING] /home/pi/builds/TheBusyBiscuit/CS-CoreLib/master/files/src/me/mrCookieSlime/CSCoreLibPlugin/general/audio/SoundConfig.java:[311,86] unmappable character for encoding UTF-8
+[WARNING] /home/pi/builds/TheBusyBiscuit/CS-CoreLib/master/files/src/me/mrCookieSlime/CSCoreLibPlugin/general/audio/SoundConfig.java:[311,107] unmappable character for encoding UTF-8
+[WARNING] /home/pi/builds/TheBusyBiscuit/CS-CoreLib/master/files/src/me/mrCookieSlime/CSCoreLibPlugin/general/audio/SoundConfig.java:[321,88] unmappable character for encoding UTF-8
+[WARNING] /home/pi/builds/TheBusyBiscuit/CS-CoreLib/master/files/src/me/mrCookieSlime/CSCoreLibPlugin/general/audio/SoundConfig.java:[321,101] unmappable character for encoding UTF-8
+[WARNING] /home/pi/builds/TheBusyBiscuit/CS-CoreLib/master/files/src/me/mrCookieSlime/CSCoreLibPlugin/general/audio/SoundConfig.java:[321,119] unmappable character for encoding UTF-8
+[WARNING] /home/pi/builds/TheBusyBiscuit/CS-CoreLib/master/files/src/me/mrCookieSlime/CSCoreLibPlugin/general/audio/SoundConfig.java:[321,158] unmappable character for encoding UTF-8
+[WARNING] /home/pi/builds/TheBusyBiscuit/CS-CoreLib/master/files/src/me/mrCookieSlime/CSCoreLibPlugin/general/audio/SoundConfig.java:[321,168] unmappable character for encoding UTF-8
+[WARNING] /home/pi/builds/TheBusyBiscuit/CS-CoreLib/master/files/src/me/mrCookieSlime/CSCoreLibPlugin/general/audio/SoundConfig.java:[321,208] unmappable character for encoding UTF-8
+[WARNING] /home/pi/builds/TheBusyBiscuit/CS-CoreLib/master/files/src/me/mrCookieSlime/CSCoreLibPlugin/general/audio/SoundConfig.java:[321,217] unmappable character for encoding UTF-8
+[WARNING] /home/pi/builds/TheBusyBiscuit/CS-CoreLib/master/files/src/me/mrCookieSlime/CSCoreLibPlugin/general/audio/SoundConfig.java:[321,260] unmappable character for encoding UTF-8
+[WARNING] /home/pi/builds/TheBusyBiscuit/CS-CoreLib/master/files/src/me/mrCookieSlime/CSCoreLibPlugin/general/audio/SoundConfig.java:[331,92] unmappable character for encoding UTF-8
+[WARNING] /home/pi/builds/TheBusyBiscuit/CS-CoreLib/master/files/src/me/mrCookieSlime/CSCoreLibPlugin/general/audio/SoundConfig.java:[331,112] unmappable character for encoding UTF-8
+[WARNING] /home/pi/builds/TheBusyBiscuit/CS-CoreLib/master/files/src/me/mrCookieSlime/CSCoreLibPlugin/general/Inventory/Item/CustomItemSerializer.java:[75,104] unmappable character for encoding UTF-8
+[WARNING] /home/pi/builds/TheBusyBiscuit/CS-CoreLib/master/files/src/me/mrCookieSlime/CSCoreLibPlugin/general/Inventory/Item/CustomItemSerializer.java:[84,108] unmappable character for encoding UTF-8
+[WARNING] /home/pi/builds/TheBusyBiscuit/CS-CoreLib/master/files/src/me/mrCookieSlime/CSCoreLibPlugin/general/Inventory/MenuHelper.java:[25,67] unmappable character for encoding UTF-8
+[WARNING] /home/pi/builds/TheBusyBiscuit/CS-CoreLib/master/files/src/me/mrCookieSlime/CSCoreLibPlugin/general/Inventory/Item/CustomBanner.java: /home/pi/builds/TheBusyBiscuit/CS-CoreLib/master/files/src/me/mrCookieSlime/CSCoreLibPlugin/general/Inventory/Item/CustomBanner.java uses or overrides a deprecated API.
+[WARNING] /home/pi/builds/TheBusyBiscuit/CS-CoreLib/master/files/src/me/mrCookieSlime/CSCoreLibPlugin/general/Inventory/Item/CustomBanner.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ CS-CoreLib ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/pi/builds/TheBusyBiscuit/CS-CoreLib/master/files/tests/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ CS-CoreLib ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ CS-CoreLib ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ CS-CoreLib ---
+[INFO] Building jar: /home/pi/builds/TheBusyBiscuit/CS-CoreLib/master/files/target/CS-CoreLib-18.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 47.997 s
+[INFO] Finished at: 2018-06-25T22:22:44+02:00
+[INFO] Final Memory: 19M/76M
+[INFO] ------------------------------------------------------------------------

@@ -207,6 +207,134 @@
         "tag": "v1.5.18",
         "status": "SUCCESS"
     },
-    "latest": 13,
-    "last_successful": 13
+    "14": {
+        "id": 14,
+        "sha": "ff214192cf95af50f4a2e6732e82f0de6e5cb521",
+        "date": "16 Jun 2018 (09:12:57)",
+        "timestamp": 20180616091257,
+        "message": "Merge pull request #45 from SoSeDiK/FactionsUUID-support\n\nAdded support for FactionsUUID",
+        "author": "TheBusyBiscuit",
+        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
+        "license": {
+            "name": "GNU General Public License v3.0",
+            "id": "GPL-3.0",
+            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/CS-CoreLib/master/LICENSE"
+        },
+        "candidate": "DEVELOPMENT",
+        "status": "FAILURE"
+    },
+    "15": {
+        "id": 15,
+        "sha": "b94b56cf2cf528768d1ef13b9c2927fa4a9939eb",
+        "date": "25 Jun 2018 (20:09:10)",
+        "timestamp": 20180625200910,
+        "message": "Added FactionsUUID",
+        "author": "TheBusyBiscuit",
+        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
+        "license": {
+            "name": "GNU General Public License v3.0",
+            "id": "GPL-3.0",
+            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/CS-CoreLib/master/LICENSE"
+        },
+        "candidate": "DEVELOPMENT",
+        "status": "FAILURE"
+    },
+    "16": {
+        "id": 16,
+        "sha": "a8a7f2d5d8f2409a8c7db2f57ca874e4b8869843",
+        "date": "25 Jun 2018 (20:18:23)",
+        "timestamp": 20180625201823,
+        "message": "Update pom.xml",
+        "author": "TheBusyBiscuit",
+        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
+        "license": {
+            "name": "GNU General Public License v3.0",
+            "id": "GPL-3.0",
+            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/CS-CoreLib/master/LICENSE"
+        },
+        "candidate": "DEVELOPMENT",
+        "status": "FAILURE"
+    },
+    "17": {
+        "id": 17,
+        "sha": "003958cd8250f8d5d59dbf5645da2baaecb794bc",
+        "date": "25 Jun 2018 (20:19:30)",
+        "timestamp": 20180625201930,
+        "message": "Update pom.xml",
+        "author": "TheBusyBiscuit",
+        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
+        "license": {
+            "name": "GNU General Public License v3.0",
+            "id": "GPL-3.0",
+            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/CS-CoreLib/master/LICENSE"
+        },
+        "candidate": "DEVELOPMENT",
+        "status": "FAILURE"
+    },
+    "18": {
+        "id": 18,
+        "sha": "11c1f3c29ef4e52c4da2e39a28dd1b128aff4fb6",
+        "date": "25 Jun 2018 (20:21:30)",
+        "timestamp": 20180625202130,
+        "message": "Update pom.xml",
+        "author": "TheBusyBiscuit",
+        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
+        "license": {
+            "name": "GNU General Public License v3.0",
+            "id": "GPL-3.0",
+            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/CS-CoreLib/master/LICENSE"
+        },
+        "candidate": "DEVELOPMENT",
+        "status": "SUCCESS"
+    },
+    "19": {
+        "id": 19,
+        "sha": "11243dd3bc55c9aa1a862a6eed45f9e6e4613629",
+        "date": "28 Jun 2018 (20:36:52)",
+        "timestamp": 20180628203652,
+        "message": "Merge pull request #46 from SoSeDiK/FactionsUUID\n\nUpdated Wilderness' ID",
+        "author": "TheBusyBiscuit",
+        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
+        "license": {
+            "name": "GNU General Public License v3.0",
+            "id": "GPL-3.0",
+            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/CS-CoreLib/master/LICENSE"
+        },
+        "candidate": "DEVELOPMENT",
+        "status": "SUCCESS"
+    },
+    "20": {
+        "id": 20,
+        "sha": "b9e81d7e6625903fd52f82fc8ea8592a74439c74",
+        "date": "03 Sep 2018 (18:25:08)",
+        "timestamp": 20180903182508,
+        "message": "Updated NMS Code to 1.13.1",
+        "author": "TheBusyBiscuit",
+        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
+        "license": {
+            "name": "GNU General Public License v3.0",
+            "id": "GPL-3.0",
+            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/CS-CoreLib/master/LICENSE"
+        },
+        "candidate": "DEVELOPMENT",
+        "status": "FAILURE"
+    },
+    "21": {
+        "id": 21,
+        "sha": "024a17ff738d7f59d376c65b5f6bcc2baa99ba6c",
+        "date": "03 Sep 2018 (18:48:46)",
+        "timestamp": 20180903184846,
+        "message": "Updated to CB 1.13.1",
+        "author": "TheBusyBiscuit",
+        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
+        "license": {
+            "name": "GNU General Public License v3.0",
+            "id": "GPL-3.0",
+            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/CS-CoreLib/master/LICENSE"
+        },
+        "candidate": "DEVELOPMENT",
+        "status": "FAILURE"
+    },
+    "latest": 21,
+    "last_successful": 19
 }

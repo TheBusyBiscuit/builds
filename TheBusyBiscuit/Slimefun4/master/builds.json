@@ -641,6 +641,199 @@
         "candidate": "DEVELOPMENT",
         "status": "SUCCESS"
     },
-    "latest": 40,
-    "last_successful": 40
+    "41": {
+        "id": 41,
+        "sha": "2ef7fbd57595344fb2c3017e93bd709f6db3a514",
+        "date": "05 May 2018 (17:42:27)",
+        "timestamp": 20180505174227,
+        "message": "Updated to Version: v4.1.15",
+        "author": "TheBusyBot",
+        "avatar": "https://avatars1.githubusercontent.com/u/33297977?v=4",
+        "license": {
+            "name": "GNU General Public License v3.0",
+            "id": "GPL-3.0",
+            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/Slimefun4/master/LICENSE"
+        },
+        "candidate": "RELEASE",
+        "tag": "v4.1.15",
+        "status": "SUCCESS"
+    },
+    "42": {
+        "id": 42,
+        "sha": "340fc046d0343da12724c6f729143677ae97af6c",
+        "date": "11 May 2018 (11:11:13)",
+        "timestamp": 20180511111113,
+        "message": "Fixed Reactor Overflows",
+        "author": "TheBusyBiscuit",
+        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
+        "license": {
+            "name": "GNU General Public License v3.0",
+            "id": "GPL-3.0",
+            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/Slimefun4/master/LICENSE"
+        },
+        "candidate": "DEVELOPMENT",
+        "status": "SUCCESS"
+    },
+    "43": {
+        "id": 43,
+        "sha": "803c19a27ec6088201b5be85ad3fde441c6c08da",
+        "date": "21 May 2018 (18:51:12)",
+        "timestamp": 20180521185112,
+        "message": "Removed BlockBreaker",
+        "author": "TheBusyBiscuit",
+        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
+        "license": {
+            "name": "GNU General Public License v3.0",
+            "id": "GPL-3.0",
+            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/Slimefun4/master/LICENSE"
+        },
+        "candidate": "DEVELOPMENT",
+        "status": "FAILURE"
+    },
+    "44": {
+        "id": 44,
+        "sha": "e74d8c23d213153793167c7cbc051d5db5a2570d",
+        "date": "21 May 2018 (18:58:23)",
+        "timestamp": 20180521185823,
+        "message": "Update ISSUE_TEMPLATE.md",
+        "author": "TheBusyBiscuit",
+        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
+        "license": {
+            "name": "GNU General Public License v3.0",
+            "id": "GPL-3.0",
+            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/Slimefun4/master/LICENSE"
+        },
+        "candidate": "DEVELOPMENT",
+        "status": "FAILURE"
+    },
+    "45": {
+        "id": 45,
+        "sha": "919a9710eeb29ed1177e14253e3effbd75071b5f",
+        "date": "21 May 2018 (19:11:01)",
+        "timestamp": 20180521191101,
+        "message": "Update README.md",
+        "author": "TheBusyBiscuit",
+        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
+        "license": {
+            "name": "GNU General Public License v3.0",
+            "id": "GPL-3.0",
+            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/Slimefun4/master/LICENSE"
+        },
+        "candidate": "DEVELOPMENT",
+        "status": "FAILURE"
+    },
+    "46": {
+        "id": 46,
+        "sha": "d4a06ceb901a5b0c4834fa851e2cc15c63f13012",
+        "date": "21 May 2018 (19:17:32)",
+        "timestamp": 20180521191732,
+        "message": "Update README.md",
+        "author": "TheBusyBiscuit",
+        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
+        "license": {
+            "name": "GNU General Public License v3.0",
+            "id": "GPL-3.0",
+            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/Slimefun4/master/LICENSE"
+        },
+        "candidate": "DEVELOPMENT",
+        "status": "FAILURE"
+    },
+    "47": {
+        "id": 47,
+        "sha": "69e1654985b35111c40542d61b0619daacefb94f",
+        "date": "23 Jun 2018 (12:05:03)",
+        "timestamp": 20180623120503,
+        "message": "Merge pull request #724 from AtomicScience/master\n\nFix issue #690",
+        "author": "TheBusyBiscuit",
+        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
+        "license": {
+            "name": "GNU General Public License v3.0",
+            "id": "GPL-3.0",
+            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/Slimefun4/master/LICENSE"
+        },
+        "candidate": "DEVELOPMENT",
+        "status": "SUCCESS"
+    },
+    "48": {
+        "id": 48,
+        "sha": "2a492ffbf9e678ebc9ac9f8811fbb0ba89786b5e",
+        "date": "28 Jun 2018 (20:32:01)",
+        "timestamp": 20180628203201,
+        "message": "Added versions to provided Maven dependencies",
+        "author": "TheBusyBiscuit",
+        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
+        "license": {
+            "name": "GNU General Public License v3.0",
+            "id": "GPL-3.0",
+            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/Slimefun4/master/LICENSE"
+        },
+        "candidate": "DEVELOPMENT",
+        "status": "SUCCESS"
+    },
+    "49": {
+        "id": 49,
+        "sha": "af42816c023291f9e0884d26038b39b62bf3ddb9",
+        "date": "11 Jul 2018 (08:24:38)",
+        "timestamp": 20180711082438,
+        "message": "Merge pull request #736 from VoidAngel/patch-3\n\nFix misplaced parentheses for digital miners",
+        "author": "TheBusyBiscuit",
+        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
+        "license": {
+            "name": "GNU General Public License v3.0",
+            "id": "GPL-3.0",
+            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/Slimefun4/master/LICENSE"
+        },
+        "candidate": "DEVELOPMENT",
+        "status": "SUCCESS"
+    },
+    "50": {
+        "id": 50,
+        "sha": "934f46a03f4f74c92d84aab59b38a711cd7bb881",
+        "date": "06 Aug 2018 (19:02:47)",
+        "timestamp": 20180806190247,
+        "message": "Merge pull request #730 from Firebuggie/master\n\nFixes Butcher Androids being able to loot Wither Skeleton Skulls again.",
+        "author": "TheBusyBiscuit",
+        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
+        "license": {
+            "name": "GNU General Public License v3.0",
+            "id": "GPL-3.0",
+            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/Slimefun4/master/LICENSE"
+        },
+        "candidate": "DEVELOPMENT",
+        "status": "SUCCESS"
+    },
+    "51": {
+        "id": 51,
+        "sha": "54d7ddc98f6189984b63965dbc8328028f876bd9",
+        "date": "06 Aug 2018 (19:13:56)",
+        "timestamp": 20180806191356,
+        "message": "Merge pull request #741 from DrOreo002/master\n\nSome code cleanup (not all of them), Grappling Hook dupe fix, And ancient altar fix",
+        "author": "TheBusyBiscuit",
+        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
+        "license": {
+            "name": "GNU General Public License v3.0",
+            "id": "GPL-3.0",
+            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/Slimefun4/master/LICENSE"
+        },
+        "candidate": "DEVELOPMENT",
+        "status": "SUCCESS"
+    },
+    "52": {
+        "id": 52,
+        "sha": "b7385d1fc1942ff3488975902320048a044c3e48",
+        "date": "06 Aug 2018 (19:17:46)",
+        "timestamp": 20180806191746,
+        "message": "Merge pull request #751 from creator3/master\n\nHopefully reduce input node breakage",
+        "author": "TheBusyBiscuit",
+        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
+        "license": {
+            "name": "GNU General Public License v3.0",
+            "id": "GPL-3.0",
+            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/Slimefun4/master/LICENSE"
+        },
+        "candidate": "DEVELOPMENT",
+        "status": "SUCCESS"
+    },
+    "latest": 52,
+    "last_successful": 52
 }
