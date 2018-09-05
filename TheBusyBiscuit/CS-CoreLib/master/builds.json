@@ -351,6 +351,22 @@
         "candidate": "DEVELOPMENT",
         "status": "SUCCESS"
     },
-    "latest": 22,
+    "23": {
+        "id": 23,
+        "sha": "a450ddc526f51c0bb1faf3fef138f959aabc02d7",
+        "date": "05 Sep 2018 (18:22:23)",
+        "timestamp": 20180905182223,
+        "message": "Added MaterialHelper.isLeavesBlock",
+        "author": "TheBusyBiscuit",
+        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
+        "license": {
+            "name": "GNU General Public License v3.0",
+            "id": "GPL-3.0",
+            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/CS-CoreLib/master/LICENSE"
+        },
+        "candidate": "DEVELOPMENT",
+        "status": "FAILURE"
+    },
+    "latest": 23,
     "last_successful": 22
 }
