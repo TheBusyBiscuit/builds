@@ -351,7 +351,7 @@ function pom(job, builds) {
                             json.getChild("version").setValue(builds[job.id].tag);
                         }
                         else {
-                            json.getChild("version").setValue("DEV #" + job.id + " (git " + builds[job.id].sha.substr(0, 8) + ")");
+                            json.getChild("version").setValue("DEV - " + job.id + " (git " + builds[job.id].sha.substr(0, 8) + ")");
                         }
 
                         json.getChild(["build", "finalName"]).setValue(job.repo + "-" + job.id);
