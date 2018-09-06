@@ -367,6 +367,22 @@
         "candidate": "DEVELOPMENT",
         "status": "FAILURE"
     },
-    "latest": 23,
-    "last_successful": 22
+    "24": {
+        "id": 24,
+        "sha": "92d1df487435b8680f6920cba5b7f8e691bcabe2",
+        "date": "06 Sep 2018 (10:50:21)",
+        "timestamp": 20180906105021,
+        "message": "Added 1.13 support for StringUtils",
+        "author": "TheBusyBiscuit",
+        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
+        "license": {
+            "name": "GNU General Public License v3.0",
+            "id": "GPL-3.0",
+            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/CS-CoreLib/master/LICENSE"
+        },
+        "candidate": "DEVELOPMENT",
+        "status": "SUCCESS"
+    },
+    "latest": 24,
+    "last_successful": 24
 }
