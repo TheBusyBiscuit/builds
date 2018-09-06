@@ -3,3 +3,4 @@ app.log
 test.js
 ACCESS_TOKEN.txt
 *.cer
+keystore
