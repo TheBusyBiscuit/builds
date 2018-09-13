@@ -399,6 +399,22 @@
         "candidate": "DEVELOPMENT",
         "status": "SUCCESS"
     },
-    "latest": 25,
+    "26": {
+        "id": 26,
+        "sha": "9809f36d671cf5c45c54df226833eefc9086691c",
+        "date": "13 Sep 2018 (09:15:11)",
+        "timestamp": 20180913091511,
+        "message": "Merge pull request #56 from jiongjionger/master\n\nUse update(true) instead of refreshChunk",
+        "author": "TheBusyBiscuit",
+        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
+        "license": {
+            "name": "GNU General Public License v3.0",
+            "id": "GPL-3.0",
+            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/CS-CoreLib/master/LICENSE"
+        },
+        "candidate": "DEVELOPMENT",
+        "status": "FAILURE"
+    },
+    "latest": 26,
     "last_successful": 25
 }
