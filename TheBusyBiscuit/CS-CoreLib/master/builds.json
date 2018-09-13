@@ -415,6 +415,22 @@
         "candidate": "DEVELOPMENT",
         "status": "FAILURE"
     },
-    "latest": 26,
+    "27": {
+        "id": 27,
+        "sha": "d6743b75d7d1a172bfbaf18509427d22237f56c2",
+        "date": "13 Sep 2018 (11:36:56)",
+        "timestamp": 20180913113656,
+        "message": "Create README.md",
+        "author": "TheBusyBiscuit",
+        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
+        "license": {
+            "name": "GNU General Public License v3.0",
+            "id": "GPL-3.0",
+            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/CS-CoreLib/master/LICENSE"
+        },
+        "candidate": "DEVELOPMENT",
+        "status": "FAILURE"
+    },
+    "latest": 27,
     "last_successful": 25
 }
