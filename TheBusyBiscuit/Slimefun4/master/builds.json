@@ -916,22 +916,6 @@
     },
     "58": {
         "id": 58,
-        "sha": "464f15bf973ba30574dbbc57fd0a96592f4f2b64",
-        "date": "06 Sep 2018 (11:03:51)",
-        "timestamp": 20180906110351,
-        "message": "Nerfed Juices",
-        "author": "TheBusyBiscuit",
-        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
-        "license": {
-            "name": "GNU General Public License v3.0",
-            "id": "GPL-3.0",
-            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/Slimefun4/master/LICENSE"
-        },
-        "candidate": "DEVELOPMENT",
-        "status": "PENDING"
-    },
-    "59": {
-        "id": 59,
         "sha": "188818061cbb9d71c2ddb5e4781a7c93458e48bc",
         "date": "18 Sep 2018 (08:52:50)",
         "timestamp": 20180918085250,
@@ -944,8 +928,8 @@
             "url": "https://raw.githubusercontent.com/TheBusyBiscuit/Slimefun4/master/LICENSE"
         },
         "candidate": "DEVELOPMENT",
-        "status": "FAILURE"
+        "status": "SUCCESS"
     },
-    "latest": 59,
-    "last_successful": 57
+    "latest": 58,
+    "last_successful": 58
 }
