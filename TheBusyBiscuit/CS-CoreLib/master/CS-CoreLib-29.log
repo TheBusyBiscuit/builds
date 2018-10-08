@@ -1,0 +1,425 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Building CS-CoreLib DEV - 29 (git 84518e3c)
+[INFO] ------------------------------------------------------------------------
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/org/bukkit/bukkit/1.13.1-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from worldedit-worldguard-repo: http://maven.sk89q.com/repo/org/bukkit/bukkit/1.13.1-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/bukkit/bukkit/1.13.1-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/bukkit/bukkit/1.13.1-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from simpleclans-preciousstones-repo: http://104.236.246.108:8081/artifactory/remote-repos/org/bukkit/bukkit/1.13.1-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloaded from simpleclans-preciousstones-repo: http://104.236.246.108:8081/artifactory/remote-repos/org/bukkit/bukkit/1.13.1-R0.1-SNAPSHOT/maven-metadata.xml (1.4 kB at 3.2 kB/s)
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/bukkit/bukkit/1.13.1-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from bintray-tastybento-maven-repo: http://dl.bintray.com/tastybento/maven-repo/org/bukkit/bukkit/1.13.1-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from massivecore-factions-repo: http://repo.dustplanet.de/artifactory/ext-release-local/org/bukkit/bukkit/1.13.1-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloaded from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/bukkit/bukkit/1.13.1-R0.1-SNAPSHOT/maven-metadata.xml (1.4 kB at 638 B/s)
+[INFO] Downloading from plotsquared-repo: http://ci.athion.net/job/PlotSquared/ws/mvn/org/bukkit/bukkit/1.13.1-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from FactionsUUID-repo: https://ci.ender.zone/job/FactionsUUID/122/maven-repository/repository/org/bukkit/bukkit/1.13.1-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/bukkit/bukkit/1.13.1-R0.1-SNAPSHOT/maven-metadata.xml (1.4 kB at 613 B/s)
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/org/bukkit/bukkit/1.13.1-R0.1-SNAPSHOT/bukkit-1.13.1-R0.1-20181006.231231-93.pom
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/bukkit/bukkit/1.13.1-R0.1-SNAPSHOT/bukkit-1.13.1-R0.1-20181006.231231-93.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/bukkit/bukkit/1.13.1-R0.1-SNAPSHOT/bukkit-1.13.1-R0.1-20181006.231231-93.pom (6.5 kB at 19 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/sk89q/worldedit/worldedit-bukkit/7.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/sk89q/worldedit/worldedit-bukkit/7.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/com/sk89q/worldedit/worldedit-bukkit/7.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from worldedit-worldguard-repo: http://maven.sk89q.com/repo/com/sk89q/worldedit/worldedit-bukkit/7.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from simpleclans-preciousstones-repo: http://104.236.246.108:8081/artifactory/remote-repos/com/sk89q/worldedit/worldedit-bukkit/7.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/sk89q/worldedit/worldedit-bukkit/7.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from bintray-tastybento-maven-repo: http://dl.bintray.com/tastybento/maven-repo/com/sk89q/worldedit/worldedit-bukkit/7.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from massivecore-factions-repo: http://repo.dustplanet.de/artifactory/ext-release-local/com/sk89q/worldedit/worldedit-bukkit/7.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from plotsquared-repo: http://ci.athion.net/job/PlotSquared/ws/mvn/com/sk89q/worldedit/worldedit-bukkit/7.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from FactionsUUID-repo: https://ci.ender.zone/job/FactionsUUID/122/maven-repository/repository/com/sk89q/worldedit/worldedit-bukkit/7.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloaded from worldedit-worldguard-repo: http://maven.sk89q.com/repo/com/sk89q/worldedit/worldedit-bukkit/7.0.0-SNAPSHOT/maven-metadata.xml (1.2 kB at 2.6 kB/s)
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/com/sk89q/worldedit/worldedit-bukkit/7.0.0-SNAPSHOT/worldedit-bukkit-7.0.0-20181007.082221-2.pom
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/sk89q/worldedit/worldedit-bukkit/7.0.0-SNAPSHOT/worldedit-bukkit-7.0.0-20181007.082221-2.pom
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/sk89q/worldedit/worldedit-bukkit/7.0.0-SNAPSHOT/worldedit-bukkit-7.0.0-20181007.082221-2.pom
+[INFO] Downloading from worldedit-worldguard-repo: http://maven.sk89q.com/repo/com/sk89q/worldedit/worldedit-bukkit/7.0.0-SNAPSHOT/worldedit-bukkit-7.0.0-20181007.082221-2.pom
+[INFO] Downloaded from worldedit-worldguard-repo: http://maven.sk89q.com/repo/com/sk89q/worldedit/worldedit-bukkit/7.0.0-SNAPSHOT/worldedit-bukkit-7.0.0-20181007.082221-2.pom (1.4 kB at 4.5 kB/s)
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/com/sk89q/worldedit/worldedit-core/7.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/sk89q/worldedit/worldedit-core/7.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from worldedit-worldguard-repo: http://maven.sk89q.com/repo/com/sk89q/worldedit/worldedit-core/7.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/sk89q/worldedit/worldedit-core/7.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from simpleclans-preciousstones-repo: http://104.236.246.108:8081/artifactory/remote-repos/com/sk89q/worldedit/worldedit-core/7.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloaded from worldedit-worldguard-repo: http://maven.sk89q.com/repo/com/sk89q/worldedit/worldedit-core/7.0.0-SNAPSHOT/maven-metadata.xml (1.2 kB at 3.6 kB/s)
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/sk89q/worldedit/worldedit-core/7.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from bintray-tastybento-maven-repo: http://dl.bintray.com/tastybento/maven-repo/com/sk89q/worldedit/worldedit-core/7.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from massivecore-factions-repo: http://repo.dustplanet.de/artifactory/ext-release-local/com/sk89q/worldedit/worldedit-core/7.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from plotsquared-repo: http://ci.athion.net/job/PlotSquared/ws/mvn/com/sk89q/worldedit/worldedit-core/7.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from FactionsUUID-repo: https://ci.ender.zone/job/FactionsUUID/122/maven-repository/repository/com/sk89q/worldedit/worldedit-core/7.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/com/sk89q/worldedit/worldedit-core/7.0.0-SNAPSHOT/worldedit-core-7.0.0-20181007.082221-2.pom
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/sk89q/worldedit/worldedit-core/7.0.0-SNAPSHOT/worldedit-core-7.0.0-20181007.082221-2.pom
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/sk89q/worldedit/worldedit-core/7.0.0-SNAPSHOT/worldedit-core-7.0.0-20181007.082221-2.pom
+[INFO] Downloading from worldedit-worldguard-repo: http://maven.sk89q.com/repo/com/sk89q/worldedit/worldedit-core/7.0.0-SNAPSHOT/worldedit-core-7.0.0-20181007.082221-2.pom
+[INFO] Downloaded from worldedit-worldguard-repo: http://maven.sk89q.com/repo/com/sk89q/worldedit/worldedit-core/7.0.0-SNAPSHOT/worldedit-core-7.0.0-20181007.082221-2.pom (2.3 kB at 7.6 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/bukkit/bukkit/1.13-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from worldedit-worldguard-repo: http://maven.sk89q.com/repo/org/bukkit/bukkit/1.13-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/bukkit/bukkit/1.13-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/org/bukkit/bukkit/1.13-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from simpleclans-preciousstones-repo: http://104.236.246.108:8081/artifactory/remote-repos/org/bukkit/bukkit/1.13-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/bukkit/bukkit/1.13-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloaded from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/bukkit/bukkit/1.13-R0.1-SNAPSHOT/maven-metadata.xml (1.4 kB at 2.3 kB/s)
+[INFO] Downloading from bintray-tastybento-maven-repo: http://dl.bintray.com/tastybento/maven-repo/org/bukkit/bukkit/1.13-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloaded from simpleclans-preciousstones-repo: http://104.236.246.108:8081/artifactory/remote-repos/org/bukkit/bukkit/1.13-R0.1-SNAPSHOT/maven-metadata.xml (1.4 kB at 2.7 kB/s)
+[INFO] Downloading from massivecore-factions-repo: http://repo.dustplanet.de/artifactory/ext-release-local/org/bukkit/bukkit/1.13-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from plotsquared-repo: http://ci.athion.net/job/PlotSquared/ws/mvn/org/bukkit/bukkit/1.13-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/bukkit/bukkit/1.13-R0.1-SNAPSHOT/maven-metadata.xml (1.4 kB at 1.7 kB/s)
+[INFO] Downloading from FactionsUUID-repo: https://ci.ender.zone/job/FactionsUUID/122/maven-repository/repository/org/bukkit/bukkit/1.13-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/org/bukkit/bukkit/1.13-R0.1-SNAPSHOT/bukkit-1.13-R0.1-20180826.040129-146.pom
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/bukkit/bukkit/1.13-R0.1-SNAPSHOT/bukkit-1.13-R0.1-20180826.040129-146.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/bukkit/bukkit/1.13-R0.1-SNAPSHOT/bukkit-1.13-R0.1-20180826.040129-146.pom (6.5 kB at 19 kB/s)
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/org/bstats/bstats-bukkit/1.2/bstats-bukkit-1.2.pom
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/bstats/bstats-bukkit/1.2/bstats-bukkit-1.2.pom
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/bstats/bstats-bukkit/1.2/bstats-bukkit-1.2.pom
+[INFO] Downloading from worldedit-worldguard-repo: http://maven.sk89q.com/repo/org/bstats/bstats-bukkit/1.2/bstats-bukkit-1.2.pom
+[INFO] Downloading from simpleclans-preciousstones-repo: http://104.236.246.108:8081/artifactory/remote-repos/org/bstats/bstats-bukkit/1.2/bstats-bukkit-1.2.pom
+[INFO] Downloaded from simpleclans-preciousstones-repo: http://104.236.246.108:8081/artifactory/remote-repos/org/bstats/bstats-bukkit/1.2/bstats-bukkit-1.2.pom (1.5 kB at 5.8 kB/s)
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/org/bstats/bstats/1.2/bstats-1.2.pom
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/bstats/bstats/1.2/bstats-1.2.pom
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/bstats/bstats/1.2/bstats-1.2.pom
+[INFO] Downloading from worldedit-worldguard-repo: http://maven.sk89q.com/repo/org/bstats/bstats/1.2/bstats-1.2.pom
+[INFO] Downloading from simpleclans-preciousstones-repo: http://104.236.246.108:8081/artifactory/remote-repos/org/bstats/bstats/1.2/bstats-1.2.pom
+[INFO] Downloaded from simpleclans-preciousstones-repo: http://104.236.246.108:8081/artifactory/remote-repos/org/bstats/bstats/1.2/bstats-1.2.pom (2.5 kB at 10 kB/s)
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/com/sk89q/worldguard/worldguard-legacy/7.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/sk89q/worldguard/worldguard-legacy/7.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/sk89q/worldguard/worldguard-legacy/7.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from worldedit-worldguard-repo: http://maven.sk89q.com/repo/com/sk89q/worldguard/worldguard-legacy/7.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from simpleclans-preciousstones-repo: http://104.236.246.108:8081/artifactory/remote-repos/com/sk89q/worldguard/worldguard-legacy/7.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/sk89q/worldguard/worldguard-legacy/7.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from bintray-tastybento-maven-repo: http://dl.bintray.com/tastybento/maven-repo/com/sk89q/worldguard/worldguard-legacy/7.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from massivecore-factions-repo: http://repo.dustplanet.de/artifactory/ext-release-local/com/sk89q/worldguard/worldguard-legacy/7.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from plotsquared-repo: http://ci.athion.net/job/PlotSquared/ws/mvn/com/sk89q/worldguard/worldguard-legacy/7.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from FactionsUUID-repo: https://ci.ender.zone/job/FactionsUUID/122/maven-repository/repository/com/sk89q/worldguard/worldguard-legacy/7.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloaded from worldedit-worldguard-repo: http://maven.sk89q.com/repo/com/sk89q/worldguard/worldguard-legacy/7.0.0-SNAPSHOT/maven-metadata.xml (1.2 kB at 2.8 kB/s)
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/com/sk89q/worldguard/worldguard-legacy/7.0.0-SNAPSHOT/worldguard-legacy-7.0.0-20181007.131625-3.pom
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/sk89q/worldguard/worldguard-legacy/7.0.0-SNAPSHOT/worldguard-legacy-7.0.0-20181007.131625-3.pom
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/sk89q/worldguard/worldguard-legacy/7.0.0-SNAPSHOT/worldguard-legacy-7.0.0-20181007.131625-3.pom
+[INFO] Downloading from worldedit-worldguard-repo: http://maven.sk89q.com/repo/com/sk89q/worldguard/worldguard-legacy/7.0.0-SNAPSHOT/worldguard-legacy-7.0.0-20181007.131625-3.pom
+[INFO] Downloaded from worldedit-worldguard-repo: http://maven.sk89q.com/repo/com/sk89q/worldguard/worldguard-legacy/7.0.0-SNAPSHOT/worldguard-legacy-7.0.0-20181007.131625-3.pom (2.1 kB at 6.8 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/sk89q/worldguard/worldguard-core/7.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from worldedit-worldguard-repo: http://maven.sk89q.com/repo/com/sk89q/worldguard/worldguard-core/7.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/com/sk89q/worldguard/worldguard-core/7.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/sk89q/worldguard/worldguard-core/7.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from simpleclans-preciousstones-repo: http://104.236.246.108:8081/artifactory/remote-repos/com/sk89q/worldguard/worldguard-core/7.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloaded from worldedit-worldguard-repo: http://maven.sk89q.com/repo/com/sk89q/worldguard/worldguard-core/7.0.0-SNAPSHOT/maven-metadata.xml (1.2 kB at 4.3 kB/s)
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/sk89q/worldguard/worldguard-core/7.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from bintray-tastybento-maven-repo: http://dl.bintray.com/tastybento/maven-repo/com/sk89q/worldguard/worldguard-core/7.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from massivecore-factions-repo: http://repo.dustplanet.de/artifactory/ext-release-local/com/sk89q/worldguard/worldguard-core/7.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from plotsquared-repo: http://ci.athion.net/job/PlotSquared/ws/mvn/com/sk89q/worldguard/worldguard-core/7.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from FactionsUUID-repo: https://ci.ender.zone/job/FactionsUUID/122/maven-repository/repository/com/sk89q/worldguard/worldguard-core/7.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/com/sk89q/worldguard/worldguard-core/7.0.0-SNAPSHOT/worldguard-core-7.0.0-20181007.131625-3.pom
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/sk89q/worldguard/worldguard-core/7.0.0-SNAPSHOT/worldguard-core-7.0.0-20181007.131625-3.pom
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/sk89q/worldguard/worldguard-core/7.0.0-SNAPSHOT/worldguard-core-7.0.0-20181007.131625-3.pom
+[INFO] Downloading from worldedit-worldguard-repo: http://maven.sk89q.com/repo/com/sk89q/worldguard/worldguard-core/7.0.0-SNAPSHOT/worldguard-core-7.0.0-20181007.131625-3.pom
+[INFO] Downloaded from worldedit-worldguard-repo: http://maven.sk89q.com/repo/com/sk89q/worldguard/worldguard-core/7.0.0-SNAPSHOT/worldguard-core-7.0.0-20181007.131625-3.pom (1.9 kB at 6.8 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/sk89q/intake/intake/4.2-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/com/sk89q/intake/intake/4.2-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/sk89q/intake/intake/4.2-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from worldedit-worldguard-repo: http://maven.sk89q.com/repo/com/sk89q/intake/intake/4.2-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from simpleclans-preciousstones-repo: http://104.236.246.108:8081/artifactory/remote-repos/com/sk89q/intake/intake/4.2-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/sk89q/intake/intake/4.2-SNAPSHOT/maven-metadata.xml
+[INFO] Downloaded from worldedit-worldguard-repo: http://maven.sk89q.com/repo/com/sk89q/intake/intake/4.2-SNAPSHOT/maven-metadata.xml (1.2 kB at 3.7 kB/s)
+[INFO] Downloading from bintray-tastybento-maven-repo: http://dl.bintray.com/tastybento/maven-repo/com/sk89q/intake/intake/4.2-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from massivecore-factions-repo: http://repo.dustplanet.de/artifactory/ext-release-local/com/sk89q/intake/intake/4.2-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from plotsquared-repo: http://ci.athion.net/job/PlotSquared/ws/mvn/com/sk89q/intake/intake/4.2-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from FactionsUUID-repo: https://ci.ender.zone/job/FactionsUUID/122/maven-repository/repository/com/sk89q/intake/intake/4.2-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/com/sk89q/intake/intake/4.2-SNAPSHOT/intake-4.2-20150927.052853-4.pom
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/sk89q/intake/intake/4.2-SNAPSHOT/intake-4.2-20150927.052853-4.pom
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/sk89q/intake/intake/4.2-SNAPSHOT/intake-4.2-20150927.052853-4.pom
+[INFO] Downloading from worldedit-worldguard-repo: http://maven.sk89q.com/repo/com/sk89q/intake/intake/4.2-SNAPSHOT/intake-4.2-20150927.052853-4.pom
+[INFO] Downloaded from worldedit-worldguard-repo: http://maven.sk89q.com/repo/com/sk89q/intake/intake/4.2-SNAPSHOT/intake-4.2-20150927.052853-4.pom (1.1 kB at 3.8 kB/s)
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/com/google/code/findbugs/jsr305/3.0.0/jsr305-3.0.0.pom
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/google/code/findbugs/jsr305/3.0.0/jsr305-3.0.0.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/google/code/findbugs/jsr305/3.0.0/jsr305-3.0.0.pom (3.9 kB at 12 kB/s)
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/com/sk89q/squirrelid/0.1.0/squirrelid-0.1.0.pom
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/sk89q/squirrelid/0.1.0/squirrelid-0.1.0.pom
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/sk89q/squirrelid/0.1.0/squirrelid-0.1.0.pom
+[INFO] Downloading from worldedit-worldguard-repo: http://maven.sk89q.com/repo/com/sk89q/squirrelid/0.1.0/squirrelid-0.1.0.pom
+[INFO] Downloaded from worldedit-worldguard-repo: http://maven.sk89q.com/repo/com/sk89q/squirrelid/0.1.0/squirrelid-0.1.0.pom (9.1 kB at 30 kB/s)
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/org/flywaydb/flyway-core/3.0/flyway-core-3.0.pom
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/flywaydb/flyway-core/3.0/flyway-core-3.0.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/flywaydb/flyway-core/3.0/flyway-core-3.0.pom (9.8 kB at 21 kB/s)
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/org/flywaydb/flyway-parent/3.0/flyway-parent-3.0.pom
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/flywaydb/flyway-parent/3.0/flyway-parent-3.0.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/flywaydb/flyway-parent/3.0/flyway-parent-3.0.pom (25 kB at 69 kB/s)
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/org/khelekore/prtree/1.5.0/prtree-1.5.0.pom
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/khelekore/prtree/1.5.0/prtree-1.5.0.pom
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/khelekore/prtree/1.5.0/prtree-1.5.0.pom
+[INFO] Downloading from worldedit-worldguard-repo: http://maven.sk89q.com/repo/org/khelekore/prtree/1.5.0/prtree-1.5.0.pom
+[INFO] Downloaded from worldedit-worldguard-repo: http://maven.sk89q.com/repo/org/khelekore/prtree/1.5.0/prtree-1.5.0.pom (2.1 kB at 7.1 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/bukkit/bukkit/1.6.2-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/org/bukkit/bukkit/1.6.2-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from worldedit-worldguard-repo: http://maven.sk89q.com/repo/org/bukkit/bukkit/1.6.2-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/bukkit/bukkit/1.6.2-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from simpleclans-preciousstones-repo: http://104.236.246.108:8081/artifactory/remote-repos/org/bukkit/bukkit/1.6.2-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/bukkit/bukkit/1.6.2-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from bintray-tastybento-maven-repo: http://dl.bintray.com/tastybento/maven-repo/org/bukkit/bukkit/1.6.2-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from massivecore-factions-repo: http://repo.dustplanet.de/artifactory/ext-release-local/org/bukkit/bukkit/1.6.2-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from plotsquared-repo: http://ci.athion.net/job/PlotSquared/ws/mvn/org/bukkit/bukkit/1.6.2-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from FactionsUUID-repo: https://ci.ender.zone/job/FactionsUUID/122/maven-repository/repository/org/bukkit/bukkit/1.6.2-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from sk89q-repo: http://maven.sk89q.com/repo/org/bukkit/bukkit/1.6.2-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from bukkit-repo: http://repo.bukkit.org/content/groups/public/org/bukkit/bukkit/1.6.2-R0.1-SNAPSHOT/maven-metadata.xml
+[WARNING] Could not transfer metadata org.bukkit:bukkit:1.6.2-R0.1-SNAPSHOT/maven-metadata.xml from/to bukkit-repo (http://repo.bukkit.org/content/groups/public/): repo.bukkit.org: unknown error
+[WARNING] Failure to transfer org.bukkit:bukkit:1.6.2-R0.1-SNAPSHOT/maven-metadata.xml from http://repo.bukkit.org/content/groups/public/ was cached in the local repository, resolution will not be reattempted until the update interval of bukkit-repo has elapsed or updates are forced. Original error: Could not transfer metadata org.bukkit:bukkit:1.6.2-R0.1-SNAPSHOT/maven-metadata.xml from/to bukkit-repo (http://repo.bukkit.org/content/groups/public/): repo.bukkit.org: unknown error
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/org/bukkit/bukkit/1.6.2-R0.1-SNAPSHOT/bukkit-1.6.2-R0.1-SNAPSHOT.pom
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/bukkit/bukkit/1.6.2-R0.1-SNAPSHOT/bukkit-1.6.2-R0.1-SNAPSHOT.pom
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/bukkit/bukkit/1.6.2-R0.1-SNAPSHOT/bukkit-1.6.2-R0.1-SNAPSHOT.pom
+[INFO] Downloading from worldedit-worldguard-repo: http://maven.sk89q.com/repo/org/bukkit/bukkit/1.6.2-R0.1-SNAPSHOT/bukkit-1.6.2-R0.1-SNAPSHOT.pom
+[INFO] Downloading from simpleclans-preciousstones-repo: http://104.236.246.108:8081/artifactory/remote-repos/org/bukkit/bukkit/1.6.2-R0.1-SNAPSHOT/bukkit-1.6.2-R0.1-SNAPSHOT.pom
+[INFO] Downloaded from simpleclans-preciousstones-repo: http://104.236.246.108:8081/artifactory/remote-repos/org/bukkit/bukkit/1.6.2-R0.1-SNAPSHOT/bukkit-1.6.2-R0.1-SNAPSHOT.pom (3.8 kB at 2.4 kB/s)
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/org/getspout/spoutplugin/dev-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/getspout/spoutplugin/dev-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/getspout/spoutplugin/dev-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from worldedit-worldguard-repo: http://maven.sk89q.com/repo/org/getspout/spoutplugin/dev-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from simpleclans-preciousstones-repo: http://104.236.246.108:8081/artifactory/remote-repos/org/getspout/spoutplugin/dev-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/getspout/spoutplugin/dev-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from bintray-tastybento-maven-repo: http://dl.bintray.com/tastybento/maven-repo/org/getspout/spoutplugin/dev-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from massivecore-factions-repo: http://repo.dustplanet.de/artifactory/ext-release-local/org/getspout/spoutplugin/dev-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from plotsquared-repo: http://ci.athion.net/job/PlotSquared/ws/mvn/org/getspout/spoutplugin/dev-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from FactionsUUID-repo: https://ci.ender.zone/job/FactionsUUID/122/maven-repository/repository/org/getspout/spoutplugin/dev-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/sk89q/worldguard/6.1.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/com/sk89q/worldguard/6.1.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/sk89q/worldguard/6.1.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from worldedit-worldguard-repo: http://maven.sk89q.com/repo/com/sk89q/worldguard/6.1.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from simpleclans-preciousstones-repo: http://104.236.246.108:8081/artifactory/remote-repos/com/sk89q/worldguard/6.1.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/sk89q/worldguard/6.1.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from bintray-tastybento-maven-repo: http://dl.bintray.com/tastybento/maven-repo/com/sk89q/worldguard/6.1.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloaded from worldedit-worldguard-repo: http://maven.sk89q.com/repo/com/sk89q/worldguard/6.1.1-SNAPSHOT/maven-metadata.xml (1.7 kB at 4.0 kB/s)
+[INFO] Downloading from massivecore-factions-repo: http://repo.dustplanet.de/artifactory/ext-release-local/com/sk89q/worldguard/6.1.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from plotsquared-repo: http://ci.athion.net/job/PlotSquared/ws/mvn/com/sk89q/worldguard/6.1.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from FactionsUUID-repo: https://ci.ender.zone/job/FactionsUUID/122/maven-repository/repository/com/sk89q/worldguard/6.1.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from vault-repo: http://nexus.hc.to/content/repositories/pub_releases/com/sk89q/worldguard/6.1.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/sk89q/spigot/bukkit-classloader-check/1.8-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/com/sk89q/spigot/bukkit-classloader-check/1.8-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/sk89q/spigot/bukkit-classloader-check/1.8-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from worldedit-worldguard-repo: http://maven.sk89q.com/repo/com/sk89q/spigot/bukkit-classloader-check/1.8-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from simpleclans-preciousstones-repo: http://104.236.246.108:8081/artifactory/remote-repos/com/sk89q/spigot/bukkit-classloader-check/1.8-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloaded from worldedit-worldguard-repo: http://maven.sk89q.com/repo/com/sk89q/spigot/bukkit-classloader-check/1.8-R0.1-SNAPSHOT/maven-metadata.xml (794 B at 2.6 kB/s)
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/sk89q/spigot/bukkit-classloader-check/1.8-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from bintray-tastybento-maven-repo: http://dl.bintray.com/tastybento/maven-repo/com/sk89q/spigot/bukkit-classloader-check/1.8-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from massivecore-factions-repo: http://repo.dustplanet.de/artifactory/ext-release-local/com/sk89q/spigot/bukkit-classloader-check/1.8-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from plotsquared-repo: http://ci.athion.net/job/PlotSquared/ws/mvn/com/sk89q/spigot/bukkit-classloader-check/1.8-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from FactionsUUID-repo: https://ci.ender.zone/job/FactionsUUID/122/maven-repository/repository/com/sk89q/spigot/bukkit-classloader-check/1.8-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from vault-repo: http://nexus.hc.to/content/repositories/pub_releases/com/sk89q/spigot/bukkit-classloader-check/1.8-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from sk89q-repo: http://maven.sk89q.com/repo/com/sk89q/spigot/bukkit-classloader-check/1.8-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloaded from simpleclans-preciousstones-repo: http://104.236.246.108:8081/artifactory/remote-repos/com/sk89q/spigot/bukkit-classloader-check/1.8-R0.1-SNAPSHOT/maven-metadata.xml (787 B at 2.0 kB/s)
+[INFO] Downloaded from sk89q-repo: http://maven.sk89q.com/repo/com/sk89q/spigot/bukkit-classloader-check/1.8-R0.1-SNAPSHOT/maven-metadata.xml (794 B at 2.8 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/bukkit/bukkit/1.8.6-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/org/bukkit/bukkit/1.8.6-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/bukkit/bukkit/1.8.6-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from worldedit-worldguard-repo: http://maven.sk89q.com/repo/org/bukkit/bukkit/1.8.6-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from simpleclans-preciousstones-repo: http://104.236.246.108:8081/artifactory/remote-repos/org/bukkit/bukkit/1.8.6-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloaded from simpleclans-preciousstones-repo: http://104.236.246.108:8081/artifactory/remote-repos/org/bukkit/bukkit/1.8.6-R0.1-SNAPSHOT/maven-metadata.xml (1.4 kB at 4.2 kB/s)
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/bukkit/bukkit/1.8.6-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloaded from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/bukkit/bukkit/1.8.6-R0.1-SNAPSHOT/maven-metadata.xml (1.4 kB at 2.9 kB/s)
+[INFO] Downloading from bintray-tastybento-maven-repo: http://dl.bintray.com/tastybento/maven-repo/org/bukkit/bukkit/1.8.6-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from massivecore-factions-repo: http://repo.dustplanet.de/artifactory/ext-release-local/org/bukkit/bukkit/1.8.6-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from plotsquared-repo: http://ci.athion.net/job/PlotSquared/ws/mvn/org/bukkit/bukkit/1.8.6-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from FactionsUUID-repo: https://ci.ender.zone/job/FactionsUUID/122/maven-repository/repository/org/bukkit/bukkit/1.8.6-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/bukkit/bukkit/1.8.6-R0.1-SNAPSHOT/maven-metadata.xml (1.4 kB at 1.7 kB/s)
+[INFO] Downloading from vault-repo: http://nexus.hc.to/content/repositories/pub_releases/org/bukkit/bukkit/1.8.6-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from sk89q-repo: http://maven.sk89q.com/repo/org/bukkit/bukkit/1.8.6-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/com/sk89q/worldedit/worldedit-bukkit/6.1.4-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/sk89q/worldedit/worldedit-bukkit/6.1.4-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/sk89q/worldedit/worldedit-bukkit/6.1.4-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from worldedit-worldguard-repo: http://maven.sk89q.com/repo/com/sk89q/worldedit/worldedit-bukkit/6.1.4-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from simpleclans-preciousstones-repo: http://104.236.246.108:8081/artifactory/remote-repos/com/sk89q/worldedit/worldedit-bukkit/6.1.4-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/sk89q/worldedit/worldedit-bukkit/6.1.4-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from bintray-tastybento-maven-repo: http://dl.bintray.com/tastybento/maven-repo/com/sk89q/worldedit/worldedit-bukkit/6.1.4-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from massivecore-factions-repo: http://repo.dustplanet.de/artifactory/ext-release-local/com/sk89q/worldedit/worldedit-bukkit/6.1.4-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from plotsquared-repo: http://ci.athion.net/job/PlotSquared/ws/mvn/com/sk89q/worldedit/worldedit-bukkit/6.1.4-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from FactionsUUID-repo: https://ci.ender.zone/job/FactionsUUID/122/maven-repository/repository/com/sk89q/worldedit/worldedit-bukkit/6.1.4-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from vault-repo: http://nexus.hc.to/content/repositories/pub_releases/com/sk89q/worldedit/worldedit-bukkit/6.1.4-SNAPSHOT/maven-metadata.xml
+[INFO] Downloaded from worldedit-worldguard-repo: http://maven.sk89q.com/repo/com/sk89q/worldedit/worldedit-bukkit/6.1.4-SNAPSHOT/maven-metadata.xml (1.2 kB at 2.8 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/bukkit/bukkit/1.9.4-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/org/bukkit/bukkit/1.9.4-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from worldedit-worldguard-repo: http://maven.sk89q.com/repo/org/bukkit/bukkit/1.9.4-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/bukkit/bukkit/1.9.4-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from simpleclans-preciousstones-repo: http://104.236.246.108:8081/artifactory/remote-repos/org/bukkit/bukkit/1.9.4-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/bukkit/bukkit/1.9.4-R0.1-SNAPSHOT/maven-metadata.xml (1.4 kB at 3.9 kB/s)
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/bukkit/bukkit/1.9.4-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from bintray-tastybento-maven-repo: http://dl.bintray.com/tastybento/maven-repo/org/bukkit/bukkit/1.9.4-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloaded from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/bukkit/bukkit/1.9.4-R0.1-SNAPSHOT/maven-metadata.xml (1.4 kB at 3.2 kB/s)
+[INFO] Downloading from massivecore-factions-repo: http://repo.dustplanet.de/artifactory/ext-release-local/org/bukkit/bukkit/1.9.4-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from plotsquared-repo: http://ci.athion.net/job/PlotSquared/ws/mvn/org/bukkit/bukkit/1.9.4-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from FactionsUUID-repo: https://ci.ender.zone/job/FactionsUUID/122/maven-repository/repository/org/bukkit/bukkit/1.9.4-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from vault-repo: http://nexus.hc.to/content/repositories/pub_releases/org/bukkit/bukkit/1.9.4-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloaded from simpleclans-preciousstones-repo: http://104.236.246.108:8081/artifactory/remote-repos/org/bukkit/bukkit/1.9.4-R0.1-SNAPSHOT/maven-metadata.xml (1.4 kB at 3.0 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/sk89q/worldedit/worldedit-core/6.1.4-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/com/sk89q/worldedit/worldedit-core/6.1.4-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/sk89q/worldedit/worldedit-core/6.1.4-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from worldedit-worldguard-repo: http://maven.sk89q.com/repo/com/sk89q/worldedit/worldedit-core/6.1.4-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from simpleclans-preciousstones-repo: http://104.236.246.108:8081/artifactory/remote-repos/com/sk89q/worldedit/worldedit-core/6.1.4-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/sk89q/worldedit/worldedit-core/6.1.4-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from bintray-tastybento-maven-repo: http://dl.bintray.com/tastybento/maven-repo/com/sk89q/worldedit/worldedit-core/6.1.4-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from massivecore-factions-repo: http://repo.dustplanet.de/artifactory/ext-release-local/com/sk89q/worldedit/worldedit-core/6.1.4-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from plotsquared-repo: http://ci.athion.net/job/PlotSquared/ws/mvn/com/sk89q/worldedit/worldedit-core/6.1.4-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from FactionsUUID-repo: https://ci.ender.zone/job/FactionsUUID/122/maven-repository/repository/com/sk89q/worldedit/worldedit-core/6.1.4-SNAPSHOT/maven-metadata.xml
+[INFO] Downloaded from worldedit-worldguard-repo: http://maven.sk89q.com/repo/com/sk89q/worldedit/worldedit-core/6.1.4-SNAPSHOT/maven-metadata.xml (1.2 kB at 2.7 kB/s)
+[INFO] Downloading from vault-repo: http://nexus.hc.to/content/repositories/pub_releases/com/sk89q/worldedit/worldedit-core/6.1.4-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/org/bukkit/bukkit/1.9-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/bukkit/bukkit/1.9-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from worldedit-worldguard-repo: http://maven.sk89q.com/repo/org/bukkit/bukkit/1.9-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/bukkit/bukkit/1.9-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from simpleclans-preciousstones-repo: http://104.236.246.108:8081/artifactory/remote-repos/org/bukkit/bukkit/1.9-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/bukkit/bukkit/1.9-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/bukkit/bukkit/1.9-R0.1-SNAPSHOT/maven-metadata.xml (1.4 kB at 3.4 kB/s)
+[INFO] Downloading from bintray-tastybento-maven-repo: http://dl.bintray.com/tastybento/maven-repo/org/bukkit/bukkit/1.9-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from massivecore-factions-repo: http://repo.dustplanet.de/artifactory/ext-release-local/org/bukkit/bukkit/1.9-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloaded from simpleclans-preciousstones-repo: http://104.236.246.108:8081/artifactory/remote-repos/org/bukkit/bukkit/1.9-R0.1-SNAPSHOT/maven-metadata.xml (755 B at 1.9 kB/s)
+[INFO] Downloading from plotsquared-repo: http://ci.athion.net/job/PlotSquared/ws/mvn/org/bukkit/bukkit/1.9-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloaded from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/bukkit/bukkit/1.9-R0.1-SNAPSHOT/maven-metadata.xml (1.4 kB at 2.5 kB/s)
+[INFO] Downloading from FactionsUUID-repo: https://ci.ender.zone/job/FactionsUUID/122/maven-repository/repository/org/bukkit/bukkit/1.9-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from vault-repo: http://nexus.hc.to/content/repositories/pub_releases/org/bukkit/bukkit/1.9-R0.1-SNAPSHOT/maven-metadata.xml
+[WARNING] The POM for com.wasteofplastic:askyblock:jar:3.0.8.2 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+[WARNING] The POM for com.github.dmulloy2.LWC:lwc:jar:master-4.5.1-g2100b5e-18 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/com/massivecraft/massivecore/MassiveCore/2.13.0/MassiveCore-2.13.0.pom
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/massivecraft/massivecore/MassiveCore/2.13.0/MassiveCore-2.13.0.pom
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/massivecraft/massivecore/MassiveCore/2.13.0/MassiveCore-2.13.0.pom
+[INFO] Downloading from worldedit-worldguard-repo: http://maven.sk89q.com/repo/com/massivecraft/massivecore/MassiveCore/2.13.0/MassiveCore-2.13.0.pom
+[INFO] Downloading from simpleclans-preciousstones-repo: http://104.236.246.108:8081/artifactory/remote-repos/com/massivecraft/massivecore/MassiveCore/2.13.0/MassiveCore-2.13.0.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/massivecraft/massivecore/MassiveCore/2.13.0/MassiveCore-2.13.0.pom
+[INFO] Downloading from bintray-tastybento-maven-repo: http://dl.bintray.com/tastybento/maven-repo/com/massivecraft/massivecore/MassiveCore/2.13.0/MassiveCore-2.13.0.pom
+[INFO] Downloading from massivecore-factions-repo: http://repo.dustplanet.de/artifactory/ext-release-local/com/massivecraft/massivecore/MassiveCore/2.13.0/MassiveCore-2.13.0.pom
+[INFO] Downloading from plotsquared-repo: http://ci.athion.net/job/PlotSquared/ws/mvn/com/massivecraft/massivecore/MassiveCore/2.13.0/MassiveCore-2.13.0.pom
+[INFO] Downloading from FactionsUUID-repo: https://ci.ender.zone/job/FactionsUUID/122/maven-repository/repository/com/massivecraft/massivecore/MassiveCore/2.13.0/MassiveCore-2.13.0.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/massivecraft/massivecore/MassiveCore/2.13.0/MassiveCore-2.13.0.pom
+[WARNING] The POM for com.massivecraft.massivecore:MassiveCore:jar:2.13.0 is missing, no dependency information available
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/com/massivecraft/factions/Factions/2.13.0/Factions-2.13.0.pom
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/massivecraft/factions/Factions/2.13.0/Factions-2.13.0.pom
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/massivecraft/factions/Factions/2.13.0/Factions-2.13.0.pom
+[INFO] Downloading from worldedit-worldguard-repo: http://maven.sk89q.com/repo/com/massivecraft/factions/Factions/2.13.0/Factions-2.13.0.pom
+[INFO] Downloading from simpleclans-preciousstones-repo: http://104.236.246.108:8081/artifactory/remote-repos/com/massivecraft/factions/Factions/2.13.0/Factions-2.13.0.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/massivecraft/factions/Factions/2.13.0/Factions-2.13.0.pom
+[INFO] Downloading from bintray-tastybento-maven-repo: http://dl.bintray.com/tastybento/maven-repo/com/massivecraft/factions/Factions/2.13.0/Factions-2.13.0.pom
+[INFO] Downloading from massivecore-factions-repo: http://repo.dustplanet.de/artifactory/ext-release-local/com/massivecraft/factions/Factions/2.13.0/Factions-2.13.0.pom
+[INFO] Downloading from plotsquared-repo: http://ci.athion.net/job/PlotSquared/ws/mvn/com/massivecraft/factions/Factions/2.13.0/Factions-2.13.0.pom
+[INFO] Downloading from FactionsUUID-repo: https://ci.ender.zone/job/FactionsUUID/122/maven-repository/repository/com/massivecraft/factions/Factions/2.13.0/Factions-2.13.0.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/massivecraft/factions/Factions/2.13.0/Factions-2.13.0.pom
+[WARNING] The POM for com.massivecraft.factions:Factions:jar:2.13.0 is missing, no dependency information available
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/mkremins/fanciful/0.4.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/mkremins/fanciful/0.4.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/mkremins/fanciful/0.4.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from worldedit-worldguard-repo: http://maven.sk89q.com/repo/mkremins/fanciful/0.4.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from simpleclans-preciousstones-repo: http://104.236.246.108:8081/artifactory/remote-repos/mkremins/fanciful/0.4.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from jitpack.io: https://jitpack.io/mkremins/fanciful/0.4.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from bintray-tastybento-maven-repo: http://dl.bintray.com/tastybento/maven-repo/mkremins/fanciful/0.4.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from massivecore-factions-repo: http://repo.dustplanet.de/artifactory/ext-release-local/mkremins/fanciful/0.4.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from plotsquared-repo: http://ci.athion.net/job/PlotSquared/ws/mvn/mkremins/fanciful/0.4.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from FactionsUUID-repo: https://ci.ender.zone/job/FactionsUUID/122/maven-repository/repository/mkremins/fanciful/0.4.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from vault-repo: http://nexus.hc.to/content/repositories/pub_releases/mkremins/fanciful/0.4.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from ess-repo: http://ci.ender.zone/plugin/repository/everything/mkremins/fanciful/0.4.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from maven.sk89q.com: http://maven.sk89q.com/repo/mkremins/fanciful/0.4.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from repo.mikeprimm.com: http://repo.mikeprimm.com/mkremins/fanciful/0.4.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from placeholderapi: http://repo.extendedclip.com/content/repositories/placeholderapi/mkremins/fanciful/0.4.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from mvdw-software: http://repo.mvdw-software.be/content/groups/public/mkremins/fanciful/0.4.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloaded from ess-repo: http://ci.ender.zone/plugin/repository/everything/mkremins/fanciful/0.4.0-SNAPSHOT/maven-metadata.xml (609 B at 921 B/s)
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/com/darkblade12/particleeffect/1.8.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/darkblade12/particleeffect/1.8.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/darkblade12/particleeffect/1.8.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from worldedit-worldguard-repo: http://maven.sk89q.com/repo/com/darkblade12/particleeffect/1.8.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from simpleclans-preciousstones-repo: http://104.236.246.108:8081/artifactory/remote-repos/com/darkblade12/particleeffect/1.8.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/darkblade12/particleeffect/1.8.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from bintray-tastybento-maven-repo: http://dl.bintray.com/tastybento/maven-repo/com/darkblade12/particleeffect/1.8.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from massivecore-factions-repo: http://repo.dustplanet.de/artifactory/ext-release-local/com/darkblade12/particleeffect/1.8.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from plotsquared-repo: http://ci.athion.net/job/PlotSquared/ws/mvn/com/darkblade12/particleeffect/1.8.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from FactionsUUID-repo: https://ci.ender.zone/job/FactionsUUID/122/maven-repository/repository/com/darkblade12/particleeffect/1.8.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from vault-repo: http://nexus.hc.to/content/repositories/pub_releases/com/darkblade12/particleeffect/1.8.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from ess-repo: http://ci.ender.zone/plugin/repository/everything/com/darkblade12/particleeffect/1.8.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from maven.sk89q.com: http://maven.sk89q.com/repo/com/darkblade12/particleeffect/1.8.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from repo.mikeprimm.com: http://repo.mikeprimm.com/com/darkblade12/particleeffect/1.8.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from placeholderapi: http://repo.extendedclip.com/content/repositories/placeholderapi/com/darkblade12/particleeffect/1.8.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from mvdw-software: http://repo.mvdw-software.be/content/groups/public/com/darkblade12/particleeffect/1.8.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloaded from ess-repo: http://ci.ender.zone/plugin/repository/everything/com/darkblade12/particleeffect/1.8.0-SNAPSHOT/maven-metadata.xml (622 B at 961 B/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/bukkit/bukkit/maven-metadata.xml
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/org/bukkit/bukkit/maven-metadata.xml
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/bukkit/bukkit/maven-metadata.xml
+[INFO] Downloading from worldedit-worldguard-repo: http://maven.sk89q.com/repo/org/bukkit/bukkit/maven-metadata.xml
+[INFO] Downloading from simpleclans-preciousstones-repo: http://104.236.246.108:8081/artifactory/remote-repos/org/bukkit/bukkit/maven-metadata.xml
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/bukkit/bukkit/maven-metadata.xml
+[INFO] Downloaded from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/bukkit/bukkit/maven-metadata.xml (1.4 kB at 3.1 kB/s)
+[INFO] Downloading from bintray-tastybento-maven-repo: http://dl.bintray.com/tastybento/maven-repo/org/bukkit/bukkit/maven-metadata.xml
+[INFO] Downloading from massivecore-factions-repo: http://repo.dustplanet.de/artifactory/ext-release-local/org/bukkit/bukkit/maven-metadata.xml
+[INFO] Downloading from plotsquared-repo: http://ci.athion.net/job/PlotSquared/ws/mvn/org/bukkit/bukkit/maven-metadata.xml
+[INFO] Downloading from FactionsUUID-repo: https://ci.ender.zone/job/FactionsUUID/122/maven-repository/repository/org/bukkit/bukkit/maven-metadata.xml
+[INFO] Downloaded from simpleclans-preciousstones-repo: http://104.236.246.108:8081/artifactory/remote-repos/org/bukkit/bukkit/maven-metadata.xml (1.4 kB at 3.8 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/bukkit/bukkit/maven-metadata.xml
+[INFO] Downloading from maven-codearts-jp: http://maven.codearts.jp/org/bukkit/bukkit/maven-metadata.xml
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/bukkit/bukkit/maven-metadata.xml (1.4 kB at 1.5 kB/s)
+[WARNING] Could not transfer metadata org.bukkit:bukkit/maven-metadata.xml from/to maven-codearts-jp (http://maven.codearts.jp/): maven.codearts.jp: unknown error
+[WARNING] Failure to transfer org.bukkit:bukkit/maven-metadata.xml from http://maven.codearts.jp/ was cached in the local repository, resolution will not be reattempted until the update interval of maven-codearts-jp has elapsed or updates are forced. Original error: Could not transfer metadata org.bukkit:bukkit/maven-metadata.xml from/to maven-codearts-jp (http://maven.codearts.jp/): maven.codearts.jp: unknown error
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/sk89q/worldedit/worldedit-core/6.1.3-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/sk89q/worldedit/worldedit-core/6.1.3-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from worldedit-worldguard-repo: http://maven.sk89q.com/repo/com/sk89q/worldedit/worldedit-core/6.1.3-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/com/sk89q/worldedit/worldedit-core/6.1.3-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from simpleclans-preciousstones-repo: http://104.236.246.108:8081/artifactory/remote-repos/com/sk89q/worldedit/worldedit-core/6.1.3-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/sk89q/worldedit/worldedit-core/6.1.3-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from bintray-tastybento-maven-repo: http://dl.bintray.com/tastybento/maven-repo/com/sk89q/worldedit/worldedit-core/6.1.3-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from massivecore-factions-repo: http://repo.dustplanet.de/artifactory/ext-release-local/com/sk89q/worldedit/worldedit-core/6.1.3-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from plotsquared-repo: http://ci.athion.net/job/PlotSquared/ws/mvn/com/sk89q/worldedit/worldedit-core/6.1.3-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from FactionsUUID-repo: https://ci.ender.zone/job/FactionsUUID/122/maven-repository/repository/com/sk89q/worldedit/worldedit-core/6.1.3-SNAPSHOT/maven-metadata.xml
+[INFO] Downloaded from worldedit-worldguard-repo: http://maven.sk89q.com/repo/com/sk89q/worldedit/worldedit-core/6.1.3-SNAPSHOT/maven-metadata.xml (1.4 kB at 3.3 kB/s)
+[WARNING] The POM for br.net.fabiozumbi12.RedProtect:RedProtect-Spigot:jar:7.3.0 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/bukkit/bukkit/1.13.1-R0.1-SNAPSHOT/bukkit-1.13.1-R0.1-20181006.231231-93.jar
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/bukkit/bukkit/1.13.1-R0.1-SNAPSHOT/bukkit-1.13.1-R0.1-20181006.231231-93.jar (1.0 MB at 565 kB/s)
+[INFO] Downloading from worldedit-worldguard-repo: http://maven.sk89q.com/repo/com/sk89q/worldedit/worldedit-bukkit/7.0.0-SNAPSHOT/worldedit-bukkit-7.0.0-20181007.082221-2.jar
+[INFO] Downloading from worldedit-worldguard-repo: http://maven.sk89q.com/repo/com/sk89q/worldedit/worldedit-core/7.0.0-SNAPSHOT/worldedit-core-7.0.0-20181007.082221-2.jar
+[INFO] Downloading from worldedit-worldguard-repo: http://maven.sk89q.com/repo/com/sk89q/worldguard/worldguard-legacy/7.0.0-SNAPSHOT/worldguard-legacy-7.0.0-20181007.131625-3.jar
+[INFO] Downloading from worldedit-worldguard-repo: http://maven.sk89q.com/repo/com/sk89q/worldguard/worldguard-core/7.0.0-SNAPSHOT/worldguard-core-7.0.0-20181007.131625-3.jar
+[INFO] Downloading from worldedit-worldguard-repo: http://maven.sk89q.com/repo/com/sk89q/intake/intake/4.2-SNAPSHOT/intake-4.2-20150927.052853-4.jar
+[INFO] Downloaded from worldedit-worldguard-repo: http://maven.sk89q.com/repo/com/sk89q/worldedit/worldedit-bukkit/7.0.0-SNAPSHOT/worldedit-bukkit-7.0.0-20181007.082221-2.jar (114 kB at 105 kB/s)
+[INFO] Downloaded from worldedit-worldguard-repo: http://maven.sk89q.com/repo/com/sk89q/worldguard/worldguard-legacy/7.0.0-SNAPSHOT/worldguard-legacy-7.0.0-20181007.131625-3.jar (304 kB at 178 kB/s)
+[INFO] Downloaded from worldedit-worldguard-repo: http://maven.sk89q.com/repo/com/sk89q/intake/intake/4.2-SNAPSHOT/intake-4.2-20150927.052853-4.jar (104 kB at 49 kB/s)
+[INFO] Downloaded from worldedit-worldguard-repo: http://maven.sk89q.com/repo/com/sk89q/worldguard/worldguard-core/7.0.0-SNAPSHOT/worldguard-core-7.0.0-20181007.131625-3.jar (391 kB at 154 kB/s)
+[INFO] Downloaded from worldedit-worldguard-repo: http://maven.sk89q.com/repo/com/sk89q/worldedit/worldedit-core/7.0.0-SNAPSHOT/worldedit-core-7.0.0-20181007.082221-2.jar (1.1 MB at 367 kB/s)
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/org/bstats/bstats-bukkit/1.2/bstats-bukkit-1.2.jar
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/com/sk89q/squirrelid/0.1.0/squirrelid-0.1.0.jar
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/org/flywaydb/flyway-core/3.0/flyway-core-3.0.jar
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/org/khelekore/prtree/1.5.0/prtree-1.5.0.jar
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/bstats/bstats-bukkit/1.2/bstats-bukkit-1.2.jar
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/sk89q/squirrelid/0.1.0/squirrelid-0.1.0.jar
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/flywaydb/flyway-core/3.0/flyway-core-3.0.jar
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/khelekore/prtree/1.5.0/prtree-1.5.0.jar
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/flywaydb/flyway-core/3.0/flyway-core-3.0.jar (253 kB at 293 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/bstats/bstats-bukkit/1.2/bstats-bukkit-1.2.jar
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/khelekore/prtree/1.5.0/prtree-1.5.0.jar
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/sk89q/squirrelid/0.1.0/squirrelid-0.1.0.jar
+[INFO] Downloading from worldedit-worldguard-repo: http://maven.sk89q.com/repo/org/bstats/bstats-bukkit/1.2/bstats-bukkit-1.2.jar
+[INFO] Downloading from worldedit-worldguard-repo: http://maven.sk89q.com/repo/com/sk89q/squirrelid/0.1.0/squirrelid-0.1.0.jar
+[INFO] Downloading from worldedit-worldguard-repo: http://maven.sk89q.com/repo/org/khelekore/prtree/1.5.0/prtree-1.5.0.jar
+[INFO] Downloaded from worldedit-worldguard-repo: http://maven.sk89q.com/repo/com/sk89q/squirrelid/0.1.0/squirrelid-0.1.0.jar (37 kB at 142 kB/s)
+[INFO] Downloaded from worldedit-worldguard-repo: http://maven.sk89q.com/repo/org/khelekore/prtree/1.5.0/prtree-1.5.0.jar (39 kB at 92 kB/s)
+[INFO] Downloading from simpleclans-preciousstones-repo: http://104.236.246.108:8081/artifactory/remote-repos/org/bstats/bstats-bukkit/1.2/bstats-bukkit-1.2.jar
+[INFO] Downloaded from simpleclans-preciousstones-repo: http://104.236.246.108:8081/artifactory/remote-repos/org/bstats/bstats-bukkit/1.2/bstats-bukkit-1.2.jar (20 kB at 41 kB/s)
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ CS-CoreLib ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ CS-CoreLib ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 104 source files to /home/pi/builds/TheBusyBiscuit/CS-CoreLib/master/files/target/classes
+[WARNING] /home/pi/builds/TheBusyBiscuit/CS-CoreLib/master/files/src/me/mrCookieSlime/CSCoreLibPlugin/general/Inventory/Item/CustomItemSerializer.java:[75,104] unmappable character for encoding UTF-8
+[WARNING] /home/pi/builds/TheBusyBiscuit/CS-CoreLib/master/files/src/me/mrCookieSlime/CSCoreLibPlugin/general/Inventory/Item/CustomItemSerializer.java:[84,108] unmappable character for encoding UTF-8
+[WARNING] /home/pi/builds/TheBusyBiscuit/CS-CoreLib/master/files/src/me/mrCookieSlime/CSCoreLibPlugin/general/Inventory/MenuHelper.java:[25,67] unmappable character for encoding UTF-8
+[WARNING] /home/pi/builds/TheBusyBiscuit/CS-CoreLib/master/files/src/me/mrCookieSlime/CSCoreLibPlugin/general/Inventory/Item/CustomItem.java: Some input files use or override a deprecated API.
+[WARNING] /home/pi/builds/TheBusyBiscuit/CS-CoreLib/master/files/src/me/mrCookieSlime/CSCoreLibPlugin/general/Inventory/Item/CustomItem.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ CS-CoreLib ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/pi/builds/TheBusyBiscuit/CS-CoreLib/master/files/tests/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ CS-CoreLib ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ CS-CoreLib ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ CS-CoreLib ---
+[INFO] Building jar: /home/pi/builds/TheBusyBiscuit/CS-CoreLib/master/files/target/CS-CoreLib-29.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 01:26 min
+[INFO] Finished at: 2018-10-08T09:38:06+02:00
+[INFO] Final Memory: 20M/67M
+[INFO] ------------------------------------------------------------------------

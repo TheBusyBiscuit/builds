@@ -447,6 +447,22 @@
         "candidate": "DEVELOPMENT",
         "status": "SUCCESS"
     },
-    "latest": 28,
-    "last_successful": 28
+    "29": {
+        "id": 29,
+        "sha": "84518e3caf85e273b22f711bdcbb9a165bc2e15d",
+        "date": "08 Oct 2018 (07:35:57)",
+        "timestamp": 20181008073557,
+        "message": "Added WorldGuard Support for 1.13",
+        "author": "TheBusyBiscuit",
+        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
+        "license": {
+            "name": "GNU General Public License v3.0",
+            "id": "GPL-3.0",
+            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/CS-CoreLib/master/LICENSE"
+        },
+        "candidate": "DEVELOPMENT",
+        "status": "SUCCESS"
+    },
+    "latest": 29,
+    "last_successful": 29
 }
