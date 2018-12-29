@@ -994,6 +994,22 @@
         "candidate": "DEVELOPMENT",
         "status": "FAILURE"
     },
-    "latest": 62,
+    "63": {
+        "id": 63,
+        "sha": "edb8566b4fa12f7aba6a247351a825449744d487",
+        "date": "29 Dec 2018 (20:10:01)",
+        "timestamp": 20181229201001,
+        "message": "Update pom.xml",
+        "author": "TheBusyBiscuit",
+        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
+        "license": {
+            "name": "GNU General Public License v3.0",
+            "id": "GPL-3.0",
+            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/Slimefun4/master/LICENSE"
+        },
+        "candidate": "DEVELOPMENT",
+        "status": "FAILURE"
+    },
+    "latest": 63,
     "last_successful": 60
 }
