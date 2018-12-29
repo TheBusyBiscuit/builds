@@ -1010,6 +1010,22 @@
         "candidate": "DEVELOPMENT",
         "status": "FAILURE"
     },
-    "latest": 63,
+    "64": {
+        "id": 64,
+        "sha": "5f246ed523ea13a78c300fb5526a63e69c630e84",
+        "date": "29 Dec 2018 (23:34:27)",
+        "timestamp": 20181229233427,
+        "message": "Fixed WorldEdit support",
+        "author": "TheBusyBiscuit",
+        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
+        "license": {
+            "name": "GNU General Public License v3.0",
+            "id": "GPL-3.0",
+            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/Slimefun4/master/LICENSE"
+        },
+        "candidate": "DEVELOPMENT",
+        "status": "FAILURE"
+    },
+    "latest": 64,
     "last_successful": 60
 }
