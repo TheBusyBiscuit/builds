@@ -479,6 +479,22 @@
         "candidate": "DEVELOPMENT",
         "status": "SUCCESS"
     },
-    "latest": 30,
-    "last_successful": 30
+    "31": {
+        "id": 31,
+        "sha": "15f5b0e4a1f47509148a00b6d71125d32662ae2e",
+        "date": "29 Dec 2018 (20:02:02)",
+        "timestamp": 20181229200202,
+        "message": "Merge pull request #64 from PrzemoVi/master\n\nFixed electric furnace, charging bench, automating crafting table",
+        "author": "TheBusyBiscuit",
+        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
+        "license": {
+            "name": "GNU General Public License v3.0",
+            "id": "GPL-3.0",
+            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/CS-CoreLib/master/LICENSE"
+        },
+        "candidate": "DEVELOPMENT",
+        "status": "SUCCESS"
+    },
+    "latest": 31,
+    "last_successful": 31
 }
