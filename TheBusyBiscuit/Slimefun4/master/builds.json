@@ -946,6 +946,22 @@
         "candidate": "DEVELOPMENT",
         "status": "SUCCESS"
     },
-    "latest": 59,
-    "last_successful": 59
+    "60": {
+        "id": 60,
+        "sha": "ea0aae94fba50baa666519e9190c89d0355242b0",
+        "date": "29 Dec 2018 (20:00:15)",
+        "timestamp": 20181229200015,
+        "message": "Merge pull request #810 from Sniddunc/master\n\nFixed Sawmill Bug + Furnace Bug",
+        "author": "TheBusyBiscuit",
+        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
+        "license": {
+            "name": "GNU General Public License v3.0",
+            "id": "GPL-3.0",
+            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/Slimefun4/master/LICENSE"
+        },
+        "candidate": "DEVELOPMENT",
+        "status": "SUCCESS"
+    },
+    "latest": 60,
+    "last_successful": 60
 }
