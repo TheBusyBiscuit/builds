@@ -962,6 +962,22 @@
         "candidate": "DEVELOPMENT",
         "status": "SUCCESS"
     },
-    "latest": 60,
+    "61": {
+        "id": 61,
+        "sha": "c74b14140eb2cce59b0fa72b379ce74a51fdc776",
+        "date": "29 Dec 2018 (20:02:17)",
+        "timestamp": 20181229200217,
+        "message": "Merge pull request #814 from PrzemoVi/master\n\nWorldEdit 7.0 support, Ancient Altar fix.",
+        "author": "TheBusyBiscuit",
+        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
+        "license": {
+            "name": "GNU General Public License v3.0",
+            "id": "GPL-3.0",
+            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/Slimefun4/master/LICENSE"
+        },
+        "candidate": "DEVELOPMENT",
+        "status": "FAILURE"
+    },
+    "latest": 61,
     "last_successful": 60
 }
