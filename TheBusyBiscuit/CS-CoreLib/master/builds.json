@@ -463,6 +463,22 @@
         "candidate": "DEVELOPMENT",
         "status": "SUCCESS"
     },
-    "latest": 29,
-    "last_successful": 29
+    "30": {
+        "id": 30,
+        "sha": "3dc2ee8819f08ad2d3256e145710c30eaaea8e00",
+        "date": "24 Nov 2018 (08:30:11)",
+        "timestamp": 20181124083011,
+        "message": "Merge pull request #63 from Sniddunc/master\n\nUpdated MaterialHelper.java to support 1.13",
+        "author": "TheBusyBiscuit",
+        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
+        "license": {
+            "name": "GNU General Public License v3.0",
+            "id": "GPL-3.0",
+            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/CS-CoreLib/master/LICENSE"
+        },
+        "candidate": "DEVELOPMENT",
+        "status": "SUCCESS"
+    },
+    "latest": 30,
+    "last_successful": 30
 }
