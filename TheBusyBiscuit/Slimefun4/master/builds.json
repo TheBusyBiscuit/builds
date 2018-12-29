@@ -930,6 +930,22 @@
         "candidate": "DEVELOPMENT",
         "status": "SUCCESS"
     },
-    "latest": 58,
-    "last_successful": 58
+    "59": {
+        "id": 59,
+        "sha": "4df60e450250d1b4ca11b5da5d7f44ace787af2e",
+        "date": "20 Nov 2018 (16:05:35)",
+        "timestamp": 20181120160535,
+        "message": "Merge pull request #804 from VoidAngel/patch-1\n\nFixes lumber axe dupe #797",
+        "author": "TheBusyBiscuit",
+        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
+        "license": {
+            "name": "GNU General Public License v3.0",
+            "id": "GPL-3.0",
+            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/Slimefun4/master/LICENSE"
+        },
+        "candidate": "DEVELOPMENT",
+        "status": "SUCCESS"
+    },
+    "latest": 59,
+    "last_successful": 59
 }
