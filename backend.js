@@ -203,7 +203,7 @@ function getTags(job, commit) {
             response.on('end', function() {
                 var json = JSON.parse(body);
 
-                if (!json.documentation_url) {
+                if (!json.documentation_url && json.length > 0) {
                     global.status.version[job.author + "/" + job.repo + "/" + job.branch] = json[0].name;
                     for (var i in json) {
                         if (json[i].commit.sha === commit.sha) {
