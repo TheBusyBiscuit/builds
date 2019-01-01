@@ -495,6 +495,22 @@
         "candidate": "DEVELOPMENT",
         "status": "SUCCESS"
     },
-    "latest": 31,
-    "last_successful": 31
+    "32": {
+        "id": 32,
+        "sha": "1c53a1691f9083889739c4cfe3cbebc24e2a5e04",
+        "date": "01 Jan 2019 (22:16:54)",
+        "timestamp": 20190101221654,
+        "message": "Added Functional Interfaces",
+        "author": "TheBusyBiscuit",
+        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
+        "license": {
+            "name": "GNU General Public License v3.0",
+            "id": "GPL-3.0",
+            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/CS-CoreLib/master/LICENSE"
+        },
+        "candidate": "DEVELOPMENT",
+        "status": "SUCCESS"
+    },
+    "latest": 32,
+    "last_successful": 32
 }
