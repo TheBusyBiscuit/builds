@@ -1,0 +1,20 @@
+{
+    "1": {
+        "id": 1,
+        "sha": "15fdd3d2f1648446c5841c62e543f4074d5c4d87",
+        "date": "01 Jan 2019 (22:00:25)",
+        "timestamp": 20190101220025,
+        "message": "Added license",
+        "author": "TheBusyBiscuit",
+        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
+        "license": {
+            "name": "GNU General Public License v3.0",
+            "id": "GPL-3.0",
+            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/luckyblocks-sf/master/LICENSE"
+        },
+        "candidate": "DEVELOPMENT",
+        "status": "SUCCESS"
+    },
+    "latest": 1,
+    "last_successful": 1
+}
