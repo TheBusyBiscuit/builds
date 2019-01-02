@@ -511,6 +511,22 @@
         "candidate": "DEVELOPMENT",
         "status": "SUCCESS"
     },
-    "latest": 32,
-    "last_successful": 32
+    "33": {
+        "id": 33,
+        "sha": "e509a156738e6e6a8143f256ef31f88bbfa7828c",
+        "date": "02 Jan 2019 (13:16:08)",
+        "timestamp": 20190102131608,
+        "message": "Omitted dev-builds from Updater",
+        "author": "TheBusyBiscuit",
+        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
+        "license": {
+            "name": "GNU General Public License v3.0",
+            "id": "GPL-3.0",
+            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/CS-CoreLib/master/LICENSE"
+        },
+        "candidate": "DEVELOPMENT",
+        "status": "SUCCESS"
+    },
+    "latest": 33,
+    "last_successful": 33
 }
