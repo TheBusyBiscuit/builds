@@ -15,6 +15,22 @@
         "candidate": "DEVELOPMENT",
         "status": "SUCCESS"
     },
-    "latest": 1,
-    "last_successful": 1
+    "2": {
+        "id": 2,
+        "sha": "f76ab6d136d775c667873e6d95daac337529ae73",
+        "date": "04 Jan 2019 (14:46:29)",
+        "timestamp": 20190104144629,
+        "message": "Update README.md",
+        "author": "TheBusyBiscuit",
+        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
+        "license": {
+            "name": "GNU General Public License v3.0",
+            "id": "GPL-3.0",
+            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/luckyblocks-sf/master/LICENSE"
+        },
+        "candidate": "DEVELOPMENT",
+        "status": "SUCCESS"
+    },
+    "latest": 2,
+    "last_successful": 2
 }
