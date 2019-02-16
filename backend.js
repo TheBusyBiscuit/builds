@@ -34,7 +34,7 @@ module.exports = function() {
         if (FileSystem.existsSync("ACCESS_TOKEN.txt")) {
             FileSystem.readFile('ACCESS_TOKEN.txt', 'UTF-8', function(err, data) {
                 if (!err) {
-                    access_token = data;
+                    access_token = data.replace(/[\r\n]+/g, "");
                 }
             });
         }
