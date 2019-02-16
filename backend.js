@@ -292,7 +292,9 @@ function compareBuilds(job, builds, commit) {
 
         builds[data.id] = data;
 
-        FileSystem.writeFile(job.author + "/" + job.repo + "/" + job.branch + "/builds.json", JSON.stringify(builds, null, 4), 'UTF-8');
+        FileSystem.writeFile(job.author + "/" + job.repo + "/" + job.branch + "/builds.json", JSON.stringify(builds, null, 4), 'UTF-8', function(err) {
+            if (err) console.log(err);
+        });
 
         job.id = data.id;
         clone(job, commit.sha, builds);
@@ -544,7 +546,9 @@ function compile(job, builds) {
         }
         else {
             builds[job.id].status = "FAILURE";
-            FileSystem.writeFile(job.author + "/" + job.repo + "/" + job.branch + "/builds.json", JSON.stringify(builds, null, 4), 'UTF-8');
+            FileSystem.writeFile(job.author + "/" + job.repo + "/" + job.branch + "/builds.json", JSON.stringify(builds, null, 4), 'UTF-8', function(err) {
+                if (err) console.log(err);
+            });
 
             clearFolder(job.author + "/" + job.repo + "/" + job.branch + "/files", function(err) {
                 if (!err) {
@@ -567,7 +571,9 @@ function generateHTML(job) {
             data = data.replace(/\${repository}/g, job.repo);
             data = data.replace(/\${branch}/g, job.branch);
 
-            FileSystem.writeFile(job.author + "/" + job.repo + "/" + job.branch + "/index.html", data, 'UTF-8');
+            FileSystem.writeFile(job.author + "/" + job.repo + "/" + job.branch + "/index.html", data, 'UTF-8', function(err) {
+                if (err) console.log(err);
+            });
         }
         else {
             console.log(err);
