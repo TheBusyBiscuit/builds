@@ -491,7 +491,13 @@ function compile(job, builds) {
     global.status.task[job.author + "/" + job.repo + "/" + job.branch] = "Compiling";
 
     console.log("Compiling Repository \"" + job.author + "/" + job.repo + "\"...");
-    var maven = child_process.spawn("mvn", ["package", "-B", "-Djavax.net.ssl.trustStore=/home/pi/builds/keystore"], {cwd: __dirname + "/" + job.author + "/" + job.repo + "/" + job.branch + "/files", shell: true});
+    var options = ["package", "-B"];
+
+    if (FileSystem.existsSync("keystore")) {
+        options.push("-Djavax.net.ssl.trustStore=/home/pi/Desktop/Build Server/keystore");
+    }
+
+    var maven = child_process.spawn("mvn", ["package", "-B"], {cwd: __dirname + "/" + job.author + "/" + job.repo + "/" + job.branch + "/files", shell: true});
 
     maven.stderr.on('data', function(data) {
         console.log(" " + data);
