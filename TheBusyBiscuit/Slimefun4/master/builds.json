@@ -1042,6 +1042,22 @@
         "candidate": "DEVELOPMENT",
         "status": "SUCCESS"
     },
-    "latest": 65,
+    "66": {
+        "id": 66,
+        "sha": "b99a75f7a7cd064d3fec3ef04558ba267cab0f8b",
+        "date": "20 Feb 2019 (11:20:44)",
+        "timestamp": 20190220112044,
+        "message": "Removed Apache Lang",
+        "author": "TheBusyBiscuit",
+        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
+        "license": {
+            "name": "GNU General Public License v3.0",
+            "id": "GPL-3.0",
+            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/Slimefun4/master/LICENSE"
+        },
+        "candidate": "DEVELOPMENT",
+        "status": "FAILURE"
+    },
+    "latest": 66,
     "last_successful": 65
 }
