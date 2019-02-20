@@ -1058,6 +1058,22 @@
         "candidate": "DEVELOPMENT",
         "status": "FAILURE"
     },
-    "latest": 66,
-    "last_successful": 65
+    "67": {
+        "id": 67,
+        "sha": "02613cd57778a6b3c3f1cae2240905e649f5fbbe",
+        "date": "20 Feb 2019 (11:46:03)",
+        "timestamp": 20190220114603,
+        "message": "Merge pull request #837 from TSEngineer/master\n\nFix org.bukkit.Color is not imported",
+        "author": "TheBusyBiscuit",
+        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
+        "license": {
+            "name": "GNU General Public License v3.0",
+            "id": "GPL-3.0",
+            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/Slimefun4/master/LICENSE"
+        },
+        "candidate": "DEVELOPMENT",
+        "status": "SUCCESS"
+    },
+    "latest": 67,
+    "last_successful": 67
 }
