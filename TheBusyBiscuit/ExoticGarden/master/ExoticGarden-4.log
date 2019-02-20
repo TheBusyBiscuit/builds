@@ -1,0 +1,667 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -------------------< me.mrCookieSlime:ExoticGarden >--------------------
+[INFO] Building ExoticGarden DEV - 4 (git 0dac294d)
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/bukkit/bukkit/1.12-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/bukkit/bukkit/1.12-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/bukkit/bukkit/1.12-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloaded from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/bukkit/bukkit/1.12-R0.1-SNAPSHOT/maven-metadata.xml (1.4 kB at 809 B/s)
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/bukkit/bukkit/1.12-R0.1-SNAPSHOT/maven-metadata.xml (1.4 kB at 487 B/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/bukkit/bukkit/1.12-R0.1-SNAPSHOT/bukkit-1.12-R0.1-20170803.111311-74.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/bukkit/bukkit/1.12-R0.1-SNAPSHOT/bukkit-1.12-R0.1-20170803.111311-74.pom (5.9 kB at 12 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/yaml/snakeyaml/1.18/snakeyaml-1.18.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/yaml/snakeyaml/1.18/snakeyaml-1.18.pom (31 kB at 83 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/github/TheBusyBiscuit/CS-CoreLib/v1.5.18/CS-CoreLib-v1.5.18.pom
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/github/TheBusyBiscuit/CS-CoreLib/v1.5.18/CS-CoreLib-v1.5.18.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/github/TheBusyBiscuit/CS-CoreLib/v1.5.18/CS-CoreLib-v1.5.18.pom
+[INFO] Downloaded from jitpack.io: https://jitpack.io/com/github/TheBusyBiscuit/CS-CoreLib/v1.5.18/CS-CoreLib-v1.5.18.pom (6.1 kB at 6.6 kB/s)
+[WARNING] The POM for com.wasteofplastic:askyblock:jar:3.0.8.2 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+[WARNING] The POM for com.github.dmulloy2.LWC:lwc:jar:master-4.5.1-g2100b5e-18 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+[WARNING] The POM for com.massivecraft.massivecore:MassiveCore:jar:2.13.0 is missing, no dependency information available
+[WARNING] The POM for com.massivecraft.factions:Factions:jar:2.13.0 is missing, no dependency information available
+[INFO] Downloading from maven-codearts-jp: http://maven.codearts.jp/org/bukkit/bukkit/maven-metadata.xml
+[WARNING] Could not transfer metadata org.bukkit:bukkit/maven-metadata.xml from/to maven-codearts-jp (http://maven.codearts.jp/): maven.codearts.jp: unknown error
+[WARNING] Failure to transfer org.bukkit:bukkit/maven-metadata.xml from http://maven.codearts.jp/ was cached in the local repository, resolution will not be reattempted until the update interval of maven-codearts-jp has elapsed or updates are forced. Original error: Could not transfer metadata org.bukkit:bukkit/maven-metadata.xml from/to maven-codearts-jp (http://maven.codearts.jp/): maven.codearts.jp: unknown error
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/github/TheBusyBiscuit/Slimefun4/v4.1.15/Slimefun4-v4.1.15.pom
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/github/TheBusyBiscuit/Slimefun4/v4.1.15/Slimefun4-v4.1.15.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/github/TheBusyBiscuit/Slimefun4/v4.1.15/Slimefun4-v4.1.15.pom
+[INFO] Downloaded from jitpack.io: https://jitpack.io/com/github/TheBusyBiscuit/Slimefun4/v4.1.15/Slimefun4-v4.1.15.pom (4.2 kB at 4.1 kB/s)
+[WARNING] The POM for com.github.TheBusyBiscuit:Slimefun4:jar:v4.1.15 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/bukkit/bukkit/1.12-R0.1-SNAPSHOT/bukkit-1.12-R0.1-20170803.111311-74.jar
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/github/TheBusyBiscuit/CS-CoreLib/v1.5.18/CS-CoreLib-v1.5.18.jar
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/yaml/snakeyaml/1.18/snakeyaml-1.18.jar
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/github/TheBusyBiscuit/Slimefun4/v4.1.15/Slimefun4-v4.1.15.jar
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/yaml/snakeyaml/1.18/snakeyaml-1.18.jar (284 kB at 142 kB/s)
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/bukkit/bukkit/1.12-R0.1-SNAPSHOT/bukkit-1.12-R0.1-20170803.111311-74.jar (849 kB at 321 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/github/TheBusyBiscuit/CS-CoreLib/v1.5.18/CS-CoreLib-v1.5.18.jar
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/github/TheBusyBiscuit/Slimefun4/v4.1.15/Slimefun4-v4.1.15.jar
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/github/TheBusyBiscuit/CS-CoreLib/v1.5.18/CS-CoreLib-v1.5.18.jar
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/sk89q/dummypermscompat/1.8/dummypermscompat-1.8.jar
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/github/TheBusyBiscuit/Slimefun4/v4.1.15/Slimefun4-v4.1.15.jar
+[INFO] Downloaded from jitpack.io: https://jitpack.io/com/github/TheBusyBiscuit/CS-CoreLib/v1.5.18/CS-CoreLib-v1.5.18.jar (210 kB at 172 kB/s)
+[INFO] Downloaded from jitpack.io: https://jitpack.io/com/github/TheBusyBiscuit/Slimefun4/v4.1.15/Slimefun4-v4.1.15.jar (1.1 MB at 329 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/sk89q/dummypermscompat/1.8/dummypermscompat-1.8.jar
+[INFO] Downloading from worldedit-worldguard-repo: http://maven.sk89q.com/repo/com/sk89q/worldedit/worldedit-bukkit/6.1.4-SNAPSHOT/worldedit-bukkit-6.1.4-20160806.113546-4.jar
+[INFO] Downloading from worldedit-worldguard-repo: http://maven.sk89q.com/repo/com/sk89q/worldedit/worldedit-core/6.1.4-SNAPSHOT/worldedit-core-6.1.4-20160806.113546-4.jar
+[INFO] Downloaded from worldedit-worldguard-repo: http://maven.sk89q.com/repo/com/sk89q/worldedit/worldedit-bukkit/6.1.4-SNAPSHOT/worldedit-bukkit-6.1.4-20160806.113546-4.jar (178 kB at 131 kB/s)
+[INFO] Downloaded from worldedit-worldguard-repo: http://maven.sk89q.com/repo/com/sk89q/worldedit/worldedit-core/6.1.4-SNAPSHOT/worldedit-core-6.1.4-20160806.113546-4.jar (1.1 MB at 416 kB/s)
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/com/sk89q/dummypermscompat/1.8/dummypermscompat-1.8.jar
+[INFO] Downloading from worldedit-worldguard-repo: http://maven.sk89q.com/repo/com/sk89q/dummypermscompat/1.8/dummypermscompat-1.8.jar
+[INFO] Downloaded from worldedit-worldguard-repo: http://maven.sk89q.com/repo/com/sk89q/dummypermscompat/1.8/dummypermscompat-1.8.jar (0 B at 0 B/s)
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ ExoticGarden ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 12 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ ExoticGarden ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 28 source files to /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/Schematic/Schematic.java:[130,121] cannot find symbol
+  symbol:   variable OAK_LEAVES
+  location: class org.bukkit.Material
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/Schematic/Schematic.java:[130,189] cannot find symbol
+  symbol:   variable BIRCH_LEAVES
+  location: class org.bukkit.Material
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/Schematic/Schematic.java:[133,126] cannot find symbol
+  symbol:   variable PLAYER_HEAD
+  location: class org.bukkit.Material
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/Schematic/Schematic.java:[158,68] cannot find symbol
+  symbol:   variable OAK_SAPLING
+  location: class org.bukkit.Material
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/Schematic/Schematic.java:[159,68] cannot find symbol
+  symbol:   variable SPRUCE_SAPLING
+  location: class org.bukkit.Material
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/Schematic/Schematic.java:[160,68] cannot find symbol
+  symbol:   variable BIRCH_SAPLING
+  location: class org.bukkit.Material
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/Schematic/Schematic.java:[161,68] cannot find symbol
+  symbol:   variable JUNGLE_SAPLING
+  location: class org.bukkit.Material
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/Schematic/Schematic.java:[162,68] cannot find symbol
+  symbol:   variable ACACIA_SAPLING
+  location: class org.bukkit.Material
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/Schematic/Schematic.java:[163,68] cannot find symbol
+  symbol:   variable DARK_OAK_SAPLING
+  location: class org.bukkit.Material
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/Schematic/Schematic.java:[166,123] cannot find symbol
+  symbol:   variable OAK_LOG
+  location: class org.bukkit.Material
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/Schematic/Schematic.java:[167,123] cannot find symbol
+  symbol:   variable SPRUCE_LOG
+  location: class org.bukkit.Material
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/Schematic/Schematic.java:[168,124] cannot find symbol
+  symbol:   variable BIRCH_LOG
+  location: class org.bukkit.Material
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/Schematic/Schematic.java:[169,124] cannot find symbol
+  symbol:   variable JUNGLE_LOG
+  location: class org.bukkit.Material
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/Schematic/Schematic.java:[172,123] cannot find symbol
+  symbol:   variable OAK_LEAVES
+  location: class org.bukkit.Material
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/Schematic/Schematic.java:[173,123] cannot find symbol
+  symbol:   variable SPRUCE_LEAVES
+  location: class org.bukkit.Material
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/Schematic/Schematic.java:[174,124] cannot find symbol
+  symbol:   variable BIRCH_LEAVES
+  location: class org.bukkit.Material
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/Schematic/Schematic.java:[175,124] cannot find symbol
+  symbol:   variable JUNGLE_LEAVES
+  location: class org.bukkit.Material
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/Schematic/Schematic.java:[176,48] cannot find symbol
+  symbol:   variable OAK_LEAVES
+  location: class org.bukkit.Material
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/Schematic/Schematic.java:[178,123] cannot find symbol
+  symbol:   variable ACACIA_LEAVES
+  location: class org.bukkit.Material
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/Schematic/Schematic.java:[179,123] cannot find symbol
+  symbol:   variable DARK_OAK_LEAVES
+  location: class org.bukkit.Material
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/Schematic/Schematic.java:[182,123] cannot find symbol
+  symbol:   variable ACACIA_LOG
+  location: class org.bukkit.Material
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/Schematic/Schematic.java:[183,123] cannot find symbol
+  symbol:   variable DARK_OAK_LOG
+  location: class org.bukkit.Material
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/Schematic/Schematic.java:[186,48] cannot find symbol
+  symbol:   variable PLAYER_HEAD
+  location: class org.bukkit.Material
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/PlantsListener.java:[62,100] cannot find symbol
+  symbol:   variable OAK_LEAVES
+  location: class org.bukkit.Material
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/PlantsListener.java:[72,70] an enum switch case label must be the unqualified name of an enumeration constant
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/PlantsListener.java:[73,70] an enum switch case label must be the unqualified name of an enumeration constant
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/PlantsListener.java:[74,70] an enum switch case label must be the unqualified name of an enumeration constant
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/PlantsListener.java:[82,100] cannot find symbol
+  symbol:   variable OAK_LEAVES
+  location: class org.bukkit.Material
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/PlantsListener.java:[84,126] cannot find symbol
+  symbol:   variable PLAYER_HEAD
+  location: class org.bukkit.Material
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/PlantsListener.java:[98,100] cannot find symbol
+  symbol:   variable PLAYER_HEAD
+  location: class org.bukkit.Material
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/PlantsListener.java:[113,109] cannot find symbol
+  symbol:   variable OAK_LEAVES
+  location: class org.bukkit.Material
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/PlantsListener.java:[136,89] cannot find symbol
+  symbol:   variable OAK_LEAVES
+  location: class org.bukkit.Material
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/PlantsListener.java:[141,89] cannot find symbol
+  symbol:   variable PLAYER_HEAD
+  location: class org.bukkit.Material
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/PlantsListener.java:[157,89] cannot find symbol
+  symbol:   variable OAK_LEAVES
+  location: class org.bukkit.Material
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/PlantsListener.java:[159,115] cannot find symbol
+  symbol:   variable PLAYER_HEAD
+  location: class org.bukkit.Material
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/PlantsListener.java:[209,67] cannot find symbol
+  symbol:   variable PLAYER_HEAD
+  location: class org.bukkit.Material
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/PlantsListener.java:[210,67] cannot find symbol
+  symbol:   variable OAK_LEAVES
+  location: class org.bukkit.Material
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/PlantsListener.java:[210,121] cannot find symbol
+  symbol:   variable BIRCH_LEAVES
+  location: class org.bukkit.Material
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/PlantsListener.java:[211,63] cannot find symbol
+  symbol:   variable TALL_GRASS
+  location: class org.bukkit.Material
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/PlantsListener.java:[241,137] cannot find symbol
+  symbol:   variable OAK_LEAVES
+  location: class org.bukkit.Material
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/PlantsListener.java:[280,139] cannot find symbol
+  symbol:   variable OAK_LEAVES
+  location: class org.bukkit.Material
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/ExoticGarden.java:[72,86] cannot find symbol
+  symbol:   variable NETHER_WART
+  location: class org.bukkit.Material
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/ExoticGarden.java:[93,64] cannot find symbol
+  symbol:   variable OAK_LEAVES
+  location: class org.bukkit.Material
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/ExoticGarden.java:[94,65] cannot find symbol
+  symbol:   variable OAK_LEAVES
+  location: class org.bukkit.Material
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/ExoticGarden.java:[95,64] cannot find symbol
+  symbol:   variable OAK_LEAVES
+  location: class org.bukkit.Material
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/ExoticGarden.java:[96,69] cannot find symbol
+  symbol:   variable OAK_LEAVES
+  location: class org.bukkit.Material
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/ExoticGarden.java:[103,74] cannot find symbol
+  symbol:   variable INK_SAC
+  location: class org.bukkit.Material
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/ExoticGarden.java:[117,144] cannot find symbol
+  symbol:   variable WHEAT_SEEDS
+  location: class org.bukkit.Material
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/ExoticGarden.java:[128,80] cannot find symbol
+  symbol:   variable INK_SAC
+  location: class org.bukkit.Material
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/ExoticGarden.java:[135,70] cannot find symbol
+  symbol:   variable NETHER_QUARTZ_ORE
+  location: class org.bukkit.Material
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/ExoticGarden.java:[135,119] cannot find symbol
+  symbol:   variable NETHER_QUARTZ_ORE
+  location: class org.bukkit.Material
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/ExoticGarden.java:[135,186] cannot find symbol
+  symbol:   variable NETHER_QUARTZ_ORE
+  location: class org.bukkit.Material
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/ExoticGarden.java:[135,235] cannot find symbol
+  symbol:   variable NETHER_QUARTZ_ORE
+  location: class org.bukkit.Material
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/ExoticGarden.java:[154,127] cannot find symbol
+  symbol:   variable WOODEN_HOE
+  location: class org.bukkit.Material
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/ExoticGarden.java:[162,91] cannot find symbol
+  symbol:   variable OAK_LEAVES
+  location: class org.bukkit.Material
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/ExoticGarden.java:[162,143] cannot find symbol
+  symbol:   variable BIRCH_LEAVES
+  location: class org.bukkit.Material
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/ExoticGarden.java:[163,102] cannot find symbol
+  symbol:   variable OAK_SAPLING
+  location: class org.bukkit.Material
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/ExoticGarden.java:[163,196] cannot find symbol
+  symbol:   variable BIRCH_LEAVES
+  location: class org.bukkit.Material
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/ExoticGarden.java:[172,123] cannot find symbol
+  symbol:   variable TALL_GRASS
+  location: class org.bukkit.Material
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/ExoticGarden.java:[173,89] cannot find symbol
+  symbol:   variable TALL_GRASS
+  location: class org.bukkit.Material
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/ExoticGarden.java:[193,66] cannot find symbol
+  symbol:   variable WHEAT_SEEDS
+  location: class org.bukkit.Material
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/ExoticGarden.java:[196,72] cannot find symbol
+  symbol:   variable OAK_SAPLING
+  location: class org.bukkit.Material
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/ExoticGarden.java:[197,76] cannot find symbol
+  symbol:   variable OAK_SAPLING
+  location: class org.bukkit.Material
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/ExoticGarden.java:[198,75] cannot find symbol
+  symbol:   variable OAK_SAPLING
+  location: class org.bukkit.Material
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/ExoticGarden.java:[199,76] cannot find symbol
+  symbol:   variable OAK_SAPLING
+  location: class org.bukkit.Material
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/ExoticGarden.java:[200,76] cannot find symbol
+  symbol:   variable OAK_SAPLING
+  location: class org.bukkit.Material
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/ExoticGarden.java:[201,78] cannot find symbol
+  symbol:   variable OAK_SAPLING
+  location: class org.bukkit.Material
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/ExoticGarden.java:[273,96] cannot find symbol
+  symbol:   variable INK_SAC
+  location: class org.bukkit.Material
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/ExoticGarden.java:[274,59] cannot find symbol
+  symbol:   variable INK_SAC
+  location: class org.bukkit.Material
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/ExoticGarden.java:[278,70] cannot find symbol
+  symbol:   variable MUSHROOM_STEW
+  location: class org.bukkit.Material
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/ExoticGarden.java:[289,48] cannot find symbol
+  symbol:   variable COOKED_COD
+  location: class org.bukkit.Material
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/ExoticGarden.java:[293,70] cannot find symbol
+  symbol:   variable MUSHROOM_STEW
+  location: class org.bukkit.Material
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/ExoticGarden.java:[298,70] cannot find symbol
+  symbol:   variable MUSHROOM_STEW
+  location: class org.bukkit.Material
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/ExoticGarden.java:[303,70] cannot find symbol
+  symbol:   variable MUSHROOM_STEW
+  location: class org.bukkit.Material
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/ExoticGarden.java:[308,70] cannot find symbol
+  symbol:   variable MUSHROOM_STEW
+  location: class org.bukkit.Material
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/ExoticGarden.java:[358,70] cannot find symbol
+  symbol:   variable MUSHROOM_STEW
+  location: class org.bukkit.Material
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/ExoticGarden.java:[362,79] cannot find symbol
+  symbol:   variable PORKCHOP
+  location: class org.bukkit.Material
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/ExoticGarden.java:[363,56] cannot find symbol
+  symbol:   variable PORKCHOP
+  location: class org.bukkit.Material
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/ExoticGarden.java:[373,87] cannot find symbol
+  symbol:   variable PORKCHOP
+  location: class org.bukkit.Material
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/ExoticGarden.java:[438,77] cannot find symbol
+  symbol:   variable COOKED_COD
+  location: class org.bukkit.Material
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/ExoticGarden.java:[518,80] cannot find symbol
+  symbol:   variable PORKCHOP
+  location: class org.bukkit.Material
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/ExoticGarden.java:[533,132] cannot find symbol
+  symbol:   variable PORKCHOP
+  location: class org.bukkit.Material
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/ExoticGarden.java:[552,79] cannot find symbol
+  symbol:   variable NETHER_WART
+  location: class org.bukkit.Material
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/ExoticGarden.java:[591,87] cannot find symbol
+  symbol:   variable PORKCHOP
+  location: class org.bukkit.Material
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/ExoticGarden.java:[600,79] cannot find symbol
+  symbol:   variable SNOWBALL
+  location: class org.bukkit.Material
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/ExoticGarden.java:[601,135] cannot find symbol
+  symbol:   variable INK_SAC
+  location: class org.bukkit.Material
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/ExoticGarden.java:[613,79] cannot find symbol
+  symbol:   variable SNOWBALL
+  location: class org.bukkit.Material
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/ExoticGarden.java:[614,143] cannot find symbol
+  symbol:   variable INK_SAC
+  location: class org.bukkit.Material
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/ExoticGarden.java:[618,79] cannot find symbol
+  symbol:   variable SNOWBALL
+  location: class org.bukkit.Material
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/ExoticGarden.java:[623,79] cannot find symbol
+  symbol:   variable SNOWBALL
+  location: class org.bukkit.Material
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/ExoticGarden.java:[628,79] cannot find symbol
+  symbol:   variable SNOWBALL
+  location: class org.bukkit.Material
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/ExoticGarden.java:[656,67] cannot find symbol
+  symbol:   variable OAK_SAPLING
+  location: class org.bukkit.Material
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/ExoticGarden.java:[658,72] cannot find symbol
+  symbol:   variable OAK_SAPLING
+  location: class org.bukkit.Material
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/ExoticGarden.java:[658,172] cannot find symbol
+  symbol:   variable TALL_GRASS
+  location: class org.bukkit.Material
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/ExoticGarden.java:[659,81] cannot find symbol
+  symbol:   variable TALL_GRASS
+  location: class org.bukkit.Material
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/ExoticGarden.java:[663,185] cannot find symbol
+  symbol:   variable OAK_LEAVES
+  location: class org.bukkit.Material
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/ExoticGarden.java:[695,80] cannot find symbol
+  symbol:   variable OAK_SAPLING
+  location: class org.bukkit.Material
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/ExoticGarden.java:[697,72] cannot find symbol
+  symbol:   variable OAK_SAPLING
+  location: class org.bukkit.Material
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/ExoticGarden.java:[697,182] cannot find symbol
+  symbol:   variable TALL_GRASS
+  location: class org.bukkit.Material
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/ExoticGarden.java:[698,81] cannot find symbol
+  symbol:   variable TALL_GRASS
+  location: class org.bukkit.Material
+[INFO] 100 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  32.003 s
+[INFO] Finished at: 2019-02-20T12:46:20+01:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.1:compile (default-compile) on project ExoticGarden: Compilation failure: Compilation failure: 
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/Schematic/Schematic.java:[130,121] cannot find symbol
+[ERROR]   symbol:   variable OAK_LEAVES
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/Schematic/Schematic.java:[130,189] cannot find symbol
+[ERROR]   symbol:   variable BIRCH_LEAVES
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/Schematic/Schematic.java:[133,126] cannot find symbol
+[ERROR]   symbol:   variable PLAYER_HEAD
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/Schematic/Schematic.java:[158,68] cannot find symbol
+[ERROR]   symbol:   variable OAK_SAPLING
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/Schematic/Schematic.java:[159,68] cannot find symbol
+[ERROR]   symbol:   variable SPRUCE_SAPLING
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/Schematic/Schematic.java:[160,68] cannot find symbol
+[ERROR]   symbol:   variable BIRCH_SAPLING
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/Schematic/Schematic.java:[161,68] cannot find symbol
+[ERROR]   symbol:   variable JUNGLE_SAPLING
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/Schematic/Schematic.java:[162,68] cannot find symbol
+[ERROR]   symbol:   variable ACACIA_SAPLING
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/Schematic/Schematic.java:[163,68] cannot find symbol
+[ERROR]   symbol:   variable DARK_OAK_SAPLING
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/Schematic/Schematic.java:[166,123] cannot find symbol
+[ERROR]   symbol:   variable OAK_LOG
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/Schematic/Schematic.java:[167,123] cannot find symbol
+[ERROR]   symbol:   variable SPRUCE_LOG
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/Schematic/Schematic.java:[168,124] cannot find symbol
+[ERROR]   symbol:   variable BIRCH_LOG
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/Schematic/Schematic.java:[169,124] cannot find symbol
+[ERROR]   symbol:   variable JUNGLE_LOG
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/Schematic/Schematic.java:[172,123] cannot find symbol
+[ERROR]   symbol:   variable OAK_LEAVES
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/Schematic/Schematic.java:[173,123] cannot find symbol
+[ERROR]   symbol:   variable SPRUCE_LEAVES
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/Schematic/Schematic.java:[174,124] cannot find symbol
+[ERROR]   symbol:   variable BIRCH_LEAVES
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/Schematic/Schematic.java:[175,124] cannot find symbol
+[ERROR]   symbol:   variable JUNGLE_LEAVES
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/Schematic/Schematic.java:[176,48] cannot find symbol
+[ERROR]   symbol:   variable OAK_LEAVES
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/Schematic/Schematic.java:[178,123] cannot find symbol
+[ERROR]   symbol:   variable ACACIA_LEAVES
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/Schematic/Schematic.java:[179,123] cannot find symbol
+[ERROR]   symbol:   variable DARK_OAK_LEAVES
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/Schematic/Schematic.java:[182,123] cannot find symbol
+[ERROR]   symbol:   variable ACACIA_LOG
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/Schematic/Schematic.java:[183,123] cannot find symbol
+[ERROR]   symbol:   variable DARK_OAK_LOG
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/Schematic/Schematic.java:[186,48] cannot find symbol
+[ERROR]   symbol:   variable PLAYER_HEAD
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/PlantsListener.java:[62,100] cannot find symbol
+[ERROR]   symbol:   variable OAK_LEAVES
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/PlantsListener.java:[72,70] an enum switch case label must be the unqualified name of an enumeration constant
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/PlantsListener.java:[73,70] an enum switch case label must be the unqualified name of an enumeration constant
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/PlantsListener.java:[74,70] an enum switch case label must be the unqualified name of an enumeration constant
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/PlantsListener.java:[82,100] cannot find symbol
+[ERROR]   symbol:   variable OAK_LEAVES
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/PlantsListener.java:[84,126] cannot find symbol
+[ERROR]   symbol:   variable PLAYER_HEAD
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/PlantsListener.java:[98,100] cannot find symbol
+[ERROR]   symbol:   variable PLAYER_HEAD
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/PlantsListener.java:[113,109] cannot find symbol
+[ERROR]   symbol:   variable OAK_LEAVES
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/PlantsListener.java:[136,89] cannot find symbol
+[ERROR]   symbol:   variable OAK_LEAVES
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/PlantsListener.java:[141,89] cannot find symbol
+[ERROR]   symbol:   variable PLAYER_HEAD
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/PlantsListener.java:[157,89] cannot find symbol
+[ERROR]   symbol:   variable OAK_LEAVES
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/PlantsListener.java:[159,115] cannot find symbol
+[ERROR]   symbol:   variable PLAYER_HEAD
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/PlantsListener.java:[209,67] cannot find symbol
+[ERROR]   symbol:   variable PLAYER_HEAD
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/PlantsListener.java:[210,67] cannot find symbol
+[ERROR]   symbol:   variable OAK_LEAVES
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/PlantsListener.java:[210,121] cannot find symbol
+[ERROR]   symbol:   variable BIRCH_LEAVES
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/PlantsListener.java:[211,63] cannot find symbol
+[ERROR]   symbol:   variable TALL_GRASS
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/PlantsListener.java:[241,137] cannot find symbol
+[ERROR]   symbol:   variable OAK_LEAVES
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/PlantsListener.java:[280,139] cannot find symbol
+[ERROR]   symbol:   variable OAK_LEAVES
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/ExoticGarden.java:[72,86] cannot find symbol
+[ERROR]   symbol:   variable NETHER_WART
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/ExoticGarden.java:[93,64] cannot find symbol
+[ERROR]   symbol:   variable OAK_LEAVES
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/ExoticGarden.java:[94,65] cannot find symbol
+[ERROR]   symbol:   variable OAK_LEAVES
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/ExoticGarden.java:[95,64] cannot find symbol
+[ERROR]   symbol:   variable OAK_LEAVES
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/ExoticGarden.java:[96,69] cannot find symbol
+[ERROR]   symbol:   variable OAK_LEAVES
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/ExoticGarden.java:[103,74] cannot find symbol
+[ERROR]   symbol:   variable INK_SAC
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/ExoticGarden.java:[117,144] cannot find symbol
+[ERROR]   symbol:   variable WHEAT_SEEDS
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/ExoticGarden.java:[128,80] cannot find symbol
+[ERROR]   symbol:   variable INK_SAC
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/ExoticGarden.java:[135,70] cannot find symbol
+[ERROR]   symbol:   variable NETHER_QUARTZ_ORE
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/ExoticGarden.java:[135,119] cannot find symbol
+[ERROR]   symbol:   variable NETHER_QUARTZ_ORE
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/ExoticGarden.java:[135,186] cannot find symbol
+[ERROR]   symbol:   variable NETHER_QUARTZ_ORE
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/ExoticGarden.java:[135,235] cannot find symbol
+[ERROR]   symbol:   variable NETHER_QUARTZ_ORE
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/ExoticGarden.java:[154,127] cannot find symbol
+[ERROR]   symbol:   variable WOODEN_HOE
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/ExoticGarden.java:[162,91] cannot find symbol
+[ERROR]   symbol:   variable OAK_LEAVES
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/ExoticGarden.java:[162,143] cannot find symbol
+[ERROR]   symbol:   variable BIRCH_LEAVES
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/ExoticGarden.java:[163,102] cannot find symbol
+[ERROR]   symbol:   variable OAK_SAPLING
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/ExoticGarden.java:[163,196] cannot find symbol
+[ERROR]   symbol:   variable BIRCH_LEAVES
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/ExoticGarden.java:[172,123] cannot find symbol
+[ERROR]   symbol:   variable TALL_GRASS
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/ExoticGarden.java:[173,89] cannot find symbol
+[ERROR]   symbol:   variable TALL_GRASS
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/ExoticGarden.java:[193,66] cannot find symbol
+[ERROR]   symbol:   variable WHEAT_SEEDS
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/ExoticGarden.java:[196,72] cannot find symbol
+[ERROR]   symbol:   variable OAK_SAPLING
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/ExoticGarden.java:[197,76] cannot find symbol
+[ERROR]   symbol:   variable OAK_SAPLING
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/ExoticGarden.java:[198,75] cannot find symbol
+[ERROR]   symbol:   variable OAK_SAPLING
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/ExoticGarden.java:[199,76] cannot find symbol
+[ERROR]   symbol:   variable OAK_SAPLING
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/ExoticGarden.java:[200,76] cannot find symbol
+[ERROR]   symbol:   variable OAK_SAPLING
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/ExoticGarden.java:[201,78] cannot find symbol
+[ERROR]   symbol:   variable OAK_SAPLING
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/ExoticGarden.java:[273,96] cannot find symbol
+[ERROR]   symbol:   variable INK_SAC
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/ExoticGarden.java:[274,59] cannot find symbol
+[ERROR]   symbol:   variable INK_SAC
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/ExoticGarden.java:[278,70] cannot find symbol
+[ERROR]   symbol:   variable MUSHROOM_STEW
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/ExoticGarden.java:[289,48] cannot find symbol
+[ERROR]   symbol:   variable COOKED_COD
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/ExoticGarden.java:[293,70] cannot find symbol
+[ERROR]   symbol:   variable MUSHROOM_STEW
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/ExoticGarden.java:[298,70] cannot find symbol
+[ERROR]   symbol:   variable MUSHROOM_STEW
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/ExoticGarden.java:[303,70] cannot find symbol
+[ERROR]   symbol:   variable MUSHROOM_STEW
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/ExoticGarden.java:[308,70] cannot find symbol
+[ERROR]   symbol:   variable MUSHROOM_STEW
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/ExoticGarden.java:[358,70] cannot find symbol
+[ERROR]   symbol:   variable MUSHROOM_STEW
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/ExoticGarden.java:[362,79] cannot find symbol
+[ERROR]   symbol:   variable PORKCHOP
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/ExoticGarden.java:[363,56] cannot find symbol
+[ERROR]   symbol:   variable PORKCHOP
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/ExoticGarden.java:[373,87] cannot find symbol
+[ERROR]   symbol:   variable PORKCHOP
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/ExoticGarden.java:[438,77] cannot find symbol
+[ERROR]   symbol:   variable COOKED_COD
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/ExoticGarden.java:[518,80] cannot find symbol
+[ERROR]   symbol:   variable PORKCHOP
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/ExoticGarden.java:[533,132] cannot find symbol
+[ERROR]   symbol:   variable PORKCHOP
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/ExoticGarden.java:[552,79] cannot find symbol
+[ERROR]   symbol:   variable NETHER_WART
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/ExoticGarden.java:[591,87] cannot find symbol
+[ERROR]   symbol:   variable PORKCHOP
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/ExoticGarden.java:[600,79] cannot find symbol
+[ERROR]   symbol:   variable SNOWBALL
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/ExoticGarden.java:[601,135] cannot find symbol
+[ERROR]   symbol:   variable INK_SAC
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/ExoticGarden.java:[613,79] cannot find symbol
+[ERROR]   symbol:   variable SNOWBALL
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/ExoticGarden.java:[614,143] cannot find symbol
+[ERROR]   symbol:   variable INK_SAC
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/ExoticGarden.java:[618,79] cannot find symbol
+[ERROR]   symbol:   variable SNOWBALL
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/ExoticGarden.java:[623,79] cannot find symbol
+[ERROR]   symbol:   variable SNOWBALL
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/ExoticGarden.java:[628,79] cannot find symbol
+[ERROR]   symbol:   variable SNOWBALL
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/ExoticGarden.java:[656,67] cannot find symbol
+[ERROR]   symbol:   variable OAK_SAPLING
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/ExoticGarden.java:[658,72] cannot find symbol
+[ERROR]   symbol:   variable OAK_SAPLING
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/ExoticGarden.java:[658,172] cannot find symbol
+[ERROR]   symbol:   variable TALL_GRASS
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/ExoticGarden.java:[659,81] cannot find symbol
+[ERROR]   symbol:   variable TALL_GRASS
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/ExoticGarden.java:[663,185] cannot find symbol
+[ERROR]   symbol:   variable OAK_LEAVES
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/ExoticGarden.java:[695,80] cannot find symbol
+[ERROR]   symbol:   variable OAK_SAPLING
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/ExoticGarden.java:[697,72] cannot find symbol
+[ERROR]   symbol:   variable OAK_SAPLING
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/ExoticGarden.java:[697,182] cannot find symbol
+[ERROR]   symbol:   variable TALL_GRASS
+[ERROR]   location: class org.bukkit.Material
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/ExoticGarden.java:[698,81] cannot find symbol
+[ERROR]   symbol:   variable TALL_GRASS
+[ERROR]   location: class org.bukkit.Material
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException

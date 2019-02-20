@@ -47,6 +47,22 @@
         "candidate": "DEVELOPMENT",
         "status": "SUCCESS"
     },
-    "latest": 3,
+    "4": {
+        "id": 4,
+        "sha": "0dac294d4969b7fc8ae610498cc78dc62b55b302",
+        "date": "03 Feb 2019 (09:03:48)",
+        "timestamp": 20190203090348,
+        "message": "Merge pull request #45 from Ineusia/master\n\nUpdated to 1.13.2",
+        "author": "TheBusyBiscuit",
+        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
+        "license": {
+            "name": "MIT License",
+            "id": "MIT",
+            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/ExoticGarden/master/LICENSE"
+        },
+        "candidate": "DEVELOPMENT",
+        "status": "FAILURE"
+    },
+    "latest": 4,
     "last_successful": 3
 }
