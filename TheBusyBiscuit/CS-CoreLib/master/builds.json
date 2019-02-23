@@ -543,6 +543,22 @@
         "candidate": "DEVELOPMENT",
         "status": "FAILURE"
     },
-    "latest": 34,
-    "last_successful": 33
+    "35": {
+        "id": 35,
+        "sha": "30d7c3418b48fa2f81522a77a927ba4448737e6a",
+        "date": "20 Feb 2019 (12:02:34)",
+        "timestamp": 20190220120234,
+        "message": "Update pom.xml",
+        "author": "TheBusyBiscuit",
+        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
+        "license": {
+            "name": "GNU General Public License v3.0",
+            "id": "GPL-3.0",
+            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/CS-CoreLib/master/LICENSE"
+        },
+        "candidate": "DEVELOPMENT",
+        "status": "SUCCESS"
+    },
+    "latest": 35,
+    "last_successful": 35
 }
