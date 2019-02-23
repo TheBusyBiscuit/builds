@@ -1090,6 +1090,22 @@
         "candidate": "DEVELOPMENT",
         "status": "SUCCESS"
     },
-    "latest": 68,
+    "69": {
+        "id": 69,
+        "sha": "e67f19b5529a609a6596f3183910a68d136d9084",
+        "date": "23 Feb 2019 (21:41:35)",
+        "timestamp": 20190223214135,
+        "message": "Merge pull request #850 from SoSeDiK/tests\n\nUpdated methods for skull rotation & better water handling",
+        "author": "TheBusyBiscuit",
+        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
+        "license": {
+            "name": "GNU General Public License v3.0",
+            "id": "GPL-3.0",
+            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/Slimefun4/master/LICENSE"
+        },
+        "candidate": "DEVELOPMENT",
+        "status": "FAILURE"
+    },
+    "latest": 69,
     "last_successful": 68
 }
