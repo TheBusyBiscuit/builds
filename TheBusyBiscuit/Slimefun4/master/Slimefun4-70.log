@@ -1,0 +1,56 @@
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for me.mrCookieSlime:Slimefun:jar:DEV - 70 (git 29071650)
+[WARNING] 'dependencies.dependency.systemPath' for me.minebuilders:clearlag-core:jar should not point at files within the project directory, ${project.basedir}/lib/Clearlag.jar will be unresolvable by dependent projects @ line 1, column 2028
+[WARNING] 'dependencies.dependency.systemPath' for me.mrCookieSlime:EmeraldEnchants:jar should not point at files within the project directory, ${project.basedir}/lib/EmeraldEnchants v2.0.jar will be unresolvable by dependent projects @ line 1, column 2304
+[WARNING] 'dependencies.dependency.systemPath' for me.mrCookieSlime:ExoticGarden:jar should not point at files within the project directory, ${project.basedir}/lib/ExoticGarden v1.2.0.jar will be unresolvable by dependent projects @ line 1, column 2494
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] 
+[INFO] ---------------------< me.mrCookieSlime:Slimefun >----------------------
+[INFO] Building Slimefun DEV - 70 (git 29071650)
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] Downloading from robomwm-repo: https://dl.bintray.com/robomwm/maven/com/sk89q/worldedit/worldedit-bukkit/7.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from robomwm-repo: https://dl.bintray.com/robomwm/maven/com/sk89q/worldedit/worldedit-core/7.0.0-SNAPSHOT/maven-metadata.xml
+[WARNING] The POM for com.wasteofplastic:askyblock:jar:3.0.8.2 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+[WARNING] The POM for com.github.dmulloy2.LWC:lwc:jar:master-4.5.1-g2100b5e-18 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+[WARNING] The POM for com.massivecraft.massivecore:MassiveCore:jar:2.13.0 is missing, no dependency information available
+[WARNING] The POM for com.massivecraft.factions:Factions:jar:2.13.0 is missing, no dependency information available
+[INFO] Downloading from vault-repo: http://nexus.hc.to/content/repositories/pub_releases/mkremins/fanciful/0.4.0-SNAPSHOT/maven-metadata.xml
+[WARNING] Could not transfer metadata mkremins:fanciful:0.4.0-SNAPSHOT/maven-metadata.xml from/to vault-repo (http://nexus.hc.to/content/repositories/pub_releases): Failed to transfer file http://nexus.hc.to/content/repositories/pub_releases/mkremins/fanciful/0.4.0-SNAPSHOT/maven-metadata.xml with status code 504
+[WARNING] Failure to transfer mkremins:fanciful:0.4.0-SNAPSHOT/maven-metadata.xml from http://nexus.hc.to/content/repositories/pub_releases was cached in the local repository, resolution will not be reattempted until the update interval of vault-repo has elapsed or updates are forced. Original error: Could not transfer metadata mkremins:fanciful:0.4.0-SNAPSHOT/maven-metadata.xml from/to vault-repo (http://nexus.hc.to/content/repositories/pub_releases): Failed to transfer file http://nexus.hc.to/content/repositories/pub_releases/mkremins/fanciful/0.4.0-SNAPSHOT/maven-metadata.xml with status code 504
+[INFO] Downloading from vault-repo: http://nexus.hc.to/content/repositories/pub_releases/com/darkblade12/particleeffect/1.8.0-SNAPSHOT/maven-metadata.xml
+[WARNING] Could not transfer metadata com.darkblade12:particleeffect:1.8.0-SNAPSHOT/maven-metadata.xml from/to vault-repo (http://nexus.hc.to/content/repositories/pub_releases): Failed to transfer file http://nexus.hc.to/content/repositories/pub_releases/com/darkblade12/particleeffect/1.8.0-SNAPSHOT/maven-metadata.xml with status code 504
+[WARNING] Failure to transfer com.darkblade12:particleeffect:1.8.0-SNAPSHOT/maven-metadata.xml from http://nexus.hc.to/content/repositories/pub_releases was cached in the local repository, resolution will not be reattempted until the update interval of vault-repo has elapsed or updates are forced. Original error: Could not transfer metadata com.darkblade12:particleeffect:1.8.0-SNAPSHOT/maven-metadata.xml from/to vault-repo (http://nexus.hc.to/content/repositories/pub_releases): Failed to transfer file http://nexus.hc.to/content/repositories/pub_releases/com/darkblade12/particleeffect/1.8.0-SNAPSHOT/maven-metadata.xml with status code 504
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ Slimefun ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ Slimefun ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 195 source files to /home/pi/Desktop/Build Server/TheBusyBiscuit/Slimefun4/master/files/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/api/network/Network.java:[12,66] package me.mrCookieSlime.CSCoreLibPlugin.general.Particles.MC_1_13 does not exist
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  02:13 min
+[INFO] Finished at: 2019-02-23T23:12:10+01:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.1:compile (default-compile) on project Slimefun: Compilation failure
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/api/network/Network.java:[12,66] package me.mrCookieSlime.CSCoreLibPlugin.general.Particles.MC_1_13 does not exist
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
