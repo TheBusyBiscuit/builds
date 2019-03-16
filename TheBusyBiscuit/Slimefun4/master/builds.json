@@ -1138,6 +1138,22 @@
         "candidate": "DEVELOPMENT",
         "status": "FAILURE"
     },
-    "latest": 71,
+    "72": {
+        "id": 72,
+        "sha": "6bbb19cf28136d16713ce7fec6daea711e9d5483",
+        "date": "24 Feb 2019 (09:07:56)",
+        "timestamp": 20190224090756,
+        "message": "Merge pull request #851 from SoSeDiK/tests\n\nAdded a missing tab complete",
+        "author": "TheBusyBiscuit",
+        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
+        "license": {
+            "name": "GNU General Public License v3.0",
+            "id": "GPL-3.0",
+            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/Slimefun4/master/LICENSE"
+        },
+        "candidate": "DEVELOPMENT",
+        "status": "FAILURE"
+    },
+    "latest": 72,
     "last_successful": 68
 }
