@@ -559,6 +559,22 @@
         "candidate": "DEVELOPMENT",
         "status": "SUCCESS"
     },
-    "latest": 35,
-    "last_successful": 35
+    "36": {
+        "id": 36,
+        "sha": "2e140f829f2968e53afc251127918e371380b74e",
+        "date": "22 Mar 2019 (09:16:42)",
+        "timestamp": 20190322091642,
+        "message": "Merge pull request #69 from MLG-Fortress/fix-pom\n\nFix maven build",
+        "author": "TheBusyBiscuit",
+        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
+        "license": {
+            "name": "GNU General Public License v3.0",
+            "id": "GPL-3.0",
+            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/CS-CoreLib/master/LICENSE"
+        },
+        "candidate": "DEVELOPMENT",
+        "status": "SUCCESS"
+    },
+    "latest": 36,
+    "last_successful": 36
 }
