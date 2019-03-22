@@ -79,6 +79,22 @@
         "candidate": "DEVELOPMENT",
         "status": "SUCCESS"
     },
-    "latest": 5,
-    "last_successful": 5
+    "6": {
+        "id": 6,
+        "sha": "a0bf80ed1d30ce3643ed26e850fa9f236085eb35",
+        "date": "22 Mar 2019 (10:18:10)",
+        "timestamp": 20190322101810,
+        "message": "Create README.md",
+        "author": "TheBusyBiscuit",
+        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
+        "license": {
+            "name": "MIT License",
+            "id": "MIT",
+            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/ExoticGarden/master/LICENSE"
+        },
+        "candidate": "DEVELOPMENT",
+        "status": "SUCCESS"
+    },
+    "latest": 6,
+    "last_successful": 6
 }
