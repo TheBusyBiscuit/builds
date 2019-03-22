@@ -31,6 +31,22 @@
         "candidate": "DEVELOPMENT",
         "status": "SUCCESS"
     },
-    "latest": 2,
-    "last_successful": 2
+    "3": {
+        "id": 3,
+        "sha": "0709b92e994f222cd731bd3a6f94c2fef3cb6f7a",
+        "date": "22 Mar 2019 (09:19:45)",
+        "timestamp": 20190322091945,
+        "message": "Update pom.xml",
+        "author": "TheBusyBiscuit",
+        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
+        "license": {
+            "name": "GNU General Public License v3.0",
+            "id": "GPL-3.0",
+            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/luckyblocks-sf/master/LICENSE"
+        },
+        "candidate": "DEVELOPMENT",
+        "status": "SUCCESS"
+    },
+    "latest": 3,
+    "last_successful": 3
 }

@@ -1,0 +1,50 @@
+[IFO] 
+[INFO] --------NFO] Scanning for projects...
+[IN--------< me.mrCookieSlime:SlimefunLuckyBlocks >----------------
+[INFO] Building SlimefunLuckyBlocks DEV - 3 (git 0709b92e)
+[INFO] --------------------------------[ jar ]---------------------------------
+[WARNING] The POM for com.wasteofplastic:askyblock:jar:3.0.8.2 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+[WARNING] The POM for com.github.dmulloy2.LWC:lwc:jar:master-4.5.1-g2100b5e-18 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+[WARNING] The POM for com.massivecraft.massivecore:MassiveCore:jar:2.13.0 is missing, no dependency information available
+[WARNING] The POM for com.massivecraft.factions:Factions:jar:2.13.0 is missing, no dependency information available
+[INFO] Downloading from maven-codearts-jp: http://maven.codearts.jp/org/bukkit/bukkit/maven-metadata.xml
+[WARNING] Could not transfer metadata org.bukkit:bukkit/maven-metadata.xml from/to maven-codearts-jp (http://maven.codearts.jp/): maven.codearts.jp: unknown error
+[WARNING] Failure to transfer org.bukkit:bukkit/maven-metadata.xml from http://maven.codearts.jp/ was cached in the local repository, resolution will not be reattempted until the update interval of maven-codearts-jp has elapsed or updates are forced. Original error: Could not transfer metadata org.bukkit:bukkit/maven-metadata.xml from/to maven-codearts-jp (http://maven.codearts.jp/): maven.codearts.jp: unknown error
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/github/TheBusyBiscuit/Slimefun4/3619c4bc9e/Slimefun4-3619c4bc9e.pom
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/github/TheBusyBiscuit/Slimefun4/3619c4bc9e/Slimefun4-3619c4bc9e.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/github/TheBusyBiscuit/Slimefun4/3619c4bc9e/Slimefun4-3619c4bc9e.pom
+[INFO] Downloaded from jitpack.io: https://jitpack.io/com/github/TheBusyBiscuit/Slimefun4/3619c4bc9e/Slimefun4-3619c4bc9e.pom (4.5 kB at 57 B/s)
+[WARNING] The POM for com.github.TheBusyBiscuit:Slimefun4:jar:3619c4bc9e is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/github/TheBusyBiscuit/Slimefun4/3619c4bc9e/Slimefun4-3619c4bc9e.jar
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/github/TheBusyBiscuit/Slimefun4/3619c4bc9e/Slimefun4-3619c4bc9e.jar
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/github/TheBusyBiscuit/Slimefun4/3619c4bc9e/Slimefun4-3619c4bc9e.jar
+[INFO] Downloaded from jitpack.io: https://jitpack.io/com/github/TheBusyBiscuit/Slimefun4/3619c4bc9e/Slimefun4-3619c4bc9e.jar (1.1 MB at 278 kB/s)
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ SlimefunLuckyBlocks ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ SlimefunLuckyBlocks ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 5 source files to /home/pi/Desktop/Build Server/TheBusyBiscuit/luckyblocks-sf/master/files/target/classes
+[WARNING] /home/pi/Desktop/Build Server/TheBusyBiscuit/luckyblocks-sf/master/files/src/me/mrCookieSlime/SlimefunLuckyBlocks/SlimefunLuckyBlocks.java: /home/pi/Desktop/Build Server/TheBusyBiscuit/luckyblocks-sf/master/files/src/me/mrCookieSlime/SlimefunLuckyBlocks/SlimefunLuckyBlocks.java uses or overrides a deprecated API.
+[WARNING] /home/pi/Desktop/Build Server/TheBusyBiscuit/luckyblocks-sf/master/files/src/me/mrCookieSlime/SlimefunLuckyBlocks/SlimefunLuckyBlocks.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ SlimefunLuckyBlocks ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/pi/Desktop/Build Server/TheBusyBiscuit/luckyblocks-sf/master/files/tests/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ SlimefunLuckyBlocks ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ SlimefunLuckyBlocks ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ SlimefunLuckyBlocks ---
+[INFO] Building jar: /home/pi/Desktop/Build Server/TheBusyBiscuit/luckyblocks-sf/master/files/target/luckyblocks-sf-3.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  01:40 min
+[INFO] Finished at: 2019-03-22T10:25:42+01:00
+[INFO] ------------------------------------------------------------------------
