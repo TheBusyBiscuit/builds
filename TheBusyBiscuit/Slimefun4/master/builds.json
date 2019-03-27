@@ -1250,6 +1250,22 @@
         "candidate": "DEVELOPMENT",
         "status": "SUCCESS"
     },
-    "latest": 78,
-    "last_successful": 78
+    "79": {
+        "id": 79,
+        "sha": "4fad8aa82c02aefea01061df7640060f9f35696e",
+        "date": "27 Mar 2019 (20:08:52)",
+        "timestamp": 20190327200852,
+        "message": "Merge pull request #864 from SoSeDiK/sneaking\n\nPrevent opening inventory while sneaking with an item",
+        "author": "TheBusyBiscuit",
+        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
+        "license": {
+            "name": "GNU General Public License v3.0",
+            "id": "GPL-3.0",
+            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/Slimefun4/master/LICENSE"
+        },
+        "candidate": "DEVELOPMENT",
+        "status": "SUCCESS"
+    },
+    "latest": 79,
+    "last_successful": 79
 }
