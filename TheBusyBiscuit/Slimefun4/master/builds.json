@@ -1202,6 +1202,22 @@
         "candidate": "DEVELOPMENT",
         "status": "SUCCESS"
     },
-    "latest": 75,
-    "last_successful": 75
+    "76": {
+        "id": 76,
+        "sha": "8c2746e775e3afed32ad6378a550b58e0ff420c2",
+        "date": "27 Mar 2019 (15:40:44)",
+        "timestamp": 20190327154044,
+        "message": "Merge pull request #860 from SoSeDiK/spawners\n\nSpawners",
+        "author": "TheBusyBiscuit",
+        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
+        "license": {
+            "name": "GNU General Public License v3.0",
+            "id": "GPL-3.0",
+            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/Slimefun4/master/LICENSE"
+        },
+        "candidate": "DEVELOPMENT",
+        "status": "SUCCESS"
+    },
+    "latest": 76,
+    "last_successful": 76
 }
