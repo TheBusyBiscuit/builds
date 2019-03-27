@@ -1234,6 +1234,22 @@
         "candidate": "DEVELOPMENT",
         "status": "SUCCESS"
     },
-    "latest": 77,
-    "last_successful": 77
+    "78": {
+        "id": 78,
+        "sha": "b7f3d025a7f68223c53c34b473af8232e09ee75d",
+        "date": "27 Mar 2019 (20:07:05)",
+        "timestamp": 20190327200705,
+        "message": "Merge pull request #865 from SoSeDiK/researching\n\nOptimized researching progress",
+        "author": "TheBusyBiscuit",
+        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
+        "license": {
+            "name": "GNU General Public License v3.0",
+            "id": "GPL-3.0",
+            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/Slimefun4/master/LICENSE"
+        },
+        "candidate": "DEVELOPMENT",
+        "status": "SUCCESS"
+    },
+    "latest": 78,
+    "last_successful": 78
 }
