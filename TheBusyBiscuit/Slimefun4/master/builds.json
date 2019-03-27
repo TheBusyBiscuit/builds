@@ -1218,6 +1218,22 @@
         "candidate": "DEVELOPMENT",
         "status": "SUCCESS"
     },
-    "latest": 76,
-    "last_successful": 76
+    "77": {
+        "id": 77,
+        "sha": "02ee0f1ce44af47855f573d29ce6c7bacddc5bca",
+        "date": "27 Mar 2019 (15:55:28)",
+        "timestamp": 20190327155528,
+        "message": "Merge pull request #859 from SoSeDiK/androids\n\nAndroids",
+        "author": "TheBusyBiscuit",
+        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
+        "license": {
+            "name": "GNU General Public License v3.0",
+            "id": "GPL-3.0",
+            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/Slimefun4/master/LICENSE"
+        },
+        "candidate": "DEVELOPMENT",
+        "status": "SUCCESS"
+    },
+    "latest": 77,
+    "last_successful": 77
 }
