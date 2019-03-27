@@ -1298,6 +1298,22 @@
         "candidate": "DEVELOPMENT",
         "status": "SUCCESS"
     },
-    "latest": 81,
-    "last_successful": 81
+    "82": {
+        "id": 82,
+        "sha": "7eb074daaa9f0039455b0b60eb4b672419467dc8",
+        "date": "27 Mar 2019 (22:33:37)",
+        "timestamp": 20190327223337,
+        "message": "Merge pull request #869 from SoSeDiK/startup\n\nImplement createDir() method",
+        "author": "TheBusyBiscuit",
+        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
+        "license": {
+            "name": "GNU General Public License v3.0",
+            "id": "GPL-3.0",
+            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/Slimefun4/master/LICENSE"
+        },
+        "candidate": "DEVELOPMENT",
+        "status": "SUCCESS"
+    },
+    "latest": 82,
+    "last_successful": 82
 }
