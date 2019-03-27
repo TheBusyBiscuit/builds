@@ -1266,6 +1266,22 @@
         "candidate": "DEVELOPMENT",
         "status": "SUCCESS"
     },
-    "latest": 79,
-    "last_successful": 79
+    "80": {
+        "id": 80,
+        "sha": "7a0a98bb6dab00a6f4f5d852839f264905742290",
+        "date": "27 Mar 2019 (20:21:00)",
+        "timestamp": 20190327202100,
+        "message": "Merge pull request #863 from SoSeDiK/furnace\n\nUpdate FurnaceListener.java",
+        "author": "TheBusyBiscuit",
+        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
+        "license": {
+            "name": "GNU General Public License v3.0",
+            "id": "GPL-3.0",
+            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/Slimefun4/master/LICENSE"
+        },
+        "candidate": "DEVELOPMENT",
+        "status": "SUCCESS"
+    },
+    "latest": 80,
+    "last_successful": 80
 }
