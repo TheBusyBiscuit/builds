@@ -1186,6 +1186,22 @@
         "candidate": "DEVELOPMENT",
         "status": "SUCCESS"
     },
-    "latest": 74,
-    "last_successful": 74
+    "75": {
+        "id": 75,
+        "sha": "3d3d6ab5546e11da48e169d0b1d22338481739c2",
+        "date": "27 Mar 2019 (15:37:13)",
+        "timestamp": 20190327153713,
+        "message": "Merge pull request #858 from SoSeDiK/cp\n\nUpdated CoreProtect API",
+        "author": "TheBusyBiscuit",
+        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
+        "license": {
+            "name": "GNU General Public License v3.0",
+            "id": "GPL-3.0",
+            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/Slimefun4/master/LICENSE"
+        },
+        "candidate": "DEVELOPMENT",
+        "status": "SUCCESS"
+    },
+    "latest": 75,
+    "last_successful": 75
 }
