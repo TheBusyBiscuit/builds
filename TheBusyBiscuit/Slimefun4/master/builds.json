@@ -1170,6 +1170,22 @@
         "candidate": "DEVELOPMENT",
         "status": "SUCCESS"
     },
-    "latest": 73,
-    "last_successful": 73
+    "74": {
+        "id": 74,
+        "sha": "8b2f286ee4d10db38f3903f0ff63998fa4cba5ff",
+        "date": "27 Mar 2019 (15:33:16)",
+        "timestamp": 20190327153316,
+        "message": "Merge pull request #857 from SoSeDiK/we\n\nUpdated WorldEdit API",
+        "author": "TheBusyBiscuit",
+        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
+        "license": {
+            "name": "GNU General Public License v3.0",
+            "id": "GPL-3.0",
+            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/Slimefun4/master/LICENSE"
+        },
+        "candidate": "DEVELOPMENT",
+        "status": "SUCCESS"
+    },
+    "latest": 74,
+    "last_successful": 74
 }
