@@ -1330,6 +1330,22 @@
         "candidate": "DEVELOPMENT",
         "status": "SUCCESS"
     },
-    "latest": 83,
-    "last_successful": 83
+    "84": {
+        "id": 84,
+        "sha": "358a73f73b198204f67e0a02f4c22c2370d22ca0",
+        "date": "29 Mar 2019 (21:58:04)",
+        "timestamp": 20190329215804,
+        "message": "Merge pull request #871 from bverhoeven/master\n\nFix Soulbound Axe duplication bug",
+        "author": "TheBusyBiscuit",
+        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
+        "license": {
+            "name": "GNU General Public License v3.0",
+            "id": "GPL-3.0",
+            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/Slimefun4/master/LICENSE"
+        },
+        "candidate": "DEVELOPMENT",
+        "status": "SUCCESS"
+    },
+    "latest": 84,
+    "last_successful": 84
 }
