@@ -63,6 +63,22 @@
         "candidate": "DEVELOPMENT",
         "status": "SUCCESS"
     },
-    "latest": 4,
-    "last_successful": 4
+    "5": {
+        "id": 5,
+        "sha": "89c2efabb1c63a5b867a54f3f6381b262bdd0192",
+        "date": "29 Mar 2019 (21:33:31)",
+        "timestamp": 20190329213331,
+        "message": "Merge pull request #4 from SoSeDiK/maven\n\nMaven update",
+        "author": "TheBusyBiscuit",
+        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
+        "license": {
+            "name": "GNU General Public License v3.0",
+            "id": "GPL-3.0",
+            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/luckyblocks-sf/master/LICENSE"
+        },
+        "candidate": "DEVELOPMENT",
+        "status": "SUCCESS"
+    },
+    "latest": 5,
+    "last_successful": 5
 }
