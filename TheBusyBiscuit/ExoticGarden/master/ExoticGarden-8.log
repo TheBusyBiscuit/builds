@@ -1,0 +1,66 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -------------------< me.mrCookieSlime:ExoticGarden >--------------------
+[INFO] Building ExoticGarden DEV - 8 (git 20923cd3)
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/bukkit/bukkit/1.13-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/bukkit/bukkit/1.13-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/bukkit/bukkit/1.13-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloaded from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/bukkit/bukkit/1.13-R0.1-SNAPSHOT/maven-metadata.xml (1.4 kB at 782 B/s)
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/bukkit/bukkit/1.13-R0.1-SNAPSHOT/maven-metadata.xml (1.4 kB at 623 B/s)
+[WARNING] The POM for com.wasteofplastic:askyblock:jar:3.0.8.2 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+[WARNING] The POM for com.github.dmulloy2.LWC:lwc:jar:master-4.5.1-g2100b5e-18 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+[INFO] Downloading from worldedit-worldguard-repo: http://maven.sk89q.com/repo/com/massivecraft/massivecore/MassiveCore/2.13.0/MassiveCore-2.13.0.pom
+[WARNING] The POM for com.massivecraft.massivecore:MassiveCore:jar:2.13.0 is missing, no dependency information available
+nloading from worldedit-worldguard-repo: http://maven.sk89q.com/repo/com/massivecraft/factions/Factions/2.13.0/Factions-2.13.0.pom
+[INFO] Dow[WARNING] The POM for com.massivecraft.factions:Factions:jar:2.13.0 is missing, no dependency information available
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/bukkit/bukkit/maven-metadata.xml
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/bukkit/bukkit/maven-metadata.xml
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/bukkit/bukkit/maven-metadata.xml
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/bukkit/bukkit/maven-metadata.xml
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/org/bukkit/bukkit/maven-metadata.xml
+[INFO] Downloaded from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/bukkit/bukkit/maven-metadata.xml (1.4 kB at 3.1 kB/s)
+[INFO] Downloading from worldedit-worldguard-repo: http://maven.sk89q.com/repo/org/bukkit/bukkit/maven-metadata.xml
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/bukkit/bukkit/maven-metadata.xml (1.4 kB at 2.2 kB/s)
+[INFO] Downloading from bintray-tastybento-maven-repo: http://dl.bintray.com/tastybento/maven-repo/org/bukkit/bukkit/maven-metadata.xml
+[INFO] Downloading from massivecore-factions-repo: http://repo.dustplanet.de/artifactory/ext-release-local/org/bukkit/bukkit/maven-metadata.xml
+[INFO] Downloading from incendo-plotsquared-repo: https://incendo.org/mvn/org/bukkit/bukkit/maven-metadata.xml
+[INFO] Downloading from FactionsUUID-repo: https://ci.ender.zone/job/FactionsUUID/122/maven-repository/repository/org/bukkit/bukkit/maven-metadata.xml
+[INFO] Downloaded from worldedit-worldguard-repo: http://maven.sk89q.com/repo/org/bukkit/bukkit/maven-metadata.xml (421 B at 634 B/s)
+[INFO] Downloading from maven-codearts-jp: http://maven.codearts.jp/org/bukkit/bukkit/maven-metadata.xml
+[WARNING] Could not transfer metadata org.bukkit:bukkit/maven-metadata.xml from/to maven-codearts-jp (http://maven.codearts.jp/): maven.codearts.jp: unknown error
+[WARNING] Failure to transfer org.bukkit:bukkit/maven-metadata.xml from http://maven.codearts.jp/ was cached in the local repository, resolution will not be reattempted until the update interval of maven-codearts-jp has elapsed or updates are forced. Original error: Could not transfer metadata org.bukkit:bukkit/maven-metadata.xml from/to maven-codearts-jp (http://maven.codearts.jp/): maven.codearts.jp: unknown error
+[INFO] Downloading from incendo-plotsquared-repo: https://incendo.org/mvn/com/sk89q/worldedit/worldedit-core/7.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from bintray-tastybento-maven-repo: http://dl.bintray.com/tastybento/maven-repo/com/sk89q/worldedit/worldedit-core/7.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/com/sk89q/worldedit/worldedit-core/7.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from massivecore-factions-repo: http://repo.dustplanet.de/artifactory/ext-release-local/com/sk89q/worldedit/worldedit-core/7.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from FactionsUUID-repo: https://ci.ender.zone/job/FactionsUUID/122/maven-repository/repository/com/sk89q/worldedit/worldedit-core/7.0.0-SNAPSHOT/maven-metadata.xml
+[WARNING] The POM for com.github.TheBusyBiscuit:Slimefun4:jar:3619c4bc9e is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ ExoticGarden ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 12 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ ExoticGarden ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 28 source files to /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ ExoticGarden ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/tests/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ ExoticGarden ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ ExoticGarden ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ ExoticGarden ---
+[INFO] Building jar: /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/target/ExoticGarden-8.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  20.766 s
+[INFO] Finished at: 2019-03-29T22:36:32+01:00
+[INFO] ------------------------------------------------------------------------

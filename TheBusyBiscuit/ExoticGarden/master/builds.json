@@ -111,6 +111,22 @@
         "candidate": "DEVELOPMENT",
         "status": "SUCCESS"
     },
-    "latest": 7,
-    "last_successful": 7
+    "8": {
+        "id": 8,
+        "sha": "20923cd3e65fdc0e3ae8631611e2fdb0e481547e",
+        "date": "29 Mar 2019 (21:33:49)",
+        "timestamp": 20190329213349,
+        "message": "Merge pull request #58 from SoSeDiK/fix\n\nFix for #57",
+        "author": "TheBusyBiscuit",
+        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
+        "license": {
+            "name": "MIT License",
+            "id": "MIT",
+            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/ExoticGarden/master/LICENSE"
+        },
+        "candidate": "DEVELOPMENT",
+        "status": "SUCCESS"
+    },
+    "latest": 8,
+    "last_successful": 8
 }
