@@ -1314,6 +1314,22 @@
         "candidate": "DEVELOPMENT",
         "status": "SUCCESS"
     },
-    "latest": 82,
-    "last_successful": 82
+    "83": {
+        "id": 83,
+        "sha": "6213c62f47f5ac1277e671bb246c07a03c7697f9",
+        "date": "29 Mar 2019 (21:32:50)",
+        "timestamp": 20190329213250,
+        "message": "Merge pull request #866 from SoSeDiK/deprecations\n\nReplaced deprecated code",
+        "author": "TheBusyBiscuit",
+        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
+        "license": {
+            "name": "GNU General Public License v3.0",
+            "id": "GPL-3.0",
+            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/Slimefun4/master/LICENSE"
+        },
+        "candidate": "DEVELOPMENT",
+        "status": "SUCCESS"
+    },
+    "latest": 83,
+    "last_successful": 83
 }
