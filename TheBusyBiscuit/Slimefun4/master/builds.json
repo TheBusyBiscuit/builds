@@ -1362,6 +1362,22 @@
         "candidate": "DEVELOPMENT",
         "status": "SUCCESS"
     },
-    "latest": 85,
-    "last_successful": 85
+    "86": {
+        "id": 86,
+        "sha": "009dede7cf635219fb244f3dfa8e4a996e48554a",
+        "date": "30 Mar 2019 (11:29:34)",
+        "timestamp": 20190330112934,
+        "message": "Merge pull request #872 from SoSeDiK/food\n\nRename ORGANIC_FOOD and FERTILIZER",
+        "author": "TheBusyBiscuit",
+        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
+        "license": {
+            "name": "GNU General Public License v3.0",
+            "id": "GPL-3.0",
+            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/Slimefun4/master/LICENSE"
+        },
+        "candidate": "DEVELOPMENT",
+        "status": "SUCCESS"
+    },
+    "latest": 86,
+    "last_successful": 86
 }
