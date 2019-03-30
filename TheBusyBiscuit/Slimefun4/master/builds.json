@@ -1346,6 +1346,22 @@
         "candidate": "DEVELOPMENT",
         "status": "SUCCESS"
     },
-    "latest": 84,
-    "last_successful": 84
+    "85": {
+        "id": 85,
+        "sha": "b44cce7a5e16a33995b18d1f97b8e235c9a0c765",
+        "date": "30 Mar 2019 (10:29:26)",
+        "timestamp": 20190330102926,
+        "message": "Merge pull request #874 from SoSeDiK/AEA\n\nPrevent \"Asynchronous entity add!\"",
+        "author": "TheBusyBiscuit",
+        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
+        "license": {
+            "name": "GNU General Public License v3.0",
+            "id": "GPL-3.0",
+            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/Slimefun4/master/LICENSE"
+        },
+        "candidate": "DEVELOPMENT",
+        "status": "SUCCESS"
+    },
+    "latest": 85,
+    "last_successful": 85
 }
