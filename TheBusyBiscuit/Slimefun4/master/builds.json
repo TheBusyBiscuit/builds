@@ -1378,6 +1378,22 @@
         "candidate": "DEVELOPMENT",
         "status": "SUCCESS"
     },
-    "latest": 86,
-    "last_successful": 86
+    "87": {
+        "id": 87,
+        "sha": "530189ecac3bc279c1a06cd067d712a6b6ee9812",
+        "date": "31 Mar 2019 (07:41:57)",
+        "timestamp": 20190331074157,
+        "message": "Merge pull request #876 from SoSeDiK/items\n\nUpdate SlimefunItems.java",
+        "author": "TheBusyBiscuit",
+        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
+        "license": {
+            "name": "GNU General Public License v3.0",
+            "id": "GPL-3.0",
+            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/Slimefun4/master/LICENSE"
+        },
+        "candidate": "DEVELOPMENT",
+        "status": "SUCCESS"
+    },
+    "latest": 87,
+    "last_successful": 87
 }
