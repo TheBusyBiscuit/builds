@@ -1410,6 +1410,22 @@
         "candidate": "DEVELOPMENT",
         "status": "SUCCESS"
     },
-    "latest": 88,
-    "last_successful": 88
+    "89": {
+        "id": 89,
+        "sha": "33073a4100580dad40761f09e5be576b4b6fa45f",
+        "date": "07 Apr 2019 (09:44:42)",
+        "timestamp": 20190407094442,
+        "message": "Merge pull request #877 from SoSeDiK/lambda\n\nUse lambda expressions",
+        "author": "TheBusyBiscuit",
+        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
+        "license": {
+            "name": "GNU General Public License v3.0",
+            "id": "GPL-3.0",
+            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/Slimefun4/master/LICENSE"
+        },
+        "candidate": "DEVELOPMENT",
+        "status": "SUCCESS"
+    },
+    "latest": 89,
+    "last_successful": 89
 }
