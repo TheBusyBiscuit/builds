@@ -1394,6 +1394,22 @@
         "candidate": "DEVELOPMENT",
         "status": "SUCCESS"
     },
-    "latest": 87,
-    "last_successful": 87
+    "88": {
+        "id": 88,
+        "sha": "a736484e551aa72e9bfe647af2a91ed198d97050",
+        "date": "07 Apr 2019 (09:38:59)",
+        "timestamp": 20190407093859,
+        "message": "Merge pull request #884 from bverhoeven/null-item-fix\n\nPrevent Slimefun blocks from getting corrupted at startup",
+        "author": "TheBusyBiscuit",
+        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
+        "license": {
+            "name": "GNU General Public License v3.0",
+            "id": "GPL-3.0",
+            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/Slimefun4/master/LICENSE"
+        },
+        "candidate": "DEVELOPMENT",
+        "status": "SUCCESS"
+    },
+    "latest": 88,
+    "last_successful": 88
 }
