@@ -1426,6 +1426,22 @@
         "candidate": "DEVELOPMENT",
         "status": "SUCCESS"
     },
-    "latest": 89,
-    "last_successful": 89
+    "90": {
+        "id": 90,
+        "sha": "506c54149e8a6c62b912357aa67b94298e236a5d",
+        "date": "10 Apr 2019 (16:45:14)",
+        "timestamp": 20190410164514,
+        "message": "Changed Script Rating System",
+        "author": "TheBusyBiscuit",
+        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
+        "license": {
+            "name": "GNU General Public License v3.0",
+            "id": "GPL-3.0",
+            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/Slimefun4/master/LICENSE"
+        },
+        "candidate": "DEVELOPMENT",
+        "status": "SUCCESS"
+    },
+    "latest": 90,
+    "last_successful": 90
 }
