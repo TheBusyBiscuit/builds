@@ -1442,6 +1442,22 @@
         "candidate": "DEVELOPMENT",
         "status": "SUCCESS"
     },
-    "latest": 90,
-    "last_successful": 90
+    "91": {
+        "id": 91,
+        "sha": "9436c3d654991e1ebfe3b9c296ed1009b0e6aa89",
+        "date": "11 Apr 2019 (13:23:42)",
+        "timestamp": 20190411132342,
+        "message": "Merge pull request #889 from SoSeDiK/SoulJars\n\nFix for SoulJars' spawner recipes not being displayed properly",
+        "author": "TheBusyBiscuit",
+        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
+        "license": {
+            "name": "GNU General Public License v3.0",
+            "id": "GPL-3.0",
+            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/Slimefun4/master/LICENSE"
+        },
+        "candidate": "DEVELOPMENT",
+        "status": "SUCCESS"
+    },
+    "latest": 91,
+    "last_successful": 91
 }
