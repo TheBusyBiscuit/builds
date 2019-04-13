@@ -1458,6 +1458,22 @@
         "candidate": "DEVELOPMENT",
         "status": "SUCCESS"
     },
-    "latest": 91,
-    "last_successful": 91
+    "92": {
+        "id": 92,
+        "sha": "4f05f8047d12f0ace90112961966265ab62f854f",
+        "date": "13 Apr 2019 (12:25:57)",
+        "timestamp": 20190413122557,
+        "message": "Merge pull request #891 from SoSeDiK/cargo\n\nFix for #888",
+        "author": "TheBusyBiscuit",
+        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
+        "license": {
+            "name": "GNU General Public License v3.0",
+            "id": "GPL-3.0",
+            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/Slimefun4/master/LICENSE"
+        },
+        "candidate": "DEVELOPMENT",
+        "status": "SUCCESS"
+    },
+    "latest": 92,
+    "last_successful": 92
 }
