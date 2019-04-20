@@ -1,0 +1,352 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------------< me.mrCookieSlime:CS-CoreLib >---------------------
+[INFO] Building CS-CoreLib DEV - 37 (git a6fa4428)
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-shade-plugin/3.1.0/maven-shade-plugin-3.1.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-shade-plugin/3.1.0/maven-shade-plugin-3.1.0.pom (9.5 kB at 5.7 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/30/maven-plugins-30.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/30/maven-plugins-30.pom (10 kB at 97 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/30/maven-parent-30.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/30/maven-parent-30.pom (41 kB at 220 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/apache/18/apache-18.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/apache/18/apache-18.pom (0 B at 0 B/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-shade-plugin/3.1.0/maven-shade-plugin-3.1.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-shade-plugin/3.1.0/maven-shade-plugin-3.1.0.jar (114 kB at 84 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/bukkit/bukkit/1.13.2-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/bukkit/bukkit/1.13.2-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/org/bukkit/bukkit/1.13.2-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from worldedit-worldguard-repo: http://maven.sk89q.com/repo/org/bukkit/bukkit/1.13.2-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/bukkit/bukkit/1.13.2-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloaded from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/bukkit/bukkit/1.13.2-R0.1-SNAPSHOT/maven-metadata.xml (1.5 kB at 2.6 kB/s)
+[INFO] Downloading from bintray-tastybento-maven-repo: http://dl.bintray.com/tastybento/maven-repo/org/bukkit/bukkit/1.13.2-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from massivecore-factions-repo: http://repo.dustplanet.de/artifactory/ext-release-local/org/bukkit/bukkit/1.13.2-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from incendo-plotsquared-repo: https://incendo.org/mvn/org/bukkit/bukkit/1.13.2-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from FactionsUUID-repo: https://ci.ender.zone/job/FactionsUUID/122/maven-repository/repository/org/bukkit/bukkit/1.13.2-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from CodeMC: https://repo.codemc.org/repository/maven-public/org/bukkit/bukkit/1.13.2-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/bukkit/bukkit/1.13.2-R0.1-SNAPSHOT/maven-metadata.xml (1.5 kB at 1.2 kB/s)
+[WARNING] Could not transfer metadata org.bukkit:bukkit:1.13.2-R0.1-SNAPSHOT/maven-metadata.xml from/to incendo-plotsquared-repo (https://incendo.org/mvn/): Connect to incendo.org:443 [incendo.org/167.99.38.112] failed: Die Wartezeit für die Verbindung ist abgelaufen
+[WARNING] Failure to transfer org.bukkit:bukkit:1.13.2-R0.1-SNAPSHOT/maven-metadata.xml from https://incendo.org/mvn/ was cached in the local repository, resolution will not be reattempted until the update interval of incendo-plotsquared-repo has elapsed or updates are forced. Original error: Could not transfer metadata org.bukkit:bukkit:1.13.2-R0.1-SNAPSHOT/maven-metadata.xml from/to incendo-plotsquared-repo (https://incendo.org/mvn/): Connect to incendo.org:443 [incendo.org/167.99.38.112] failed: Die Wartezeit für die Verbindung ist abgelaufen
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/org/bukkit/bukkit/1.13.2-R0.1-SNAPSHOT/bukkit-1.13.2-R0.1-20190420.032712-210.pom
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/bukkit/bukkit/1.13.2-R0.1-SNAPSHOT/bukkit-1.13.2-R0.1-20190420.032712-210.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/bukkit/bukkit/1.13.2-R0.1-SNAPSHOT/bukkit-1.13.2-R0.1-20190420.032712-210.pom (7.4 kB at 12 kB/s)
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/com/sk89q/worldedit/worldedit-bukkit/7.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/sk89q/worldedit/worldedit-bukkit/7.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/sk89q/worldedit/worldedit-bukkit/7.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from worldedit-worldguard-repo: http://maven.sk89q.com/repo/com/sk89q/worldedit/worldedit-bukkit/7.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/sk89q/worldedit/worldedit-bukkit/7.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from bintray-tastybento-maven-repo: http://dl.bintray.com/tastybento/maven-repo/com/sk89q/worldedit/worldedit-bukkit/7.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from massivecore-factions-repo: http://repo.dustplanet.de/artifactory/ext-release-local/com/sk89q/worldedit/worldedit-bukkit/7.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from incendo-plotsquared-repo: https://incendo.org/mvn/com/sk89q/worldedit/worldedit-bukkit/7.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from FactionsUUID-repo: https://ci.ender.zone/job/FactionsUUID/122/maven-repository/repository/com/sk89q/worldedit/worldedit-bukkit/7.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from CodeMC: https://repo.codemc.org/repository/maven-public/com/sk89q/worldedit/worldedit-bukkit/7.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloaded from worldedit-worldguard-repo: http://maven.sk89q.com/repo/com/sk89q/worldedit/worldedit-bukkit/7.0.0-SNAPSHOT/maven-metadata.xml (1.2 kB at 2.1 kB/s)
+[WARNING] Could not transfer metadata com.sk89q.worldedit:worldedit-bukkit:7.0.0-SNAPSHOT/maven-metadata.xml from/to incendo-plotsquared-repo (https://incendo.org/mvn/): Connect to incendo.org:443 [incendo.org/167.99.38.112] failed: Die Wartezeit für die Verbindung ist abgelaufen
+[WARNING] Failure to transfer com.sk89q.worldedit:worldedit-bukkit:7.0.0-SNAPSHOT/maven-metadata.xml from https://incendo.org/mvn/ was cached in the local repository, resolution will not be reattempted until the update interval of incendo-plotsquared-repo has elapsed or updates are forced. Original error: Could not transfer metadata com.sk89q.worldedit:worldedit-bukkit:7.0.0-SNAPSHOT/maven-metadata.xml from/to incendo-plotsquared-repo (https://incendo.org/mvn/): Connect to incendo.org:443 [incendo.org/167.99.38.112] failed: Die Wartezeit für die Verbindung ist abgelaufen
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/com/sk89q/worldedit/worldedit-bukkit/7.0.0-SNAPSHOT/worldedit-bukkit-7.0.0-20190420.033428-113.pom
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/sk89q/worldedit/worldedit-bukkit/7.0.0-SNAPSHOT/worldedit-bukkit-7.0.0-20190420.033428-113.pom
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/sk89q/worldedit/worldedit-bukkit/7.0.0-SNAPSHOT/worldedit-bukkit-7.0.0-20190420.033428-113.pom
+[INFO] Downloading from worldedit-worldguard-repo: http://maven.sk89q.com/repo/com/sk89q/worldedit/worldedit-bukkit/7.0.0-SNAPSHOT/worldedit-bukkit-7.0.0-20190420.033428-113.pom
+[INFO] Downloaded from worldedit-worldguard-repo: http://maven.sk89q.com/repo/com/sk89q/worldedit/worldedit-bukkit/7.0.0-SNAPSHOT/worldedit-bukkit-7.0.0-20190420.033428-113.pom (1.8 kB at 3.2 kB/s)
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/com/sk89q/worldedit/worldedit-core/7.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/sk89q/worldedit/worldedit-core/7.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from worldedit-worldguard-repo: http://maven.sk89q.com/repo/com/sk89q/worldedit/worldedit-core/7.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/sk89q/worldedit/worldedit-core/7.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/sk89q/worldedit/worldedit-core/7.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from bintray-tastybento-maven-repo: http://dl.bintray.com/tastybento/maven-repo/com/sk89q/worldedit/worldedit-core/7.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloaded from worldedit-worldguard-repo: http://maven.sk89q.com/repo/com/sk89q/worldedit/worldedit-core/7.0.0-SNAPSHOT/maven-metadata.xml (1.2 kB at 2.7 kB/s)
+[INFO] Downloading from massivecore-factions-repo: http://repo.dustplanet.de/artifactory/ext-release-local/com/sk89q/worldedit/worldedit-core/7.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from incendo-plotsquared-repo: https://incendo.org/mvn/com/sk89q/worldedit/worldedit-core/7.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from FactionsUUID-repo: https://ci.ender.zone/job/FactionsUUID/122/maven-repository/repository/com/sk89q/worldedit/worldedit-core/7.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from CodeMC: https://repo.codemc.org/repository/maven-public/com/sk89q/worldedit/worldedit-core/7.0.0-SNAPSHOT/maven-metadata.xml
+[WARNING] Could not transfer metadata com.sk89q.worldedit:worldedit-core:7.0.0-SNAPSHOT/maven-metadata.xml from/to incendo-plotsquared-repo (https://incendo.org/mvn/): Connect to incendo.org:443 [incendo.org/167.99.38.112] failed: Die Wartezeit für die Verbindung ist abgelaufen
+[WARNING] Failure to transfer com.sk89q.worldedit:worldedit-core:7.0.0-SNAPSHOT/maven-metadata.xml from https://incendo.org/mvn/ was cached in the local repository, resolution will not be reattempted until the update interval of incendo-plotsquared-repo has elapsed or updates are forced. Original error: Could not transfer metadata com.sk89q.worldedit:worldedit-core:7.0.0-SNAPSHOT/maven-metadata.xml from/to incendo-plotsquared-repo (https://incendo.org/mvn/): Connect to incendo.org:443 [incendo.org/167.99.38.112] failed: Die Wartezeit für die Verbindung ist abgelaufen
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/com/sk89q/worldedit/worldedit-core/7.0.0-SNAPSHOT/worldedit-core-7.0.0-20190420.033428-113.pom
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/sk89q/worldedit/worldedit-core/7.0.0-SNAPSHOT/worldedit-core-7.0.0-20190420.033428-113.pom
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/sk89q/worldedit/worldedit-core/7.0.0-SNAPSHOT/worldedit-core-7.0.0-20190420.033428-113.pom
+[INFO] Downloading from worldedit-worldguard-repo: http://maven.sk89q.com/repo/com/sk89q/worldedit/worldedit-core/7.0.0-SNAPSHOT/worldedit-core-7.0.0-20190420.033428-113.pom
+[INFO] Downloaded from worldedit-worldguard-repo: http://maven.sk89q.com/repo/com/sk89q/worldedit/worldedit-core/7.0.0-SNAPSHOT/worldedit-core-7.0.0-20190420.033428-113.pom (2.6 kB at 5.4 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/sk89q/worldguard/worldguard-legacy/7.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/sk89q/worldguard/worldguard-legacy/7.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/com/sk89q/worldguard/worldguard-legacy/7.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from worldedit-worldguard-repo: http://maven.sk89q.com/repo/com/sk89q/worldguard/worldguard-legacy/7.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/sk89q/worldguard/worldguard-legacy/7.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloaded from worldedit-worldguard-repo: http://maven.sk89q.com/repo/com/sk89q/worldguard/worldguard-legacy/7.0.0-SNAPSHOT/maven-metadata.xml (1.2 kB at 2.9 kB/s)
+[INFO] Downloading from bintray-tastybento-maven-repo: http://dl.bintray.com/tastybento/maven-repo/com/sk89q/worldguard/worldguard-legacy/7.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from massivecore-factions-repo: http://repo.dustplanet.de/artifactory/ext-release-local/com/sk89q/worldguard/worldguard-legacy/7.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from incendo-plotsquared-repo: https://incendo.org/mvn/com/sk89q/worldguard/worldguard-legacy/7.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from FactionsUUID-repo: https://ci.ender.zone/job/FactionsUUID/122/maven-repository/repository/com/sk89q/worldguard/worldguard-legacy/7.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from CodeMC: https://repo.codemc.org/repository/maven-public/com/sk89q/worldguard/worldguard-legacy/7.0.0-SNAPSHOT/maven-metadata.xml
+[WARNING] Could not transfer metadata com.sk89q.worldguard:worldguard-legacy:7.0.0-SNAPSHOT/maven-metadata.xml from/to incendo-plotsquared-repo (https://incendo.org/mvn/): Connect to incendo.org:443 [incendo.org/167.99.38.112] failed: Die Wartezeit für die Verbindung ist abgelaufen
+[WARNING] Failure to transfer com.sk89q.worldguard:worldguard-legacy:7.0.0-SNAPSHOT/maven-metadata.xml from https://incendo.org/mvn/ was cached in the local repository, resolution will not be reattempted until the update interval of incendo-plotsquared-repo has elapsed or updates are forced. Original error: Could not transfer metadata com.sk89q.worldguard:worldguard-legacy:7.0.0-SNAPSHOT/maven-metadata.xml from/to incendo-plotsquared-repo (https://incendo.org/mvn/): Connect to incendo.org:443 [incendo.org/167.99.38.112] failed: Die Wartezeit für die Verbindung ist abgelaufen
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/com/sk89q/worldguard/worldguard-legacy/7.0.0-SNAPSHOT/worldguard-legacy-7.0.0-20190418.012505-68.pom
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/sk89q/worldguard/worldguard-legacy/7.0.0-SNAPSHOT/worldguard-legacy-7.0.0-20190418.012505-68.pom
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/sk89q/worldguard/worldguard-legacy/7.0.0-SNAPSHOT/worldguard-legacy-7.0.0-20190418.012505-68.pom
+[INFO] Downloading from worldedit-worldguard-repo: http://maven.sk89q.com/repo/com/sk89q/worldguard/worldguard-legacy/7.0.0-SNAPSHOT/worldguard-legacy-7.0.0-20190418.012505-68.pom
+[INFO] Downloaded from worldedit-worldguard-repo: http://maven.sk89q.com/repo/com/sk89q/worldguard/worldguard-legacy/7.0.0-SNAPSHOT/worldguard-legacy-7.0.0-20190418.012505-68.pom (1.7 kB at 4.3 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/sk89q/worldguard/worldguard-core/7.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/com/sk89q/worldguard/worldguard-core/7.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from worldedit-worldguard-repo: http://maven.sk89q.com/repo/com/sk89q/worldguard/worldguard-core/7.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/sk89q/worldguard/worldguard-core/7.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloaded from worldedit-worldguard-repo: http://maven.sk89q.com/repo/com/sk89q/worldguard/worldguard-core/7.0.0-SNAPSHOT/maven-metadata.xml (1.2 kB at 4.0 kB/s)
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/sk89q/worldguard/worldguard-core/7.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from bintray-tastybento-maven-repo: http://dl.bintray.com/tastybento/maven-repo/com/sk89q/worldguard/worldguard-core/7.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from massivecore-factions-repo: http://repo.dustplanet.de/artifactory/ext-release-local/com/sk89q/worldguard/worldguard-core/7.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from incendo-plotsquared-repo: https://incendo.org/mvn/com/sk89q/worldguard/worldguard-core/7.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from FactionsUUID-repo: https://ci.ender.zone/job/FactionsUUID/122/maven-repository/repository/com/sk89q/worldguard/worldguard-core/7.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from CodeMC: https://repo.codemc.org/repository/maven-public/com/sk89q/worldguard/worldguard-core/7.0.0-SNAPSHOT/maven-metadata.xml
+[WARNING] Could not transfer metadata com.sk89q.worldguard:worldguard-core:7.0.0-SNAPSHOT/maven-metadata.xml from/to incendo-plotsquared-repo (https://incendo.org/mvn/): Connect to incendo.org:443 [incendo.org/167.99.38.112] failed: Die Wartezeit für die Verbindung ist abgelaufen
+[WARNING] Failure to transfer com.sk89q.worldguard:worldguard-core:7.0.0-SNAPSHOT/maven-metadata.xml from https://incendo.org/mvn/ was cached in the local repository, resolution will not be reattempted until the update interval of incendo-plotsquared-repo has elapsed or updates are forced. Original error: Could not transfer metadata com.sk89q.worldguard:worldguard-core:7.0.0-SNAPSHOT/maven-metadata.xml from/to incendo-plotsquared-repo (https://incendo.org/mvn/): Connect to incendo.org:443 [incendo.org/167.99.38.112] failed: Die Wartezeit für die Verbindung ist abgelaufen
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/com/sk89q/worldguard/worldguard-core/7.0.0-SNAPSHOT/worldguard-core-7.0.0-20190418.012505-68.pom
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/sk89q/worldguard/worldguard-core/7.0.0-SNAPSHOT/worldguard-core-7.0.0-20190418.012505-68.pom
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/sk89q/worldguard/worldguard-core/7.0.0-SNAPSHOT/worldguard-core-7.0.0-20190418.012505-68.pom
+[INFO] Downloading from worldedit-worldguard-repo: http://maven.sk89q.com/repo/com/sk89q/worldguard/worldguard-core/7.0.0-SNAPSHOT/worldguard-core-7.0.0-20190418.012505-68.pom
+[INFO] Downloaded from worldedit-worldguard-repo: http://maven.sk89q.com/repo/com/sk89q/worldguard/worldguard-core/7.0.0-SNAPSHOT/worldguard-core-7.0.0-20190418.012505-68.pom (1.9 kB at 4.7 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/sk89q/intake/intake/4.2-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from worldedit-worldguard-repo: http://maven.sk89q.com/repo/com/sk89q/intake/intake/4.2-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/sk89q/intake/intake/4.2-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/com/sk89q/intake/intake/4.2-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/sk89q/intake/intake/4.2-SNAPSHOT/maven-metadata.xml
+[INFO] Downloaded from worldedit-worldguard-repo: http://maven.sk89q.com/repo/com/sk89q/intake/intake/4.2-SNAPSHOT/maven-metadata.xml (1.2 kB at 3.2 kB/s)
+[INFO] Downloading from bintray-tastybento-maven-repo: http://dl.bintray.com/tastybento/maven-repo/com/sk89q/intake/intake/4.2-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from massivecore-factions-repo: http://repo.dustplanet.de/artifactory/ext-release-local/com/sk89q/intake/intake/4.2-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from incendo-plotsquared-repo: https://incendo.org/mvn/com/sk89q/intake/intake/4.2-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from FactionsUUID-repo: https://ci.ender.zone/job/FactionsUUID/122/maven-repository/repository/com/sk89q/intake/intake/4.2-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from CodeMC: https://repo.codemc.org/repository/maven-public/com/sk89q/intake/intake/4.2-SNAPSHOT/maven-metadata.xml
+[WARNING] Could not transfer metadata com.sk89q.intake:intake:4.2-SNAPSHOT/maven-metadata.xml from/to incendo-plotsquared-repo (https://incendo.org/mvn/): Connect to incendo.org:443 [incendo.org/167.99.38.112] failed: Die Wartezeit für die Verbindung ist abgelaufen
+[WARNING] Failure to transfer com.sk89q.intake:intake:4.2-SNAPSHOT/maven-metadata.xml from https://incendo.org/mvn/ was cached in the local repository, resolution will not be reattempted until the update interval of incendo-plotsquared-repo has elapsed or updates are forced. Original error: Could not transfer metadata com.sk89q.intake:intake:4.2-SNAPSHOT/maven-metadata.xml from/to incendo-plotsquared-repo (https://incendo.org/mvn/): Connect to incendo.org:443 [incendo.org/167.99.38.112] failed: Die Wartezeit für die Verbindung ist abgelaufen
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/org/bukkit/bukkit/1.13-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from worldedit-worldguard-repo: http://maven.sk89q.com/repo/org/bukkit/bukkit/1.13-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/bukkit/bukkit/1.13-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/bukkit/bukkit/1.13-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/bukkit/bukkit/1.13-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from bintray-tastybento-maven-repo: http://dl.bintray.com/tastybento/maven-repo/org/bukkit/bukkit/1.13-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloaded from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/bukkit/bukkit/1.13-R0.1-SNAPSHOT/maven-metadata.xml (1.4 kB at 2.6 kB/s)
+[INFO] Downloading from massivecore-factions-repo: http://repo.dustplanet.de/artifactory/ext-release-local/org/bukkit/bukkit/1.13-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from incendo-plotsquared-repo: https://incendo.org/mvn/org/bukkit/bukkit/1.13-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from FactionsUUID-repo: https://ci.ender.zone/job/FactionsUUID/122/maven-repository/repository/org/bukkit/bukkit/1.13-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from CodeMC: https://repo.codemc.org/repository/maven-public/org/bukkit/bukkit/1.13-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/bukkit/bukkit/1.13-R0.1-SNAPSHOT/maven-metadata.xml (1.4 kB at 1.8 kB/s)
+[WARNING] Could not transfer metadata org.bukkit:bukkit:1.13-R0.1-SNAPSHOT/maven-metadata.xml from/to incendo-plotsquared-repo (https://incendo.org/mvn/): Connect to incendo.org:443 [incendo.org/167.99.38.112] failed: Die Wartezeit für die Verbindung ist abgelaufen
+[WARNING] Failure to transfer org.bukkit:bukkit:1.13-R0.1-SNAPSHOT/maven-metadata.xml from https://incendo.org/mvn/ was cached in the local repository, resolution will not be reattempted until the update interval of incendo-plotsquared-repo has elapsed or updates are forced. Original error: Could not transfer metadata org.bukkit:bukkit:1.13-R0.1-SNAPSHOT/maven-metadata.xml from/to incendo-plotsquared-repo (https://incendo.org/mvn/): Connect to incendo.org:443 [incendo.org/167.99.38.112] failed: Die Wartezeit für die Verbindung ist abgelaufen
+[INFO] Downloading from worldedit-worldguard-repo: http://maven.sk89q.com/repo/org/bukkit/bukkit/1.6.2-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/bukkit/bukkit/1.6.2-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/org/bukkit/bukkit/1.6.2-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/bukkit/bukkit/1.6.2-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/bukkit/bukkit/1.6.2-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from bintray-tastybento-maven-repo: http://dl.bintray.com/tastybento/maven-repo/org/bukkit/bukkit/1.6.2-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from massivecore-factions-repo: http://repo.dustplanet.de/artifactory/ext-release-local/org/bukkit/bukkit/1.6.2-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from incendo-plotsquared-repo: https://incendo.org/mvn/org/bukkit/bukkit/1.6.2-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from FactionsUUID-repo: https://ci.ender.zone/job/FactionsUUID/122/maven-repository/repository/org/bukkit/bukkit/1.6.2-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from CodeMC: https://repo.codemc.org/repository/maven-public/org/bukkit/bukkit/1.6.2-R0.1-SNAPSHOT/maven-metadata.xml
+[WARNING] Could not transfer metadata org.bukkit:bukkit:1.6.2-R0.1-SNAPSHOT/maven-metadata.xml from/to incendo-plotsquared-repo (https://incendo.org/mvn/): Connect to incendo.org:443 [incendo.org/167.99.38.112] failed: Die Wartezeit für die Verbindung ist abgelaufen
+[WARNING] Failure to transfer org.bukkit:bukkit:1.6.2-R0.1-SNAPSHOT/maven-metadata.xml from https://incendo.org/mvn/ was cached in the local repository, resolution will not be reattempted until the update interval of incendo-plotsquared-repo has elapsed or updates are forced. Original error: Could not transfer metadata org.bukkit:bukkit:1.6.2-R0.1-SNAPSHOT/maven-metadata.xml from/to incendo-plotsquared-repo (https://incendo.org/mvn/): Connect to incendo.org:443 [incendo.org/167.99.38.112] failed: Die Wartezeit für die Verbindung ist abgelaufen
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/org/bukkit/bukkit/1.6.2-R0.1-SNAPSHOT/bukkit-1.6.2-R0.1-SNAPSHOT.pom
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/bukkit/bukkit/1.6.2-R0.1-SNAPSHOT/bukkit-1.6.2-R0.1-SNAPSHOT.pom
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/bukkit/bukkit/1.6.2-R0.1-SNAPSHOT/bukkit-1.6.2-R0.1-SNAPSHOT.pom
+[INFO] Downloading from worldedit-worldguard-repo: http://maven.sk89q.com/repo/org/bukkit/bukkit/1.6.2-R0.1-SNAPSHOT/bukkit-1.6.2-R0.1-SNAPSHOT.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/bukkit/bukkit/1.6.2-R0.1-SNAPSHOT/bukkit-1.6.2-R0.1-SNAPSHOT.pom
+[INFO] Downloading from bintray-tastybento-maven-repo: http://dl.bintray.com/tastybento/maven-repo/org/bukkit/bukkit/1.6.2-R0.1-SNAPSHOT/bukkit-1.6.2-R0.1-SNAPSHOT.pom
+[INFO] Downloading from massivecore-factions-repo: http://repo.dustplanet.de/artifactory/ext-release-local/org/bukkit/bukkit/1.6.2-R0.1-SNAPSHOT/bukkit-1.6.2-R0.1-SNAPSHOT.pom
+[INFO] Downloading from incendo-plotsquared-repo: https://incendo.org/mvn/org/bukkit/bukkit/1.6.2-R0.1-SNAPSHOT/bukkit-1.6.2-R0.1-SNAPSHOT.pom
+[INFO] Downloading from FactionsUUID-repo: https://ci.ender.zone/job/FactionsUUID/122/maven-repository/repository/org/bukkit/bukkit/1.6.2-R0.1-SNAPSHOT/bukkit-1.6.2-R0.1-SNAPSHOT.pom
+[INFO] Downloading from CodeMC: https://repo.codemc.org/repository/maven-public/org/bukkit/bukkit/1.6.2-R0.1-SNAPSHOT/bukkit-1.6.2-R0.1-SNAPSHOT.pom
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/com/sk89q/worldguard/6.1.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from worldedit-worldguard-repo: http://maven.sk89q.com/repo/com/sk89q/worldguard/6.1.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/sk89q/worldguard/6.1.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/sk89q/worldguard/6.1.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/sk89q/worldguard/6.1.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from bintray-tastybento-maven-repo: http://dl.bintray.com/tastybento/maven-repo/com/sk89q/worldguard/6.1.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from massivecore-factions-repo: http://repo.dustplanet.de/artifactory/ext-release-local/com/sk89q/worldguard/6.1.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from incendo-plotsquared-repo: https://incendo.org/mvn/com/sk89q/worldguard/6.1.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from FactionsUUID-repo: https://ci.ender.zone/job/FactionsUUID/122/maven-repository/repository/com/sk89q/worldguard/6.1.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloaded from worldedit-worldguard-repo: http://maven.sk89q.com/repo/com/sk89q/worldguard/6.1.1-SNAPSHOT/maven-metadata.xml (1.7 kB at 3.6 kB/s)
+[INFO] Downloading from CodeMC: https://repo.codemc.org/repository/maven-public/com/sk89q/worldguard/6.1.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from vault-repo: http://nexus.hc.to/content/repositories/pub_releases/com/sk89q/worldguard/6.1.1-SNAPSHOT/maven-metadata.xml
+[WARNING] Could not transfer metadata com.sk89q:worldguard:6.1.1-SNAPSHOT/maven-metadata.xml from/to incendo-plotsquared-repo (https://incendo.org/mvn/): Connect to incendo.org:443 [incendo.org/167.99.38.112] failed: Die Wartezeit für die Verbindung ist abgelaufen
+[WARNING] Failure to transfer com.sk89q:worldguard:6.1.1-SNAPSHOT/maven-metadata.xml from https://incendo.org/mvn/ was cached in the local repository, resolution will not be reattempted until the update interval of incendo-plotsquared-repo has elapsed or updates are forced. Original error: Could not transfer metadata com.sk89q:worldguard:6.1.1-SNAPSHOT/maven-metadata.xml from/to incendo-plotsquared-repo (https://incendo.org/mvn/): Connect to incendo.org:443 [incendo.org/167.99.38.112] failed: Die Wartezeit für die Verbindung ist abgelaufen
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/sk89q/spigot/bukkit-classloader-check/1.8-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/com/sk89q/spigot/bukkit-classloader-check/1.8-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/sk89q/spigot/bukkit-classloader-check/1.8-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from worldedit-worldguard-repo: http://maven.sk89q.com/repo/com/sk89q/spigot/bukkit-classloader-check/1.8-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/sk89q/spigot/bukkit-classloader-check/1.8-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloaded from worldedit-worldguard-repo: http://maven.sk89q.com/repo/com/sk89q/spigot/bukkit-classloader-check/1.8-R0.1-SNAPSHOT/maven-metadata.xml (794 B at 2.0 kB/s)
+[INFO] Downloading from bintray-tastybento-maven-repo: http://dl.bintray.com/tastybento/maven-repo/com/sk89q/spigot/bukkit-classloader-check/1.8-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from massivecore-factions-repo: http://repo.dustplanet.de/artifactory/ext-release-local/com/sk89q/spigot/bukkit-classloader-check/1.8-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from incendo-plotsquared-repo: https://incendo.org/mvn/com/sk89q/spigot/bukkit-classloader-check/1.8-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from FactionsUUID-repo: https://ci.ender.zone/job/FactionsUUID/122/maven-repository/repository/com/sk89q/spigot/bukkit-classloader-check/1.8-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from CodeMC: https://repo.codemc.org/repository/maven-public/com/sk89q/spigot/bukkit-classloader-check/1.8-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from vault-repo: http://nexus.hc.to/content/repositories/pub_releases/com/sk89q/spigot/bukkit-classloader-check/1.8-R0.1-SNAPSHOT/maven-metadata.xml
+[WARNING] Could not transfer metadata com.sk89q.spigot:bukkit-classloader-check:1.8-R0.1-SNAPSHOT/maven-metadata.xml from/to incendo-plotsquared-repo (https://incendo.org/mvn/): Connect to incendo.org:443 [incendo.org/167.99.38.112] failed: Die Wartezeit für die Verbindung ist abgelaufen
+[WARNING] Failure to transfer com.sk89q.spigot:bukkit-classloader-check:1.8-R0.1-SNAPSHOT/maven-metadata.xml from https://incendo.org/mvn/ was cached in the local repository, resolution will not be reattempted until the update interval of incendo-plotsquared-repo has elapsed or updates are forced. Original error: Could not transfer metadata com.sk89q.spigot:bukkit-classloader-check:1.8-R0.1-SNAPSHOT/maven-metadata.xml from/to incendo-plotsquared-repo (https://incendo.org/mvn/): Connect to incendo.org:443 [incendo.org/167.99.38.112] failed: Die Wartezeit für die Verbindung ist abgelaufen
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/org/bukkit/bukkit/1.8.6-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/bukkit/bukkit/1.8.6-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from worldedit-worldguard-repo: http://maven.sk89q.com/repo/org/bukkit/bukkit/1.8.6-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/bukkit/bukkit/1.8.6-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/bukkit/bukkit/1.8.6-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloaded from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/bukkit/bukkit/1.8.6-R0.1-SNAPSHOT/maven-metadata.xml (1.4 kB at 3.1 kB/s)
+[INFO] Downloading from bintray-tastybento-maven-repo: http://dl.bintray.com/tastybento/maven-repo/org/bukkit/bukkit/1.8.6-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from massivecore-factions-repo: http://repo.dustplanet.de/artifactory/ext-release-local/org/bukkit/bukkit/1.8.6-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from incendo-plotsquared-repo: https://incendo.org/mvn/org/bukkit/bukkit/1.8.6-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from FactionsUUID-repo: https://ci.ender.zone/job/FactionsUUID/122/maven-repository/repository/org/bukkit/bukkit/1.8.6-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/bukkit/bukkit/1.8.6-R0.1-SNAPSHOT/maven-metadata.xml (1.4 kB at 2.0 kB/s)
+[INFO] Downloading from CodeMC: https://repo.codemc.org/repository/maven-public/org/bukkit/bukkit/1.8.6-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from vault-repo: http://nexus.hc.to/content/repositories/pub_releases/org/bukkit/bukkit/1.8.6-R0.1-SNAPSHOT/maven-metadata.xml
+[WARNING] Could not transfer metadata org.bukkit:bukkit:1.8.6-R0.1-SNAPSHOT/maven-metadata.xml from/to incendo-plotsquared-repo (https://incendo.org/mvn/): Connect to incendo.org:443 [incendo.org/167.99.38.112] failed: Die Wartezeit für die Verbindung ist abgelaufen
+[WARNING] Failure to transfer org.bukkit:bukkit:1.8.6-R0.1-SNAPSHOT/maven-metadata.xml from https://incendo.org/mvn/ was cached in the local repository, resolution will not be reattempted until the update interval of incendo-plotsquared-repo has elapsed or updates are forced. Original error: Could not transfer metadata org.bukkit:bukkit:1.8.6-R0.1-SNAPSHOT/maven-metadata.xml from/to incendo-plotsquared-repo (https://incendo.org/mvn/): Connect to incendo.org:443 [incendo.org/167.99.38.112] failed: Die Wartezeit für die Verbindung ist abgelaufen
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/com/sk89q/worldedit/worldedit-bukkit/6.1.4-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/sk89q/worldedit/worldedit-bukkit/6.1.4-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/sk89q/worldedit/worldedit-bukkit/6.1.4-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from worldedit-worldguard-repo: http://maven.sk89q.com/repo/com/sk89q/worldedit/worldedit-bukkit/6.1.4-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/sk89q/worldedit/worldedit-bukkit/6.1.4-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from bintray-tastybento-maven-repo: http://dl.bintray.com/tastybento/maven-repo/com/sk89q/worldedit/worldedit-bukkit/6.1.4-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from massivecore-factions-repo: http://repo.dustplanet.de/artifactory/ext-release-local/com/sk89q/worldedit/worldedit-bukkit/6.1.4-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from incendo-plotsquared-repo: https://incendo.org/mvn/com/sk89q/worldedit/worldedit-bukkit/6.1.4-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from FactionsUUID-repo: https://ci.ender.zone/job/FactionsUUID/122/maven-repository/repository/com/sk89q/worldedit/worldedit-bukkit/6.1.4-SNAPSHOT/maven-metadata.xml
+[INFO] Downloaded from worldedit-worldguard-repo: http://maven.sk89q.com/repo/com/sk89q/worldedit/worldedit-bukkit/6.1.4-SNAPSHOT/maven-metadata.xml (1.2 kB at 1.9 kB/s)
+[INFO] Downloading from CodeMC: https://repo.codemc.org/repository/maven-public/com/sk89q/worldedit/worldedit-bukkit/6.1.4-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from vault-repo: http://nexus.hc.to/content/repositories/pub_releases/com/sk89q/worldedit/worldedit-bukkit/6.1.4-SNAPSHOT/maven-metadata.xml
+[WARNING] Could not transfer metadata com.sk89q.worldedit:worldedit-bukkit:6.1.4-SNAPSHOT/maven-metadata.xml from/to incendo-plotsquared-repo (https://incendo.org/mvn/): Connect to incendo.org:443 [incendo.org/167.99.38.112] failed: Die Wartezeit für die Verbindung ist abgelaufen
+[WARNING] Failure to transfer com.sk89q.worldedit:worldedit-bukkit:6.1.4-SNAPSHOT/maven-metadata.xml from https://incendo.org/mvn/ was cached in the local repository, resolution will not be reattempted until the update interval of incendo-plotsquared-repo has elapsed or updates are forced. Original error: Could not transfer metadata com.sk89q.worldedit:worldedit-bukkit:6.1.4-SNAPSHOT/maven-metadata.xml from/to incendo-plotsquared-repo (https://incendo.org/mvn/): Connect to incendo.org:443 [incendo.org/167.99.38.112] failed: Die Wartezeit für die Verbindung ist abgelaufen
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/bukkit/bukkit/1.9.4-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/org/bukkit/bukkit/1.9.4-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/bukkit/bukkit/1.9.4-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from worldedit-worldguard-repo: http://maven.sk89q.com/repo/org/bukkit/bukkit/1.9.4-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/bukkit/bukkit/1.9.4-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from bintray-tastybento-maven-repo: http://dl.bintray.com/tastybento/maven-repo/org/bukkit/bukkit/1.9.4-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from massivecore-factions-repo: http://repo.dustplanet.de/artifactory/ext-release-local/org/bukkit/bukkit/1.9.4-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloaded from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/bukkit/bukkit/1.9.4-R0.1-SNAPSHOT/maven-metadata.xml (1.4 kB at 2.6 kB/s)
+[INFO] Downloading from incendo-plotsquared-repo: https://incendo.org/mvn/org/bukkit/bukkit/1.9.4-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from FactionsUUID-repo: https://ci.ender.zone/job/FactionsUUID/122/maven-repository/repository/org/bukkit/bukkit/1.9.4-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from CodeMC: https://repo.codemc.org/repository/maven-public/org/bukkit/bukkit/1.9.4-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/bukkit/bukkit/1.9.4-R0.1-SNAPSHOT/maven-metadata.xml (1.4 kB at 2.1 kB/s)
+[INFO] Downloading from vault-repo: http://nexus.hc.to/content/repositories/pub_releases/org/bukkit/bukkit/1.9.4-R0.1-SNAPSHOT/maven-metadata.xml
+[WARNING] Could not transfer metadata org.bukkit:bukkit:1.9.4-R0.1-SNAPSHOT/maven-metadata.xml from/to incendo-plotsquared-repo (https://incendo.org/mvn/): Connect to incendo.org:443 [incendo.org/167.99.38.112] failed: Die Wartezeit für die Verbindung ist abgelaufen
+[WARNING] Failure to transfer org.bukkit:bukkit:1.9.4-R0.1-SNAPSHOT/maven-metadata.xml from https://incendo.org/mvn/ was cached in the local repository, resolution will not be reattempted until the update interval of incendo-plotsquared-repo has elapsed or updates are forced. Original error: Could not transfer metadata org.bukkit:bukkit:1.9.4-R0.1-SNAPSHOT/maven-metadata.xml from/to incendo-plotsquared-repo (https://incendo.org/mvn/): Connect to incendo.org:443 [incendo.org/167.99.38.112] failed: Die Wartezeit für die Verbindung ist abgelaufen
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/sk89q/worldedit/worldedit-core/6.1.4-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/sk89q/worldedit/worldedit-core/6.1.4-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/com/sk89q/worldedit/worldedit-core/6.1.4-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from worldedit-worldguard-repo: http://maven.sk89q.com/repo/com/sk89q/worldedit/worldedit-core/6.1.4-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/sk89q/worldedit/worldedit-core/6.1.4-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from bintray-tastybento-maven-repo: http://dl.bintray.com/tastybento/maven-repo/com/sk89q/worldedit/worldedit-core/6.1.4-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from massivecore-factions-repo: http://repo.dustplanet.de/artifactory/ext-release-local/com/sk89q/worldedit/worldedit-core/6.1.4-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from incendo-plotsquared-repo: https://incendo.org/mvn/com/sk89q/worldedit/worldedit-core/6.1.4-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from FactionsUUID-repo: https://ci.ender.zone/job/FactionsUUID/122/maven-repository/repository/com/sk89q/worldedit/worldedit-core/6.1.4-SNAPSHOT/maven-metadata.xml
+[INFO] Downloaded from worldedit-worldguard-repo: http://maven.sk89q.com/repo/com/sk89q/worldedit/worldedit-core/6.1.4-SNAPSHOT/maven-metadata.xml (1.2 kB at 2.0 kB/s)
+[INFO] Downloading from CodeMC: https://repo.codemc.org/repository/maven-public/com/sk89q/worldedit/worldedit-core/6.1.4-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from vault-repo: http://nexus.hc.to/content/repositories/pub_releases/com/sk89q/worldedit/worldedit-core/6.1.4-SNAPSHOT/maven-metadata.xml
+[WARNING] Could not transfer metadata com.sk89q.worldedit:worldedit-core:6.1.4-SNAPSHOT/maven-metadata.xml from/to incendo-plotsquared-repo (https://incendo.org/mvn/): Connect to incendo.org:443 [incendo.org/167.99.38.112] failed: Die Wartezeit für die Verbindung ist abgelaufen
+[WARNING] Failure to transfer com.sk89q.worldedit:worldedit-core:6.1.4-SNAPSHOT/maven-metadata.xml from https://incendo.org/mvn/ was cached in the local repository, resolution will not be reattempted until the update interval of incendo-plotsquared-repo has elapsed or updates are forced. Original error: Could not transfer metadata com.sk89q.worldedit:worldedit-core:6.1.4-SNAPSHOT/maven-metadata.xml from/to incendo-plotsquared-repo (https://incendo.org/mvn/): Connect to incendo.org:443 [incendo.org/167.99.38.112] failed: Die Wartezeit für die Verbindung ist abgelaufen
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/bukkit/bukkit/1.9-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from worldedit-worldguard-repo: http://maven.sk89q.com/repo/org/bukkit/bukkit/1.9-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/bukkit/bukkit/1.9-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/org/bukkit/bukkit/1.9-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/bukkit/bukkit/1.9-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloaded from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/bukkit/bukkit/1.9-R0.1-SNAPSHOT/maven-metadata.xml (1.4 kB at 2.8 kB/s)
+[INFO] Downloading from bintray-tastybento-maven-repo: http://dl.bintray.com/tastybento/maven-repo/org/bukkit/bukkit/1.9-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from massivecore-factions-repo: http://repo.dustplanet.de/artifactory/ext-release-local/org/bukkit/bukkit/1.9-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from incendo-plotsquared-repo: https://incendo.org/mvn/org/bukkit/bukkit/1.9-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from FactionsUUID-repo: https://ci.ender.zone/job/FactionsUUID/122/maven-repository/repository/org/bukkit/bukkit/1.9-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from CodeMC: https://repo.codemc.org/repository/maven-public/org/bukkit/bukkit/1.9-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from vault-repo: http://nexus.hc.to/content/repositories/pub_releases/org/bukkit/bukkit/1.9-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/bukkit/bukkit/1.9-R0.1-SNAPSHOT/maven-metadata.xml (1.4 kB at 1.7 kB/s)
+[WARNING] Could not transfer metadata org.bukkit:bukkit:1.9-R0.1-SNAPSHOT/maven-metadata.xml from/to incendo-plotsquared-repo (https://incendo.org/mvn/): Connect to incendo.org:443 [incendo.org/167.99.38.112] failed: Die Wartezeit für die Verbindung ist abgelaufen
+[WARNING] Failure to transfer org.bukkit:bukkit:1.9-R0.1-SNAPSHOT/maven-metadata.xml from https://incendo.org/mvn/ was cached in the local repository, resolution will not be reattempted until the update interval of incendo-plotsquared-repo has elapsed or updates are forced. Original error: Could not transfer metadata org.bukkit:bukkit:1.9-R0.1-SNAPSHOT/maven-metadata.xml from/to incendo-plotsquared-repo (https://incendo.org/mvn/): Connect to incendo.org:443 [incendo.org/167.99.38.112] failed: Die Wartezeit für die Verbindung ist abgelaufen
+[WARNING] The POM for com.wasteofplastic:askyblock:jar:3.0.8.2 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+[WARNING] The POM for com.github.dmulloy2.LWC:lwc:jar:master-4.5.1-g2100b5e-18 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/com/massivecraft/massivecore/MassiveCore/2.13.0/MassiveCore-2.13.0.pom
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/massivecraft/massivecore/MassiveCore/2.13.0/MassiveCore-2.13.0.pom
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/massivecraft/massivecore/MassiveCore/2.13.0/MassiveCore-2.13.0.pom
+[INFO] Downloading from worldedit-worldguard-repo: http://maven.sk89q.com/repo/com/massivecraft/massivecore/MassiveCore/2.13.0/MassiveCore-2.13.0.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/massivecraft/massivecore/MassiveCore/2.13.0/MassiveCore-2.13.0.pom
+[INFO] Downloading from bintray-tastybento-maven-repo: http://dl.bintray.com/tastybento/maven-repo/com/massivecraft/massivecore/MassiveCore/2.13.0/MassiveCore-2.13.0.pom
+[INFO] Downloading from massivecore-factions-repo: http://repo.dustplanet.de/artifactory/ext-release-local/com/massivecraft/massivecore/MassiveCore/2.13.0/MassiveCore-2.13.0.pom
+[INFO] Downloading from incendo-plotsquared-repo: https://incendo.org/mvn/com/massivecraft/massivecore/MassiveCore/2.13.0/MassiveCore-2.13.0.pom
+[INFO] Downloading from FactionsUUID-repo: https://ci.ender.zone/job/FactionsUUID/122/maven-repository/repository/com/massivecraft/massivecore/MassiveCore/2.13.0/MassiveCore-2.13.0.pom
+[INFO] Downloading from CodeMC: https://repo.codemc.org/repository/maven-public/com/massivecraft/massivecore/MassiveCore/2.13.0/MassiveCore-2.13.0.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/massivecraft/massivecore/MassiveCore/2.13.0/MassiveCore-2.13.0.pom
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/com/massivecraft/factions/Factions/2.13.0/Factions-2.13.0.pom
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/massivecraft/factions/Factions/2.13.0/Factions-2.13.0.pom
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/massivecraft/factions/Factions/2.13.0/Factions-2.13.0.pom
+[INFO] Downloading from worldedit-worldguard-repo: http://maven.sk89q.com/repo/com/massivecraft/factions/Factions/2.13.0/Factions-2.13.0.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/massivecraft/factions/Factions/2.13.0/Factions-2.13.0.pom
+[INFO] Downloading from bintray-tastybento-maven-repo: http://dl.bintray.com/tastybento/maven-repo/com/massivecraft/factions/Factions/2.13.0/Factions-2.13.0.pom
+[INFO] Downloading from massivecore-factions-repo: http://repo.dustplanet.de/artifactory/ext-release-local/com/massivecraft/factions/Factions/2.13.0/Factions-2.13.0.pom
+[INFO] Downloading from incendo-plotsquared-repo: https://incendo.org/mvn/com/massivecraft/factions/Factions/2.13.0/Factions-2.13.0.pom
+[INFO] Downloading from FactionsUUID-repo: https://ci.ender.zone/job/FactionsUUID/122/maven-repository/repository/com/massivecraft/factions/Factions/2.13.0/Factions-2.13.0.pom
+[INFO] Downloading from CodeMC: https://repo.codemc.org/repository/maven-public/com/massivecraft/factions/Factions/2.13.0/Factions-2.13.0.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/massivecraft/factions/Factions/2.13.0/Factions-2.13.0.pom
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/mkremins/fanciful/0.4.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/mkremins/fanciful/0.4.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/mkremins/fanciful/0.4.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from worldedit-worldguard-repo: http://maven.sk89q.com/repo/mkremins/fanciful/0.4.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from jitpack.io: https://jitpack.io/mkremins/fanciful/0.4.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from bintray-tastybento-maven-repo: http://dl.bintray.com/tastybento/maven-repo/mkremins/fanciful/0.4.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from massivecore-factions-repo: http://repo.dustplanet.de/artifactory/ext-release-local/mkremins/fanciful/0.4.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from incendo-plotsquared-repo: https://incendo.org/mvn/mkremins/fanciful/0.4.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from FactionsUUID-repo: https://ci.ender.zone/job/FactionsUUID/122/maven-repository/repository/mkremins/fanciful/0.4.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from CodeMC: https://repo.codemc.org/repository/maven-public/mkremins/fanciful/0.4.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from vault-repo: http://nexus.hc.to/content/repositories/pub_releases/mkremins/fanciful/0.4.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from ess-repo: http://ci.ender.zone/plugin/repository/everything/mkremins/fanciful/0.4.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from maven.sk89q.com: http://maven.sk89q.com/repo/mkremins/fanciful/0.4.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from repo.mikeprimm.com: http://repo.mikeprimm.com/mkremins/fanciful/0.4.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from placeholderapi: http://repo.extendedclip.com/content/repositories/placeholderapi/mkremins/fanciful/0.4.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from mvdw-software: http://repo.mvdw-software.be/content/groups/public/mkremins/fanciful/0.4.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloaded from ess-repo: http://ci.ender.zone/plugin/repository/everything/mkremins/fanciful/0.4.0-SNAPSHOT/maven-metadata.xml (609 B at 649 B/s)
+[WARNING] Could not transfer metadata mkremins:fanciful:0.4.0-SNAPSHOT/maven-metadata.xml from/to incendo-plotsquared-repo (https://incendo.org/mvn/): Connect to incendo.org:443 [incendo.org/167.99.38.112] failed: Die Wartezeit für die Verbindung ist abgelaufen
+[WARNING] Failure to transfer mkremins:fanciful:0.4.0-SNAPSHOT/maven-metadata.xml from https://incendo.org/mvn/ was cached in the local repository, resolution will not be reattempted until the update interval of incendo-plotsquared-repo has elapsed or updates are forced. Original error: Could not transfer metadata mkremins:fanciful:0.4.0-SNAPSHOT/maven-metadata.xml from/to incendo-plotsquared-repo (https://incendo.org/mvn/): Connect to incendo.org:443 [incendo.org/167.99.38.112] failed: Die Wartezeit für die Verbindung ist abgelaufen
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/darkblade12/particleeffect/1.8.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from worldedit-worldguard-repo: http://maven.sk89q.com/repo/com/darkblade12/particleeffect/1.8.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/darkblade12/particleeffect/1.8.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/com/darkblade12/particleeffect/1.8.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/darkblade12/particleeffect/1.8.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from bintray-tastybento-maven-repo: http://dl.bintray.com/tastybento/maven-repo/com/darkblade12/particleeffect/1.8.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from massivecore-factions-repo: http://repo.dustplanet.de/artifactory/ext-release-local/com/darkblade12/particleeffect/1.8.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from incendo-plotsquared-repo: https://incendo.org/mvn/com/darkblade12/particleeffect/1.8.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from FactionsUUID-repo: https://ci.ender.zone/job/FactionsUUID/122/maven-repository/repository/com/darkblade12/particleeffect/1.8.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from CodeMC: https://repo.codemc.org/repository/maven-public/com/darkblade12/particleeffect/1.8.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from vault-repo: http://nexus.hc.to/content/repositories/pub_releases/com/darkblade12/particleeffect/1.8.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from ess-repo: http://ci.ender.zone/plugin/repository/everything/com/darkblade12/particleeffect/1.8.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from maven.sk89q.com: http://maven.sk89q.com/repo/com/darkblade12/particleeffect/1.8.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from repo.mikeprimm.com: http://repo.mikeprimm.com/com/darkblade12/particleeffect/1.8.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from placeholderapi: http://repo.extendedclip.com/content/repositories/placeholderapi/com/darkblade12/particleeffect/1.8.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from mvdw-software: http://repo.mvdw-software.be/content/groups/public/com/darkblade12/particleeffect/1.8.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloaded from ess-repo: http://ci.ender.zone/plugin/repository/everything/com/darkblade12/particleeffect/1.8.0-SNAPSHOT/maven-metadata.xml (622 B at 679 B/s)
+[WARNING] Could not transfer metadata com.darkblade12:particleeffect:1.8.0-SNAPSHOT/maven-metadata.xml from/to incendo-plotsquared-repo (https://incendo.org/mvn/): Connect to incendo.org:443 [incendo.org/167.99.38.112] failed: Die Wartezeit für die Verbindung ist abgelaufen
+[WARNING] Failure to transfer com.darkblade12:particleeffect:1.8.0-SNAPSHOT/maven-metadata.xml from https://incendo.org/mvn/ was cached in the local repository, resolution will not be reattempted until the update interval of incendo-plotsquared-repo has elapsed or updates are forced. Original error: Could not transfer metadata com.darkblade12:particleeffect:1.8.0-SNAPSHOT/maven-metadata.xml from/to incendo-plotsquared-repo (https://incendo.org/mvn/): Connect to incendo.org:443 [incendo.org/167.99.38.112] failed: Die Wartezeit für die Verbindung ist abgelaufen
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/bukkit/bukkit/maven-metadata.xml
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/bukkit/bukkit/maven-metadata.xml
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/org/bukkit/bukkit/maven-metadata.xml
+[INFO] Downloading from worldedit-worldguard-repo: http://maven.sk89q.com/repo/org/bukkit/bukkit/maven-metadata.xml
+[INFO] Downloaded from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/bukkit/bukkit/maven-metadata.xml (1.4 kB at 2.8 kB/s)
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/bukkit/bukkit/maven-metadata.xml
+[INFO] Downloading from bintray-tastybento-maven-repo: http://dl.bintray.com/tastybento/maven-repo/org/bukkit/bukkit/maven-metadata.xml
+[INFO] Downloaded from worldedit-worldguard-repo: http://maven.sk89q.com/repo/org/bukkit/bukkit/maven-metadata.xml (421 B at 786 B/s)
+[INFO] Downloading from massivecore-factions-repo: http://repo.dustplanet.de/artifactory/ext-release-local/org/bukkit/bukkit/maven-metadata.xml
+[INFO] Downloading from incendo-plotsquared-repo: https://incendo.org/mvn/org/bukkit/bukkit/maven-metadata.xml
+[INFO] Downloading from FactionsUUID-repo: https://ci.ender.zone/job/FactionsUUID/122/maven-repository/repository/org/bukkit/bukkit/maven-metadata.xml
+[INFO] Downloading from CodeMC: https://repo.codemc.org/repository/maven-public/org/bukkit/bukkit/maven-metadata.xml
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/bukkit/bukkit/maven-metadata.xml
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/bukkit/bukkit/maven-metadata.xml (1.4 kB at 1.7 kB/s)
+[INFO] Downloading from maven-codearts-jp: http://maven.codearts.jp/org/bukkit/bukkit/maven-metadata.xml
+[WARNING] Could not transfer metadata org.bukkit:bukkit/maven-metadata.xml from/to incendo-plotsquared-repo (https://incendo.org/mvn/): Connect to incendo.org:443 [incendo.org/167.99.38.112] failed: Die Wartezeit für die Verbindung ist abgelaufen
+[WARNING] Could not transfer metadata org.bukkit:bukkit/maven-metadata.xml from/to maven-codearts-jp (http://maven.codearts.jp/): maven.codearts.jp: unknown error
+[WARNING] Failure to transfer org.bukkit:bukkit/maven-metadata.xml from https://incendo.org/mvn/ was cached in the local repository, resolution will not be reattempted until the update interval of incendo-plotsquared-repo has elapsed or updates are forced. Original error: Could not transfer metadata org.bukkit:bukkit/maven-metadata.xml from/to incendo-plotsquared-repo (https://incendo.org/mvn/): Connect to incendo.org:443 [incendo.org/167.99.38.112] failed: Die Wartezeit für die Verbindung ist abgelaufen
+[WARNING] Failure to transfer org.bukkit:bukkit/maven-metadata.xml from http://maven.codearts.jp/ was cached in the local repository, resolution will not be reattempted until the update interval of maven-codearts-jp has elapsed or updates are forced. Original error: Could not transfer metadata org.bukkit:bukkit/maven-metadata.xml from/to maven-codearts-jp (http://maven.codearts.jp/): maven.codearts.jp: unknown error
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/org/bukkit/bukkit/1.13.2-R0.1-SNAPSHOT/bukkit-1.13.2-R0.1-20190418.014524-208.pom
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/bukkit/bukkit/1.13.2-R0.1-SNAPSHOT/bukkit-1.13.2-R0.1-20190418.014524-208.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/bukkit/bukkit/1.13.2-R0.1-SNAPSHOT/bukkit-1.13.2-R0.1-20190418.014524-208.pom (7.4 kB at 10 kB/s)
+[WARNING] The POM for br.net.fabiozumbi12.RedProtect:RedProtect-Spigot:jar:7.3.0 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  46:41 min
+[INFO] Finished at: 2019-04-20T11:03:59+02:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal on project CS-CoreLib: Could not resolve dependencies for project me.mrCookieSlime:CS-CoreLib:jar:DEV - 37 (git a6fa4428): Failed to collect dependencies at com.sk89q.worldguard:worldguard-legacy:jar:7.0.0-SNAPSHOT -> com.sk89q:commandbook:jar:2.3 -> org.bukkit:bukkit:jar:1.6.2-R0.1-SNAPSHOT: Failed to read artifact descriptor for org.bukkit:bukkit:jar:1.6.2-R0.1-SNAPSHOT: Could not transfer artifact org.bukkit:bukkit:pom:1.6.2-R0.1-SNAPSHOT from/to incendo-plotsquared-repo (https://incendo.org/mvn/): Connect to incendo.org:443 [incendo.org/167.99.38.112] failed: Die Wartezeit für die Verbindung ist abgelaufen -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/DependencyResolutionException

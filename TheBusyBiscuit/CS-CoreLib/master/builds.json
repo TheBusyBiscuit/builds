@@ -575,6 +575,22 @@
         "candidate": "DEVELOPMENT",
         "status": "SUCCESS"
     },
-    "latest": 36,
+    "37": {
+        "id": 37,
+        "sha": "a6fa44288bde9d3124120f4439c869fe700ffd18",
+        "date": "20 Apr 2019 (08:15:51)",
+        "timestamp": 20190420081551,
+        "message": "Merge pull request #71 from John000708/master\n\nReplaced mcStats with bStats",
+        "author": "TheBusyBiscuit",
+        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
+        "license": {
+            "name": "GNU General Public License v3.0",
+            "id": "GPL-3.0",
+            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/CS-CoreLib/master/LICENSE"
+        },
+        "candidate": "DEVELOPMENT",
+        "status": "FAILURE"
+    },
+    "latest": 37,
     "last_successful": 36
 }
