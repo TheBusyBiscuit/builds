@@ -591,6 +591,22 @@
         "candidate": "DEVELOPMENT",
         "status": "FAILURE"
     },
-    "latest": 37,
-    "last_successful": 36
+    "38": {
+        "id": 38,
+        "sha": "335cbc281dc108066f6095ff5a934b7e24d79fe2",
+        "date": "20 Apr 2019 (11:39:35)",
+        "timestamp": 20190420113935,
+        "message": "Merge pull request #73 from sarhatabaot/master\n\nUpdated pom.xml for proper build",
+        "author": "TheBusyBiscuit",
+        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
+        "license": {
+            "name": "GNU General Public License v3.0",
+            "id": "GPL-3.0",
+            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/CS-CoreLib/master/LICENSE"
+        },
+        "candidate": "DEVELOPMENT",
+        "status": "SUCCESS"
+    },
+    "latest": 38,
+    "last_successful": 38
 }

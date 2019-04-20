@@ -1,0 +1,679 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------------< me.mrCookieSlime:CS-CoreLib >---------------------
+[INFO] Building CS-CoreLib DEV - 38 (git 335cbc28)
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/org/bukkit/bukkit/1.13.2-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from plotsquared-ci: http://ci.athion.net/job/PlotSquared-Releases/ws/mvn/org/bukkit/bukkit/1.13.2-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/org/bukkit/bukkit/1.13.2-R0.1-SNAPSHOT/maven-metadata.xml (1.5 kB at 665 B/s)
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/org/bukkit/bukkit/1.13.2-R0.1-SNAPSHOT/bukkit-1.13.2-R0.1-20190420.032712-210.pom
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/org/bukkit/bukkit/1.13.2-R0.1-SNAPSHOT/bukkit-1.13.2-R0.1-20190420.032712-210.pom (0 B at 0 B/s)
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/commons-lang/commons-lang/2.6/commons-lang-2.6.pom
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/commons-lang/commons-lang/2.6/commons-lang-2.6.pom
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/commons-lang/commons-lang/2.6/commons-lang-2.6.pom (0 B at 0 B/s)
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/org/apache/commons/commons-parent/17/commons-parent-17.pom
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/org/apache/commons/commons-parent/17/commons-parent-17.pom
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/org/apache/commons/commons-parent/17/commons-parent-17.pom (0 B at 0 B/s)
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/org/apache/apache/7/apache-7.pom
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/org/apache/apache/7/apache-7.pom
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/org/apache/apache/7/apache-7.pom (0 B at 0 B/s)
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.pom
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.pom
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.pom (0 B at 0 B/s)
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/junit/junit/4.10/junit-4.10.pom
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/junit/junit/4.10/junit-4.10.pom
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/junit/junit/4.10/junit-4.10.pom (0 B at 0 B/s)
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.pom
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.pom
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.pom (0 B at 0 B/s)
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/org/hamcrest/hamcrest-parent/1.1/hamcrest-parent-1.1.pom
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/org/hamcrest/hamcrest-parent/1.1/hamcrest-parent-1.1.pom
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/org/hamcrest/hamcrest-parent/1.1/hamcrest-parent-1.1.pom (0 B at 0 B/s)
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/com/google/guava/guava/21.0/guava-21.0.pom
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/com/google/guava/guava/21.0/guava-21.0.pom
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/com/google/guava/guava/21.0/guava-21.0.pom (0 B at 0 B/s)
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/com/google/guava/guava-parent/21.0/guava-parent-21.0.pom
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/com/google/guava/guava-parent/21.0/guava-parent-21.0.pom
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/com/google/guava/guava-parent/21.0/guava-parent-21.0.pom (0 B at 0 B/s)
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/org/sonatype/oss/oss-parent/7/oss-parent-7.pom
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/org/sonatype/oss/oss-parent/7/oss-parent-7.pom
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/org/sonatype/oss/oss-parent/7/oss-parent-7.pom (0 B at 0 B/s)
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/com/google/code/gson/gson/2.8.0/gson-2.8.0.pom
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/com/google/code/gson/gson/2.8.0/gson-2.8.0.pom
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/com/google/code/gson/gson/2.8.0/gson-2.8.0.pom (0 B at 0 B/s)
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/com/google/code/gson/gson-parent/2.8.0/gson-parent-2.8.0.pom
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/com/google/code/gson/gson-parent/2.8.0/gson-parent-2.8.0.pom
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/com/google/code/gson/gson-parent/2.8.0/gson-parent-2.8.0.pom (0 B at 0 B/s)
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/org/yaml/snakeyaml/1.23/snakeyaml-1.23.pom
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/org/yaml/snakeyaml/1.23/snakeyaml-1.23.pom
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/org/yaml/snakeyaml/1.23/snakeyaml-1.23.pom (0 B at 0 B/s)
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/com/sk89q/worldedit/worldedit-bukkit/7.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from plotsquared-ci: http://ci.athion.net/job/PlotSquared-Releases/ws/mvn/com/sk89q/worldedit/worldedit-bukkit/7.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from plotsquared-ci: http://ci.athion.net/job/PlotSquared-Releases/ws/mvn/com/sk89q/worldedit/worldedit-core/7.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/com/sk89q/worldedit/worldedit-core/7.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/de/schlichtherle/truezip/6.8.3/truezip-6.8.3.pom
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/de/schlichtherle/truezip/6.8.3/truezip-6.8.3.pom
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/de/schlichtherle/truezip/6.8.3/truezip-6.8.3.pom (0 B at 0 B/s)
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/de/schlichtherle/asl20-oss-parent/13/asl20-oss-parent-13.pom
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/de/schlichtherle/asl20-oss-parent/13/asl20-oss-parent-13.pom
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/de/schlichtherle/asl20-oss-parent/13/asl20-oss-parent-13.pom (0 B at 0 B/s)
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/rhino/js/1.7R2/js-1.7R2.pom
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/rhino/js/1.7R2/js-1.7R2.pom
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/rhino/js/1.7R2/js-1.7R2.pom (0 B at 0 B/s)
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/org/yaml/snakeyaml/1.9/snakeyaml-1.9.pom
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/org/yaml/snakeyaml/1.9/snakeyaml-1.9.pom
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/org/yaml/snakeyaml/1.9/snakeyaml-1.9.pom (0 B at 0 B/s)
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/junit/junit/4.8.1/junit-4.8.1.pom
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/junit/junit/4.8.1/junit-4.8.1.pom
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/junit/junit/4.8.1/junit-4.8.1.pom (0 B at 0 B/s)
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.pom
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.pom
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.pom (0 B at 0 B/s)
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/com/thoughtworks/paranamer/paranamer/2.6/paranamer-2.6.pom
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/com/thoughtworks/paranamer/paranamer/2.6/paranamer-2.6.pom
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/com/thoughtworks/paranamer/paranamer/2.6/paranamer-2.6.pom (0 B at 0 B/s)
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/com/thoughtworks/paranamer/paranamer-parent/2.6/paranamer-parent-2.6.pom
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/com/thoughtworks/paranamer/paranamer-parent/2.6/paranamer-parent-2.6.pom
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/com/thoughtworks/paranamer/paranamer-parent/2.6/paranamer-parent-2.6.pom (0 B at 0 B/s)
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/org/codehaus/codehaus-parent/4/codehaus-parent-4.pom
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/org/codehaus/codehaus-parent/4/codehaus-parent-4.pom
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/org/codehaus/codehaus-parent/4/codehaus-parent-4.pom (0 B at 0 B/s)
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/org/slf4j/slf4j-api/1.7.26/slf4j-api-1.7.26.pom
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/org/slf4j/slf4j-api/1.7.26/slf4j-api-1.7.26.pom
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/org/slf4j/slf4j-api/1.7.26/slf4j-api-1.7.26.pom (0 B at 0 B/s)
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/org/slf4j/slf4j-parent/1.7.26/slf4j-parent-1.7.26.pom
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/org/slf4j/slf4j-parent/1.7.26/slf4j-parent-1.7.26.pom
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/org/slf4j/slf4j-parent/1.7.26/slf4j-parent-1.7.26.pom (0 B at 0 B/s)
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/io/papermc/paperlib/1.0.1/paperlib-1.0.1.pom
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/io/papermc/paperlib/1.0.1/paperlib-1.0.1.pom
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/io/papermc/paperlib/1.0.1/paperlib-1.0.1.pom (0 B at 0 B/s)
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/org/slf4j/slf4j-jdk14/1.7.26/slf4j-jdk14-1.7.26.pom
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/org/slf4j/slf4j-jdk14/1.7.26/slf4j-jdk14-1.7.26.pom
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/org/slf4j/slf4j-jdk14/1.7.26/slf4j-jdk14-1.7.26.pom (0 B at 0 B/s)
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/com/sk89q/worldguard/worldguard-legacy/7.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from plotsquared-ci: http://ci.athion.net/job/PlotSquared-Releases/ws/mvn/com/sk89q/worldguard/worldguard-legacy/7.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/com/sk89q/worldguard/worldguard-core/7.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from plotsquared-ci: http://ci.athion.net/job/PlotSquared-Releases/ws/mvn/com/sk89q/worldguard/worldguard-core/7.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/com/sk89q/intake/intake/4.2-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from plotsquared-ci: http://ci.athion.net/job/PlotSquared-Releases/ws/mvn/com/sk89q/intake/intake/4.2-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/com/google/guava/guava/18.0/guava-18.0.pom
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/com/google/guava/guava/18.0/guava-18.0.pom
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/com/google/guava/guava/18.0/guava-18.0.pom (0 B at 0 B/s)
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/com/google/guava/guava-parent/18.0/guava-parent-18.0.pom
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/com/google/guava/guava-parent/18.0/guava-parent-18.0.pom
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/com/google/guava/guava-parent/18.0/guava-parent-18.0.pom (0 B at 0 B/s)
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/com/google/code/findbugs/jsr305/3.0.0/jsr305-3.0.0.pom
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/com/google/code/findbugs/jsr305/3.0.0/jsr305-3.0.0.pom
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/com/google/code/findbugs/jsr305/3.0.0/jsr305-3.0.0.pom (0 B at 0 B/s)
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/org/flywaydb/flyway-core/3.0/flyway-core-3.0.pom
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/org/flywaydb/flyway-core/3.0/flyway-core-3.0.pom
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/org/flywaydb/flyway-core/3.0/flyway-core-3.0.pom (0 B at 0 B/s)
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/org/flywaydb/flyway-parent/3.0/flyway-parent-3.0.pom
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/org/flywaydb/flyway-parent/3.0/flyway-parent-3.0.pom
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/org/flywaydb/flyway-parent/3.0/flyway-parent-3.0.pom (0 B at 0 B/s)
+[INFO] Downloading from plotsquared-ci: http://ci.athion.net/job/PlotSquared-Releases/ws/mvn/org/bukkit/bukkit/1.13-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/org/bukkit/bukkit/1.13-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/org/bukkit/bukkit/1.13-R0.1-SNAPSHOT/maven-metadata.xml (1.4 kB at 7.9 kB/s)
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/org/bukkit/bukkit/1.13-R0.1-SNAPSHOT/bukkit-1.13-R0.1-20180826.040129-146.pom
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/org/bukkit/bukkit/1.13-R0.1-SNAPSHOT/bukkit-1.13-R0.1-20180826.040129-146.pom
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/org/bukkit/bukkit/1.13-R0.1-SNAPSHOT/bukkit-1.13-R0.1-20180826.040129-146.pom (0 B at 0 B/s)
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/org/yaml/snakeyaml/1.21/snakeyaml-1.21.pom
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/org/yaml/snakeyaml/1.21/snakeyaml-1.21.pom
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/org/yaml/snakeyaml/1.21/snakeyaml-1.21.pom (0 B at 0 B/s)
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/org/bukkit/bukkit/1.6.2-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from plotsquared-ci: http://ci.athion.net/job/PlotSquared-Releases/ws/mvn/org/bukkit/bukkit/1.6.2-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/org/bukkit/bukkit/1.6.2-R0.1-SNAPSHOT/bukkit-1.6.2-R0.1-SNAPSHOT.pom
+[INFO] Downloading from plotsquared-ci: http://ci.athion.net/job/PlotSquared-Releases/ws/mvn/org/bukkit/bukkit/1.6.2-R0.1-SNAPSHOT/bukkit-1.6.2-R0.1-SNAPSHOT.pom
+[WARNING] The POM for org.bukkit:bukkit:jar:1.6.2-R0.1-SNAPSHOT is missing, no dependency information available
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/net/sf/opencsv/opencsv/2.0/opencsv-2.0.pom
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/net/sf/opencsv/opencsv/2.0/opencsv-2.0.pom
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/net/sf/opencsv/opencsv/2.0/opencsv-2.0.pom (0 B at 0 B/s)
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/org/apache/logging/log4j/log4j-core/2.8.2/log4j-core-2.8.2.pom
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/org/apache/logging/log4j/log4j-core/2.8.2/log4j-core-2.8.2.pom
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/org/apache/logging/log4j/log4j-core/2.8.2/log4j-core-2.8.2.pom (0 B at 0 B/s)
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/org/apache/logging/log4j/log4j/2.8.2/log4j-2.8.2.pom
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/org/apache/logging/log4j/log4j/2.8.2/log4j-2.8.2.pom
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/org/apache/logging/log4j/log4j/2.8.2/log4j-2.8.2.pom (0 B at 0 B/s)
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/org/apache/logging/logging-parent/1/logging-parent-1.pom
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/org/apache/logging/logging-parent/1/logging-parent-1.pom
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/org/apache/logging/logging-parent/1/logging-parent-1.pom (0 B at 0 B/s)
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/org/apache/logging/log4j/log4j-api/2.8.2/log4j-api-2.8.2.pom
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/org/apache/logging/log4j/log4j-api/2.8.2/log4j-api-2.8.2.pom
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/org/apache/logging/log4j/log4j-api/2.8.2/log4j-api-2.8.2.pom (0 B at 0 B/s)
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/ant-contrib/ant-contrib/1.0b3/ant-contrib-1.0b3.pom
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/ant-contrib/ant-contrib/1.0b3/ant-contrib-1.0b3.pom
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/ant-contrib/ant-contrib/1.0b3/ant-contrib-1.0b3.pom (0 B at 0 B/s)
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/com/sk89q/worldguard/6.1.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from plotsquared-ci: http://ci.athion.net/job/PlotSquared-Releases/ws/mvn/com/sk89q/worldguard/6.1.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/com/sk89q/spigot/bukkit-classloader-check/1.8-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from plotsquared-ci: http://ci.athion.net/job/PlotSquared-Releases/ws/mvn/com/sk89q/spigot/bukkit-classloader-check/1.8-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/org/bukkit/bukkit/1.8.6-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from plotsquared-ci: http://ci.athion.net/job/PlotSquared-Releases/ws/mvn/org/bukkit/bukkit/1.8.6-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/org/bukkit/bukkit/1.8.6-R0.1-SNAPSHOT/maven-metadata.xml (1.4 kB at 4.1 kB/s)
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/com/sk89q/worldedit/worldedit-bukkit/6.1.4-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from plotsquared-ci: http://ci.athion.net/job/PlotSquared-Releases/ws/mvn/com/sk89q/worldedit/worldedit-bukkit/6.1.4-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/org/bukkit/bukkit/1.9.4-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from plotsquared-ci: http://ci.athion.net/job/PlotSquared-Releases/ws/mvn/org/bukkit/bukkit/1.9.4-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/org/bukkit/bukkit/1.9.4-R0.1-SNAPSHOT/maven-metadata.xml (1.4 kB at 4.0 kB/s)
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/com/sk89q/worldedit/worldedit-core/6.1.4-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from plotsquared-ci: http://ci.athion.net/job/PlotSquared-Releases/ws/mvn/com/sk89q/worldedit/worldedit-core/6.1.4-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/org/bukkit/bukkit/1.9-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from plotsquared-ci: http://ci.athion.net/job/PlotSquared-Releases/ws/mvn/org/bukkit/bukkit/1.9-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/org/bukkit/bukkit/1.9-R0.1-SNAPSHOT/maven-metadata.xml (1.4 kB at 2.6 kB/s)
+[WARNING] The POM for com.wasteofplastic:askyblock:jar:3.0.8.2 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+[WARNING] The POM for com.github.dmulloy2.LWC:lwc:jar:master-4.5.1-g2100b5e-18 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/com/massivecraft/massivecore/MassiveCore/2.13.0/MassiveCore-2.13.0.pom
+[INFO] Downloading from plotsquared-ci: http://ci.athion.net/job/PlotSquared-Releases/ws/mvn/com/massivecraft/massivecore/MassiveCore/2.13.0/MassiveCore-2.13.0.pom
+[WARNING] The POM for com.massivecraft.massivecore:MassiveCore:jar:2.13.0 is missing, no dependency information available
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/com/massivecraft/factions/Factions/2.13.0/Factions-2.13.0.pom
+[INFO] Downloading from plotsquared-ci: http://ci.athion.net/job/PlotSquared-Releases/ws/mvn/com/massivecraft/factions/Factions/2.13.0/Factions-2.13.0.pom
+[WARNING] The POM for com.massivecraft.factions:Factions:jar:2.13.0 is missing, no dependency information available
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/mkremins/fanciful/0.4.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from plotsquared-ci: http://ci.athion.net/job/PlotSquared-Releases/ws/mvn/mkremins/fanciful/0.4.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/com/google/code/gson/gson/2.6.2/gson-2.6.2.pom
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/com/google/code/gson/gson/2.6.2/gson-2.6.2.pom
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/com/google/code/gson/gson/2.6.2/gson-2.6.2.pom (0 B at 0 B/s)
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/com/google/code/gson/gson-parent/2.6.2/gson-parent-2.6.2.pom
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/com/google/code/gson/gson-parent/2.6.2/gson-parent-2.6.2.pom
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/com/google/code/gson/gson-parent/2.6.2/gson-parent-2.6.2.pom (0 B at 0 B/s)
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/com/darkblade12/particleeffect/1.8.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from plotsquared-ci: http://ci.athion.net/job/PlotSquared-Releases/ws/mvn/com/darkblade12/particleeffect/1.8.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/org/bukkit/bukkit/maven-metadata.xml
+[INFO] Downloading from maven-codearts-jp: http://maven.codearts.jp/org/bukkit/bukkit/maven-metadata.xml
+[INFO] Downloading from plotsquared-ci: http://ci.athion.net/job/PlotSquared-Releases/ws/mvn/org/bukkit/bukkit/maven-metadata.xml
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/org/bukkit/bukkit/maven-metadata.xml (1.4 kB at 624 B/s)
+[WARNING] Could not transfer metadata org.bukkit:bukkit/maven-metadata.xml from/to maven-codearts-jp (http://maven.codearts.jp/): maven.codearts.jp: unknown error
+[WARNING] Failure to transfer org.bukkit:bukkit/maven-metadata.xml from http://maven.codearts.jp/ was cached in the local repository, resolution will not be reattempted until the update interval of maven-codearts-jp has elapsed or updates are forced. Original error: Could not transfer metadata org.bukkit:bukkit/maven-metadata.xml from/to maven-codearts-jp (http://maven.codearts.jp/): maven.codearts.jp: unknown error
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/com/github/intellectualsites/plotsquared/PlotSquared-API/4.226/PlotSquared-API-4.226.pom
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/com/github/intellectualsites/plotsquared/PlotSquared-API/4.226/PlotSquared-API-4.226.pom
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/github/intellectualsites/plotsquared/PlotSquared-API/4.226/PlotSquared-API-4.226.pom
+[INFO] Downloading from worldedit-worldguard-repo: http://maven.sk89q.com/repo/com/github/intellectualsites/plotsquared/PlotSquared-API/4.226/PlotSquared-API-4.226.pom
+[INFO] Downloading from plotsquared-ci: http://ci.athion.net/job/PlotSquared-Releases/ws/mvn/com/github/intellectualsites/plotsquared/PlotSquared-API/4.226/PlotSquared-API-4.226.pom
+[WARNING] Could not validate integrity of download from http://ci.athion.net/job/PlotSquared-Releases/ws/mvn/com/github/intellectualsites/plotsquared/PlotSquared-API/4.226/PlotSquared-API-4.226.pom: Checksum validation failed, no checksums available
+[WARNING] Checksum validation failed, no checksums available from plotsquared-ci for http://ci.athion.net/job/PlotSquared-Releases/ws/mvn/com/github/intellectualsites/plotsquared/PlotSquared-API/4.226/PlotSquared-API-4.226.pom
+[INFO] Downloaded from plotsquared-ci: http://ci.athion.net/job/PlotSquared-Releases/ws/mvn/com/github/intellectualsites/plotsquared/PlotSquared-API/4.226/PlotSquared-API-4.226.pom (2.7 kB at 4.1 kB/s)
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/org/projectlombok/lombok/1.18.4/lombok-1.18.4.pom
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/org/projectlombok/lombok/1.18.4/lombok-1.18.4.pom
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/org/projectlombok/lombok/1.18.4/lombok-1.18.4.pom (1.5 kB at 3.9 kB/s)
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/com/google/code/gson/gson/2.8.5/gson-2.8.5.pom
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/com/google/code/gson/gson/2.8.5/gson-2.8.5.pom
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/com/google/code/gson/gson/2.8.5/gson-2.8.5.pom (0 B at 0 B/s)
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/com/google/code/gson/gson-parent/2.8.5/gson-parent-2.8.5.pom
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/com/google/code/gson/gson-parent/2.8.5/gson-parent-2.8.5.pom
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/com/google/code/gson/gson-parent/2.8.5/gson-parent-2.8.5.pom (0 B at 0 B/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/github/Sauilitired/Jenkins4J/2.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from worldedit-worldguard-repo: http://maven.sk89q.com/repo/com/github/Sauilitired/Jenkins4J/2.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/com/github/Sauilitired/Jenkins4J/2.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/com/github/Sauilitired/Jenkins4J/2.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from plotsquared-ci: http://ci.athion.net/job/PlotSquared-Releases/ws/mvn/com/github/Sauilitired/Jenkins4J/2.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/github/Sauilitired/Jenkins4J/2.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from bintray-tastybento-maven-repo: http://dl.bintray.com/tastybento/maven-repo/com/github/Sauilitired/Jenkins4J/2.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from massivecore-factions-repo: http://repo.dustplanet.de/artifactory/ext-release-local/com/github/Sauilitired/Jenkins4J/2.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from FactionsUUID-repo: https://ci.ender.zone/job/FactionsUUID/122/maven-repository/repository/com/github/Sauilitired/Jenkins4J/2.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from CodeMC: https://repo.codemc.org/repository/maven-public/com/github/Sauilitired/Jenkins4J/2.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/com/github/Sauilitired/Jenkins4J/2.0-SNAPSHOT/Jenkins4J-2.0-SNAPSHOT.pom
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/com/github/Sauilitired/Jenkins4J/2.0-SNAPSHOT/Jenkins4J-2.0-SNAPSHOT.pom
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/github/Sauilitired/Jenkins4J/2.0-SNAPSHOT/Jenkins4J-2.0-SNAPSHOT.pom
+[INFO] Downloading from worldedit-worldguard-repo: http://maven.sk89q.com/repo/com/github/Sauilitired/Jenkins4J/2.0-SNAPSHOT/Jenkins4J-2.0-SNAPSHOT.pom
+[INFO] Downloading from plotsquared-ci: http://ci.athion.net/job/PlotSquared-Releases/ws/mvn/com/github/Sauilitired/Jenkins4J/2.0-SNAPSHOT/Jenkins4J-2.0-SNAPSHOT.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/github/Sauilitired/Jenkins4J/2.0-SNAPSHOT/Jenkins4J-2.0-SNAPSHOT.pom
+[INFO] Downloaded from jitpack.io: https://jitpack.io/com/github/Sauilitired/Jenkins4J/2.0-SNAPSHOT/Jenkins4J-2.0-SNAPSHOT.pom (1.3 kB at 3.2 kB/s)
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/com/squareup/retrofit2/retrofit/2.4.0/retrofit-2.4.0.pom
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/com/squareup/retrofit2/retrofit/2.4.0/retrofit-2.4.0.pom
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/com/squareup/retrofit2/retrofit/2.4.0/retrofit-2.4.0.pom (2.4 kB at 1.0 kB/s)
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/com/squareup/retrofit2/parent/2.4.0/parent-2.4.0.pom
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/com/squareup/retrofit2/parent/2.4.0/parent-2.4.0.pom
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/com/squareup/retrofit2/parent/2.4.0/parent-2.4.0.pom (10 kB at 55 kB/s)
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/com/squareup/okhttp3/okhttp/3.10.0/okhttp-3.10.0.pom
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/com/squareup/okhttp3/okhttp/3.10.0/okhttp-3.10.0.pom
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/com/squareup/okhttp3/okhttp/3.10.0/okhttp-3.10.0.pom (2.3 kB at 12 kB/s)
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/com/squareup/okhttp3/parent/3.10.0/parent-3.10.0.pom
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/com/squareup/okhttp3/parent/3.10.0/parent-3.10.0.pom
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/com/squareup/okhttp3/parent/3.10.0/parent-3.10.0.pom (19 kB at 85 kB/s)
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/com/squareup/okio/okio/1.14.0/okio-1.14.0.pom
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/com/squareup/okio/okio/1.14.0/okio-1.14.0.pom
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/com/squareup/okio/okio/1.14.0/okio-1.14.0.pom (2.0 kB at 12 kB/s)
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/com/squareup/okio/okio-parent/1.14.0/okio-parent-1.14.0.pom
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/com/squareup/okio/okio-parent/1.14.0/okio-parent-1.14.0.pom
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/com/squareup/okio/okio-parent/1.14.0/okio-parent-1.14.0.pom (4.9 kB at 26 kB/s)
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/org/jetbrains/annotations/16.0.3/annotations-16.0.3.pom
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/org/jetbrains/annotations/16.0.3/annotations-16.0.3.pom
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/org/jetbrains/annotations/16.0.3/annotations-16.0.3.pom (1.3 kB at 5.8 kB/s)
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/com/google/guava/guava/27.0.1-jre/guava-27.0.1-jre.pom
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/com/google/guava/guava/27.0.1-jre/guava-27.0.1-jre.pom
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/com/google/guava/guava/27.0.1-jre/guava-27.0.1-jre.pom (8.3 kB at 38 kB/s)
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/com/google/guava/guava-parent/27.0.1-jre/guava-parent-27.0.1-jre.pom
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/com/google/guava/guava-parent/27.0.1-jre/guava-parent-27.0.1-jre.pom
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/com/google/guava/guava-parent/27.0.1-jre/guava-parent-27.0.1-jre.pom (10 kB at 49 kB/s)
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.pom
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.pom
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.pom (2.4 kB at 13 kB/s)
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/com/google/guava/guava-parent/26.0-android/guava-parent-26.0-android.pom
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/com/google/guava/guava-parent/26.0-android/guava-parent-26.0-android.pom
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/com/google/guava/guava-parent/26.0-android/guava-parent-26.0-android.pom (10 kB at 51 kB/s)
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.pom
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.pom
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.pom (2.3 kB at 11 kB/s)
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.pom
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.pom
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.pom (4.3 kB at 14 kB/s)
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/org/checkerframework/checker-qual/2.5.2/checker-qual-2.5.2.pom
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/org/checkerframework/checker-qual/2.5.2/checker-qual-2.5.2.pom
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/org/checkerframework/checker-qual/2.5.2/checker-qual-2.5.2.pom (2.5 kB at 13 kB/s)
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/com/google/errorprone/error_prone_annotations/2.2.0/error_prone_annotations-2.2.0.pom
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/com/google/errorprone/error_prone_annotations/2.2.0/error_prone_annotations-2.2.0.pom
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/com/google/errorprone/error_prone_annotations/2.2.0/error_prone_annotations-2.2.0.pom (1.8 kB at 8.5 kB/s)
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/com/google/errorprone/error_prone_parent/2.2.0/error_prone_parent-2.2.0.pom
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/com/google/errorprone/error_prone_parent/2.2.0/error_prone_parent-2.2.0.pom
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/com/google/errorprone/error_prone_parent/2.2.0/error_prone_parent-2.2.0.pom (5.1 kB at 27 kB/s)
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.pom
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.pom
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.pom (2.8 kB at 13 kB/s)
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/org/codehaus/mojo/animal-sniffer-annotations/1.17/animal-sniffer-annotations-1.17.pom
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/org/codehaus/mojo/animal-sniffer-annotations/1.17/animal-sniffer-annotations-1.17.pom
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/org/codehaus/mojo/animal-sniffer-annotations/1.17/animal-sniffer-annotations-1.17.pom (2.6 kB at 14 kB/s)
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/org/codehaus/mojo/animal-sniffer-parent/1.17/animal-sniffer-parent-1.17.pom
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/org/codehaus/mojo/animal-sniffer-parent/1.17/animal-sniffer-parent-1.17.pom
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/org/codehaus/mojo/animal-sniffer-parent/1.17/animal-sniffer-parent-1.17.pom (8.6 kB at 47 kB/s)
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/org/codehaus/mojo/mojo-parent/40/mojo-parent-40.pom
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/org/codehaus/mojo/mojo-parent/40/mojo-parent-40.pom
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/org/codehaus/mojo/mojo-parent/40/mojo-parent-40.pom (34 kB at 154 kB/s)
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/com/squareup/okhttp3/okhttp/3.14.0/okhttp-3.14.0.pom
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/com/squareup/okhttp3/okhttp/3.14.0/okhttp-3.14.0.pom
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/com/squareup/okhttp3/okhttp/3.14.0/okhttp-3.14.0.pom (2.5 kB at 13 kB/s)
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/com/squareup/okhttp3/parent/3.14.0/parent-3.14.0.pom
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/com/squareup/okhttp3/parent/3.14.0/parent-3.14.0.pom
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/com/squareup/okhttp3/parent/3.14.0/parent-3.14.0.pom (22 kB at 103 kB/s)
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/com/squareup/okio/okio/1.17.2/okio-1.17.2.pom
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/com/squareup/okio/okio/1.17.2/okio-1.17.2.pom
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/com/squareup/okio/okio/1.17.2/okio-1.17.2.pom (2.0 kB at 11 kB/s)
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/com/squareup/okio/okio-parent/1.17.2/okio-parent-1.17.2.pom
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/com/squareup/okio/okio-parent/1.17.2/okio-parent-1.17.2.pom
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/com/squareup/okio/okio-parent/1.17.2/okio-parent-1.17.2.pom (4.9 kB at 25 kB/s)
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/com/squareup/okio/okio/2.2.2/okio-2.2.2.pom
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/com/squareup/okio/okio/2.2.2/okio-2.2.2.pom
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/com/squareup/okio/okio/2.2.2/okio-2.2.2.pom (2.0 kB at 11 kB/s)
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/org/jetbrains/kotlin/kotlin-stdlib/1.2.60/kotlin-stdlib-1.2.60.pom
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/org/jetbrains/kotlin/kotlin-stdlib/1.2.60/kotlin-stdlib-1.2.60.pom
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/org/jetbrains/kotlin/kotlin-stdlib/1.2.60/kotlin-stdlib-1.2.60.pom (1.8 kB at 9.8 kB/s)
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/org/jetbrains/kotlin/kotlin-stdlib-common/1.2.60/kotlin-stdlib-common-1.2.60.pom
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/org/jetbrains/kotlin/kotlin-stdlib-common/1.2.60/kotlin-stdlib-common-1.2.60.pom
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/org/jetbrains/kotlin/kotlin-stdlib-common/1.2.60/kotlin-stdlib-common-1.2.60.pom (1.6 kB at 8.5 kB/s)
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/org/jetbrains/annotations/13.0/annotations-13.0.pom
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/org/jetbrains/annotations/13.0/annotations-13.0.pom
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/org/jetbrains/annotations/13.0/annotations-13.0.pom (4.9 kB at 18 kB/s)
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/org/jetbrains/kotlin/kotlin-stdlib/1.3.21/kotlin-stdlib-1.3.21.pom
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/org/jetbrains/kotlin/kotlin-stdlib/1.3.21/kotlin-stdlib-1.3.21.pom
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/org/jetbrains/kotlin/kotlin-stdlib/1.3.21/kotlin-stdlib-1.3.21.pom (1.8 kB at 10 kB/s)
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/org/jetbrains/kotlin/kotlin-stdlib-common/1.3.21/kotlin-stdlib-common-1.3.21.pom
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/org/jetbrains/kotlin/kotlin-stdlib-common/1.3.21/kotlin-stdlib-common-1.3.21.pom
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/org/jetbrains/kotlin/kotlin-stdlib-common/1.3.21/kotlin-stdlib-common-1.3.21.pom (1.6 kB at 8.9 kB/s)
+[WARNING] The POM for br.net.fabiozumbi12.RedProtect:RedProtect-Spigot:jar:7.3.0 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/org/bukkit/bukkit/1.13.2-R0.1-SNAPSHOT/bukkit-1.13.2-R0.1-20190420.032712-210.jar
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/org/bukkit/bukkit/1.13.2-R0.1-SNAPSHOT/bukkit-1.13.2-R0.1-20190420.032712-210.jar (1.1 MB at 592 kB/s)
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/commons-lang/commons-lang/2.6/commons-lang-2.6.jar
+[INFO] Downloading from redprotect-repo: httpoading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/com/google/code/gson/gson/2.8.0/gson-2.8.0.jar
+s://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/com/google/guava/guava/21.0/guava-21.0.jar
+[INFO] Downl[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/org/yaml/snakeyaml/1.23/snakeyaml-1.23.jar
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/de/schlichtherle/truezip/6.8.3/truezip-6.8.3.jar
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/rhino/js/1.7R2/js-1.7R2.jar
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/com/thoughtworks/paranamer/paranamer/2.6/paranamer-2.6.jar
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/org/slf4j/slf4j-api/1.7.26/slf4j-api-1.7.26.jar
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/io/papermc/paperlib/1.0.1/paperlib-1.0.1.jar
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/org/slf4j/slf4j-jdk14/1.7.26/slf4j-jdk14-1.7.26.jar
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/org/flywaydb/flyway-core/3.0/flyway-core-3.0.jar
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/net/sf/opencsv/opencsv/2.0/opencsv-2.0.jar
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.jar
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/junit/junit/4.10/junit-4.10.jar
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/org/apache/logging/log4j/log4j-core/2.8.2/log4j-core-2.8.2.jar
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/org/apache/logging/log4j/log4j-api/2.8.2/log4j-api-2.8.2.jar
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/ant-contrib/ant-contrib/1.0b3/ant-contrib-1.0b3.jar
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/com/github/intellectualsites/plotsquared/PlotSquared-API/4.226/PlotSquared-API-4.226.jar
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/org/projectlombok/lombok/1.18.4/lombok-1.18.4.jar
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/com/github/Sauilitired/Jenkins4J/2.0-SNAPSHOT/Jenkins4J-2.0-SNAPSHOT.jar
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/com/squareup/retrofit2/retrofit/2.4.0/retrofit-2.4.0.jar
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/org/jetbrains/annotations/16.0.3/annotations-16.0.3.jar
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/com/squareup/okhttp3/okhttp/3.14.0/okhttp-3.14.0.jar
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/com/squareup/okio/okio/2.2.2/okio-2.2.2.jar
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/org/jetbrains/kotlin/kotlin-stdlib/1.3.21/kotlin-stdlib-1.3.21.jar
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/org/jetbrains/kotlin/kotlin-stdlib-common/1.3.21/kotlin-stdlib-common-1.3.21.jar
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/commons-lang/commons-lang/2.6/commons-lang-2.6.jar
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/com/google/guava/guava/21.0/guava-21.0.jar
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/org/yaml/snakeyaml/1.23/snakeyaml-1.23.jar
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/com/google/code/gson/gson/2.8.0/gson-2.8.0.jar
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/de/schlichtherle/truezip/6.8.3/truezip-6.8.3.jar
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/commons-lang/commons-lang/2.6/commons-lang-2.6.jar (0 B at 0 B/s)
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/rhino/js/1.7R2/js-1.7R2.jar
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/com/google/code/gson/gson/2.8.0/gson-2.8.0.jar (0 B at 0 B/s)
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/org/yaml/snakeyaml/1.23/snakeyaml-1.23.jar (0 B at 0 B/s)
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/com/thoughtworks/paranamer/paranamer/2.6/paranamer-2.6.jar
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/com/google/guava/guava/21.0/guava-21.0.jar (0 B at 0 B/s)
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/org/slf4j/slf4j-api/1.7.26/slf4j-api-1.7.26.jar
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/rhino/js/1.7R2/js-1.7R2.jar (0 B at 0 B/s)
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/io/papermc/paperlib/1.0.1/paperlib-1.0.1.jar
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/org/slf4j/slf4j-api/1.7.26/slf4j-api-1.7.26.jar (0 B at 0 B/s)
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/org/slf4j/slf4j-jdk14/1.7.26/slf4j-jdk14-1.7.26.jar
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar (0 B at 0 B/s)
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/org/flywaydb/flyway-core/3.0/flyway-core-3.0.jar
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/com/thoughtworks/paranamer/paranamer/2.6/paranamer-2.6.jar (0 B at 0 B/s)
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/net/sf/opencsv/opencsv/2.0/opencsv-2.0.jar
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/io/papermc/paperlib/1.0.1/paperlib-1.0.1.jar (0 B at 0 B/s)
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.jar
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/de/schlichtherle/truezip/6.8.3/truezip-6.8.3.jar (0 B at 0 B/s)
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/junit/junit/4.10/junit-4.10.jar
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/org/slf4j/slf4j-jdk14/1.7.26/slf4j-jdk14-1.7.26.jar (0 B at 0 B/s)
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/org/flywaydb/flyway-core/3.0/flyway-core-3.0.jar (0 B at 0 B/s)
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/org/apache/logging/log4j/log4j-core/2.8.2/log4j-core-2.8.2.jar
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.jar (0 B at 0 B/s)
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/org/apache/logging/log4j/log4j-api/2.8.2/log4j-api-2.8.2.jar
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/net/sf/opencsv/opencsv/2.0/opencsv-2.0.jar (0 B at 0 B/s)
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/ant-contrib/ant-contrib/1.0b3/ant-contrib-1.0b3.jar
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/junit/junit/4.10/junit-4.10.jar (0 B at 0 B/s)
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/com/github/intellectualsites/plotsquared/PlotSquared-API/4.226/PlotSquared-API-4.226.jar
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar (0 B at 0 B/s)
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/org/projectlombok/lombok/1.18.4/lombok-1.18.4.jar
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/org/apache/logging/log4j/log4j-api/2.8.2/log4j-api-2.8.2.jar (0 B at 0 B/s)
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/org/apache/logging/log4j/log4j-core/2.8.2/log4j-core-2.8.2.jar (0 B at 0 B/s)
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/com/github/Sauilitired/Jenkins4J/2.0-SNAPSHOT/Jenkins4J-2.0-SNAPSHOT.jar
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/com/squareup/retrofit2/retrofit/2.4.0/retrofit-2.4.0.jar
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/ant-contrib/ant-contrib/1.0b3/ant-contrib-1.0b3.jar (0 B at 0 B/s)
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/org/jetbrains/annotations/16.0.3/annotations-16.0.3.jar
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/com/squareup/okhttp3/okhttp/3.14.0/okhttp-3.14.0.jar
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/com/squareup/okio/okio/2.2.2/okio-2.2.2.jar
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/org/jetbrains/annotations/16.0.3/annotations-16.0.3.jar (19 kB at 4.2 kB/s)
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/org/jetbrains/kotlin/kotlin-stdlib/1.3.21/kotlin-stdlib-1.3.21.jar
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/com/squareup/retrofit2/retrofit/2.4.0/retrofit-2.4.0.jar (91 kB at 20 kB/s)
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/org/jetbrains/kotlin/kotlin-stdlib-common/1.3.21/kotlin-stdlib-common-1.3.21.jar
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/com/squareup/okio/okio/2.2.2/okio-2.2.2.jar (182 kB at 41 kB/s)
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/com/squareup/okhttp3/okhttp/3.14.0/okhttp-3.14.0.jar (426 kB at 95 kB/s)
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/org/jetbrains/kotlin/kotlin-stdlib-common/1.3.21/kotlin-stdlib-common-1.3.21.jar (153 kB at 29 kB/s)
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/org/projectlombok/lombok/1.18.4/lombok-1.18.4.jar (1.7 MB at 243 kB/s)
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/org/jetbrains/kotlin/kotlin-stdlib/1.3.21/kotlin-stdlib-1.3.21.jar (1.2 MB at 149 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/github/intellectualsites/plotsquared/PlotSquared-API/4.226/PlotSquared-API-4.226.jar
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/github/Sauilitired/Jenkins4J/2.0-SNAPSHOT/Jenkins4J-2.0-SNAPSHOT.jar
+[INFO] Downloading from worldedit-worldguard-repo: http://maven.sk89q.com/repo/com/sk89q/worldedit/worldedit-bukkit/7.0.0-SNAPSHOT/worldedit-bukkit-7.0.0-20190420.033428-113.jar
+[INFO] Downloading from worldedit-worldguard-repo: http://maven.sk89q.com/repo/com/sk89q/worldedit/worldedit-core/7.0.0-SNAPSHOT/worldedit-core-7.0.0-20190420.033428-113.jar
+[INFO] Downloading from worldedit-worldguard-repo: http://maven.sk89q.com/repo/com/sk89q/worldguard/worldguard-core/7.0.0-SNAPSHOT/worldguard-core-7.0.0-20190418.012505-68.jar
+[INFO] Downloading from worldedit-worldguard-repo: http://maven.sk89q.com/repo/com/sk89q/worldguard/worldguard-legacy/7.0.0-SNAPSHOT/worldguard-legacy-7.0.0-20190418.012505-68.jar
+[INFO] Downloading from worldedit-worldguard-repo: http://maven.sk89q.com/repo/com/github/intellectualsites/plotsquared/PlotSquared-API/4.226/PlotSquared-API-4.226.jar
+[INFO] Downloading from worldedit-worldguard-repo: http://maven.sk89q.com/repo/com/github/Sauilitired/Jenkins4J/2.0-SNAPSHOT/Jenkins4J-2.0-SNAPSHOT.jar
+[INFO] Downloaded from worldedit-worldguard-repo: http://maven.sk89q.com/repo/com/sk89q/worldedit/worldedit-bukkit/7.0.0-SNAPSHOT/worldedit-bukkit-7.0.0-20190420.033428-113.jar (136 kB at 82 kB/s)
+[INFO] Downloaded from worldedit-worldguard-repo: http://maven.sk89q.com/repo/com/sk89q/worldguard/worldguard-legacy/7.0.0-SNAPSHOT/worldguard-legacy-7.0.0-20190418.012505-68.jar (239 kB at 45 kB/s)
+[INFO] Downloaded from worldedit-worldguard-repo: http://maven.sk89q.com/repo/com/sk89q/worldedit/worldedit-core/7.0.0-SNAPSHOT/worldedit-core-7.0.0-20190420.033428-113.jar (1.2 MB at 181 kB/s)
+[INFO] Downloaded from worldedit-worldguard-repo: http://maven.sk89q.com/repo/com/sk89q/worldguard/worldguard-core/7.0.0-SNAPSHOT/worldguard-core-7.0.0-20190418.012505-68.jar (783 kB at 73 kB/s)
+[INFO] Downloading from plotsquared-ci: http://ci.athion.net/job/PlotSquared-Releases/ws/mvn/com/github/intellectualsites/plotsquared/PlotSquared-API/4.226/PlotSquared-API-4.226.jar
+[INFO] Downloading from plotsquared-ci: http://ci.athion.net/job/PlotSquared-Releases/ws/mvn/com/github/Sauilitired/Jenkins4J/2.0-SNAPSHOT/Jenkins4J-2.0-SNAPSHOT.jar
+[WARNING] Could not validate integrity of download from http://ci.athion.net/job/PlotSquared-Releases/ws/mvn/com/github/intellectualsites/plotsquared/PlotSquared-API/4.226/PlotSquared-API-4.226.jar: Checksum validation failed, no checksums available
+[WARNING] Checksum validation failed, no checksums available from plotsquared-ci for http://ci.athion.net/job/PlotSquared-Releases/ws/mvn/com/github/intellectualsites/plotsquared/PlotSquared-API/4.226/PlotSquared-API-4.226.jar
+[INFO] Downloaded from plotsquared-ci: http://ci.athion.net/job/PlotSquared-Releases/ws/mvn/com/github/intellectualsites/plotsquared/PlotSquared-API/4.226/PlotSquared-API-4.226.jar (1.2 MB at 388 kB/s)
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/github/Sauilitired/Jenkins4J/2.0-SNAPSHOT/Jenkins4J-2.0-SNAPSHOT.jar
+[INFO] Downloaded from jitpack.io: https://jitpack.io/com/github/Sauilitired/Jenkins4J/2.0-SNAPSHOT/Jenkins4J-2.0-SNAPSHOT.jar (39 kB at 24 kB/s)
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ CS-CoreLib ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ CS-CoreLib ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 103 source files to /home/pi/Desktop/Build Server/TheBusyBiscuit/CS-CoreLib/master/files/target/classes
+[WARNING] /home/pi/Desktop/Build Server/TheBusyBiscuit/CS-CoreLib/master/files/src/me/mrCookieSlime/CSCoreLibPlugin/general/World/FakeItem.java: Some input files use or override a deprecated API.
+[WARNING] /home/pi/Desktop/Build Server/TheBusyBiscuit/CS-CoreLib/master/files/src/me/mrCookieSlime/CSCoreLibPlugin/general/World/FakeItem.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ CS-CoreLib ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/pi/Desktop/Build Server/TheBusyBiscuit/CS-CoreLib/master/files/tests/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ CS-CoreLib ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ CS-CoreLib ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ CS-CoreLib ---
+[INFO] Building jar: /home/pi/Desktop/Build Server/TheBusyBiscuit/CS-CoreLib/master/files/target/CS-CoreLib-38.jar
+[INFO] 
+[INFO] --- maven-shade-plugin:3.1.0:shade (default) @ CS-CoreLib ---
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-api/3.0/maven-plugin-api-3.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-api/3.0/maven-plugin-api-3.0.pom (2.3 kB at 5.1 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven/3.0/maven-3.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven/3.0/maven-3.0.pom (22 kB at 163 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/15/maven-parent-15.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/15/maven-parent-15.pom (24 kB at 211 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-model/3.0/maven-model-3.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-model/3.0/maven-model-3.0.pom (3.9 kB at 43 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/2.0.4/plexus-utils-2.0.4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/2.0.4/plexus-utils-2.0.4.pom (3.3 kB at 28 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact/3.0/maven-artifact-3.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact/3.0/maven-artifact-3.0.pom (1.9 kB at 23 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/sonatype/sisu/sisu-inject-plexus/1.4.2/sisu-inject-plexus-1.4.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/sonatype/sisu/sisu-inject-plexus/1.4.2/sisu-inject-plexus-1.4.2.pom (5.4 kB at 61 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/sonatype/sisu/inject/guice-plexus/1.4.2/guice-plexus-1.4.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/sonatype/sisu/inject/guice-plexus/1.4.2/guice-plexus-1.4.2.pom (3.1 kB at 20 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/sonatype/sisu/inject/guice-bean/1.4.2/guice-bean-1.4.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/sonatype/sisu/inject/guice-bean/1.4.2/guice-bean-1.4.2.pom (2.6 kB at 21 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/sonatype/sisu/sisu-inject/1.4.2/sisu-inject-1.4.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/sonatype/sisu/sisu-inject/1.4.2/sisu-inject-1.4.2.pom (1.2 kB at 15 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/sonatype/sisu/sisu-parent/1.4.2/sisu-parent-1.4.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/sonatype/sisu/sisu-parent/1.4.2/sisu-parent-1.4.2.pom (7.8 kB at 76 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/sonatype/forge/forge-parent/6/forge-parent-6.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/sonatype/forge/forge-parent/6/forge-parent-6.pom (11 kB at 102 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-component-annotations/1.6/plexus-component-annotations-1.6.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-component-annotations/1.6/plexus-component-annotations-1.6.pom (748 B at 9.2 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-containers/1.6/plexus-containers-1.6.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-containers/1.6/plexus-containers-1.6.pom (3.8 kB at 43 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/3.3.2/plexus-3.3.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/3.3.2/plexus-3.3.2.pom (22 kB at 192 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-classworlds/2.2.3/plexus-classworlds-2.2.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-classworlds/2.2.3/plexus-classworlds-2.2.3.pom (4.0 kB at 44 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/sonatype/sisu/sisu-inject-bean/1.4.2/sisu-inject-bean-1.4.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/sonatype/sisu/sisu-inject-bean/1.4.2/sisu-inject-bean-1.4.2.pom (5.5 kB at 51 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/sonatype/sisu/sisu-guice/2.1.7/sisu-guice-2.1.7.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/sonatype/sisu/sisu-guice/2.1.7/sisu-guice-2.1.7.pom (11 kB at 119 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-core/3.0/maven-core-3.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-core/3.0/maven-core-3.0.pom (6.6 kB at 67 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-settings/3.0/maven-settings-3.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-settings/3.0/maven-settings-3.0.pom (1.9 kB at 23 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-settings-builder/3.0/maven-settings-builder-3.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-settings-builder/3.0/maven-settings-builder-3.0.pom (2.2 kB at 24 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interpolation/1.14/plexus-interpolation-1.14.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interpolation/1.14/plexus-interpolation-1.14.pom (910 B at 8.4 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-components/1.1.18/plexus-components-1.1.18.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-components/1.1.18/plexus-components-1.1.18.pom (5.4 kB at 56 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-repository-metadata/3.0/maven-repository-metadata-3.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-repository-metadata/3.0/maven-repository-metadata-3.0.pom (1.9 kB at 16 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-model-builder/3.0/maven-model-builder-3.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-model-builder/3.0/maven-model-builder-3.0.pom (2.2 kB at 26 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-aether-provider/3.0/maven-aether-provider-3.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-aether-provider/3.0/maven-aether-provider-3.0.pom (2.5 kB at 28 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/sonatype/aether/aether-api/1.7/aether-api-1.7.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/sonatype/aether/aether-api/1.7/aether-api-1.7.pom (1.7 kB at 20 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/sonatype/aether/aether-parent/1.7/aether-parent-1.7.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/sonatype/aether/aether-parent/1.7/aether-parent-1.7.pom (7.7 kB at 80 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/sonatype/aether/aether-util/1.7/aether-util-1.7.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/sonatype/aether/aether-util/1.7/aether-util-1.7.pom (2.1 kB at 25 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/sonatype/aether/aether-impl/1.7/aether-impl-1.7.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/sonatype/aether/aether-impl/1.7/aether-impl-1.7.pom (3.7 kB at 43 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/sonatype/aether/aether-spi/1.7/aether-spi-1.7.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/sonatype/aether/aether-spi/1.7/aether-spi-1.7.pom (1.7 kB at 21 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.0.24/plexus-utils-3.0.24.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.0.24/plexus-utils-3.0.24.pom (4.1 kB at 47 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/4.0/plexus-4.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/4.0/plexus-4.0.pom (22 kB at 176 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-artifact-transfer/0.9.1/maven-artifact-transfer-0.9.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-artifact-transfer/0.9.1/maven-artifact-transfer-0.9.1.pom (7.6 kB at 36 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-components/30/maven-shared-components-30.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-components/30/maven-shared-components-30.pom (4.6 kB at 46 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-common-artifact-filters/3.0.1/maven-common-artifact-filters-3.0.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-common-artifact-filters/3.0.1/maven-common-artifact-filters-3.0.1.pom (4.8 kB at 47 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-utils/3.1.0/maven-shared-utils-3.1.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-utils/3.1.0/maven-shared-utils-3.1.0.pom (5.0 kB at 56 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/commons-io/commons-io/2.5/commons-io-2.5.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/commons-io/commons-io/2.5/commons-io-2.5.pom (13 kB at 132 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/39/commons-parent-39.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/39/commons-parent-39.pom (62 kB at 311 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/apache/16/apache-16.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/apache/16/apache-16.pom (15 kB at 144 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.6/commons-codec-1.6.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.6/commons-codec-1.6.pom (11 kB at 115 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5.pom (2.7 kB at 29 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-parent/1.7.5/slf4j-parent-1.7.5.pom
+INFO] Do[wnloaded from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-parent/1.7.5/slf4j-parent-1.7.5.pom (12 kB at 114 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm/6.0_BETA/asm-6.0_BETA.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm/6.0_BETA/asm-6.0_BETA.pom (1.9 kB at 19 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-parent/6.0_BETA/asm-parent-6.0_BETA.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-parent/6.0_BETA/asm-parent-6.0_BETA.pom (5.5 kB at 55 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/ow2/1.3/ow2-1.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/ow2/1.3/ow2-1.3.pom (9.5 kB at 91 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-commons/6.0_BETA/asm-commons-6.0_BETA.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-commons/6.0_BETA/asm-commons-6.0_BETA.pom (2.1 kB at 25 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-tree/6.0_BETA/asm-tree-6.0_BETA.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-tree/6.0_BETA/asm-tree-6.0_BETA.pom (2.1 kB at 19 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jdom/jdom/1.1.3/jdom-1.1.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jdom/jdom/1.1.3/jdom-1.1.3.pom (1.8 kB at 22 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-dependency-tree/2.2/maven-dependency-tree-2.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-dependency-tree/2.2/maven-dependency-tree-2.2.pom (7.3 kB at 58 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-components/20/maven-shared-components-20.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-components/20/maven-shared-components-20.pom (5.1 kB at 54 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/24/maven-parent-24.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/24/maven-parent-24.pom (37 kB at 277 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/apache/14/apache-14.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/apache/14/apache-14.pom (15 kB at 122 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/aether/aether-util/0.9.0.M2/aether-util-0.9.0.M2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/aether/aether-util/0.9.0.M2/aether-util-0.9.0.M2.pom (2.0 kB at 19 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/aether/aether/0.9.0.M2/aether-0.9.0.M2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/aether/aether/0.9.0.M2/aether-0.9.0.M2.pom (28 kB at 213 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/vafer/jdependency/1.2/jdependency-1.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/vafer/jdependency/1.2/jdependency-1.2.pom (11 kB at 120 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-analysis/6.0_BETA/asm-analysis-6.0_BETA.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-analysis/6.0_BETA/asm-analysis-6.0_BETA.pom (2.1 kB at 25 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-util/6.0_BETA/asm-util-6.0_BETA.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-util/6.0_BETA/asm-util-6.0_BETA.pom (2.1 kB at 24 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/19.0/guava-19.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/19.0/guava-19.0.pom (6.8 kB at 74 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/19.0/guava-parent-19.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/19.0/guava-parent-19.0.pom (9.9 kB at 106 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-api/3.0/maven-plugin-api-3.0.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/sonatype/sisu/sisu-inject-plexus/1.4.2/sisu-inject-plexus-1.4.2.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/sonatype/sisu/sisu-inject-bean/1.4.2/sisu-inject-bean-1.4.2.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/sonatype/sisu/sisu-guice/2.1.7/sisu-guice-2.1.7-noaop.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-model/3.0/maven-model-3.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-api/3.0/maven-plugin-api-3.0.jar (49 kB at 197 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-core/3.0/maven-core-3.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/sonatype/sisu/sisu-inject-plexus/1.4.2/sisu-inject-plexus-1.4.2.jar (202 kB at 162 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-settings/3.0/maven-settings-3.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-settings/3.0/maven-settings-3.0.jar (47 kB at 22 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-settings-builder/3.0/maven-settings-builder-3.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-model/3.0/maven-model-3.0.jar (165 kB at 76 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-repository-metadata/3.0/maven-repository-metadata-3.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/sonatype/sisu/sisu-inject-bean/1.4.2/sisu-inject-bean-1.4.2.jar (153 kB at 67 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-model-builder/3.0/maven-model-builder-3.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-settings-builder/3.0/maven-settings-builder-3.0.jar (38 kB at 14 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-aether-provider/3.0/maven-aether-provider-3.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-repository-metadata/3.0/maven-repository-metadata-3.0.jar (30 kB at 11 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/sonatype/aether/aether-impl/1.7/aether-impl-1.7.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-core/3.0/maven-core-3.0.jar (527 kB at 172 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/sonatype/aether/aether-spi/1.7/aether-spi-1.7.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-aether-provider/3.0/maven-aether-provider-3.0.jar (51 kB at 17 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/sonatype/aether/aether-api/1.7/aether-api-1.7.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/sonatype/aether/aether-spi/1.7/aether-spi-1.7.jar (14 kB at 4.2 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/sonatype/aether/aether-util/1.7/aether-util-1.7.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/sonatype/aether/aether-api/1.7/aether-api-1.7.jar (74 kB at 21 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interpolation/1.14/plexus-interpolation-1.14.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/sonatype/aether/aether-impl/1.7/aether-impl-1.7.jar (106 kB at 29 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-classworlds/2.2.3/plexus-classworlds-2.2.3.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-model-builder/3.0/maven-model-builder-3.0.jar (148 kB at 39 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-component-annotations/1.6/plexus-component-annotations-1.6.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/sonatype/sisu/sisu-guice/2.1.7/sisu-guice-2.1.7-noaop.jar (472 kB at 124 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/sonatype/plexus/plexus-sec-dispatcher/1.3/plexus-sec-dispatcher-1.3.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-component-annotations/1.6/plexus-component-annotations-1.6.jar (4.3 kB at 1.1 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/sonatype/plexus/plexus-cipher/1.4/plexus-cipher-1.4.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/sonatype/aether/aether-util/1.7/aether-util-1.7.jar (108 kB at 28 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact/3.0/maven-artifact-3.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interpolation/1.14/plexus-interpolation-1.14.jar (61 kB at 15 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.0.24/plexus-utils-3.0.24.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-classworlds/2.2.3/plexus-classworlds-2.2.3.jar (46 kB at 12 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-artifact-transfer/0.9.1/maven-artifact-transfer-0.9.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/sonatype/plexus/plexus-cipher/1.4/plexus-cipher-1.4.jar (13 kB at 3.3 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-common-artifact-filters/3.0.1/maven-common-artifact-filters-3.0.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/sonatype/plexus/plexus-sec-dispatcher/1.3/plexus-sec-dispatcher-1.3.jar (29 kB at 7.0 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-utils/3.1.0/maven-shared-utils-3.1.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact/3.0/maven-artifact-3.0.jar (52 kB at 12 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.6/commons-codec-1.6.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-common-artifact-filters/3.0.1/maven-common-artifact-filters-3.0.1.jar (61 kB at 13 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-artifact-transfer/0.9.1/maven-artifact-transfer-0.9.1.jar (123 kB at 25 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm/6.0_BETA/asm-6.0_BETA.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5.jar (26 kB at 5.1 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-commons/6.0_BETA/asm-commons-6.0_BETA.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-utils/3.1.0/maven-shared-utils-3.1.0.jar (164 kB at 30 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-tree/6.0_BETA/asm-tree-6.0_BETA.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-commons/6.0_BETA/asm-commons-6.0_BETA.jar (51 kB at 9.4 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jdom/jdom/1.1.3/jdom-1.1.3.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm/6.0_BETA/asm-6.0_BETA.jar (56 kB at 9.9 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-dependency-tree/2.2/maven-dependency-tree-2.2.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.6/commons-codec-1.6.jar (233 kB at 40 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/aether/aether-util/0.9.0.M2/aether-util-0.9.0.M2.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-tree/6.0_BETA/asm-tree-6.0_BETA.jar (34 kB at 5.8 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/commons-io/commons-io/2.5/commons-io-2.5.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.0.24/plexus-utils-3.0.24.jar (247 kB at 42 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/vafer/jdependency/1.2/jdependency-1.2.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-dependency-tree/2.2/maven-dependency-tree-2.2.jar (64 kB at 10 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-analysis/6.0_BETA/asm-analysis-6.0_BETA.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/vafer/jdependency/1.2/jdependency-1.2.jar (22 kB at 3.6 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-util/6.0_BETA/asm-util-6.0_BETA.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-analysis/6.0_BETA/asm-analysis-6.0_BETA.jar (21 kB at 3.3 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/19.0/guava-19.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jdom/jdom/1.1.3/jdom-1.1.3.jar (151 kB at 23 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-util/6.0_BETA/asm-util-6.0_BETA.jar (47 kB at 5.3 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/aether/aether-util/0.9.0.M2/aether-util-0.9.0.M2.jar (134 kB at 15 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/commons-io/commons-io/2.5/commons-io-2.5.jar (209 kB at 23 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/19.0/guava-19.0.jar (2.3 MB at 186 kB/s)
+[INFO] Excluding com.google.guava:guava:jar:21.0 from the shaded jar.
+[INFO] Excluding com.google.code.gson:gson:jar:2.8.0 from the shaded jar.
+[INFO] Excluding org.yaml:snakeyaml:jar:1.23 from the shaded jar.
+[INFO] Excluding com.sk89q.worldedit:worldedit-core:jar:7.0.0-SNAPSHOT from the shaded jar.
+[INFO] Excluding de.schlichtherle:truezip:jar:6.8.3 from the shaded jar.
+[INFO] Excluding rhino:js:jar:1.7R2 from the shaded jar.
+[INFO] Excluding com.sk89q:jchronic:jar:0.2.4a from the shaded jar.
+[INFO] Excluding com.google.code.findbugs:jsr305:jar:1.3.9 from the shaded jar.
+[INFO] Excluding com.thoughtworks.paranamer:paranamer:jar:2.6 from the shaded jar.
+[INFO] Excluding com.sk89q.lib:jlibnoise:jar:1.0.0 from the shaded jar.
+[INFO] Excluding org.slf4j:slf4j-api:jar:1.7.26 from the shaded jar.
+[INFO] Excluding com.googlecode.json-simple:json-simple:jar:1.1.1 from the shaded jar.
+[INFO] Excluding junit:junit:jar:4.10 from the shaded jar.
+[INFO] Excluding org.hamcrest:hamcrest-core:jar:1.1 from the shaded jar.
+[INFO] Excluding org.apache.logging.log4j:log4j-core:jar:2.8.2 from the shaded jar.
+[INFO] Excluding org.apache.logging.log4j:log4j-api:jar:2.8.2 from the shaded jar.
+[INFO] Excluding com.wasteofplastic:askyblock:jar:3.0.8.2 from the shaded jar.
+[INFO] Excluding com.github.dmulloy2.LWC:lwc:jar:master-4.5.1-g2100b5e-18 from the shaded jar.
+[INFO] Excluding com.massivecraft.massivecore:MassiveCore:jar:2.13.0 from the shaded jar.
+[INFO] Excluding com.massivecraft.factions:Factions:jar:2.13.0 from the shaded jar.
+[INFO] Excluding com.massivecraft:Factions:jar:1.6.9.5-U0.2.2 from the shaded jar.
+[INFO] Excluding mkremins:fanciful:jar:0.4.0-SNAPSHOT from the shaded jar.
+[INFO] Excluding com.darkblade12:particleeffect:jar:1.8.0-SNAPSHOT from the shaded jar.
+[INFO] Excluding com.github.LlmDl:Towny:jar:2aeeb30903 from the shaded jar.
+[INFO] Excluding com.github.fubira:Lockette:jar:9dac96e8f8 from the shaded jar.
+[INFO] Excluding com.github.intellectualsites.plotsquared:PlotSquared-API:jar:4.226 from the shaded jar.
+[INFO] Excluding org.projectlombok:lombok:jar:1.18.4 from the shaded jar.
+[INFO] Excluding com.github.Sauilitired:Jenkins4J:jar:2.0-SNAPSHOT from the shaded jar.
+[INFO] Excluding com.squareup.retrofit2:retrofit:jar:2.4.0 from the shaded jar.
+[INFO] Excluding org.jetbrains:annotations:jar:16.0.3 from the shaded jar.
+[INFO] Excluding com.squareup.okhttp3:okhttp:jar:3.14.0 from the shaded jar.
+[INFO] Excluding com.squareup.okio:okio:jar:2.2.2 from the shaded jar.
+[INFO] Excluding org.jetbrains.kotlin:kotlin-stdlib:jar:1.3.21 from the shaded jar.
+[INFO] Excluding org.jetbrains.kotlin:kotlin-stdlib-common:jar:1.3.21 from the shaded jar.
+[INFO] Including org.bstats:bstats-bukkit:jar:1.4 in the shaded jar.
+[INFO] Replacing original artifact with shaded artifact.
+[INFO] Replacing /home/pi/Desktop/Build Server/TheBusyBiscuit/CS-CoreLib/master/files/target/CS-CoreLib-38.jar with /home/pi/Desktop/Build Server/TheBusyBiscuit/CS-CoreLib/master/files/target/CS-CoreLib-DEV - 38 (git 335cbc28)-shaded.jar
+[INFO] Dependency-reduced POM written at: /home/pi/Desktop/Build Server/TheBusyBiscuit/CS-CoreLib/master/files/dependency-reduced-pom.xml
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  02:36 min
+[INFO] Finished at: 2019-04-20T13:44:18+02:00
+[INFO] ------------------------------------------------------------------------
