@@ -1474,6 +1474,22 @@
         "candidate": "DEVELOPMENT",
         "status": "SUCCESS"
     },
-    "latest": 92,
+    "93": {
+        "id": 93,
+        "sha": "f1512ffeeaf75254835e42a56631f8d29e7e20a9",
+        "date": "20 Apr 2019 (08:16:24)",
+        "timestamp": 20190420081624,
+        "message": "Merge pull request #900 from sarhatabaot/patch-1\n\nReturn efficiency when getFuelEfficiency is called",
+        "author": "TheBusyBiscuit",
+        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
+        "license": {
+            "name": "GNU General Public License v3.0",
+            "id": "GPL-3.0",
+            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/Slimefun4/master/LICENSE"
+        },
+        "candidate": "DEVELOPMENT",
+        "status": "FAILURE"
+    },
+    "latest": 93,
     "last_successful": 92
 }
