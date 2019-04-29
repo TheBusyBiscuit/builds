@@ -1522,6 +1522,22 @@
         "candidate": "DEVELOPMENT",
         "status": "SUCCESS"
     },
-    "latest": 95,
-    "last_successful": 95
+    "96": {
+        "id": 96,
+        "sha": "3feff223bcc229318496db3640d5d7a2e55a2f24",
+        "date": "29 Apr 2019 (18:02:20)",
+        "timestamp": 20190429180220,
+        "message": "Merge pull request #902 from WalshyDev/patch/mc_1_14\n\nSF 4.1.17 - MC v1.14",
+        "author": "TheBusyBiscuit",
+        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
+        "license": {
+            "name": "GNU General Public License v3.0",
+            "id": "GPL-3.0",
+            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/Slimefun4/master/LICENSE"
+        },
+        "candidate": "DEVELOPMENT",
+        "status": "SUCCESS"
+    },
+    "latest": 96,
+    "last_successful": 96
 }
