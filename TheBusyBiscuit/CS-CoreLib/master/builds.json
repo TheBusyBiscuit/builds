@@ -607,6 +607,22 @@
         "candidate": "DEVELOPMENT",
         "status": "SUCCESS"
     },
-    "latest": 38,
-    "last_successful": 38
+    "39": {
+        "id": 39,
+        "sha": "cc6a7de0e08358e5df34a868a4d1873132308ae9",
+        "date": "29 Apr 2019 (16:44:20)",
+        "timestamp": 20190429164420,
+        "message": "Merge pull request #75 from WalshyDev/patch/mc_1_14\n\nPatch/mc 1 14",
+        "author": "TheBusyBiscuit",
+        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
+        "license": {
+            "name": "GNU General Public License v3.0",
+            "id": "GPL-3.0",
+            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/CS-CoreLib/master/LICENSE"
+        },
+        "candidate": "DEVELOPMENT",
+        "status": "SUCCESS"
+    },
+    "latest": 39,
+    "last_successful": 39
 }
