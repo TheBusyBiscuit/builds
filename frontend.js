@@ -11,8 +11,10 @@ $(function() {
         var info = repos[owner + "/" + repository + ":" + branch];
         var box = $("#infobox");
 
+        var i = 1;
         for (var label in info) {
-            box.append('<tr id="' + encodeURI(label) + '"></td>');
+            box.append('<tr id="custom-info-' + i + '"></td>');
+            i++;
         }
 
         function loadBuild(owner, repository, builds, id) {
@@ -95,6 +97,7 @@ $(function() {
 
             $("#current_commit_message").html(msg);
 
+            var j = 1;
             for (var label in info) {
                 var content = "";
 
@@ -105,7 +108,8 @@ $(function() {
                     }
                 }
 
-                $("#" + encodeURI(label)).html('<td class="icon"><img class="icon" src="https://thebusybiscuit.github.io/content/octicons/info.svg"></td><td>' + label + '</td><td>' + content + '</td>');
+                $("#custom-info-" + j).html('<td class="icon"><img class="icon" src="https://thebusybiscuit.github.io/content/octicons/info.svg"></td><td>' + label + '</td><td>' + content + '</td>');
+                j++
             }
         }
 
