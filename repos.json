@@ -12,13 +12,13 @@
 			"53": "1.13.x",
 			"1": "1.9.x, 1.10.x, 1.11.x, 1.12.x"
 		},
-		"CS-CoreLib Version (minimum)": {
-			"94": "<a href=\"/builds/TheBusyBiscuit/CS-CoreLib/master/#38\">dev #38</a>",
-			"73": "<a href=\"/builds/TheBusyBiscuit/CS-CoreLib/master/#36\">dev #36</a>",
-			"70": "<a href=\"/builds/TheBusyBiscuit/CS-CoreLib/master/#35\">dev #35</a>",
-			"53": "<a href=\"/builds/TheBusyBiscuit/CS-CoreLib/master/#22\">dev #22</a>",
-			"37": "<a href=\"/builds/TheBusyBiscuit/CS-CoreLib/master/#13\">1.5.18</a>",
-			"1": "<a href=\"/builds/TheBusyBiscuit/CS-CoreLib/master/#1\">1.5.16</a>"
+		"CS-CoreLib Version": {
+			"94": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/CS-CoreLib/master/#38\">dev #38</a>",
+			"73": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/CS-CoreLib/master/#36\">dev #36</a>",
+			"70": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/CS-CoreLib/master/#35\">dev #35</a>",
+			"53": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/CS-CoreLib/master/#22\">dev #22</a>",
+			"37": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/CS-CoreLib/master/#13\">1.5.18</a>",
+			"1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/CS-CoreLib/master/#1\">1.5.16</a>"
 		}
 	},
 	"TheBusyBiscuit/ExoticGarden:master": {
@@ -26,17 +26,17 @@
 			"4": "1.13.x",
 			"1": "1.10.x, 1.11.x, 1.12.x"
 		},
-		"CS-CoreLib Version (minimum)": {
-			"6": "<a href=\"/builds/TheBusyBiscuit/CS-CoreLib/master/#36\">dev #36</a>",
-			"5": "<a href=\"/builds/TheBusyBiscuit/CS-CoreLib/master/#23\">dev #23</a>",
-			"2": "<a href=\"/builds/TheBusyBiscuit/CS-CoreLib/master/#13\">1.5.18</a>",
-			"2": "<a href=\"/builds/TheBusyBiscuit/CS-CoreLib/master/#1\">1.5.16</a>"
+		"CS-CoreLib Version": {
+			"6": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/CS-CoreLib/master/#36\">dev #36</a>",
+			"5": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/CS-CoreLib/master/#23\">dev #23</a>",
+			"2": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/CS-CoreLib/master/#13\">1.5.18</a>",
+			"2": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/CS-CoreLib/master/#1\">1.5.16</a>"
 		},
-		"Slimefun Version (minimum)": {
-			"6": "<a href=\"/builds/TheBusyBiscuit/Slimefun4/master/#73\">dev #73</a>",
-			"5": "<a href=\"/builds/TheBusyBiscuit/Slimefun4/master/#68\">dev #68</a>",
-			"2": "<a href=\"/builds/TheBusyBiscuit/Slimefun4/master/#41\">4.1.15</a>",
-			"1": "<a href=\"/builds/TheBusyBiscuit/Slimefun4/master/#1\">4.1.12</a>"
+		"Slimefun Version": {
+			"6": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/Slimefun4/master/#73\">dev #73</a>",
+			"5": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/Slimefun4/master/#68\">dev #68</a>",
+			"2": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/Slimefun4/master/#41\">4.1.15</a>",
+			"1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/Slimefun4/master/#1\">4.1.12</a>"
 		}
 	},
 	"TheBusyBiscuit/ChestTerminal:master": {
@@ -44,39 +44,39 @@
 			"3": "1.13.x",
 			"1": "1.10.x, 1.11.x, 1.12.x"
 		},
-		"CS-CoreLib Version (minimum)": {
-			"4": "<a href=\"/builds/TheBusyBiscuit/CS-CoreLib/master/#36\">dev #36</a>",
-			"3": "<a href=\"/builds/TheBusyBiscuit/CS-CoreLib/master/#31\">dev #31</a>",
-			"1": "<a href=\"/builds/TheBusyBiscuit/CS-CoreLib/master/#1\">1.5.16</a>"
+		"CS-CoreLib Version": {
+			"4": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/CS-CoreLib/master/#36\">dev #36</a>",
+			"3": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/CS-CoreLib/master/#31\">dev #31</a>",
+			"1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/CS-CoreLib/master/#1\">1.5.16</a>"
 		},
-		"Slimefun Version (minimum)": {
-			"4": "<a href=\"/builds/TheBusyBiscuit/Slimefun4/master/#92\">dev #92</a>",
-			"3": "<a href=\"/builds/TheBusyBiscuit/Slimefun4/master/#41\">4.1.15</a>",
-			"1": "<a href=\"/builds/TheBusyBiscuit/Slimefun4/master/#1\">4.1.12</a>"
+		"Slimefun Version": {
+			"4": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/Slimefun4/master/#92\">dev #92</a>",
+			"3": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/Slimefun4/master/#41\">4.1.15</a>",
+			"1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/Slimefun4/master/#1\">4.1.12</a>"
 		}
 	},
 	"TheBusyBiscuit/luckyblocks-sf:master": {
 		"Minecraft Version(s)": {
 			"1": "1.13.x"
 		},
-		"CS-CoreLib Version (minimum)": {
-			"3": "<a href=\"/builds/TheBusyBiscuit/CS-CoreLib/master/#36\">dev #36</a>",
-			"1": "<a href=\"/builds/TheBusyBiscuit/CS-CoreLib/master/#31\">dev #31</a>"
+		"CS-CoreLib Version": {
+			"3": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/CS-CoreLib/master/#36\">dev #36</a>",
+			"1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/CS-CoreLib/master/#31\">dev #31</a>"
 		},
-		"Slimefun Version (minimum)": {
-			"3": "<a href=\"/builds/TheBusyBiscuit/Slimefun4/master/#73\">dev #73</a>",
-			"1": "<a href=\"/builds/TheBusyBiscuit/Slimefun4/master/#41\">4.1.15</a>"
+		"Slimefun Version": {
+			"3": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/Slimefun4/master/#73\">dev #73</a>",
+			"1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/Slimefun4/master/#41\">4.1.15</a>"
 		}
 	},
 	"TheBusyBiscuit/SoulJars:master": {
 		"Minecraft Version(s)": {
 			"1": "1.13.x"
 		},
-		"CS-CoreLib Version (minimum)": {
-			"1": "<a href=\"/builds/TheBusyBiscuit/CS-CoreLib/master/#36\">dev #36</a>"
+		"CS-CoreLib Version": {
+			"1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/CS-CoreLib/master/#36\">dev #36</a>"
 		},
-		"Slimefun Version (minimum)": {
-			"1": "<a href=\"/builds/TheBusyBiscuit/Slimefun4/master/#73\">dev #73</a>"
+		"Slimefun Version": {
+			"1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/Slimefun4/master/#73\">dev #73</a>"
 		}
 	}
 }

@@ -100,11 +100,11 @@ $(function() {
             var j = 1;
             for (var label in info) {
                 var content = "";
+                var prev = 0;
 
                 for (var min in info[label]) {
-                    if (id >= parseInt(min)) {
+                    if (id >= parseInt(min) && parseInt(min) > prev) {
                         content = info[label][min];
-                        break;
                     }
                 }
 
