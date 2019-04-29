@@ -65,24 +65,17 @@ function startWatcher() {
         if (!err) {
             var repos = JSON.parse(data);
 
-            for (var author in repos) {
-                console.log(" Watching Author \"" + author + "\"...");
-                for (var i in repos[author]) {
-                    var repo = repos[author][i];
-                    var repository = repo.split(':')[0];
-                    var branch = repo.split(':')[1];
+            for (var repo in repos) {
+                console.log("Found Project \"" + repo + "\"");
 
-                    console.log("Found Project \"" + author + "/" + repo + "\"");
+                var job = {
+                    "author": repo.split("/")[0],
+                    "repo": repo.split('/')[1].split(":")[0],
+                    "branch": repo.split('/')[1].split(":")[1]
+                };
 
-                    var job = {
-                        "author": author,
-                        "repo": repository,
-                        "branch": branch
-                    };
-
-                    jobs.push(job);
-                    global.status.task[job.author + "/" + job.repo + "/" + job.branch] = "Queued";
-                }
+                jobs.push(job);
+                global.status.task[job.author + "/" + job.repo + "/" + job.branch] = "Queued";
             }
 
             global.status.jobs = jobs.slice(0);

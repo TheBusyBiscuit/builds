@@ -1,10 +1,82 @@
 {
-	"TheBusyBiscuit": [
-		"CS-CoreLib:master",
-		"Slimefun4:master",
-		"ChestTerminal:master",
-		"ExoticGarden:master",
-		"luckyblocks-sf:master",
-		"SoulJars:master"
-	]
+	"TheBusyBiscuit/CS-CoreLib:master": {
+		"Minecraft Version(s)": {
+			"39": "1.12.x, 1.13.x, 1.14.x",
+			"20": "1.11.x, 1.12.x, 1.13.x",
+			"1": "1.10.x, 1.11.x, 1.12.x"
+		}
+	},
+	"TheBusyBiscuit/Slimefun4:master": {
+		"Minecraft Version(s)": {
+			"96": "1.14.x",
+			"53": "1.13.x",
+			"1": "1.9.x, 1.10.x, 1.11.x, 1.12.x"
+		},
+		"CS-CoreLib Version (minimum)": {
+			"94": "<a href=\"/builds/TheBusyBiscuit/CS-CoreLib/master/#38\">dev #38</a>",
+			"73": "<a href=\"/builds/TheBusyBiscuit/CS-CoreLib/master/#36\">dev #36</a>",
+			"70": "<a href=\"/builds/TheBusyBiscuit/CS-CoreLib/master/#35\">dev #35</a>",
+			"53": "<a href=\"/builds/TheBusyBiscuit/CS-CoreLib/master/#22\">dev #22</a>",
+			"37": "<a href=\"/builds/TheBusyBiscuit/CS-CoreLib/master/#13\">1.5.18</a>",
+			"1": "<a href=\"/builds/TheBusyBiscuit/CS-CoreLib/master/#1\">1.5.16</a>"
+		}
+	},
+	"TheBusyBiscuit/ExoticGarden:master": {
+		"Minecraft Version(s)": {
+			"4": "1.13.x",
+			"1": "1.10.x, 1.11.x, 1.12.x"
+		},
+		"CS-CoreLib Version (minimum)": {
+			"6": "<a href=\"/builds/TheBusyBiscuit/CS-CoreLib/master/#36\">dev #36</a>",
+			"5": "<a href=\"/builds/TheBusyBiscuit/CS-CoreLib/master/#23\">dev #23</a>",
+			"2": "<a href=\"/builds/TheBusyBiscuit/CS-CoreLib/master/#13\">1.5.18</a>",
+			"2": "<a href=\"/builds/TheBusyBiscuit/CS-CoreLib/master/#1\">1.5.16</a>"
+		},
+		"Slimefun Version (minimum)": {
+			"6": "<a href=\"/builds/TheBusyBiscuit/Slimefun4/master/#73\">dev #73</a>",
+			"5": "<a href=\"/builds/TheBusyBiscuit/Slimefun4/master/#68\">dev #68</a>",
+			"2": "<a href=\"/builds/TheBusyBiscuit/Slimefun4/master/#41\">4.1.15</a>",
+			"1": "<a href=\"/builds/TheBusyBiscuit/Slimefun4/master/#1\">4.1.12</a>"
+		}
+	},
+	"TheBusyBiscuit/ChestTerminal:master": {
+		"Minecraft Version(s)": {
+			"3": "1.13.x",
+			"1": "1.10.x, 1.11.x, 1.12.x"
+		},
+		"CS-CoreLib Version (minimum)": {
+			"4": "<a href=\"/builds/TheBusyBiscuit/CS-CoreLib/master/#36\">dev #36</a>",
+			"3": "<a href=\"/builds/TheBusyBiscuit/CS-CoreLib/master/#31\">dev #31</a>",
+			"1": "<a href=\"/builds/TheBusyBiscuit/CS-CoreLib/master/#1\">1.5.16</a>"
+		},
+		"Slimefun Version (minimum)": {
+			"4": "<a href=\"/builds/TheBusyBiscuit/Slimefun4/master/#92\">dev #92</a>",
+			"3": "<a href=\"/builds/TheBusyBiscuit/Slimefun4/master/#41\">4.1.15</a>",
+			"1": "<a href=\"/builds/TheBusyBiscuit/Slimefun4/master/#1\">4.1.12</a>"
+		}
+	},
+	"TheBusyBiscuit/luckyblocks-sf:master": {
+		"Minecraft Version(s)": {
+			"1": "1.13.x"
+		},
+		"CS-CoreLib Version (minimum)": {
+			"3": "<a href=\"/builds/TheBusyBiscuit/CS-CoreLib/master/#36\">dev #36</a>",
+			"1": "<a href=\"/builds/TheBusyBiscuit/CS-CoreLib/master/#31\">dev #31</a>"
+		},
+		"Slimefun Version (minimum)": {
+			"3": "<a href=\"/builds/TheBusyBiscuit/Slimefun4/master/#73\">dev #73</a>",
+			"1": "<a href=\"/builds/TheBusyBiscuit/Slimefun4/master/#41\">4.1.15</a>"
+		}
+	},
+	"TheBusyBiscuit/SoulJars:master": {
+		"Minecraft Version(s)": {
+			"1": "1.13.x"
+		},
+		"CS-CoreLib Version (minimum)": {
+			"1": "<a href=\"/builds/TheBusyBiscuit/CS-CoreLib/master/#36\">dev #36</a>"
+		},
+		"Slimefun Version (minimum)": {
+			"1": "<a href=\"/builds/TheBusyBiscuit/Slimefun4/master/#73\">dev #73</a>"
+		}
+	}
 }

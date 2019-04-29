@@ -7,45 +7,144 @@ $(function() {
     createBadge(owner, repository, branch, "markdown");
     createBadge(owner, repository, branch, "html");
 
-    $.getJSON("https://thebusybiscuit.github.io/builds/" + owner + "/" + repository + "/" + branch + "/builds.json", function(builds) {
-        var last_successful = builds.last_successful;
+    $.getJSON("https://thebusybiscuit.github.io/builds/repos.json", function(repos) {
+        var info = repos[owner + "/" + repository + ":" + branch];
 
-        // Get currently selected Build
-        var current = builds.latest;
+        function loadBuild(owner, repository, builds, id) {
+            var stroke = "rgb(110, 110, 110)";
+            var color = "rgb(160, 160, 160)";
 
-        if(window.location.hash) {
-            var hash = window.location.hash.substr(1);
+            if (builds[id].status === "SUCCESS") {
+                stroke = "rgb(60, 100, 60)";
+                color = "rgb(20, 255, 20)";
+            }
+            else if (builds[id].status === "FAILURE") {
+                stroke = "rgb(100, 60, 60)";
+                color = "rgb(255, 20, 20)";
+            }
 
-            if (!isNaN(hash)) {
-                var id = parseInt(hash);
-                if (id > 0 && id < builds.latest) {
-                    current = id;
+            var current_icon = "<circle cx=\"31\" cy=\"31\" r=\"23\" stroke=\"" + stroke + "\" stroke-width=\"2\" fill=\"" + color + "\"/>";
+
+            $("#current_icon").html(current_icon);
+            $("#current_status").text(builds[id].status);
+
+            if (builds[id].status === "SUCCESS") {
+                $("#download_section").css("display", "");
+
+                var download_jar = $("#current_download_jar");
+                download_jar.text(repository + "-" + id + ".jar");
+                download_jar.attr("href", repository + "-" + id + ".jar");
+            }
+            else {
+                $("#download_section").css("display", "none");
+            }
+
+            if (builds[id].candidate === "RELEASE") {
+                $("#current_name").text(repository + " - " + builds[id].tag);
+                $("#tag_section").css("display", "");
+
+                var current_tag = $("#current_tag");
+                current_tag.attr("href", "https://github.com/" + owner +"/" + repository + "/releases/tag/" + builds[id].tag);
+                current_tag.text(builds[id].tag);
+            }
+            else {
+                $("#current_name").text(repository + " - #" + id);
+                $("#tag_section").css("display", "none");
+            }
+
+            var download_log = $("#current_download_log");
+            download_log.text(repository + "-" + id + ".log");
+            download_log.attr("href", repository + "-" + id + ".log");
+
+            $("#current_tree").attr("href", "https://github.com/" + owner + "/" + repository + "/tree/" + builds[id].sha);
+
+            if (builds[id].license === "") {
+                $("#license_section").css("display", "none");
+            }
+            else {
+                $("#license_section").css("display", "");
+
+                var current_license = $("#current_license");
+                current_license.attr("href", builds[id].license.url);
+                current_license.text(builds[id].license.name);
+            }
+
+            var current_commit = $("#current_commit");
+            current_commit.attr("href", "https://github.com/" + owner +"/" + repository + "/commit/" + builds[id].sha);
+            current_commit.text("#" + builds[id].sha.substr(0, 5));
+
+            $("#current_commit_avatar").attr("src", builds[id].avatar);
+            $("#current_commit_committer").text(builds[id].author);
+            $("#current_commit_date").text(builds[id].date);
+
+            var msg = "\"" + builds[id].message + "\"";
+            // Prevent XSS
+            msg = msg.replace(/</g, "")
+            msg = msg.replace(/>/g, "")
+
+            var match = msg.match(/#[0-9]+/g);
+
+            for (var i in match) {
+                msg = msg.replace(match[i], "<a class=\"link_info\" href=https://github.com/" + owner + "/" + repository + "/issues/" + match[i].replace("#", "") + ">" + match[i] + "</a>");
+            }
+
+            $("#current_commit_message").html(msg);
+
+            var box = $("#infobox");
+            for (var label in info) {
+                var msg = "";
+
+                for (var min in info[label]) {
+                    if (id >= parseInt(min)) {
+                        msg = info[label][min];
+                        break;
+                    }
                 }
+
+                box.append('<tr><td class="icon"><img class="icon" src="https://thebusybiscuit.github.io/content/octicons/info.svg"></td><td>' + label + '</td><td>' + '</td>' + msg + '</tr>');
             }
         }
 
-        // Load currently selected Build
-        loadBuild(owner, repository, builds, current);
+        $.getJSON("https://thebusybiscuit.github.io/builds/" + owner + "/" + repository + "/" + branch + "/builds.json", function(builds) {
+            var last_successful = builds.last_successful;
 
-        // "Last Successful Build" Link
-        var link_last_successful = $("#link_last_successful_build");
+            // Get currently selected Build
+            var current = builds.latest;
 
-        link_last_successful.text("#" + last_successful);
-        link_last_successful.attr("href", "#" + last_successful);
+            if(window.location.hash) {
+                var hash = window.location.hash.substr(1);
 
-        $(".build_header").text("Builds (" + builds.latest + ")");
+                if (!isNaN(hash)) {
+                    var id = parseInt(hash);
+                    if (id > 0 && id < builds.latest) {
+                        current = id;
+                    }
+                }
+            }
 
-        // Build List
-        var list_builds = $("#buildlist");
+            // Load currently selected Build
+            loadBuild(owner, repository, builds, current);
 
-        list_builds.html("");
-        for (var i = builds.latest; i > 0; i--) {
-            list_builds.append(build(builds, i));
-        }
+            // "Last Successful Build" Link
+            var link_last_successful = $("#link_last_successful_build");
 
-        // Add Click Events
-        $(".trigger").click(function() {
-            loadBuild(owner, repository, builds, parseInt($(this).attr("href").substr(1)));
+            link_last_successful.text("#" + last_successful);
+            link_last_successful.attr("href", "#" + last_successful);
+
+            $(".build_header").text("Builds (" + builds.latest + ")");
+
+            // Build List
+            var list_builds = $("#buildlist");
+
+            list_builds.html("");
+            for (var i = builds.latest; i > 0; i--) {
+                list_builds.append(build(builds, i));
+            }
+
+            // Add Click Events
+            $(".trigger").click(function() {
+                loadBuild(owner, repository, builds, parseInt($(this).attr("href").substr(1)));
+            });
         });
     });
 
@@ -89,87 +188,6 @@ $(function() {
         html += "</div>";
 
         return html;
-    }
-
-    function loadBuild(owner, repository, builds, id) {
-        var stroke = "rgb(110, 110, 110)";
-        var color = "rgb(160, 160, 160)";
-
-        if (builds[id].status === "SUCCESS") {
-            stroke = "rgb(60, 100, 60)";
-            color = "rgb(20, 255, 20)";
-        }
-        else if (builds[id].status === "FAILURE") {
-            stroke = "rgb(100, 60, 60)";
-            color = "rgb(255, 20, 20)";
-        }
-
-        var current_icon = "<circle cx=\"31\" cy=\"31\" r=\"23\" stroke=\"" + stroke + "\" stroke-width=\"2\" fill=\"" + color + "\"/>";
-
-        $("#current_icon").html(current_icon);
-        $("#current_status").text(builds[id].status);
-
-        if (builds[id].status === "SUCCESS") {
-            $("#download_section").css("display", "");
-
-            var download_jar = $("#current_download_jar");
-            download_jar.text(repository + "-" + id + ".jar");
-            download_jar.attr("href", repository + "-" + id + ".jar");
-        }
-        else {
-            $("#download_section").css("display", "none");
-        }
-
-        if (builds[id].candidate === "RELEASE") {
-            $("#current_name").text(repository + " - " + builds[id].tag);
-            $("#tag_section").css("display", "");
-
-            var current_tag = $("#current_tag");
-            current_tag.attr("href", "https://github.com/" + owner +"/" + repository + "/releases/tag/" + builds[id].tag);
-            current_tag.text(builds[id].tag);
-        }
-        else {
-            $("#current_name").text(repository + " - #" + id);
-            $("#tag_section").css("display", "none");
-        }
-
-        var download_log = $("#current_download_log");
-        download_log.text(repository + "-" + id + ".log");
-        download_log.attr("href", repository + "-" + id + ".log");
-
-        $("#current_tree").attr("href", "https://github.com/" + owner + "/" + repository + "/tree/" + builds[id].sha);
-
-        if (builds[id].license === "") {
-            $("#license_section").css("display", "none");
-        }
-        else {
-            $("#license_section").css("display", "");
-
-            var current_license = $("#current_license");
-            current_license.attr("href", builds[id].license.url);
-            current_license.text(builds[id].license.name);
-        }
-
-        var current_commit = $("#current_commit");
-        current_commit.attr("href", "https://github.com/" + owner +"/" + repository + "/commit/" + builds[id].sha);
-        current_commit.text("#" + builds[id].sha.substr(0, 5));
-
-        $("#current_commit_avatar").attr("src", builds[id].avatar);
-        $("#current_commit_committer").text(builds[id].author);
-        $("#current_commit_date").text(builds[id].date);
-
-        var msg = "\"" + builds[id].message + "\"";
-        // Prevent XSS
-        msg = msg.replace(/</g, "")
-        msg = msg.replace(/>/g, "")
-
-        var match = msg.match(/#[0-9]+/g);
-
-        for (var i in match) {
-            msg = msg.replace(match[i], "<a class=\"link_info\" href=https://github.com/" + owner + "/" + repository + "/issues/" + match[i].replace("#", "") + ">" + match[i] + "</a>");
-        }
-
-        $("#current_commit_message").html(msg);
     }
 });
 
