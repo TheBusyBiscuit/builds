@@ -1506,6 +1506,22 @@
         "candidate": "DEVELOPMENT",
         "status": "SUCCESS"
     },
-    "latest": 94,
-    "last_successful": 94
+    "95": {
+        "id": 95,
+        "sha": "15555872c7d33c3434572be8a3eb6e53e36188a4",
+        "date": "29 Apr 2019 (16:43:54)",
+        "timestamp": 20190429164354,
+        "message": "Merge pull request #905 from sarhatabaot/patch-1\n\nMinor codecleanup & fixed spelling mistake",
+        "author": "TheBusyBiscuit",
+        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
+        "license": {
+            "name": "GNU General Public License v3.0",
+            "id": "GPL-3.0",
+            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/Slimefun4/master/LICENSE"
+        },
+        "candidate": "DEVELOPMENT",
+        "status": "SUCCESS"
+    },
+    "latest": 95,
+    "last_successful": 95
 }
