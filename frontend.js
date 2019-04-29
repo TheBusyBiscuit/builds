@@ -9,6 +9,11 @@ $(function() {
 
     $.getJSON("https://thebusybiscuit.github.io/builds/repos.json", function(repos) {
         var info = repos[owner + "/" + repository + ":" + branch];
+        var box = $("#infobox");
+
+        for (var label in info) {
+            box.append('<tr id="' + label + '"></td>');
+        }
 
         function loadBuild(owner, repository, builds, id) {
             var stroke = "rgb(110, 110, 110)";
@@ -90,18 +95,17 @@ $(function() {
 
             $("#current_commit_message").html(msg);
 
-            var box = $("#infobox");
             for (var label in info) {
-                var msg = "";
+                var content = "";
 
                 for (var min in info[label]) {
                     if (id >= parseInt(min)) {
-                        msg = info[label][min];
+                        content = info[label][min];
                         break;
                     }
                 }
 
-                box.append('<tr><td class="icon"><img class="icon" src="https://thebusybiscuit.github.io/content/octicons/info.svg"></td><td>' + label + '</td><td>' + '</td>' + msg + '</tr>');
+                $("#" + label).html('<td class="icon"><img class="icon" src="https://thebusybiscuit.github.io/content/octicons/info.svg"></td><td>' + label + '</td><td>' + content + '</td>');
             }
         }
 
