@@ -12,7 +12,7 @@ $(function() {
         var box = $("#infobox");
 
         for (var label in info) {
-            box.append('<tr id="' + label + '"></td>');
+            box.append('<tr id="' + encodeURI(label) + '"></td>');
         }
 
         function loadBuild(owner, repository, builds, id) {
@@ -105,7 +105,7 @@ $(function() {
                     }
                 }
 
-                $("#" + label).html('<td class="icon"><img class="icon" src="https://thebusybiscuit.github.io/content/octicons/info.svg"></td><td>' + label + '</td><td>' + content + '</td>');
+                $("#" + encodeURI(label)).html('<td class="icon"><img class="icon" src="https://thebusybiscuit.github.io/content/octicons/info.svg"></td><td>' + label + '</td><td>' + content + '</td>');
             }
         }
 

@@ -2,11 +2,9 @@ $(function() {
     $.getJSON("https://thebusybiscuit.github.io/builds/repos.json", function(repos) {
         $("#repos").html("");
 
-        for (let author in repos) {
-            for (let i in repos[author]) {
-                let repo = repos[author][i];
-                addRepository(author, repo.split(':')[0], repo.split(':')[1]);
-            }
+        for (var repo in repos) {
+            console.log("Found Project \"" + repo + "\"");
+            addRepository(repo.split("/")[0], repo.split('/')[1].split(":")[0], repo.split('/')[1].split(":")[1]);
         }
     });
 });
