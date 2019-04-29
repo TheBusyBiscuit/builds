@@ -128,7 +128,7 @@ tr {
 td {
     border-bottom: solid 1px rgb(253, 253, 253);
     border-top: solid 1px rgb(253, 253, 253);
-    padding: 0;
+    padding: 0 10px 0 0;
 }
 tr:nth-child(even) {
     background-color: rgb(242, 242, 242);
