@@ -623,6 +623,22 @@
         "candidate": "DEVELOPMENT",
         "status": "SUCCESS"
     },
-    "latest": 39,
+    "40": {
+        "id": 40,
+        "sha": "c8e7496b7666f83eff7aeeef20025c465a47d527",
+        "date": "07 May 2019 (19:48:51)",
+        "timestamp": 20190507194851,
+        "message": "Merge pull request #78 from Poslovitch/bentobox-support\n\nAdded BentoBox (1.4.0) protection module",
+        "author": "TheBusyBiscuit",
+        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
+        "license": {
+            "name": "GNU General Public License v3.0",
+            "id": "GPL-3.0",
+            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/CS-CoreLib/master/LICENSE"
+        },
+        "candidate": "DEVELOPMENT",
+        "status": "FAILURE"
+    },
+    "latest": 40,
     "last_successful": 39
 }
