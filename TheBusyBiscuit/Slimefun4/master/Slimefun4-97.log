@@ -1,0 +1,76 @@
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for me.mrCookieSlime:Slimefun:jar:DEV - 97 (git f5bc2445)
+[WARNING] 'dependencies.dependency.systemPath' for me.minebuilders:clearlag-core:jar should not point at files within the project directory, ${project.basedir}/lib/Clearlag.jar will be unresolvable by dependent projects @ line 1, column 2023
+[WARNING] 'dependencies.dependency.systemPath' for me.mrCookieSlime:EmeraldEnchants:jar should not point at files within the project directory, ${project.basedir}/lib/EmeraldEnchants v2.0.jar will be unresolvable by dependent projects @ line 1, column 2299
+[WARNING] 'dependencies.dependency.systemPath' for me.mrCookieSlime:ExoticGarden:jar should not point at files within the project directory, ${project.basedir}/lib/ExoticGarden v1.2.0.jar will be unresolvable by dependent projects @ line 1, column 2489
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] 
+[INFO] ---------------------< me.mrCookieSlime:Slimefun >----------------------
+[INFO] Building Slimefun DEV - 97 (git f5bc2445)
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/bukkit/bukkit/1.14-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from coreprotect-repo: https://maven.playpro.com/org/bukkit/bukkit/1.14-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/bukkit/bukkit/1.14-R0.1-SNAPSHOT/maven-metadata.xml (1.4 kB at 611 B/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/bukkit/bukkit/1.14-R0.1-SNAPSHOT/bukkit-1.14-R0.1-20190506.234848-87.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/bukkit/bukkit/1.14-R0.1-SNAPSHOT/bukkit-1.14-R0.1-20190506.234848-87.pom (0 B at 0 B/s)
+[INFO] Downloading from coreprotect-repo: https://maven.playpro.com/com/sk89q/worldedit/worldedit-bukkit/7.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/sk89q/worldedit/worldedit-bukkit/7.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from coreprotect-repo: https://maven.playpro.com/com/sk89q/worldedit/worldedit-core/7.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/sk89q/worldedit/worldedit-core/7.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/sk89q/worldedit/worldedit-libs/core/7.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from coreprotect-repo: https://maven.playpro.com/com/sk89q/worldedit/worldedit-libs/core/7.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from coreprotect-repo: https://maven.playpro.com/com/sk89q/worldedit/worldedit-libs/bukkit/7.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/sk89q/worldedit/worldedit-libs/bukkit/7.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/apache/logging/log4j/log4j-slf4j-impl/2.8.1/log4j-slf4j-impl-2.8.1.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/apache/logging/log4j/log4j-slf4j-impl/2.8.1/log4j-slf4j-impl-2.8.1.pom (0 B at 0 B/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/apache/logging/log4j/log4j/2.8.1/log4j-2.8.1.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/apache/logging/log4j/log4j/2.8.1/log4j-2.8.1.pom (0 B at 0 B/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/slf4j/slf4j-api/1.7.24/slf4j-api-1.7.24.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/slf4j/slf4j-api/1.7.24/slf4j-api-1.7.24.pom (0 B at 0 B/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/slf4j/slf4j-parent/1.7.24/slf4j-parent-1.7.24.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/slf4j/slf4j-parent/1.7.24/slf4j-parent-1.7.24.pom (0 B at 0 B/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/apache/logging/log4j/log4j-api/2.8.1/log4j-api-2.8.1.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/apache/logging/log4j/log4j-api/2.8.1/log4j-api-2.8.1.pom (0 B at 0 B/s)
+[WARNING] The POM for com.wasteofplastic:askyblock:jar:3.0.8.2 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+[WARNING] The POM for com.github.dmulloy2.LWC:lwc:jar:master-4.5.1-g2100b5e-18 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/massivecraft/massivecore/MassiveCore/2.13.0/MassiveCore-2.13.0.pom
+[INFO] Downloading from worldedit-worldguard-repo: https://maven.sk89q.com/repo/com/massivecraft/massivecore/MassiveCore/2.13.0/MassiveCore-2.13.0.pom
+[INFO] Downloading from coreprotect-repo: https://maven.playpro.com/com/massivecraft/massivecore/MassiveCore/2.13.0/MassiveCore-2.13.0.pom
+[INFO] Downloading from massivecore-factions-repo: http://repo.dustplanet.de/artifactory/ext-release-local/com/massivecraft/massivecore/MassiveCore/2.13.0/MassiveCore-2.13.0.pom
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/massivecraft/factions/Factions/2.13.0/Factions-2.13.0.pom
+[INFO] Downloading from worldedit-worldguard-repo: https://maven.sk89q.com/repo/com/massivecraft/factions/Factions/2.13.0/Factions-2.13.0.pom
+[INFO] Downloading from coreprotect-repo: https://maven.playpro.com/com/massivecraft/factions/Factions/2.13.0/Factions-2.13.0.pom
+[INFO] Downloading from massivecore-factions-repo: http://repo.dustplanet.de/artifactory/ext-release-local/com/massivecraft/factions/Factions/2.13.0/Factions-2.13.0.pom
+[INFO] Downloading from coreprotect-repo: https://maven.playpro.com/mkremins/fanciful/0.4.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/mkremins/fanciful/0.4.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from massivecore-factions-repo: http://repo.dustplanet.de/artifactory/ext-release-local/mkremins/fanciful/0.4.0-SNAPSHOT/maven-metadata.xml
+[WARNING] Could not transfer metadata mkremins:fanciful:0.4.0-SNAPSHOT/maven-metadata.xml from/to massivecore-factions-repo (http://repo.dustplanet.de/artifactory/ext-release-local/): Failed to transfer file http://repo.dustplanet.de/artifactory/ext-release-local/mkremins/fanciful/0.4.0-SNAPSHOT/maven-metadata.xml with status code 503
+[WARNING] Failure to transfer mkremins:fanciful:0.4.0-SNAPSHOT/maven-metadata.xml from http://repo.dustplanet.de/artifactory/ext-release-local/ was cached in the local repository, resolution will not be reattempted until the update interval of massivecore-factions-repo has elapsed or updates are forced. Original error: Could not transfer metadata mkremins:fanciful:0.4.0-SNAPSHOT/maven-metadata.xml from/to massivecore-factions-repo (http://repo.dustplanet.de/artifactory/ext-release-local/): Failed to transfer file http://repo.dustplanet.de/artifactory/ext-release-local/mkremins/fanciful/0.4.0-SNAPSHOT/maven-metadata.xml with status code 503
+[INFO] Downloading from massivecore-factions-repo: http://repo.dustplanet.de/artifactory/ext-release-local/com/darkblade12/particleeffect/1.8.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from coreprotect-repo: https://maven.playpro.com/com/darkblade12/particleeffect/1.8.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/darkblade12/particleeffect/1.8.0-SNAPSHOT/maven-metadata.xml
+[WARNING] Could not transfer metadata com.darkblade12:particleeffect:1.8.0-SNAPSHOT/maven-metadata.xml from/to massivecore-factions-repo (http://repo.dustplanet.de/artifactory/ext-release-local/): Failed to transfer file http://repo.dustplanet.de/artifactory/ext-release-local/com/darkblade12/particleeffect/1.8.0-SNAPSHOT/maven-metadata.xml with status code 503
+[WARNING] Failure to transfer com.darkblade12:particleeffect:1.8.0-SNAPSHOT/maven-metadata.xml from http://repo.dustplanet.de/artifactory/ext-release-local/ was cached in the local repository, resolution will not be reattempted until the update interval of massivecore-factions-repo has elapsed or updates are forced. Original error: Could not transfer metadata com.darkblade12:particleeffect:1.8.0-SNAPSHOT/maven-metadata.xml from/to massivecore-factions-repo (http://repo.dustplanet.de/artifactory/ext-release-local/): Failed to transfer file http://repo.dustplanet.de/artifactory/ext-release-local/com/darkblade12/particleeffect/1.8.0-SNAPSHOT/maven-metadata.xml with status code 503
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/github/Sauilitired/Jenkins4J/2.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from coreprotect-repo: https://maven.playpro.com/com/github/Sauilitired/Jenkins4J/2.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from massivecore-factions-repo: http://repo.dustplanet.de/artifactory/ext-release-local/com/github/Sauilitired/Jenkins4J/2.0-SNAPSHOT/maven-metadata.xml
+[WARNING] Could not transfer metadata com.github.Sauilitired:Jenkins4J:2.0-SNAPSHOT/maven-metadata.xml from/to massivecore-factions-repo (http://repo.dustplanet.de/artifactory/ext-release-local/): Failed to transfer file http://repo.dustplanet.de/artifactory/ext-release-local/com/github/Sauilitired/Jenkins4J/2.0-SNAPSHOT/maven-metadata.xml with status code 503
+[WARNING] Failure to transfer com.github.Sauilitired:Jenkins4J:2.0-SNAPSHOT/maven-metadata.xml from http://repo.dustplanet.de/artifactory/ext-release-local/ was cached in the local repository, resolution will not be reattempted until the update interval of massivecore-factions-repo has elapsed or updates are forced. Original error: Could not transfer metadata com.github.Sauilitired:Jenkins4J:2.0-SNAPSHOT/maven-metadata.xml from/to massivecore-factions-repo (http://repo.dustplanet.de/artifactory/ext-release-local/): Failed to transfer file http://repo.dustplanet.de/artifactory/ext-release-local/com/github/Sauilitired/Jenkins4J/2.0-SNAPSHOT/maven-metadata.xml with status code 503
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  15.147 s
+[INFO] Finished at: 2019-05-07T21:52:04+02:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal on project Slimefun: Could not resolve dependencies for project me.mrCookieSlime:Slimefun:jar:DEV - 97 (git f5bc2445): Failed to collect dependencies at com.github.TheBusyBiscuit:CS-CoreLib:jar:cc6a7de0e0 -> com.massivecraft.massivecore:MassiveCore:jar:2.13.0: Failed to read artifact descriptor for com.massivecraft.massivecore:MassiveCore:jar:2.13.0: Could not transfer artifact com.massivecraft.massivecore:MassiveCore:pom:2.13.0 from/to massivecore-factions-repo (http://repo.dustplanet.de/artifactory/ext-release-local/): Failed to transfer file http://repo.dustplanet.de/artifactory/ext-release-local/com/massivecraft/massivecore/MassiveCore/2.13.0/MassiveCore-2.13.0.pom with status code 503 -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/DependencyResolutionException

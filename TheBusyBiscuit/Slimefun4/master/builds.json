@@ -1538,6 +1538,22 @@
         "candidate": "DEVELOPMENT",
         "status": "SUCCESS"
     },
-    "latest": 96,
+    "97": {
+        "id": 97,
+        "sha": "f5bc2445a5e7f4024faa8e870cac61edc39cffe0",
+        "date": "07 May 2019 (19:49:31)",
+        "timestamp": 20190507194931,
+        "message": "Merge pull request #909 from sarhatabaot/master\n\nRefactored Talisman, and tasks",
+        "author": "TheBusyBiscuit",
+        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
+        "license": {
+            "name": "GNU General Public License v3.0",
+            "id": "GPL-3.0",
+            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/Slimefun4/master/LICENSE"
+        },
+        "candidate": "DEVELOPMENT",
+        "status": "FAILURE"
+    },
+    "latest": 97,
     "last_successful": 96
 }
