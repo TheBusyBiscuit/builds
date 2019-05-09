@@ -639,6 +639,22 @@
         "candidate": "DEVELOPMENT",
         "status": "FAILURE"
     },
-    "latest": 40,
+    "41": {
+        "id": 41,
+        "sha": "811a8c00eb2cce7ba9cdf24d89fba9267f4ec0a3",
+        "date": "09 May 2019 (06:18:02)",
+        "timestamp": 20190509061802,
+        "message": "Merge pull request #79 from sarhatabaot/factions-pomfix\n\nUpdated factions & massivecore repo",
+        "author": "TheBusyBiscuit",
+        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
+        "license": {
+            "name": "GNU General Public License v3.0",
+            "id": "GPL-3.0",
+            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/CS-CoreLib/master/LICENSE"
+        },
+        "candidate": "DEVELOPMENT",
+        "status": "FAILURE"
+    },
+    "latest": 41,
     "last_successful": 39
 }
