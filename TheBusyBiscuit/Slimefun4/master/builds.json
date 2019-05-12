@@ -1554,6 +1554,22 @@
         "candidate": "DEVELOPMENT",
         "status": "FAILURE"
     },
-    "latest": 97,
+    "98": {
+        "id": 98,
+        "sha": "8fe3fece6e7d749b841f681a9aa61fce31e043fb",
+        "date": "11 May 2019 (11:20:02)",
+        "timestamp": 20190511112002,
+        "message": "Update issue templates",
+        "author": "TheBusyBiscuit",
+        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
+        "license": {
+            "name": "GNU General Public License v3.0",
+            "id": "GPL-3.0",
+            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/Slimefun4/master/LICENSE"
+        },
+        "candidate": "DEVELOPMENT",
+        "status": "FAILURE"
+    },
+    "latest": 98,
     "last_successful": 96
 }
