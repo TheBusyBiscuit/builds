@@ -1,0 +1,85 @@
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for me.mrCookieSlime:CS-CoreLib:jar:v1.6
+[WARNING] 'dependencies.dependency.systemPath' for com.massivecraft.massivecore:MassiveCore:jar should not point at files within the project directory, ${project.basedir}/lib/MassiveCore.jar will be unresolvable by dependent projects @ line 1, column 4185
+[WARNING] 'dependencies.dependency.systemPath' for com.massivecraft.factions:Factions:jar should not point at files within the project directory, ${project.basedir}/lib/Factions.jar will be unresolvable by dependent projects @ line 1, column 4396
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] 
+[INFO] --------------------< me.mrCookieSlime:CS-CoreLib >---------------------
+[INFO] Building CS-CoreLib v1.6
+[INFO] --------------------------------[ jar ]---------------------------------
+[WARNING] The POM for com.wasteofplastic:askyblock:jar:3.0.9.4 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+[WARNING] The POM for com.github.dmulloy2.LWC:lwc:jar:master-4.5.1-g2100b5e-18 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+[INFO] Downloading from maven-codearts-jp: http://maven.codearts.jp/org/bukkit/bukkit/maven-metadata.xml
+[WARNING] Could not transfer metadata org.bukkit:bukkit/maven-metadata.xml from/to maven-codearts-jp (http://maven.codearts.jp/): maven.codearts.jp: unknown error
+[WARNING] Failure to transfer org.bukkit:bukkit/maven-metadata.xml from http://maven.codearts.jp/ was cached in the local repository, resolution will not be reattempted until the update interval of maven-codearts-jp has elapsed or updates are forced. Original error: Could not transfer metadata org.bukkit:bukkit/maven-metadata.xml from/to maven-codearts-jp (http://maven.codearts.jp/): maven.codearts.jp: unknown error
+[WARNING] The POM for br.net.fabiozumbi12.RedProtect:RedProtect-Spigot:jar:7.3.0 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ CS-CoreLib ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ CS-CoreLib ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 104 source files to /home/pi/Desktop/Build Server/TheBusyBiscuit/CS-CoreLib/master/files/target/classes
+[WARNING] /home/pi/Desktop/Build Server/TheBusyBiscuit/CS-CoreLib/master/files/src/me/mrCookieSlime/CSCoreLibPlugin/general/World/FakeItem.java: Some input files use or override a deprecated API.
+[WARNING] /home/pi/Desktop/Build Server/TheBusyBiscuit/CS-CoreLib/master/files/src/me/mrCookieSlime/CSCoreLibPlugin/general/World/FakeItem.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ CS-CoreLib ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/pi/Desktop/Build Server/TheBusyBiscuit/CS-CoreLib/master/files/tests/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ CS-CoreLib ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ CS-CoreLib ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ CS-CoreLib ---
+[INFO] Building jar: /home/pi/Desktop/Build Server/TheBusyBiscuit/CS-CoreLib/master/files/target/CS-CoreLib-44.jar
+[INFO] 
+[INFO] --- maven-shade-plugin:3.1.0:shade (default) @ CS-CoreLib ---
+[INFO] Excluding com.google.guava:guava:jar:21.0 from the shaded jar.
+[INFO] Excluding com.google.code.gson:gson:jar:2.8.0 from the shaded jar.
+[INFO] Excluding org.yaml:snakeyaml:jar:1.23 from the shaded jar.
+[INFO] Excluding com.sk89q.worldedit:worldedit-core:jar:7.0.0-SNAPSHOT from the shaded jar.
+[INFO] Excluding com.sk89q.worldedit.worldedit-libs:core:jar:7.0.0-SNAPSHOT from the shaded jar.
+[INFO] Excluding de.schlichtherle:truezip:jar:6.8.3 from the shaded jar.
+[INFO] Excluding rhino:js:jar:1.7R2 from the shaded jar.
+[INFO] Excluding com.google.code.findbugs:jsr305:jar:1.3.9 from the shaded jar.
+[INFO] Excluding org.slf4j:slf4j-api:jar:1.7.26 from the shaded jar.
+[INFO] Excluding com.googlecode.json-simple:json-simple:jar:1.1.1 from the shaded jar.
+[INFO] Excluding junit:junit:jar:4.10 from the shaded jar.
+[INFO] Excluding org.hamcrest:hamcrest-core:jar:1.1 from the shaded jar.
+[INFO] Excluding org.apache.logging.log4j:log4j-core:jar:2.8.2 from the shaded jar.
+[INFO] Excluding org.apache.logging.log4j:log4j-api:jar:2.8.2 from the shaded jar.
+[INFO] Excluding com.wasteofplastic:askyblock:jar:3.0.9.4 from the shaded jar.
+[INFO] Excluding com.github.dmulloy2.LWC:lwc:jar:master-4.5.1-g2100b5e-18 from the shaded jar.
+[INFO] Excluding com.massivecraft:Factions:jar:1.6.9.5-U0.2.2 from the shaded jar.
+[INFO] Excluding mkremins:fanciful:jar:0.4.0-SNAPSHOT from the shaded jar.
+[INFO] Excluding com.darkblade12:particleeffect:jar:1.8.0-SNAPSHOT from the shaded jar.
+[INFO] Excluding com.github.LlmDl:Towny:jar:2aeeb30903 from the shaded jar.
+[INFO] Excluding com.github.fubira:Lockette:jar:9dac96e8f8 from the shaded jar.
+[INFO] Excluding com.github.intellectualsites.plotsquared:PlotSquared-API:jar:4.226 from the shaded jar.
+[INFO] Excluding org.projectlombok:lombok:jar:1.18.4 from the shaded jar.
+[INFO] Excluding com.github.Sauilitired:Jenkins4J:jar:2.0-SNAPSHOT from the shaded jar.
+[INFO] Excluding com.squareup.retrofit2:retrofit:jar:2.4.0 from the shaded jar.
+[INFO] Excluding org.jetbrains:annotations:jar:16.0.3 from the shaded jar.
+[INFO] Excluding com.squareup.okhttp3:okhttp:jar:3.14.0 from the shaded jar.
+[INFO] Excluding com.squareup.okio:okio:jar:2.2.2 from the shaded jar.
+[INFO] Excluding org.jetbrains.kotlin:kotlin-stdlib:jar:1.3.21 from the shaded jar.
+[INFO] Excluding org.jetbrains.kotlin:kotlin-stdlib-common:jar:1.3.21 from the shaded jar.
+[INFO] Including org.bstats:bstats-bukkit:jar:1.5 in the shaded jar.
+[INFO] Replacing original artifact with shaded artifact.
+[INFO] Replacing /home/pi/Desktop/Build Server/TheBusyBiscuit/CS-CoreLib/master/files/target/CS-CoreLib-44.jar with /home/pi/Desktop/Build Server/TheBusyBiscuit/CS-CoreLib/master/files/target/CS-CoreLib-v1.6-shaded.jar
+[INFO] Dependency-reduced POM written at: /home/pi/Desktop/Build Server/TheBusyBiscuit/CS-CoreLib/master/files/dependency-reduced-pom.xml
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  25.095 s
+[INFO] Finished at: 2019-05-12T20:59:59+02:00
+[INFO] ------------------------------------------------------------------------

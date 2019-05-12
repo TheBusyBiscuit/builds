@@ -687,6 +687,23 @@
         "candidate": "DEVELOPMENT",
         "status": "SUCCESS"
     },
-    "latest": 43,
-    "last_successful": 43
+    "44": {
+        "id": 44,
+        "sha": "4d8fa5b1f526fd741d58c004ce89d0657050a979",
+        "date": "12 May 2019 (18:58:18)",
+        "timestamp": 20190512185818,
+        "message": "Updated to Version: v1.6",
+        "author": "TheBusyBot",
+        "avatar": "https://avatars1.githubusercontent.com/u/33297977?v=4",
+        "license": {
+            "name": "GNU General Public License v3.0",
+            "id": "GPL-3.0",
+            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/CS-CoreLib/master/LICENSE"
+        },
+        "candidate": "RELEASE",
+        "tag": "v1.6",
+        "status": "SUCCESS"
+    },
+    "latest": 44,
+    "last_successful": 44
 }
