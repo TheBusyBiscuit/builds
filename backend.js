@@ -371,7 +371,7 @@ function pom(job, builds) {
                     }
                     else {
                         var version = global.status.updates[job.author + "/" + job.repo + "/" + job.branch];
-                        json.getChild("version").setValue(version);
+                        json.getChild("version").setValue(version.substring(1));
 
                         json.asXMLString({ indent: 4, header: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>", new_lines: true }, function(err, xml) {
                             if (!err) {
