@@ -655,6 +655,22 @@
         "candidate": "DEVELOPMENT",
         "status": "FAILURE"
     },
-    "latest": 41,
-    "last_successful": 39
+    "42": {
+        "id": 42,
+        "sha": "51a1f7a0c31504ce2075974ed5227ed80346c019",
+        "date": "12 May 2019 (18:35:27)",
+        "timestamp": 20190512183527,
+        "message": "Merge pull request #80 from sarhatabaot/local-factions-pom\n\nAdded local libs",
+        "author": "TheBusyBiscuit",
+        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
+        "license": {
+            "name": "GNU General Public License v3.0",
+            "id": "GPL-3.0",
+            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/CS-CoreLib/master/LICENSE"
+        },
+        "candidate": "DEVELOPMENT",
+        "status": "SUCCESS"
+    },
+    "latest": 42,
+    "last_successful": 42
 }
