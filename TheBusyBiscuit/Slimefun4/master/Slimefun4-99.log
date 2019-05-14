@@ -1,0 +1,74 @@
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for me.mrCookieSlime:Slimefun:jar:DEV - 99 (git 6df3f8df)
+[WARNING] 'dependencies.dependency.systemPath' for me.minebuilders:clearlag-core:jar should not point at files within the project directory, ${project.basedir}/lib/Clearlag.jar will be unresolvable by dependent projects @ line 1, column 2023
+[WARNING] 'dependencies.dependency.systemPath' for me.mrCookieSlime:EmeraldEnchants:jar should not point at files within the project directory, ${project.basedir}/lib/EmeraldEnchants v2.0.jar will be unresolvable by dependent projects @ line 1, column 2299
+[WARNING] 'dependencies.dependency.systemPath' for me.mrCookieSlime:ExoticGarden:jar should not point at files within the project directory, ${project.basedir}/lib/ExoticGarden v1.2.0.jar will be unresolvable by dependent projects @ line 1, column 2489
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] 
+[INFO] ---------------------< me.mrCookieSlime:Slimefun >----------------------
+[INFO] Building Slimefun DEV - 99 (git 6df3f8df)
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/bukkit/bukkit/1.14-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from coreprotect-repo: https://maven.playpro.com/org/bukkit/bukkit/1.14-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/bukkit/bukkit/1.14-R0.1-SNAPSHOT/maven-metadata.xml (1.4 kB at 629 B/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/bukkit/bukkit/1.14-R0.1-SNAPSHOT/bukkit-1.14-R0.1-20190513.225354-106.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/bukkit/bukkit/1.14-R0.1-SNAPSHOT/bukkit-1.14-R0.1-20190513.225354-106.pom (0 B at 0 B/s)
+[INFO] Downloading from coreprotect-repo: https://maven.playpro.com/com/sk89q/worldedit/worldedit-bukkit/7.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/sk89q/worldedit/worldedit-bukkit/7.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from coreprotect-repo: https://maven.playpro.com/com/sk89q/worldedit/worldedit-core/7.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/sk89q/worldedit/worldedit-core/7.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from coreprotect-repo: https://maven.playpro.com/com/sk89q/worldedit/worldedit-libs/core/7.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/sk89q/worldedit/worldedit-libs/core/7.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from coreprotect-repo: https://maven.playpro.com/com/sk89q/worldedit/worldedit-libs/bukkit/7.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/sk89q/worldedit/worldedit-libs/bukkit/7.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/github/TheBusyBiscuit/CS-CoreLib/v1.6/CS-CoreLib-v1.6.pom
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/github/TheBusyBiscuit/CS-CoreLib/v1.6/CS-CoreLib-v1.6.pom
+[INFO] Downloading from worldedit-worldguard-repo: https://maven.sk89q.com/repo/com/github/TheBusyBiscuit/CS-CoreLib/v1.6/CS-CoreLib-v1.6.pom
+[INFO] Downloading from coreprotect-repo: https://maven.playpro.com/com/github/TheBusyBiscuit/CS-CoreLib/v1.6/CS-CoreLib-v1.6.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/github/TheBusyBiscuit/CS-CoreLib/v1.6/CS-CoreLib-v1.6.pom
+[INFO] Downloaded from jitpack.io: https://jitpack.io/com/github/TheBusyBiscuit/CS-CoreLib/v1.6/CS-CoreLib-v1.6.pom (8.7 kB at 11 kB/s)
+[WARNING] The POM for com.github.TheBusyBiscuit:CS-CoreLib:jar:v1.6 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+[erINFO] Downloading from pap-repo: https://repo.destroystokyo.com/rep20190513.225354-106.jar
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/apache/logging/log4j/log4j-api/2.8.1/log4j-api-2.8.1.jar
+[INFO] Downloading from papeository/maven-public/org/bukkit/bukkit/1.14-R0.1-SNAPSHOT/bukkit-1.14-R0.1-r-repo: https://repo.destroystokyo.com/repository/maven-public/org/apache/logging/log4j/log4j-slf4j-impl/2.8.1/log4j-slf4j-impl-2.8.1.jar
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/github/TheBusyBiscuit/CS-CoreLib/v1.6/CS-CoreLib-v1.6.jar
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/apache/logging/log4j/log4j-slf4j-impl/2.8.1/log4j-slf4j-impl-2.8.1.jar (0 B at 0 B/s)
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/bukkit/bukkit/1.14-R0.1-SNAPSHOT/bukkit-1.14-R0.1-20190513.225354-106.jar (0 B at 0 B/s)
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/apache/logging/log4j/log4j-api/2.8.1/log4j-api-2.8.1.jar (229 kB at 167 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/github/TheBusyBiscuit/CS-CoreLib/v1.6/CS-CoreLib-v1.6.jar
+[INFO] Downloading from worldedit-worldguard-repo: https://maven.sk89q.com/repo/com/github/TheBusyBiscuit/CS-CoreLib/v1.6/CS-CoreLib-v1.6.jar
+[INFO] Downloading from coreprotect-repo: https://maven.playpro.com/com/github/TheBusyBiscuit/CS-CoreLib/v1.6/CS-CoreLib-v1.6.jar
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/github/TheBusyBiscuit/CS-CoreLib/v1.6/CS-CoreLib-v1.6.jar
+[INFO] Downloaded from jitpack.io: https://jitpack.io/com/github/TheBusyBiscuit/CS-CoreLib/v1.6/CS-CoreLib-v1.6.jar (223 kB at 188 kB/s)
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ Slimefun ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ Slimefun ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 199 source files to /home/pi/Desktop/Build Server/TheBusyBiscuit/Slimefun4/master/files/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ Slimefun ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/pi/Desktop/Build Server/TheBusyBiscuit/Slimefun4/master/files/tests/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ Slimefun ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ Slimefun ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ Slimefun ---
+[INFO] Building jar: /home/pi/Desktop/Build Server/TheBusyBiscuit/Slimefun4/master/files/target/Slimefun4-99.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  36.797 s
+[INFO] Finished at: 2019-05-14T23:04:44+02:00
+[INFO] ------------------------------------------------------------------------
