@@ -704,6 +704,22 @@
         "tag": "v1.6",
         "status": "SUCCESS"
     },
-    "latest": 44,
-    "last_successful": 44
+    "45": {
+        "id": 45,
+        "sha": "4bff2ea8dd33ee14c371a597172b5b2baf20cc1d",
+        "date": "12 May 2019 (19:14:59)",
+        "timestamp": 20190512191459,
+        "message": "Update plugin.yml",
+        "author": "TheBusyBiscuit",
+        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
+        "license": {
+            "name": "GNU General Public License v3.0",
+            "id": "GPL-3.0",
+            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/CS-CoreLib/master/LICENSE"
+        },
+        "candidate": "DEVELOPMENT",
+        "status": "SUCCESS"
+    },
+    "latest": 45,
+    "last_successful": 45
 }
