@@ -720,6 +720,22 @@
         "candidate": "DEVELOPMENT",
         "status": "SUCCESS"
     },
-    "latest": 45,
-    "last_successful": 45
+    "46": {
+        "id": 46,
+        "sha": "adec944a5ea800243541f83f0ce70ef17ca5682e",
+        "date": "15 May 2019 (22:17:14)",
+        "timestamp": 20190515221714,
+        "message": "Fix #81",
+        "author": "TheBusyBiscuit",
+        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
+        "license": {
+            "name": "GNU General Public License v3.0",
+            "id": "GPL-3.0",
+            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/CS-CoreLib/master/LICENSE"
+        },
+        "candidate": "DEVELOPMENT",
+        "status": "SUCCESS"
+    },
+    "latest": 46,
+    "last_successful": 46
 }
