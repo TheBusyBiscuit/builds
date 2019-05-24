@@ -736,6 +736,22 @@
         "candidate": "DEVELOPMENT",
         "status": "SUCCESS"
     },
-    "latest": 46,
-    "last_successful": 46
+    "47": {
+        "id": 47,
+        "sha": "595574998e41417f96d729adebf1e1037339a679",
+        "date": "24 May 2019 (10:28:41)",
+        "timestamp": 20190524102841,
+        "message": "Merge pull request #82 from bverhoeven/update-towny\n\nUpdate Towny to latest version",
+        "author": "TheBusyBiscuit",
+        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
+        "license": {
+            "name": "GNU General Public License v3.0",
+            "id": "GPL-3.0",
+            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/CS-CoreLib/master/LICENSE"
+        },
+        "candidate": "DEVELOPMENT",
+        "status": "SUCCESS"
+    },
+    "latest": 47,
+    "last_successful": 47
 }
