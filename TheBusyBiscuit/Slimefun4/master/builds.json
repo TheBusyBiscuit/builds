@@ -1602,6 +1602,22 @@
         "candidate": "DEVELOPMENT",
         "status": "SUCCESS"
     },
-    "latest": 100,
-    "last_successful": 100
+    "101": {
+        "id": 101,
+        "sha": "7107c04ecdf48b2e8379d8cebadc72ef8aa100ae",
+        "date": "25 May 2019 (15:36:59)",
+        "timestamp": 20190525153659,
+        "message": "Merge pull request #917 from Kry-Vosa/patch-1\n\nFix for #913",
+        "author": "TheBusyBiscuit",
+        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
+        "license": {
+            "name": "GNU General Public License v3.0",
+            "id": "GPL-3.0",
+            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/Slimefun4/master/LICENSE"
+        },
+        "candidate": "DEVELOPMENT",
+        "status": "SUCCESS"
+    },
+    "latest": 101,
+    "last_successful": 101
 }
