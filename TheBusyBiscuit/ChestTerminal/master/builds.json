@@ -61,6 +61,22 @@
         "candidate": "DEVELOPMENT",
         "status": "SUCCESS"
     },
-    "latest": 4,
-    "last_successful": 4
+    "5": {
+        "id": 5,
+        "sha": "ead05f9568b776a77db83ce0b799787a912b4390",
+        "date": "27 May 2019 (17:53:34)",
+        "timestamp": 20190527175334,
+        "message": "Merge pull request #13 from BluGhostYT/patch-1\n\nUpdate pom.xml",
+        "author": "TheBusyBiscuit",
+        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
+        "license": {
+            "name": "MIT License",
+            "id": "MIT",
+            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/ChestTerminal/master/LICENSE"
+        },
+        "candidate": "DEVELOPMENT",
+        "status": "SUCCESS"
+    },
+    "latest": 5,
+    "last_successful": 5
 }
