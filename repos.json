@@ -13,6 +13,7 @@
 			"1": "1.9.x, 1.10.x, 1.11.x, 1.12.x"
 		},
 		"CS-CoreLib Version": {
+			"99": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/CS-CoreLib/master/#44\">1.6</a>",
 			"96": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/CS-CoreLib/master/#39\">dev #39</a>",
 			"94": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/CS-CoreLib/master/#38\">dev #38</a>",
 			"73": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/CS-CoreLib/master/#36\">dev #36</a>",
@@ -46,6 +47,7 @@
 			"1": "1.10.x, 1.11.x, 1.12.x"
 		},
 		"CS-CoreLib Version": {
+			"5": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/CS-CoreLib/master/#44\">1.6</a>",
 			"4": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/CS-CoreLib/master/#36\">dev #36</a>",
 			"3": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/CS-CoreLib/master/#31\">dev #31</a>",
 			"1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/CS-CoreLib/master/#1\">1.5.16</a>"
@@ -75,6 +77,17 @@
 		},
 		"CS-CoreLib Version": {
 			"1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/CS-CoreLib/master/#36\">dev #36</a>"
+		},
+		"Slimefun Version": {
+			"1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/Slimefun4/master/#73\">dev #73</a>"
+		}
+	},
+	"TheBusyBiscuit/HotbarPets:master": {
+		"Minecraft Version(s)": {
+			"1": "1.13.x"
+		},
+		"CS-CoreLib Version": {
+			"1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/CS-CoreLib/master/#44\">1.6</a>"
 		},
 		"Slimefun Version": {
 			"1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/Slimefun4/master/#73\">dev #73</a>"
