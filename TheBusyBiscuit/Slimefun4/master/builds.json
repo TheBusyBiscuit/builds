@@ -1618,6 +1618,22 @@
         "candidate": "DEVELOPMENT",
         "status": "SUCCESS"
     },
-    "latest": 101,
-    "last_successful": 101
+    "102": {
+        "id": 102,
+        "sha": "98cbec3840b83a68738545a4ed9ee5f65a0df60e",
+        "date": "29 May 2019 (20:25:44)",
+        "timestamp": 20190529202544,
+        "message": "Merge pull request #918 from freethemice/patch-3\n\n unclosed character literal",
+        "author": "TheBusyBiscuit",
+        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
+        "license": {
+            "name": "GNU General Public License v3.0",
+            "id": "GPL-3.0",
+            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/Slimefun4/master/LICENSE"
+        },
+        "candidate": "DEVELOPMENT",
+        "status": "SUCCESS"
+    },
+    "latest": 102,
+    "last_successful": 102
 }
