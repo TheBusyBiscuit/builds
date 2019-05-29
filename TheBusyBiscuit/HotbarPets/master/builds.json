@@ -15,6 +15,22 @@
         "candidate": "DEVELOPMENT",
         "status": "SUCCESS"
     },
-    "latest": 1,
-    "last_successful": 1
+    "2": {
+        "id": 2,
+        "sha": "4ac45ecf199fa5fe8f9b1e9a7ac62cf1b38feef4",
+        "date": "29 May 2019 (20:26:34)",
+        "timestamp": 20190529202634,
+        "message": "Merge pull request #2 from BluGhostYT/master\n\nUpdate HotbarPets.java",
+        "author": "TheBusyBiscuit",
+        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
+        "license": {
+            "name": "GNU General Public License v3.0",
+            "id": "GPL-3.0",
+            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/HotbarPets/master/LICENSE"
+        },
+        "candidate": "DEVELOPMENT",
+        "status": "SUCCESS"
+    },
+    "latest": 2,
+    "last_successful": 2
 }
