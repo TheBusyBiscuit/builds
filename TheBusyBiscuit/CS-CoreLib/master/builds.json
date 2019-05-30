@@ -768,6 +768,22 @@
         "candidate": "DEVELOPMENT",
         "status": "SUCCESS"
     },
-    "latest": 48,
-    "last_successful": 48
+    "49": {
+        "id": 49,
+        "sha": "d38cc7a89980746cb58412c2774d7559418d0295",
+        "date": "30 May 2019 (10:28:21)",
+        "timestamp": 20190530102821,
+        "message": "Restructuring and fix for CustomBookOverlay",
+        "author": "TheBusyBiscuit",
+        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
+        "license": {
+            "name": "GNU General Public License v3.0",
+            "id": "GPL-3.0",
+            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/CS-CoreLib/master/LICENSE"
+        },
+        "candidate": "DEVELOPMENT",
+        "status": "SUCCESS"
+    },
+    "latest": 49,
+    "last_successful": 49
 }
