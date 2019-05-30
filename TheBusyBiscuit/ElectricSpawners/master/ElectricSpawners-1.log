@@ -1,0 +1,34 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -----------------< me.mrCookieSlime:ElectricSpawners >------------------
+[INFO] Building ElectricSpawners DEV - 1 (git 8dc65249)
+[INFO] --------------------------------[ jar ]---------------------------------
+[WARNING] The POM for com.github.TheBusyBiscuit:CS-CoreLib:jar:v1.6 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+[WARNING] The POM for com.github.TheBusyBiscuit:Slimefun4:jar:3619c4bc9e is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ ElectricSpawners ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ ElectricSpawners ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 3 source files to /home/pi/Desktop/Build Server/TheBusyBiscuit/ElectricSpawners/master/files/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ ElectricSpawners ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/pi/Desktop/Build Server/TheBusyBiscuit/ElectricSpawners/master/files/tests/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ ElectricSpawners ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ ElectricSpawners ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ ElectricSpawners ---
+[INFO] Building jar: /home/pi/Desktop/Build Server/TheBusyBiscuit/ElectricSpawners/master/files/target/ElectricSpawners-1.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  6.930 s
+[INFO] Finished at: 2019-05-30T12:02:20+02:00
+[INFO] ------------------------------------------------------------------------
