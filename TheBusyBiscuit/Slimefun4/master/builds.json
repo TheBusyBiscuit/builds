@@ -1666,6 +1666,22 @@
         "candidate": "DEVELOPMENT",
         "status": "SUCCESS"
     },
-    "latest": 104,
-    "last_successful": 104
+    "105": {
+        "id": 105,
+        "sha": "7dae7766e270ba32b2d1bca7ee10c994a69bebd7",
+        "date": "30 May 2019 (18:33:23)",
+        "timestamp": 20190530183323,
+        "message": "Merge pull request #921 from bverhoeven/inventory-overflow\n\nFix for guide bug when building Bio Reactor (and maybe others)",
+        "author": "TheBusyBiscuit",
+        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
+        "license": {
+            "name": "GNU General Public License v3.0",
+            "id": "GPL-3.0",
+            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/Slimefun4/master/LICENSE"
+        },
+        "candidate": "DEVELOPMENT",
+        "status": "SUCCESS"
+    },
+    "latest": 105,
+    "last_successful": 105
 }
