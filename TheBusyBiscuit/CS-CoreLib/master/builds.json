@@ -784,6 +784,22 @@
         "candidate": "DEVELOPMENT",
         "status": "SUCCESS"
     },
-    "latest": 49,
-    "last_successful": 49
+    "50": {
+        "id": 50,
+        "sha": "5a19465e860cf79913cc87117f84a366a5bc68f0",
+        "date": "30 May 2019 (10:40:48)",
+        "timestamp": 20190530104048,
+        "message": "More Deprecation",
+        "author": "TheBusyBiscuit",
+        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
+        "license": {
+            "name": "GNU General Public License v3.0",
+            "id": "GPL-3.0",
+            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/CS-CoreLib/master/LICENSE"
+        },
+        "candidate": "DEVELOPMENT",
+        "status": "SUCCESS"
+    },
+    "latest": 50,
+    "last_successful": 50
 }
