@@ -752,6 +752,22 @@
         "candidate": "DEVELOPMENT",
         "status": "SUCCESS"
     },
-    "latest": 47,
-    "last_successful": 47
+    "48": {
+        "id": 48,
+        "sha": "c910df61c56019c16e4db568334cdabfe165da84",
+        "date": "30 May 2019 (10:11:56)",
+        "timestamp": 20190530101156,
+        "message": "Deprecated some outdated constructors of CustomItem.java",
+        "author": "TheBusyBiscuit",
+        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
+        "license": {
+            "name": "GNU General Public License v3.0",
+            "id": "GPL-3.0",
+            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/CS-CoreLib/master/LICENSE"
+        },
+        "candidate": "DEVELOPMENT",
+        "status": "SUCCESS"
+    },
+    "latest": 48,
+    "last_successful": 48
 }
