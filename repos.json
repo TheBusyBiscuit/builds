@@ -25,7 +25,8 @@
 	},
 	"TheBusyBiscuit/ExoticGarden:master": {
 		"Minecraft Version(s)": {
-			"4": "1.13.x",
+			"9": "1.12.x, 1.13.x, 1.14.x",
+			"4": "1.12.x, 1.13.x",
 			"1": "1.10.x, 1.11.x, 1.12.x"
 		},
 		"CS-CoreLib Version": {
@@ -60,9 +61,11 @@
 	},
 	"TheBusyBiscuit/luckyblocks-sf:master": {
 		"Minecraft Version(s)": {
+			"6": "1.14.x",
 			"1": "1.13.x"
 		},
 		"CS-CoreLib Version": {
+			"6": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/CS-CoreLib/master/#44\">1.6</a>",
 			"3": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/CS-CoreLib/master/#36\">dev #36</a>",
 			"1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/CS-CoreLib/master/#31\">dev #31</a>"
 		},
@@ -84,7 +87,18 @@
 	},
 	"TheBusyBiscuit/HotbarPets:master": {
 		"Minecraft Version(s)": {
-			"1": "1.13.x"
+			"1": "1.13.x, 1.14.x"
+		},
+		"CS-CoreLib Version": {
+			"1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/CS-CoreLib/master/#44\">1.6</a>"
+		},
+		"Slimefun Version": {
+			"1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/Slimefun4/master/#73\">dev #73</a>"
+		}
+	},
+	"TheBusyBiscuit/ElectricSpawners:master": {
+		"Minecraft Version(s)": {
+			"1": "1.13.x, 1.14.x"
 		},
 		"CS-CoreLib Version": {
 			"1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/CS-CoreLib/master/#44\">1.6</a>"
