@@ -1682,6 +1682,22 @@
         "candidate": "DEVELOPMENT",
         "status": "SUCCESS"
     },
-    "latest": 105,
-    "last_successful": 105
+    "106": {
+        "id": 106,
+        "sha": "63ecc1fbfb9c3aea0fd85ae433169890bb039568",
+        "date": "02 Jun 2019 (08:23:11)",
+        "timestamp": 20190602082311,
+        "message": "Merge pull request #922 from bverhoeven/explosive-pick-damage\n\nDamage explosive pickaxe on use (configurable, off by default)",
+        "author": "TheBusyBiscuit",
+        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
+        "license": {
+            "name": "GNU General Public License v3.0",
+            "id": "GPL-3.0",
+            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/Slimefun4/master/LICENSE"
+        },
+        "candidate": "DEVELOPMENT",
+        "status": "SUCCESS"
+    },
+    "latest": 106,
+    "last_successful": 106
 }
