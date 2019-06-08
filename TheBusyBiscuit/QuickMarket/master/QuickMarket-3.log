@@ -1,0 +1,41 @@
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for me.mrCookieSlime:QuickMarket:jar:DEV - 3 (git 8cc65162)
+[WARNING] 'dependencies.dependency.systemPath' for me.mrCookieSlime:PrisonUtils:jar should not point at files within the project directory, ${project.basedir}/lib/PrisonUtils v1.6.11.jar will be unresolvable by dependent projects @ line 1, column 1940
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] 
+[INFO] --------------------< me.mrCookieSlime:QuickMarket >--------------------
+[INFO] Building QuickMarket DEV - 3 (git 8cc65162)
+[INFO] --------------------------------[ jar ]---------------------------------
+[WARNING] The POM for com.github.TheBusyBiscuit:CS-CoreLib:jar:v1.6 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ QuickMarket ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ QuickMarket ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 8 source files to /home/pi/Desktop/Build Server/TheBusyBiscuit/QuickMarket/master/files/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ QuickMarket ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/pi/Desktop/Build Server/TheBusyBiscuit/QuickMarket/master/files/tests/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ QuickMarket ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ QuickMarket ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ QuickMarket ---
+[INFO] Building jar: /home/pi/Desktop/Build Server/TheBusyBiscuit/QuickMarket/master/files/target/QuickMarket-3.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  8.891 s
+[INFO] Finished at: 2019-06-08T14:41:38+02:00
+[INFO] ------------------------------------------------------------------------
