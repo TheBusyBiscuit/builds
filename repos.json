@@ -23,6 +23,14 @@
 			"1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/CS-CoreLib/master/#1\">1.5.16</a>"
 		}
 	},
+	"TheBusyBiscuit/QuickMarket:master": {
+		"Minecraft Version(s)": {
+			"1": "1.14.x"
+		},
+		"CS-CoreLib Version": {
+			"1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/CS-CoreLib/master/#44\">1.6</a>",
+		}
+	},
 	"TheBusyBiscuit/ExoticGarden:master": {
 		"Minecraft Version(s)": {
 			"9": "1.12.x, 1.13.x, 1.14.x",
