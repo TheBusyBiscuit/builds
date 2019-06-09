@@ -1,0 +1,55 @@
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for me.mrCookieSlime:QuickSell:jar:DEV - 1 (git 77c720c6)
+[WARNING] 'dependencies.dependency.systemPath' for me.mrCookieSlime:PrisonUtils:jar should not point at files within the project directory, ${project.basedir}/lib/PrisonUtils v1.6.11.jar will be unresolvable by dependent projects @ line 1, column 2190
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] 
+[INFO] ---------------------< me.mrCookieSlime:QuickSell >---------------------
+[INFO] Building QuickSell DEV - 1 (git 77c720c6)
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] Downloading from citizens-repo: http://repo.citizensnpcs.co/org/bukkit/bukkit/1.14.2-R0.1-SNAPSHOT/maven-metadata.xml
+[WARNING] The POM for com.github.TheBusyBiscuit:CS-CoreLib:jar:v1.6.1 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+[INFO] Downloading from citizens-repo: http://repo.citizensnpcs.co/org/bukkit/bukkit/1.13.1-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from jitpack.io: https://jitpack.io/net/citizensnpcs/citizens/2.0.14-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/net/citizensnpcs/citizens/2.0.14-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from citizens-repo: http://repo.citizensnpcs.co/net/citizensnpcs/citizens/2.0.14-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/net/citizensnpcs/citizens/2.0.14-SNAPSHOT/maven-metadata.xml
+[INFO] Downloaded from citizens-repo: http://repo.citizensnpcs.co/net/citizensnpcs/citizens/2.0.14-SNAPSHOT/maven-metadata.xml (626 B at 160 B/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/net/citizensnpcs/citizens/2.0.14-SNAPSHOT/citizens-2.0.14-20150308.051350-1216.pom
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/net/citizensnpcs/citizens/2.0.14-SNAPSHOT/citizens-2.0.14-20150308.051350-1216.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/net/citizensnpcs/citizens/2.0.14-SNAPSHOT/citizens-2.0.14-20150308.051350-1216.pom
+[INFO] Downloading from citizens-repo: http://repo.citizensnpcs.co/net/citizensnpcs/citizens/2.0.14-SNAPSHOT/citizens-2.0.14-20150308.051350-1216.pom
+[INFO] Downloaded from citizens-repo: http://repo.citizensnpcs.co/net/citizensnpcs/citizens/2.0.14-SNAPSHOT/citizens-2.0.14-20150308.051350-1216.pom (6.1 kB at 1.9 kB/s)
+[INFO] Downloading from citizens-repo: http://repo.citizensnpcs.co/net/citizensnpcs/citizens/2.0.14-SNAPSHOT/citizens-2.0.14-20141227.091925-1197.jar
+[INFO] Downloaded from citizens-repo: http://repo.citizensnpcs.co/net/citizensnpcs/citizens/2.0.14-SNAPSHOT/citizens-2.0.14-20141227.091925-1197.jar (997 kB at 58 kB/s)
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ QuickSell ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ QuickSell ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 19 source files to /home/pi/Desktop/Build Server/TheBusyBiscuit/QuickSell/master/files/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ QuickSell ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/pi/Desktop/Build Server/TheBusyBiscuit/QuickSell/master/files/tests/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ QuickSell ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ QuickSell ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ QuickSell ---
+[INFO] Building jar: /home/pi/Desktop/Build Server/TheBusyBiscuit/QuickSell/master/files/target/QuickSell-1.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  40.567 s
+[INFO] Finished at: 2019-06-09T10:43:15+02:00
+[INFO] ------------------------------------------------------------------------
