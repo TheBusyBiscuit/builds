@@ -1698,6 +1698,22 @@
         "candidate": "DEVELOPMENT",
         "status": "SUCCESS"
     },
-    "latest": 106,
-    "last_successful": 106
+    "107": {
+        "id": 107,
+        "sha": "282193902710fd380a5e7e61b8092e5866b51795",
+        "date": "09 Jun 2019 (08:02:47)",
+        "timestamp": 20190609080247,
+        "message": "Updated CS-CoreLib",
+        "author": "TheBusyBiscuit",
+        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
+        "license": {
+            "name": "GNU General Public License v3.0",
+            "id": "GPL-3.0",
+            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/Slimefun4/master/LICENSE"
+        },
+        "candidate": "DEVELOPMENT",
+        "status": "SUCCESS"
+    },
+    "latest": 107,
+    "last_successful": 107
 }
