@@ -63,6 +63,22 @@
         "candidate": "DEVELOPMENT",
         "status": "SUCCESS"
     },
-    "latest": 4,
-    "last_successful": 4
+    "5": {
+        "id": 5,
+        "sha": "90bbd0c082e3f7a58f44302ff4c052af61d83e3d",
+        "date": "09 Jun 2019 (08:01:20)",
+        "timestamp": 20190609080120,
+        "message": "Updated CS-CoreLib",
+        "author": "TheBusyBiscuit",
+        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
+        "license": {
+            "name": "GNU General Public License v3.0",
+            "id": "GPL-3.0",
+            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/QuickMarket/master/LICENSE"
+        },
+        "candidate": "DEVELOPMENT",
+        "status": "SUCCESS"
+    },
+    "latest": 5,
+    "last_successful": 5
 }
