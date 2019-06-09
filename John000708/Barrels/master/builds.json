@@ -1,0 +1,20 @@
+{
+    "1": {
+        "id": 1,
+        "sha": "74a46798d594e93ca245bd245cf6fc0ec373a149",
+        "date": "09 Jun 2019 (12:32:03)",
+        "timestamp": 20190609123203,
+        "message": "Fixed Color Codes",
+        "author": "TheBusyBiscuit",
+        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
+        "license": {
+            "name": "GNU General Public License v3.0",
+            "id": "GPL-3.0",
+            "url": "https://raw.githubusercontent.com/John000708/Barrels/master/LICENSE"
+        },
+        "candidate": "DEVELOPMENT",
+        "status": "SUCCESS"
+    },
+    "latest": 1,
+    "last_successful": 1
+}
