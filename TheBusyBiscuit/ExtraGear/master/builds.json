@@ -31,6 +31,22 @@
         "candidate": "DEVELOPMENT",
         "status": "SUCCESS"
     },
-    "latest": 2,
-    "last_successful": 2
+    "3": {
+        "id": 3,
+        "sha": "de222ab78c8a795f39b553fb69f03f3f732d3c19",
+        "date": "11 Jun 2019 (21:13:57)",
+        "timestamp": 20190611211357,
+        "message": "Merge pull request #5 from TheBusyBiscuit/renovate/configure\n\nConfigure Renovate",
+        "author": "TheBusyBiscuit",
+        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
+        "license": {
+            "name": "GNU General Public License v3.0",
+            "id": "GPL-3.0",
+            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/ExtraGear/master/LICENSE"
+        },
+        "candidate": "DEVELOPMENT",
+        "status": "SUCCESS"
+    },
+    "latest": 3,
+    "last_successful": 3
 }
