@@ -1746,6 +1746,22 @@
         "candidate": "DEVELOPMENT",
         "status": "SUCCESS"
     },
-    "latest": 109,
-    "last_successful": 109
+    "110": {
+        "id": 110,
+        "sha": "299dfe6c453870ec3ea50385d294ce2b92963612",
+        "date": "11 Jun 2019 (21:18:04)",
+        "timestamp": 20190611211804,
+        "message": "Merge pull request #933 from TheBusyBiscuit/renovate/net.coreprotect-coreprotect-2.x\n\nUpdate dependency net.coreprotect:coreprotect to v2.16.3",
+        "author": "TheBusyBiscuit",
+        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
+        "license": {
+            "name": "GNU General Public License v3.0",
+            "id": "GPL-3.0",
+            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/Slimefun4/master/LICENSE"
+        },
+        "candidate": "DEVELOPMENT",
+        "status": "SUCCESS"
+    },
+    "latest": 110,
+    "last_successful": 110
 }
