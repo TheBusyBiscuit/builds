@@ -865,6 +865,22 @@
         "candidate": "DEVELOPMENT",
         "status": "SUCCESS"
     },
-    "latest": 54,
-    "last_successful": 54
+    "55": {
+        "id": 55,
+        "sha": "63a7f4612294aec53177d1a73b8440f03e9cd749",
+        "date": "11 Jun 2019 (21:39:45)",
+        "timestamp": 20190611213945,
+        "message": "Removed SimpleJSON",
+        "author": "TheBusyBiscuit",
+        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
+        "license": {
+            "name": "GNU General Public License v3.0",
+            "id": "GPL-3.0",
+            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/CS-CoreLib/master/LICENSE"
+        },
+        "candidate": "DEVELOPMENT",
+        "status": "SUCCESS"
+    },
+    "latest": 55,
+    "last_successful": 55
 }
