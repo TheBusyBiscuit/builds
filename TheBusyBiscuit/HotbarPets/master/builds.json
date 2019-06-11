@@ -63,6 +63,22 @@
         "candidate": "DEVELOPMENT",
         "status": "SUCCESS"
     },
-    "latest": 4,
-    "last_successful": 4
+    "5": {
+        "id": 5,
+        "sha": "10c908948c641bddf4ec0354b29ada0c3161857b",
+        "date": "11 Jun 2019 (21:12:16)",
+        "timestamp": 20190611211216,
+        "message": "Merge pull request #5 from TheBusyBiscuit/renovate/configure\n\nConfigure Renovate",
+        "author": "TheBusyBiscuit",
+        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
+        "license": {
+            "name": "GNU General Public License v3.0",
+            "id": "GPL-3.0",
+            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/HotbarPets/master/LICENSE"
+        },
+        "candidate": "DEVELOPMENT",
+        "status": "SUCCESS"
+    },
+    "latest": 5,
+    "last_successful": 5
 }
