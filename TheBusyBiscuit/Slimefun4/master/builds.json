@@ -1730,6 +1730,22 @@
         "candidate": "DEVELOPMENT",
         "status": "SUCCESS"
     },
-    "latest": 108,
-    "last_successful": 108
+    "109": {
+        "id": 109,
+        "sha": "78cbc990f455f9a90e6cf489d457d280fde29b75",
+        "date": "11 Jun 2019 (11:27:24)",
+        "timestamp": 20190611112724,
+        "message": "Fixes #912",
+        "author": "TheBusyBiscuit",
+        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
+        "license": {
+            "name": "GNU General Public License v3.0",
+            "id": "GPL-3.0",
+            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/Slimefun4/master/LICENSE"
+        },
+        "candidate": "DEVELOPMENT",
+        "status": "SUCCESS"
+    },
+    "latest": 109,
+    "last_successful": 109
 }
