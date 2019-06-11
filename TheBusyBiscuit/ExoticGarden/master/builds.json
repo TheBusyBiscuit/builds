@@ -127,6 +127,22 @@
         "candidate": "DEVELOPMENT",
         "status": "SUCCESS"
     },
-    "latest": 8,
+    "9": {
+        "id": 9,
+        "sha": "770918cf952c71f969d571771f5044e5faf15738",
+        "date": "11 Jun 2019 (21:40:12)",
+        "timestamp": 20190611214012,
+        "message": "Merge pull request #64 from TheBusyBiscuit/renovate/configure\n\nConfigure Renovate",
+        "author": "TheBusyBiscuit",
+        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
+        "license": {
+            "name": "MIT License",
+            "id": "MIT",
+            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/ExoticGarden/master/LICENSE"
+        },
+        "candidate": "DEVELOPMENT",
+        "status": "FAILURE"
+    },
+    "latest": 9,
     "last_successful": 8
 }
