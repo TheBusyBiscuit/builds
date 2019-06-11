@@ -95,6 +95,22 @@
         "candidate": "DEVELOPMENT",
         "status": "FAILURE"
     },
-    "latest": 6,
-    "last_successful": 3
+    "7": {
+        "id": 7,
+        "sha": "54ab2a393b5f9ba56f9e0397fa8ae357b2aa1a30",
+        "date": "11 Jun 2019 (23:00:46)",
+        "timestamp": 20190611230046,
+        "message": "Finally fixed my dumb mistake...",
+        "author": "TheBusyBiscuit",
+        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
+        "license": {
+            "name": "MIT License",
+            "id": "MIT",
+            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/CommandOverride/master/LICENSE"
+        },
+        "candidate": "DEVELOPMENT",
+        "status": "SUCCESS"
+    },
+    "latest": 7,
+    "last_successful": 7
 }

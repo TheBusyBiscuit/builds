@@ -1,0 +1,133 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------< me.mrCookieSlime:CommandOverride >------------------
+[INFO] Building CommandOverride DEV - 7 (git 54ab2a39)
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/github/thebusybiscuit/CS-CoreLib2/0.2.1/CS-CoreLib2-0.2.1.pom
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/github/thebusybiscuit/CS-CoreLib2/0.2.1/CS-CoreLib2-0.2.1.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/github/thebusybiscuit/CS-CoreLib2/0.2.1/CS-CoreLib2-0.2.1.pom
+[INFO] Downloaded from jitpack.io: https://jitpack.io/com/github/thebusybiscuit/CS-CoreLib2/0.2.1/CS-CoreLib2-0.2.1.pom (6.5 kB at 14 kB/s)
+[WARNING] The POM for com.github.thebusybiscuit:CS-CoreLib2:jar:0.2.1 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/github/thebusybiscuit/CS-CoreLib2/0.2.1/CS-CoreLib2-0.2.1.jar
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/bstats/bstats-bukkit/1.5/bstats-bukkit-1.5.jar
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/github/thebusybiscuit/CS-CoreLib2/0.2.1/CS-CoreLib2-0.2.1.jar
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/bstats/bstats-bukkit/1.5/bstats-bukkit-1.5.jar
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/github/thebusybiscuit/CS-CoreLib2/0.2.1/CS-CoreLib2-0.2.1.jar
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/bstats/bstats-bukkit/1.5/bstats-bukkit-1.5.jar
+[INFO] Downloaded from jitpack.io: https://jitpack.io/com/github/thebusybiscuit/CS-CoreLib2/0.2.1/CS-CoreLib2-0.2.1.jar (62 kB at 226 kB/s)
+[INFO] Downloading from placeholderapi-repo: http://repo.extendedclip.com/content/repositories/placeholderapi/org/bstats/bstats-bukkit/1.5/bstats-bukkit-1.5.jar
+[INFO] Downloading from CodeMC: https://repo.codemc.org/repository/maven-public/org/bstats/bstats-bukkit/1.5/bstats-bukkit-1.5.jar
+[INFO] Downloaded from CodeMC: https://repo.codemc.org/repository/maven-public/org/bstats/bstats-bukkit/1.5/bstats-bukkit-1.5.jar (0 B at 0 B/s)
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ CommandOverride ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ CommandOverride ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 3 source files to /home/pi/Desktop/Build Server/TheBusyBiscuit/CommandOverride/master/files/target/classes
+[WARNING] /home/pi/Desktop/Build Server/TheBusyBiscuit/CommandOverride/master/files/src/me/mrCookieSlime/CommandOverride/CommandOverride.java: /home/pi/Desktop/Build Server/TheBusyBiscuit/CommandOverride/master/files/src/me/mrCookieSlime/CommandOverride/CommandOverride.java uses or overrides a deprecated API.
+[WARNING] /home/pi/Desktop/Build Server/TheBusyBiscuit/CommandOverride/master/files/src/me/mrCookieSlime/CommandOverride/CommandOverride.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ CommandOverride ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/pi/Desktop/Build Server/TheBusyBiscuit/CommandOverride/master/files/tests/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ CommandOverride ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ CommandOverride ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ CommandOverride ---
+[INFO] Building jar: /home/pi/Desktop/Build Server/TheBusyBiscuit/CommandOverride/master/files/target/CommandOverride-7.jar
+[INFO] 
+[INFO] --- maven-shade-plugin:3.2.1:shade (default) @ CommandOverride ---
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-component-annotations/1.7.1/plexus-component-annotations-1.7.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-component-annotations/1.7.1/plexus-component-annotations-1.7.1.pom (770 B at 2.9 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-containers/1.7.1/plexus-containers-1.7.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-containers/1.7.1/plexus-containers-1.7.1.pom (5.0 kB at 59 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.1.0/plexus-utils-3.1.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.1.0/plexus-utils-3.1.0.pom (4.7 kB at 54 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-artifact-transfer/0.10.0/maven-artifact-transfer-0.10.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-artifact-transfer/0.10.0/maven-artifact-transfer-0.10.0.pom (12 kB at 118 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-components/31/maven-shared-components-31.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-components/31/maven-shared-components-31.pom (5.1 kB at 41 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/31/maven-parent-31.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/31/maven-parent-31.pom (43 kB at 299 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/apache/19/apache-19.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/apache/19/apache-19.pom (15 kB at 145 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.11/commons-codec-1.11.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.11/commons-codec-1.11.pom (14 kB at 138 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/42/commons-parent-42.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/42/commons-parent-42.pom (68 kB at 341 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm/7.0/asm-7.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm/7.0/asm-7.0.pom (2.9 kB at 37 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/ow2/1.5/ow2-1.5.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/ow2/1.5/ow2-1.5.pom (0 B at 0 B/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-commons/7.0/asm-commons-7.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-commons/7.0/asm-commons-7.0.pom (3.7 kB at 44 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-tree/7.0/asm-tree-7.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-tree/7.0/asm-tree-7.0.pom (3.1 kB at 39 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-analysis/7.0/asm-analysis-7.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-analysis/7.0/asm-analysis-7.0.pom (3.2 kB at 35 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jdom/jdom2/2.0.6/jdom2-2.0.6.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jdom/jdom2/2.0.6/jdom2-2.0.6.pom (4.6 kB at 50 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-dependency-tree/3.0.1/maven-dependency-tree-3.0.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-dependency-tree/3.0.1/maven-dependency-tree-3.0.1.pom (7.5 kB at 84 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/vafer/jdependency/2.1.1/jdependency-2.1.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/vafer/jdependency/2.1.1/jdependency-2.1.1.pom (11 kB at 117 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/commons-io/commons-io/2.6/commons-io-2.6.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/commons-io/commons-io/2.6/commons-io-2.6.pom (14 kB at 150 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm/7.0-beta/asm-7.0-beta.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm/7.0-beta/asm-7.0-beta.pom (2.9 kB at 37 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-analysis/7.0-beta/asm-analysis-7.0-beta.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-analysis/7.0-beta/asm-analysis-7.0-beta.pom (3.2 kB at 32 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-tree/7.0-beta/asm-tree-7.0-beta.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-tree/7.0-beta/asm-tree-7.0-beta.pom (3.1 kB at 38 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-commons/7.0-beta/asm-commons-7.0-beta.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-commons/7.0-beta/asm-commons-7.0-beta.pom (3.7 kB at 42 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-util/7.0-beta/asm-util-7.0-beta.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-util/7.0-beta/asm-util-7.0-beta.pom (3.7 kB at 42 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-component-annotations/1.7.1/plexus-component-annotations-1.7.1.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.1.0/plexus-utils-3.1.0.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-artifact-transfer/0.10.0/maven-artifact-transfer-0.10.0.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.11/commons-codec-1.11.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm/7.0/asm-7.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-component-annotations/1.7.1/plexus-component-annotations-1.7.1.jar (4.3 kB at 48 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-commons/7.0/asm-commons-7.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm/7.0/asm-7.0.jar (114 kB at 116 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-tree/7.0/asm-tree-7.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-commons/7.0/asm-commons-7.0.jar (80 kB at 78 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-analysis/7.0/asm-analysis-7.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-artifact-transfer/0.10.0/maven-artifact-transfer-0.10.0.jar (128 kB at 115 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jdom/jdom2/2.0.6/jdom2-2.0.6.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-analysis/7.0/asm-analysis-7.0.jar (33 kB at 24 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-dependency-tree/3.0.1/maven-dependency-tree-3.0.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.1.0/plexus-utils-3.1.0.jar (262 kB at 186 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/vafer/jdependency/2.1.1/jdependency-2.1.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-tree/7.0/asm-tree-7.0.jar (50 kB at 36 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-util/7.0-beta/asm-util-7.0-beta.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-dependency-tree/3.0.1/maven-dependency-tree-3.0.1.jar (37 kB at 20 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-util/7.0-beta/asm-util-7.0-beta.jar (81 kB at 40 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/vafer/jdependency/2.1.1/jdependency-2.1.1.jar (186 kB at 79 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.11/commons-codec-1.11.jar (335 kB at 134 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jdom/jdom2/2.0.6/jdom2-2.0.6.jar (305 kB at 118 kB/s)
+[INFO] Including org.bukkit:bukkit:jar:1.14.2-R0.1-SNAPSHOT in the shaded jar.
+[INFO] Including commons-lang:commons-lang:jar:2.6 in the shaded jar.
+[INFO] Including com.google.guava:guava:jar:21.0 in the shaded jar.
+[INFO] Including com.google.code.gson:gson:jar:2.8.0 in the shaded jar.
+[INFO] Including org.yaml:snakeyaml:jar:1.23 in the shaded jar.
+[INFO] Including com.github.thebusybiscuit:CS-CoreLib2:jar:0.2.1 in the shaded jar.
+[INFO] Including org.bstats:bstats-bukkit:jar:1.5 in the shaded jar.
+[INFO] Replacing original artifact with shaded artifact.
+[INFO] Replacing /home/pi/Desktop/Build Server/TheBusyBiscuit/CommandOverride/master/files/target/CommandOverride-7.jar with /home/pi/Desktop/Build Server/TheBusyBiscuit/CommandOverride/master/files/target/CommandOverride-DEV - 7 (git 54ab2a39)-shaded.jar
+[INFO] Dependency-reduced POM written at: /home/pi/Desktop/Build Server/TheBusyBiscuit/CommandOverride/master/files/dependency-reduced-pom.xml
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/bukkit/bukkit/1.13.1-R0.1-SNAPSHOT/bukkit-1.13.1-R0.1-20181022.190036-99.jar
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/bukkit/bukkit/1.13.1-R0.1-SNAPSHOT/bukkit-1.13.1-R0.1-20181022.190036-99.jar (1.0 MB at 14 kB/s)
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  02:17 min
+[INFO] Finished at: 2019-06-12T01:05:27+02:00
+[INFO] ------------------------------------------------------------------------
