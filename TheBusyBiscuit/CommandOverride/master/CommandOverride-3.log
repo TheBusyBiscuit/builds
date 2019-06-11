@@ -1,0 +1,37 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------< me.mrCookieSlime:CommandOverride >------------------
+[INFO] Building CommandOverride DEV - 3 (git a5c650f4)
+[INFO] --------------------------------[ jar ]---------------------------------
+[WARNING] The POM for com.github.TheBusyBiscuit:CS-CoreLib:jar:v1.6.1 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ CommandOverride ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ CommandOverride ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 4 source files to /home/pi/Desktop/Build Server/TheBusyBiscuit/CommandOverride/master/files/target/classes
+[WARNING] /home/pi/Desktop/Build Server/TheBusyBiscuit/CommandOverride/master/files/src/me/mrCookieSlime/CommandOverride/CommandOverride.java: /home/pi/Desktop/Build Server/TheBusyBiscuit/CommandOverride/master/files/src/me/mrCookieSlime/CommandOverride/CommandOverride.java uses or overrides a deprecated API.
+[WARNING] /home/pi/Desktop/Build Server/TheBusyBiscuit/CommandOverride/master/files/src/me/mrCookieSlime/CommandOverride/CommandOverride.java: Recompile with -Xlint:deprecation for details.
+[WARNING] /home/pi/Desktop/Build Server/TheBusyBiscuit/CommandOverride/master/files/src/me/mrCookieSlime/CommandOverride/CommandOverride.java: /home/pi/Desktop/Build Server/TheBusyBiscuit/CommandOverride/master/files/src/me/mrCookieSlime/CommandOverride/CommandOverride.java uses unchecked or unsafe operations.
+[WARNING] /home/pi/Desktop/Build Server/TheBusyBiscuit/CommandOverride/master/files/src/me/mrCookieSlime/CommandOverride/CommandOverride.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ CommandOverride ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/pi/Desktop/Build Server/TheBusyBiscuit/CommandOverride/master/files/tests/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ CommandOverride ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ CommandOverride ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ CommandOverride ---
+[INFO] Building jar: /home/pi/Desktop/Build Server/TheBusyBiscuit/CommandOverride/master/files/target/CommandOverride-3.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  8.254 s
+[INFO] Finished at: 2019-06-11T23:48:59+02:00
+[INFO] ------------------------------------------------------------------------
