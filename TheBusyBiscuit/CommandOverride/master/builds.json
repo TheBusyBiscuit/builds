@@ -79,6 +79,22 @@
         "candidate": "DEVELOPMENT",
         "status": "FAILURE"
     },
-    "latest": 5,
+    "6": {
+        "id": 6,
+        "sha": "f2bb42bcb8a673f38c38a0861b6972f659e9f2cd",
+        "date": "11 Jun 2019 (22:47:45)",
+        "timestamp": 20190611224745,
+        "message": "Third time's a charm",
+        "author": "TheBusyBiscuit",
+        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
+        "license": {
+            "name": "MIT License",
+            "id": "MIT",
+            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/CommandOverride/master/LICENSE"
+        },
+        "candidate": "DEVELOPMENT",
+        "status": "FAILURE"
+    },
+    "latest": 6,
     "last_successful": 3
 }
