@@ -15,6 +15,22 @@
         "candidate": "DEVELOPMENT",
         "status": "SUCCESS"
     },
-    "latest": 1,
-    "last_successful": 1
+    "2": {
+        "id": 2,
+        "sha": "847bc83b0a862d0c30877279984490300ba87202",
+        "date": "11 Jun 2019 (11:49:44)",
+        "timestamp": 20190611114944,
+        "message": "Maybe fixes #4",
+        "author": "TheBusyBiscuit",
+        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
+        "license": {
+            "name": "GNU General Public License v3.0",
+            "id": "GPL-3.0",
+            "url": "https://raw.githubusercontent.com/John000708/Barrels/master/LICENSE"
+        },
+        "candidate": "DEVELOPMENT",
+        "status": "SUCCESS"
+    },
+    "latest": 2,
+    "last_successful": 2
 }
