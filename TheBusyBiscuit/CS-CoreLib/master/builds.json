@@ -817,6 +817,22 @@
         "tag": "v1.6.1",
         "status": "SUCCESS"
     },
-    "latest": 51,
+    "52": {
+        "id": 52,
+        "sha": "1757050b27ce05af923ec0ba2daae7fbbe4f9933",
+        "date": "11 Jun 2019 (21:17:35)",
+        "timestamp": 20190611211735,
+        "message": "Merge pull request #86 from TheBusyBiscuit/renovate/br.net.fabiozumbi12.redprotect-redprotect-spigot-7.x\n\nUpdate dependency br.net.fabiozumbi12.RedProtect:RedProtect-Spigot to v7.6.0",
+        "author": "TheBusyBiscuit",
+        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
+        "license": {
+            "name": "GNU General Public License v3.0",
+            "id": "GPL-3.0",
+            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/CS-CoreLib/master/LICENSE"
+        },
+        "candidate": "DEVELOPMENT",
+        "status": "FAILURE"
+    },
+    "latest": 52,
     "last_successful": 51
 }
