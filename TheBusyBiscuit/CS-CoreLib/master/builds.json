@@ -849,6 +849,22 @@
         "candidate": "DEVELOPMENT",
         "status": "FAILURE"
     },
-    "latest": 53,
-    "last_successful": 51
+    "54": {
+        "id": 54,
+        "sha": "50507069bc7ce98bc5cc0d8668ebc48c53fdc569",
+        "date": "11 Jun 2019 (21:33:55)",
+        "timestamp": 20190611213355,
+        "message": "Added RedProtect-Core",
+        "author": "TheBusyBiscuit",
+        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
+        "license": {
+            "name": "GNU General Public License v3.0",
+            "id": "GPL-3.0",
+            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/CS-CoreLib/master/LICENSE"
+        },
+        "candidate": "DEVELOPMENT",
+        "status": "SUCCESS"
+    },
+    "latest": 54,
+    "last_successful": 54
 }
