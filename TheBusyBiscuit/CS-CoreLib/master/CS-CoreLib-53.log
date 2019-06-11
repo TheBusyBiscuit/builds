@@ -1,0 +1,76 @@
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for me.mrCookieSlime:CS-CoreLib:jar:DEV - 53 (git f5b49961)
+[WARNING] 'dependencies.dependency.systemPath' for com.massivecraft.massivecore:MassiveCore:jar should not point at files within the project directory, ${project.basedir}/lib/MassiveCore.jar will be unresolvable by dependent projects @ line 1, column 4205
+[WARNING] 'dependencies.dependency.systemPath' for com.massivecraft.factions:Factions:jar should not point at files within the project directory, ${project.basedir}/lib/Factions.jar will be unresolvable by dependent projects @ line 1, column 4416
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] 
+[INFO] --------------------< me.mrCookieSlime:CS-CoreLib >---------------------
+[INFO] Building CS-CoreLib DEV - 53 (git f5b49961)
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/com/github/TechFortress/GriefPrevention/16.11.6/GriefPrevention-16.11.6.pom
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/github/TechFortress/GriefPrevention/16.11.6/GriefPrevention-16.11.6.pom
+[INFO] Downloading from worldedit-worldguard-repo: http://maven.sk89q.com/repo/com/github/TechFortress/GriefPrevention/16.11.6/GriefPrevention-16.11.6.pom
+[INFO] Downloading from plotsquared-ci: http://ci.athion.net/job/PlotSquared-Releases/ws/mvn/com/github/TechFortress/GriefPrevention/16.11.6/GriefPrevention-16.11.6.pom
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/com/github/TechFortress/GriefPrevention/16.11.6/GriefPrevention-16.11.6.pom
+[INFO] Downloading from bintray-tastybento-maven-repo: http://dl.bintray.com/tastybento/maven-repo/com/github/TechFortress/GriefPrevention/16.11.6/GriefPrevention-16.11.6.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/github/TechFortress/GriefPrevention/16.11.6/GriefPrevention-16.11.6.pom
+[INFO] Downloaded from jitpack.io: https://jitpack.io/com/github/TechFortress/GriefPrevention/16.11.6/GriefPrevention-16.11.6.pom (3.6 kB at 6.9 kB/s)
+[WARNING] The POM for com.wasteofplastic:askyblock:jar:3.0.9.4 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+[WARNING] The POM for com.github.dmulloy2.LWC:lwc:jar:master-4.5.1-g2100b5e-18 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+[INFO] Downloading from maven-codearts-jp: http://maven.codearts.jp/org/bukkit/bukkit/maven-metadata.xml
+[WARNING] Could not transfer metadata org.bukkit:bukkit/maven-metadata.xml from/to maven-codearts-jp (http://maven.codearts.jp/): maven.codearts.jp: unknown error
+[WARNING] Failure to transfer org.bukkit:bukkit/maven-metadata.xml from http://maven.codearts.jp/ was cached in the local repository, resolution will not be reattempted until the update interval of maven-codearts-jp has elapsed or updates are forced. Original error: Could not transfer metadata org.bukkit:bukkit/maven-metadata.xml from/to maven-codearts-jp (http://maven.codearts.jp/): maven.codearts.jp: unknown error
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/org/sonatype/oss/oss-parent/9/oss-parent-9.pom
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/org/sonatype/oss/oss-parent/9/oss-parent-9.pom (0 B at 0 B/s)
+[WARNING] The POM for br.net.fabiozumbi12.RedProtect:RedProtect-Spigot:jar:7.6.0 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/com/github/TechFortress/GriefPrevention/16.11.6/GriefPrevention-16.11.6.jar
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/github/TechFortress/GriefPrevention/16.11.6/GriefPrevention-16.11.6.jar
+[INFO] Downloading from worldedit-worldguard-repo: http://maven.sk89q.com/repo/com/github/TechFortress/GriefPrevention/16.11.6/GriefPrevention-16.11.6.jar
+[INFO] Downloading from plotsquared-ci: http://ci.athion.net/job/PlotSquared-Releases/ws/mvn/com/github/TechFortress/GriefPrevention/16.11.6/GriefPrevention-16.11.6.jar
+[INFO] Downloading from redprotect-repo: https://raw.github.com/FabioZumbi12/RedProtect/mvn-repo/com/github/TechFortress/GriefPrevention/16.11.6/GriefPrevention-16.11.6.jar
+[INFO] Downloading from bintray-tastybento-maven-repo: http://dl.bintray.com/tastybento/maven-repo/com/github/TechFortress/GriefPrevention/16.11.6/GriefPrevention-16.11.6.jar
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/github/TechFortress/GriefPrevention/16.11.6/GriefPrevention-16.11.6.jar
+[INFO] Downloaded from jitpack.io: https://jitpack.io/com/github/TechFortress/GriefPrevention/16.11.6/GriefPrevention-16.11.6.jar (292 kB at 216 kB/s)
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ CS-CoreLib ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ CS-CoreLib ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 100 source files to /home/pi/Desktop/Build Server/TheBusyBiscuit/CS-CoreLib/master/files/target/classes
+[INFO] -------------------------------------------------------------
+[WARNING] COMPILATION WARNING : 
+[INFO] -------------------------------------------------------------
+[WARNING] /home/pi/Desktop/Build Server/TheBusyBiscuit/CS-CoreLib/master/files/src/me/mrCookieSlime/CSCoreLibPlugin/general/World/FakeItem.java: Some input files use or override a deprecated API.
+[WARNING] /home/pi/Desktop/Build Server/TheBusyBiscuit/CS-CoreLib/master/files/src/me/mrCookieSlime/CSCoreLibPlugin/general/World/FakeItem.java: Recompile with -Xlint:deprecation for details.
+[INFO] 2 warnings 
+[INFO] -------------------------------------------------------------
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/CS-CoreLib/master/files/src/me/mrCookieSlime/CSCoreLibPlugin/protection/modules/RedProtectProtectionModule.java:[23,20] cannot access br.net.fabiozumbi12.RedProtect.Core.region.CoreRegion
+  class file for br.net.fabiozumbi12.RedProtect.Core.region.CoreRegion not found
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  33.788 s
+[INFO] Finished at: 2019-06-11T23:27:35+02:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.1:compile (default-compile) on project CS-CoreLib: Compilation failure
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/CS-CoreLib/master/files/src/me/mrCookieSlime/CSCoreLibPlugin/protection/modules/RedProtectProtectionModule.java:[23,20] cannot access br.net.fabiozumbi12.RedProtect.Core.region.CoreRegion
+[ERROR]   class file for br.net.fabiozumbi12.RedProtect.Core.region.CoreRegion not found
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
