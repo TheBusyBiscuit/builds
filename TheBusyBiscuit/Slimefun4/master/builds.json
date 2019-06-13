@@ -1762,6 +1762,22 @@
         "candidate": "DEVELOPMENT",
         "status": "SUCCESS"
     },
-    "latest": 110,
-    "last_successful": 110
+    "111": {
+        "id": 111,
+        "sha": "6d7b7253a06a77b869c705a2ac1e3ddf1bd78f00",
+        "date": "13 Jun 2019 (06:19:46)",
+        "timestamp": 20190613061946,
+        "message": "Merge pull request #935 from BluGhostYT/patch-1\n\nFix for issue #879",
+        "author": "TheBusyBiscuit",
+        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
+        "license": {
+            "name": "GNU General Public License v3.0",
+            "id": "GPL-3.0",
+            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/Slimefun4/master/LICENSE"
+        },
+        "candidate": "DEVELOPMENT",
+        "status": "SUCCESS"
+    },
+    "latest": 111,
+    "last_successful": 111
 }
