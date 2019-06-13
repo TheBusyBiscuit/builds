@@ -1778,6 +1778,22 @@
         "candidate": "DEVELOPMENT",
         "status": "SUCCESS"
     },
-    "latest": 111,
-    "last_successful": 111
+    "112": {
+        "id": 112,
+        "sha": "330f439472eba0cf287fee4352fc2721a33a830b",
+        "date": "13 Jun 2019 (19:47:49)",
+        "timestamp": 20190613194749,
+        "message": "Merge pull request #937 from bverhoeven/block-break-fix\n\nDrop Slimefun items when broken by another Slimefun tool",
+        "author": "TheBusyBiscuit",
+        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
+        "license": {
+            "name": "GNU General Public License v3.0",
+            "id": "GPL-3.0",
+            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/Slimefun4/master/LICENSE"
+        },
+        "candidate": "DEVELOPMENT",
+        "status": "SUCCESS"
+    },
+    "latest": 112,
+    "last_successful": 112
 }
