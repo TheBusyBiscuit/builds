@@ -143,6 +143,22 @@
         "candidate": "DEVELOPMENT",
         "status": "FAILURE"
     },
-    "latest": 9,
-    "last_successful": 8
+    "10": {
+        "id": 10,
+        "sha": "633f79581cc25afab22629ee3f638d8c09d91881",
+        "date": "13 Jun 2019 (06:22:35)",
+        "timestamp": 20190613062235,
+        "message": "Update pom.xml",
+        "author": "TheBusyBiscuit",
+        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
+        "license": {
+            "name": "MIT License",
+            "id": "MIT",
+            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/ExoticGarden/master/LICENSE"
+        },
+        "candidate": "DEVELOPMENT",
+        "status": "SUCCESS"
+    },
+    "latest": 10,
+    "last_successful": 10
 }
