@@ -881,6 +881,22 @@
         "candidate": "DEVELOPMENT",
         "status": "SUCCESS"
     },
-    "latest": 55,
-    "last_successful": 55
+    "56": {
+        "id": 56,
+        "sha": "93fcd9a2ab6e7f6be393c11ab98a84a8c3b652e1",
+        "date": "13 Jun 2019 (06:20:52)",
+        "timestamp": 20190613062052,
+        "message": "Merge pull request #91 from TheBusyBiscuit/renovate/world.bentobox-bentobox-1.x\n\nUpdate dependency world.bentobox:bentobox to v1.5.1",
+        "author": "TheBusyBiscuit",
+        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
+        "license": {
+            "name": "GNU General Public License v3.0",
+            "id": "GPL-3.0",
+            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/CS-CoreLib/master/LICENSE"
+        },
+        "candidate": "DEVELOPMENT",
+        "status": "SUCCESS"
+    },
+    "latest": 56,
+    "last_successful": 56
 }
