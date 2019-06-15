@@ -33,9 +33,11 @@
 	},
 	"TheBusyBiscuit/QuickMarket:master": {
 		"Minecraft Version(s)": {
+			"7": "1.13.x, 1.14.x",
 			"1": "1.14.x"
 		},
 		"CS-CoreLib Version": {
+			"7": "Not required",
 			"1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/CS-CoreLib/master/#44\">1.6</a>"
 		}
 	},
@@ -151,6 +153,7 @@
 			"1": "1.12.x, 1.13.x, 1.14.x"
 		},
 		"CS-CoreLib Version": {
+			"6": "Not required",
 			"1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/CS-CoreLib/master/#44\">1.6</a>"
 		}
 	}
