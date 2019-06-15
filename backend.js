@@ -345,7 +345,7 @@ function pom(job, builds) {
                 if (!err) {
                     if (builds != null) {
                         if (builds[job.id].tag) {
-                            json.getChild("version").setValue(builds[job.id].tag);
+                            json.getChild("version").setValue(builds[job.id].tag.replace(/v/g, ""));
                         }
                         else {
                             json.getChild("version").setValue("DEV - " + job.id + " (git " + builds[job.id].sha.substr(0, 8) + ")");
@@ -373,7 +373,7 @@ function pom(job, builds) {
                     }
                     else {
                         var version = global.status.updates[job.author + "/" + job.repo + "/" + job.branch];
-                        json.getChild("version").setValue(version.substring(1));
+                        json.getChild("version").setValue(version.replace(/v/g, ""));
 
                         json.asXMLString({ indent: 4, header: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>", new_lines: true }, function(err, xml) {
                             if (!err) {
@@ -486,13 +486,13 @@ function compile(job, builds) {
     global.status.task[job.author + "/" + job.repo + "/" + job.branch] = "Compiling";
 
     console.log("Compiling Repository \"" + job.author + "/" + job.repo + "\"...");
-    var options = ["package", "-B"];
+    var options = ["clean", "package", "-B"];
 
     if (FileSystem.existsSync("keystore")) {
         options.push("-Djavax.net.ssl.trustStore=/home/pi/Desktop/Build Server/keystore");
     }
 
-    var maven = child_process.spawn("mvn", ["package", "-B"], {cwd: __dirname + "/" + job.author + "/" + job.repo + "/" + job.branch + "/files", shell: true});
+    var maven = child_process.spawn("mvn", options, {cwd: __dirname + "/" + job.author + "/" + job.repo + "/" + job.branch + "/files", shell: true});
 
     maven.stderr.on('data', function(data) {
         console.log(" " + data);
