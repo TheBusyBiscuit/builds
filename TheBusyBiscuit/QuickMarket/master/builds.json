@@ -111,6 +111,22 @@
         "candidate": "DEVELOPMENT",
         "status": "SUCCESS"
     },
-    "latest": 7,
-    "last_successful": 7
+    "8": {
+        "id": 8,
+        "sha": "644feebe9ebe6ed5ab0649ddc4298fc2aa5d444e",
+        "date": "15 Jun 2019 (18:04:05)",
+        "timestamp": 20190615180405,
+        "message": "Added missing package",
+        "author": "TheBusyBiscuit",
+        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
+        "license": {
+            "name": "GNU General Public License v3.0",
+            "id": "GPL-3.0",
+            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/QuickMarket/master/LICENSE"
+        },
+        "candidate": "DEVELOPMENT",
+        "status": "SUCCESS"
+    },
+    "latest": 8,
+    "last_successful": 8
 }
