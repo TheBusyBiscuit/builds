@@ -127,6 +127,23 @@
         "candidate": "DEVELOPMENT",
         "status": "SUCCESS"
     },
-    "latest": 8,
-    "last_successful": 8
+    "9": {
+        "id": 9,
+        "sha": "8491e469bf70c08746310e8a17dc3cd4384c6029",
+        "date": "15 Jun 2019 (20:22:25)",
+        "timestamp": 20190615202225,
+        "message": "Updated to Version: v1.3",
+        "author": "TheBusyBot",
+        "avatar": "https://avatars1.githubusercontent.com/u/33297977?v=4",
+        "license": {
+            "name": "GNU General Public License v3.0",
+            "id": "GPL-3.0",
+            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/QuickMarket/master/LICENSE"
+        },
+        "candidate": "RELEASE",
+        "tag": "v1.3",
+        "status": "SUCCESS"
+    },
+    "latest": 9,
+    "last_successful": 9
 }
