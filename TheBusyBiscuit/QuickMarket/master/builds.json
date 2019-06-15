@@ -95,6 +95,22 @@
         "candidate": "DEVELOPMENT",
         "status": "SUCCESS"
     },
-    "latest": 6,
-    "last_successful": 6
+    "7": {
+        "id": 7,
+        "sha": "bc86e9755f48d5d4a33f3b6b93fc6b9ef8155e18",
+        "date": "15 Jun 2019 (17:40:01)",
+        "timestamp": 20190615174001,
+        "message": "Fixed shaded-pattern",
+        "author": "TheBusyBiscuit",
+        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
+        "license": {
+            "name": "GNU General Public License v3.0",
+            "id": "GPL-3.0",
+            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/QuickMarket/master/LICENSE"
+        },
+        "candidate": "DEVELOPMENT",
+        "status": "SUCCESS"
+    },
+    "latest": 7,
+    "last_successful": 7
 }
