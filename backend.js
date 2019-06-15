@@ -195,20 +195,17 @@ function getTags(job, commit) {
 
             response.on('end', function() {
                 var json = JSON.parse(body);
-				var version = "v1.0";
 
                 if (!json.documentation_url && json.length > 0) {
+					global.status.version[job.author + "/" + job.repo + "/" + job.branch] = json[0].name;
                     for (var i in json) {
                         if (json[i].commit.sha === commit.sha) {
                             commit.candidate = "RELEASE";
                             commit.tag = json[i].name;
                             watchRepository(job, commit);
-                            break;
+							return;
                         }
                     }
-					
-					global.status.version[job.author + "/" + job.repo + "/" + job.branch] = json[0].name;
-					return;
                 }
 				
 				global.status.version[job.author + "/" + job.repo + "/" + job.branch] = "v1.0";
