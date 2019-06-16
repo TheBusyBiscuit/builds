@@ -31,6 +31,22 @@
         "candidate": "DEVELOPMENT",
         "status": "SUCCESS"
     },
-    "latest": 2,
-    "last_successful": 2
+    "3": {
+        "id": 3,
+        "sha": "f8faa09682ac5f6ea4fbf559a45f0c2219207cdc",
+        "date": "16 Jun 2019 (21:34:30)",
+        "timestamp": 20190616213430,
+        "message": "Fixed Protection Plugins Hook",
+        "author": "TheBusyBiscuit",
+        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
+        "license": {
+            "name": "MIT License",
+            "id": "MIT",
+            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/PrivateStorage/master/LICENSE"
+        },
+        "candidate": "DEVELOPMENT",
+        "status": "SUCCESS"
+    },
+    "latest": 3,
+    "last_successful": 3
 }
