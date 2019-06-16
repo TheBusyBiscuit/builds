@@ -144,6 +144,22 @@
         "tag": "v1.3",
         "status": "SUCCESS"
     },
-    "latest": 9,
-    "last_successful": 9
+    "10": {
+        "id": 10,
+        "sha": "6a4dd44d4a1807e5cee77ed4507fddac7d75aea9",
+        "date": "15 Jun 2019 (20:55:50)",
+        "timestamp": 20190615205550,
+        "message": "Removed redundant method",
+        "author": "TheBusyBiscuit",
+        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
+        "license": {
+            "name": "GNU General Public License v3.0",
+            "id": "GPL-3.0",
+            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/QuickMarket/master/LICENSE"
+        },
+        "candidate": "DEVELOPMENT",
+        "status": "SUCCESS"
+    },
+    "latest": 10,
+    "last_successful": 10
 }

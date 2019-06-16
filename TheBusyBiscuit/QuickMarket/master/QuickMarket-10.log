@@ -1,0 +1,66 @@
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for io.github.thebusybiscuit:QuickMarket:jar:DEV - 10 (git 6a4dd44d)
+[WARNING] 'dependencies.dependency.systemPath' for me.mrCookieSlime:PrisonUtils:jar should not point at files within the project directory, ${project.basedir}/lib/PrisonUtils v1.6.11.jar will be unresolvable by dependent projects @ line 1, column 3340
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] 
+[INFO] ----------------< io.github.thebusybiscuit:QuickMarket >----------------
+[INFO] Building QuickMarket DEV - 10 (git 6a4dd44d)
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/bukkit/bukkit/1.14.2-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/bukkit/bukkit/1.14.2-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from CodeMC: https://repo.codemc.org/repository/maven-public/org/bukkit/bukkit/1.14.2-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/bukkit/bukkit/1.14.2-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloaded from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/bukkit/bukkit/1.14.2-R0.1-SNAPSHOT/maven-metadata.xml (1.4 kB at 296 B/s)
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/bukkit/bukkit/1.14.2-R0.1-SNAPSHOT/maven-metadata.xml (1.4 kB at 271 B/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/bukkit/bukkit/1.14.2-R0.1-SNAPSHOT/bukkit-1.14.2-R0.1-20190616.014249-30.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/bukkit/bukkit/1.14.2-R0.1-SNAPSHOT/bukkit-1.14.2-R0.1-20190616.014249-30.pom (8.4 kB at 14 kB/s)
+[WARNING] The POM for com.github.thebusybiscuit:CS-CoreLib2:jar:0.3.1 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+org/bukkit/bukkit/1.13.1-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from CodeMC: https://repo.codemc.org/repository/maven-public/org/bukkit/bukkit/1.13.1-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from spig[INFO] Downloading from jitpack.io: https://jitpack.io/ot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/bukkit/bukkit/1.13.1-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/bukkit/bukkit/1.13.1-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloaded from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/bukkit/bukkit/1.13.1-R0.1-SNAPSHOT/maven-metadata.xml (1.4 kB at 4.1 kB/s)
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/bukkit/bukkit/1.13.1-R0.1-SNAPSHOT/maven-metadata.xml (1.4 kB at 3.2 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/bukkit/bukkit/1.14.2-R0.1-SNAPSHOT/bukkit-1.14.2-R0.1-20190616.014249-30.jar
+[INFO] Downloaded from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/bukkit/bukkit/1.14.2-R0.1-SNAPSHOT/bukkit-1.14.2-R0.1-20190616.014249-30.jar (1.2 MB at 649 kB/s)
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ QuickMarket ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ QuickMarket ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ QuickMarket ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 8 source files to /home/pi/Desktop/Build Server/TheBusyBiscuit/QuickMarket/master/files/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ QuickMarket ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/pi/Desktop/Build Server/TheBusyBiscuit/QuickMarket/master/files/tests/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ QuickMarket ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ QuickMarket ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ QuickMarket ---
+[INFO] Building jar: /home/pi/Desktop/Build Server/TheBusyBiscuit/QuickMarket/master/files/target/QuickMarket-10.jar
+[INFO] 
+[INFO] --- maven-shade-plugin:3.2.1:shade (default) @ QuickMarket ---
+[INFO] Including com.github.thebusybiscuit:CS-CoreLib2:jar:0.3.1 in the shaded jar.
+[INFO] Including org.bstats:bstats-bukkit:jar:1.5 in the shaded jar.
+[INFO] Replacing original artifact with shaded artifact.
+[INFO] Replacing /home/pi/Desktop/Build Server/TheBusyBiscuit/QuickMarket/master/files/target/QuickMarket-10.jar with /home/pi/Desktop/Build Server/TheBusyBiscuit/QuickMarket/master/files/target/QuickMarket-DEV - 10 (git 6a4dd44d)-shaded.jar
+[INFO] Dependency-reduced POM written at: /home/pi/Desktop/Build Server/TheBusyBiscuit/QuickMarket/master/files/dependency-reduced-pom.xml
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  26.795 s
+[INFO] Finished at: 2019-06-16T09:47:49+02:00
+[INFO] ------------------------------------------------------------------------
