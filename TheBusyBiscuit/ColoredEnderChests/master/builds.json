@@ -15,6 +15,22 @@
         "candidate": "DEVELOPMENT",
         "status": "SUCCESS"
     },
-    "latest": 1,
-    "last_successful": 1
+    "2": {
+        "id": 2,
+        "sha": "61f357d96020e85693b0ffd28f73502f96d88c26",
+        "date": "16 Jun 2019 (12:06:37)",
+        "timestamp": 20190616120637,
+        "message": "Adjusted Offset",
+        "author": "TheBusyBiscuit",
+        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
+        "license": {
+            "name": "MIT License",
+            "id": "MIT",
+            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/ColoredEnderChests/master/LICENSE"
+        },
+        "candidate": "DEVELOPMENT",
+        "status": "SUCCESS"
+    },
+    "latest": 2,
+    "last_successful": 2
 }

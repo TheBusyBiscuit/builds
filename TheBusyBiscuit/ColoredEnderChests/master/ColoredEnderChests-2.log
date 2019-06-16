@@ -1,0 +1,38 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------< io.github.thebusybiscuit:ColoredEnderChests >-------------
+[INFO] Building ColoredEnderChests DEV - 2 (git 61f357d9)
+[INFO] --------------------------------[ jar ]---------------------------------
+[WARNING] The POM for com.github.TheBusyBiscuit:CS-CoreLib:jar:v1.6.1 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+[WARNING] The POM for com.github.TheBusyBiscuit:Slimefun4:jar:3619c4bc9e is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ ColoredEnderChests ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ ColoredEnderChests ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ ColoredEnderChests ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 2 source files to /home/pi/Desktop/Build Server/TheBusyBiscuit/ColoredEnderChests/master/files/target/classes
+[WARNING] /home/pi/Desktop/Build Server/TheBusyBiscuit/ColoredEnderChests/master/files/src/io/github/thebusybiscuit/coloredenderchests/ColoredEnderChests.java: /home/pi/Desktop/Build Server/TheBusyBiscuit/ColoredEnderChests/master/files/src/io/github/thebusybiscuit/coloredenderchests/ColoredEnderChests.java uses or overrides a deprecated API.
+[WARNING] /home/pi/Desktop/Build Server/TheBusyBiscuit/ColoredEnderChests/master/files/src/io/github/thebusybiscuit/coloredenderchests/ColoredEnderChests.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ ColoredEnderChests ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/pi/Desktop/Build Server/TheBusyBiscuit/ColoredEnderChests/master/files/tests/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ ColoredEnderChests ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ ColoredEnderChests ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ ColoredEnderChests ---
+[INFO] Building jar: /home/pi/Desktop/Build Server/TheBusyBiscuit/ColoredEnderChests/master/files/target/ColoredEnderChests-2.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  7.326 s
+[INFO] Finished at: 2019-06-16T14:07:28+02:00
+[INFO] ------------------------------------------------------------------------
