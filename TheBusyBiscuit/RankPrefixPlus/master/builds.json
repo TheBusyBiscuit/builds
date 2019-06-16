@@ -1,0 +1,20 @@
+{
+    "1": {
+        "id": 1,
+        "sha": "e4cd6705ef45c7ab75fbef27f37bbbed0e624bf6",
+        "date": "16 Jun 2019 (07:12:12)",
+        "timestamp": 20190616071212,
+        "message": "Updated to 1.13 and updated to CS-CoreLib 2",
+        "author": "TheBusyBiscuit",
+        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
+        "license": {
+            "name": "",
+            "id": "",
+            "url": ""
+        },
+        "candidate": "DEVELOPMENT",
+        "status": "SUCCESS"
+    },
+    "latest": 1,
+    "last_successful": 1
+}
