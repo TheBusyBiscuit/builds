@@ -47,6 +47,22 @@
         "candidate": "DEVELOPMENT",
         "status": "SUCCESS"
     },
-    "latest": 3,
-    "last_successful": 3
+    "4": {
+        "id": 4,
+        "sha": "ad54c9178a2bf4df4238279736f1dc3f6703503d",
+        "date": "16 Jun 2019 (10:26:08)",
+        "timestamp": 20190616102608,
+        "message": "Fixed Auto Updater not being able to turn off",
+        "author": "TheBusyBiscuit",
+        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
+        "license": {
+            "name": "MIT License",
+            "id": "MIT",
+            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/RankPrefixPlus/master/LICENSE"
+        },
+        "candidate": "DEVELOPMENT",
+        "status": "SUCCESS"
+    },
+    "latest": 4,
+    "last_successful": 4
 }
