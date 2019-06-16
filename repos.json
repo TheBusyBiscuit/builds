@@ -126,6 +126,17 @@
 			"1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/Slimefun4/master/#73\">dev #73</a>"
 		}
 	},
+	"TheBusyBiscuit/ColoredEnderChests:master": {
+		"Minecraft Version(s)": {
+			"1": "1.13.x, 1.14.x"
+		},
+		"CS-CoreLib Version": {
+			"1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/CS-CoreLib/master/#44\">1.6</a>"
+		},
+		"Slimefun Version": {
+			"1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/Slimefun4/master/#73\">dev #73</a>"
+		}
+	},
 	"TheBusyBiscuit/ExtraGear:master": {
 		"Minecraft Version(s)": {
 			"1": "1.13.x, 1.14.x"
