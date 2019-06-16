@@ -1,0 +1,20 @@
+{
+    "1": {
+        "id": 1,
+        "sha": "b0c322458db5cdc7fa3c32e4cb37871dca64ec48",
+        "date": "16 Jun 2019 (21:16:28)",
+        "timestamp": 20190616211628,
+        "message": "Initial Commit",
+        "author": "TheBusyBiscuit",
+        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
+        "license": {
+            "name": "MIT License",
+            "id": "MIT",
+            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/PrivateStorage/master/LICENSE"
+        },
+        "candidate": "DEVELOPMENT",
+        "status": "SUCCESS"
+    },
+    "latest": 1,
+    "last_successful": 1
+}
