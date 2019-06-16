@@ -15,6 +15,22 @@
         "candidate": "DEVELOPMENT",
         "status": "SUCCESS"
     },
-    "latest": 1,
-    "last_successful": 1
+    "2": {
+        "id": 2,
+        "sha": "7794b35af1ec9dc40519a2088902335c0b7cfcf2",
+        "date": "16 Jun 2019 (07:56:23)",
+        "timestamp": 20190616075623,
+        "message": "Fixed Maven Structure",
+        "author": "TheBusyBiscuit",
+        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
+        "license": {
+            "name": "",
+            "id": "",
+            "url": ""
+        },
+        "candidate": "DEVELOPMENT",
+        "status": "SUCCESS"
+    },
+    "latest": 2,
+    "last_successful": 2
 }
