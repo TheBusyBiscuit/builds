@@ -112,6 +112,22 @@
         "tag": "v1.8",
         "status": "SUCCESS"
     },
-    "latest": 7,
-    "last_successful": 7
+    "8": {
+        "id": 8,
+        "sha": "586e44a5aaab913b5a14d0a40ed6114c7a83182c",
+        "date": "15 Jun 2019 (20:37:41)",
+        "timestamp": 20190615203741,
+        "message": "Fixed Updater",
+        "author": "TheBusyBiscuit",
+        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
+        "license": {
+            "name": "MIT License",
+            "id": "MIT",
+            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/CommandOverride/master/LICENSE"
+        },
+        "candidate": "DEVELOPMENT",
+        "status": "SUCCESS"
+    },
+    "latest": 8,
+    "last_successful": 8
 }
