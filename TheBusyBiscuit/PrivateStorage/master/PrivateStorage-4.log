@@ -1,0 +1,36 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------< io.github.thebusybiscuit:PrivateStorage >---------------
+[INFO] Building PrivateStorage DEV - 4 (git 4075b9df)
+[INFO] --------------------------------[ jar ]---------------------------------
+[WARNING] The POM for com.github.TheBusyBiscuit:CS-CoreLib:jar:v1.6.1 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+[WARNING] The POM for com.github.TheBusyBiscuit:Slimefun4:jar:3619c4bc9e is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ PrivateStorage ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ PrivateStorage ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ PrivateStorage ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 4 source files to /home/pi/Desktop/Build Server/TheBusyBiscuit/PrivateStorage/master/files/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ PrivateStorage ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/pi/Desktop/Build Server/TheBusyBiscuit/PrivateStorage/master/files/tests/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ PrivateStorage ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ PrivateStorage ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ PrivateStorage ---
+[INFO] Building jar: /home/pi/Desktop/Build Server/TheBusyBiscuit/PrivateStorage/master/files/target/PrivateStorage-4.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  7.450 s
+[INFO] Finished at: 2019-06-16T23:40:18+02:00
+[INFO] ------------------------------------------------------------------------

@@ -47,6 +47,22 @@
         "candidate": "DEVELOPMENT",
         "status": "SUCCESS"
     },
-    "latest": 3,
-    "last_successful": 3
+    "4": {
+        "id": 4,
+        "sha": "4075b9dfe26ad9436b6e11b16b33ac262e97d548",
+        "date": "16 Jun 2019 (21:38:33)",
+        "timestamp": 20190616213833,
+        "message": "Forgot to push this fix",
+        "author": "TheBusyBiscuit",
+        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
+        "license": {
+            "name": "MIT License",
+            "id": "MIT",
+            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/PrivateStorage/master/LICENSE"
+        },
+        "candidate": "DEVELOPMENT",
+        "status": "SUCCESS"
+    },
+    "latest": 4,
+    "last_successful": 4
 }
