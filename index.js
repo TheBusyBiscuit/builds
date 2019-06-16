@@ -16,7 +16,7 @@ $(function() {
 });
 
 function addProfile(user, repos) {
-    $("#repos").append('<div class="box" style="width: 50%; margin: 2vh auto;"><a style="padding-top: 1vh;" class="link_build link_repo" href="https://github.com/' + user + '">' + user + '</a><table id="projects_' + user + '" class="info_table"></table></div>');
+    $("#repos").append('<div class="box" style="width: 65%; margin: 2vh auto;"><a style="padding-top: 1vh;" class="link_build link_repo" href="https://github.com/' + user + '">' + user + '</a><table id="projects_' + user + '" class="info_table"></table></div>');
     var table = $("#projects_" + user);
 
     for (var repo in repos) {
