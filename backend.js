@@ -1,7 +1,8 @@
 const https = require('https');
 const FileSystem = require('fs');
 const child_process = require('child_process');
-const XML = require('./XML.js');
+const XML = require('xml-library');
+const Discord = require('discord.js');
 
 const months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
 
@@ -21,6 +22,7 @@ var stopwatch;
 var jobs = [];
 var timer;
 var access_token = "";
+var webhook;
 
 module.exports = function() {
     if (timer) {
@@ -35,6 +37,15 @@ module.exports = function() {
             FileSystem.readFile('ACCESS_TOKEN.txt', 'UTF-8', function(err, data) {
                 if (!err) {
                     access_token = data.replace(/[\r\n]+/g, "");
+                }
+            });
+        }
+
+        if (FileSystem.existsSync("discord.json")) {
+            FileSystem.readFile('discord.json', 'UTF-8', function(err, data) {
+                if (!err) {
+                    var json = JSON.parse(data);
+                    webhook = new Discord.WebhookClient(json.id, json.token);
                 }
             });
         }
@@ -207,7 +218,7 @@ function getTags(job, commit) {
                         }
                     }
                 }
-				
+
 				global.status.version[job.author + "/" + job.repo + "/" + job.branch] = "v1.0";
                 commit.candidate = "DEVELOPMENT";
                 watchRepository(job, commit);
@@ -643,6 +654,7 @@ function clearFolder(path, callback) {
 }
 
 function finishJob(job, status) {
+    job.success = status;
     generateBadge(job, status);
 }
 
@@ -740,6 +752,7 @@ function nextJob(job) {
                     push.on('close', function(status) {
                         var index = jobs.indexOf(job);
                         jobs.splice(index, 1);
+                        onUpdate(job);
                         continueWorkflow();
                     });
                 });
@@ -753,5 +766,21 @@ function nextJob(job) {
     }
     else {
         continueWorkflow();
+    }
+}
+
+function onUpdate(job) {
+    if (typeof webhook !== 'undefined') {
+        webhook.send(
+            new Discord.RichEmbed()
+            .setTitle("Compiled: " + job.author + "/" + job.repo + ":" + job.branch + " (" + job.id + ")")
+            .setColor(job.success ? 0X00FF00: 0XFF0000)
+            .setDescription(
+                "Build Status: " + (job.success ? "SUCCESS": "FAILURE") + "\n" +
+                "You can download it right here:\n" +
+                "https://thebusybiscuit.github.io/builds/" + job.author + "/" + job.repo + "/" + job.branch + "#" + job.id
+            ).setURL("https://thebusybiscuit.github.io/builds/" + job.author + "/" + job.repo + "/" + job.branch + "#" + job.id)
+            .setTimestamp(Date.now())
+        );
     }
 }

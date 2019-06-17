@@ -1,0 +1,23 @@
+{
+  "name": "build-server",
+  "version": "2.0.2",
+  "description": "A simple Build Server for all my Maven Projects",
+  "main": "remote.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheBusyBiscuit/builds.git"
+  },
+  "author": "TheBusyBiscuit",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TheBusyBiscuit/builds/issues"
+  },
+  "homepage": "https://github.com/TheBusyBiscuit/builds#readme",
+  "dependencies": {
+    "discord.js": "^11.5.1",
+    "xml-library": "0.0.3"
+  }
+}

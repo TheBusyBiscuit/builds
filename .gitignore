@@ -4,3 +4,5 @@ test.js
 ACCESS_TOKEN.txt
 *.cer
 keystore
+/node_modules/*
+discord.json
