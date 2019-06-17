@@ -773,12 +773,10 @@ function onUpdate(job) {
     if (typeof webhook !== 'undefined') {
         webhook.send(
             new Discord.RichEmbed()
-            .setTitle("Compiled: " + job.author + "/" + job.repo + ":" + job.branch + " (" + job.id + ")")
+            .setTitle(job.author + "/" + job.repo + ":" + job.branch + " ( #" + job.id + " )")
             .setColor(job.success ? 0X00FF00: 0XFF0000)
             .setDescription(
-                "Build Status: " + (job.success ? "SUCCESS": "FAILURE") + "\n" +
-                "You can download it right here:\n" +
-                "https://thebusybiscuit.github.io/builds/" + job.author + "/" + job.repo + "/" + job.branch + "#" + job.id
+				job.success ? "A new Build of " + job.repo + " is available!": "Sadly, this Build failed to compile!"
             ).setURL("https://thebusybiscuit.github.io/builds/" + job.author + "/" + job.repo + "/" + job.branch + "#" + job.id)
             .setTimestamp(Date.now())
         );
