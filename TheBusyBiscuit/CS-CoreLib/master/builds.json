@@ -929,6 +929,22 @@
         "candidate": "DEVELOPMENT",
         "status": "SUCCESS"
     },
-    "latest": 58,
-    "last_successful": 58
+    "59": {
+        "id": 59,
+        "sha": "dd62488c19b6245763fe165b7076d90b9293e6f3",
+        "date": "17 Jun 2019 (22:07:07)",
+        "timestamp": 20190617220707,
+        "message": "Merge branch 'master' of https://github.com/TheBusyBiscuit/CS-CoreLib",
+        "author": "TheBusyBiscuit",
+        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
+        "license": {
+            "name": "GNU General Public License v3.0",
+            "id": "GPL-3.0",
+            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/CS-CoreLib/master/LICENSE"
+        },
+        "candidate": "DEVELOPMENT",
+        "status": "SUCCESS"
+    },
+    "latest": 59,
+    "last_successful": 59
 }
