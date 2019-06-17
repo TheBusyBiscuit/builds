@@ -79,6 +79,22 @@
         "candidate": "DEVELOPMENT",
         "status": "SUCCESS"
     },
-    "latest": 5,
-    "last_successful": 5
+    "6": {
+        "id": 6,
+        "sha": "5f06ad30af95004282fc85d367b718d100c8e2d9",
+        "date": "17 Jun 2019 (07:34:31)",
+        "timestamp": 20190617073431,
+        "message": "Merge pull request #6 from BluGhostYT/master\n\nImplement Shulker & Phantom Pet",
+        "author": "TheBusyBiscuit",
+        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
+        "license": {
+            "name": "GNU General Public License v3.0",
+            "id": "GPL-3.0",
+            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/HotbarPets/master/LICENSE"
+        },
+        "candidate": "DEVELOPMENT",
+        "status": "SUCCESS"
+    },
+    "latest": 6,
+    "last_successful": 6
 }
