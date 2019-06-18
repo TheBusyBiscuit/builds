@@ -1810,6 +1810,22 @@
         "candidate": "DEVELOPMENT",
         "status": "SUCCESS"
     },
-    "latest": 113,
-    "last_successful": 113
+    "114": {
+        "id": 114,
+        "sha": "27cb4c389ca1ed8680f5642fe985621f09d2cadc",
+        "date": "18 Jun 2019 (15:39:59)",
+        "timestamp": 20190618153959,
+        "message": "Fixed Ancient Altar Recipes for good",
+        "author": "TheBusyBiscuit",
+        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
+        "license": {
+            "name": "GNU General Public License v3.0",
+            "id": "GPL-3.0",
+            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/Slimefun4/master/LICENSE"
+        },
+        "candidate": "DEVELOPMENT",
+        "status": "SUCCESS"
+    },
+    "latest": 114,
+    "last_successful": 114
 }
