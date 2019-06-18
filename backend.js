@@ -23,6 +23,7 @@ var jobs = [];
 var timer;
 var access_token = "";
 var webhook;
+var messages = {};
 
 module.exports = function() {
     if (timer) {
@@ -46,6 +47,8 @@ module.exports = function() {
                 if (!err) {
                     var json = JSON.parse(data);
                     webhook = new Discord.WebhookClient(json.id, json.token);
+
+                    messages = json.messages;
                 }
             });
         }
@@ -771,13 +774,14 @@ function nextJob(job) {
 
 function onUpdate(job) {
     if (typeof webhook !== 'undefined') {
+        var message = job.success ? messages.success[Math.floor(Math.random() * messages.success.length)]: messages.failure[Math.floor(Math.random() * messages.failure.length)];
+        message = message.replace(/<user>/g, job.author).replace(/<repo>/g, job.repo).replace(/<branch>/g, job.branch).replace(/<id>/g, job.id);
+        
         webhook.send(
             new Discord.RichEmbed()
             .setTitle(job.author + "/" + job.repo + ":" + job.branch + " ( #" + job.id + " )")
             .setColor(job.success ? 0X00FF00: 0XFF0000)
-            .setDescription(
-				job.success ? "A new Build of " + job.repo + " is available!": "Sadly, this Build failed to compile!"
-            ).setURL("https://thebusybiscuit.github.io/builds/" + job.author + "/" + job.repo + "/" + job.branch + "#" + job.id)
+            .setDescription(message).setURL("https://thebusybiscuit.github.io/builds/" + job.author + "/" + job.repo + "/" + job.branch + "#" + job.id)
             .setTimestamp(Date.now())
         );
     }
