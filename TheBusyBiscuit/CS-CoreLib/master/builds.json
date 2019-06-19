@@ -945,6 +945,22 @@
         "candidate": "DEVELOPMENT",
         "status": "SUCCESS"
     },
-    "latest": 59,
-    "last_successful": 59
+    "60": {
+        "id": 60,
+        "sha": "39934af740f1b3bb720d5293406fdbcf24c2f095",
+        "date": "19 Jun 2019 (19:34:24)",
+        "timestamp": 20190619193424,
+        "message": "Merge pull request #93 from WalshyDev/patch-1\n\nFix NPE",
+        "author": "TheBusyBiscuit",
+        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
+        "license": {
+            "name": "GNU General Public License v3.0",
+            "id": "GPL-3.0",
+            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/CS-CoreLib/master/LICENSE"
+        },
+        "candidate": "DEVELOPMENT",
+        "status": "SUCCESS"
+    },
+    "latest": 60,
+    "last_successful": 60
 }
