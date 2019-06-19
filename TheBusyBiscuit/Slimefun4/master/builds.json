@@ -1858,6 +1858,22 @@
         "candidate": "DEVELOPMENT",
         "status": "SUCCESS"
     },
-    "latest": 116,
+    "117": {
+        "id": 117,
+        "sha": "0a5c9e901eb5969ac913197e1c53caf3032a2b32",
+        "date": "19 Jun 2019 (20:32:09)",
+        "timestamp": 20190619203209,
+        "message": "Fixed Ancient Altar Items",
+        "author": "TheBusyBiscuit",
+        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
+        "license": {
+            "name": "GNU General Public License v3.0",
+            "id": "GPL-3.0",
+            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/Slimefun4/master/LICENSE"
+        },
+        "candidate": "DEVELOPMENT",
+        "status": "FAILURE"
+    },
+    "latest": 117,
     "last_successful": 116
 }
