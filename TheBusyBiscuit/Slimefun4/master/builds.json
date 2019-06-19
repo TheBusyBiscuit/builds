@@ -1842,6 +1842,22 @@
         "candidate": "DEVELOPMENT",
         "status": "SUCCESS"
     },
-    "latest": 115,
-    "last_successful": 115
+    "116": {
+        "id": 116,
+        "sha": "991c713e3df6fa9b7afafc80472bd86b2679c4a7",
+        "date": "19 Jun 2019 (19:33:52)",
+        "timestamp": 20190619193352,
+        "message": "Merge pull request #942 from BluGhostYT/master\n\nFix hologram locations for energy regulator and cargo manager",
+        "author": "TheBusyBiscuit",
+        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
+        "license": {
+            "name": "GNU General Public License v3.0",
+            "id": "GPL-3.0",
+            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/Slimefun4/master/LICENSE"
+        },
+        "candidate": "DEVELOPMENT",
+        "status": "SUCCESS"
+    },
+    "latest": 116,
+    "last_successful": 116
 }
