@@ -63,6 +63,22 @@
         "candidate": "DEVELOPMENT",
         "status": "SUCCESS"
     },
-    "latest": 4,
-    "last_successful": 4
+    "5": {
+        "id": 5,
+        "sha": "8b9c1043ac2e7832804d31b7d0a5fe3d4355433c",
+        "date": "19 Jun 2019 (19:33:24)",
+        "timestamp": 20190619193324,
+        "message": "Merge pull request #2 from TheBusyBiscuit/renovate/configure\n\nConfigure Renovate",
+        "author": "TheBusyBiscuit",
+        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
+        "license": {
+            "name": "MIT License",
+            "id": "MIT",
+            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/RankPrefixPlus/master/LICENSE"
+        },
+        "candidate": "DEVELOPMENT",
+        "status": "SUCCESS"
+    },
+    "latest": 5,
+    "last_successful": 5
 }

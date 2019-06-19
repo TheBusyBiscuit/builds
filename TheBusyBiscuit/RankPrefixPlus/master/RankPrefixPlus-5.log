@@ -1,0 +1,52 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------< io.github.thebusybiscuit:RankPrefixPlus >---------------
+[INFO] Building RankPrefixPlus DEV - 5 (git 8b9c1043)
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] Downloading from vault-repo: http://nexus.hc.to/content/repositories/pub_releases/org/bukkit/bukkit/1.14.2-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from placeholderapi-repo: http://repo.extendedclip.com/content/repositories/placeholderapi/org/bukkit/bukkit/1.14.2-R0.1-SNAPSHOT/maven-metadata.xml
+[WARNING] The POM for com.github.thebusybiscuit:CS-CoreLib2:jar:0.3.1 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/bukkit/bukkit/1.13.1-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/bukkit/bukkit/1.13.1-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from placeholderapi-repo: http://repo.extendedclip.com/content/repositories/placeholderapi/org/bukkit/bukkit/1.13.1-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/bukkit/bukkit/1.13.1-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from vault-repo: http://nexus.hc.to/content/repositories/pub_releases/org/bukkit/bukkit/1.13.1-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from CodeMC: https://repo.codemc.org/repository/maven-public/org/bukkit/bukkit/1.13.1-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloaded from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/bukkit/bukkit/1.13.1-R0.1-SNAPSHOT/maven-metadata.xml (1.4 kB at 967 B/s)
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/bukkit/bukkit/1.13.1-R0.1-SNAPSHOT/maven-metadata.xml (1.4 kB at 747 B/s)
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ RankPrefixPlus ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ RankPrefixPlus ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ RankPrefixPlus ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 3 source files to /home/pi/Desktop/Build Server/TheBusyBiscuit/RankPrefixPlus/master/files/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ RankPrefixPlus ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/pi/Desktop/Build Server/TheBusyBiscuit/RankPrefixPlus/master/files/tests/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ RankPrefixPlus ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ RankPrefixPlus ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ RankPrefixPlus ---
+[INFO] Building jar: /home/pi/Desktop/Build Server/TheBusyBiscuit/RankPrefixPlus/master/files/target/RankPrefixPlus-5.jar
+[INFO] 
+[INFO] --- maven-shade-plugin:3.2.1:shade (default) @ RankPrefixPlus ---
+[INFO] Including com.github.thebusybiscuit:CS-CoreLib2:jar:0.3.1 in the shaded jar.
+[INFO] Including org.bstats:bstats-bukkit:jar:1.5 in the shaded jar.
+[INFO] Replacing original artifact with shaded artifact.
+[INFO] Replacing /home/pi/Desktop/Build Server/TheBusyBiscuit/RankPrefixPlus/master/files/target/RankPrefixPlus-5.jar with /home/pi/Desktop/Build Server/TheBusyBiscuit/RankPrefixPlus/master/files/target/RankPrefixPlus-DEV - 5 (git 8b9c1043)-shaded.jar
+[INFO] Dependency-reduced POM written at: /home/pi/Desktop/Build Server/TheBusyBiscuit/RankPrefixPlus/master/files/dependency-reduced-pom.xml
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  13.289 s
+[INFO] Finished at: 2019-06-19T21:39:09+02:00
+[INFO] ------------------------------------------------------------------------
