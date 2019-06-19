@@ -1826,6 +1826,22 @@
         "candidate": "DEVELOPMENT",
         "status": "SUCCESS"
     },
-    "latest": 114,
-    "last_successful": 114
+    "115": {
+        "id": 115,
+        "sha": "4946d428adc87347cc6597035017730c6e5ea408",
+        "date": "19 Jun 2019 (06:46:43)",
+        "timestamp": 20190619064643,
+        "message": "Fixed Item Recognition System",
+        "author": "TheBusyBiscuit",
+        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
+        "license": {
+            "name": "GNU General Public License v3.0",
+            "id": "GPL-3.0",
+            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/Slimefun4/master/LICENSE"
+        },
+        "candidate": "DEVELOPMENT",
+        "status": "SUCCESS"
+    },
+    "latest": 115,
+    "last_successful": 115
 }
