@@ -63,6 +63,22 @@
         "candidate": "DEVELOPMENT",
         "status": "SUCCESS"
     },
-    "latest": 4,
-    "last_successful": 4
+    "5": {
+        "id": 5,
+        "sha": "aee2d472b221da51bcd97e3ee382866359c78306",
+        "date": "19 Jun 2019 (19:33:14)",
+        "timestamp": 20190619193314,
+        "message": "Merge pull request #1 from TheBusyBiscuit/renovate/configure\n\nConfigure Renovate",
+        "author": "TheBusyBiscuit",
+        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
+        "license": {
+            "name": "MIT License",
+            "id": "MIT",
+            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/PrivateStorage/master/LICENSE"
+        },
+        "candidate": "DEVELOPMENT",
+        "status": "SUCCESS"
+    },
+    "latest": 5,
+    "last_successful": 5
 }
