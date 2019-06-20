@@ -1890,6 +1890,22 @@
         "candidate": "DEVELOPMENT",
         "status": "SUCCESS"
     },
-    "latest": 118,
-    "last_successful": 118
+    "119": {
+        "id": 119,
+        "sha": "7c011d916aa5f62860ad3742b66dcf06537507ed",
+        "date": "20 Jun 2019 (07:51:15)",
+        "timestamp": 20190620075115,
+        "message": "Merge branch 'master' of https://github.com/TheBusyBiscuit/Slimefun4",
+        "author": "TheBusyBiscuit",
+        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
+        "license": {
+            "name": "GNU General Public License v3.0",
+            "id": "GPL-3.0",
+            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/Slimefun4/master/LICENSE"
+        },
+        "candidate": "DEVELOPMENT",
+        "status": "SUCCESS"
+    },
+    "latest": 119,
+    "last_successful": 119
 }
