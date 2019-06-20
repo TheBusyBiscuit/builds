@@ -127,6 +127,22 @@
         "candidate": "DEVELOPMENT",
         "status": "FAILURE"
     },
-    "latest": 8,
-    "last_successful": 7
+    "9": {
+        "id": 9,
+        "sha": "ae68433ff7e3bc4322fb633a43548e587304b7ae",
+        "date": "20 Jun 2019 (18:16:45)",
+        "timestamp": 20190620181645,
+        "message": "Merge pull request #10 from BluGhostYT/master\n\nImport Fix, since it apparently said no to the compiliation",
+        "author": "TheBusyBiscuit",
+        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
+        "license": {
+            "name": "GNU General Public License v3.0",
+            "id": "GPL-3.0",
+            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/HotbarPets/master/LICENSE"
+        },
+        "candidate": "DEVELOPMENT",
+        "status": "SUCCESS"
+    },
+    "latest": 9,
+    "last_successful": 9
 }
