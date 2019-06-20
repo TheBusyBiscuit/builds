@@ -128,6 +128,22 @@
         "candidate": "DEVELOPMENT",
         "status": "SUCCESS"
     },
-    "latest": 8,
-    "last_successful": 8
+    "9": {
+        "id": 9,
+        "sha": "ed7e700cc061d255912240eb2bbb45645452dfdd",
+        "date": "20 Jun 2019 (07:40:33)",
+        "timestamp": 20190620074033,
+        "message": "Updated to CS-CoreLib2 v0.3.2",
+        "author": "TheBusyBiscuit",
+        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
+        "license": {
+            "name": "MIT License",
+            "id": "MIT",
+            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/CommandOverride/master/LICENSE"
+        },
+        "candidate": "DEVELOPMENT",
+        "status": "SUCCESS"
+    },
+    "latest": 9,
+    "last_successful": 9
 }
