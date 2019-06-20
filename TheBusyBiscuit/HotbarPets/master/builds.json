@@ -111,6 +111,22 @@
         "candidate": "DEVELOPMENT",
         "status": "SUCCESS"
     },
-    "latest": 7,
+    "8": {
+        "id": 8,
+        "sha": "b41f0d3be8423138f75d310d13b69595889099e7",
+        "date": "20 Jun 2019 (18:09:35)",
+        "timestamp": 20190620180935,
+        "message": "Merge pull request #9 from BluGhostYT/master\n\nFixed Shulker lore, and added tipped arrow.",
+        "author": "TheBusyBiscuit",
+        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
+        "license": {
+            "name": "GNU General Public License v3.0",
+            "id": "GPL-3.0",
+            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/HotbarPets/master/LICENSE"
+        },
+        "candidate": "DEVELOPMENT",
+        "status": "FAILURE"
+    },
+    "latest": 8,
     "last_successful": 7
 }

@@ -1,0 +1,623 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------------< me.mrCookieSlime:HotbarPets >---------------------
+[INFO] Building HotbarPets DEV - 8 (git b41f0d3b)
+[INFO] --------------------------------[ jar ]---------------------------------
+[WARNING] The POM for com.github.TheBusyBiscuit:CS-CoreLib:jar:v1.6.1 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+[WARNING] The POM for com.github.TheBusyBiscuit:Slimefun4:jar:3619c4bc9e is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ HotbarPets ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ HotbarPets ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ HotbarPets ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 2 source files to /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/target/classes
+[INFO] -------------------------------------------------------------
+[WARNING] COMPILATION WARNING : 
+[INFO] -------------------------------------------------------------
+[WARNING] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java: /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java uses or overrides a deprecated API.
+[WARNING] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java: Recompile with -Xlint:deprecation for details.
+[INFO] 2 warnings 
+[INFO] -------------------------------------------------------------
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[40,436] cannot find symbol
+  symbol:   variable Material
+  location: class me.mrCookieSlime.HotbarPets.HotbarPets
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[41,31] cannot find symbol
+  symbol:   variable Material
+  location: class me.mrCookieSlime.HotbarPets.HotbarPets
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[41,65] cannot find symbol
+  symbol:   variable Material
+  location: class me.mrCookieSlime.HotbarPets.HotbarPets
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[41,97] cannot find symbol
+  symbol:   variable Material
+  location: class me.mrCookieSlime.HotbarPets.HotbarPets
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[42,31] cannot find symbol
+  symbol:   variable Material
+  location: class me.mrCookieSlime.HotbarPets.HotbarPets
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[42,65] cannot find symbol
+  symbol:   variable Material
+  location: class me.mrCookieSlime.HotbarPets.HotbarPets
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[42,98] cannot find symbol
+  symbol:   variable Material
+  location: class me.mrCookieSlime.HotbarPets.HotbarPets
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[43,31] cannot find symbol
+  symbol:   variable Material
+  location: class me.mrCookieSlime.HotbarPets.HotbarPets
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[43,89] cannot find symbol
+  symbol:   variable Material
+  location: class me.mrCookieSlime.HotbarPets.HotbarPets
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[46,407] cannot find symbol
+  symbol:   variable Material
+  location: class me.mrCookieSlime.HotbarPets.HotbarPets
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[47,31] cannot find symbol
+  symbol:   variable Material
+  location: class me.mrCookieSlime.HotbarPets.HotbarPets
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[47,65] cannot find symbol
+  symbol:   variable Material
+  location: class me.mrCookieSlime.HotbarPets.HotbarPets
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[47,98] cannot find symbol
+  symbol:   variable Material
+  location: class me.mrCookieSlime.HotbarPets.HotbarPets
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[48,31] cannot find symbol
+  symbol:   variable Material
+  location: class me.mrCookieSlime.HotbarPets.HotbarPets
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[48,71] cannot find symbol
+  symbol:   variable Material
+  location: class me.mrCookieSlime.HotbarPets.HotbarPets
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[48,104] cannot find symbol
+  symbol:   variable Material
+  location: class me.mrCookieSlime.HotbarPets.HotbarPets
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[49,31] cannot find symbol
+  symbol:   variable Material
+  location: class me.mrCookieSlime.HotbarPets.HotbarPets
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[49,89] cannot find symbol
+  symbol:   variable Material
+  location: class me.mrCookieSlime.HotbarPets.HotbarPets
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[52,424] cannot find symbol
+  symbol:   variable Material
+  location: class me.mrCookieSlime.HotbarPets.HotbarPets
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[53,31] cannot find symbol
+  symbol:   variable Material
+  location: class me.mrCookieSlime.HotbarPets.HotbarPets
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[53,69] cannot find symbol
+  symbol:   variable Material
+  location: class me.mrCookieSlime.HotbarPets.HotbarPets
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[53,106] cannot find symbol
+  symbol:   variable Material
+  location: class me.mrCookieSlime.HotbarPets.HotbarPets
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[54,31] cannot find symbol
+  symbol:   variable Material
+  location: class me.mrCookieSlime.HotbarPets.HotbarPets
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[54,69] cannot find symbol
+  symbol:   variable Material
+  location: class me.mrCookieSlime.HotbarPets.HotbarPets
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[54,102] cannot find symbol
+  symbol:   variable Material
+  location: class me.mrCookieSlime.HotbarPets.HotbarPets
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[55,31] cannot find symbol
+  symbol:   variable Material
+  location: class me.mrCookieSlime.HotbarPets.HotbarPets
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[55,93] cannot find symbol
+  symbol:   variable Material
+  location: class me.mrCookieSlime.HotbarPets.HotbarPets
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[58,436] cannot find symbol
+  symbol:   variable Material
+  location: class me.mrCookieSlime.HotbarPets.HotbarPets
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[59,31] cannot find symbol
+  symbol:   variable Material
+  location: class me.mrCookieSlime.HotbarPets.HotbarPets
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[59,61] cannot find symbol
+  symbol:   variable Material
+  location: class me.mrCookieSlime.HotbarPets.HotbarPets
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[59,92] cannot find symbol
+  symbol:   variable Material
+  location: class me.mrCookieSlime.HotbarPets.HotbarPets
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[60,31] cannot find symbol
+  symbol:   variable Material
+  location: class me.mrCookieSlime.HotbarPets.HotbarPets
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[60,68] cannot find symbol
+  symbol:   variable Material
+  location: class me.mrCookieSlime.HotbarPets.HotbarPets
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[60,101] cannot find symbol
+  symbol:   variable Material
+  location: class me.mrCookieSlime.HotbarPets.HotbarPets
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[61,31] cannot find symbol
+  symbol:   variable Material
+  location: class me.mrCookieSlime.HotbarPets.HotbarPets
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[61,85] cannot find symbol
+  symbol:   variable Material
+  location: class me.mrCookieSlime.HotbarPets.HotbarPets
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[70,43] cannot find symbol
+  symbol: variable ChatColor
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[82,69] cannot find symbol
+  symbol: variable Sound
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[92,437] cannot find symbol
+  symbol:   variable Material
+  location: class me.mrCookieSlime.HotbarPets.HotbarPets
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[93,31] cannot find symbol
+  symbol:   variable Material
+  location: class me.mrCookieSlime.HotbarPets.HotbarPets
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[93,61] cannot find symbol
+  symbol:   variable Material
+  location: class me.mrCookieSlime.HotbarPets.HotbarPets
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[93,90] cannot find symbol
+  symbol:   variable Material
+  location: class me.mrCookieSlime.HotbarPets.HotbarPets
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[94,31] cannot find symbol
+  symbol:   variable Material
+  location: class me.mrCookieSlime.HotbarPets.HotbarPets
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[94,69] cannot find symbol
+  symbol:   variable Material
+  location: class me.mrCookieSlime.HotbarPets.HotbarPets
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[94,102] cannot find symbol
+  symbol:   variable Material
+  location: class me.mrCookieSlime.HotbarPets.HotbarPets
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[95,31] cannot find symbol
+  symbol:   variable Material
+  location: class me.mrCookieSlime.HotbarPets.HotbarPets
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[95,84] cannot find symbol
+  symbol:   variable Material
+  location: class me.mrCookieSlime.HotbarPets.HotbarPets
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[104,43] cannot find symbol
+  symbol: variable ChatColor
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[118,432] cannot find symbol
+  symbol:   variable Material
+  location: class me.mrCookieSlime.HotbarPets.HotbarPets
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[119,31] cannot find symbol
+  symbol:   variable Material
+  location: class me.mrCookieSlime.HotbarPets.HotbarPets
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[119,61] cannot find symbol
+  symbol:   variable Material
+  location: class me.mrCookieSlime.HotbarPets.HotbarPets
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[119,93] cannot find symbol
+  symbol:   variable Material
+  location: class me.mrCookieSlime.HotbarPets.HotbarPets
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[120,31] cannot find symbol
+  symbol:   variable Material
+  location: class me.mrCookieSlime.HotbarPets.HotbarPets
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[120,67] cannot find symbol
+  symbol:   variable Material
+  location: class me.mrCookieSlime.HotbarPets.HotbarPets
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[120,100] cannot find symbol
+  symbol:   variable Material
+  location: class me.mrCookieSlime.HotbarPets.HotbarPets
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[121,31] cannot find symbol
+  symbol:   variable Material
+  location: class me.mrCookieSlime.HotbarPets.HotbarPets
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[121,87] cannot find symbol
+  symbol:   variable Material
+  location: class me.mrCookieSlime.HotbarPets.HotbarPets
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[130,43] cannot find symbol
+  symbol: variable ChatColor
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[135,69] cannot find symbol
+  symbol: variable Sound
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[145,434] cannot find symbol
+  symbol:   variable Material
+  location: class me.mrCookieSlime.HotbarPets.HotbarPets
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[146,31] cannot find symbol
+  symbol:   variable Material
+  location: class me.mrCookieSlime.HotbarPets.HotbarPets
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[146,67] cannot find symbol
+  symbol:   variable Material
+  location: class me.mrCookieSlime.HotbarPets.HotbarPets
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[146,100] cannot find symbol
+  symbol:   variable Material
+  location: class me.mrCookieSlime.HotbarPets.HotbarPets
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[147,31] cannot find symbol
+  symbol:   variable Material
+  location: class me.mrCookieSlime.HotbarPets.HotbarPets
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[147,67] cannot find symbol
+  symbol:   variable Material
+  location: class me.mrCookieSlime.HotbarPets.HotbarPets
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[147,100] cannot find symbol
+  symbol:   variable Material
+  location: class me.mrCookieSlime.HotbarPets.HotbarPets
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[148,31] cannot find symbol
+  symbol:   variable Material
+  location: class me.mrCookieSlime.HotbarPets.HotbarPets
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[148,91] cannot find symbol
+  symbol:   variable Material
+  location: class me.mrCookieSlime.HotbarPets.HotbarPets
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[157,43] cannot find symbol
+  symbol: variable ChatColor
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[162,69] cannot find symbol
+  symbol: variable Sound
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[172,426] cannot find symbol
+  symbol:   variable Material
+  location: class me.mrCookieSlime.HotbarPets.HotbarPets
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[173,31] cannot find symbol
+  symbol:   variable Material
+  location: class me.mrCookieSlime.HotbarPets.HotbarPets
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[173,67] cannot find symbol
+  symbol:   variable Material
+  location: class me.mrCookieSlime.HotbarPets.HotbarPets
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[173,100] cannot find symbol
+  symbol:   variable Material
+  location: class me.mrCookieSlime.HotbarPets.HotbarPets
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[174,31] cannot find symbol
+  symbol:   variable Material
+  location: class me.mrCookieSlime.HotbarPets.HotbarPets
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[174,69] cannot find symbol
+  symbol:   variable Material
+  location: class me.mrCookieSlime.HotbarPets.HotbarPets
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[174,107] cannot find symbol
+  symbol:   variable Material
+  location: class me.mrCookieSlime.HotbarPets.HotbarPets
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[175,55] cannot find symbol
+  symbol:   variable Material
+  location: class me.mrCookieSlime.HotbarPets.HotbarPets
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[184,43] cannot find symbol
+  symbol: variable ChatColor
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[200,452] cannot find symbol
+  symbol:   variable Material
+  location: class me.mrCookieSlime.HotbarPets.HotbarPets
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[201,35] cannot find symbol
+  symbol:   variable Material
+  location: class me.mrCookieSlime.HotbarPets.HotbarPets
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[201,72] cannot find symbol
+  symbol:   variable Material
+  location: class me.mrCookieSlime.HotbarPets.HotbarPets
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[201,111] cannot find symbol
+  symbol:   variable Material
+  location: class me.mrCookieSlime.HotbarPets.HotbarPets
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[202,35] cannot find symbol
+  symbol:   variable Material
+  location: class me.mrCookieSlime.HotbarPets.HotbarPets
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[202,67] cannot find symbol
+  symbol:   variable Material
+  location: class me.mrCookieSlime.HotbarPets.HotbarPets
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[202,107] cannot find symbol
+  symbol:   variable Material
+  location: class me.mrCookieSlime.HotbarPets.HotbarPets
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[203,35] cannot find symbol
+  symbol:   variable Material
+  location: class me.mrCookieSlime.HotbarPets.HotbarPets
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[203,68] cannot find symbol
+  symbol:   variable Material
+  location: class me.mrCookieSlime.HotbarPets.HotbarPets
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[203,107] cannot find symbol
+  symbol:   variable Material
+  location: class me.mrCookieSlime.HotbarPets.HotbarPets
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[211,43] cannot find symbol
+  symbol: variable ChatColor
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[217,69] cannot find symbol
+  symbol: variable Sound
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[228,433] cannot find symbol
+  symbol:   variable Material
+  location: class me.mrCookieSlime.HotbarPets.HotbarPets
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[229,35] cannot find symbol
+  symbol:   variable Material
+  location: class me.mrCookieSlime.HotbarPets.HotbarPets
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[229,77] cannot find symbol
+  symbol:   variable Material
+  location: class me.mrCookieSlime.HotbarPets.HotbarPets
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[229,114] cannot find symbol
+  symbol:   variable Material
+  location: class me.mrCookieSlime.HotbarPets.HotbarPets
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[230,35] cannot find symbol
+  symbol:   variable Material
+  location: class me.mrCookieSlime.HotbarPets.HotbarPets
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[230,91] cannot find symbol
+  symbol:   variable Material
+  location: class me.mrCookieSlime.HotbarPets.HotbarPets
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[231,35] cannot find symbol
+  symbol:   variable Material
+  location: class me.mrCookieSlime.HotbarPets.HotbarPets
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[231,77] cannot find symbol
+  symbol:   variable Material
+  location: class me.mrCookieSlime.HotbarPets.HotbarPets
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[231,114] cannot find symbol
+  symbol:   variable Material
+  location: class me.mrCookieSlime.HotbarPets.HotbarPets
+[INFO] 100 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  9.024 s
+[INFO] Finished at: 2019-06-20T20:10:26+02:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.1:compile (default-compile) on project HotbarPets: Compilation failure: Compilation failure: 
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[40,436] cannot find symbol
+[ERROR]   symbol:   variable Material
+[ERROR]   location: class me.mrCookieSlime.HotbarPets.HotbarPets
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[41,31] cannot find symbol
+[ERROR]   symbol:   variable Material
+[ERROR]   location: class me.mrCookieSlime.HotbarPets.HotbarPets
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[41,65] cannot find symbol
+[ERROR]   symbol:   variable Material
+[ERROR]   location: class me.mrCookieSlime.HotbarPets.HotbarPets
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[41,97] cannot find symbol
+[ERROR]   symbol:   variable Material
+[ERROR]   location: class me.mrCookieSlime.HotbarPets.HotbarPets
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[42,31] cannot find symbol
+[ERROR]   symbol:   variable Material
+[ERROR]   location: class me.mrCookieSlime.HotbarPets.HotbarPets
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[42,65] cannot find symbol
+[ERROR]   symbol:   variable Material
+[ERROR]   location: class me.mrCookieSlime.HotbarPets.HotbarPets
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[42,98] cannot find symbol
+[ERROR]   symbol:   variable Material
+[ERROR]   location: class me.mrCookieSlime.HotbarPets.HotbarPets
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[43,31] cannot find symbol
+[ERROR]   symbol:   variable Material
+[ERROR]   location: class me.mrCookieSlime.HotbarPets.HotbarPets
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[43,89] cannot find symbol
+[ERROR]   symbol:   variable Material
+[ERROR]   location: class me.mrCookieSlime.HotbarPets.HotbarPets
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[46,407] cannot find symbol
+[ERROR]   symbol:   variable Material
+[ERROR]   location: class me.mrCookieSlime.HotbarPets.HotbarPets
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[47,31] cannot find symbol
+[ERROR]   symbol:   variable Material
+[ERROR]   location: class me.mrCookieSlime.HotbarPets.HotbarPets
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[47,65] cannot find symbol
+[ERROR]   symbol:   variable Material
+[ERROR]   location: class me.mrCookieSlime.HotbarPets.HotbarPets
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[47,98] cannot find symbol
+[ERROR]   symbol:   variable Material
+[ERROR]   location: class me.mrCookieSlime.HotbarPets.HotbarPets
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[48,31] cannot find symbol
+[ERROR]   symbol:   variable Material
+[ERROR]   location: class me.mrCookieSlime.HotbarPets.HotbarPets
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[48,71] cannot find symbol
+[ERROR]   symbol:   variable Material
+[ERROR]   location: class me.mrCookieSlime.HotbarPets.HotbarPets
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[48,104] cannot find symbol
+[ERROR]   symbol:   variable Material
+[ERROR]   location: class me.mrCookieSlime.HotbarPets.HotbarPets
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[49,31] cannot find symbol
+[ERROR]   symbol:   variable Material
+[ERROR]   location: class me.mrCookieSlime.HotbarPets.HotbarPets
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[49,89] cannot find symbol
+[ERROR]   symbol:   variable Material
+[ERROR]   location: class me.mrCookieSlime.HotbarPets.HotbarPets
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[52,424] cannot find symbol
+[ERROR]   symbol:   variable Material
+[ERROR]   location: class me.mrCookieSlime.HotbarPets.HotbarPets
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[53,31] cannot find symbol
+[ERROR]   symbol:   variable Material
+[ERROR]   location: class me.mrCookieSlime.HotbarPets.HotbarPets
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[53,69] cannot find symbol
+[ERROR]   symbol:   variable Material
+[ERROR]   location: class me.mrCookieSlime.HotbarPets.HotbarPets
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[53,106] cannot find symbol
+[ERROR]   symbol:   variable Material
+[ERROR]   location: class me.mrCookieSlime.HotbarPets.HotbarPets
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[54,31] cannot find symbol
+[ERROR]   symbol:   variable Material
+[ERROR]   location: class me.mrCookieSlime.HotbarPets.HotbarPets
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[54,69] cannot find symbol
+[ERROR]   symbol:   variable Material
+[ERROR]   location: class me.mrCookieSlime.HotbarPets.HotbarPets
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[54,102] cannot find symbol
+[ERROR]   symbol:   variable Material
+[ERROR]   location: class me.mrCookieSlime.HotbarPets.HotbarPets
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[55,31] cannot find symbol
+[ERROR]   symbol:   variable Material
+[ERROR]   location: class me.mrCookieSlime.HotbarPets.HotbarPets
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[55,93] cannot find symbol
+[ERROR]   symbol:   variable Material
+[ERROR]   location: class me.mrCookieSlime.HotbarPets.HotbarPets
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[58,436] cannot find symbol
+[ERROR]   symbol:   variable Material
+[ERROR]   location: class me.mrCookieSlime.HotbarPets.HotbarPets
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[59,31] cannot find symbol
+[ERROR]   symbol:   variable Material
+[ERROR]   location: class me.mrCookieSlime.HotbarPets.HotbarPets
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[59,61] cannot find symbol
+[ERROR]   symbol:   variable Material
+[ERROR]   location: class me.mrCookieSlime.HotbarPets.HotbarPets
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[59,92] cannot find symbol
+[ERROR]   symbol:   variable Material
+[ERROR]   location: class me.mrCookieSlime.HotbarPets.HotbarPets
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[60,31] cannot find symbol
+[ERROR]   symbol:   variable Material
+[ERROR]   location: class me.mrCookieSlime.HotbarPets.HotbarPets
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[60,68] cannot find symbol
+[ERROR]   symbol:   variable Material
+[ERROR]   location: class me.mrCookieSlime.HotbarPets.HotbarPets
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[60,101] cannot find symbol
+[ERROR]   symbol:   variable Material
+[ERROR]   location: class me.mrCookieSlime.HotbarPets.HotbarPets
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[61,31] cannot find symbol
+[ERROR]   symbol:   variable Material
+[ERROR]   location: class me.mrCookieSlime.HotbarPets.HotbarPets
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[61,85] cannot find symbol
+[ERROR]   symbol:   variable Material
+[ERROR]   location: class me.mrCookieSlime.HotbarPets.HotbarPets
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[70,43] cannot find symbol
+[ERROR]   symbol: variable ChatColor
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[82,69] cannot find symbol
+[ERROR]   symbol: variable Sound
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[92,437] cannot find symbol
+[ERROR]   symbol:   variable Material
+[ERROR]   location: class me.mrCookieSlime.HotbarPets.HotbarPets
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[93,31] cannot find symbol
+[ERROR]   symbol:   variable Material
+[ERROR]   location: class me.mrCookieSlime.HotbarPets.HotbarPets
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[93,61] cannot find symbol
+[ERROR]   symbol:   variable Material
+[ERROR]   location: class me.mrCookieSlime.HotbarPets.HotbarPets
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[93,90] cannot find symbol
+[ERROR]   symbol:   variable Material
+[ERROR]   location: class me.mrCookieSlime.HotbarPets.HotbarPets
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[94,31] cannot find symbol
+[ERROR]   symbol:   variable Material
+[ERROR]   location: class me.mrCookieSlime.HotbarPets.HotbarPets
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[94,69] cannot find symbol
+[ERROR]   symbol:   variable Material
+[ERROR]   location: class me.mrCookieSlime.HotbarPets.HotbarPets
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[94,102] cannot find symbol
+[ERROR]   symbol:   variable Material
+[ERROR]   location: class me.mrCookieSlime.HotbarPets.HotbarPets
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[95,31] cannot find symbol
+[ERROR]   symbol:   variable Material
+[ERROR]   location: class me.mrCookieSlime.HotbarPets.HotbarPets
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[95,84] cannot find symbol
+[ERROR]   symbol:   variable Material
+[ERROR]   location: class me.mrCookieSlime.HotbarPets.HotbarPets
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[104,43] cannot find symbol
+[ERROR]   symbol: variable ChatColor
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[118,432] cannot find symbol
+[ERROR]   symbol:   variable Material
+[ERROR]   location: class me.mrCookieSlime.HotbarPets.HotbarPets
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[119,31] cannot find symbol
+[ERROR]   symbol:   variable Material
+[ERROR]   location: class me.mrCookieSlime.HotbarPets.HotbarPets
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[119,61] cannot find symbol
+[ERROR]   symbol:   variable Material
+[ERROR]   location: class me.mrCookieSlime.HotbarPets.HotbarPets
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[119,93] cannot find symbol
+[ERROR]   symbol:   variable Material
+[ERROR]   location: class me.mrCookieSlime.HotbarPets.HotbarPets
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[120,31] cannot find symbol
+[ERROR]   symbol:   variable Material
+[ERROR]   location: class me.mrCookieSlime.HotbarPets.HotbarPets
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[120,67] cannot find symbol
+[ERROR]   symbol:   variable Material
+[ERROR]   location: class me.mrCookieSlime.HotbarPets.HotbarPets
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[120,100] cannot find symbol
+[ERROR]   symbol:   variable Material
+[ERROR]   location: class me.mrCookieSlime.HotbarPets.HotbarPets
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[121,31] cannot find symbol
+[ERROR]   symbol:   variable Material
+[ERROR]   location: class me.mrCookieSlime.HotbarPets.HotbarPets
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[121,87] cannot find symbol
+[ERROR]   symbol:   variable Material
+[ERROR]   location: class me.mrCookieSlime.HotbarPets.HotbarPets
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[130,43] cannot find symbol
+[ERROR]   symbol: variable ChatColor
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[135,69] cannot find symbol
+[ERROR]   symbol: variable Sound
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[145,434] cannot find symbol
+[ERROR]   symbol:   variable Material
+[ERROR]   location: class me.mrCookieSlime.HotbarPets.HotbarPets
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[146,31] cannot find symbol
+[ERROR]   symbol:   variable Material
+[ERROR]   location: class me.mrCookieSlime.HotbarPets.HotbarPets
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[146,67] cannot find symbol
+[ERROR]   symbol:   variable Material
+[ERROR]   location: class me.mrCookieSlime.HotbarPets.HotbarPets
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[146,100] cannot find symbol
+[ERROR]   symbol:   variable Material
+[ERROR]   location: class me.mrCookieSlime.HotbarPets.HotbarPets
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[147,31] cannot find symbol
+[ERROR]   symbol:   variable Material
+[ERROR]   location: class me.mrCookieSlime.HotbarPets.HotbarPets
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[147,67] cannot find symbol
+[ERROR]   symbol:   variable Material
+[ERROR]   location: class me.mrCookieSlime.HotbarPets.HotbarPets
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[147,100] cannot find symbol
+[ERROR]   symbol:   variable Material
+[ERROR]   location: class me.mrCookieSlime.HotbarPets.HotbarPets
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[148,31] cannot find symbol
+[ERROR]   symbol:   variable Material
+[ERROR]   location: class me.mrCookieSlime.HotbarPets.HotbarPets
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[148,91] cannot find symbol
+[ERROR]   symbol:   variable Material
+[ERROR]   location: class me.mrCookieSlime.HotbarPets.HotbarPets
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[157,43] cannot find symbol
+[ERROR]   symbol: variable ChatColor
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[162,69] cannot find symbol
+[ERROR]   symbol: variable Sound
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[172,426] cannot find symbol
+[ERROR]   symbol:   variable Material
+[ERROR]   location: class me.mrCookieSlime.HotbarPets.HotbarPets
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[173,31] cannot find symbol
+[ERROR]   symbol:   variable Material
+[ERROR]   location: class me.mrCookieSlime.HotbarPets.HotbarPets
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[173,67] cannot find symbol
+[ERROR]   symbol:   variable Material
+[ERROR]   location: class me.mrCookieSlime.HotbarPets.HotbarPets
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[173,100] cannot find symbol
+[ERROR]   symbol:   variable Material
+[ERROR]   location: class me.mrCookieSlime.HotbarPets.HotbarPets
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[174,31] cannot find symbol
+[ERROR]   symbol:   variable Material
+[ERROR]   location: class me.mrCookieSlime.HotbarPets.HotbarPets
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[174,69] cannot find symbol
+[ERROR]   symbol:   variable Material
+[ERROR]   location: class me.mrCookieSlime.HotbarPets.HotbarPets
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[174,107] cannot find symbol
+[ERROR]   symbol:   variable Material
+[ERROR]   location: class me.mrCookieSlime.HotbarPets.HotbarPets
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[175,55] cannot find symbol
+[ERROR]   symbol:   variable Material
+[ERROR]   location: class me.mrCookieSlime.HotbarPets.HotbarPets
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[184,43] cannot find symbol
+[ERROR]   symbol: variable ChatColor
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[200,452] cannot find symbol
+[ERROR]   symbol:   variable Material
+[ERROR]   location: class me.mrCookieSlime.HotbarPets.HotbarPets
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[201,35] cannot find symbol
+[ERROR]   symbol:   variable Material
+[ERROR]   location: class me.mrCookieSlime.HotbarPets.HotbarPets
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[201,72] cannot find symbol
+[ERROR]   symbol:   variable Material
+[ERROR]   location: class me.mrCookieSlime.HotbarPets.HotbarPets
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[201,111] cannot find symbol
+[ERROR]   symbol:   variable Material
+[ERROR]   location: class me.mrCookieSlime.HotbarPets.HotbarPets
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[202,35] cannot find symbol
+[ERROR]   symbol:   variable Material
+[ERROR]   location: class me.mrCookieSlime.HotbarPets.HotbarPets
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[202,67] cannot find symbol
+[ERROR]   symbol:   variable Material
+[ERROR]   location: class me.mrCookieSlime.HotbarPets.HotbarPets
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[202,107] cannot find symbol
+[ERROR]   symbol:   variable Material
+[ERROR]   location: class me.mrCookieSlime.HotbarPets.HotbarPets
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[203,35] cannot find symbol
+[ERROR]   symbol:   variable Material
+[ERROR]   location: class me.mrCookieSlime.HotbarPets.HotbarPets
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[203,68] cannot find symbol
+[ERROR]   symbol:   variable Material
+[ERROR]   location: class me.mrCookieSlime.HotbarPets.HotbarPets
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[203,107] cannot find symbol
+[ERROR]   symbol:   variable Material
+[ERROR]   location: class me.mrCookieSlime.HotbarPets.HotbarPets
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[211,43] cannot find symbol
+[ERROR]   symbol: variable ChatColor
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[217,69] cannot find symbol
+[ERROR]   symbol: variable Sound
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[228,433] cannot find symbol
+[ERROR]   symbol:   variable Material
+[ERROR]   location: class me.mrCookieSlime.HotbarPets.HotbarPets
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[229,35] cannot find symbol
+[ERROR]   symbol:   variable Material
+[ERROR]   location: class me.mrCookieSlime.HotbarPets.HotbarPets
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[229,77] cannot find symbol
+[ERROR]   symbol:   variable Material
+[ERROR]   location: class me.mrCookieSlime.HotbarPets.HotbarPets
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[229,114] cannot find symbol
+[ERROR]   symbol:   variable Material
+[ERROR]   location: class me.mrCookieSlime.HotbarPets.HotbarPets
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[230,35] cannot find symbol
+[ERROR]   symbol:   variable Material
+[ERROR]   location: class me.mrCookieSlime.HotbarPets.HotbarPets
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[230,91] cannot find symbol
+[ERROR]   symbol:   variable Material
+[ERROR]   location: class me.mrCookieSlime.HotbarPets.HotbarPets
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[231,35] cannot find symbol
+[ERROR]   symbol:   variable Material
+[ERROR]   location: class me.mrCookieSlime.HotbarPets.HotbarPets
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[231,77] cannot find symbol
+[ERROR]   symbol:   variable Material
+[ERROR]   location: class me.mrCookieSlime.HotbarPets.HotbarPets
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java:[231,114] cannot find symbol
+[ERROR]   symbol:   variable Material
+[ERROR]   location: class me.mrCookieSlime.HotbarPets.HotbarPets
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
