@@ -95,6 +95,22 @@
         "candidate": "DEVELOPMENT",
         "status": "SUCCESS"
     },
-    "latest": 6,
-    "last_successful": 6
+    "7": {
+        "id": 7,
+        "sha": "778448e63df553e938556c5a49650cf9b65a2f68",
+        "date": "20 Jun 2019 (07:22:15)",
+        "timestamp": 20190620072215,
+        "message": "Merge pull request #7 from BluGhostYT/patch-1\n\nRedo Shulker pet & add ambiance to both the shulker and phantom pet",
+        "author": "TheBusyBiscuit",
+        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
+        "license": {
+            "name": "GNU General Public License v3.0",
+            "id": "GPL-3.0",
+            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/HotbarPets/master/LICENSE"
+        },
+        "candidate": "DEVELOPMENT",
+        "status": "SUCCESS"
+    },
+    "latest": 7,
+    "last_successful": 7
 }
