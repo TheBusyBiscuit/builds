@@ -1922,6 +1922,22 @@
         "candidate": "DEVELOPMENT",
         "status": "SUCCESS"
     },
-    "latest": 120,
-    "last_successful": 120
+    "121": {
+        "id": 121,
+        "sha": "8f173ea76cd7b19563c29c3256580802a7b24110",
+        "date": "21 Jun 2019 (13:22:51)",
+        "timestamp": 20190621132251,
+        "message": "Merge pull request #944 from BluGhostYT/master\n\nSwitch boolean allow = true; to false",
+        "author": "TheBusyBiscuit",
+        "avatar": "https://avatars1.githubusercontent.com/u/3967898?v=4",
+        "license": {
+            "name": "GNU General Public License v3.0",
+            "id": "GPL-3.0",
+            "url": "https://raw.githubusercontent.com/TheBusyBiscuit/Slimefun4/master/LICENSE"
+        },
+        "candidate": "DEVELOPMENT",
+        "status": "SUCCESS"
+    },
+    "latest": 121,
+    "last_successful": 121
 }
