@@ -1,0 +1,73 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Building CommandOverride DEV - 10 (git 319b62df)
+[INFO] ------------------------------------------------------------------------
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/bukkit/bukkit/1.14.2-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from placeholderapi-repo: http://repo.extendedclip.com/content/repositories/placeholderapi/org/bukkit/bukkit/1.14.2-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/bukkit/bukkit/1.14.2-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/bukkit/bukkit/1.14.2-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from CodeMC: https://repo.codemc.org/repository/maven-public/org/bukkit/bukkit/1.14.2-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloaded from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/bukkit/bukkit/1.14.2-R0.1-SNAPSHOT/maven-metadata.xml (1.4 kB at 1.3 kB/s)
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/bukkit/bukkit/1.14.2-R0.1-SNAPSHOT/maven-metadata.xml (1.4 kB at 967 B/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/bukkit/bukkit/1.14.2-R0.1-SNAPSHOT/bukkit-1.14.2-R0.1-20190621.095720-33.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/bukkit/bukkit/1.14.2-R0.1-SNAPSHOT/bukkit-1.14.2-R0.1-20190621.095720-33.pom (8.4 kB at 15 kB/s)
+[WARNING] The POM for com.github.thebusybiscuit:CS-CoreLib2:jar:0.3.2 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/bukkit/bukkit/1.13.1-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/bukkit/bukkit/1.13.1-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from placeholderapi-repo: http://repo.extendedclip.com/content/repositories/placeholderapi/org/bukkit/bukkit/1.13.1-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/bukkit/bukkit/1.13.1-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from CodeMC: https://repo.codemc.org/repository/maven-public/org/bukkit/bukkit/1.13.1-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloaded from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/bukkit/bukkit/1.13.1-R0.1-SNAPSHOT/maven-metadata.xml (1.4 kB at 4.2 kB/s)
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/bukkit/bukkit/1.13.1-R0.1-SNAPSHOT/maven-metadata.xml (1.4 kB at 3.5 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/me/clip/placeholderapi/2.10.3/placeholderapi-2.10.3.pom
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/me/clip/placeholderapi/2.10.3/placeholderapi-2.10.3.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/me/clip/placeholderapi/2.10.3/placeholderapi-2.10.3.pom
+[INFO] Downloading from placeholderapi-repo: http://repo.extendedclip.com/content/repositories/placeholderapi/me/clip/placeholderapi/2.10.3/placeholderapi-2.10.3.pom
+[INFO] Downloaded from placeholderapi-repo: http://repo.extendedclip.com/content/repositories/placeholderapi/me/clip/placeholderapi/2.10.3/placeholderapi-2.10.3.pom (458 B at 390 B/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/bukkit/bukkit/1.14.2-R0.1-SNAPSHOT/bukkit-1.14.2-R0.1-20190621.095720-33.jar
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/me/clip/placeholderapi/2.10.3/placeholderapi-2.10.3.jar
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/bukkit/bukkit/1.14.2-R0.1-SNAPSHOT/bukkit-1.14.2-R0.1-20190621.095720-33.jar (1.2 MB at 442 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/me/clip/placeholderapi/2.10.3/placeholderapi-2.10.3.jar
+[INFO] Downloading from jitpack.io: https://jitpack.io/me/clip/placeholderapi/2.10.3/placeholderapi-2.10.3.jar
+[INFO] Downloading from placeholderapi-repo: http://repo.extendedclip.com/content/repositories/placeholderapi/me/clip/placeholderapi/2.10.3/placeholderapi-2.10.3.jar
+[INFO] Downloaded from placeholderapi-repo: http://repo.extendedclip.com/content/repositories/placeholderapi/me/clip/placeholderapi/2.10.3/placeholderapi-2.10.3.jar (344 kB at 224 kB/s)
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ CommandOverride ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ CommandOverride ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ CommandOverride ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 3 source files to E:\Projects\GitHub\builds\TheBusyBiscuit\CommandOverride\master\files\target\classes
+mmandOverride.java: E:\Projects\GitHub\builds\TheBusyBiscuit\CommandOverride\master\files\src\io\github\thebusybiscuit\commandoverride\CommandOverride.java uses or overrides a deprecated API.
+[WARNING] /E:/Projects/GitHub/builds/TheBusyBiscuit/CommandOverride/master/files/src/io/github/thebusybiscuit/commandoverride/CommandOverride.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ CommandOverride ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory E:\Projects\GitHub\builds\TheBusyBiscuit\CommandOverride\master\files\tests\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ CommandOverride ---
+[WARNING] /E:/Projects/GitHub/builds/TheBusyBiscuit/CommandOverride/master/files/src/io/github/thebusybiscuit/commandoverride/Co[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ CommandOverride ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ CommandOverride ---
+[INFO] Building jar: E:\Projects\GitHub\builds\TheBusyBiscuit\CommandOverride\master\files\target\CommandOverride-10.jar
+[INFO] 
+[INFO] --- maven-shade-plugin:3.2.1:shade (default) @ CommandOverride ---
+[INFO] Including com.github.thebusybiscuit:CS-CoreLib2:jar:0.3.2 in the shaded jar.
+[INFO] Including org.bstats:bstats-bukkit:jar:1.5 in the shaded jar.
+[INFO] Replacing original artifact with shaded artifact.
+[INFO] Replacing E:\Projects\GitHub\builds\TheBusyBiscuit\CommandOverride\master\files\target\CommandOverride-10.jar with E:\Projects\GitHub\builds\TheBusyBiscuit\CommandOverride\master\files\target\CommandOverride-DEV - 10 (git 319b62df)-shaded.jar
+[INFO] Dependency-reduced POM written at: E:\Projects\GitHub\builds\TheBusyBiscuit\CommandOverride\master\files\dependency-reduced-pom.xml
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 12.727 s
+[INFO] Finished at: 2019-06-22T17:53:32+02:00
+[INFO] Final Memory: 24M/265M
+[INFO] ------------------------------------------------------------------------
