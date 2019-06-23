@@ -1,0 +1,50 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Building ExoticGarden DEV - 12 (git 646aee0d)
+[INFO] ------------------------------------------------------------------------
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/bukkit/bukkit/1.13-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/bukkit/bukkit/1.13-R0.1-SNAPSHOT/maven-metadata.xml (1.4 kB at 935 B/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/github/TheBusyBiscuit/CS-CoreLib/1.6.1/CS-CoreLib-1.6.1.pom
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/github/TheBusyBiscuit/CS-CoreLib/1.6.1/CS-CoreLib-1.6.1.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/github/TheBusyBiscuit/CS-CoreLib/1.6.1/CS-CoreLib-1.6.1.pom
+[INFO] Downloaded from jitpack.io: https://jitpack.io/com/github/TheBusyBiscuit/CS-CoreLib/1.6.1/CS-CoreLib-1.6.1.pom (9.4 kB at 8.2 kB/s)
+[WARNING] The POM for com.github.TheBusyBiscuit:CS-CoreLib:jar:1.6.1 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+[WARNING] The POM for com.github.TheBusyBiscuit:Slimefun4:jar:3619c4bc9e is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/github/TheBusyBiscuit/CS-CoreLib/1.6.1/CS-CoreLib-1.6.1.jar
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/github/TheBusyBiscuit/CS-CoreLib/1.6.1/CS-CoreLib-1.6.1.jar
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/github/TheBusyBiscuit/CS-CoreLib/1.6.1/CS-CoreLib-1.6.1.jar
+[INFO] Downloaded from jitpack.io: https://jitpack.io/com/github/TheBusyBiscuit/CS-CoreLib/1.6.1/CS-CoreLib-1.6.1.jar (218 kB at 157 kB/s)
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ ExoticGarden ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ ExoticGarden ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 12 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ ExoticGarden ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 28 source files to E:\Projects\GitHub\builds\TheBusyBiscuit\ExoticGarden\master\files\target\classes
+[WARNING] /E:/Projects/GitHub/builds/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/ExoticGarden.java: Some input files use or override a deprecated API.
+[WARNING] /E:/Projects/GitHub/builds/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/ExoticGarden.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ ExoticGarden ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory E:\Projects\GitHub\builds\TheBusyBiscuit\ExoticGarden\master\files\tests\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ ExoticGarden ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ ExoticGarden ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ ExoticGarden ---
+[INFO] Building jar: E:\Projects\GitHub\builds\TheBusyBiscuit\ExoticGarden\master\files\target\ExoticGarden-12.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 10.325 s
+[INFO] Finished at: 2019-06-23T11:03:18+02:00
+[INFO] Final Memory: 21M/214M
+[INFO] ------------------------------------------------------------------------
