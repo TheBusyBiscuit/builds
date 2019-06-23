@@ -7,12 +7,12 @@
         <link href="https://fonts.googleapis.com/css?family=Noto+Sans:400,700" rel="stylesheet">
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-        <script src="https://thebusybiscuit.github.io/builds/frontend.js"></script>
+        <script src="https://thebusybiscuit.github.io/builds/src/frontend.js"></script>
     </head>
     <body owner="TheBusyBiscuit" repository="RankPrefixPlus" branch="master">
         <div class="header">
             <a class="link_main" href="https://thebusybiscuit.github.io/builds/">
-				<img src="https://thebusybiscuit.github.io/content/octicons/arrow-left.svg" style="filter: invert(1); height: 50%; vertical-align: middle; padding-bottom: 2px;">
+				<img alt="go back" src="https://thebusybiscuit.github.io/content/octicons/arrow-left.svg" style="filter: invert(1); height: 50%; vertical-align: middle; padding-bottom: 2px;">
 				<span style="padding-left: 12px;"> Back to all Repositories</span>
 			</a>
         </div>
@@ -21,11 +21,11 @@
         <div class="overlay" style="display: none;">
             <div class="badge_box">
                 <button id="close_badge" class="close_badge_button">
-                        <img style="height: 16px; padding-top: 4px;" src="https://thebusybiscuit.github.io/content/octicons/x.svg"/>
+                        <img style="height: 16px; padding-top: 4px;" alt="close" src="https://thebusybiscuit.github.io/content/octicons/x.svg"/>
                 </button>
 
                 <div class="badge" style="margin-top: 12px;">
-                    <img src="badge.svg"/>
+                    <img alt="status badge" src="badge.svg"/>
                 </div>
 
                 <!-- HTML -->
@@ -33,7 +33,7 @@
                     <div style="font-weight: bold;">HTML</div>
                     <input class="badge_url" type="text" id="badge_html" readonly/>
                     <button id="copy_html" style="padding-bottom: 5px;">
-                        <img style="height: 16px; padding-top: 4px;" src="https://thebusybiscuit.github.io/content/octicons/clippy.svg"/>
+                        <img style="height: 16px; padding-top: 4px;" alt="link" src="https://thebusybiscuit.github.io/content/octicons/clippy.svg"/>
                     </button>
                 </div>
 
@@ -42,7 +42,7 @@
                     <div style="font-weight: bold;">Markdown</div>
                     <input class="badge_url" type="text" id="badge_markdown" readonly/>
                     <button id="copy_markdown" style="padding-bottom: 5px;">
-                            <img style="height: 16px; padding-top: 4px;" src="https://thebusybiscuit.github.io/content/octicons/clippy.svg"/>
+                            <img style="height: 16px; padding-top: 4px;" alt="link" src="https://thebusybiscuit.github.io/content/octicons/clippy.svg"/>
                     </button>
                 </div>
             </div>
@@ -55,7 +55,7 @@
                             <table class="info_table">
                                 <tr>
                                     <td class="icon">
-                                        <img class="icon" src="https://thebusybiscuit.github.io/content/octicons/person.svg">
+                                        <img class="icon" alt="author" src="https://thebusybiscuit.github.io/content/octicons/person.svg">
                                     </td>
                                     <td>Owner</td>
                                     <td>
@@ -64,7 +64,7 @@
                                 </tr>
                                     <tr>
                                     <td class="icon">
-                                        <img class="icon" src="https://thebusybiscuit.github.io/content/octicons/repo.svg">
+                                        <img class="icon" alt="repository" src="https://thebusybiscuit.github.io/content/octicons/repo.svg">
                                     </td>
                                     <td>Repository</td>
                                     <td>
@@ -73,7 +73,7 @@
                                 </tr>
                                 <tr>
                                     <td class="icon">
-                                        <img class="icon" src="https://thebusybiscuit.github.io/content/octicons/bug.svg">
+                                        <img class="icon" alt="bug tracker" src="https://thebusybiscuit.github.io/content/octicons/bug.svg">
                                     </td>
                                     <td>Issue Tracker</td>
                                     <td>
@@ -82,21 +82,23 @@
                                 </tr>
                                 <tr>
                                     <td class="icon">
-                                        <img class="icon" src="https://thebusybiscuit.github.io/content/octicons/checklist.svg">
+                                        <img class="icon" alt="last successful build" src="https://thebusybiscuit.github.io/content/octicons/checklist.svg">
                                     </td>
                                     <td>Last successful Build</td>
                                     <td>
-                                        <a id="link_last_successful_build" class="trigger link_info" href="${last-successful}"><img style="width: 20px;" class="loading" src="https://thebusybiscuit.github.io/content/octicons/sync.svg"/></a>
+                                        <a id="link_last_successful_build" class="trigger link_info" href="${last-successful}">
+                                            <img style="width: 20px;" class="loading" alt="loading" src="https://thebusybiscuit.github.io/content/octicons/sync.svg"/>
+                                        </a>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td class="icon">
-                                        <img class="icon" src="https://thebusybiscuit.github.io/content/octicons/briefcase.svg">
+                                        <img class="icon" alt="build status" src="https://thebusybiscuit.github.io/content/octicons/briefcase.svg">
                                     </td>
                                     <td>Status Badge</td>
                                     <td>
                                         <div class="badge_table">
-											<img id="badge_click" src="badge.svg">
+											<img id="badge_click" alt="status badge" src="badge.svg">
 										</div>
                                     </td>
                                 </tr>
@@ -108,7 +110,7 @@
                     <div class="sidebar_builds">
                         <div class="container_builds">
                             <div id="buildlist" class="builds">
-                                <img style="width: 20px;" class="loading" src="https://thebusybiscuit.github.io/content/octicons/sync.svg"/>
+                                <img style="width: 20px;" class="loading" alt="loading" src="https://thebusybiscuit.github.io/content/octicons/sync.svg"/>
                             </div>
                         </div>
                     </div>
@@ -120,37 +122,41 @@
                         <svg id="current_icon" class="current_icon">
                         </svg>
                         <div id="current_status" class="current_status">
-                            <img style="width: 20px;" class="loading" src="https://thebusybiscuit.github.io/content/octicons/sync.svg"/>
+                            <img style="width: 20px;" class="loading" alt="loading" src="https://thebusybiscuit.github.io/content/octicons/sync.svg"/>
                         </div>
                     </div>
 
                     <div id="current_name" class="current_name">
-                        <img style="width: 20px;" class="loading" src="https://thebusybiscuit.github.io/content/octicons/sync.svg"/>
+                        <img style="width: 20px;" class="loading" alt="loading" src="https://thebusybiscuit.github.io/content/octicons/sync.svg"/>
                     </div>
                     <div class="current_body">
                         <br>
                         <table id="infobox" class="info_table current_info">
                             <tr id="download_section">
                                 <td class="icon">
-                                    <img class="icon" src="https://thebusybiscuit.github.io/content/octicons/cloud-download.svg">
+                                    <img class="icon" alt="download" src="https://thebusybiscuit.github.io/content/octicons/cloud-download.svg">
                                 </td>
                                 <td>Download (.jar)</td>
                                 <td>
-                                    <a id="current_download_jar" class="link_info" target="_blank" href="/RankPrefixPlus-${current_build}.jar"><img style="width: 20px;" class="loading" src="https://thebusybiscuit.github.io/content/octicons/sync.svg"/></a>
+                                    <a id="current_download_jar" class="link_info" target="_blank" href="/RankPrefixPlus-${current_build}.jar">
+                                        <img style="width: 20px;" class="loading" alt="loading" src="https://thebusybiscuit.github.io/content/octicons/sync.svg"/>
+                                    </a>
                                 </td>
                             </tr>
                             <tr>
                                 <td class="icon">
-                                    <img class="icon" src="https://thebusybiscuit.github.io/content/octicons/file.svg">
+                                    <img class="icon" alt="log file" src="https://thebusybiscuit.github.io/content/octicons/file.svg">
                                 </td>
                                 <td>Build Log</td>
                                 <td>
-                                    <a id="current_download_log" class="link_info" target="_blank" href="/RankPrefixPlus-${current_build}.log"><img style="width: 20px;" class="loading" src="https://thebusybiscuit.github.io/content/octicons/sync.svg"/></a>
+                                    <a id="current_download_log" class="link_info" target="_blank" href="/RankPrefixPlus-${current_build}.log">
+                                        <img style="width: 20px;" class="loading" alt="loading" src="https://thebusybiscuit.github.io/content/octicons/sync.svg"/>
+                                    </a>
                                 </td>
                             </tr>
                             <tr>
                                 <td class="icon">
-                                    <img class="icon" src="https://thebusybiscuit.github.io/content/octicons/code.svg">
+                                    <img class="icon" alt="source code" src="https://thebusybiscuit.github.io/content/octicons/code.svg">
                                 </td>
                                 <td>Source Code</td>
                                 <td>
@@ -159,42 +165,46 @@
                             </tr>
                             <tr id="license_section">
                                 <td class="icon">
-                                    <img class="icon" src="https://thebusybiscuit.github.io/content/octicons/law.svg">
+                                    <img class="icon" alt="license" src="https://thebusybiscuit.github.io/content/octicons/law.svg">
                                 </td>
                                 <td>License</td>
                                 <td>
-                                    <a id="current_license" class="link_info" href="${current_license_url}"><img style="width: 20px;" class="loading" src="https://thebusybiscuit.github.io/content/octicons/sync.svg"/></a>
+                                    <a id="current_license" class="link_info" href="${current_license_url}">
+                                        <img style="width: 20px;" class="loading" alt="loading" src="https://thebusybiscuit.github.io/content/octicons/sync.svg"/>
+                                    </a>
                                 </td>
                             </tr>
                             <tr id="tag_section">
                                 <td class="icon">
-                                    <img class="icon" src="https://thebusybiscuit.github.io/content/octicons/tag.svg">
+                                    <img class="icon" alt="version" src="https://thebusybiscuit.github.io/content/octicons/tag.svg">
                                 </td>
                                 <td>Release / Tag</td>
                                 <td>
-                                    <a id="current_tag" class="link_info" href="${current_tag_url}"><img style="width: 20px;" class="loading" src="https://thebusybiscuit.github.io/content/octicons/sync.svg"/></a>
+                                    <a id="current_tag" class="link_info" href="${current_tag_url}">
+                                        <img style="width: 20px;" class="loading" alt="loading" src="https://thebusybiscuit.github.io/content/octicons/sync.svg"/>
+                                    </a>
                                 </td>
                             </tr>
                         </table>
                         <br>
                         <div class="current_commit">
                             <div class="current_commit_header">
-                                <img id="current_commit_avatar" class="current_commit_avatar" src="${current_commit_avatar}"/>
+                                <img id="current_commit_avatar" class="current_commit_avatar" alt="avatar" src="${current_commit_avatar}"/>
                                 <div id="current_commit_committer" class="current_commit_text current_commit_committer">
-                                    <img style="width: 20px;" class="loading" src="https://thebusybiscuit.github.io/content/octicons/sync.svg"/>
+                                    <img style="width: 20px;" class="loading" alt="loading" src="https://thebusybiscuit.github.io/content/octicons/sync.svg"/>
                                 </div>
                                 <div class="current_commit_text">
                                     &nbsp;commited on&nbsp;
                                 </div>
                                 <div id="current_commit_date" class="current_commit_text current_commit_date">
-                                    <img style="width: 20px;" class="loading" src="https://thebusybiscuit.github.io/content/octicons/sync.svg"/>
+                                    <img style="width: 20px;" class="loading" alt="loading" src="https://thebusybiscuit.github.io/content/octicons/sync.svg"/>
                                 </div>
                                 <a id="current_commit" class="current_commit_text link_info" href="https://github.com/TheBusyBiscuit/RankPrefixPlus/commit/${current_commit}">
-                                    <img style="width: 20px;" class="loading" src="https://thebusybiscuit.github.io/content/octicons/sync.svg"/>
+                                    <img style="width: 20px;" class="loading" alt="loading" src="https://thebusybiscuit.github.io/content/octicons/sync.svg"/>
                                 </a>
                             </div>
                             <div id="current_commit_message" class="current_commit_bottom">
-                                <img style="width: 20px;" class="loading" src="https://thebusybiscuit.github.io/content/octicons/sync.svg"/>
+                                <img style="width: 20px;" class="loading" alt="loading" src="https://thebusybiscuit.github.io/content/octicons/sync.svg"/>
                             </div>
                         </div>
                     </div>
