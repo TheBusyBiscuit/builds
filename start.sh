@@ -1,15 +1,21 @@
 #!/bin/bash
 
-# Pull the latest Version from GitHub
+echo "Pulling the latest Version from GitHub..."
 git pull
+
+echo "Installing dependencies..."
 npm install
 
-# Perform tests + code coverage
-npm run test
-npm run code-coverage
+if  ["$1" == "--sonar"] then
+	echo "Performing Unit Tests..."
+	npm run test
 
-# Report results to sonarcloud.io
-npm run sonar
+	echo "Measuring Test Coverage..."
+	npm run code-coverage
 
-# Run program
+	echo "Uploading results..."
+	npm run sonar
+fi
+
+echo "Running the remote program..."
 npm run remote
