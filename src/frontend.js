@@ -12,12 +12,12 @@ $(function() {
         var box = $("#infobox");
 
         var i = 1;
-        for (var label in info) {
+        info.forEach(() => {
             box.append('<tr id="custom-info-' + i + '"></td>');
             i++;
-        }
+        });
 
-        function loadBuild(owner, repository, builds, id) {
+        function loadBuild(builds, id) {
             var stroke = "rgb(110, 110, 110)";
             var color = "rgb(160, 160, 160)";
 
@@ -91,8 +91,8 @@ $(function() {
 
             var match = msg.match(/#[0-9]+/g);
 
-            for (var i in match) {
-                msg = msg.replace(match[i], "<a class=\"link_info\" href=https://github.com/" + owner + "/" + repository + "/issues/" + match[i].replace("#", "") + ">" + match[i] + "</a>");
+            for (var m in match) {
+                msg = msg.replace(match[m], "<a class=\"link_info\" href=https://github.com/" + owner + "/" + repository + "/issues/" + match[m].replace("#", "") + ">" + match[m] + "</a>");
             }
 
             $("#current_commit_message").html(msg);
@@ -131,7 +131,7 @@ $(function() {
             }
 
             // Load currently selected Build
-            loadBuild(owner, repository, builds, current);
+            loadBuild(builds, current);
 
             // "Last Successful Build" Link
             var link_last_successful = $("#link_last_successful_build");
@@ -145,13 +145,13 @@ $(function() {
             var list_builds = $("#buildlist");
 
             list_builds.html("");
-            for (var i = builds.latest; i > 0; i--) {
-                list_builds.append(build(builds, i));
+            for (var buildID = builds.latest; buildID > 0; buildID--) {
+                list_builds.append(build(builds, buildID));
             }
 
             // Add Click Events
             $(".trigger").click(function() {
-                loadBuild(owner, repository, builds, parseInt($(this).attr("href").substr(1)));
+                loadBuild(builds, parseInt($(this).attr("href").substr(1)));
             });
         });
     });

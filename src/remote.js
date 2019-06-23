@@ -3,10 +3,13 @@ const url = require('url');
 const dns = require('dns');
 const os = require('os');
 const FileSystem = require('fs');
+const path = require('path');
 const child_process = require('child_process');
-const backend = require('./backend.js');
+
+const program = require('./main.js');
 
 const port = 8085;
+const interval = 15;
 
 global.status = {
     log: "",
@@ -14,11 +17,13 @@ global.status = {
     version: {},
     updates: {},
     cpu: 0,
+    running: true,
     timestamp: Date.now()
 };
 
 var cpu = [0, 0];
 var log = console.log;
+var instance, timer;
 
 console.log = function(msg) {
     log(msg);
@@ -44,10 +49,10 @@ var libraries = [
     }
 ]
 
-for (var i in libraries) {
-    var lib = libraries[i];
+for (let i in libraries) {
+    let library = libraries[i];
 
-    child_process.exec(lib.command, callback(lib));
+    child_process.exec(library.command, callback(library));
 }
 
 function callback(lib) {
@@ -72,13 +77,43 @@ function callback(lib) {
     };
 }
 
+function start() {
+    if (instance) {
+        console.log("The program is still running!");
+        return;
+    }
+
+    if (timer) {
+        clearTimeout(timer);
+    }
+
+    var done = (err) => {
+        if (err) console.log(err.stack);
+        instance = null;
+        console.log("");
+        console.log("-- FINISHED --");
+        var delta = (interval * 60 * 1000) - (Date.now() - global.status.timestamp);
+
+        if (delta < 0) delta = 0;
+
+        console.log("\n\n");
+        console.log("Waiting " + (delta / 1000) + "s...");
+        console.log("\n\n");
+
+        timer = setTimeout(start, delta);
+    };
+
+    global.status.timestamp = Date.now();
+    instance = program.start(true).then(done, done);
+}
+
 function run() {
     if (libraries.length > 0) {
         return;
     }
 
     console.log("");
-    FileSystem.readFile("remote.html", 'UTF-8', function(err, page) {
+    FileSystem.readFile(path.resolve(__dirname, "../resources/remote.html"), 'UTF-8', function(err, page) {
         if (!err) {
             http.createServer(function(request, response) {
                 switch(url.parse(request.url, true).pathname) {
@@ -99,7 +134,7 @@ function run() {
                         response.end();
 
                         console.log("Restarting Submodule...");
-                        backend();
+                        start();
 
                         break;
                     }
@@ -119,7 +154,7 @@ function run() {
                         console.log("Scheduled Update: " + query.project + " => " + query.version);
 
                         console.log("Restarting Submodule...");
-                        backend();
+                        start();
 
                         response.writeHead(302, {'Location': "/"});
                         response.end();
@@ -131,12 +166,7 @@ function run() {
                         response.write("Goodbye!");
                         response.end();
 
-                        if (process.platform === "win32") {
-                            child_process.exec("shutdown -s -t 0");
-                        }
-                        else {
-                            child_process.exec("sudo shutdown -h now");
-                        }
+                        child_process.exec("sudo shutdown -h now");
 
                         break;
                     }
@@ -148,12 +178,12 @@ function run() {
 
             }).listen(port);
 
-            dns.lookup(os.hostname(), function (err, ip, fam) {
+            dns.lookup(os.hostname(), function (e, ip) {
+                if (e) console.log(e);
                 log("Now serving at " + ip + ":" + port);
 
                 console.log("Starting Submodule...");
-
-                backend();
+                start();
             })
 
             usage();
@@ -169,10 +199,10 @@ function usage() {
   var tick = 0;
   var cpus = os.cpus();
 
-  for(var i = 0; i < cpus.length; i++) {
-    var core = cpus[i];
+  for(let id = 0; id < cpus.length; id++) {
+    var core = cpus[id];
 
-    for (type in core.times) {
+    for (let type in core.times) {
         tick += core.times[type];
     }
 
