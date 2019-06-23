@@ -6,7 +6,7 @@ git pull
 echo "Installing dependencies..."
 npm install
 
-if  ["$1" == "--sonar"]; then
+if  [ "$1" = "--sonar" ]; then
 	echo "Performing Unit Tests..."
 	npm run test
 
