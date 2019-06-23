@@ -11,8 +11,8 @@ $(function() {
         var info = repos[owner + "/" + repository + ":" + branch];
         var box = $("#infobox");
 
-        for(let i = 0; i < info.length; i++) {
-            box.append('<tr id="custom-info-' + i + '"></td>');
+        for (var key in info) {
+            box.append('<tr id="custom-info-' + i + '">' + key + '</td>');
         }
 
         function loadBuild(builds, id) {
