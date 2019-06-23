@@ -92,12 +92,15 @@ function start() {
         instance = null;
         console.log("");
         console.log("-- FINISHED --");
-        var delta = (interval * 60 * 1000) - (Date.now() - global.status.timestamp);
+
+        var elapsedTime = Date.now() - global.status.timestamp;
+        var delta = (interval * 60 * 1000) - elapsedTime;
 
         if (delta < 0) delta = 0;
 
         console.log("\n\n");
-        console.log("Waiting " + (delta / 1000) + "s...");
+        console.log("Elapsed time: " + (elapsedTime / 1000) + "s")
+        console.log("Time until next iteration: " + (delta / 1000) + "s");
         console.log("\n\n");
 
         timer = setTimeout(start, delta);
