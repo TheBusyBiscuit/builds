@@ -1,10 +1,9 @@
-app.log
 /*/*/*/files
-test.js
 /node_modules/*
 testRepository/*
-credentials.json
 /.nyc_output/*
 /.scannerwork/*
 /coverage/*
 /jitpack/*
+
+resources/credentials.json
