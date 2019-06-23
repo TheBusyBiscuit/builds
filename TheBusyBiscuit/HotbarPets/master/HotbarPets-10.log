@@ -1,0 +1,45 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------------< me.mrCookieSlime:HotbarPets >---------------------
+[INFO] Building HotbarPets DEV - 10 (git 7d790905)
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/bukkit/bukkit/1.14.2-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/bukkit/bukkit/1.14.2-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/bukkit/bukkit/1.14.2-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloaded from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/bukkit/bukkit/1.14.2-R0.1-SNAPSHOT/maven-metadata.xml (1.4 kB at 585 B/s)
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/bukkit/bukkit/1.14.2-R0.1-SNAPSHOT/maven-metadata.xml (1.4 kB at 448 B/s)
+[WARNING] The POM for com.github.TheBusyBiscuit:CS-CoreLib:jar:v1.6.1 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+[WARNING] The POM for com.github.TheBusyBiscuit:Slimefun4:jar:3619c4bc9e is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/bukkit/bukkit/1.14.2-R0.1-SNAPSHOT/bukkit-1.14.2-R0.1-20190621.095720-33.jar
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/bukkit/bukkit/1.14.2-R0.1-SNAPSHOT/bukkit-1.14.2-R0.1-20190621.095720-33.jar (0 B at 0 B/s)
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ HotbarPets ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ HotbarPets ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ HotbarPets ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 2 source files to /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/target/classes
+[WARNING] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java: /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java uses or overrides a deprecated API.
+[WARNING] /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/src/me/mrCookieSlime/HotbarPets/HotbarPets.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ HotbarPets ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/tests/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ HotbarPets ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ HotbarPets ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ HotbarPets ---
+[INFO] Building jar: /home/pi/Desktop/Build Server/TheBusyBiscuit/HotbarPets/master/files/target/HotbarPets-10.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  18.716 s
+[INFO] Finished at: 2019-06-23T20:00:38+02:00
+[INFO] ------------------------------------------------------------------------
