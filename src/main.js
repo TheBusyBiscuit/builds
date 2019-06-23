@@ -208,13 +208,18 @@ function upload(job, logging) {
 
     global.status.task[job.author + "/" + job.repo + "/" + job.branch] = "Preparing Upload";
     return new Promise((resolve, reject) => {
-        if (logging) console.log("Uploading: " + job.author + "/" + job.repo + ":" + job.branch + " (" + job.id + ")");
-        Promise.all([
+        var promises = [
             projects.addBuild(job, logging),
             projects.generateHTML(job, logging),
-            projects.generateBadge(job, logging),
-            discord.sendUpdate(job)
-        ]).then(() => {
+            projects.generateBadge(job, logging)
+        ];
+
+        if (logging) {
+            console.log("Uploading: " + job.author + "/" + job.repo + ":" + job.branch + " (" + job.id + ")");
+            promises.push(discord.sendUpdate(job));
+        }
+
+        Promise.all(promises).then(() => {
             console.log("Deleting working directory...")
             resolve();
         }, reject);

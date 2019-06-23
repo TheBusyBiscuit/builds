@@ -59,22 +59,12 @@ describe("Full System Test", function() {
         ]))
     );
 
-    it("updates 'builds.json'", () =>
-        projects.addBuild(job).then(() =>
-            assert.isTrue(FileSystem.existsSync(path.resolve(__dirname, "../" + job.author + "/" + job.repo + "/" + job.branch + "/builds.json")))
-        )
-    );
-
-    it("updates 'index.html'", () =>
-        projects.generateHTML(job).then(() =>
-            assert.isTrue(FileSystem.existsSync(path.resolve(__dirname, "../" + job.author + "/" + job.repo + "/" + job.branch + "/index.html")))
-        )
-    );
-
-    it("updates 'badge.svg'", () =>
-        projects.generateBadge(job).then(() =>
+    it("passes stage 'upload' (addBuild & generateHTML & generateBadge)", () =>
+        system.upload(job).then(() => Promise.all([
+            assert.isTrue(FileSystem.existsSync(path.resolve(__dirname, "../" + job.author + "/" + job.repo + "/" + job.branch + "/builds.json"))),
+            assert.isTrue(FileSystem.existsSync(path.resolve(__dirname, "../" + job.author + "/" + job.repo + "/" + job.branch + "/index.html"))),
             assert.isTrue(FileSystem.existsSync(path.resolve(__dirname, "../" + job.author + "/" + job.repo + "/" + job.branch + "/badge.svg")))
-        )
+        ]))
     );
 
     it("properly communicates status", () =>
