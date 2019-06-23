@@ -167,6 +167,8 @@ tr:nth-child(odd) {
     float: left;
     height: 100%;
     margin-left: 1%;
+    overflow-y: scroll;
+    position: relative;
     width: 30.5%;
 }
 .sidebar_content {
