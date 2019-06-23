@@ -1,0 +1,135 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -------------------< me.mrCookieSlime:ExoticGarden >--------------------
+[INFO] Building ExoticGarden DEV - 13 (git f08552fd)
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/bukkit/bukkit/1.14.2-R0.1-SNAPSHOT/bukkit-1.14.2-R0.1-20190621.095720-33.pom
+[INFO] Downloaded from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/bukkit/bukkit/1.14.2-R0.1-SNAPSHOT/bukkit-1.14.2-R0.1-20190621.095720-33.pom (0 B at 0 B/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/commons-lang/commons-lang/2.6/commons-lang-2.6.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/commons-lang/commons-lang/2.6/commons-lang-2.6.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/commons-lang/commons-lang/2.6/commons-lang-2.6.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/commons-lang/commons-lang/2.6/commons-lang-2.6.pom (0 B at 0 B/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/apache/commons/commons-parent/17/commons-parent-17.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/apache/commons/commons-parent/17/commons-parent-17.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/17/commons-parent-17.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/17/commons-parent-17.pom (0 B at 0 B/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/google/guava/guava/21.0/guava-21.0.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/google/guava/guava/21.0/guava-21.0.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/21.0/guava-21.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/21.0/guava-21.0.pom (0 B at 0 B/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/google/guava/guava-parent/21.0/guava-parent-21.0.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/google/guava/guava-parent/21.0/guava-parent-21.0.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/21.0/guava-parent-21.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/21.0/guava-parent-21.0.pom (0 B at 0 B/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/sonatype/oss/oss-parent/7/oss-parent-7.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/sonatype/oss/oss-parent/7/oss-parent-7.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/sonatype/oss/oss-parent/7/oss-parent-7.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/sonatype/oss/oss-parent/7/oss-parent-7.pom (0 B at 0 B/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/google/code/gson/gson/2.8.0/gson-2.8.0.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/google/code/gson/gson/2.8.0/gson-2.8.0.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/code/gson/gson/2.8.0/gson-2.8.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/code/gson/gson/2.8.0/gson-2.8.0.pom (0 B at 0 B/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/google/code/gson/gson-parent/2.8.0/gson-parent-2.8.0.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/google/code/gson/gson-parent/2.8.0/gson-parent-2.8.0.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/code/gson/gson-parent/2.8.0/gson-parent-2.8.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/code/gson/gson-parent/2.8.0/gson-parent-2.8.0.pom (0 B at 0 B/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/yaml/snakeyaml/1.23/snakeyaml-1.23.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/yaml/snakeyaml/1.23/snakeyaml-1.23.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/yaml/snakeyaml/1.23/snakeyaml-1.23.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/yaml/snakeyaml/1.23/snakeyaml-1.23.pom (0 B at 0 B/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/github/TheBusyBiscuit/CS-CoreLib/4d33f14f4e/CS-CoreLib-4d33f14f4e.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/github/TheBusyBiscuit/CS-CoreLib/4d33f14f4e/CS-CoreLib-4d33f14f4e.pom
+[INFO] Downloaded from jitpack.io: https://jitpack.io/com/github/TheBusyBiscuit/CS-CoreLib/4d33f14f4e/CS-CoreLib-4d33f14f4e.pom (9.7 kB at 11 kB/s)
+[WARNING] The POM for com.github.TheBusyBiscuit:CS-CoreLib:jar:4d33f14f4e is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/github/TheBusyBiscuit/Slimefun4/8f173ea76c/Slimefun4-8f173ea76c.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/github/TheBusyBiscuit/Slimefun4/8f173ea76c/Slimefun4-8f173ea76c.pom
+[INFO] Downloaded from jitpack.io: https://jitpack.io/com/github/TheBusyBiscuit/Slimefun4/8f173ea76c/Slimefun4-8f173ea76c.pom (5.2 kB at 5.8 kB/s)
+[WARNING] The POM for com.github.TheBusyBiscuit:Slimefun4:jar:8f173ea76c is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/commons-lang/commons-lang/2.6/commons-lang-2.6.jar
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/google/guava/guava/21.0/guava-21.0.jar
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/google/code/gson/gson/2.8.0/gson-2.8.0.jar
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/yaml/snakeyaml/1.23/snakeyaml-1.23.jar
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/github/TheBusyBiscuit/CS-CoreLib/4d33f14f4e/CS-CoreLib-4d33f14f4e.jar
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/github/TheBusyBiscuit/Slimefun4/8f173ea76c/Slimefun4-8f173ea76c.jar
+[INFO] Downloading from jitpack.io: https://jitpack.io/commons-lang/commons-lang/2.6/commons-lang-2.6.jar
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/google/guava/guava/21.0/guava-21.0.jar
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/yaml/snakeyaml/1.23/snakeyaml-1.23.jar
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/github/TheBusyBiscuit/CS-CoreLib/4d33f14f4e/CS-CoreLib-4d33f14f4e.jar
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/google/code/gson/gson/2.8.0/gson-2.8.0.jar
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/github/TheBusyBiscuit/Slimefun4/8f173ea76c/Slimefun4-8f173ea76c.jar
+[INFO] Downloaded from jitpack.io: https://jitpack.io/com/github/TheBusyBiscuit/Slimefun4/8f173ea76c/Slimefun4-8f173ea76c.jar (838 kB at 130 kB/s)
+[INFO] Downloaded from jitpack.io: https://jitpack.io/com/github/TheBusyBiscuit/CS-CoreLib/4d33f14f4e/CS-CoreLib-4d33f14f4e.jar (218 kB at 34 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/commons-lang/commons-lang/2.6/commons-lang-2.6.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/21.0/guava-21.0.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/code/gson/gson/2.8.0/gson-2.8.0.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/yaml/snakeyaml/1.23/snakeyaml-1.23.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/commons-lang/commons-lang/2.6/commons-lang-2.6.jar (0 B at 0 B/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/code/gson/gson/2.8.0/gson-2.8.0.jar (0 B at 0 B/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/yaml/snakeyaml/1.23/snakeyaml-1.23.jar (0 B at 0 B/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/21.0/guava-21.0.jar (0 B at 0 B/s)
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ ExoticGarden ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ ExoticGarden ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 12 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ ExoticGarden ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 28 source files to /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/CSCoreLibSetup/CSCoreLibLoader.java:[16,23] package org.json.simple does not exist
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/CSCoreLibSetup/CSCoreLibLoader.java:[17,23] package org.json.simple does not exist
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/CSCoreLibSetup/CSCoreLibLoader.java:[18,23] package org.json.simple does not exist
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/CSCoreLibSetup/CSCoreLibLoader.java:[65,19] cannot find symbol
+  symbol:   class JSONArray
+  location: class me.mrCookieSlime.ExoticGarden.CSCoreLibSetup.CSCoreLibLoader
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/CSCoreLibSetup/CSCoreLibLoader.java:[65,38] cannot find symbol
+  symbol:   class JSONArray
+  location: class me.mrCookieSlime.ExoticGarden.CSCoreLibSetup.CSCoreLibLoader
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/CSCoreLibSetup/CSCoreLibLoader.java:[65,49] cannot find symbol
+  symbol:   variable JSONValue
+  location: class me.mrCookieSlime.ExoticGarden.CSCoreLibSetup.CSCoreLibLoader
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/CSCoreLibSetup/CSCoreLibLoader.java:[66,45] cannot find symbol
+  symbol:   class JSONObject
+  location: class me.mrCookieSlime.ExoticGarden.CSCoreLibSetup.CSCoreLibLoader
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/CSCoreLibSetup/CSCoreLibLoader.java:[67,53] cannot find symbol
+  symbol:   class JSONObject
+  location: class me.mrCookieSlime.ExoticGarden.CSCoreLibSetup.CSCoreLibLoader
+[INFO] 8 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  24.652 s
+[INFO] Finished at: 2019-06-23T21:31:51+02:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.1:compile (default-compile) on project ExoticGarden: Compilation failure: Compilation failure: 
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/CSCoreLibSetup/CSCoreLibLoader.java:[16,23] package org.json.simple does not exist
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/CSCoreLibSetup/CSCoreLibLoader.java:[17,23] package org.json.simple does not exist
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/CSCoreLibSetup/CSCoreLibLoader.java:[18,23] package org.json.simple does not exist
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/CSCoreLibSetup/CSCoreLibLoader.java:[65,19] cannot find symbol
+[ERROR]   symbol:   class JSONArray
+[ERROR]   location: class me.mrCookieSlime.ExoticGarden.CSCoreLibSetup.CSCoreLibLoader
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/CSCoreLibSetup/CSCoreLibLoader.java:[65,38] cannot find symbol
+[ERROR]   symbol:   class JSONArray
+[ERROR]   location: class me.mrCookieSlime.ExoticGarden.CSCoreLibSetup.CSCoreLibLoader
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/CSCoreLibSetup/CSCoreLibLoader.java:[65,49] cannot find symbol
+[ERROR]   symbol:   variable JSONValue
+[ERROR]   location: class me.mrCookieSlime.ExoticGarden.CSCoreLibSetup.CSCoreLibLoader
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/CSCoreLibSetup/CSCoreLibLoader.java:[66,45] cannot find symbol
+[ERROR]   symbol:   class JSONObject
+[ERROR]   location: class me.mrCookieSlime.ExoticGarden.CSCoreLibSetup.CSCoreLibLoader
+[ERROR] /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/src/me/mrCookieSlime/ExoticGarden/CSCoreLibSetup/CSCoreLibLoader.java:[67,53] cannot find symbol
+[ERROR]   symbol:   class JSONObject
+[ERROR]   location: class me.mrCookieSlime.ExoticGarden.CSCoreLibSetup.CSCoreLibLoader
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
