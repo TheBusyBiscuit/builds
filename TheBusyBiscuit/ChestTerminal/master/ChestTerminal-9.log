@@ -1,0 +1,39 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Building ChestTerminal DEV - 9 (git 91666762)
+[INFO] ------------------------------------------------------------------------
+[WARNING] The POM for com.github.TheBusyBiscuit:CS-CoreLib:jar:1.6.1 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+[WARNING] The POM for com.github.TheBusyBiscuit:Slimefun4:jar:98cbec3840 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ ChestTerminal ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ ChestTerminal ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ ChestTerminal ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 5 source files to E:\Projects\GitHub\builds\TheBusyBiscuit\ChestTerminal\master\files\target\classes
+[WARNING] /E:/Projects/GitHub/builds/TheBusyBiscuit/ChestTerminal/master/files/src/me/mrCookieSlime/ChestTerminal/AccessTerminal.java: E:\Projects\GitHub\builds\TheBusyBiscuit\ChestTerminal\master\files\src\me\mrCookieSlime\ChestTerminal\AccessTerminal.java uses or overrides a deprecated API.
+[WARNING] /E:/Projects/GitHub/builds/TheBusyBiscuit/ChestTerminal/master/files/src/me/mrCookieSlime/ChestTerminal/AccessTerminal.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ ChestTerminal ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory E:\Projects\GitHub\builds\TheBusyBiscuit\ChestTerminal\master\files\tests\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ ChestTerminal ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ ChestTerminal ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ ChestTerminal ---
+[INFO] Building jar: E:\Projects\GitHub\builds\TheBusyBiscuit\ChestTerminal\master\files\target\ChestTerminal-9.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 2.842 s
+[INFO] Finished at: 2019-06-23T11:03:33+02:00
+[INFO] Final Memory: 17M/213M
+[INFO] ------------------------------------------------------------------------
