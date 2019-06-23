@@ -7,7 +7,7 @@ $(function() {
     createBadge(owner, repository, branch, "markdown");
     createBadge(owner, repository, branch, "html");
 
-    $.getJSON("https://thebusybiscuit.github.io/builds/repos.json", function(repos) {
+    $.getJSON("https://thebusybiscuit.github.io/builds/resources/repos.json", function(repos) {
         var info = repos[owner + "/" + repository + ":" + branch];
         var box = $("#infobox");
 
