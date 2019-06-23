@@ -6,7 +6,7 @@
   "scripts": {
     "remote": "node ./src/remote.js",
     "iteration": "node ./src/single-run.js",
-    "test": "mocha test/*.js --reporter spec",
+    "test": "mocha test/*.js --reporter mocha-multi-reporters --reporter-options configFile=resources/mocha.json",
     "code-coverage": "nyc --reporter=lcov --reporter=text-lcov mocha test/*.js",
     "sonar": "node ./src/sonar.js"
   },
@@ -31,6 +31,8 @@
     "chai": "4.2.0",
     "chai-as-promised": "7.1.1",
     "mocha": "6.1.4",
+    "mocha-multi-reporters": "1.1.7",
+    "mocha-sonarqube-reporter": "1.0.1",
     "nyc": "14.1.1"
   }
 }

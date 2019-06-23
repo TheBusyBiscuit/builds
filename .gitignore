@@ -7,3 +7,4 @@ testRepository/*
 /jitpack/*
 
 resources/credentials.json
+test/xunit.xml
