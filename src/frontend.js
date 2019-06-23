@@ -11,11 +11,9 @@ $(function() {
         var info = repos[owner + "/" + repository + ":" + branch];
         var box = $("#infobox");
 
-        var i = 1;
-        info.forEach(() => {
+        for(let i = 0; i < info.length; i++) {
             box.append('<tr id="custom-info-' + i + '"></td>');
-            i++;
-        });
+        }
 
         function loadBuild(builds, id) {
             var stroke = "rgb(110, 110, 110)";
