@@ -15,7 +15,7 @@ var job = {
 }
 
 describe("Full System Test", function() {
-    this.timeout(32000);
+    this.timeout(60000);
 
     before(() => {
         global.status = {
@@ -68,7 +68,7 @@ describe("Full System Test", function() {
     );
 
     it("properly communicates status", () =>
-        assert.strictEqual(global.status.task[job.author + "/" + job.repo + "/" + job.branch], "Fetching Resources")
+        assert.strictEqual(global.status.task[job.author + "/" + job.repo + "/" + job.branch], "Preparing Upload")
     );
 
     it("can handle failed builds", () =>
