@@ -1,8 +1,6 @@
 const XML = require('xml-library');
 const process = require('child-process-promise');
 
-const projects = require('../src/projects.js');
-
 const FileSystem = require('fs');
 const fs = FileSystem.promises;
 const path = require('path');
