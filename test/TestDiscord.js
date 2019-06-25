@@ -21,7 +21,7 @@ describe("Discord Integration Test", () => {
         });
     });
 
-    it("should send a Message to Discord", () => {
+    it("should send a Message to Discord (successful build)", () => {
         var mock_discord = require('../src/discord.js')();
 
         return assert.isFulfilled(mock_discord.sendUpdate({
@@ -31,7 +31,19 @@ describe("Discord Integration Test", () => {
             id: -1,
             success: true
         }))
-    })
+    });
+
+    it("should send a Message to Discord (failed build)", () => {
+        var mock_discord = require('../src/discord.js')();
+
+        return assert.isFulfilled(mock_discord.sendUpdate({
+            author: "TheBusyBiscuit",
+            repo: "builds",
+            branch: "gh-pages",
+            id: -1,
+            success: false
+        }))
+    });
 
     testJobs(true, (job) => discord.sendUpdate(job));
 });

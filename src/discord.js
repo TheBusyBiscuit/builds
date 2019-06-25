@@ -3,11 +3,18 @@ const Discord = require('discord.js');
 const projects = require('../src/projects.js');
 
 module.exports = (cfg) => {
+	var config = cfg;
     var webhook = {
         send: () => Promise.resolve()
     };
 
     if (cfg) webhook = new Discord.WebhookClient(cfg.id, cfg.token);
+	else config = {
+		messages: {
+			success: "This Build was a success!",
+			failure: "This Build was a failure!"
+		}
+	}
 
     return {
         /**
@@ -19,9 +26,9 @@ module.exports = (cfg) => {
          * @param  {Object} job      The Job that shall be posted
          * @return {Promise}         A Promise that resolves when the message has been posted.
          */
-        sendUpdate: (job) => sendUpdate(webhook, job, cfg),
+        sendUpdate: (job) => sendUpdate(webhook, job, config),
 
-        getConfig: () => cfg
+        getConfig: () => config
     }
 };
 
@@ -41,8 +48,7 @@ function sendUpdate(webhook, job, cfg) {
             return;
         }
 
-        var message = "Build pending...";
-        if (cfg) message = job.success ? cfg.messages.success[Math.floor(Math.random() * cfg.messages.success.length)]: cfg.messages.failure[Math.floor(Math.random() * cfg.messages.failure.length)];
+        var message = job.success ? cfg.messages.success[Math.floor(Math.random() * cfg.messages.success.length)]: cfg.messages.failure[Math.floor(Math.random() * cfg.messages.failure.length)];
         message = message.replace(/<user>/g, job.author).replace(/<repo>/g, job.repo).replace(/<branch>/g, job.branch).replace(/<id>/g, job.id);
 
         webhook.send(
