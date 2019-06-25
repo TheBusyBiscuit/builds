@@ -77,11 +77,11 @@ function addBuild(job, logging) {
             builds.latest = job.id;
 
             // Apply any Tags
-            for (let build of builds) {
+            for (let build in builds) {
                 for (let tag in job.tags) {
-                    if (job.tags[tag] === build.sha) {
-                        build.candidate = "RELEASE";
-                        build.tag = tag;
+                    if (job.tags[tag] === builds[build].sha) {
+                        builds[build].candidate = "RELEASE";
+                        builds[build].tag = tag;
                         break;
                     }
                 }
