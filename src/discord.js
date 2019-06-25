@@ -3,7 +3,11 @@ const Discord = require('discord.js');
 const projects = require('../src/projects.js');
 
 module.exports = (cfg) => {
-    const webhook = new Discord.WebhookClient(cfg.id, cfg.token);
+    var webhook = {
+        send: () => Promise.resolve()
+    };
+
+    if (cfg) webhook = new Discord.WebhookClient(cfg.id, cfg.token);
 
     return {
         /**
@@ -37,7 +41,8 @@ function sendUpdate(webhook, job, cfg) {
             return;
         }
 
-        var message = job.success ? cfg.messages.success[Math.floor(Math.random() * cfg.messages.success.length)]: cfg.messages.failure[Math.floor(Math.random() * cfg.messages.failure.length)];
+        var message = "Build pending...";
+        if (cfg) message = job.success ? cfg.messages.success[Math.floor(Math.random() * cfg.messages.success.length)]: cfg.messages.failure[Math.floor(Math.random() * cfg.messages.failure.length)];
         message = message.replace(/<user>/g, job.author).replace(/<repo>/g, job.repo).replace(/<branch>/g, job.branch).replace(/<id>/g, job.id);
 
         webhook.send(

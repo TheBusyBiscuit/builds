@@ -21,5 +21,17 @@ describe("Discord Integration Test", () => {
         });
     });
 
+    it("should send a Message to Discord", () => {
+        var mock_discord = require('../src/discord.js')();
+
+        return assert.isFulfilled(mock_discord.sendUpdate({
+            author: "TheBusyBiscuit",
+            repo: "builds",
+            branch: "gh-pages",
+            id: -1,
+            success: true
+        }))
+    })
+
     testJobs(true, (job) => discord.sendUpdate(job));
 });

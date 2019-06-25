@@ -3,6 +3,7 @@ chai.use(require('chai-as-promised'));
 const {assert} = chai;
 
 const maven = require('../src/maven.js');
+const testJobs = require('../test/TestJobs.js');
 
 describe("Maven Test", () => {
     describe("Job Validator", () => {
@@ -45,5 +46,13 @@ describe("Maven Test", () => {
         it("should return true for a valid Job", () => {
             return assert.isTrue(maven.isValid({author: "TheBusyBiscuit", repo: "builds", branch: "master", id: 1, success: false}));
         });
+    });
+
+    describe("Maven Test: 'compile'", () => {
+        testJobs(false, (job) => maven.compile(job));
+    });
+
+    describe("Maven Test: 'setVersion'", () => {
+        testJobs(false, (job) => maven.setVersion(job));
     });
 });
