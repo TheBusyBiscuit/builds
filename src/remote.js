@@ -49,9 +49,7 @@ var libraries = [
     }
 ]
 
-for (let i in libraries) {
-    let library = libraries[i];
-
+for (let library of libraries) {
     child_process.exec(library.command, callback(library));
 }
 

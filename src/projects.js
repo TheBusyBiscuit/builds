@@ -74,8 +74,8 @@ function addBuild(job, logging) {
             for (var build in builds) {
                 for (var tag in job.tags) {
                     if (job.tags[tag] === build.sha) {
-                        build.candidate = "RELEASE";
-                        build.tag = tag;
+                        builds[build].candidate = "RELEASE";
+                        builds[build].tag = tag;
                         break;
                     }
                 }

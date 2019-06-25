@@ -10,7 +10,7 @@ $(function() {
     $.getJSON("https://thebusybiscuit.github.io/builds/resources/repos.json", function(repos) {
         var info = repos[owner + "/" + repository + ":" + branch];
         var box = $("#infobox");
-		
+
 		let i = 1;
         for (var key in info) {
             box.append('<tr id="custom-info-' + i++ + '">' + key + '</td>');
@@ -88,10 +88,10 @@ $(function() {
             msg = msg.replace(/</g, "")
             msg = msg.replace(/>/g, "")
 
-            var match = msg.match(/#[0-9]+/g);
+            var matches = msg.match(/#[0-9]+/g);
 
-            for (var m in match) {
-                msg = msg.replace(match[m], "<a class=\"link_info\" href=https://github.com/" + owner + "/" + repository + "/issues/" + match[m].replace("#", "") + ">" + match[m] + "</a>");
+            for (let match of matches) {
+                msg = msg.replace(match, "<a class=\"link_info\" href=https://github.com/" + owner + "/" + repository + "/issues/" + match.replace("#", "") + ">" + match + "</a>");
             }
 
             $("#current_commit_message").html(msg);
