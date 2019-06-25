@@ -1,30 +1,10 @@
+const testJobs = require('../test/TestJobs.js');
+
 module.exports = (assert, github) => {
     return function() {
         this.timeout(8000);
 
-        it("should reject for an invalid Job (null)", () => {
-            return assert.isRejected(github.getLicense(null));
-        });
-
-        it("should reject for an invalid Job (undefined)", () => {
-            return assert.isRejected(github.getLicense(undefined));
-        });
-
-        it("should reject for an invalid Job (String)", () => {
-            return assert.isRejected(github.getLicense("This will not work"));
-        });
-
-        it("should reject for an invalid Job (Array)", () => {
-            return assert.isRejected(github.getLicense([]));
-        });
-
-        it("should reject for an invalid Job (Missing parameter)", () => {
-            return assert.isRejected(github.getLicense({repo: "Nope"}));
-        });
-
-        it("should reject for an invalid Job (parameter of wrong Type)", () => {
-            return assert.isRejected(github.getLicense({author: "Hi", repo: 18}));
-        });
+        testJobs(false, (job) => github.getLicense(job));
 
         it("should resolve for 'TheBusyBiscuit/builds'", () => {
             var job = {

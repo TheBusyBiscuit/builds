@@ -44,7 +44,7 @@ function validate(repo) {
                 branch: repo.split("/")[1].split(":")[1]
             }
 
-            return assert.isTrue(github.isValid(job));
+            return assert.isTrue(projects.isValid(job));
         });
 
         it('exists on GitHub', function() {

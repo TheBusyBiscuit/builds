@@ -26,6 +26,18 @@ describe("Maven Test", () => {
             return assert.isFalse(maven.isValid({repo: "Nope"}));
         });
 
+        it("should return false for an invalid Job (Missing parameter)", () => {
+            return assert.isFalse(maven.isValid({author: "Nope"}));
+        });
+
+        it("should return false for an invalid Job (Missing parameter)", () => {
+            return assert.isFalse(maven.isValid({branch: "Nope"}));
+        });
+
+        it("should return false for an invalid Job (parameter of wrong Type)", () => {
+            return assert.isFalse(maven.isValid({author: "Hi", repo: 2, branch: "master", id: "lol"}));
+        });
+
         it("should return false for an invalid Job (parameter of wrong Type)", () => {
             return assert.isFalse(maven.isValid({author: "Hi", repo: "Nope", branch: "master", id: "lol"}));
         });

@@ -1,29 +1,8 @@
+const testJobs = require('../test/TestJobs.js');
+
 module.exports = (assert, github) => {
     return function() {
-
-        it("should reject for an invalid Job (null)", () => {
-            return assert.isRejected(github.hasUpdate(null));
-        });
-
-        it("should reject for an invalid Job (undefined)", () => {
-            return assert.isRejected(github.hasUpdate(undefined));
-        });
-
-        it("should reject for an invalid Job (String)", () => {
-            return assert.isRejected(github.hasUpdate("This will not work"));
-        });
-
-        it("should reject for an invalid Job (Array)", () => {
-            return assert.isRejected(github.hasUpdate([]));
-        });
-
-        it("should reject for an invalid Job (Missing parameter)", () => {
-            return assert.isRejected(github.hasUpdate({repo: "Nope"}));
-        });
-
-        it("should reject for an invalid Job (parameter of wrong Type)", () => {
-            return assert.isRejected(github.hasUpdate({author: "Hi", repo: 18}));
-        });
+        testJobs(false, (job) => github.hasUpdate(job));
 
         it("should resolve for '____/____:master' (No Builds yet)", () => {
             var job = {

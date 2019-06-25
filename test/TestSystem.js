@@ -7,6 +7,8 @@ const chai = require('chai');
 chai.use(require('chai-as-promised'));
 const {assert} = chai;
 
+const testJobs = require('../test/TestJobs.js');
+
 // A public sample Maven project
 var job = {
     author: "jitpack",
@@ -59,13 +61,17 @@ describe("Full System Test", function() {
         ]))
     );
 
-    it("passes stage 'upload' (addBuild & generateHTML & generateBadge)", () =>
-        system.upload(job).then(() => Promise.all([
+    it("passes stage 'upload' (addBuild & generateHTML & generateBadge)", async () => {
+        job.tags = {};
+        job.tags["1.0"] = job.commit.sha;
+
+        await system.upload(job);
+        return Promise.all([
             assert.isTrue(FileSystem.existsSync(path.resolve(__dirname, "../" + job.author + "/" + job.repo + "/" + job.branch + "/builds.json"))),
             assert.isTrue(FileSystem.existsSync(path.resolve(__dirname, "../" + job.author + "/" + job.repo + "/" + job.branch + "/index.html"))),
             assert.isTrue(FileSystem.existsSync(path.resolve(__dirname, "../" + job.author + "/" + job.repo + "/" + job.branch + "/badge.svg")))
-        ]))
-    );
+        ]);
+    });
 
     it("properly communicates status", () =>
         assert.strictEqual(global.status.task[job.author + "/" + job.repo + "/" + job.branch], "Preparing Upload")
@@ -79,6 +85,65 @@ describe("Full System Test", function() {
             ]))
         )
     );
+
+    describe("Job Validator", () => {
+        describe("Stage 'check'", () => {
+            testJobs(false, (job) => system.check(job))
+        });
+        describe("Stage 'update'", () => {
+            testJobs(false, (job) => system.update(job))
+        });
+        describe("Stage 'compile'", () => {
+            testJobs(false, (job) => system.compile(job))
+        });
+        describe("Stage 'gatherResources'", () => {
+            testJobs(true, (job) => system.gatherResources(job))
+        });
+        describe("Stage 'upload'", () => {
+            testJobs(true, (job) => system.upload(job))
+        });
+        describe("Stage 'finish'", () => {
+            testJobs(true, (job) => system.finish(job))
+        });
+    });
+
+    describe("global.status.running = false", () => {
+        it("will report stage 'start' as successful", () => {
+            global.status.running = false;
+            return assert.isFulfilled(system.start());
+        });
+
+        it("will abort stage 'check'", () => {
+            global.status.running = false;
+            return assert.isRejected(system.check());
+        });
+
+        it("will abort stage 'update'", () => {
+            global.status.running = false;
+            return assert.isRejected(system.update());
+        });
+
+        it("will abort stage 'compile'", () => {
+            global.status.running = false;
+            return assert.isRejected(system.compile());
+        });
+
+        it("will abort stage 'gatherResources'", () => {
+            global.status.running = false;
+            return assert.isRejected(system.gatherResources());
+        });
+
+        it("will abort stage 'upload'", () => {
+            global.status.running = false;
+            return assert.isRejected(system.upload());
+        });
+
+        it("will abort stage 'finish'", () => {
+            global.status.running = false;
+            return assert.isRejected(system.finish());
+        });
+
+    })
 
     after(cleanup);
 });

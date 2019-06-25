@@ -5,6 +5,8 @@ const FileSystem = require('fs');
 const fs = FileSystem.promises;
 const path = require('path');
 
+const projects = require('../src/projects.js');
+
 const months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
 
 module.exports = (token) => {
@@ -49,7 +51,6 @@ module.exports = (token) => {
         clone,
         pushChanges,
         hasUpdate,
-        isValid,
         parseDate
     }
 };
@@ -63,7 +64,10 @@ module.exports = (token) => {
  */
 function getLatestCommit(job, token, logging) {
     return new Promise((resolve, reject) => {
-        if (!isValid(job)) reject("Invalid Job");
+        if (!projects.isValid(job)) {
+            reject("Invalid Job");
+            return;
+        }
         if (logging) console.log("-> Fetching latest Commit...");
 
         let url = getURL(job, token, "/commits?per_page=1&sha=" + job.branch);
@@ -89,7 +93,10 @@ function getLatestCommit(job, token, logging) {
  */
 function getLicense(job, token, logging) {
     return new Promise((resolve, reject) => {
-        if (!isValid(job)) reject("Invalid Job");
+        if (!projects.isValid(job)) {
+            reject("Invalid Job");
+            return;
+        }
         if (logging) console.log("-> Fetching License...");
         getJSON(job, token, logging, "license", resolve, reject);
     });
@@ -104,7 +111,10 @@ function getLicense(job, token, logging) {
  */
 function getTags(job, token, logging) {
     return new Promise((resolve, reject) => {
-        if (!isValid(job)) reject("Invalid Job");
+        if (!projects.isValid(job)) {
+            reject("Invalid Job");
+            return;
+        }
         if (logging) console.log("-> Fetching Tags...");
         getJSON(job, token, logging, "tags", resolve, reject);
     });
@@ -135,7 +145,10 @@ function getJSON(job, token, logging, endpoint, resolve, reject) {
  */
 function exists(job, token) {
     return new Promise((resolve, reject) => {
-        if (!isValid(job)) reject("Invalid Job");
+        if (!projects.isValid(job)) {
+            reject("Invalid Job");
+            return;
+        }
 
         let url = getURL(job, token, "");
         url.json = true;
@@ -158,7 +171,10 @@ function exists(job, token) {
  */
 function hasUpdate(job, timestamp) {
     return new Promise((resolve, reject) => {
-        if (!isValid(job)) reject("Invalid Job");
+        if (!projects.isValid(job)) {
+            reject("Invalid Job");
+            return;
+        }
 
         var file = path.resolve(__dirname, "../" + job.author + "/" + job.repo + "/" + job.branch + "/builds.json");
 
@@ -188,7 +204,10 @@ function hasUpdate(job, timestamp) {
  */
 function clone(job, commit, logging) {
     return new Promise((resolve, reject) => {
-        if (!isValid(job)) reject("Invalid Job");
+        if (!projects.isValid(job)) {
+            reject("Invalid Job");
+            return;
+        }
         if (logging) console.log("-> Executing 'git clone'");
 
         var cloning = process.spawn("git", [
@@ -241,7 +260,10 @@ function clone(job, commit, logging) {
  */
 function pushChanges(job, logging) {
     return new Promise((resolve, reject) => {
-        if (!isValid(job)) reject("Invalid Job");
+        if (!projects.isValid(job)) {
+            reject("Invalid Job");
+            return;
+        }
         if (logging) console.log("-> Executing 'git add'");
 
         var add = process.spawn("git", [
@@ -315,23 +337,6 @@ function getURL(job, token, endpoint) {
             "Time-Zone": "UTC"
         }
     };
-}
-
-/**
- * This method will check if a Job is valid.
- * null / undefined or incomplete Job Objects will fail.
- *
- * @param  {Object}  job The job object to be tested
- * @return {Boolean}     Whether the job is a valid Job
- */
-function isValid(job) {
-    if (!job) return false;
-    if (Object.getPrototypeOf(job) !== Object.prototype) return false;
-    if (!(typeof job.author === 'string' || job.author instanceof String)) return false;
-    if (!(typeof job.repo === 'string' || job.repo instanceof String)) return false;
-    if (!(typeof job.branch === 'string' || job.branch instanceof String)) return false;
-
-    return true;
 }
 
 /**

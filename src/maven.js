@@ -1,6 +1,8 @@
 const XML = require('xml-library');
 const process = require('child-process-promise');
 
+const projects = require('../src/projects.js');
+
 const FileSystem = require('fs');
 const fs = FileSystem.promises;
 const path = require('path');
@@ -34,7 +36,10 @@ module.exports = {
  */
 function setVersion(job, version, compact) {
     return new Promise((resolve, reject) => {
-        if (!isValid(job)) reject("Invalid Job");
+        if (!isValid(job)) {
+            reject("Invalid Job");
+            return;
+        }
 
         var file = path.resolve(__dirname, "../" + job.author + "/" + job.repo + "/" + job.branch + "/files/pom.xml");
 
@@ -79,7 +84,10 @@ function setVersion(job, version, compact) {
  */
 function compile(job, logging) {
     return new Promise((resolve, reject) => {
-        if (!isValid(job)) reject("Invalid Job");
+        if (!isValid(job)) {
+            reject("Invalid Job");
+            return;
+        }
         if (logging) console.log("-> Executing 'mvn package'");
 
         var compiler = process.spawn("mvn", [

@@ -1,5 +1,7 @@
 const Discord = require('discord.js');
 
+const projects = require('../src/projects.js');
+
 module.exports = (cfg) => {
     const webhook = new Discord.WebhookClient(cfg.id, cfg.token);
 
@@ -14,10 +16,8 @@ module.exports = (cfg) => {
          * @return {Promise}         A Promise that resolves when the message has been posted.
          */
         sendUpdate: (job) => sendUpdate(webhook, job, cfg),
-        
-        getConfig: () => cfg,
 
-        isValid
+        getConfig: () => cfg
     }
 };
 
@@ -32,7 +32,10 @@ module.exports = (cfg) => {
  */
 function sendUpdate(webhook, job, cfg) {
     return new Promise((resolve, reject) => {
-        if (!isValid(job)) reject("Invalid Job");
+        if (!projects.isValid(job, true)) {
+            reject("Invalid Job");
+            return;
+        }
 
         var message = job.success ? cfg.messages.success[Math.floor(Math.random() * cfg.messages.success.length)]: cfg.messages.failure[Math.floor(Math.random() * cfg.messages.failure.length)];
         message = message.replace(/<user>/g, job.author).replace(/<repo>/g, job.repo).replace(/<branch>/g, job.branch).replace(/<id>/g, job.id);
@@ -45,23 +48,4 @@ function sendUpdate(webhook, job, cfg) {
             .setTimestamp(Date.now())
         ).then(resolve, reject);
     });
-}
-
-/**
- * This method will check if a Job is valid.
- * null / undefined or incomplete Job Objects will fail.
- *
- * @param  {Object}  job The job object to be tested
- * @return {Boolean}     Whether the job is a valid Job
- */
-function isValid(job) {
-    if (!job) return false;
-    if (Object.getPrototypeOf(job) !== Object.prototype) return false;
-    if (!(typeof job.author === 'string' || job.author instanceof String)) return false;
-    if (!(typeof job.repo === 'string' || job.repo instanceof String)) return false;
-    if (!(typeof job.branch === 'string' || job.branch instanceof String)) return false;
-    if (!Number.isInteger(job.id)) return false;
-    if (typeof job.success !== "boolean") return false;
-
-    return true;
 }

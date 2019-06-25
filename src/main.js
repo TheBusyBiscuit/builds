@@ -4,10 +4,10 @@ const path = require('path');
 const credentials = JSON.parse(FileSystem.readFileSync(path.resolve(__dirname, "../resources/credentials.json"), "UTF8"));
 
 // Modules
-const projects = require('./projects.js');
-const maven = require('./maven.js');
-const github = require('./github.js')(credentials.github);
-const discord = require('./discord.js')(credentials.discord);
+const projects = require('../src/projects.js');
+const maven = require('../src/maven.js');
+const github = require('../src/github.js')(credentials.github);
+const discord = require('../src/discord.js')(credentials.discord);
 
 module.exports = {
     start,
@@ -29,7 +29,8 @@ module.exports = {
 function start(logging) {
     return new Promise((done, fail) => {
         if (logging) console.log("Loading Projects...");
-        projects.getProjects(true).then((jobs) => {
+
+        projects.getProjects(logging).then((jobs) => {
             global.status.jobs = jobs.slice(0);
 
             for (var index in jobs) {
@@ -80,6 +81,7 @@ function start(logging) {
  */
 function check(job, logging) {
     if (!global.status.running) return Promise.reject("The operation has been cancelled");
+    if (!projects.isValid(job, false)) return Promise.reject("Invalid Job!");
 
     global.status.task[job.author + "/" + job.repo + "/" + job.branch] = "Pulling Commits";
     return new Promise((resolve, reject) => {
@@ -115,6 +117,7 @@ function check(job, logging) {
  */
 function update(job, logging) {
     if (!global.status.running) return Promise.reject("The operation has been cancelled");
+    if (!projects.isValid(job, false)) return Promise.reject("Invalid Job!");
 
     global.status.task[job.author + "/" + job.repo + "/" + job.branch] = "Cloning Repository";
     return new Promise((resolve, reject) => {
@@ -136,6 +139,7 @@ function update(job, logging) {
  */
 function compile(job, logging) {
     if (!global.status.running) return Promise.reject("The operation has been cancelled");
+    if (!projects.isValid(job, false)) return Promise.reject("Invalid Job!");
 
     global.status.task[job.author + "/" + job.repo + "/" + job.branch] = "Compiling";
     return new Promise((resolve) => {
@@ -164,6 +168,7 @@ function compile(job, logging) {
  */
 function gatherResources(job, logging) {
     if (!global.status.running) return Promise.reject("The operation has been cancelled");
+    if (!projects.isValid(job, true)) return Promise.reject("Invalid Job!");
 
     global.status.task[job.author + "/" + job.repo + "/" + job.branch] = "Fetching Resources";
     return new Promise((resolve, reject) => {
@@ -205,6 +210,7 @@ function gatherResources(job, logging) {
  */
 function upload(job, logging) {
     if (!global.status.running) return Promise.reject("The operation has been cancelled");
+    if (!projects.isValid(job, true)) return Promise.reject("Invalid Job!");
 
     global.status.task[job.author + "/" + job.repo + "/" + job.branch] = "Preparing Upload";
     return new Promise((resolve, reject) => {
@@ -237,6 +243,7 @@ function upload(job, logging) {
  */
 function finish(job, logging) {
     if (!global.status.running) return Promise.reject("The operation has been cancelled");
+    if (!projects.isValid(job, true)) return Promise.reject("Invalid Job!");
 
     global.status.task[job.author + "/" + job.repo + "/" + job.branch] = "Uploading";
     return Promise.all([

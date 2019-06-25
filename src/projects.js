@@ -8,7 +8,8 @@ module.exports = {
     generateHTML,
     generateBadge,
     clearWorkspace,
-    clearFolder
+    clearFolder,
+    isValid
 }
 
 /**
@@ -49,6 +50,11 @@ function getProjects(logging) {
  */
 function addBuild(job, logging) {
     return new Promise((resolve, reject) => {
+        if (!isValid(job, true)) {
+            reject("Invalid Job");
+            return;
+        }
+
         var file = path.resolve(__dirname, "../" + job.author + "/" + job.repo + "/" + job.branch + "/builds.json");
         var builds = {};
 
@@ -71,27 +77,29 @@ function addBuild(job, logging) {
             builds.latest = job.id;
 
             // Apply any Tags
-            for (var build in builds) {
-                for (var tag in job.tags) {
+            for (let build of builds) {
+                for (let tag in job.tags) {
                     if (job.tags[tag] === build.sha) {
-                        builds[build].candidate = "RELEASE";
-                        builds[build].tag = tag;
+                        build.candidate = "RELEASE";
+                        build.tag = tag;
                         break;
                     }
                 }
             }
 
-            if (logging) console.log("-> Saving 'builds.json'...")
+            if (logging) console.log("-> Saving 'builds.json'...");
             fs.writeFile(file, JSON.stringify(builds), "utf8").then(resolve, reject);
         }
 
-        if (logging) console.log("-> Reading 'builds.json'...")
-        fs.access(file, FileSystem.constants.F_OK | FileSystem.constants.R_OK | FileSystem.constants.W_OK).then(() => {
+        if (logging) console.log("-> Reading 'builds.json'...");
+
+        if (FileSystem.existsSync(file)) {
             fs.readFile(file, "utf8").then((data) => {
                 builds = JSON.parse(data);
                 append();
             }, append);
-        }, append);
+        }
+        else append();
     });
 }
 
@@ -107,6 +115,11 @@ function generateHTML(job, logging) {
     if (logging) console.log("-> Generating 'index.html'...");
 
     return new Promise((resolve, reject) => {
+        if (!isValid(job)) {
+            reject("Invalid Job");
+            return;
+        }
+
         fs.readFile(path.resolve(__dirname, "../resources/template.html"), "utf8").then((html) => {
             html = html.replace(/\${owner}/g, job.author);
             html = html.replace(/\${repository}/g, job.repo);
@@ -131,6 +144,11 @@ function generateBadge(job, logging) {
     if (logging) console.log("-> Generating 'badge.svg'...");
 
     return new Promise((resolve, reject) => {
+        if (!isValid(job)) {
+            reject("Invalid Job");
+            return;
+        }
+
         fs.readFile(path.resolve(__dirname, "../resources/badge.svg"), "utf8").then((svg) => {
             svg = svg.replace(/\${status}/g, job.success ? "SUCCESS": "FAILURE");
             svg = svg.replace(/\${color}/g, job.success ? "rgb(30, 220, 30)": "rgb(220, 30, 30)");
@@ -150,6 +168,8 @@ function generateBadge(job, logging) {
  * @return {Promise}         A promise that resolves when this activity finished
  */
 function clearWorkspace(job, logging) {
+    if (!isValid(job, false)) return Promise.reject("Invalid Job!");
+
     if (!FileSystem.existsSync(path.resolve(__dirname, "../" + job.author + "/" + job.repo + "/" + job.branch + "/files"))) return Promise.resolve();
     else return clearFolder(path.resolve(__dirname, "../" + job.author + "/" + job.repo + "/" + job.branch + "/files"), logging)
 }
@@ -223,4 +243,27 @@ function clearFolder(file, logging) {
             }
         });
     })
+}
+
+/**
+ * This method will check if a Job is valid.
+ * null / undefined or incomplete Job Objects will fail.
+ *
+ * @param  {Object}  job        The job object to be tested
+ * @param  {Boolean} compiled   Whether to check if the job has an ID and success-value
+ * @return {Boolean}            Whether the job is a valid Job
+ */
+function isValid(job, compiled) {
+    if (!job) return false;
+    if (Object.getPrototypeOf(job) !== Object.prototype) return false;
+    if (!(typeof job.author === 'string' || job.author instanceof String)) return false;
+    if (!(typeof job.repo === 'string' || job.repo instanceof String)) return false;
+    if (!(typeof job.branch === 'string' || job.branch instanceof String)) return false;
+
+    if (compiled) {
+        if (!Number.isInteger(job.id)) return false;
+        if (typeof job.success !== "boolean") return false;
+    }
+
+    return true;
 }
