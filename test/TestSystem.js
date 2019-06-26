@@ -62,12 +62,12 @@ describe("Full System Test", function() {
     );
     
 
-    it("passes stage 'upload' - first build (addBuild & generateHTML & generateBadge)", async () =>
+    it("passes stage 'upload' - first build (addBuild & generateHTML & generateBadge)", () =>
         system.upload(job).then(Promise.all([
             assert.isTrue(FileSystem.existsSync(path.resolve(__dirname, "../" + job.author + "/" + job.repo + "/" + job.branch + "/builds.json"))),
             assert.isTrue(FileSystem.existsSync(path.resolve(__dirname, "../" + job.author + "/" + job.repo + "/" + job.branch + "/index.html"))),
             assert.isTrue(FileSystem.existsSync(path.resolve(__dirname, "../" + job.author + "/" + job.repo + "/" + job.branch + "/badge.svg")))
-        ]));
+        ]))
     );
 
     it("passes stage 'upload' - second build (addBuild & generateHTML & generateBadge)", async () => {
