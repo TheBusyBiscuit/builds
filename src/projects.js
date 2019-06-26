@@ -25,7 +25,7 @@ function getProjects(logging) {
             var json = JSON.parse(data);
 
             for (var repo in json) {
-                if (logging) console.log("-> Found Project \"" + repo + "\"");
+                log(logging, "-> Found Project \"" + repo + "\"");
 
                 var job = {
                     "author": repo.split("/")[0],
@@ -59,7 +59,7 @@ function addBuild(job, logging) {
         var builds = {};
 
         var append = () => {
-            if (logging) console.log("-> Adding Build #" + job.id);
+            log(logging, "-> Adding Build #" + job.id);
 
             builds[job.id] = {
                 id: job.id,
@@ -89,11 +89,11 @@ function addBuild(job, logging) {
                 }
             }
 
-            if (logging) console.log("-> Saving 'builds.json'...");
+            log(logging, "-> Saving 'builds.json'...");
             fs.writeFile(file, JSON.stringify(builds), "utf8").then(resolve, reject);
         }
 
-        if (logging) console.log("-> Reading 'builds.json'...");
+        log(logging, "-> Reading 'builds.json'...");
 
         if (FileSystem.existsSync(file)) {
             fs.readFile(file, "utf8").then((data) => {
@@ -114,7 +114,7 @@ function addBuild(job, logging) {
  * @return {Promise}         A promise that resolves when this activity finished
  */
 function generateHTML(job, logging) {
-    if (logging) console.log("-> Generating 'index.html'...");
+    log(logging, "-> Generating 'index.html'...");
 
     return new Promise((resolve, reject) => {
         if (!isValid(job)) {
@@ -127,7 +127,7 @@ function generateHTML(job, logging) {
             html = html.replace(/\${repository}/g, job.repo);
             html = html.replace(/\${branch}/g, job.branch);
 
-            if (logging) console.log("-> Saving 'index.html'...");
+            log(logging, "-> Saving 'index.html'...");
 
             fs.writeFile(path.resolve(__dirname, "../" + job.author + "/" + job.repo + "/" + job.branch + "/index.html"), html, "utf8").then(resolve, reject);
         }, reject);
@@ -143,7 +143,7 @@ function generateHTML(job, logging) {
  * @return {Promise}         A promise that resolves when this activity finished
  */
 function generateBadge(job, logging) {
-    if (logging) console.log("-> Generating 'badge.svg'...");
+    log(logging, "-> Generating 'badge.svg'...");
 
     return new Promise((resolve, reject) => {
         if (!isValid(job)) {
@@ -155,7 +155,7 @@ function generateBadge(job, logging) {
             svg = svg.replace(/\${status}/g, job.success ? "SUCCESS": "FAILURE");
             svg = svg.replace(/\${color}/g, job.success ? "rgb(30, 220, 30)": "rgb(220, 30, 30)");
 
-            if (logging) console.log("-> Saving 'badge.svg'...");
+            log(logging, "-> Saving 'badge.svg'...");
 
             fs.writeFile(path.resolve(__dirname, "../" + job.author + "/" + job.repo + "/" + job.branch + "/badge.svg"), svg, "utf8").then(resolve, reject);
         }, reject);
@@ -184,7 +184,7 @@ function clearWorkspace(job, logging) {
  * @return {Promise}          A promise that resolves when this activity finished
  */
 function clearFolder(file, logging) {
-    if (logging) console.log("-> Deleting '" + path + "'");
+    log(logging, "-> Deleting '" + path + "'");
 
     return new Promise((resolve, reject) => {
         FileSystem.stat(file, function(error, stats) {
@@ -268,4 +268,11 @@ function isValid(job, compiled) {
     }
 
     return true;
+}
+
+/**
+ * This function is just a very simple console.log wrapper, that may be expanded in the future
+ */
+function log(logging, str) {
+    if (logging) console.log(str);
 }

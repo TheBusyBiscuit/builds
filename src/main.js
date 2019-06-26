@@ -28,7 +28,7 @@ module.exports = {
  */
 function start(logging) {
     return new Promise((done, fail) => {
-        if (logging) console.log("Loading Projects...");
+        log(logging, "Loading Projects...");
 
         projects.getProjects(logging).then((jobs) => {
             global.status.jobs = jobs.slice(0);
@@ -44,8 +44,8 @@ function start(logging) {
 
                 if (!global.status.running || i >= jobs.length) done();
                 else {
-                    if (logging) console.log("");
-                    if (logging) console.log("Watching: " + jobs[i].author + "/" + jobs[i].repo + ":" + jobs[i].branch)
+                    log(logging, "");
+                    log(logging, "Watching: " + jobs[i].author + "/" + jobs[i].repo + ":" + jobs[i].branch)
 
                     let job = jobs[i];
 
@@ -121,7 +121,7 @@ function update(job, logging) {
 
     global.status.task[job.author + "/" + job.repo + "/" + job.branch] = "Cloning Repository";
     return new Promise((resolve, reject) => {
-        if (logging) console.log("Updating: " + job.author + "/" + job.repo + ":" + job.branch + " (" + job.id + ")");
+        log(logging, "Updating: " + job.author + "/" + job.repo + ":" + job.branch + " (" + job.id + ")");
         github.clone(job, job.commit.sha, logging).then(() => {
             maven.setVersion(job, "DEV - " + job.id + " (git " + job.commit.sha.substr(0, 8) + ")", true).then(resolve, reject);
         }, reject);
@@ -143,7 +143,7 @@ function compile(job, logging) {
 
     global.status.task[job.author + "/" + job.repo + "/" + job.branch] = "Compiling";
     return new Promise((resolve) => {
-        if (logging) console.log("Compiling: " + job.author + "/" + job.repo + ":" + job.branch + " (" + job.id + ")");
+        log(logging, "Compiling: " + job.author + "/" + job.repo + ":" + job.branch + " (" + job.id + ")");
 
         maven.compile(job, logging)
         .then(() => {
@@ -151,7 +151,7 @@ function compile(job, logging) {
             resolve();
         })
         .catch((err) => {
-            if (logging) console.log(err.stack);
+            log(logging, err.stack);
             job.success = false;
             resolve();
         });
@@ -172,7 +172,7 @@ function gatherResources(job, logging) {
 
     global.status.task[job.author + "/" + job.repo + "/" + job.branch] = "Fetching Resources";
     return new Promise((resolve, reject) => {
-        if (logging) console.log("Gathering Resources: " + job.author + "/" + job.repo + ":" + job.branch);
+        log(logging, "Gathering Resources: " + job.author + "/" + job.repo + ":" + job.branch);
 
         Promise.all([
             github.getLicense(job, logging),
@@ -221,7 +221,7 @@ function upload(job, logging) {
         ];
 
         if (logging) {
-            console.log("Uploading: " + job.author + "/" + job.repo + ":" + job.branch + " (" + job.id + ")");
+            log(logging, "Uploading: " + job.author + "/" + job.repo + ":" + job.branch + " (" + job.id + ")");
             promises.push(discord.sendUpdate(job));
         }
 
@@ -247,4 +247,11 @@ function finish(job, logging) {
         github.pushChanges(job, logging),
         projects.clearWorkspace(job)
     ]);
+}
+
+/**
+ * This function is just a very simple console.log wrapper, that may be expanded in the future
+ */
+function log(logging, str) {
+    if (logging) console.log(str);
 }

@@ -68,13 +68,13 @@ function getLatestCommit(job, token, logging) {
             reject("Invalid Job");
             return;
         }
-        if (logging) console.log("-> Fetching latest Commit...");
+        log(logging, "-> Fetching latest Commit...");
 
         let url = getURL(job, token, "/commits?per_page=1&sha=" + job.branch);
         url.json = true;
 
         request(url).then((json) => {
-            if (logging) console.log("-> commits: 200 - OK");
+            log(logging, "-> commits: 200 - OK");
             resolve(json[0]);
         }, reject);
     });
@@ -94,7 +94,7 @@ function getLicense(job, token, logging) {
             reject("Invalid Job");
             return;
         }
-        if (logging) console.log("-> Fetching License...");
+        log(logging, "-> Fetching License...");
         getJSON(job, token, logging, "license", resolve, reject);
     });
 }
@@ -112,7 +112,7 @@ function getTags(job, token, logging) {
             reject("Invalid Job");
             return;
         }
-        if (logging) console.log("-> Fetching Tags...");
+        log(logging, "-> Fetching Tags...");
         getJSON(job, token, logging, "tags", resolve, reject);
     });
 }
@@ -125,7 +125,7 @@ function getJSON(job, token, logging, endpoint, resolve, reject) {
     url.json = true;
 
     request(url).then((json) => {
-        if (logging) console.log("-> " + endpoint + ": 200 - OK");
+        log(logging, "-> " + endpoint + ": 200 - OK");
         resolve(json);
     }, reject);
 }
@@ -199,7 +199,7 @@ function clone(job, commit, logging) {
             reject("Invalid Job");
             return;
         }
-        if (logging) console.log("-> Executing 'git clone'");
+        log(logging, "-> Executing 'git clone'");
 
         var cloning = process.spawn("git", [
             "clone",
@@ -215,10 +215,8 @@ function clone(job, commit, logging) {
         }
 
         cloning.then(() => {
-            if (logging) {
-                console.log("-> Finished 'git clone'");
-                console.log("-> Executing 'git reset'");
-            }
+            log(logging, "-> Finished 'git clone'");
+            log(logging, "-> Executing 'git reset'");
 
             var refresh = process.spawn("git", [
                 "reset",
@@ -228,13 +226,11 @@ function clone(job, commit, logging) {
                 cwd: path.resolve(__dirname, "../" + job.author + "/" + job.repo + "/" + job.branch + "/files")
             });
 
-            if (logging) {
-                refresh.childProcess.stdout.on('data', (data) => console.log("-> " + data));
-                refresh.childProcess.stderr.on('data', (data) => console.log("-> " + data));
-            }
+            refresh.childProcess.stdout.on('data', (data) => log(logging, "-> " + data));
+            refresh.childProcess.stderr.on('data', (data) => log(logging, "-> " + data));
 
             refresh.then(() => {
-                if (logging) console.log("-> Finished 'git reset'");
+                log(logging, "-> Finished 'git reset'");
                 resolve();
             }, reject);
         }, reject);
@@ -255,23 +251,19 @@ function pushChanges(job, logging) {
             reject("Invalid Job");
             return;
         }
-        if (logging) console.log("-> Executing 'git add'");
+        log(logging, "-> Executing 'git add'");
 
         var add = process.spawn("git", [
             "add",
             path.resolve(__dirname, "../" + job.author + "/" + job.repo + "/" + job.branch + "/*")
         ]);
 
-        if (logging) {
-            add.childProcess.stdout.on('data', (data) => console.log("-> " + data));
-            add.childProcess.stderr.on('data', (data) => console.log("-> " + data));
-        }
+        add.childProcess.stdout.on('data', (data) => log(logging, "-> " + data));
+        add.childProcess.stderr.on('data', (data) => log(logging, "-> " + data));
 
         add.then(() => {
-            if (logging) {
-                console.log("-> Finished 'git add'");
-                console.log("-> Executing 'git commit'");
-            }
+            log(logging, "-> Finished 'git add'");
+            log(logging, "-> Executing 'git commit'");
 
             var commit = process.spawn("git", [
                 "commit",
@@ -279,26 +271,20 @@ function pushChanges(job, logging) {
                 (job.success ? "Successfully compiled: ": "Failed to compile: ") + job.author + "/" + job.repo + ":" + job.branch + " (" + job.id + ")"
             ]);
 
-            if (logging) {
-                commit.childProcess.stdout.on('data', (data) => console.log("-> " + data));
-                commit.childProcess.stderr.on('data', (data) => console.log("-> " + data));
-            }
+            commit.childProcess.stdout.on('data', (data) => log(logging, "-> " + data));
+            commit.childProcess.stderr.on('data', (data) => log(logging, "-> " + data));
 
             commit.then(() => {
-                if (logging) {
-                    console.log("-> Finished 'git commit'");
-                    console.log("-> Executing 'git push'");
-                }
+                log(logging, "-> Finished 'git commit'");
+                log(logging, "-> Executing 'git push'");
 
                 var push = process.spawn("git", ["push"]);
 
-                if (logging) {
-                    push.childProcess.stdout.on('data', (data) => console.log("-> " + data));
-                    push.childProcess.stderr.on('data', (data) => console.log("-> " + data));
-                }
+                push.childProcess.stdout.on('data', (data) => log(logging, "-> " + data));
+                push.childProcess.stderr.on('data', (data) => log(logging, "-> " + data));
 
                 push.then(() => {
-                    if (logging) console.log("-> Finished 'git push'");
+                    log(logging, "-> Finished 'git push'");
                     resolve();
                 }, reject);
             }, reject);
@@ -345,4 +331,11 @@ function parseDate(str) {
     date += str.split("T")[1].replace("Z", "") + ")";
 
     return date;
+}
+
+/**
+ * This function is just a very simple console.log wrapper, that may be expanded in the future
+ */
+function log(logging, str) {
+    if (logging) console.log(str);
 }

@@ -86,7 +86,7 @@ function compile(job, logging) {
             reject("Invalid Job");
             return;
         }
-        if (logging) console.log("-> Executing 'mvn package'");
+        log(logging, "-> Executing 'mvn package'");
 
         var compiler = process.spawn("mvn", [
             "clean",
@@ -97,25 +97,23 @@ function compile(job, logging) {
             shell: true
         });
 
-        if (logging) {
-            compiler.childProcess.stdout.on('data', (data) => {
-                console.log("-> " + data);
-                FileSystem.appendFile(path.resolve(__dirname, "../" + job.author + "/" + job.repo + "/" + job.branch + "/" + job.repo + "-" + job.id + ".log"), data, "UTF-8", function(err) {
-                    if (err) {
-                        console.log(err);
-                    }
-                });
+        compiler.childProcess.stdout.on('data', (data) => {
+            log(logging, "-> " + data);
+            FileSystem.appendFile(path.resolve(__dirname, "../" + job.author + "/" + job.repo + "/" + job.branch + "/" + job.repo + "-" + job.id + ".log"), data, "UTF-8", function(err) {
+                if (err) {
+                    console.log(err);
+                }
             });
+        });
 
-            compiler.childProcess.stderr.on('data', (data) => {
-                console.log("-> " + data);
-                FileSystem.appendFile(path.resolve(__dirname, "../" + job.author + "/" + job.repo + "/" + job.branch + "/" + job.repo + "-" + job.id + ".log"), data, "UTF-8", function(err) {
-                    if (err) {
-                        console.log(err);
-                    }
-                });
+        compiler.childProcess.stderr.on('data', (data) => {
+            log(logging, "-> " + data);
+            FileSystem.appendFile(path.resolve(__dirname, "../" + job.author + "/" + job.repo + "/" + job.branch + "/" + job.repo + "-" + job.id + ".log"), data, "UTF-8", function(err) {
+                if (err) {
+                    console.log(err);
+                }
             });
-        }
+        });
 
         compiler.then(resolve, reject);
     });
@@ -153,4 +151,11 @@ function isValid(job) {
     if (!Number.isInteger(job.id)) return false;
 
     return true;
+}
+
+/**
+ * This function is just a very simple console.log wrapper, that may be expanded in the future
+ */
+function log(logging, str) {
+    if (logging) console.log(str);
 }
