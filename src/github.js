@@ -74,11 +74,8 @@ function getLatestCommit(job, token, logging) {
         url.json = true;
 
         request(url).then((json) => {
-            if (json.documentation_url != null) reject("404 - Incomplete JSON");
-            else {
-                if (logging) console.log("-> Commits: 200 - OK");
-                resolve(json[0]);
-            }
+            if (logging) console.log("-> commits: 200 - OK");
+            resolve(json[0]);
         }, reject);
     });
 }
@@ -128,11 +125,8 @@ function getJSON(job, token, logging, endpoint, resolve, reject) {
     url.json = true;
 
     request(url).then((json) => {
-        if (json.documentation_url != null) reject("404 - Incomplete JSON");
-        else {
-            if (logging) console.log("-> Tags: 200 - OK");
-            resolve(json);
-        }
+        if (logging) console.log("-> " + endpoint + ": 200 - OK");
+        resolve(json);
     }, reject);
 }
 
@@ -153,10 +147,7 @@ function exists(job, token) {
         let url = getURL(job, token, "");
         url.json = true;
 
-        request(url).then((json) => {
-            if (json.documentation_url != null) reject("404 - Incomplete JSON");
-            else resolve(json);
-        }, reject);
+        request(url).then(resolve, reject);
     });
 }
 

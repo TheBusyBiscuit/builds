@@ -14,6 +14,7 @@ const commitsTest = require('../test/TestCommits.js')(assert, github);
 const licenseTest = require('../test/TestLicense.js')(assert, github);
 const tagsTest = require('../test/TestTags.js')(assert, github);
 const comparisonTest = require('../test/TestComparison.js')(assert, github);
+const gitTest = require('../test/TestGit.js')(github);
 
 var testDirectory = path.resolve(__dirname, "../testRepository/repo/master");
 var testBuilds = {
@@ -49,6 +50,7 @@ describe("GitHub Connectivity Test", () => {
     describe("License", licenseTest);
     describe("Tags", tagsTest);
     describe("Update Checker", comparisonTest);
+    describe("Git Test", gitTest);
 
     after(cleanup);
 });

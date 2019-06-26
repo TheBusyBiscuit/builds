@@ -225,10 +225,7 @@ function upload(job, logging) {
             promises.push(discord.sendUpdate(job));
         }
 
-        Promise.all(promises).then(() => {
-            console.log("Deleting working directory...")
-            resolve();
-        }, reject);
+        Promise.all(promises).then(resolve, reject);
     });
 }
 

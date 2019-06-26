@@ -60,15 +60,16 @@ describe("Full System Test", function() {
             assert.isTrue(FileSystem.existsSync(path.resolve(__dirname, "../" + job.author + "/" + job.repo + "/" + job.branch + "/" + job.repo + "-" + job.id + ".jar")))
         ]))
     );
-    
 
-    it("passes stage 'upload' - first build (addBuild & generateHTML & generateBadge)", () =>
-        system.upload(job).then(Promise.all([
+
+    it("passes stage 'upload' - first build (addBuild & generateHTML & generateBadge)", async () => {
+        await system.upload(job);
+        return Promise.all([
             assert.isTrue(FileSystem.existsSync(path.resolve(__dirname, "../" + job.author + "/" + job.repo + "/" + job.branch + "/builds.json"))),
             assert.isTrue(FileSystem.existsSync(path.resolve(__dirname, "../" + job.author + "/" + job.repo + "/" + job.branch + "/index.html"))),
             assert.isTrue(FileSystem.existsSync(path.resolve(__dirname, "../" + job.author + "/" + job.repo + "/" + job.branch + "/badge.svg")))
-        ]))
-    );
+        ]);
+    });
 
     it("passes stage 'upload' - second build (addBuild & generateHTML & generateBadge)", async () => {
         job.id = 2;

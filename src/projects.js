@@ -59,7 +59,8 @@ function addBuild(job, logging) {
         var builds = {};
 
         var append = () => {
-            if (logging) console.log("-> Adding Build #" + job.id)
+            if (logging) console.log("-> Adding Build #" + job.id);
+
             builds[job.id] = {
                 id: job.id,
                 sha: job.commit.sha,
@@ -74,6 +75,7 @@ function addBuild(job, logging) {
             }
 
             if (job.success) builds.last_successful = job.id;
+
             builds.latest = job.id;
 
             // Apply any Tags
@@ -126,8 +128,8 @@ function generateHTML(job, logging) {
             html = html.replace(/\${branch}/g, job.branch);
 
             if (logging) console.log("-> Saving 'index.html'...");
-            fs.writeFile(path.resolve(__dirname, "../" + job.author + "/" + job.repo + "/" + job.branch + "/index.html"), html, "utf8")
-            .then(resolve, reject);
+
+            fs.writeFile(path.resolve(__dirname, "../" + job.author + "/" + job.repo + "/" + job.branch + "/index.html"), html, "utf8").then(resolve, reject);
         }, reject);
     });
 }
@@ -154,8 +156,8 @@ function generateBadge(job, logging) {
             svg = svg.replace(/\${color}/g, job.success ? "rgb(30, 220, 30)": "rgb(220, 30, 30)");
 
             if (logging) console.log("-> Saving 'badge.svg'...");
-            fs.writeFile(path.resolve(__dirname, "../" + job.author + "/" + job.repo + "/" + job.branch + "/badge.svg"), svg, "utf8")
-            .then(resolve, reject);
+
+            fs.writeFile(path.resolve(__dirname, "../" + job.author + "/" + job.repo + "/" + job.branch + "/badge.svg"), svg, "utf8").then(resolve, reject);
         }, reject);
     });
 }
