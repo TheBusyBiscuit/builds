@@ -60,8 +60,19 @@ describe("Full System Test", function() {
             assert.isTrue(FileSystem.existsSync(path.resolve(__dirname, "../" + job.author + "/" + job.repo + "/" + job.branch + "/" + job.repo + "-" + job.id + ".jar")))
         ]))
     );
+    
 
-    it("passes stage 'upload' (addBuild & generateHTML & generateBadge)", async () => {
+    it("passes stage 'upload' - first build (addBuild & generateHTML & generateBadge)", async () =>
+        system.upload(job).then(Promise.all([
+            assert.isTrue(FileSystem.existsSync(path.resolve(__dirname, "../" + job.author + "/" + job.repo + "/" + job.branch + "/builds.json"))),
+            assert.isTrue(FileSystem.existsSync(path.resolve(__dirname, "../" + job.author + "/" + job.repo + "/" + job.branch + "/index.html"))),
+            assert.isTrue(FileSystem.existsSync(path.resolve(__dirname, "../" + job.author + "/" + job.repo + "/" + job.branch + "/badge.svg")))
+        ]));
+    );
+
+    it("passes stage 'upload' - second build (addBuild & generateHTML & generateBadge)", async () => {
+        job.id = 2;
+        job.success = false;
         job.tags = {};
         job.tags["1.0"] = job.commit.sha;
 
