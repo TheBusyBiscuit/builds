@@ -1,0 +1,37 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -------------------< me.mrCookieSlime:ExoticGarden >--------------------
+[INFO] Building ExoticGarden DEV - 16 (git d40ee231)
+[INFO] --------------------------------[ jar ]---------------------------------
+[WARNING] The POM for com.github.TheBusyBiscuit:CS-CoreLib:jar:4d33f14f4e is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+[WARNING] The POM for com.github.TheBusyBiscuit:Slimefun4:jar:8f173ea76c is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ ExoticGarden ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ ExoticGarden ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 12 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ ExoticGarden ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 27 source files to /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ ExoticGarden ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/tests/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ ExoticGarden ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ ExoticGarden ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ ExoticGarden ---
+[INFO] Building jar: /home/pi/Desktop/Build Server/TheBusyBiscuit/ExoticGarden/master/files/target/ExoticGarden-16.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  9.397 s
+[INFO] Finished at: 2019-06-27T20:56:21+02:00
+[INFO] ------------------------------------------------------------------------
