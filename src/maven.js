@@ -99,23 +99,17 @@ function compile(job, logging) {
             shell: true
         });
 
-        compiler.childProcess.stdout.on('data', (data) => {
+        var logger = (data) => {
             log(logging, "-> " + data);
             FileSystem.appendFile(path.resolve(__dirname, "../" + job.author + "/" + job.repo + "/" + job.branch + "/" + job.repo + "-" + job.id + ".log"), data, "UTF-8", function(err) {
                 if (err) {
                     console.log(err);
                 }
             });
-        });
+        };
 
-        compiler.childProcess.stderr.on('data', (data) => {
-            log(logging, "-> " + data);
-            FileSystem.appendFile(path.resolve(__dirname, "../" + job.author + "/" + job.repo + "/" + job.branch + "/" + job.repo + "-" + job.id + ".log"), data, "UTF-8", function(err) {
-                if (err) {
-                    console.log(err);
-                }
-            });
-        });
+        compiler.childProcess.stdout.on('data', logger);
+        compiler.childProcess.stderr.on('data', logger);
 
         compiler.then(resolve, reject);
     });

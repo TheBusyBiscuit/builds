@@ -210,10 +210,8 @@ function clone(job, commit, logging) {
             "--single-branch"
         ]);
 
-        if (logging) {
-            cloning.childProcess.stdout.on('data', (data) => console.log("-> " + data));
-            cloning.childProcess.stderr.on('data', (data) => console.log("-> " + data));
-        }
+        cloning.childProcess.stdout.on('data', (data) => log(logging, "-> " + data));
+        cloning.childProcess.stderr.on('data', (data) => log(logging, "-> " + data));
 
         cloning.then(() => {
             log(logging, "-> Finished 'git clone'");

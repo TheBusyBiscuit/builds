@@ -221,10 +221,8 @@ function upload(job, logging) {
             projects.generateBadge(job, logging)
         ];
 
-        if (logging) {
-            log(logging, "Uploading: " + job.author + "/" + job.repo + ":" + job.branch + " (" + job.id + ")");
-            promises.push(discord.sendUpdate(job));
-        }
+        log(logging, "Uploading: " + job.author + "/" + job.repo + ":" + job.branch + " (" + job.id + ")");
+        if (logging) promises.push(discord.sendUpdate(job));
 
         Promise.all(promises).then(resolve, reject);
     });
