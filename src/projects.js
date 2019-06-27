@@ -185,68 +185,45 @@ function clearWorkspace(job, logging) {
  * @param  {Boolean} logging  Whether the internal activity should be logged
  * @return {Promise}          A promise that resolves when this activity finished
  */
-function clearFolder(file, logging) {
+async function clearFolder(file, logging) {
     log(logging, "-> Deleting '" + path + "'");
 
-    return new Promise((resolve, reject) => {
-        FileSystem.stat(file, function(error, stats) {
-            if (error) {
-                reject(error);
+    var stats = await fs.stat(file);
+
+    if (stats.isFile()) {
+        return fs.unlink(file);
+    }
+    else if (stats.isDirectory()) {
+        var files = await fs.readdir(file);
+        var length = files.length;
+        var index = 0;
+
+        return new Promise((resolve, reject) => {
+            var check = () => {
+                if (length === index) {
+                    fs.rmdir(file).then(resolve, reject);
+                    return true;
+                }
+                else return false;
             }
-            else if (stats.isFile()) {
-                FileSystem.unlink(file, function(err) {
-                    if (err) {
-                        reject(err);
-                    }
-                    else{
-                        resolve();
-                    }
-                });
+
+            if(!check()) {
+                var next = () => {
+                    index++;
+                    check();
+                };
+
+                var cancel = (e) => {
+                    reject(e);
+                    i = length;
+                };
+
+                for (var i = 0; i < length; i++) {
+                    clearFolder(file + '/' + files[i], logging).then(next, cancel);
+                }
             }
-            else if (stats.isDirectory()) {
-                FileSystem.readdir(file, function(err, files) {
-                    if (err) {
-                        reject(err);
-                    }
-                    else {
-                        var length = files.length;
-                        var index = 0;
-
-                        function check() {
-                            if(length === index) {
-                                FileSystem.rmdir(file, function(e) {
-                                    if(e) {
-                                        reject(e);
-                                    }
-                                    else {
-                                        resolve();
-                                    }
-                                });
-                                return true;
-                            }
-                            return false;
-                        }
-
-                        if(!check()) {
-                            var next = () => {
-                                index++;
-                                check();
-                            };
-
-                            var cancel = (e) => {
-                                reject(e);
-                                i = length;
-                            };
-
-                            for (var i = 0; i < length; i++) {
-                                clearFolder(file + '/' + files[i], logging).then(next, cancel);
-                            }
-                        }
-                    }
-                });
-            }
-        });
-    })
+        })
+    }
 }
 
 /**

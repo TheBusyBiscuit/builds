@@ -157,7 +157,9 @@ describe("Full System Test", function() {
 
     })
 
-    after(cleanup);
+    it("can clear the working directory", () =>
+        assert.isFulfilled(cleanup())
+    );
 });
 
 function cleanup() {
