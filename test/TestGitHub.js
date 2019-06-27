@@ -8,6 +8,7 @@ const {assert} = chai;
 const credentials = JSON.parse(FileSystem.readFileSync(path.resolve(__dirname, "../resources/credentials.json"), "UTF8"));
 const github = require('../src/github.js')(credentials.github);
 const projects = require('../src/projects.js');
+const testJobs = require('../test/TestJobs.js');
 
 // Individual Tests
 const commitsTest = require('../test/TestCommits.js')(assert, github);
@@ -51,6 +52,8 @@ describe("GitHub Connectivity Test", () => {
     describe("Tags", tagsTest);
     describe("Update Checker", comparisonTest);
     describe("Git Test", gitTest);
+    
+    describe("Repository Existence Check", () => testJobs(false, (job) => github.exists(job)))
 
     after(cleanup);
 });
