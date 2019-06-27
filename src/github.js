@@ -6,6 +6,7 @@ const fs = FileSystem.promises;
 const path = require('path');
 
 const projects = require('../src/projects.js');
+const log = require('../src/logger.js');
 
 const months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
 
@@ -331,11 +332,4 @@ function parseDate(str) {
     date += str.split("T")[1].replace("Z", "") + ")";
 
     return date;
-}
-
-/**
- * This function is just a very simple console.log wrapper, that may be expanded in the future
- */
-function log(logging, str) {
-    if (logging) console.log(str);
 }

@@ -2,6 +2,8 @@ const FileSystem = require('fs');
 const fs = FileSystem.promises;
 const path = require('path');
 
+const log = require('../src/logger.js');
+
 module.exports = {
     getProjects,
     addBuild,
@@ -268,11 +270,4 @@ function isValid(job, compiled) {
     }
 
     return true;
-}
-
-/**
- * This function is just a very simple console.log wrapper, that may be expanded in the future
- */
-function log(logging, str) {
-    if (logging) console.log(str);
 }

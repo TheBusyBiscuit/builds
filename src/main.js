@@ -8,6 +8,7 @@ const projects = require('../src/projects.js');
 const maven = require('../src/maven.js');
 const github = require('../src/github.js')(credentials.github);
 const discord = require('../src/discord.js')(credentials.discord);
+const log = require('../src/logger.js');
 
 module.exports = {
     start,
@@ -247,11 +248,4 @@ function finish(job, logging) {
         github.pushChanges(job, logging),
         projects.clearWorkspace(job)
     ]);
-}
-
-/**
- * This function is just a very simple console.log wrapper, that may be expanded in the future
- */
-function log(logging, str) {
-    if (logging) console.log(str);
 }

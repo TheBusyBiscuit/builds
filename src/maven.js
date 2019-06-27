@@ -5,6 +5,8 @@ const FileSystem = require('fs');
 const fs = FileSystem.promises;
 const path = require('path');
 
+const log = require('../src/logger.js');
+
 const minify = {
     indent: 0,
     header: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>",
@@ -151,11 +153,4 @@ function isValid(job) {
     if (!Number.isInteger(job.id)) return false;
 
     return true;
-}
-
-/**
- * This function is just a very simple console.log wrapper, that may be expanded in the future
- */
-function log(logging, str) {
-    if (logging) console.log(str);
 }
