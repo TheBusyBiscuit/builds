@@ -192,7 +192,7 @@ function gatherResources(job, logging) {
             job.tags = {};
 
             for (var index in tags) {
-                job.tags[tags[index]] = tags[index].commit.sha;
+                job.tags[tags[index].name] = tags[index].commit.sha;
             }
 
             resolve();
