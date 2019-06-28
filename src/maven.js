@@ -44,32 +44,27 @@ function setVersion(job, version, compact) {
         var file = path.resolve(__dirname, "../" + job.author + "/" + job.repo + "/" + job.branch + "/files/pom.xml");
 
         fs.readFile(file, "utf8").then((data) => {
-            XML.parseXML(data, (error, json) => {
-                if (error) reject(error);
-                else {
-                    json.getChild("version").setValue(version);
+            XML.promises.fromXML(data).then((json) => {
+                json.getChild("version").setValue(version);
 
-                    if (compact) {
-                        var node = json.getChild(["build", "finalName"]);
+                if (compact) {
+                    var node = json.getChild(["build", "finalName"]);
 
-                        if (node) {
-                            node.setValue(job.repo + "-" + job.id);
-                        }
-                        else {
-                            json.getChild("build").addChild(new XML.XMLNode("finalName", null, null, job.repo + "-" + job.id));
-                        }
+                    if (node) {
+                        node.setValue(job.repo + "-" + job.id);
                     }
-
-                    json.asXMLString(compact ? minify: beautify, (err, xml) => {
-                        if (err) reject(err);
-
-                        else FileSystem.writeFile(file, xml, "utf8", (e) => {
-                            if (e) reject(e);
-                            else resolve();
-                        });
-                    });
+                    else {
+                        json.getChild("build").addChild(new XML.XMLNode("finalName", null, null, job.repo + "-" + job.id));
+                    }
                 }
-            });
+
+                XML.promises.toXML(json, compact ? minify: beautify).then((xml) => {
+                    FileSystem.writeFile(file, xml, "utf8", (e) => {
+                        if (e) reject(e);
+                        else resolve();
+                    });
+                }, reject);
+            }, reject);
         }, reject);
     });
 }
