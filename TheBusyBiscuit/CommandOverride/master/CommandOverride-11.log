@@ -1,0 +1,46 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------< io.github.thebusybiscuit:CommandOverride >--------------
+[INFO] Building CommandOverride DEV - 11 (git 632036eb)
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] Downloading from placeholderapi-repo: http://repo.extendedclip.com/content/repositories/placeholderapi/org/bukkit/bukkit/1.14.2-R0.1-SNAPSHOT/maven-metadata.xml
+[WARNING] The POM for com.github.thebusybiscuit:CS-CoreLib2:jar:0.3.4 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+[INFO] Downloading from placeholderapi-repo: http://repo.extendedclip.com/content/repositories/placeholderapi/org/bukkit/bukkit/1.13.1-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ CommandOverride ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ CommandOverride ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ CommandOverride ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 3 source files to /home/pi/Desktop/Build Server/TheBusyBiscuit/CommandOverride/master/files/target/classes
+[WARNING] /home/pi/Desktop/Build Server/TheBusyBiscuit/CommandOverride/master/files/src/io/github/thebusybiscuit/commandoverride/CommandOverride.java: /home/pi/Desktop/Build Server/TheBusyBiscuit/CommandOverride/master/files/src/io/github/thebusybiscuit/commandoverride/CommandOverride.java uses or overrides a deprecated API.
+[WARNING] /home/pi/Desktop/Build Server/TheBusyBiscuit/CommandOverride/master/files/src/io/github/thebusybiscuit/commandoverride/CommandOverride.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ CommandOverride ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/pi/Desktop/Build Server/TheBusyBiscuit/CommandOverride/master/files/tests/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ CommandOverride ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ CommandOverride ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ CommandOverride ---
+[INFO] Building jar: /home/pi/Desktop/Build Server/TheBusyBiscuit/CommandOverride/master/files/target/CommandOverride-11.jar
+[INFO] 
+[INFO] --- maven-shade-plugin:3.2.1:shade (default) @ CommandOverride ---
+[INFO] Including com.github.thebusybiscuit:CS-CoreLib2:jar:0.3.4 in the shaded jar.
+[INFO] Including org.bstats:bstats-bukkit:jar:1.5 in the shaded jar.
+[INFO] Replacing original artifact with shaded artifact.
+[INFO] Replacing /home/pi/Desktop/Build Server/TheBusyBiscuit/CommandOverride/master/files/target/CommandOverride-11.jar with /home/pi/Desktop/Build Server/TheBusyBiscuit/CommandOverride/master/files/target/CommandOverride-DEV - 11 (git 632036eb)-shaded.jar
+[INFO] Dependency-reduced POM written at: /home/pi/Desktop/Build Server/TheBusyBiscuit/CommandOverride/master/files/dependency-reduced-pom.xml
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  12.595 s
+[INFO] Finished at: 2019-06-28T18:42:55+02:00
+[INFO] ------------------------------------------------------------------------
