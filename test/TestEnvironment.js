@@ -35,9 +35,10 @@ describe("Environment Test", function() {
         return expect(() => {
             var log = console.log;
             // Temporarily disable console.log
-            console.log = (str) => {};
+            console.log = () => {};
 
             logger(true, "Hello World");
+            logger(true, " ", true);
 
             console.log = log;
         }).to.not.throw();
