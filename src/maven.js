@@ -95,7 +95,7 @@ function compile(job, logging) {
         });
 
         var logger = (data) => {
-            log(logging, "-> " + data, true);
+            log(logging, data, true);
             FileSystem.appendFile(path.resolve(__dirname, "../" + job.author + "/" + job.repo + "/" + job.branch + "/" + job.repo + "-" + job.id + ".log"), data, "UTF-8", function(err) {
                 if (err) {
                     console.log(err);
