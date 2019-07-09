@@ -5,8 +5,8 @@ const chai = require('chai');
 chai.use(require('chai-as-promised'));
 const {assert} = chai;
 
-const credentials = JSON.parse(FileSystem.readFileSync(path.resolve(__dirname, "../resources/credentials.json"), "UTF8"));
-const github = require('../src/github.js')(credentials.github);
+const cfg = require('../src/config.js')(path.resolve(__dirname, "../resources/config.json"));
+const github = require('../src/github.js')(cfg.github);
 const projects = require('../src/projects.js');
 const testJobs = require('../test/TestJobs.js');
 
@@ -52,7 +52,7 @@ describe("GitHub Connectivity Test", () => {
     describe("Tags", tagsTest);
     describe("Update Checker", comparisonTest);
     describe("Git Test", gitTest);
-    
+
     describe("Repository Existence Check", () => testJobs(false, (job) => github.exists(job)))
 
     after(cleanup);

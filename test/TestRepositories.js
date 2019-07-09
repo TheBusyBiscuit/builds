@@ -6,7 +6,8 @@ const chai = require('chai');
 chai.use(require('chai-as-promised'));
 const {assert} = chai;
 
-const github = require('../src/github.js')(JSON.parse(FileSystem.readFileSync(path.resolve(__dirname, "../resources/credentials.json"), "UTF8")).github);
+const cfg = require('../src/config.js')(path.resolve(__dirname, "../resources/config.json"));
+const github = require('../src/github.js')(cfg.github);
 const projects = require('../src/projects.js');
 
 fs.readFile(path.resolve(__dirname, "../resources/repos.json")).then((data) => {

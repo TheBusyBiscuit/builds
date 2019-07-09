@@ -1,18 +1,18 @@
 const Discord = require('discord.js');
-
 const projects = require('../src/projects.js');
 
 module.exports = (cfg) => {
 	var config = cfg;
+
     var webhook = {
         send: () => Promise.resolve()
     };
 
-    if (cfg) webhook = new Discord.WebhookClient(cfg.id, cfg.token);
+    if (config) webhook = new Discord.WebhookClient(config.getID(), config.getToken());
 	else config = {
-		messages: {
-			success: "This Build was a success!",
-			failure: "This Build was a failure!"
+		isEnabled: () => true,
+		getMessages: (success) => {
+			return success ? "This Build was a success!": "This Build was a failure!";
 		}
 	}
 
@@ -28,6 +28,11 @@ module.exports = (cfg) => {
          */
         sendUpdate: (job) => sendUpdate(webhook, job, config),
 
+		/**
+		 * This method returns the discord config used by this instance
+		 *
+		 * @return {Object} Config
+		 */
         getConfig: () => config
     }
 };
@@ -43,12 +48,14 @@ module.exports = (cfg) => {
  */
 function sendUpdate(webhook, job, cfg) {
     return new Promise((resolve, reject) => {
+		if (!cfg.isEnabled()) resolve();
+
         if (!projects.isValid(job, true)) {
             reject("Invalid Job");
             return;
         }
 
-        var message = job.success ? cfg.messages.success[Math.floor(Math.random() * cfg.messages.success.length)]: cfg.messages.failure[Math.floor(Math.random() * cfg.messages.failure.length)];
+        var message = cfg.getMessages(job.success)[Math.floor(Math.random() * cfg.getMessages(job.success).length)];
         message = message.replace(/<user>/g, job.author).replace(/<repo>/g, job.repo).replace(/<branch>/g, job.branch).replace(/<id>/g, job.id);
 
         webhook.send(

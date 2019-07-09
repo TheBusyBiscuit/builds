@@ -10,7 +10,7 @@ const log = require('../src/logger.js');
 
 const months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
 
-module.exports = (token) => {
+module.exports = (cfg) => {
     return {
         /**
          * This method will return the latest Commit for the specified Job
@@ -19,7 +19,7 @@ module.exports = (token) => {
          * @param  {Boolean} logging    Whether the internal behaviour should be logged
          * @return {Promise<Object>}    This will return a Promise that resolve with the latest commits
          */
-        getLatestCommit: (job, logging) => getLatestCommit(job, token, logging),
+        getLatestCommit: (job, logging) => getLatestCommit(job, cfg, logging),
 
         /**
          * This method will return a repository's license.
@@ -29,7 +29,7 @@ module.exports = (token) => {
          * @param  {Boolean} logging    Whether the internal behaviour should be logged
          * @return {Promise}            This will return a Promise that resolve with the project license
          */
-        getLicense: (job, logging) => getLicense(job, token, logging),
+        getLicense: (job, logging) => getLicense(job, cfg, logging),
 
         /**
          * This method will return a repository's tags.
@@ -38,7 +38,7 @@ module.exports = (token) => {
          * @param  {Object} job  The currently handled Job Object
          * @return {Promise}     This will return a Promise that resolve with the project tags
          */
-        getTags: (job, logging) => getTags(job, token, logging),
+        getTags: (job, logging) => getTags(job, cfg, logging),
 
         /**
          * This method will return a Promise.
@@ -47,7 +47,14 @@ module.exports = (token) => {
          * @param  {Object} job  The currently handled Job Object
          * @return {Promise}     This will return a Promise that resolve if the repository exists
          */
-        exists: (job) => exists(job, token),
+        exists: (job) => exists(job, cfg),
+
+        /**
+		 * This method returns the discord config used by this instance
+		 *
+		 * @return {Object} Config
+		 */
+        getConfig: () => cfg,
 
         clone,
         pushChanges,
@@ -63,7 +70,7 @@ module.exports = (token) => {
  * @param  {Boolean} logging    Whether the internal behaviour should be logged
  * @return {Promise<Object>}    This will return a Promise that resolve with the latest commits
  */
-function getLatestCommit(job, token, logging) {
+function getLatestCommit(job, cfg, logging) {
     return new Promise((resolve, reject) => {
         if (!projects.isValid(job)) {
             reject("Invalid Job");
@@ -71,7 +78,7 @@ function getLatestCommit(job, token, logging) {
         }
         log(logging, "-> Fetching latest Commit...");
 
-        let url = getURL(job, token, "/commits?per_page=1&sha=" + job.branch);
+        let url = getURL(job, cfg, "/commits?per_page=1&sha=" + job.branch);
         url.json = true;
 
         request(url).then((json) => {
@@ -89,14 +96,14 @@ function getLatestCommit(job, token, logging) {
  * @param  {Boolean} logging    Whether the internal behaviour should be logged
  * @return {Promise}            This will return a Promise that resolve with the project license
  */
-function getLicense(job, token, logging) {
+function getLicense(job, cfg, logging) {
     return new Promise((resolve, reject) => {
         if (!projects.isValid(job)) {
             reject("Invalid Job");
             return;
         }
         log(logging, "-> Fetching License...");
-        getJSON(job, token, logging, "license", resolve, reject);
+        getJSON(job, cfg, logging, "license", resolve, reject);
     });
 }
 
@@ -107,22 +114,22 @@ function getLicense(job, token, logging) {
  * @param  {Object} job  The currently handled Job Object
  * @return {Promise}     This will return a Promise that resolve with the project tags
  */
-function getTags(job, token, logging) {
+function getTags(job, cfg, logging) {
     return new Promise((resolve, reject) => {
         if (!projects.isValid(job)) {
             reject("Invalid Job");
             return;
         }
         log(logging, "-> Fetching Tags...");
-        getJSON(job, token, logging, "tags", resolve, reject);
+        getJSON(job, cfg, logging, "tags", resolve, reject);
     });
 }
 
 /**
  * A private utility method for fetching JSON Objects from GitHub's API
  */
-function getJSON(job, token, logging, endpoint, resolve, reject) {
-    let url = getURL(job, token, "/" + endpoint);
+function getJSON(job, cfg, logging, endpoint, resolve, reject) {
+    let url = getURL(job, cfg, "/" + endpoint);
     url.json = true;
 
     request(url).then((json) => {
@@ -138,14 +145,14 @@ function getJSON(job, token, logging, endpoint, resolve, reject) {
  * @param  {Object} job  The currently handled Job Object
  * @return {Promise}     This will return a Promise that resolve if the repository exists
  */
-function exists(job, token) {
+function exists(job, cfg) {
     return new Promise((resolve, reject) => {
         if (!projects.isValid(job)) {
             reject("Invalid Job");
             return;
         }
 
-        let url = getURL(job, token, "");
+        let url = getURL(job, cfg, "");
         url.json = true;
 
         request(url).then(resolve, reject);
@@ -298,11 +305,11 @@ function pushChanges(job, logging) {
  * @param  {String} endpoint The endpoint of this URL
  * @return {Object}          A Github-API URL Object
  */
-function getURL(job, token, endpoint) {
+function getURL(job, cfg, endpoint) {
     var url = "https://api.github.com/repos/" + job.author + "/" + job.repo + endpoint;
 
-    if (token != null) {
-        url += (endpoint.includes("?") ? "&": "?") + "access_token=" + token;
+    if (cfg.getToken()) {
+        url += (endpoint.includes("?") ? "&": "?") + "access_token=" + cfg.getToken();
     }
 
     return {

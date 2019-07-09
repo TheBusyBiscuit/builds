@@ -12,12 +12,12 @@
 
             var log;
 
-            $(function() {
+            $(() => {
                 setInterval(update, 400);
             });
 
             function update() {
-                $.getJSON("/status.json", function(status) {
+                $.getJSON("/status.json", (status) => {
                     var terminal = $("#log");
 
                     if (log !== status.log) {

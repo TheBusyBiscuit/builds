@@ -1,13 +1,12 @@
-const FileSystem = require('fs');
 const path = require('path');
 
-const credentials = JSON.parse(FileSystem.readFileSync(path.resolve(__dirname, "../resources/credentials.json"), "UTF8"));
+const cfg = require('../src/config.js')(path.resolve(__dirname, "../resources/config.json"));
 
 // Modules
 const projects = require('../src/projects.js');
 const maven = require('../src/maven.js');
-const github = require('../src/github.js')(credentials.github);
-const discord = require('../src/discord.js')(credentials.discord);
+const github = require('../src/github.js')(cfg.github);
+const discord = require('../src/discord.js')(cfg.discord);
 const log = require('../src/logger.js');
 
 module.exports = {

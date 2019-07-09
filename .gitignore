@@ -6,5 +6,5 @@ testRepository/*
 /coverage/*
 /jitpack/*
 
-resources/credentials.json
+resources/config.json
 test/xunit.xml
