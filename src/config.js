@@ -1,8 +1,15 @@
 const fs = require('fs');
 
 module.exports = (file) => {
-    let cfg = fs.readFileSync(file, "UTF-8");
-    return structure(createDefaultConfig(JSON.parse(cfg)));
+    let cfg;
+
+    try {
+        cfg = JSON.parse(fs.readFileSync(file, "UTF-8"));
+    }
+    catch(err) {}
+    // Sadly this has to be a sync-process, otherwise a Promise would be more appropriate here
+
+    return structure(createDefaultConfig(cfg));
 };
 
 function structure(json) {

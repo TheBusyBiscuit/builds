@@ -45,5 +45,22 @@ describe("Discord Integration Test", () => {
         }))
     });
 
+    it("should do nothing but resolve (disabled)", () => {
+        var mock_discord = require('../src/discord.js')({
+    		isEnabled: () => false,
+    		getMessages: () => {
+                throw new Error("We should not reach this!");
+    		}
+    	});
+
+        return assert.isFulfilled(mock_discord.sendUpdate({
+            author: "TheBusyBiscuit",
+            repo: "builds",
+            branch: "gh-pages",
+            id: -1,
+            success: false
+        }))
+    });
+
     testJobs(true, (job) => discord.sendUpdate(job));
 });

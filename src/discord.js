@@ -8,7 +8,9 @@ module.exports = (cfg) => {
         send: () => Promise.resolve()
     };
 
-    if (config) webhook = new Discord.WebhookClient(config.getID(), config.getToken());
+    if (config) {
+		if (config.isEnabled()) webhook = new Discord.WebhookClient(config.getID(), config.getToken());
+	}
 	else config = {
 		isEnabled: () => true,
 		getMessages: (success) => {

@@ -6,6 +6,17 @@ const maven = require('../src/maven.js');
 const testJobs = require('../test/TestJobs.js');
 
 describe("Maven Test", () => {
+
+    it("should do nothing but resolve when relocating a failed Job", () => {
+        return assert.isFulfilled(maven.relocate({
+            author: "TheBusyBiscuit",
+            repo: "builds",
+            branch: "master",
+            id: 1,
+            success: false
+        }));
+    });
+
     describe("Job Validator", () => {
         it("should return false for an invalid Job (null)", () => {
             return assert.isFalse(maven.isValid(null));
