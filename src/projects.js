@@ -35,6 +35,10 @@ function getProjects(logging) {
                     "branch": repo.split('/')[1].split(":")[1]
                 };
 
+                if (json[repo].sonar && json[repo].sonar.enabled) {
+                    job.sonar = json[repo].sonar;
+                }
+
                 jobs.push(job);
             }
 

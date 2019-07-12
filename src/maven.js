@@ -77,7 +77,7 @@ function setVersion(job, version, compact) {
  * @param  {Boolean} logging Whether the internal activity should be logged
  * @return {Promise}         A promise that resolves when this activity finished
  */
-function compile(job, logging) {
+function compile(job, cfg, logging) {
     return new Promise((resolve, reject) => {
         if (!isValid(job)) {
             reject("Invalid Job");
@@ -85,11 +85,17 @@ function compile(job, logging) {
         }
         log(logging, "-> Executing 'mvn package'");
 
-        var compiler = process.spawn("mvn", [
-            "clean",
-            "package",
-            "-B"
-        ], {
+        var args = ["clean", "package", "-B"];
+
+        if (job.sonar && job.sonar.enabled && cfg.sonar.isEnabled()) {
+            args.push("sonar:sonar");
+            args.push("-Dsonar.login=" + cfg.sonar.getToken());
+            args.push("-Dsonar.host.url=" + job.sonar["host-url"]);
+            args.push("-Dsonar.organization=" + job.sonar["organization"]);
+            args.push("-Dsonar.projectKey=" + job.sonar["project-key"]);
+        }
+
+        var compiler = process.spawn("mvn", args, {
             cwd: path.resolve(__dirname, "../" + job.author + "/" + job.repo + "/" + job.branch + "/files"),
             shell: true
         });

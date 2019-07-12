@@ -12,7 +12,7 @@ $(function() {
         var box = $("#infobox");
 
 		let i = 1;
-        for (var key in info) {
+        for (var key in info.dependencies) {
             box.append('<tr id="custom-info-' + i++ + '">' + key + '</td>');
         }
 
@@ -97,13 +97,13 @@ $(function() {
             $("#current_commit_message").html(msg);
 
             var j = 1;
-            for (var label in info) {
+            for (var label in info.dependencies) {
                 var content = "";
                 var prev = 0;
 
-                for (var min in info[label]) {
+                for (var min in info.dependencies[label]) {
                     if (id >= parseInt(min) && parseInt(min) > prev) {
-                        content = info[label][min];
+                        content = info.dependencies[label][min];
                     }
                 }
 

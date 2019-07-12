@@ -145,7 +145,7 @@ function compile(job, logging) {
     return new Promise((resolve) => {
         log(logging, "Compiling: " + job.author + "/" + job.repo + ":" + job.branch + " (" + job.id + ")");
 
-        maven.compile(job, logging)
+        maven.compile(job, cfg, logging)
         .then(() => {
             job.success = true;
             resolve();
