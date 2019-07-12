@@ -8,9 +8,6 @@ const child_process = require('child_process');
 
 const program = require('./main.js');
 
-const port = 8085;
-const interval = 15;
-
 global.status = {
     log: "",
     task: {},
@@ -92,7 +89,7 @@ function start() {
         console.log("-- FINISHED --");
 
         var elapsedTime = Date.now() - global.status.timestamp;
-        var delta = (interval * 60 * 1000) - elapsedTime;
+        var delta = (program.getConfig().server.getInterval() * 60 * 1000) - elapsedTime;
 
         if (delta < 0) delta = 0;
 
@@ -112,6 +109,8 @@ function run() {
     if (libraries.length > 0) {
         return;
     }
+
+    var port = program.getConfig().server.getPort();
 
     console.log("");
     FileSystem.readFile(path.resolve(__dirname, "../resources/remote.html"), 'UTF-8', function(err, page) {

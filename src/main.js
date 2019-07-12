@@ -16,7 +16,14 @@ module.exports = {
     compile,
     gatherResources,
     upload,
-    finish
+    finish,
+
+    /**
+     * This method returns the discord config used by this instance
+     *
+     * @return {Object} Config
+     */
+    getConfig: () => cfg
 }
 
 /**

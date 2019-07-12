@@ -14,6 +14,10 @@ module.exports = (file) => {
 
 function structure(json) {
     return {
+        server: {
+            getPort: () => json.server.port,
+            getInterval: () => json.server.interval
+        },
         github: {
             getToken: () => json.github.token
         },
@@ -35,6 +39,11 @@ function structure(json) {
 
 function createDefaultConfig(cfg) {
     if (!cfg) cfg = {};
+
+    // "Server Settings" Config Section
+    if (!cfg.server) cfg.server = {};
+    if (!cfg.server.interval) cfg.server.interval = 15;
+    if (!cfg.server.port) cfg.server.port = 8085;
 
     // GitHub Config Section
     if (!cfg.github) cfg.github = {};
