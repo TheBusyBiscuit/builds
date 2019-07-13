@@ -240,7 +240,6 @@ async function clearFolder(file, logging) {
  * @return {Boolean}            Whether the job is a valid Job
  */
 function isValid(job, compiled) {
-    if (!job) return false;
     if (!lodash.isObject(job)) return false;
     if (!lodash.isString(job.author)) return false;
     if (!lodash.isString(job.repo)) return false;
