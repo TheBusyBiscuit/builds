@@ -195,10 +195,7 @@ async function clearFolder(file, logging) {
 
     var stats = await fs.stat(file);
 
-    if (stats.isFile()) {
-        return fs.unlink(file);
-    }
-    else if (stats.isDirectory()) {
+    if (stats.isDirectory()) {
         var files = await fs.readdir(file);
         var length = files.length;
         var index = 0;
@@ -228,6 +225,9 @@ async function clearFolder(file, logging) {
                 }
             }
         })
+    }
+    else {
+        return fs.unlink(file);
     }
 }
 

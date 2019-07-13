@@ -33,6 +33,9 @@ var testBuilds = {
 }
 
 describe("GitHub Connectivity Test", () => {
+
+    it("has a valid Config", () => assert.isNotNull(github.getConfig()));
+
     before(() => {
         return new Promise((resolve, reject) => {
             FileSystem.access(testDirectory, FileSystem.constants.F_OK | FileSystem.constants.R_OK | FileSystem.constants.W_OK, (err) => {
