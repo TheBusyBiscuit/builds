@@ -28,6 +28,8 @@ describe("Full System Test", function() {
 
     before(cleanup);
 
+    it("has a valid Config", () => assert.isNotNull(system.getConfig()));
+
     it("passes stage 'check' (getLatestCommit & hasUpdate)", () =>
         system.check(job).then(() => Promise.all([
             assert.exists(job.id),
