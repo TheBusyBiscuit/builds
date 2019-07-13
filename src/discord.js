@@ -1,5 +1,5 @@
 const Discord = require('discord.js');
-const lodash = require("lodash/Array");
+const lodash = require("lodash/Collection");
 const projects = require('../src/projects.js');
 
 module.exports = (cfg) => {
