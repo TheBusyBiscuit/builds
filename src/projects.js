@@ -3,6 +3,7 @@ const fs = FileSystem.promises;
 const path = require('path');
 
 const log = require('../src/logger.js');
+const lodash = require('lodash/Lang');
 
 module.exports = {
     getProjects,
@@ -240,14 +241,14 @@ async function clearFolder(file, logging) {
  */
 function isValid(job, compiled) {
     if (!job) return false;
-    if (Object.getPrototypeOf(job) !== Object.prototype) return false;
-    if (!(typeof job.author === 'string' || job.author instanceof String)) return false;
-    if (!(typeof job.repo === 'string' || job.repo instanceof String)) return false;
-    if (!(typeof job.branch === 'string' || job.branch instanceof String)) return false;
+    if (!lodash.isObject(job)) return false;
+    if (!lodash.isString(job.author)) return false;
+    if (!lodash.isString(job.repo)) return false;
+    if (!lodash.isString(job.branch)) return false;
 
     if (compiled) {
-        if (!Number.isInteger(job.id)) return false;
-        if (typeof job.success !== "boolean") return false;
+        if (!lodash.isInteger(job.id)) return false;
+        if (!lodash.isBoolean(job.success)) return false;
     }
 
     return true;

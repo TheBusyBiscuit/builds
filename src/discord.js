@@ -1,4 +1,5 @@
 const Discord = require('discord.js');
+const lodash = require("lodash/Array");
 const projects = require('../src/projects.js');
 
 module.exports = (cfg) => {
@@ -57,7 +58,7 @@ function sendUpdate(webhook, job, cfg) {
             return;
         }
 
-        var message = cfg.getMessages(job.success)[Math.floor(Math.random() * cfg.getMessages(job.success).length)];
+        var message = lodash.sample(cfg.getMessages(job.success));
         message = message.replace(/<user>/g, job.author).replace(/<repo>/g, job.repo).replace(/<branch>/g, job.branch).replace(/<id>/g, job.id);
 
         webhook.send(

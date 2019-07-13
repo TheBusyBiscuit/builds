@@ -1,11 +1,13 @@
 const XML = require('xml-library');
 const process = require('child-process-promise');
+const lodash = require('lodash/Lang');
 
 const FileSystem = require('fs');
 const fs = FileSystem.promises;
 const path = require('path');
 
 const log = require('../src/logger.js');
+const projects = require('../src/projects.js');
 
 const minify = {
     indent: 0,
@@ -140,12 +142,8 @@ function relocate(job) {
  * @return {Boolean}     Whether the job is a valid Job
  */
 function isValid(job) {
-    if (!job) return false;
-    if (Object.getPrototypeOf(job) !== Object.prototype) return false;
-    if (!(typeof job.author === 'string' || job.author instanceof String)) return false;
-    if (!(typeof job.repo === 'string' || job.repo instanceof String)) return false;
-    if (!(typeof job.branch === 'string' || job.branch instanceof String)) return false;
-    if (!Number.isInteger(job.id)) return false;
+    if (!projects.isValid(job)) return false;
+    if (!lodash.isInteger(job.id)) return false;
 
     return true;
 }
