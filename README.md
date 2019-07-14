@@ -2,6 +2,9 @@
 This is the repository of the backend for my builds-page.
 The page can be found here: https://thebusybiscuit.github.io/builds/
 
+This kinda serves as a "Continous Deployment" Service for Maven Projects,
+but it utilises GitHub Pages.
+
 # Status
 [![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=TheBusyBiscuit_builds&metric=sqale_rating)](https://sonarcloud.io/dashboard?id=TheBusyBiscuit_builds)
 [![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=TheBusyBiscuit_builds&metric=security_rating)](https://sonarcloud.io/dashboard?id=TheBusyBiscuit_builds)
