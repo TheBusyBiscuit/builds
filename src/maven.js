@@ -23,7 +23,9 @@ const beautify = {
 
 module.exports = {
     setVersion,
+    updatePOM,
     compile,
+    getMavenArguments,
     relocate,
     isValid
 };
@@ -47,26 +49,39 @@ function setVersion(job, version, compact) {
 
         fs.readFile(file, "utf8").then((data) => {
             XML.promises.fromXML(data).then((json) => {
-                json.getChild("version").setValue(version);
-
-                if (compact) {
-                    var node = json.getChild(["build", "finalName"]);
-
-                    if (node) {
-                        node.setValue(job.repo + "-" + job.id);
-                    }
-                    else {
-                        json.getChild("build").addChild(new XML.XMLNode("finalName", null, null, job.repo + "-" + job.id));
-                    }
-                }
-
-                XML.promises.toXML(json, compact ? minify: beautify).then((xml) => {
-                    FileSystem.writeFile(file, xml, "utf8", (e) => {
-                        if (e) reject(e);
-                        else resolve();
-                    });
+                updatePOM(job, json, version, compact).then((xml) => {
+                    fs.writeFile(file, xml, "utf8").then(resolve, reject);
                 }, reject);
             }, reject);
+        }, reject);
+    });
+}
+
+/**
+ * This method updates a JSON-representation of a pom.xml file
+ * and applies the provided version to it
+ *
+ * @param {Object} job          The currently handled Job Object
+ * @param  {XML.XMLNode} json   The pom.xml JSON-representation
+ * @param  {String} version     A Version String that should be used
+ * @param  {Boolean} compact    Whether the file can be minified or not
+ * @return {Promise}            A Promise that fulfills with the updated xml string
+ */
+function updatePOM(job, json, version, compact) {
+    return new Promise((resolve, reject) => {
+        json.getChild("version").setValue(version);
+
+        var node = json.getChild(["build", "finalName"]);
+
+        if (node) {
+            node.setValue(job.repo + "-" + job.id);
+        }
+        else {
+            json.getChild("build").addChild(new XML.XMLNode("finalName", job.repo + "-" + job.id));
+        }
+
+        XML.promises.toXML(json, compact ? minify: beautify).then((xml) => {
+            resolve(xml);
         }, reject);
     });
 }
@@ -87,16 +102,7 @@ function compile(job, cfg, logging) {
         }
         log(logging, "-> Executing 'mvn package'");
 
-        var args = ["clean", "package", "-B"];
-
-        if (job.sonar && job.sonar.enabled && cfg.sonar.isEnabled()) {
-            args.push("sonar:sonar");
-            args.push("-Dsonar.login=" + cfg.sonar.getToken());
-            args.push("-Dsonar.host.url=" + job.sonar["host-url"]);
-            args.push("-Dsonar.organization=" + job.sonar["organization"]);
-            args.push("-Dsonar.projectKey=" + job.sonar["project-key"]);
-        }
-
+        var args = getMavenArguments(job, cfg);
         var compiler = process.spawn("mvn", args, {
             cwd: path.resolve(__dirname, "../" + job.author + "/" + job.repo + "/" + job.branch + "/files"),
             shell: true
@@ -104,11 +110,7 @@ function compile(job, cfg, logging) {
 
         var logger = (data) => {
             log(logging, data, true);
-            FileSystem.appendFile(path.resolve(__dirname, "../" + job.author + "/" + job.repo + "/" + job.branch + "/" + job.repo + "-" + job.id + ".log"), data, "UTF-8", function(err) {
-                if (err) {
-                    console.log(err);
-                }
-            });
+            fs.appendFile(path.resolve(__dirname, "../" + job.author + "/" + job.repo + "/" + job.branch + "/" + job.repo + "-" + job.id + ".log"), data, "UTF-8").catch(err => console.log(err));
         };
 
         compiler.childProcess.stdout.on('data', logger);
@@ -116,6 +118,27 @@ function compile(job, cfg, logging) {
 
         compiler.then(resolve, reject);
     });
+}
+
+/**
+ * This will return the console line arguments for maven.compile()
+ *
+ * @param  {Object} job      The currently handled Job Object
+ * @param  {Object} cfg      Our config.js Object
+ * @return {Array<String>}   The needed console line arguments
+ */
+function getMavenArguments(job, cfg) {
+    var args = ["clean", "package", "-B"];
+
+    if (job.sonar && job.sonar.enabled && cfg.sonar.isEnabled()) {
+        args.push("sonar:sonar");
+        args.push("-Dsonar.login=" + cfg.sonar.getToken());
+        args.push("-Dsonar.host.url=" + job.sonar["host-url"]);
+        args.push("-Dsonar.organization=" + job.sonar["organization"]);
+        args.push("-Dsonar.projectKey=" + job.sonar["project-key"]);
+    }
+
+    return args;
 }
 
 /**
