@@ -1,0 +1,209 @@
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for io.github.thebusybiscuit:QuickMarket:jar:DEV - 15 (git 7e6b3aac)
+[WARNING] 'dependencies.dependency.systemPath' for me.mrCookieSlime:PrisonUtils:jar should not point at files within the project directory, ${project.basedir}/lib/PrisonUtils v1.6.11.jar will be unresolvable by dependent projects @ line 1, column 3340
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] 
+[INFO] ----------------< io.github.thebusybiscuit:QuickMarket >----------------
+[INFO] Building QuickMarket DEV - 15 (git 7e6b3aac)
+[INFO] --------------------------------[ jar ]---------------------------------
+[WARNING] The POM for com.github.thebusybiscuit:CS-CoreLib2:jar:0.3.6 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ QuickMarket ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ QuickMarket ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ QuickMarket ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 8 source files to /home/pi/Desktop/Build Server/TheBusyBiscuit/QuickMarket/master/files/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ QuickMarket ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/pi/Desktop/Build Server/TheBusyBiscuit/QuickMarket/master/files/tests/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ QuickMarket ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ QuickMarket ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ QuickMarket ---
+[INFO] Building jar: /home/pi/Desktop/Build Server/TheBusyBiscuit/QuickMarket/master/files/target/QuickMarket-15.jar
+[INFO] 
+[INFO] --- maven-shade-plugin:3.2.1:shade (default) @ QuickMarket ---
+[INFO] Including com.github.thebusybiscuit:CS-CoreLib2:jar:0.3.6 in the shaded jar.
+[INFO] Including org.bstats:bstats-bukkit:jar:1.5 in the shaded jar.
+[INFO] Replacing original artifact with shaded artifact.
+[INFO] Replacing /home/pi/Desktop/Build Server/TheBusyBiscuit/QuickMarket/master/files/target/QuickMarket-15.jar with /home/pi/Desktop/Build Server/TheBusyBiscuit/QuickMarket/master/files/target/QuickMarket-DEV - 15 (git 7e6b3aac)-shaded.jar
+[INFO] Dependency-reduced POM written at: /home/pi/Desktop/Build Server/TheBusyBiscuit/QuickMarket/master/files/dependency-reduced-pom.xml
+[INFO] 
+[INFO] ----------------< io.github.thebusybiscuit:QuickMarket >----------------
+[INFO] Building QuickMarket DEV - 15 (git 7e6b3aac)
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- sonar-maven-plugin:3.6.0.1398:sonar (default-cli) @ QuickMarket ---
+[INFO] User cache: /home/pi/.sonar/cache
+[INFO] SonarQube version: 8.0.0
+[INFO] Default locale: "de_DE", source code encoding: "UTF-8"
+[INFO] Load global settings
+[INFO] Load global settings (done) | time=771ms
+[INFO] Server id: BD367519-AWHW8ct9-T_TB3XqouNu
+[INFO] User cache: /home/pi/.sonar/cache
+[INFO] Load/download plugins
+[INFO] Load plugins index
+[INFO] Load plugins index (done) | time=274ms
+[INFO] Load/download plugins (done) | time=830ms
+[INFO] Loaded core extensions: developer-scanner
+[INFO] Process project properties
+[INFO] Execute project builders
+[INFO] Execute project builders (done) | time=18ms
+[INFO] Project key: TheBusyBiscuit_QuickMarket
+[INFO] Base dir: /home/pi/Desktop/Build Server/TheBusyBiscuit/QuickMarket/master/files
+[INFO] Working dir: /home/pi/Desktop/Build Server/TheBusyBiscuit/QuickMarket/master/files/target/sonar
+[INFO] Load project settings for component key: 'TheBusyBiscuit_QuickMarket'
+[INFO] Load project branches
+[INFO] Load project branches (done) | time=55ms
+[INFO] Load project pull requests
+[INFO] Load project pull requests (done) | time=62ms
+[INFO] Load branch configuration
+[INFO] Load branch configuration (done) | time=12ms
+[INFO] Load quality profiles
+[INFO] Load quality profiles (done) | time=276ms
+[INFO] Load active rules
+[INFO] Load active rules (done) | time=3654ms
+[INFO] Organization key: thebusybiscuit-github
+[INFO] Indexing files...
+[INFO] Project configuration:
+[INFO] 10 files indexed
+[INFO] 0 files ignored because of scm ignore settings
+[INFO] Quality profile for java: Additional Checks
+[INFO] ------------- Run sensors on module QuickMarket
+[INFO] Load metrics repository
+[INFO] Load metrics repository (done) | time=103ms
+[INFO] Sensor JavaSquidSensor [java]
+[INFO] Configured Java source version (sonar.java.source): 8
+[INFO] JavaClasspath initialization
+[INFO] JavaClasspath initialization (done) | time=57ms
+[INFO] JavaTestClasspath initialization
+[INFO] JavaTestClasspath initialization (done) | time=2ms
+[INFO] Java Main Files AST scan
+[INFO] 8 source files to be analyzed
+[INFO] Load project repositories
+[INFO] Load project repositories (done) | time=53ms
+[INFO] 1/8 files analyzed, current file: src/io/github/thebusybiscuit/quickmarket/QuickMarket.java
+[INFO] 5/8 files analyzed, current file: src/io/github/thebusybiscuit/quickmarket/shop/PlayerShop.java
+[INFO] 8/8 source files have been analyzed
+[WARNING] Classes not found during the analysis : [com.google.common.collect.Multimap, com.google.gson.JsonObject]
+[INFO] Java Main Files AST scan (done) | time=25603ms
+[INFO] Java Test Files AST scan
+[INFO] 0 source files to be analyzed
+[INFO] Java Test Files AST scan (done) | time=3ms
+[INFO] 0/0 source files have been analyzed
+[INFO] Sensor JavaSquidSensor [java] (done) | time=28378ms
+[INFO] Sensor SurefireSensor [java]
+[INFO] parsing [/home/pi/Desktop/Build Server/TheBusyBiscuit/QuickMarket/master/files/target/surefire-reports]
+[INFO] Sensor SurefireSensor [java] (done) | time=8ms
+[INFO] Sensor JaCoCoSensor [java]
+[INFO] Sensor JaCoCoSensor [java] (done) | time=5ms
+[INFO] Sensor JavaXmlSensor [java]
+[INFO] Sensor JavaXmlSensor [java] (done) | time=6ms
+[INFO] Sensor HTML [web]
+[INFO] Sensor HTML [web] (done) | time=74ms
+[INFO] Sensor JaCoCo XML Report Importer [jacoco]
+[INFO] Sensor JaCoCo XML Report Importer [jacoco] (done) | time=15ms
+[INFO] Sensor JavaSecuritySensor [security]
+[INFO] Reading type hierarchy from: /home/pi/Desktop/Build Server/TheBusyBiscuit/QuickMarket/master/files/target/sonar/ucfg2/java
+[INFO] Read 127 type definitions
+[INFO] Reading UCFGs from: /home/pi/Desktop/Build Server/TheBusyBiscuit/QuickMarket/master/files/target/sonar/ucfg2/java
+[INFO] 15:27:12.577 Building Type propagation graph
+[INFO] 15:27:12.705 Running Tarjan on 790 nodes
+[INFO] 15:27:12.729 Tarjan found 790 components
+[INFO] 15:27:12.805 Variable type analysis: done
+[INFO] 15:27:12.811 Building Type propagation graph
+[INFO] 15:27:12.887 Running Tarjan on 790 nodes
+[INFO] 15:27:12.896 Tarjan found 790 components
+[INFO] 15:27:12.912 Variable type analysis: done
+[INFO] Analyzing 76 ucfgs to detect vulnerabilities.
+[INFO] All rules entrypoints : 0 Retained UCFGs : 0
+[INFO] rule: S5131, entrypoints: 0
+[INFO] Visited 0 ucfgs in 0 ms, 0 steps
+[INFO] rule: S5131 done
+[INFO] rule: S3649, entrypoints: 0
+[INFO] Visited 0 ucfgs in 0 ms, 0 steps
+[INFO] rule: S3649 done
+[INFO] rule: S2076, entrypoints: 0
+[INFO] Visited 0 ucfgs in 0 ms, 0 steps
+[INFO] rule: S2076 done
+[INFO] rule: S2091, entrypoints: 0
+[INFO] Visited 0 ucfgs in 0 ms, 0 steps
+[INFO] rule: S2091 done
+[INFO] rule: S2078, entrypoints: 0
+[INFO] Visited 0 ucfgs in 0 ms, 0 steps
+[INFO] rule: S2078 done
+[INFO] rule: S2631, entrypoints: 0
+[INFO] Visited 0 ucfgs in 0 ms, 0 steps
+[INFO] rule: S2631 done
+[INFO] rule: S5135, entrypoints: 0
+[INFO] Visited 0 ucfgs in 0 ms, 0 steps
+[INFO] rule: S5135 done
+[INFO] rule: S2083, entrypoints: 0
+[INFO] Visited 0 ucfgs in 0 ms, 0 steps
+[INFO] rule: S2083 done
+[INFO] rule: S5167, entrypoints: 0
+[INFO] Visited 0 ucfgs in 0 ms, 0 steps
+[INFO] rule: S5167 done
+[INFO] rule: S5144, entrypoints: 0
+[INFO] Visited 0 ucfgs in 0 ms, 0 steps
+[INFO] rule: S5144 done
+[INFO] rule: S5145, entrypoints: 0
+[INFO] Visited 0 ucfgs in 0 ms, 0 steps
+[INFO] rule: S5145 done
+[INFO] rule: S5146, entrypoints: 0
+[INFO] Visited 0 ucfgs in 0 ms, 0 steps
+[INFO] rule: S5146 done
+[INFO] rule: S5334, entrypoints: 0
+[INFO] Visited 0 ucfgs in 0 ms, 0 steps
+[INFO] rule: S5334 done
+[INFO] Sensor JavaSecuritySensor [security] (done) | time=5601ms
+[INFO] Sensor CSharpSecuritySensor [security]
+[INFO] Reading type hierarchy from: /home/pi/Desktop/Build Server/TheBusyBiscuit/QuickMarket/master/files/target/ucfg_cs2
+[INFO] Read 0 type definitions
+[INFO] Reading UCFGs from: /home/pi/Desktop/Build Server/TheBusyBiscuit/QuickMarket/master/files/target/ucfg_cs2
+[INFO] No UCFGs have been included for analysis.
+[INFO] Sensor CSharpSecuritySensor [security] (done) | time=4ms
+[INFO] Sensor PhpSecuritySensor [security]
+[INFO] Reading type hierarchy from: /home/pi/Desktop/Build Server/TheBusyBiscuit/QuickMarket/master/files/target/sonar/ucfg2/php
+[INFO] Read 0 type definitions
+[INFO] Reading UCFGs from: /home/pi/Desktop/Build Server/TheBusyBiscuit/QuickMarket/master/files/target/sonar/ucfg2/php
+[INFO] No UCFGs have been included for analysis.
+[INFO] Sensor PhpSecuritySensor [security] (done) | time=4ms
+[INFO] ------------- Run sensors on project
+[INFO] Sensor Zero Coverage Sensor
+[INFO] Sensor Zero Coverage Sensor (done) | time=71ms
+[INFO] Sensor Java CPD Block Indexer
+[INFO] Sensor Java CPD Block Indexer (done) | time=307ms
+[INFO] SCM provider for this project is: git
+[INFO] 8 files to be analyzed
+[INFO] 8/8 files analyzed
+[INFO] 1 file had no CPD blocks
+[INFO] Calculating CPD for 7 files
+[INFO] CPD calculation finished
+[INFO] Analysis report generated in 345ms, dir size=316 KB
+[INFO] Analysis report compressed in 144ms, zip size=91 KB
+[INFO] Analysis report uploaded in 2018ms
+[INFO] ANALYSIS SUCCESSFUL, you can browse https://sonarcloud.io/dashboard?id=TheBusyBiscuit_QuickMarket
+[INFO] Note that you will be able to access the updated dashboard once the server has processed the submitted analysis report
+[INFO] More about the report processing at https://sonarcloud.io/api/ce/task?id=AWwAHa94iIp5_YIhFFCK
+[INFO] Analysis total time: 59.026 s
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  01:18 min
+[INFO] Finished at: 2019-07-17T15:27:21+02:00
+[INFO] ------------------------------------------------------------------------
