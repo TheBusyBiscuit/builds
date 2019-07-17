@@ -1,6 +1,6 @@
 const XML = require('xml-library');
 const process = require('child-process-promise');
-const lodash = require('lodash/Lang');
+const lodash = require('lodash/lang');
 
 const FileSystem = require('fs');
 const fs = FileSystem.promises;

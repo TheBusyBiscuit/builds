@@ -3,7 +3,7 @@ const fs = FileSystem.promises;
 const path = require('path');
 
 const log = require('../src/logger.js');
-const lodash = require('lodash/Lang');
+const lodash = require('lodash/lang');
 
 module.exports = {
     getProjects,

@@ -1,5 +1,5 @@
 const fs = require('fs');
-const lodash = require("lodash/Object");
+const lodash = require("lodash/object");
 
 const defaultConfig = {
     server: {
