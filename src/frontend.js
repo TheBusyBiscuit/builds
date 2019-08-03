@@ -34,11 +34,10 @@ $(function() {
             $("#current_icon").html(current_icon);
             $("#current_status").text(builds[id].status);
 
+            var download_jar = $("#current_download_jar");
+
             if (builds[id].status === "SUCCESS") {
                 $("#download_section").css("display", "");
-
-                var download_jar = $("#current_download_jar");
-                download_jar.text(repository + "-" + id + ".jar");
                 download_jar.attr("href", repository + "-" + id + ".jar");
             }
             else {
@@ -46,7 +45,10 @@ $(function() {
             }
 
             if (builds[id].candidate === "RELEASE") {
-                $("#current_name").text(repository + " - " + builds[id].tag);
+                download_jar.text(repository + " " + builds[id].tag + ".jar");
+                download_jar.attr("download", repository + " " + builds[id].tag + ".jar");
+
+                $("#current_name").text(repository + " " + builds[id].tag);
                 $("#tag_section").css("display", "");
 
                 var current_tag = $("#current_tag");
@@ -54,6 +56,9 @@ $(function() {
                 current_tag.text(builds[id].tag);
             }
             else {
+                download_jar.text(repository + " - DEV " + id + "(git " + builds[id].sha.substr(0, 5) + ").jar");
+                download_jar.attr("download", repository + " - DEV " + id + "(git " + builds[id].sha.substr(0, 5) + ").jar");
+
                 $("#current_name").text(repository + " - #" + id);
                 $("#tag_section").css("display", "none");
             }
