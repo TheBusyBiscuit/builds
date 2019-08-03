@@ -11,7 +11,7 @@ $(function() {
         var info = repos[owner + "/" + repository + ":" + branch];
         var box = $("#infobox");
 
-		let i = 1;
+	let i = 1;
         for (var key in info.dependencies) {
             box.append('<tr id="custom-info-' + i++ + '">' + key + '</td>');
         }
@@ -56,8 +56,8 @@ $(function() {
                 current_tag.text(builds[id].tag);
             }
             else {
-                download_jar.text(repository + " - DEV " + id + "(git " + builds[id].sha.substr(0, 5) + ").jar");
-                download_jar.attr("download", repository + " - DEV " + id + "(git " + builds[id].sha.substr(0, 5) + ").jar");
+                download_jar.text(repository + " - DEV " + id + " (git " + builds[id].sha.substr(0, 5) + ").jar");
+                download_jar.attr("download", repository + " - DEV " + id + " (git " + builds[id].sha.substr(0, 5) + ").jar");
 
                 $("#current_name").text(repository + " - #" + id);
                 $("#tag_section").css("display", "none");
