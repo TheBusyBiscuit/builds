@@ -1,0 +1,326 @@
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for me.mrCookieSlime:Slimefun:jar:DEV - 159 (git 65975ae0)
+[WARNING] 'dependencies.dependency.systemPath' for me.minebuilders:clearlag-core:jar should not point at files within the project directory, ${project.basedir}/lib/Clearlag.jar will be unresolvable by dependent projects @ line 1, column 3580
+[WARNING] 'dependencies.dependency.systemPath' for me.mrCookieSlime:EmeraldEnchants:jar should not point at files within the project directory, ${project.basedir}/lib/EmeraldEnchants v2.0.jar will be unresolvable by dependent projects @ line 1, column 3926
+[WARNING] 'dependencies.dependency.systemPath' for me.mrCookieSlime:ExoticGarden:jar should not point at files within the project directory, ${project.basedir}/lib/ExoticGarden v1.2.0.jar will be unresolvable by dependent projects @ line 1, column 4140
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-source-plugin is missing. @ line 1, column 1438
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] 
+[INFO] ---------------------< me.mrCookieSlime:Slimefun >----------------------
+[INFO] Building Slimefun DEV - 159 (git 65975ae0)
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] Downloading from worldedit-worldguard-repo: https://maven.sk89q.com/repo/org/bukkit/bukkit/1.14.2-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/bukkit/bukkit/1.14.2-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from coreprotect-repo: https://maven.playpro.com/org/bukkit/bukkit/1.14.2-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/bukkit/bukkit/1.14.2-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/bukkit/bukkit/1.14.2-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from CodeMC: https://repo.codemc.org/repository/maven-public/org/bukkit/bukkit/1.14.2-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloaded from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/bukkit/bukkit/1.14.2-R0.1-SNAPSHOT/maven-metadata.xml (1.4 kB at 569 B/s)
+[INFO] Downloading from placeholderapi-repo: http://repo.extendedclip.com/content/repositories/placeholderapi/org/bukkit/bukkit/1.14.2-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/bukkit/bukkit/1.14.2-R0.1-SNAPSHOT/maven-metadata.xml (1.4 kB at 478 B/s)
+[WARNING] The POM for com.github.TheBusyBiscuit:CS-CoreLib:jar:v1.6.1 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+[WARNING] The POM for com.github.thebusybiscuit:CS-CoreLib2:jar:0.3.7 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+[INFO] Downloading from worldedit-worldguard-repo: https://maven.sk89q.com/repo/org/bukkit/bukkit/1.13.2-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from coreprotect-repo: https://maven.playpro.com/org/bukkit/bukkit/1.13.2-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/bukkit/bukkit/1.13.2-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/bukkit/bukkit/1.13.2-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloaded from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/bukkit/bukkit/1.13.2-R0.1-SNAPSHOT/maven-metadata.xml (1.5 kB at 3.4 kB/s)
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/bukkit/bukkit/1.13.2-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from CodeMC: https://repo.codemc.org/repository/maven-public/org/bukkit/bukkit/1.13.2-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from placeholderapi-repo: http://repo.extendedclip.com/content/repositories/placeholderapi/org/bukkit/bukkit/1.13.2-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/bukkit/bukkit/1.13.2-R0.1-SNAPSHOT/maven-metadata.xml (1.5 kB at 1.8 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/bukkit/bukkit/1.13.1-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from coreprotect-repo: https://maven.playpro.com/org/bukkit/bukkit/1.13.1-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/bukkit/bukkit/1.13.1-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from worldedit-worldguard-repo: https://maven.sk89q.com/repo/org/bukkit/bukkit/1.13.1-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloaded from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/bukkit/bukkit/1.13.1-R0.1-SNAPSHOT/maven-metadata.xml (1.4 kB at 4.8 kB/s)
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/bukkit/bukkit/1.13.1-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from CodeMC: https://repo.codemc.org/repository/maven-public/org/bukkit/bukkit/1.13.1-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/bukkit/bukkit/1.13.1-R0.1-SNAPSHOT/maven-metadata.xml (1.4 kB at 2.9 kB/s)
+[INFO] Downloading from placeholderapi-repo: http://repo.extendedclip.com/content/repositories/placeholderapi/org/bukkit/bukkit/1.13.1-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from bstats-repo: http://repo.bstats.org/content/repositories/releases/org/bukkit/bukkit/1.13.1-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from sk89q-repo: http://maven.sk89q.com/repo/org/bukkit/bukkit/1.13.1-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/sk89q/worldedit/worldedit-bukkit/7.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/sk89q/worldedit/worldedit-bukkit/7.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from worldedit-worldguard-repo: https://maven.sk89q.com/repo/com/sk89q/worldedit/worldedit-bukkit/7.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from coreprotect-repo: https://maven.playpro.com/com/sk89q/worldedit/worldedit-bukkit/7.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/sk89q/worldedit/worldedit-bukkit/7.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from CodeMC: https://repo.codemc.org/repository/maven-public/com/sk89q/worldedit/worldedit-bukkit/7.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from placeholderapi-repo: http://repo.extendedclip.com/content/repositories/placeholderapi/com/sk89q/worldedit/worldedit-bukkit/7.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloaded from worldedit-worldguard-repo: https://maven.sk89q.com/repo/com/sk89q/worldedit/worldedit-bukkit/7.0.0-SNAPSHOT/maven-metadata.xml (1.2 kB at 2.3 kB/s)
+[INFO] Downloading from bstats-repo: http://repo.bstats.org/content/repositories/releases/com/sk89q/worldedit/worldedit-bukkit/7.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from sk89q-repo: http://maven.sk89q.com/repo/com/sk89q/worldedit/worldedit-bukkit/7.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloaded from sk89q-repo: http://maven.sk89q.com/repo/com/sk89q/worldedit/worldedit-bukkit/7.0.0-SNAPSHOT/maven-metadata.xml (1.2 kB at 2.0 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/sk89q/worldedit/worldedit-core/7.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/sk89q/worldedit/worldedit-core/7.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from coreprotect-repo: https://maven.playpro.com/com/sk89q/worldedit/worldedit-core/7.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from worldedit-worldguard-repo: https://maven.sk89q.com/repo/com/sk89q/worldedit/worldedit-core/7.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/sk89q/worldedit/worldedit-core/7.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from CodeMC: https://repo.codemc.org/repository/maven-public/com/sk89q/worldedit/worldedit-core/7.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloaded from worldedit-worldguard-repo: https://maven.sk89q.com/repo/com/sk89q/worldedit/worldedit-core/7.0.0-SNAPSHOT/maven-metadata.xml (1.2 kB at 2.7 kB/s)
+[INFO] Downloading from placeholderapi-repo: http://repo.extendedclip.com/content/repositories/placeholderapi/com/sk89q/worldedit/worldedit-core/7.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from bstats-repo: http://repo.bstats.org/content/repositories/releases/com/sk89q/worldedit/worldedit-core/7.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from sk89q-repo: http://maven.sk89q.com/repo/com/sk89q/worldedit/worldedit-core/7.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloaded from sk89q-repo: http://maven.sk89q.com/repo/com/sk89q/worldedit/worldedit-core/7.0.0-SNAPSHOT/maven-metadata.xml (1.2 kB at 3.6 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/sk89q/worldedit/worldedit-libs/core/7.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/sk89q/worldedit/worldedit-libs/core/7.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from worldedit-worldguard-repo: https://maven.sk89q.com/repo/com/sk89q/worldedit/worldedit-libs/core/7.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from coreprotect-repo: https://maven.playpro.com/com/sk89q/worldedit/worldedit-libs/core/7.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/sk89q/worldedit/worldedit-libs/core/7.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from CodeMC: https://repo.codemc.org/repository/maven-public/com/sk89q/worldedit/worldedit-libs/core/7.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloaded from worldedit-worldguard-repo: https://maven.sk89q.com/repo/com/sk89q/worldedit/worldedit-libs/core/7.0.0-SNAPSHOT/maven-metadata.xml (791 B at 1.3 kB/s)
+[INFO] Downloading from placeholderapi-repo: http://repo.extendedclip.com/content/repositories/placeholderapi/com/sk89q/worldedit/worldedit-libs/core/7.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from bstats-repo: http://repo.bstats.org/content/repositories/releases/com/sk89q/worldedit/worldedit-libs/core/7.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from sk89q-repo: http://maven.sk89q.com/repo/com/sk89q/worldedit/worldedit-libs/core/7.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloaded from sk89q-repo: http://maven.sk89q.com/repo/com/sk89q/worldedit/worldedit-libs/core/7.0.0-SNAPSHOT/maven-metadata.xml (791 B at 2.5 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/sk89q/worldedit/worldedit-libs/bukkit/7.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from worldedit-worldguard-repo: https://maven.sk89q.com/repo/com/sk89q/worldedit/worldedit-libs/bukkit/7.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from coreprotect-repo: https://maven.playpro.com/com/sk89q/worldedit/worldedit-libs/bukkit/7.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/sk89q/worldedit/worldedit-libs/bukkit/7.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/sk89q/worldedit/worldedit-libs/bukkit/7.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloaded from worldedit-worldguard-repo: https://maven.sk89q.com/repo/com/sk89q/worldedit/worldedit-libs/bukkit/7.0.0-SNAPSHOT/maven-metadata.xml (793 B at 1.7 kB/s)
+[INFO] Downloading from CodeMC: https://repo.codemc.org/repository/maven-public/com/sk89q/worldedit/worldedit-libs/bukkit/7.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from placeholderapi-repo: http://repo.extendedclip.com/content/repositories/placeholderapi/com/sk89q/worldedit/worldedit-libs/bukkit/7.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from bstats-repo: http://repo.bstats.org/content/repositories/releases/com/sk89q/worldedit/worldedit-libs/bukkit/7.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from sk89q-repo: http://maven.sk89q.com/repo/com/sk89q/worldedit/worldedit-libs/bukkit/7.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloaded from sk89q-repo: http://maven.sk89q.com/repo/com/sk89q/worldedit/worldedit-libs/bukkit/7.0.0-SNAPSHOT/maven-metadata.xml (793 B at 2.0 kB/s)
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ Slimefun ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ Slimefun ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ Slimefun ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 200 source files to /home/pi/Desktop/Build Server/TheBusyBiscuit/Slimefun4/master/files/target/classes
+[WARNING] /home/pi/Desktop/Build Server/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/listeners/DamageListener.java: Some input files use or override a deprecated API.
+[WARNING] /home/pi/Desktop/Build Server/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/listeners/DamageListener.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ Slimefun ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/pi/Desktop/Build Server/TheBusyBiscuit/Slimefun4/master/files/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ Slimefun ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ Slimefun ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ Slimefun ---
+[INFO] Building jar: /home/pi/Desktop/Build Server/TheBusyBiscuit/Slimefun4/master/files/target/Slimefun4-159.jar
+[INFO] 
+[INFO] >>> maven-source-plugin:3.1.0:jar (attach-sources) > generate-sources @ Slimefun >>>
+[INFO] 
+[INFO] <<< maven-source-plugin:3.1.0:jar (attach-sources) < generate-sources @ Slimefun <<<
+[INFO] 
+[INFO] 
+[INFO] --- maven-source-plugin:3.1.0:jar (attach-sources) @ Slimefun ---
+[INFO] Building jar: /home/pi/Desktop/Build Server/TheBusyBiscuit/Slimefun4/master/files/target/Slimefun4-159-sources.jar
+[INFO] 
+[INFO] --- maven-shade-plugin:3.2.1:shade (default) @ Slimefun ---
+[INFO] Including com.github.thebusybiscuit:CS-CoreLib2:jar:0.3.7 in the shaded jar.
+[INFO] Including org.bstats:bstats-bukkit:jar:1.5 in the shaded jar.
+[INFO] Replacing original artifact with shaded artifact.
+[INFO] Replacing /home/pi/Desktop/Build Server/TheBusyBiscuit/Slimefun4/master/files/target/Slimefun4-159.jar with /home/pi/Desktop/Build Server/TheBusyBiscuit/Slimefun4/master/files/target/Slimefun-DEV - 159 (git 65975ae0)-shaded.jar
+[INFO] Dependency-reduced POM written at: /home/pi/Desktop/Build Server/TheBusyBiscuit/Slimefun4/master/files/dependency-reduced-pom.xml
+[INFO] 
+[INFO] ---------------------< me.mrCookieSlime:Slimefun >----------------------
+[INFO] Building Slimefun DEV - 159 (git 65975ae0)
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- sonar-maven-plugin:3.6.0.1398:sonar (default-cli) @ Slimefun ---
+[INFO] User cache: /home/pi/.sonar/cache
+[INFO] SonarQube version: 8.0.0
+[INFO] Default locale: "de_DE", source code encoding: "UTF-8"
+[INFO] Load global settings
+[INFO] Load global settings (done) | time=2668ms
+[INFO] Server id: 74E9293D-AWHW8ct9-T_TB3XqouNu
+[INFO] User cache: /home/pi/.sonar/cache
+[INFO] Load/download plugins
+[INFO] Load plugins index
+[INFO] Load plugins index (done) | time=326ms
+[INFO] Load/download plugins (done) | time=1856ms
+[INFO] Loaded core extensions: developer-scanner
+[INFO] Process project properties
+[INFO] Execute project builders
+[INFO] Execute project builders (done) | time=18ms
+[INFO] Project key: TheBusyBiscuit_Slimefun4
+[INFO] Base dir: /home/pi/Desktop/Build Server/TheBusyBiscuit/Slimefun4/master/files
+[INFO] Working dir: /home/pi/Desktop/Build Server/TheBusyBiscuit/Slimefun4/master/files/target/sonar
+[INFO] Load project settings for component key: 'TheBusyBiscuit_Slimefun4'
+[INFO] Load project settings for component key: 'TheBusyBiscuit_Slimefun4' (done) | time=120ms
+[INFO] Load project branches
+[INFO] Load project branches (done) | time=100ms
+[INFO] Load project pull requests
+[INFO] Load project pull requests (done) | time=75ms
+[INFO] Load branch configuration
+[INFO] Load branch configuration (done) | time=6ms
+[INFO] Load quality profiles
+[INFO] Load quality profiles (done) | time=267ms
+[INFO] Load active rules
+[INFO] Load active rules (done) | time=10907ms
+[INFO] Organization key: thebusybiscuit-github
+[INFO] Indexing files...
+[INFO] Project configuration:
+[INFO] 202 files indexed
+[INFO] 0 files ignored because of scm ignore settings
+[INFO] Quality profile for java: Additional Checks
+[INFO] ------------- Run sensors on module Slimefun
+[INFO] Load metrics repository
+[INFO] Load metrics repository (done) | time=99ms
+[INFO] Sensor JavaSquidSensor [java]
+[INFO] Configured Java source version (sonar.java.source): 8
+[INFO] JavaClasspath initialization
+[INFO] JavaClasspath initialization (done) | time=70ms
+[INFO] JavaTestClasspath initialization
+[INFO] JavaTestClasspath initialization (done) | time=5ms
+[INFO] Java Main Files AST scan
+[INFO] 200 source files to be analyzed
+[INFO] Load project repositories
+[INFO] Load project repositories (done) | time=237ms
+[INFO] 3/200 files analyzed, current file: src/me/mrCookieSlime/Slimefun/Objects/SlimefunItem/machines/XPCollector.java
+[INFO] 13/200 files analyzed, current file: src/me/mrCookieSlime/Slimefun/AncientAltar/Pedestals.java
+[INFO] 27/200 files analyzed, current file: src/me/mrCookieSlime/Slimefun/Objects/SlimefunItem/machines/CargoInputNode.java
+[INFO] 31/200 files analyzed, current file: src/me/mrCookieSlime/Slimefun/Setup/WikiSetup.java
+[INFO] 38/200 files analyzed, current file: src/me/mrCookieSlime/Slimefun/listeners/ToolListener.java
+[INFO] 45/200 files analyzed, current file: src/me/mrCookieSlime/Slimefun/api/BlockStorage.java
+[INFO] 51/200 files analyzed, current file: src/me/mrCookieSlime/Slimefun/Setup/SlimefunSetup.java
+[INFO] 51/200 files analyzed, current file: src/me/mrCookieSlime/Slimefun/Setup/SlimefunSetup.java
+[INFO] 51/200 files analyzed, current file: src/me/mrCookieSlime/Slimefun/Setup/SlimefunSetup.java
+[INFO] 51/200 files analyzed, current file: src/me/mrCookieSlime/Slimefun/Setup/SlimefunSetup.java
+[INFO] 51/200 files analyzed, current file: src/me/mrCookieSlime/Slimefun/Setup/SlimefunSetup.java
+[INFO] 58/200 files analyzed, current file: src/me/mrCookieSlime/Slimefun/Objects/SlimefunItem/machines/ReactorAccessPort.java
+[INFO] 62/200 files analyzed, current file: src/me/mrCookieSlime/Slimefun/listeners/ItemListener.java
+[INFO] 66/200 files analyzed, current file: src/me/mrCookieSlime/Slimefun/Objects/SlimefunItem/abstractItems/AContainer.java
+[INFO] 75/200 files analyzed, current file: src/me/mrCookieSlime/Slimefun/api/item_transport/CargoManager.java
+[INFO] 100/200 files analyzed, current file: src/me/mrCookieSlime/Slimefun/listeners/AndroidKillingListener.java
+[INFO] 110/200 files analyzed, current file: src/me/mrCookieSlime/Slimefun/listeners/DamageListener.java
+[INFO] 125/200 files analyzed, current file: src/me/mrCookieSlime/Slimefun/Objects/SlimefunItem/abstractItems/AGenerator.java
+[INFO] 135/200 files analyzed, current file: src/me/mrCookieSlime/Slimefun/Objects/SlimefunItem/abstractItems/AReactor.java
+[INFO] 137/200 files analyzed, current file: src/me/mrCookieSlime/Slimefun/api/SlimefunBackup.java
+[INFO] 137/200 files analyzed, current file: src/me/mrCookieSlime/Slimefun/api/SlimefunBackup.java
+[INFO] 141/200 files analyzed, current file: src/me/mrCookieSlime/Slimefun/Android/ProgrammableAndroid.java
+[INFO] 150/200 files analyzed, current file: src/me/mrCookieSlime/Slimefun/Lists/RecipeType.java
+[INFO] 160/200 files analyzed, current file: src/me/mrCookieSlime/Slimefun/SlimefunGuide.java
+[INFO] 162/200 files analyzed, current file: src/me/mrCookieSlime/Slimefun/api/ErrorReport.java
+[INFO] 162/200 files analyzed, current file: src/me/mrCookieSlime/Slimefun/api/ErrorReport.java
+[INFO] 162/200 files analyzed, current file: src/me/mrCookieSlime/Slimefun/api/ErrorReport.java
+[INFO] 162/200 files analyzed, current file: src/me/mrCookieSlime/Slimefun/api/ErrorReport.java
+[INFO] 173/200 files analyzed, current file: src/me/mrCookieSlime/Slimefun/listeners/ArmorListener.java
+[INFO] 184/200 files analyzed, current file: src/me/mrCookieSlime/Slimefun/Objects/SlimefunItem/abstractItems/Teleporter.java
+[INFO] 195/200 files analyzed, current file: src/me/mrCookieSlime/Slimefun/CSCoreLibSetup/CSCoreLibLoader.java
+[INFO] 200/200 source files have been analyzed
+[WARNING] Classes not found during the analysis : [com.google.common.base.Function, com.google.common.collect.ImmutableList, com.google.common.collect.ImmutableList$Builder, com.google.common.collect.Multimap, com.sk89q.worldedit.event.extent.EditSessionEvent, org.yaml.snakeyaml.DumperOptions, org.yaml.snakeyaml.Yaml, org.yaml.snakeyaml.representer.Representer]
+[INFO] Java Main Files AST scan (done) | time=316293ms
+[INFO] Java Test Files AST scan
+[INFO] 0 source files to be analyzed
+[INFO] Java Test Files AST scan (done) | time=9ms
+[INFO] Sensor JavaSquidSensor [java] (done) | time=319384ms
+[INFO] Sensor SurefireSensor [java]
+[INFO] 0/0 source files have been analyzed
+[INFO] parsing [/home/pi/Desktop/Build Server/TheBusyBiscuit/Slimefun4/master/files/target/surefire-reports]
+[INFO] Sensor SurefireSensor [java] (done) | time=17ms
+[INFO] Sensor JaCoCoSensor [java]
+[INFO] Sensor JaCoCoSensor [java] (done) | time=8ms
+[INFO] Sensor JavaXmlSensor [java]
+[INFO] Sensor JavaXmlSensor [java] (done) | time=293ms
+[INFO] Sensor HTML [web]
+[INFO] Sensor HTML [web] (done) | time=47ms
+[INFO] Sensor JaCoCo XML Report Importer [jacoco]
+[INFO] Sensor JaCoCo XML Report Importer [jacoco] (done) | time=30ms
+[INFO] Sensor JavaSecuritySensor [security]
+[INFO] Reading type hierarchy from: /home/pi/Desktop/Build Server/TheBusyBiscuit/Slimefun4/master/files/target/sonar/ucfg2/java
+[INFO] Read 656 type definitions
+[INFO] Reading UCFGs from: /home/pi/Desktop/Build Server/TheBusyBiscuit/Slimefun4/master/files/target/sonar/ucfg2/java
+[INFO] 09:15:11.548 Building Type propagation graph
+[INFO] 09:15:12.185 Running Tarjan on 12313 nodes
+[INFO] 09:15:12.287 Tarjan found 12313 components
+[INFO] 09:15:12.625 Variable type analysis: done
+[INFO] 09:15:12.631 Building Type propagation graph
+[INFO] 09:15:13.232 Running Tarjan on 12295 nodes
+[INFO] 09:15:13.301 Tarjan found 12289 components
+[INFO] 09:15:13.411 Variable type analysis: done
+[INFO] Analyzing 1619 ucfgs to detect vulnerabilities.
+[INFO] All rules entrypoints : 0 Retained UCFGs : 0
+[INFO] rule: S5131, entrypoints: 0
+[INFO] Visited 0 ucfgs in 0 ms, 0 steps
+[INFO] rule: S5131 done
+[INFO] rule: S3649, entrypoints: 0
+[INFO] Visited 0 ucfgs in 0 ms, 0 steps
+[INFO] rule: S3649 done
+[INFO] rule: S2076, entrypoints: 0
+[INFO] Visited 0 ucfgs in 0 ms, 0 steps
+[INFO] rule: S2076 done
+[INFO] rule: S2091, entrypoints: 0
+[INFO] Visited 0 ucfgs in 0 ms, 0 steps
+[INFO] rule: S2091 done
+[INFO] rule: S2078, entrypoints: 0
+[INFO] Visited 0 ucfgs in 0 ms, 0 steps
+[INFO] rule: S2078 done
+[INFO] rule: S2631, entrypoints: 0
+[INFO] Visited 0 ucfgs in 0 ms, 0 steps
+[INFO] rule: S2631 done
+[INFO] rule: S5135, entrypoints: 0
+[INFO] Visited 0 ucfgs in 0 ms, 0 steps
+[INFO] rule: S5135 done
+[INFO] rule: S2083, entrypoints: 0
+[INFO] Visited 0 ucfgs in 0 ms, 0 steps
+[INFO] rule: S2083 done
+[INFO] rule: S5167, entrypoints: 0
+[INFO] Visited 0 ucfgs in 0 ms, 0 steps
+[INFO] rule: S5167 done
+[INFO] rule: S5144, entrypoints: 0
+[INFO] Visited 0 ucfgs in 0 ms, 0 steps
+[INFO] rule: S5144 done
+[INFO] rule: S5145, entrypoints: 0
+[INFO] Visited 0 ucfgs in 0 ms, 0 steps
+[INFO] rule: S5145 done
+[INFO] rule: S5146, entrypoints: 0
+[INFO] Visited 0 ucfgs in 0 ms, 0 steps
+[INFO] rule: S5146 done
+[INFO] rule: S5334, entrypoints: 0
+[INFO] Visited 0 ucfgs in 0 ms, 0 steps
+[INFO] rule: S5334 done
+[INFO] Sensor JavaSecuritySensor [security] (done) | time=53311ms
+[INFO] Sensor CSharpSecuritySensor [security]
+[INFO] Reading type hierarchy from: /home/pi/Desktop/Build Server/TheBusyBiscuit/Slimefun4/master/files/target/ucfg_cs2
+[INFO] Read 0 type definitions
+[INFO] Reading UCFGs from: /home/pi/Desktop/Build Server/TheBusyBiscuit/Slimefun4/master/files/target/ucfg_cs2
+[INFO] No UCFGs have been included for analysis.
+[INFO] Sensor CSharpSecuritySensor [security] (done) | time=5ms
+[INFO] Sensor PhpSecuritySensor [security]
+[INFO] Reading type hierarchy from: /home/pi/Desktop/Build Server/TheBusyBiscuit/Slimefun4/master/files/target/sonar/ucfg2/php
+[INFO] Read 0 type definitions
+[INFO] Reading UCFGs from: /home/pi/Desktop/Build Server/TheBusyBiscuit/Slimefun4/master/files/target/sonar/ucfg2/php
+[INFO] No UCFGs have been included for analysis.
+[INFO] Sensor PhpSecuritySensor [security] (done) | time=6ms
+[INFO] ------------- Run sensors on project
+[INFO] Sensor Zero Coverage Sensor
+[INFO] Sensor Zero Coverage Sensor (done) | time=241ms
+[INFO] Sensor Java CPD Block Indexer
+[INFO] Sensor Java CPD Block Indexer (done) | time=3124ms
+[INFO] SCM provider for this project is: git
+[INFO] 8 files to be analyzed
+[INFO] 8/8 files analyzed
+[INFO] 47 files had no CPD blocks
+[INFO] Calculating CPD for 153 files
+[INFO] CPD calculation finished
+[INFO] Analysis report generated in 569ms, dir size=3 MB
+[INFO] Analysis report compressed in 2215ms, zip size=1 MB
+[INFO] Analysis report uploaded in 16940ms
+[INFO] ANALYSIS SUCCESSFUL, you can browse https://sonarcloud.io/dashboard?id=TheBusyBiscuit_Slimefun4
+[INFO] Note that you will be able to access the updated dashboard once the server has processed the submitted analysis report
+[INFO] More about the report processing at https://sonarcloud.io/api/ce/task?id=AWzMyIZkN3kYVJYuQIYr
+[INFO] Analysis total time: 7:18.745 s
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  08:26 min
+[INFO] Finished at: 2019-08-26T09:16:29+02:00
+[INFO] ------------------------------------------------------------------------
