@@ -1,0 +1,47 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -----------------------< me.john000708:Barrels >------------------------
+[INFO] Building Barrels DEV - 4 (git f41f7ede)
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/bukkit/bukkit/1.14.4-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/bukkit/bukkit/1.14.4-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/bukkit/bukkit/1.14.4-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloaded from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/bukkit/bukkit/1.14.4-R0.1-SNAPSHOT/maven-metadata.xml (1.4 kB at 493 B/s)
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/bukkit/bukkit/1.14.4-R0.1-SNAPSHOT/maven-metadata.xml (1.4 kB at 413 B/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/bukkit/bukkit/1.14.4-R0.1-SNAPSHOT/bukkit-1.14.4-R0.1-20190831.065818-51.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/bukkit/bukkit/1.14.4-R0.1-SNAPSHOT/bukkit-1.14.4-R0.1-20190831.065818-51.pom (8.4 kB at 16 kB/s)
+[WARNING] The POM for com.github.TheBusyBiscuit:CS-CoreLib:jar:v1.6.1 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+[WARNING] The POM for com.github.TheBusyBiscuit:Slimefun4:jar:99cd14fa5f is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/bukkit/bukkit/1.14.4-R0.1-SNAPSHOT/bukkit-1.14.4-R0.1-20190831.065818-51.jar
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/bukkit/bukkit/1.14.4-R0.1-SNAPSHOT/bukkit-1.14.4-R0.1-20190831.065818-51.jar (1.2 MB at 530 kB/s)
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ Barrels ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ Barrels ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ Barrels ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 5 source files to /home/pi/Desktop/Build Server/John000708/Barrels/master/files/target/classes
+[WARNING] /home/pi/Desktop/Build Server/John000708/Barrels/master/files/src/me/john000708/barrels/Barrel.java: Some input files use or override a deprecated API.
+[WARNING] /home/pi/Desktop/Build Server/John000708/Barrels/master/files/src/me/john000708/barrels/Barrel.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ Barrels ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/pi/Desktop/Build Server/John000708/Barrels/master/files/tests/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ Barrels ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ Barrels ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ Barrels ---
+[INFO] Building jar: /home/pi/Desktop/Build Server/John000708/Barrels/master/files/target/Barrels-4.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  16.166 s
+[INFO] Finished at: 2019-08-31T11:56:08+02:00
+[INFO] ------------------------------------------------------------------------
