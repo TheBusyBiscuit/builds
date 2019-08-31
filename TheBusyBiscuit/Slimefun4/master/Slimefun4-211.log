@@ -1,0 +1,250 @@
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for me.mrCookieSlime:Slimefun:jar:DEV - 211 (git ed1bf015)
+[WARNING] 'dependencies.dependency.systemPath' for me.minebuilders:clearlag-core:jar should not point at files within the project directory, ${project.basedir}/lib/Clearlag.jar will be unresolvable by dependent projects @ line 1, column 3625
+[WARNING] 'dependencies.dependency.systemPath' for me.mrCookieSlime:EmeraldEnchants:jar should not point at files within the project directory, ${project.basedir}/lib/EmeraldEnchants v2.0.jar will be unresolvable by dependent projects @ line 1, column 3971
+[WARNING] 'dependencies.dependency.systemPath' for me.mrCookieSlime:ExoticGarden:jar should not point at files within the project directory, ${project.basedir}/lib/ExoticGarden v1.2.0.jar will be unresolvable by dependent projects @ line 1, column 4185
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-source-plugin is missing. @ line 1, column 1438
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] 
+[INFO] ---------------------< me.mrCookieSlime:Slimefun >----------------------
+[INFO] Building Slimefun DEV - 211 (git ed1bf015)
+[INFO] --------------------------------[ jar ]---------------------------------
+[WARNING] The POM for com.github.TheBusyBiscuit:CS-CoreLib:jar:v1.6.1 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+[WARNING] The POM for com.github.thebusybiscuit:CS-CoreLib2:jar:0.3.8 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ Slimefun ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ Slimefun ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ Slimefun ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 227 source files to /home/pi/Desktop/Build Server/TheBusyBiscuit/Slimefun4/master/files/target/classes
+[WARNING] /home/pi/Desktop/Build Server/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/commands/SlimefunCommand.java: /home/pi/Desktop/Build Server/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/commands/SlimefunCommand.java uses or overrides a deprecated API.
+[WARNING] /home/pi/Desktop/Build Server/TheBusyBiscuit/Slimefun4/master/files/src/me/mrCookieSlime/Slimefun/commands/SlimefunCommand.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ Slimefun ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/pi/Desktop/Build Server/TheBusyBiscuit/Slimefun4/master/files/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ Slimefun ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ Slimefun ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ Slimefun ---
+[INFO] Building jar: /home/pi/Desktop/Build Server/TheBusyBiscuit/Slimefun4/master/files/target/Slimefun4-211.jar
+[INFO] 
+[INFO] >>> maven-source-plugin:3.1.0:jar (attach-sources) > generate-sources @ Slimefun >>>
+[INFO] 
+[INFO] <<< maven-source-plugin:3.1.0:jar (attach-sources) < generate-sources @ Slimefun <<<
+[INFO] 
+[INFO] 
+[INFO] --- maven-source-plugin:3.1.0:jar (attach-sources) @ Slimefun ---
+[INFO] Building jar: /home/pi/Desktop/Build Server/TheBusyBiscuit/Slimefun4/master/files/target/Slimefun4-211-sources.jar
+[INFO] 
+[INFO] --- maven-shade-plugin:3.2.1:shade (default) @ Slimefun ---
+[INFO] Including com.github.thebusybiscuit:CS-CoreLib2:jar:0.3.8 in the shaded jar.
+[INFO] Including org.bstats:bstats-bukkit:jar:1.5 in the shaded jar.
+[INFO] Replacing original artifact with shaded artifact.
+[INFO] Replacing /home/pi/Desktop/Build Server/TheBusyBiscuit/Slimefun4/master/files/target/Slimefun4-211.jar with /home/pi/Desktop/Build Server/TheBusyBiscuit/Slimefun4/master/files/target/Slimefun-DEV - 211 (git ed1bf015)-shaded.jar
+[INFO] Dependency-reduced POM written at: /home/pi/Desktop/Build Server/TheBusyBiscuit/Slimefun4/master/files/dependency-reduced-pom.xml
+[INFO] 
+[INFO] ---------------------< me.mrCookieSlime:Slimefun >----------------------
+[INFO] Building Slimefun DEV - 211 (git ed1bf015)
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- sonar-maven-plugin:3.6.0.1398:sonar (default-cli) @ Slimefun ---
+[INFO] User cache: /home/pi/.sonar/cache
+[INFO] SonarQube version: 8.0.0
+[INFO] Defau[INFO] Load global settings
+lt locale: "de_DE", source code encoding: "UTF-8"
+[INFO] Load global settings (done) | time=791ms
+[INFO] Server id: 74E9293D-AWHW8ct9-T_TB3XqouNu
+[INFO] User cache: /home/pi/.sonar/cache
+[INFO] Load/download plugins
+[INFO] Load plugins index
+[INFO] Load plugins index (done) | time=265ms
+[INFO] Load/download plugins (done) | time=830ms
+[INFO] Loaded core extensions: developer-scanner
+[INFO] Process project properties
+[INFO] Execute project builders
+[INFO] Execute project builders (done) | time=18ms
+[INFO] Project key: TheBusyBiscuit_Slimefun4
+[INFO] Base dir: /home/pi/Desktop/Build Server/TheBusyBiscuit/Slimefun4/master/files
+[INFO] Working dir: /home/pi/Desktop/Build Server/TheBusyBiscuit/Slimefun4/master/files/target/sonar
+[INFO] Load project settings for component key: 'TheBusyBiscuit_Slimefun4'
+[INFO] Load project settings for component key: 'TheBusyBiscuit_Slimefun4' (done) | time=146ms
+[INFO] Load project branches
+[INFO] Load project branches (done) | time=205ms
+[INFO] Load project pull requests
+[INFO] Load project pull requests (done) | time=119ms
+[INFO] Load branch configuration
+[INFO] Load branch configuration (done) | time=6ms
+[INFO] Load quality profiles
+[INFO] Load quality profiles (done) | time=323ms
+[INFO] Load active rules
+[INFO] Load active rules (done) | time=3986ms
+[INFO] Organization key: thebusybiscuit-github
+[INFO] Indexing files...
+[INFO] Project configuration:
+[INFO] 229 files indexed
+[INFO] 0 files ignored because of scm ignore settings
+[INFO] Quality profile for java: Additional Checks
+[INFO] ------------- Run sensors on module Slimefun
+[INFO] Load metrics repository
+[INFO] Load metrics repository (done) | time=88ms
+[INFO] Sensor JavaSquidSensor [java]
+[INFO] Configured Java source version (sonar.java.source): 8
+[INFO] JavaClasspath initialization
+[INFO] JavaClasspath initialization (done) | time=61ms
+[INFO] JavaTestClasspath initialization
+[INFO] JavaTestClasspath initialization (done) | time=4ms
+[INFO] Java Main Files AST scan
+[INFO] 227 source files to be analyzed
+[INFO] Load project repositories
+[INFO] Load project repositories (done) | time=139ms
+[INFO] 2/227 files analyzed, current file: src/me/mrCookieSlime/Slimefun/Objects/SlimefunItem/machines/XPCollector.java
+[INFO] 4/227 files analyzed, current file: src/me/mrCookieSlime/Slimefun/api/PlayerProfile.java
+[INFO] 26/227 files analyzed, current file: src/me/mrCookieSlime/Slimefun/Setup/Files.java
+[INFO] 35/227 files analyzed, current file: src/me/mrCookieSlime/Slimefun/androids/ProgrammableAndroid.java
+[INFO] 35/227 files analyzed, current file: src/me/mrCookieSlime/Slimefun/androids/ProgrammableAndroid.java
+[INFO] 43/227 files analyzed, current file: src/me/mrCookieSlime/Slimefun/hooks/PlaceholderAPIHook.java
+[INFO] 50/227 files analyzed, current file: src/me/mrCookieSlime/Slimefun/listeners/ToolListener.java
+[INFO] 54/227 files analyzed, current file: src/me/mrCookieSlime/Slimefun/api/BlockStorage.java
+[INFO] 55/227 files analyzed, current file: src/me/mrCookieSlime/Slimefun/Objects/SlimefunItem/cargo/CargoInputNode.java
+[INFO] 62/227 files analyzed, current file: src/me/mrCookieSlime/Slimefun/Objects/SlimefunItem/machines/electric/AutoAnvil.java
+[INFO] 65/227 files analyzed, current file: src/me/mrCookieSlime/Slimefun/Setup/SlimefunSetup.java
+[INFO] 65/227 files analyzed, current file: src/me/mrCookieSlime/Slimefun/Setup/SlimefunSetup.java
+[INFO] 65/227 files analyzed, current file: src/me/mrCookieSlime/Slimefun/Setup/SlimefunSetup.java
+[INFO] 73/227 files analyzed, current file: src/me/mrCookieSlime/Slimefun/Objects/SlimefunItem/machines/ReactorAccessPort.java
+[INFO] 77/227 files analyzed, current file: src/me/mrCookieSlime/Slimefun/listeners/ItemListener.java
+[INFO] 81/227 files analyzed, current file: src/me/mrCookieSlime/Slimefun/Setup/CSCoreLibLoader.java
+[INFO] 84/227 files analyzed, current file: src/me/mrCookieSlime/Slimefun/ancient_altar/Pedestals.java
+[INFO] 93/227 files analyzed, current file: src/me/mrCookieSlime/Slimefun/Objects/SlimefunItem/machines/InfusedHopper.java
+[INFO] 108/227 files analyzed, current file: src/me/mrCookieSlime/Slimefun/Objects/SlimefunItem/machines/electric/ElectricSmeltery.java
+[INFO] 118/227 files analyzed, current file: src/me/mrCookieSlime/Slimefun/SlimefunPlugin.java
+[INFO] 129/227 files analyzed, current file: src/me/mrCookieSlime/Slimefun/listeners/DamageListener.java
+[INFO] 145/227 files analyzed, current file: src/me/mrCookieSlime/Slimefun/Objects/SlimefunItem/abstractItems/AGenerator.java
+[INFO] 155/227 files analyzed, current file: src/me/mrCookieSlime/Slimefun/Objects/SlimefunItem/multiblocks/PressureChamber.java
+[INFO] 167/227 files analyzed, current file: src/me/mrCookieSlime/Slimefun/Lists/RecipeType.java
+[INFO] 182/227 files analyzed, current file: src/me/mrCookieSlime/Slimefun/SlimefunGuide.java
+[INFO] 184/227 files analyzed, current file: src/me/mrCookieSlime/Slimefun/api/ErrorReport.java
+[INFO] 201/227 files analyzed, current file: src/me/mrCookieSlime/Slimefun/listeners/ArmorListener.java
+[INFO] 215/227 files analyzed, current file: src/me/mrCookieSlime/Slimefun/listeners/BlockListener.java
+[INFO] 227/227 source files have been analyzed
+[WARNING] Classes not found during the analysis : [com.google.common.base.Function, com.google.common.collect.ImmutableList, com.google.common.collect.ImmutableList$Builder, com.google.common.collect.Multimap, com.sk89q.worldedit.event.extent.EditSessionEvent, org.yaml.snakeyaml.DumperOptions, org.yaml.snakeyaml.Yaml, org.yaml.snakeyaml.representer.Representer]
+[INFO] Java Main Files AST scan (done) | time=287543ms
+[INFO] Java Test Files AST scan
+[INFO] 0 source files to be analyzed
+[INFO] Java Test Files AST scan (done) | time=10ms
+[INFO] 0/0 source files have been analyzed
+[INFO] Sensor JavaSquidSensor [java] (done) | time=290453ms
+[INFO] Sensor SurefireSensor [java]
+[INFO] parsing [/home/pi/Desktop/Build Server/TheBusyBiscuit/Slimefun4/master/files/target/surefire-reports]
+[INFO] Sensor SurefireSensor [java] (done) | time=12ms
+[INFO] Sensor JaCoCoSensor [java]
+[INFO] Sensor JaCoCoSensor [java] (done) | time=7ms
+[INFO] Sensor JavaXmlSensor [java]
+[INFO] Sensor JavaXmlSensor [java] (done) | time=22ms
+[INFO] Sensor HTML [web]
+[INFO] Sensor HTML [web] (done) | time=39ms
+[INFO] Sensor JaCoCo XML Report Importer [jacoco]
+[INFO] Sensor JaCoCo XML Report Importer [jacoco] (done) | time=31ms
+[INFO] Sensor JavaSecuritySensor [security]
+[INFO] Reading type hierarchy from: /home/pi/Desktop/Build Server/TheBusyBiscuit/Slimefun4/master/files/target/sonar/ucfg2/java
+[INFO] Read 650 type definitions
+[INFO] Reading UCFGs from: /home/pi/Desktop/Build Server/TheBusyBiscuit/Slimefun4/master/files/target/sonar/ucfg2/java
+[INFO] 21:03:54.851 Building Type propagation graph
+[INFO] 21:03:55.515 Running Tarjan on 12587 nodes
+[INFO] 21:03:55.613 Tarjan found 12587 components
+[INFO] 21:03:55.928 Variable type analysis: done
+[INFO] 21:03:55.933 Building Type propagation graph
+[INFO] 21:03:56.522 Running Tarjan on 12541 nodes
+[INFO] 21:03:56.592 Tarjan found 12535 components
+[INFO] 21:03:56.745 Variable type analysis: done
+[INFO] Analyzing 1648 ucfgs to detect vulnerabilities.
+[INFO] All rules entrypoints : 0 Retained UCFGs : 0
+[INFO] rule: S5131, entrypoints: 0
+[INFO] Visited 0 ucfgs in 0 ms, 0 steps
+[INFO] rule: S5131 done
+[INFO] rule: S3649, entrypoints: 0
+[INFO] Visited 0 ucfgs in 0 ms, 0 steps
+[INFO] rule: S3649 done
+[INFO] rule: S2076, entrypoints: 0
+[INFO] Visited 0 ucfgs in 0 ms, 0 steps
+[INFO] rule: S2076 done
+[INFO] rule: S2091, entrypoints: 0
+[INFO] Visited 0 ucfgs in 0 ms, 0 steps
+[INFO] rule: S2091 done
+[INFO] rule: S2078, entrypoints: 0
+[INFO] Visited 0 ucfgs in 0 ms, 0 steps
+[INFO] rule: S2078 done
+[INFO] rule: S2631, entrypoints: 0
+[INFO] Visited 0 ucfgs in 0 ms, 0 steps
+[INFO] rule: S2631 done
+[INFO] rule: S5135, entrypoints: 0
+[INFO] Visited 0 ucfgs in 0 ms, 0 steps
+[INFO] rule: S5135 done
+[INFO] rule: S2083, entrypoints: 0
+[INFO] Visited 0 ucfgs in 0 ms, 0 steps
+[INFO] rule: S2083 done
+[INFO] rule: S5167, entrypoints: 0
+[INFO] Visited 0 ucfgs in 0 ms, 0 steps
+[INFO] rule: S5167 done
+[INFO] rule: S5144, entrypoints: 0
+[INFO] Visited 0 ucfgs in 0 ms, 0 steps
+[INFO] rule: S5144 done
+[INFO] rule: S5145, entrypoints: 0
+[INFO] Visited 0 ucfgs in 0 ms, 0 steps
+[INFO] rule: S5145 done
+[INFO] rule: S5146, entrypoints: 0
+[INFO] Visited 0 ucfgs in 0 ms, 0 steps
+[INFO] rule: S5146 done
+[INFO] rule: S5334, entrypoints: 0
+[INFO] Visited 0 ucfgs in 0 ms, 0 steps
+[INFO] rule: S5334 done
+[INFO] Sensor JavaSecuritySensor [security] (done) | time=51973ms
+[INFO] Sensor CSharpSecuritySensor [security]
+[INFO] Reading type hierarchy from: /home/pi/Desktop/Build Server/TheBusyBiscuit/Slimefun4/master/files/target/ucfg_cs2
+[INFO] Read 0 type definitions
+[INFO] Reading UCFGs from: /home/pi/Desktop/Build Server/TheBusyBiscuit/Slimefun4/master/files/target/ucfg_cs2
+[INFO] No UCFGs have been included for analysis.
+[INFO] Sensor CSharpSecuritySensor [security] (done) | time=4ms
+[INFO] Sensor PhpSecuritySensor [security]
+[INFO] Reading type hierarchy from: /home/pi/Desktop/Build Server/TheBusyBiscuit/Slimefun4/master/files/target/sonar/ucfg2/php
+[INFO] Read 0 type definitions
+[INFO] Reading UCFGs from: /home/pi/Desktop/Build Server/TheBusyBiscuit/Slimefun4/master/files/target/sonar/ucfg2/php
+[INFO] No UCFGs have been included for analysis.
+[INFO] Sensor PhpSecuritySensor [security] (done) | time=5ms
+[INFO] ------------- Run sensors on project
+[INFO] Sensor Zero Coverage Sensor
+[INFO] Sensor Zero Coverage Sensor (done) | time=591ms
+[INFO] Sensor Java CPD Block Indexer
+[INFO] Sensor Java CPD Block Indexer (done) | time=3429ms
+[INFO] SCM provider for this project is: git
+[INFO] 1 files to be analyzed
+[INFO] 1/1 files analyzed
+[INFO] 54 files had no CPD blocks
+[INFO] Calculating CPD for 173 files
+[INFO] CPD calculation finished
+[INFO] Analysis report generated in 589ms, dir size=2 MB
+[INFO] Analysis report compressed in 2757ms, zip size=1 MB
+[INFO] Analysis report uploaded in 16886ms
+[INFO] ANALYSIS SUCCESSFUL, you can browse https://sonarcloud.io/dashboard?id=TheBusyBiscuit_Slimefun4
+[INFO] Note that you will be able to access the updated dashboard once the server has processed the submitted analysis report
+[INFO] More about the report processing at https://sonarcloud.io/api/ce/task?id=AWzpERyvvpKYTfz8esHA
+[INFO] Analysis total time: 6:31.674 s
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  07:07 min
+[INFO] Finished at: 2019-08-31T21:05:08+02:00
+[INFO] ------------------------------------------------------------------------
