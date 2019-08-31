@@ -1,0 +1,46 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -----------------------< me.john000708:Barrels >------------------------
+[INFO] Building Barrels DEV - 6 (git 6cf3a527)
+[INFO] --------------------------------[ jar ]---------------------------------
+[WARNING] The POM for com.github.TheBusyBiscuit:CS-CoreLib:jar:v1.6.1 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+[WARNING] The POM for com.github.TheBusyBiscuit:Slimefun4:jar:3400746c34 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+[WARNING] The POM for com.github.thebusybiscuit:CS-CoreLib2:jar:0.3.7 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ Barrels ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ Barrels ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ Barrels ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 5 source files to /home/pi/Desktop/Build Server/John000708/Barrels/master/files/target/classes
+[WARNING] /home/pi/Desktop/Build Server/John000708/Barrels/master/files/src/me/john000708/barrels/Barrel.java: Some input files use or override a deprecated API.
+[WARNING] /home/pi/Desktop/Build Server/John000708/Barrels/master/files/src/me/john000708/barrels/Barrel.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ Barrels ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/pi/Desktop/Build Server/John000708/Barrels/master/files/tests/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ Barrels ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ Barrels ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ Barrels ---
+[INFO] Building jar: /home/pi/Desktop/Build Server/John000708/Barrels/master/files/target/Barrels-6.jar
+[INFO] 
+[INFO] --- maven-shade-plugin:3.2.1:shade (default) @ Barrels ---
+[INFO] Including com.github.thebusybiscuit:CS-CoreLib2:jar:0.3.7 in the shaded jar.
+[INFO] Including org.bstats:bstats-bukkit:jar:1.5 in the shaded jar.
+[INFO] Replacing original artifact with shaded artifact.
+[INFO] Replacing /home/pi/Desktop/Build Server/John000708/Barrels/master/files/target/Barrels-6.jar with /home/pi/Desktop/Build Server/John000708/Barrels/master/files/target/Barrels-DEV - 6 (git 6cf3a527)-shaded.jar
+[INFO] Dependency-reduced POM written at: /home/pi/Desktop/Build Server/John000708/Barrels/master/files/dependency-reduced-pom.xml
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  10.104 s
+[INFO] Finished at: 2019-08-31T12:25:20+02:00
+[INFO] ------------------------------------------------------------------------
