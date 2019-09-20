@@ -32,6 +32,7 @@ It will also locate it's pom.xml file and set the version to "DEV - $id (git $co
 ### 3. Compiling
 This is the easiest step, the program just runs ```mvn clean package -B``` to compile our Maven Project.<br>
 It will also catch the state (Success / Failure).<br>
+If you enabled Sonar-Integration for this project, then it will also run a sonar-scan on the repository.<br>
 
 ### 4. Gathering Resources
 Since the page can also display some additional information, the program will now fetch the project's license and tags.<br>
