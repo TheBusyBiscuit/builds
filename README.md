@@ -27,7 +27,7 @@ After that it will proceed to step 2.<br>
 
 ### 2. Cloning
 After we established that our repository is out of date, this program will ```git clone``` said repository.<br>
-It will also locate it's pom.xml file and set the version to "DEV - <build id> (git <commit>)".<br>
+It will also locate it's pom.xml file and set the version to "DEV - $id (git $commit)".<br>
 
 ### 3. Compiling
 This is the easiest step, the program just runs ```mvn clean package -B``` to compile our Maven Project.<br>
