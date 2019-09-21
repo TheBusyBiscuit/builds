@@ -3,7 +3,7 @@ name: Sonarcloud Scanner
 on:
   push:
     branches:
-    - master
+    - gh-pages
 
 jobs:
   scanner:
