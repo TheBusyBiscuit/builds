@@ -32,7 +32,7 @@ const defaultConfig = {
 module.exports = (file) => {
     let cfg;
     
-    if (process.env.JSON_CONFIG) {
+    if (file != 'null' && process.env.JSON_CONFIG) {
         return structure(lodash.defaultsDeep(JSON.parse(process.env.JSON_CONFIG), defaultConfig));
     }
 
