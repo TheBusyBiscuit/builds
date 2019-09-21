@@ -80,7 +80,7 @@ svg {
 .current_info {
     border: 2px rgb(200, 200, 200) solid;
     margin: auto;
-    width: auto;
+    width: 60%;
 }
 .current_commit {
     border: 2px rgb(200, 200, 200) solid;
