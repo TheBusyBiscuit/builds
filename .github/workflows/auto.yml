@@ -21,4 +21,4 @@ jobs:
     - name: Executing program
       run: node src/single-run.js
       env:
-        CONFIG: ${{ secrets.JSON_CONFIG }}
+        JSON_CONFIG: ${{ secrets.JSON_CONFIG }}
