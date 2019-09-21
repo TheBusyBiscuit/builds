@@ -31,6 +31,10 @@ const defaultConfig = {
 
 module.exports = (file) => {
     let cfg;
+    
+    if (process.env.JSON_CONFIG) {
+        return structure(lodash.defaultsDeep(JSON.parse(process.env.JSON_CONFIG), defaultConfig));
+    }
 
     try {
         // Sadly this has to be a sync-process, otherwise a Promise would be more appropriate here
