@@ -115,7 +115,7 @@ $(function() {
                     }
                 }
 
-                $("#custom-info-" + j++).html('<td class="icon"><img class="icon" src="https://thebusybiscuit.github.io/content/octicons/package.svg"></td><td>' + label + '</td><td>' + content + '</td>');
+                $("#custom-info-" + j++).html('<td class="icon"><img class="icon" src="https://thebusybiscuit.github.io/content/octicons/package.svg"></td><td class="info_table_middle">' + label + '</td><td>' + content + '</td>');
             }
         }
 
