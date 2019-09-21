@@ -9,11 +9,14 @@ $(function() {
 
     $.getJSON("https://thebusybiscuit.github.io/builds/resources/repos.json", function(repos) {
         var info = repos[owner + "/" + repository + ":" + branch];
-        var box = $("#infobox");
 
-	let i = 1;
+	    let i = 1;
         for (var key in info.dependencies) {
-            box.append('<tr id="custom-info-' + i++ + '">' + key + '</td>');
+            $("#dependencies").append('<tr id="custom-info-' + i++ + '">' + key + '</td>');
+        }
+
+        if (i > 1) {
+            $("#dependency_section").show();
         }
 
         function loadBuild(builds, id) {
