@@ -284,7 +284,7 @@ function pushChanges(job, logging) {
                 log(logging, "-> Finished 'git commit'");
                 log(logging, "-> Executing 'git push'");
 
-                var push = process.spawn("git", ["push"]);
+                var push = process.spawn("git", ["push", "origin", "HEAD:gh-pages"]);
 
                 push.childProcess.stdout.on('data', (data) => log(logging, "-> " + data));
                 push.childProcess.stderr.on('data', (data) => log(logging, "-> " + data));
