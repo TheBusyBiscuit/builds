@@ -18,6 +18,8 @@ jobs:
         node-version: '10.x'
     - name: Installing dependencies
       run: npm install
+    - name: Setting up remote
+      run: sh src/setup.sh
     - name: Executing program
       run: node src/single-run.js
       env:
