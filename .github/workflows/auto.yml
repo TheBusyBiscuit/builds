@@ -20,6 +20,8 @@ jobs:
       run: npm install
     - name: Setting up remote
       run: sh src/setup.sh
+      env:
+        LOGIN_EMAIL: ${{ secrets.LOGIN_EMAIL }}
     - name: Executing program
       run: node src/single-run.js
       env:
