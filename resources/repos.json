@@ -332,5 +332,21 @@
 				"1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/Slimefun4/master/#251\">dev #251</a>"
 			}
 		}
+	},
+	"TheBusyBiscuit/EmeraldEnchants2:master": {
+		"sonar": {
+			"enabled": true,
+			"organization": "thebusybiscuit-github",
+			"project-key": "TheBusyBiscuit_EmeraldEnchants",
+			"host-url": "https://sonarcloud.io"
+		},
+		"dependencies": {
+			"Minecraft Version(s)": {
+				"1": "1.14.x"
+			},
+			"CS-CoreLib Version": {
+				"1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/CS-CoreLib/master/#44\">1.6</a>"
+			}
+		}
 	}
 }
