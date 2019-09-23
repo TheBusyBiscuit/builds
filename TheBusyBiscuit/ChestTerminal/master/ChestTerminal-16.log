@@ -1,0 +1,224 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------< io.github.thebusybiscuit:ChestTerminal >---------------
+[INFO] Building ChestTerminal DEV - 16 (git 2d3ae7d9)
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/bukkit/bukkit/1.14.4-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from CodeMC: https://repo.codemc.org/repository/maven-public/org/bukkit/bukkit/1.14.4-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/bukkit/bukkit/1.14.4-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/bukkit/bukkit/1.14.4-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloaded from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/bukkit/bukkit/1.14.4-R0.1-SNAPSHOT/maven-metadata.xml (1.4 kB at 2.4 kB/s)
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/bukkit/bukkit/1.14.4-R0.1-SNAPSHOT/maven-metadata.xml (1.4 kB at 553 B/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/bukkit/bukkit/1.14.4-R0.1-SNAPSHOT/bukkit-1.14.4-R0.1-20190919.071713-67.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/bukkit/bukkit/1.14.4-R0.1-SNAPSHOT/bukkit-1.14.4-R0.1-20190919.071713-67.pom (8.4 kB at 7.1 kB/s)
+[WARNING] The POM for com.github.thebusybiscuit:CS-CoreLib2:jar:0.4.1 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/github/TheBusyBiscuit/Slimefun4/dcee66839f/Slimefun4-dcee66839f.pom
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/github/TheBusyBiscuit/Slimefun4/dcee66839f/Slimefun4-dcee66839f.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/github/TheBusyBiscuit/Slimefun4/dcee66839f/Slimefun4-dcee66839f.pom
+[INFO] Downloaded from jitpack.io: https://jitpack.io/com/github/TheBusyBiscuit/Slimefun4/dcee66839f/Slimefun4-dcee66839f.pom (7.2 kB at 64 kB/s)
+[WARNING] The POM for com.github.TheBusyBiscuit:Slimefun4:jar:dcee66839f is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/bukkit/bukkit/1.14.4-R0.1-SNAPSHOT/bukkit-1.14.4-R0.1-20190919.071713-67.jar
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/github/TheBusyBiscuit/Slimefun4/dcee66839f/Slimefun4-dcee66839f.jar
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/bukkit/bukkit/1.14.4-R0.1-SNAPSHOT/bukkit-1.14.4-R0.1-20190919.071713-67.jar (1.2 MB at 593 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/github/TheBusyBiscuit/Slimefun4/dcee66839f/Slimefun4-dcee66839f.jar
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/github/TheBusyBiscuit/Slimefun4/dcee66839f/Slimefun4-dcee66839f.jar
+[INFO] Downloaded from jitpack.io: https://jitpack.io/com/github/TheBusyBiscuit/Slimefun4/dcee66839f/Slimefun4-dcee66839f.jar (964 kB at 4.5 MB/s)
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ ChestTerminal ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ ChestTerminal ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ ChestTerminal ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 6 source files to /home/runner/work/builds/builds/TheBusyBiscuit/ChestTerminal/master/files/target/classes
+[WARNING] /home/runner/work/builds/builds/TheBusyBiscuit/ChestTerminal/master/files/src/io/github/thebusybiscuit/chestterminal/AccessTerminal.java: /home/runner/work/builds/builds/TheBusyBiscuit/ChestTerminal/master/files/src/io/github/thebusybiscuit/chestterminal/AccessTerminal.java uses or overrides a deprecated API.
+[WARNING] /home/runner/work/builds/builds/TheBusyBiscuit/ChestTerminal/master/files/src/io/github/thebusybiscuit/chestterminal/AccessTerminal.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ ChestTerminal ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/runner/work/builds/builds/TheBusyBiscuit/ChestTerminal/master/files/tests/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ ChestTerminal ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ ChestTerminal ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ ChestTerminal ---
+[INFO] Building jar: /home/runner/work/builds/builds/TheBusyBiscuit/ChestTerminal/master/files/target/ChestTerminal-16.jar
+[INFO] 
+[INFO] ---------------< io.github.thebusybiscuit:ChestTerminal >---------------
+[INFO] Building ChestTerminal DEV - 16 (git 2d3ae7d9)
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- sonar-maven-plugin:3.6.1.1688:sonar (default-cli) @ ChestTerminal ---
+[INFO] User cache: /home/runner/.sonar/cache
+[INFO] SonarQube version: 8.0.0
+[INFO] Default locale: "en", source code encoding: "UTF-8"
+[INFO] Load global settings
+[INFO] Load global settings (done) | time=614ms
+[INFO] Server id: 74E9293D-AWHW8ct9-T_TB3XqouNu
+[INFO] User cache: /home/runner/.sonar/cache
+[INFO] Load/download plugins
+[INFO] Load plugins index
+[INFO] Load plugins index (done) | time=144ms
+[INFO] Load/download plugins (done) | time=238ms
+[INFO] Loaded core extensions: developer-scanner
+[INFO] Process project properties
+[INFO] Execute project builders
+[INFO] Execute project builders (done) | time=5ms
+[INFO] Project key: TheBusyBiscuit_ChestTerminal
+[INFO] Base dir: /home/runner/work/builds/builds/TheBusyBiscuit/ChestTerminal/master/files
+[INFO] Working dir: /home/runner/work/builds/builds/TheBusyBiscuit/ChestTerminal/master/files/target/sonar
+[INFO] Load project settings for component key: 'TheBusyBiscuit_ChestTerminal'
+[INFO] Load project settings for component key: 'TheBusyBiscuit_ChestTerminal' (done) | time=143ms
+[INFO] Load project branches
+[INFO] Load project branches (done) | time=109ms
+[INFO] Load project pull requests
+[INFO] Load project pull requests (done) | time=107ms
+[INFO] Load branch configuration
+[INFO] Github event: schedule
+[INFO] Load branch configuration (done) | time=1ms
+[INFO] Load quality profiles
+[INFO] Load quality profiles (done) | time=162ms
+[INFO] Detected Github Actions
+[INFO] Load active rules
+[INFO] Load active rules (done) | time=3524ms
+[INFO] Organization key: thebusybiscuit-github
+[INFO] Indexing files...
+[INFO] Project configuration:
+[INFO] 9 files indexed
+[INFO] 0 files ignored because of scm ignore settings
+[INFO] Quality profile for java: Additional Checks
+[INFO] Quality profile for xml: Sonar way
+[INFO] ------------- Run sensors on module ChestTerminal
+[INFO] Load metrics repository
+[INFO] Load metrics repository (done) | time=113ms
+[INFO] Sensor JavaSquidSensor [java]
+[INFO] Configured Java source version (sonar.java.source): 8
+[INFO] JavaClasspath initialization
+[INFO] JavaClasspath initialization (done) | time=11ms
+[INFO] JavaTestClasspath initialization
+[INFO] JavaTestClasspath initialization (done) | time=1ms
+[INFO] Java Main Files AST scan
+[INFO] 6 source files to be analyzed
+[INFO] Load project repositories
+[INFO] Load project repositories (done) | time=115ms
+[INFO] 6/6 source files have been analyzed
+[INFO] Java Main Files AST scan (done) | time=2607ms
+[INFO] Java Test Files AST scan
+[INFO] 0 source files to be analyzed
+[INFO] Java Test Files AST scan (done) | time=1ms
+[INFO] Sensor JavaSquidSensor [java] (done) | time=3178ms
+[INFO] Sensor SurefireSensor [java]
+[INFO] parsing [/home/runner/work/builds/builds/TheBusyBiscuit/ChestTerminal/master/files/target/surefire-reports]
+[INFO] Sensor SurefireSensor [java] (done) | time=3ms
+[INFO] Sensor JaCoCoSensor [java]
+[INFO] Sensor JaCoCoSensor [java] (done) | time=1ms
+[INFO] Sensor JavaXmlSensor [java]
+[INFO] 1 source files to be analyzed
+[INFO] 0/0 source files have been analyzed
+[INFO] 1/1 source files have been analyzed
+[INFO] Sensor JavaXmlSensor [java] (done) | time=304ms
+[INFO] Sensor HTML [web]
+[INFO] Sensor HTML [web] (done) | time=3ms
+[INFO] Sensor XML Sensor [xml]
+[INFO] 1 source files to be analyzed
+[INFO] 1/1 source files have been analyzed
+[INFO] Sensor XML Sensor [xml] (done) | time=155ms
+[INFO] Sensor JaCoCo XML Report Importer [jacoco]
+[INFO] Sensor JaCoCo XML Report Importer [jacoco] (done) | time=3ms
+[INFO] Sensor JavaSecuritySensor [security]
+[INFO] Reading type hierarchy from: /home/runner/work/builds/builds/TheBusyBiscuit/ChestTerminal/master/files/target/sonar/ucfg2/java
+[INFO] Read 105 type definitions
+[INFO] Reading UCFGs from: /home/runner/work/builds/builds/TheBusyBiscuit/ChestTerminal/master/files/target/sonar/ucfg2/java
+[INFO] 16:20:07.994 Building Type propagation graph
+[INFO] 16:20:08.018 Running Tarjan on 178 nodes
+[INFO] 16:20:08.021 Tarjan found 178 components
+[INFO] 16:20:08.026 Variable type analysis: done
+[INFO] 16:20:08.028 Building Type propagation graph
+[INFO] 16:20:08.04 Running Tarjan on 178 nodes
+[INFO] 16:20:08.041 Tarjan found 178 components
+[INFO] 16:20:08.042 Variable type analysis: done
+[INFO] Analyzing 64 ucfgs to detect vulnerabilities.
+[INFO] All rules entrypoints : 0 Retained UCFGs : 0
+[INFO] rule: S5131, entrypoints: 0
+[INFO] Visited 0 ucfgs in 0 ms, 0 steps
+[INFO] rule: S5131 done
+[INFO] rule: S3649, entrypoints: 0
+[INFO] Visited 0 ucfgs in 0 ms, 0 steps
+[INFO] rule: S3649 done
+[INFO] rule: S2076, entrypoints: 0
+[INFO] Visited 0 ucfgs in 0 ms, 0 steps
+[INFO] rule: S2076 done
+[INFO] rule: S2091, entrypoints: 0
+[INFO] Visited 0 ucfgs in 0 ms, 0 steps
+[INFO] rule: S2091 done
+[INFO] rule: S2078, entrypoints: 0
+[INFO] Visited 0 ucfgs in 0 ms, 0 steps
+[INFO] rule: S2078 done
+[INFO] rule: S2631, entrypoints: 0
+[INFO] Visited 0 ucfgs in 0 ms, 0 steps
+[INFO] rule: S2631 done
+[INFO] rule: S5135, entrypoints: 0
+[INFO] Visited 0 ucfgs in 0 ms, 0 steps
+[INFO] rule: S5135 done
+[INFO] rule: S2083, entrypoints: 0
+[INFO] Visited 0 ucfgs in 0 ms, 0 steps
+[INFO] rule: S2083 done
+[INFO] rule: S5167, entrypoints: 0
+[INFO] Visited 0 ucfgs in 0 ms, 0 steps
+[INFO] rule: S5167 done
+[INFO] rule: S5144, entrypoints: 0
+[INFO] Visited 0 ucfgs in 0 ms, 0 steps
+[INFO] rule: S5144 done
+[INFO] rule: S5145, entrypoints: 0
+[INFO] Visited 0 ucfgs in 0 ms, 0 steps
+[INFO] rule: S5145 done
+[INFO] rule: S5146, entrypoints: 0
+[INFO] Visited 0 ucfgs in 0 ms, 0 steps
+[INFO] rule: S5146 done
+[INFO] rule: S5334, entrypoints: 0
+[INFO] Visited 0 ucfgs in 0 ms, 0 steps
+[INFO] rule: S5334 done
+[INFO] Sensor JavaSecuritySensor [security] (done) | time=976ms
+[INFO] Sensor CSharpSecuritySensor [security]
+[INFO] Reading type hierarchy from: /home/runner/work/builds/builds/TheBusyBiscuit/ChestTerminal/master/files/target/ucfg_cs2
+[INFO] Read 0 type definitions
+[INFO] Reading UCFGs from: /home/runner/work/builds/builds/TheBusyBiscuit/ChestTerminal/master/files/target/ucfg_cs2
+[INFO] No UCFGs have been included for analysis.
+[INFO] Sensor CSharpSecuritySensor [security] (done) | time=9ms
+[INFO] Sensor PhpSecuritySensor [security]
+[INFO] Reading type hierarchy from: /home/runner/work/builds/builds/TheBusyBiscuit/ChestTerminal/master/files/target/sonar/ucfg2/php
+[INFO] Read 0 type definitions
+[INFO] Reading UCFGs from: /home/runner/work/builds/builds/TheBusyBiscuit/ChestTerminal/master/files/target/sonar/ucfg2/php
+[INFO] No UCFGs have been included for analysis.
+[INFO] Sensor PhpSecuritySensor [security] (done) | time=3ms
+[INFO] ------------- Run sensors on project
+[INFO] Sensor Zero Coverage Sensor
+[INFO] Sensor Zero Coverage Sensor (done) | time=20ms
+[INFO] Sensor Java CPD Block Indexer
+[INFO] Sensor Java CPD Block Indexer (done) | time=58ms
+[INFO] SCM provider for this project is: git
+[INFO] 3 files to be analyzed
+[INFO] 2/3 files analyzed
+[WARNING] Missing blame information for the following files:
+[WARNING]   * pom.xml
+[WARNING] This may lead to missing/broken features in SonarQube
+[INFO] Calculating CPD for 6 files
+[INFO] CPD calculation finished
+[INFO] Analysis report generated in 71ms, dir size=219 KB
+[INFO] Analysis report compressed in 33ms, zip size=60 KB
+[INFO] Analysis report uploaded in 292ms
+[INFO] ANALYSIS SUCCESSFUL, you can browse https://sonarcloud.io/dashboard?id=TheBusyBiscuit_ChestTerminal
+[INFO] Note that you will be able to access the updated dashboard once the server has processed the submitted analysis report
+[INFO] More about the report processing at https://sonarcloud.io/api/ce/task?id=AW1e7FSLVizsYSNdeNJj
+[INFO] Analysis total time: 13.270 s
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  25.179 s
+[INFO] Finished at: 2019-09-23T16:20:09Z
+[INFO] ------------------------------------------------------------------------
