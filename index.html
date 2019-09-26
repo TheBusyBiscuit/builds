@@ -3,7 +3,7 @@
     <head>
         <title>Repo Server</title>
 
-		<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="style.css">
         <link href="https://fonts.googleapis.com/css?family=Noto+Sans:400,700" rel="stylesheet">
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -51,7 +51,7 @@
                 let html = "";
 
                 html += "<tr project=\"" + repo + ":" + branch + "\"><td class=\"icon\"><img class=\"icon\" alt=\"project page\" src=\"https://thebusybiscuit.github.io/content/octicons/beaker.svg\"></td>";
-                html += '<td class="table_label" style="width: auto;"><a class="link_info" href="' + owner + '/' + repo + '/' + branch + '">' + (owner + "/" + repo + " (" + branch + ")") + "</a></td><td>";
+                html += '<td class="table_label" style="width: auto;"><a class="link_info" href="' + owner + '/' + repo + '/' + branch + '">' + (repo + " (" + branch + ")") + "</a></td><td>";
                 html += '<img style="float: right;" alt=\"project badge\" src="https://thebusybiscuit.github.io/builds/' + owner + '/' + repo + '/' + branch + '/badge.svg"/></td></tr>';
 
                 table.append(html);
@@ -65,9 +65,9 @@
         <div id="repos" class="page">
             <div class="box repo">
                 <div style="width: 100%; text-align: center;">
-					<img style="width: 30%;" class="loading" alt="loading" src="https://thebusybiscuit.github.io/content/octicons/sync.svg"/>
-				</div>
-			</div>
+			<img style="width: 30%;" class="loading" alt="loading" src="https://thebusybiscuit.github.io/content/octicons/sync.svg"/>
+		</div>
+	    </div>
         </div>
     </body>
 </html>
