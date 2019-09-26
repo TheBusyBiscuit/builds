@@ -59,8 +59,9 @@ $(function() {
                 current_tag.text(builds[id].tag);
             }
             else {
-                download_jar.text(repository + " - DEV " + id + " (git " + builds[id].sha.substr(0, 5) + ").jar");
-                download_jar.attr("download", repository + " - DEV " + id + " (git " + builds[id].sha.substr(0, 5) + ").jar");
+		var prefix = info.options ? info.options.prefix: "DEV";
+                download_jar.text(repository + " - " + prefix + " " + id + " (git " + builds[id].sha.substr(0, 5) + ").jar");
+                download_jar.attr("download", repository + " - " + prefix + " " + id + " (git " + builds[id].sha.substr(0, 5) + ").jar");
 
                 $("#current_name").text(repository + " - #" + id);
                 $("#tag_section").css("display", "none");
