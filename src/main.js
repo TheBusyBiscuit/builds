@@ -131,7 +131,7 @@ function update(job, logging) {
         log(logging, "Updating: " + job.author + "/" + job.repo + ":" + job.branch + " (" + job.id + ")");
 
         github.clone(job, job.commit.sha, logging).then(() => {
-            maven.setVersion(job, (job.options.prefix ? job.options.prefix: "DEV") + " - " + job.id + " (git " + job.commit.sha.substr(0, 8) + ")", true).then(resolve, reject);
+            maven.setVersion(job, (job.options ? job.options.prefix: "DEV") + " - " + job.id + " (git " + job.commit.sha.substr(0, 8) + ")", true).then(resolve, reject);
         }, reject);
     });
 }
