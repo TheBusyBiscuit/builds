@@ -418,5 +418,27 @@
 				"1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/CS-CoreLib/master/#44\">1.6</a>"
 			}
 		}
+	},
+	"TheBusyBiscuit/SlimefunOreChunks:master": {
+		"sonar": {
+			"enabled": true,
+			"organization": "thebusybiscuit-github",
+			"project-key": "TheBusyBiscuit_SlimefunOreChunks",
+			"host-url": "https://sonarcloud.io"
+		},
+		"options": {
+			"prefix": "DEV"
+		},
+		"dependencies": {
+			"Minecraft Version(s)": {
+				"1": "1.14.x"
+			},
+			"CS-CoreLib Version": {
+				"1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/CS-CoreLib/master/#44\">1.6</a>"
+			},
+			"Slimefun Version": {
+				"1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/Slimefun4/master/#262\">dev #262</a>"
+			}
+		}
 	}
 }
