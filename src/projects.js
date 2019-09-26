@@ -33,7 +33,8 @@ function getProjects(logging) {
                 var job = {
                     "author": repo.split("/")[0],
                     "repo": repo.split('/')[1].split(":")[0],
-                    "branch": repo.split('/')[1].split(":")[1]
+                    "branch": repo.split('/')[1].split(":")[1],
+                    "options": json[repo].options
                 };
 
                 if (json[repo].sonar && json[repo].sonar.enabled) {

@@ -6,6 +6,9 @@
 			"project-key": "TheBusyBiscuit_CS-CoreLib",
 			"host-url": "https://sonarcloud.io"
 		},
+		"options": {
+			"prefix": "DEV"
+		},
 		"dependencies": {
 			"Minecraft Version(s)": {
 				"39": "1.12.x, 1.13.x, 1.14.x",
@@ -20,6 +23,9 @@
 			"organization": "thebusybiscuit-github",
 			"project-key": "TheBusyBiscuit_Slimefun4",
 			"host-url": "https://sonarcloud.io"
+		},
+		"options": {
+			"prefix": "DEV"
 		},
 		"dependencies": {
 			"Minecraft Version(s)": {
@@ -46,6 +52,9 @@
 			"project-key": "TheBusyBiscuit_QuickSell",
 			"host-url": "https://sonarcloud.io"
 		},
+		"options": {
+			"prefix": "DEV"
+		},
 		"dependencies": {
 			"Minecraft Version(s)": {
 				"1": "1.14.x"
@@ -61,6 +70,9 @@
 			"organization": "thebusybiscuit-github",
 			"project-key": "TheBusyBiscuit_QuickMarket",
 			"host-url": "https://sonarcloud.io"
+		},
+		"options": {
+			"prefix": "DEV"
 		},
 		"dependencies": {
 			"Minecraft Version(s)": {
@@ -79,6 +91,9 @@
 			"organization": "thebusybiscuit-github",
 			"project-key": "TheBusyBiscuit_ExoticGarden",
 			"host-url": "https://sonarcloud.io"
+		},
+		"options": {
+			"prefix": "DEV"
 		},
 		"dependencies": {
 			"Minecraft Version(s)": {
@@ -110,6 +125,9 @@
 			"project-key": "TheBusyBiscuit_ChestTerminal",
 			"host-url": "https://sonarcloud.io"
 		},
+		"options": {
+			"prefix": "DEV"
+		},
 		"dependencies": {
 			"Minecraft Version(s)": {
 				"10": "1.14.x",
@@ -140,6 +158,9 @@
 			"project-key": "TheBusyBiscuit_lubkyblocks-sf",
 			"host-url": "https://sonarcloud.io"
 		},
+		"options": {
+			"prefix": "DEV"
+		},
 		"dependencies": {
 			"Minecraft Version(s)": {
 				"6": "1.14.x",
@@ -164,6 +185,9 @@
 			"project-key": "TheBusyBiscuit_SoulJars",
 			"host-url": "https://sonarcloud.io"
 		},
+		"options": {
+			"prefix": "DEV"
+		},
 		"dependencies": {
 			"Minecraft Version(s)": {
 				"1": "1.13.x, 1.14.x"
@@ -184,6 +208,9 @@
 			"project-key": "TheBusyBiscuit_HotbarPets",
 			"host-url": "https://sonarcloud.io"
 		},
+		"options": {
+			"prefix": "DEV"
+		},
 		"dependencies": {
 			"Minecraft Version(s)": {
 				"1": "1.13.x, 1.14.x"
@@ -202,6 +229,9 @@
 			"organization": "thebusybiscuit-github",
 			"project-key": "TheBusyBiscuit_ElectricSpawners",
 			"host-url": "https://sonarcloud.io"
+		},
+		"options": {
+			"prefix": "DEV"
 		},
 		"dependencies": {
 			"Minecraft Version(s)": {
@@ -222,6 +252,9 @@
 			"project-key": "TheBusyBiscuit_ColoredEnderChests",
 			"host-url": "https://sonarcloud.io"
 		},
+		"options": {
+			"prefix": "DEV"
+		},
 		"dependencies": {
 			"Minecraft Version(s)": {
 				"1": "1.13.x, 1.14.x"
@@ -240,6 +273,9 @@
 			"organization": "thebusybiscuit-github",
 			"project-key": "TheBusyBiscuit_PrivateStorage",
 			"host-url": "https://sonarcloud.io"
+		},
+		"options": {
+			"prefix": "DEV"
 		},
 		"dependencies": {
 			"Minecraft Version(s)": {
@@ -260,6 +296,9 @@
 			"project-key": "TheBusyBiscuit_ExtraGear",
 			"host-url": "https://sonarcloud.io"
 		},
+		"options": {
+			"prefix": "DEV"
+		},
 		"dependencies": {
 			"Minecraft Version(s)": {
 				"1": "1.13.x, 1.14.x"
@@ -275,6 +314,9 @@
 	"John000708/Barrels:master": {
 		"sonar": {
 			"enabled": false
+		},
+		"options": {
+			"prefix": "DEV"
 		},
 		"dependencies": {
 			"Minecraft Version(s)": {
@@ -295,6 +337,9 @@
 			"project-key": "TheBusyBiscuit_CommandOverride",
 			"host-url": "https://sonarcloud.io"
 		},
+		"options": {
+			"prefix": "DEV"
+		},
 		"dependencies": {
 			"Minecraft Version(s)": {
 				"1": "1.9.x - 1.14.x"
@@ -308,6 +353,9 @@
 			"project-key": "TheBusyBiscuit_RankPrefixPlus",
 			"host-url": "https://sonarcloud.io"
 		},
+		"options": {
+			"prefix": "DEV"
+		},
 		"dependencies": {
 			"Minecraft Version(s)": {
 				"1": "1.9.x - 1.14.x"
@@ -320,6 +368,9 @@
 			"organization": "thebusybiscuit-github",
 			"project-key": "TheBusyBiscuit_ExtraHeads",
 			"host-url": "https://sonarcloud.io"
+		},
+		"options": {
+			"prefix": "DEV"
 		},
 		"dependencies": {
 			"Minecraft Version(s)": {
@@ -339,6 +390,9 @@
 			"organization": "thebusybiscuit-github",
 			"project-key": "TheBusyBiscuit_EmeraldEnchants",
 			"host-url": "https://sonarcloud.io"
+		},
+		"options": {
+			"prefix": "DEV"
 		},
 		"dependencies": {
 			"Minecraft Version(s)": {
