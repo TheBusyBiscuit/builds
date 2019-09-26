@@ -45,6 +45,22 @@
 			}
 		}
 	},
+	"TheBusyBiscuit/Slimefun4:stable": {
+		"sonar": {
+			"enabled": false
+		},
+		"options": {
+			"prefix": "RC"
+		},
+		"dependencies": {
+			"Minecraft Version(s)": {
+				"1": "1.14.x"
+			},
+			"CS-CoreLib Version": {
+				"1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/CS-CoreLib/master/#44\">1.6</a>"
+			}
+		}
+	},
 	"TheBusyBiscuit/QuickSell:master": {
 		"sonar": {
 			"enabled": true,
