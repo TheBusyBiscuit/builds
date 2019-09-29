@@ -11,15 +11,18 @@ const cfg = require('../src/config.js')(path.resolve(__dirname, "../resources/co
 const discord = require('../src/discord.js')(cfg.discord);
 
 describe("Discord Integration Test", () => {
-    describe("Config Validator", () => {
-        it("should have a valid id", () => {
-            return assert.match(discord.getConfig().getID(), /[0-9]+/);
-        });
+    
+	if (cfg.discord.isEnabled()) {
+		describe("Config Validator", () => {
+			it("should have a valid id", () => {
+				return assert.match(discord.getConfig().getID(), /[0-9]+/);
+			});
 
-        it("should have a valid Token", () => {
-            return assert.match(discord.getConfig().getID(), /[a-zA-Z0-9]+/);
-        });
-    });
+			it("should have a valid Token", () => {
+				return assert.match(discord.getConfig().getID(), /[a-zA-Z0-9]+/);
+			});
+		});
+	}
 
     it("should send a Message to Discord (successful build)", () => {
         var mock_discord = require('../src/discord.js')();
