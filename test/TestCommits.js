@@ -44,5 +44,17 @@ module.exports = (assert, github) => {
 
             return assert.isRejected(github.getLatestCommit(job));
         });
+
+        it("should reject for [CI Skip] in commit (Skipped build)", () => {
+               let job = {
+                   author: "TheBusyBiscuit",
+                   repo: "builds",
+                   branch: "master"
+               };
+
+                return assert.isRejected(github.getLatestCommit(job).then((commit) => {
+                   commit.commit.message = "[CI Skip] Testing123";
+               }));
+        });
     }
 }
