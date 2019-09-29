@@ -30,19 +30,22 @@ const defaultConfig = {
 }
 
 module.exports = (file) => {
-    let cfg;
-    
+    let cfg = {};
+
     if (file != 'null' && process.env.JSON_CONFIG) {
         return structure(lodash.defaultsDeep(JSON.parse(process.env.JSON_CONFIG), defaultConfig));
     }
 
     try {
         // Sadly this has to be a sync-process, otherwise a Promise would be more appropriate here
-        cfg = JSON.parse(fs.readFileSync(file, "UTF-8"));
+        cfg = JSON.parse(fs.readFileSync(file, 'UTF-8'));
     }
     catch(err) {}
 
-    return structure(lodash.defaultsDeep(cfg, defaultConfig));
+    cfg = lodash.defaultsDeep(cfg, defaultConfig);
+    fs.writeFile(file, JSON.stringify(cfg, null, 2), 'UTF-8');
+
+    return structure(cfg);
 };
 
 function structure(json) {
