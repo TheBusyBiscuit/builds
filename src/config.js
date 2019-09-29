@@ -43,7 +43,7 @@ module.exports = (file) => {
     catch(err) {}
 
     cfg = lodash.defaultsDeep(cfg, defaultConfig);
-    fs.writeFile(file, JSON.stringify(cfg, null, 2), 'UTF-8', () => {});
+    fs.writeFileSync(file, JSON.stringify(cfg, null, 2), 'UTF-8');
 
     return structure(cfg);
 };

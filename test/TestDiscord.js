@@ -11,7 +11,7 @@ const cfg = require('../src/config.js')(path.resolve(__dirname, "../resources/co
 const discord = require('../src/discord.js')(cfg.discord);
 
 describe("Discord Integration Test", () => {
-    
+
 	if (cfg.discord.isEnabled()) {
 		describe("Config Validator", () => {
 			it("should have a valid id", () => {
@@ -65,5 +65,7 @@ describe("Discord Integration Test", () => {
         }))
     });
 
-    testJobs(true, (job) => discord.sendUpdate(job));
+    testJobs(true, (job) => {
+        return require('../src/discord.js')().sendUpdate(job)
+    });
 });
