@@ -19,7 +19,7 @@ describe("Discord Integration Test", () => {
 			});
 
 			it("should have a valid Token", () => {
-				return assert.match(discord.getConfig().getID(), /[a-zA-Z0-9]+/);
+				return assert.match(discord.getConfig().getToken(), /(mfa\.)?\w+/);
 			});
 		});
 	}
