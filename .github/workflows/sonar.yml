@@ -13,6 +13,8 @@ jobs:
     steps:
     - name: Checking out Repository
       uses: actions/checkout@v1
+      with:
+        ref: gh-pages
     - name: Setting up node.js
       uses: actions/setup-node@v1
       with:
