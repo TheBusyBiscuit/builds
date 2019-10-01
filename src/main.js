@@ -95,6 +95,10 @@ function check(job, logging) {
         github.getLatestCommit(job, logging).then((commit) => {
             var timestamp = parseInt(commit.commit.committer.date.replace(/\D/g, ""));
 
+            if (commit.commit.message.toLowerCase().startsWith("[ci skip]")) {
+                return Promise.reject("Skipping build...");
+            }
+
             job.commit = {
                 sha: commit.sha,
                 date: github.parseDate(commit.commit.committer.date),
