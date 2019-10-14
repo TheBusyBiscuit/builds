@@ -442,6 +442,28 @@
 			}
 		}
 	},
+	"TheBusyBiscuit/DyedBackpacks:master": {
+		"sonar": {
+			"enabled": true,
+			"organization": "thebusybiscuit-github",
+			"project-key": "TheBusyBiscuit_DyedBackpacks",
+			"host-url": "https://sonarcloud.io"
+		},
+		"options": {
+			"prefix": "DEV"
+		},
+		"dependencies": {
+			"Minecraft Version(s)": {
+				"1": "1.14.x"
+			},
+			"CS-CoreLib Version": {
+				"1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/CS-CoreLib/master/#44\">1.6</a>"
+			},
+			"Slimefun Version": {
+				"1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/Slimefun4/master/#307\">dev #307</a>"
+			}
+		}
+	},
 	"John000708/SlimeXpansion:master": {
 		"sonar": {
 			"enabled": false
