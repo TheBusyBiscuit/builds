@@ -1,0 +1,554 @@
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for me.mrCookieSlime:Slimefun:jar:DEV - 315 (git 86e575b6)
+[WARNING] 'dependencies.dependency.systemPath' for me.minebuilders:clearlag-core:jar should not point at files within the project directory, ${project.basedir}/lib/Clearlag.jar will be unresolvable by dependent projects @ line 1, column 3413
+[WARNING] 'dependencies.dependency.systemPath' for me.mrCookieSlime:EmeraldEnchants:jar should not point at files within the project directory, ${project.basedir}/lib/EmeraldEnchants v2.0.jar will be unresolvable by dependent projects @ line 1, column 3759
+[WARNING] 'dependencies.dependency.systemPath' for me.mrCookieSlime:ExoticGarden:jar should not point at files within the project directory, ${project.basedir}/lib/ExoticGarden v1.2.0.jar will be unresolvable by dependent projects @ line 1, column 3973
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-source-plugin is missing. @ line 1, column 1448
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-source-plugin/maven-metadata.xml
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-source-plugin/maven-metadata.xml (843 B at 2.5 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-source-plugin/3.1.0/maven-source-plugin-3.1.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-source-plugin/3.1.0/maven-source-plugin-3.1.0.pom (5.5 kB at 205 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-source-plugin/3.1.0/maven-source-plugin-3.1.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-source-plugin/3.1.0/maven-source-plugin-3.1.0.jar (31 kB at 1.0 MB/s)
+[INFO] 
+[INFO] ---------------------< me.mrCookieSlime:Slimefun >----------------------
+[INFO] Building Slimefun DEV - 315 (git 86e575b6)
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/bukkit/bukkit/1.14.4-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/bukkit/bukkit/1.14.4-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/bukkit/bukkit/1.14.4-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from worldedit-worldguard-repo: https://maven.sk89q.com/repo/org/bukkit/bukkit/1.14.4-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloaded from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/bukkit/bukkit/1.14.4-R0.1-SNAPSHOT/maven-metadata.xml (1.4 kB at 11 kB/s)
+[INFO] Downloading from coreprotect-repo: https://maven.playpro.com/org/bukkit/bukkit/1.14.4-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from CodeMC: https://repo.codemc.org/repository/maven-public/org/bukkit/bukkit/1.14.4-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from placeholderapi-repo: http://repo.extendedclip.com/content/repositories/placeholderapi/org/bukkit/bukkit/1.14.4-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/bukkit/bukkit/1.14.4-R0.1-SNAPSHOT/maven-metadata.xml (1.4 kB at 725 B/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/bukkit/bukkit/1.14.4-R0.1-SNAPSHOT/bukkit-1.14.4-R0.1-20191019.034017-78.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/bukkit/bukkit/1.14.4-R0.1-SNAPSHOT/bukkit-1.14.4-R0.1-20191019.034017-78.pom (8.4 kB at 7.2 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/commons-lang/commons-lang/2.6/commons-lang-2.6.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/commons-lang/commons-lang/2.6/commons-lang-2.6.pom (0 B at 0 B/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/apache/commons/commons-parent/17/commons-parent-17.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/apache/commons/commons-parent/17/commons-parent-17.pom (0 B at 0 B/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/apache/apache/7/apache-7.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/apache/apache/7/apache-7.pom (0 B at 0 B/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/google/guava/guava/21.0/guava-21.0.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/google/guava/guava/21.0/guava-21.0.pom (0 B at 0 B/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/google/guava/guava-parent/21.0/guava-parent-21.0.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/google/guava/guava-parent/21.0/guava-parent-21.0.pom (0 B at 0 B/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/sonatype/oss/oss-parent/7/oss-parent-7.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/sonatype/oss/oss-parent/7/oss-parent-7.pom (0 B at 0 B/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/google/code/gson/gson/2.8.0/gson-2.8.0.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/google/code/gson/gson/2.8.0/gson-2.8.0.pom (0 B at 0 B/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/google/code/gson/gson-parent/2.8.0/gson-parent-2.8.0.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/google/code/gson/gson-parent/2.8.0/gson-parent-2.8.0.pom (0 B at 0 B/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/yaml/snakeyaml/1.23/snakeyaml-1.23.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/yaml/snakeyaml/1.23/snakeyaml-1.23.pom (0 B at 0 B/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/github/TheBusyBiscuit/CS-CoreLib/6e17183656/CS-CoreLib-6e17183656.pom
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/github/TheBusyBiscuit/CS-CoreLib/6e17183656/CS-CoreLib-6e17183656.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/github/TheBusyBiscuit/CS-CoreLib/6e17183656/CS-CoreLib-6e17183656.pom
+[INFO] Downloaded from jitpack.io: https://jitpack.io/com/github/TheBusyBiscuit/CS-CoreLib/6e17183656/CS-CoreLib-6e17183656.pom (4.6 kB at 50 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/github/thebusybiscuit/CS-CoreLib2/0.6.1/CS-CoreLib2-0.6.1.pom
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/github/thebusybiscuit/CS-CoreLib2/0.6.1/CS-CoreLib2-0.6.1.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/github/thebusybiscuit/CS-CoreLib2/0.6.1/CS-CoreLib2-0.6.1.pom
+[INFO] Downloaded from jitpack.io: https://jitpack.io/com/github/thebusybiscuit/CS-CoreLib2/0.6.1/CS-CoreLib2-0.6.1.pom (7.5 kB at 85 kB/s)
+[WARNING] The POM for com.github.thebusybiscuit:CS-CoreLib2:jar:0.6.1 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/sk89q/worldedit/worldedit-bukkit/7.0.1/worldedit-bukkit-7.0.1.pom
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/sk89q/worldedit/worldedit-bukkit/7.0.1/worldedit-bukkit-7.0.1.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/sk89q/worldedit/worldedit-bukkit/7.0.1/worldedit-bukkit-7.0.1.pom
+[INFO] Downloading from worldedit-worldguard-repo: https://maven.sk89q.com/repo/com/sk89q/worldedit/worldedit-bukkit/7.0.1/worldedit-bukkit-7.0.1.pom
+[INFO] Downloaded from worldedit-worldguard-repo: https://maven.sk89q.com/repo/com/sk89q/worldedit/worldedit-bukkit/7.0.1/worldedit-bukkit-7.0.1.pom (2.2 kB at 11 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/sk89q/worldedit/worldedit-core/7.0.1/worldedit-core-7.0.1.pom
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/sk89q/worldedit/worldedit-core/7.0.1/worldedit-core-7.0.1.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/sk89q/worldedit/worldedit-core/7.0.1/worldedit-core-7.0.1.pom
+[INFO] Downloading from worldedit-worldguard-repo: https://maven.sk89q.com/repo/com/sk89q/worldedit/worldedit-core/7.0.1/worldedit-core-7.0.1.pom
+[INFO] Downloaded from worldedit-worldguard-repo: https://maven.sk89q.com/repo/com/sk89q/worldedit/worldedit-core/7.0.1/worldedit-core-7.0.1.pom (2.4 kB at 23 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/sk89q/worldedit/worldedit-libs/core/7.0.1/core-7.0.1.pom
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/sk89q/worldedit/worldedit-libs/core/7.0.1/core-7.0.1.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/sk89q/worldedit/worldedit-libs/core/7.0.1/core-7.0.1.pom
+[INFO] Downloading from worldedit-worldguard-repo: https://maven.sk89q.com/repo/com/sk89q/worldedit/worldedit-libs/core/7.0.1/core-7.0.1.pom
+[INFO] Downloaded from worldedit-worldguard-repo: https://maven.sk89q.com/repo/com/sk89q/worldedit/worldedit-libs/core/7.0.1/core-7.0.1.pom (411 B at 5.0 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/de/schlichtherle/truezip/6.8.3/truezip-6.8.3.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/de/schlichtherle/truezip/6.8.3/truezip-6.8.3.pom (5.1 kB at 4.2 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/de/schlichtherle/asl20-oss-parent/13/asl20-oss-parent-13.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/de/schlichtherle/asl20-oss-parent/13/asl20-oss-parent-13.pom (9.5 kB at 11 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/mozilla/rhino/1.7.11/rhino-1.7.11.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/mozilla/rhino/1.7.11/rhino-1.7.11.pom (1.3 kB at 2.7 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/yaml/snakeyaml/1.9/snakeyaml-1.9.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/yaml/snakeyaml/1.9/snakeyaml-1.9.pom (14 kB at 24 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.pom (965 B at 1.2 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/slf4j/slf4j-api/1.7.26/slf4j-api-1.7.26.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/slf4j/slf4j-api/1.7.26/slf4j-api-1.7.26.pom (3.8 kB at 4.7 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/slf4j/slf4j-parent/1.7.26/slf4j-parent-1.7.26.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/slf4j/slf4j-parent/1.7.26/slf4j-parent-1.7.26.pom (14 kB at 16 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/sk89q/worldedit/worldedit-libs/bukkit/7.0.1/bukkit-7.0.1.pom
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/sk89q/worldedit/worldedit-libs/bukkit/7.0.1/bukkit-7.0.1.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/sk89q/worldedit/worldedit-libs/bukkit/7.0.1/bukkit-7.0.1.pom
+[INFO] Downloading from worldedit-worldguard-repo: https://maven.sk89q.com/repo/com/sk89q/worldedit/worldedit-libs/bukkit/7.0.1/bukkit-7.0.1.pom
+[INFO] Downloaded from worldedit-worldguard-repo: https://maven.sk89q.com/repo/com/sk89q/worldedit/worldedit-libs/bukkit/7.0.1/bukkit-7.0.1.pom (413 B at 3.2 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/bukkit/bukkit/1.13.2-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/bukkit/bukkit/1.13.2-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/bukkit/bukkit/1.13.2-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from worldedit-worldguard-repo: https://maven.sk89q.com/repo/org/bukkit/bukkit/1.13.2-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from coreprotect-repo: https://maven.playpro.com/org/bukkit/bukkit/1.13.2-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloaded from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/bukkit/bukkit/1.13.2-R0.1-SNAPSHOT/maven-metadata.xml (1.5 kB at 16 kB/s)
+[INFO] Downloading from CodeMC: https://repo.codemc.org/repository/maven-public/org/bukkit/bukkit/1.13.2-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from placeholderapi-repo: http://repo.extendedclip.com/content/repositories/placeholderapi/org/bukkit/bukkit/1.13.2-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/bukkit/bukkit/1.13.2-R0.1-SNAPSHOT/maven-metadata.xml (1.5 kB at 1.8 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/bukkit/bukkit/1.13.2-R0.1-SNAPSHOT/bukkit-1.13.2-R0.1-20190423.030918-214.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/bukkit/bukkit/1.13.2-R0.1-SNAPSHOT/bukkit-1.13.2-R0.1-20190423.030918-214.pom (7.4 kB at 6.4 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.pom (3.5 kB at 4.2 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/io/papermc/paperlib/1.0.2/paperlib-1.0.2.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/io/papermc/paperlib/1.0.2/paperlib-1.0.2.pom (936 B at 1.8 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/apache/logging/log4j/log4j-slf4j-impl/2.8.1/log4j-slf4j-impl-2.8.1.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/apache/logging/log4j/log4j-slf4j-impl/2.8.1/log4j-slf4j-impl-2.8.1.pom (9.2 kB at 7.9 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/apache/logging/log4j/log4j/2.8.1/log4j-2.8.1.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/apache/logging/log4j/log4j/2.8.1/log4j-2.8.1.pom (55 kB at 50 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/apache/logging/logging-parent/1/logging-parent-1.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/apache/logging/logging-parent/1/logging-parent-1.pom (3.2 kB at 6.5 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/slf4j/slf4j-api/1.7.24/slf4j-api-1.7.24.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/slf4j/slf4j-api/1.7.24/slf4j-api-1.7.24.pom (3.8 kB at 7.8 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/slf4j/slf4j-parent/1.7.24/slf4j-parent-1.7.24.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/slf4j/slf4j-parent/1.7.24/slf4j-parent-1.7.24.pom (14 kB at 15 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/apache/logging/log4j/log4j-api/2.8.1/log4j-api-2.8.1.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/apache/logging/log4j/log4j-api/2.8.1/log4j-api-2.8.1.pom (8.7 kB at 18 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/me/clip/placeholderapi/2.10.4/placeholderapi-2.10.4.pom
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/me/clip/placeholderapi/2.10.4/placeholderapi-2.10.4.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/me/clip/placeholderapi/2.10.4/placeholderapi-2.10.4.pom
+[INFO] Downloading from worldedit-worldguard-repo: https://maven.sk89q.com/repo/me/clip/placeholderapi/2.10.4/placeholderapi-2.10.4.pom
+[INFO] Downloading from coreprotect-repo: https://maven.playpro.com/me/clip/placeholderapi/2.10.4/placeholderapi-2.10.4.pom
+[INFO] Downloading from CodeMC: https://repo.codemc.org/repository/maven-public/me/clip/placeholderapi/2.10.4/placeholderapi-2.10.4.pom
+[INFO] Downloading from placeholderapi-repo: http://repo.extendedclip.com/content/repositories/placeholderapi/me/clip/placeholderapi/2.10.4/placeholderapi-2.10.4.pom
+[INFO] Downloaded from placeholderapi-repo: http://repo.extendedclip.com/content/repositories/placeholderapi/me/clip/placeholderapi/2.10.4/placeholderapi-2.10.4.pom (458 B at 6.9 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/net/coreprotect/coreprotect/2.16.3/coreprotect-2.16.3.pom
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/net/coreprotect/coreprotect/2.16.3/coreprotect-2.16.3.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/net/coreprotect/coreprotect/2.16.3/coreprotect-2.16.3.pom
+[INFO] Downloading from worldedit-worldguard-repo: https://maven.sk89q.com/repo/net/coreprotect/coreprotect/2.16.3/coreprotect-2.16.3.pom
+[INFO] Downloading from coreprotect-repo: https://maven.playpro.com/net/coreprotect/coreprotect/2.16.3/coreprotect-2.16.3.pom
+[INFO] Downloaded from coreprotect-repo: https://maven.playpro.com/net/coreprotect/coreprotect/2.16.3/coreprotect-2.16.3.pom (3.5 kB at 11 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/bukkit/bukkit/1.13.1-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Dwonloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/bukkit/bukkit/1.13.1-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from worldedit-worldguard-repo: https://maven.sk89q.com/repo/org/bukkit/bukkit/1.13.1-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/bukkit/bukkit/1.13.1-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloaded from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/bukkit/bukkit/1.13.1-R0.1-SNAPSHOT/maven-metadata.xml (1.4 kB at 19 kB/s)
+[INFO] Downloading from coreprotect-repo: https://maven.playpro.com/org/bukkit/bukkit/1.13.1-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from CodeMC: https://repo.codemc.org/repository/maven-public/org/bukkit/bukkit/1.13.1-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from placeholderapi-repo: http://repo.extendedclip.com/content/repositories/placeholderapi/org/bukkit/bukkit/1.13.1-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from bstats-repo: http://repo.bstats.org/content/repositories/releases/org/bukkit/bukkit/1.13.1-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from sk89q-repo: http://maven.sk89q.com/repo/org/bukkit/bukkit/1.13.1-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/bukkit/bukkit/1.13.1-R0.1-SNAPSHOT/maven-metadata.xml (1.4 kB at 1.2 kB/s)
+[WARNING] Could not transfer metadata org.bukkit:bukkit:1.13.1-R0.1-SNAPSHOT/maven-metadata.xml from/to bstats-repo (http://repo.bstats.org/content/repositories/releases/): Failed to transfer file http://repo.bstats.org/content/repositories/releases/org/bukkit/bukkit/1.13.1-R0.1-SNAPSHOT/maven-metadata.xml with status code 522
+[WARNING] Failure to transfer org.bukkit:bukkit:1.13.1-R0.1-SNAPSHOT/maven-metadata.xml from http://repo.bstats.org/content/repositories/releases/ was cached in the local repository, resolution will not be reattempted until the update interval of bstats-repo has elapsed or updates are forced. Original error: Could not transfer metadata org.bukkit:bukkit:1.13.1-R0.1-SNAPSHOT/maven-metadata.xml from/to bstats-repo (http://repo.bstats.org/content/repositories/releases/): Failed to transfer file http://repo.bstats.org/content/repositories/releases/org/bukkit/bukkit/1.13.1-R0.1-SNAPSHOT/maven-metadata.xml with status code 522
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/bukkit/bukkit/1.13.1-R0.1-SNAPSHOT/bukkit-1.13.1-R0.1-20181022.190036-99.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/bukkit/bukkit/1.13.1-R0.1-SNAPSHOT/bukkit-1.13.1-R0.1-20181022.190036-99.pom (6.5 kB at 13 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/junit/junit/4.10/junit-4.10.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/junit/junit/4.10/junit-4.10.pom (2.3 kB at 2.8 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.pom (481 B at 585 B/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/hamcrest/hamcrest-parent/1.1/hamcrest-parent-1.1.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/hamcrest/hamcrest-parent/1.1/hamcrest-parent-1.1.pom (5.9 kB at 5.1 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/yaml/snakeyaml/1.21/snakeyaml-1.21.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/yaml/snakeyaml/1.21/snakeyaml-1.21.pom (38 kB at 40 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/sk89q/worldedit/worldedit-bukkit/7.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/sk89q/worldedit/worldedit-bukkit/7.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/sk89q/worldedit/worldedit-bukkit/7.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downlpo: https://maven.sk89q.com/repo/com/sk89q/worldedit/worldedit-bukkit/7.0.0-SNAPSHOT/maven-metadata.xml
+oading from worldedit-worldguard-re[INFO] Downloading from coreprotect-repo: https://maven.playpro.com/com/sk89q/worldedit/worldedit-bukkit/7.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from CodeMC: https://repo.codemc.org/repository/maven-public/com/sk89q/worldedit/worldedit-bukkit/7.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloaded from worldedit-worldguard-repo: https://maven.sk89q.com/repo/com/sk89q/worldedit/worldedit-bukkit/7.0.0-SNAPSHOT/maven-metadata.xml (1.2 kB at 8.4 kB/s)
+[INFO] Downloading from placeholderapi-repo: http://repo.extendedclip.com/content/repositories/placeholderapi/com/sk89q/worldedit/worldedit-bukkit/7.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from bstats-repo: http://repo.bstats.org/content/repositories/releases/com/sk89q/worldedit/worldedit-bukkit/7.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from sk89q-repo: http://maven.sk89q.com/repo/com/sk89q/worldedit/worldedit-bukkit/7.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloaded from sk89q-repo: http://maven.sk89q.com/repo/com/sk89q/worldedit/worldedit-bukkit/7.0.0-SNAPSHOT/maven-metadata.xml (1.2 kB at 12 kB/s)
+[WARNING] Could not transfer metadata com.sk89q.worldedit:worldedit-bukkit:7.0.0-SNAPSHOT/maven-metadata.xml from/to bstats-repo (http://repo.bstats.org/content/repositories/releases/): Failed to transfer file http://repo.bstats.org/content/repositories/releases/com/sk89q/worldedit/worldedit-bukkit/7.0.0-SNAPSHOT/maven-metadata.xml with status code 522
+[WARNING] Failure to SNAPSHOT/maven-metadata.xml from http://repo.bstats.org/contransfer com.sk89q.worldedit:worldedit-bukkit:7.0.0-tent/repositories/releases/ was cached in the local repository, resolution will not be reattempted until the update interval of bstats-repo has elapsed or updates are forced. Original error: Could not transfer metadata com.sk89q.worldedit:worldedit-bukkit:7.0.0-SNAPSHOT/maven-metadata.xml from/to bstats-repo (http://repo.bstats.org/content/repositories/releases/): Failed to transfer file http://repo.bstats.org/content/repositories/releases/com/sk89q/worldedit/worldedit-bukkit/7.0.0-SNAPSHOT/maven-metadata.xml with status code 522
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/sk89q/worldedit/worldedit-bukkit/7.0.0-SNAPSHOT/worldedit-bukkit-7.0.0-20190611.111707-186.pom
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/sk89q/worldedit/worldedit-bukkit/7.0.0-SNAPSHOT/worldedit-bukkit-7.0.0-20190611.111707-186.pom
+[INFO] Downloading from jitpack.io: https://jitpacworldedit-bukkit-7.0.0-20190611.111707-186.pom
+k.io/com/sk89q/worldedit/worldedit-bukkit/7.0.0-SNAPSHOT/[INFO] Downloading from worldedit-worldguard-repo: https://maven.sk89q.com/repo/com/sk89q/worldedit/worldedit-bukkit/7.0.0-SNAPSHOT/worldedit-bukkit-7.0.0-20190611.111707-186.pom
+[INFO] Downloaded from worldedit-worldguard-repo: https://maven.sk89q.com/repo/com/sk89q/worldedit/worldedit-bukkit/7.0.0-SNAPSHOT/worldedit-bukkit-7.0.0-20190611.111707-186.pom (1.7 kB at 13 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/sk89q/worldedit/worldedit-core/7.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/sk89q/worldedit/worldedit-core/7.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from worldedit-worldguard-repo: https://maven.sk89q.com/repo/com/sk89q/worldedit/worldedit-core/7.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/sk89q/worldedit/worldedit-core/7.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from coreprotect-repo: https://maven.playpro.com/com/sk89q/worldedit/worldedit-core/7.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from CodeMC: https://repo.codemc.org/repository/maven-public/com/sk89q/worldedit/worldedit-core/7.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloaded from worldedit-worldguard-repo: https://maven.sk89q.com/repo/com/sk89q/worldedit/worldedit-core/7.0.0-SNAPSHOT/maven-metadata.xml (1.2 kB at 14 kB/s)
+[INFO] Downloading from placeholderapi-repo: http://repo.extendedclip.com/content/repositories/placeholderapi/com/sk89q/worldedit/worldedit-core/7.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from bstats-repo: http://repo.bstats.org/content/repositories/releases/com/sk89q/worldedit/worldedit-core/7.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from sk89q-repo: http://maven.sk89q.com/repo/com/sk89q/worldedit/worldedit-core/7.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloaded from sk89q-repo: http://maven.sk89q.com/repo/com/sk89q/worldedit/worldedit-core/7.0.0-SNAPSHOT/maven-metadata.xml (1.2 kB at 8.8 kB/s)
+[WARNING] Could not transfer metadata com.sk89q.worldedit:worldedit-core:7.0.0-SNAPSHOT/maven-metadata.xml from/to bstats-repo (http://repo.bstats.org/content/repositories/releases/): Failed to transfer file http://repo.bstats.org/content/repositories/releases/com/sk89q/worldedit/worldedit-core/7.0.0-SNAPSHOT/maven-metadata.xml with status code 522
+[WARNING] Failure to transfer com.sk89q.worldedit:worldedit-core:7.0.0-SNAPSHOT/maven-metadata.xml from http://repo.bstats.org/content/repositories/releases/ was cached in the local repository, resolution will not be reattempted until the update interval of bstats-repo has elapsed or updates are forced. Original error: Could not transfer metadata com.sk89q.worldedit:worldedit-core:7.0.0-SNAPSHOT/maven-metadata.xml from/to bstats-repo (http://repo.bstats.org/content/repositories/releases/): Failed to transfer file http://repo.bstats.org/content/repositories/releases/com/sk89q/worldedit/worldedit-core/7.0.0-SNAPSHOT/maven-metadata.xml with status code 522
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/sk89q/worldedit/worldedit-core/7.0.0-SNAPSHOT/worldedit-core-7.0.0-20190611.111707-186.pom
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/sk89q/worldedit/worldedit-core/7.0.0-SNAPSHOT/worldedit-core-7.0.0-20190611.111707-186.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/sk89q/worldedit/worldedit-core/7.0.0-SNAPSHOT/worldedit-core-7.0.0-20190611.111707-186.pom
+[INFO] Downloading from worldedit-worldguard-repo: https://maven.sk89q.com/repo/com/sk89q/worldedit/worldedit-core/7.0.0-SNAPSHOT/worldedit-core-7.0.0-20190611.111707-186.pom
+[INFO] Downloaded from worldedit-worldguard-repo: https://maven.sk89q.com/repo/com/sk89q/worldedit/worldedit-core/7.0.0-SNAPSHOT/worldedit-core-7.0.0-20190611.111707-186.pom (2.2 kB at 16 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/sk89q/worldedit/worldedit-libs/core/7.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/sk89q/worldedit/worldedit-libs/core/7.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from worldedit-worldguard-repo: https://maven.sk89q.com/repo/com/sk89q/worldedit/worldedit-libs/core/7.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/sk89q/worldedit/worldedit-libs/core/7.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from coreprotect-repo: https://maven.playpro.com/com/sk89q/worldedit/worldedit-libs/core/7.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from CodeMC: https://repo.codemc.org/repository/maven-public/com/sk89q/worldedit/worldedit-libs/core/7.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloaded from worldedit-worldguard-repo: https://maven.sk89q.com/repo/com/sk89q/worldedit/worldedit-libs/core/7.0.0-SNAPSHOT/maven-metadata.xml (791 B at 7.5 kB/s)
+[INFO] Downloading from placeholderapi-repo: http://repo.extendedclip.com/content/repositories/placeholderapi/com/sk89q/worldedit/worldedit-libs/core/7.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from bstats-repo: http://repo.bstats.org/content/repositories/releases/com/sk89q/worldedit/worldedit-libs/core/7.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from sk89q-repo: http://maven.sk89q.com/repo/com/sk89q/worldedit/worldedit-libs/core/7.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloaded from sk89q-repo: http://maven.sk89q.com/repo/com/sk89q/worldedit/worldedit-libs/core/7.0.0-SNAPSHOT/maven-metadata.xml (791 B at 7.5 kB/s)
+[WARNING] Could not transfer metadata com.sk89q.worldedit.worldedit-libs:core:7.0.0-SNAPSHOT/maven-metadata.xml from/to bstats-repo (http://repo.bstats.org/content/repositories/releases/): Failed to transfer file http://repo.bstats.org/content/repositories/releases/com/sk89q/worldedit/worldedit-libs/core/7.0.0-SNAPSHOT/maven-metadata.xml with status code 522
+[WARNING] Failure to transfer com.sk89q.worldedit.worldedit-libs:core:7.0.0-SNAPSHOT/maven-metadata.xml from http://repo.bstats.org/content/repositories/releases/ was cached in the local repository, resolution will not be reattempted until the update interval of bstats-repo has elapsed or updates are forced. Original error: Could not transfer metadata com.sk89q.worldedit.worldedit-libs:core:7.0.0-SNAPSHOT/maven-metadata.xml from/to bstats-repo (http://repo.bstats.org/content/repositories/releases/): Failed to transfer file http://repo.bstats.org/content/repositories/releases/com/sk89q/worldedit/worldedit-libs/core/7.0.0-SNAPSHOT/maven-metadata.xml with status code 522
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/sk89q/worldedit/worldedit-libs/core/7.0.0-SNAPSHOT/core-7.0.0-20190611.111707-71.pom
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/sk89q/worldedit/worldedit-libs/core/7.0.0-SNAPSHOT/core-7.0.0-20190611.111707-71.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/sk89q/worldedit/worldedit-libs/core/7.0.0-SNAPSHOT/core-7.0.0-20190611.111707-71.pom
+[INFO] Downloading from worldedit-worldguard-repo: https://maven.sk89q.com/repo/com/sk89q/worldedit/worldedit-libs/core/7.0.0-SNAPSHOT/core-7.0.0-20190611.111707-71.pom
+[INFO] Downloaded from worldedit-worldguard-repo: https://maven.sk89q.com/repo/com/sk89q/worldedit/worldedit-libs/core/7.0.0-SNAPSHOT/core-7.0.0-20190611.111707-71.pom (420 B at 3.9 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/rhino/js/1.7R2/js-1.7R2.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/rhino/js/1.7R2/js-1.7R2.pom (832 B at 706 B/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/sk89q/worldedit/worldedit-libs/bukkit/7.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/sk89q/worldedit/worldedit-libs/bukkit/7.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/sk89q/worldedit/worldedit-libs/bukkit/7.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from worldedit-worldguard-repo: https://maven.sk89q.com/repo/com/sk89q/worldedit/worldedit-libs/bukkit/7.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from coreprotect-repo: https://maven.playpro.com/com/sk89q/worldedit/worldedit-libs/bukkit/7.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from CodeMC: https://repo.codemc.org/repository/maven-public/com/sk89q/worldedit/worldedit-libs/bukkit/7.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloaded from worldedit-worldguard-repo: https://maven.sk89q.com/repo/com/sk89q/worldedit/worldedit-libs/bukkit/7.0.0-SNAPSHOT/maven-metadata.xml (793 B at 9.2 kB/s)
+[INFO] Downloading from placeholderapi-repo: http://repo.extendedclip.com/content/repositories/placeholderapi/com/sk89q/worldedit/worldedit-libs/bukkit/7.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from bstats-repo: http://repo.bstats.org/content/repositories/releases/com/sk89q/worldedit/worldedit-libs/bukkit/7.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from sk89q-repo: http://maven.sk89q.com/repo/com/sk89q/worldedit/worldedit-libs/bukkit/7.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloaded from sk89q-repo: http://mavenPSHOT/maven-metadata.xml (793 B.sk89q.com/repo/com/sk89q/worldedit/worldedit-libs/bukkit/7.0.0-SNA at 9.8 kB/s)
+[WARNING] Could not transfer metadata com.sk89q.worldedit.worldedit-libs:bukkit:7.0.0-SNAPSHOT/maven-metadata.xml from/to bstats-repo (http://repo.bstats.org/content/repositories/releases/): Failed to transfer file http://repo.bstats.org/content/repositories/releases/com/sk89q/worldedit/worldedit-libs/bukkit/7.0.0-SNAPSHOT/maven-metadata.xml with status code 522
+[WARNING] Failure to transfer com.sk89q.worldedit.worldedit-libs:bukkit:7.0.0-SNAPSHOT/maven-metadata.xml from http://repo.bstats.org/content/repositories/releases/ was cached in the local repository, resolution will not be reattempted until the update interval of bstats-repo has elapsed or updates are forced. Original error: Could not transfer metadata com.sk89q.worldedit.worldedit-libs:bukkit:7.0.0-SNAPSHOT/maven-metadata.xml from/to bstats-repo (http://repo.bstats.org/content/repositories/releases/): Failed to transfer file http://repo.bstats.org/content/repositories/releases/com/sk89q/worldedit/worldedit-libs/bukkit/7.0.0-SNAPSHOT/maven-metadata.xml with status code 522
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/sk89q/worldedit/worldedit-libs/bukkit/7.0.0-SNAPSHOT/bukkit-7.0.0-20190611.111707-71.pom
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/sk89q/worldedit/worldedit-libs/bukkit/7.0.0-SNAPSHOT/bukkit-7.0.0-20190611.111707-71.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/sk89q/worldedit/worldedit-libs/bukkit/7.0.0-SNAPSHOT/bukkit-7.0.0-20190611.111707-71.pom
+[INFO] Downloading from worldedit-worldguard-repo: https://maven.sk89q.com/repo/com/sk89q/worldedit/worldedit-libs/bukkit/7.0.0-SNAPSHOT/bukkit-7.0.0-20190611.111707-71.pom
+[INFO] Downloaded from worldedit-worldguard-repo: https://maven.sk89q.com/repo/com/sk89q/worldedit/worldedit-libs/bukkit/7.0.0-SNAPSHOT/bukkit-7.0.0-20190611.111707-71.pom (422 B at 3.5 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/bstats/bstats-bukkit/1.4/bstats-bukkit-1.4.pom
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/bstats/bstats-bukkit/1.4/bstats-bukkit-1.4.pom
+[INFO] Downloading fts-bukkit-1.4.pom
+rom jitpack.io: https://jitpack.io/org/bstats/bstats-bukkit/1.4/bsta[INFO] Downloading from worldedit-worldguard-repo: https://maven.sk89q.com/repo/org/bstats/bstats-bukkit/1.4/bstats-bukkit-1.4.pom
+[INFO] Downloaded from worldedit-worldguard-repo: https://maven.sk89q.com/repo/org/bstats/bstats-bukkit/1.4/bstats-bukkit-1.4.pom (763 B at 9.4 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/bstats/bstats/1.4/bstats-1.4.pom
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/bstats/bstats/1.4/bstats-1.4.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/bstats/bstats/1.4/bstats-1.4.pom
+[INFO] Downloading from worldedit-worldguard-repo: https://maven.sk89q.com/repo/org/bstats/bstats/1.4/bstats-1.4.pom
+[INFO] Downloaded from worldedit-worldguard-repo: https://maven.sk89q.com/repo/org/bstats/bstats/1.4/bstats-1.4.pom (7.3 kB at 73 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/bukkit/bukkit/1.14.4-R0.1-SNAPSHOT/bukkit-1.14.4-R0.1-20191019.034017-78.jar
+[INFO] Downloaded from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/bukkit/bukkit/1.14.4-R0.1-SNAPSHOT/bukkit-1.14.4-R0.1-20191019.034017-78.jar (1.2 MB at 10 MB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/google/guava/guava/21.0/guava-21.0.jar
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/yaml/snakeyaml/1.23/snakeyaml-1.23.jar
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/google/code/gson/gson/2.8.0/gson-2.8.0.jar
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/github/TheBusyBiscuit/CS-CoreLib/6e17183656/CS-CoreLib-6e17183656.jar
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/github/thebusybiscuit/CS-CoreLib2/0.6.1/CS-CoreLib2-0.6.1.jar
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/google/gu[ava/guava/21.0/guava-21.0.jar (0 B at 0 B/s)
+INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/sk89q/worldedit/worldedit-bukkit/7.0.1/worldedit-bukkit-7.0.1.jar
+[INFO] Downloademl/1.23/snakeyaml-1.23.jar (0 B at 0 B/s)
+d from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/yaml/snakeya[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/sk89q/worldedit/worldedit-core/7.0.1/worldedit-core-7.0.1.jar
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/google/code/gson/gson/2.8.0/gson-2.8.0.jar (0 B at 0 B/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/sk89q/worldedit/worldedit-libs/core/7.0.1/core-7.0.1.jar
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/de/schlichtherle/truezip/6.8.3/truezip-6.8.3.jar
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/mozilla/rhino/1.7.11/rhino-1.7.11.jar
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/slf4j/slf4j-api/1.7.26/slf4j-api-1.7.26.jar
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/sk89q/worldedit/worldedit-libs/bukkit/7.0.1/bukkit-7.0.1.jar
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/io/papermc/paperlib/1.0.2/paperlib-1.0.2.jar
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/slf4j/slf4j-api/1.7.26/slf4j-api-1.7.26.jar (41 kB at 35 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/apache/logging/log4j/log4j-slf4j-impl/2.8.1/log4j-slf4j-impl-2.8.1.jar
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar (33 kB at 22 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/apache/logging/log4j/log4j-api/2.8.1/log4j-api-2.8.1.jar
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/mozilla/rhino/1.7.11/rhino-1.7.11.jar (1.3 MB at 843 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/me/clip/placeholderapi/2.10.4/placeholderapi-2.10.4.jar
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/de/schlichtherle/truezip/6.8.3/truezip-6.8.3.jar (480 kB at 283 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/net/coreprotect/coreprotect/2.16.3/coreprotect-2.16.3.jar
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/io/papermc/paperlib/1.0.2/paperlib-1.0.2.jar (18 kB at 9.2 kB/s)
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/apache/logging/log4j/log4j-slf4j-impl/2.8.1/log4j-slf4j-impl-2.8.1.jar (23 kB at 11 kB/s)
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/apache/logging/log4j/log4j-api/2.8.1/log4j-api-2.8.1.jar (229 kB at 93 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/github/TheBusyBiscuit/CS-CoreLib/6e17183656/CS-CoreLib-6e17183656.jar
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/github/thebusybiscuit/CS-CoreLib2/0.6.1/CS-CoreLib2-0.6.1.jar
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/sk89q/worldedit/worldedit-bukkit/7.0.1/worldedit-bukkit-7.0.1.jar
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/sk89q/worldedit/worldedit-core/7.0.1/worldedit-core-7.0.1.jar
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/sk89q/worldedit/worldedit-libs/core/7.0.1/core-7.0.1.jar
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/sk89q/worldedit/worldedit-libs/bukkit/7.0.1/bukkit-7.0.1.jar
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/me/clip/placeholderapi/2.10.4/placeholderapi-2.10.4.jar
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/net/coreprotect/coreprotect/2.16.3/coreprotect-2.16.3.jar
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/github/TheBusyBiscuit/CS-CoreLib/6e17183656/CS-CoreLib-6e17183656.jar
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/github/thebusybiscuit/CS-CoreLib2/0.6.1/CS-CoreLib2-0.6.1.jar
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/sk89q/worldedit/worldedit-bukkit/7.0.1/worldedit-bukkit-7.0.1.jar
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/sk89q/worldedit/worldedit-core/7.0.1/worldedit-core-7.0.1.jar
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/sk89q/worldedit/worldedit-libs/core/7.0.1/core-7.0.1.jar
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/sk89q/worldedit/worldedit-libs/bukkit/7.0.1/bukkit-7.0.1.jar
+[INFO] Downloading from jitpack.io: https://jitpack.io/me/clip/placeholderapi/2.10.4/placeholderapi-2.10.4.jar
+[INFO] Downloading from jitpack.io: https://jitpack.io/net/coreprotect/coreprotect/2.16.3/coreprotect-2.16.3.jar
+[INFO] Downloaded from jitpack.io: https://jitpack.io/com/github/thebusybiscuit/CS-CoreLib2/0.6.1/CS-CoreLib2-0.6.1.jar (131 kB at 622 kB/s)
+[INFO] Downloaded from jitpack.io: https://jitpack.io/com/github/TheBusyBiscuit/CS-CoreLib/6e17183656/CS-CoreLib-6e17183656.jar (308 kB at 1.0 MB/s)
+[INFO] Downloading from worldedit-worldguard-repo: https://maven.sk89q.com/repo/com/sk89q/worldedit/worldedit-bukkit/7.0.1/worldedit-bukkit-7.0.1.jar
+[INFO] Downloading from worldedit-worldguard-repo: https://maven.sk89q.com/repo/com/sk89q/worldedit/worldedit-core/7.0.1/worldedit-core-7.0.1.jar
+[INFO] Downloading from worldedit-worldguard-repo: https://maven.sk89q.com/repo/com/sk89q/worldedit/worldedit-libs/core/7.0.1/core-7.0.1.jar
+[INFO] Downloading from worldedit-worldguard-repo: https://maven.sk89q.com/repo/com/sk89q/worldedit/worldedit-libs/bukkit/7.0.1/bukkit-7.0.1.jar
+[INFO] Downloading from worldedit-worldguard-repo: https://maven.sk89q.com/repo/me/clip/placeholderapi/2.10.4/placeholderapi-2.10.4.jar
+[INFO] Downloaded from worldedit-worldguard-repo: https://maven.sk89q.com/repo/com/sk89q/worldedit/worldedit-bukkit/7.0.1/worldedit-bukkit-7.0.1.jar (537 kB at 4.6 MB/s)
+[INFO] Downloading from worldedit-worldguard-repo: https://maven.sk89q.com/repo/net/coreprotect/coreprotect/2.16.3/coreprotect-2.16.3.jar
+[INFO] Downloaded from worldedit-worldguard-repo: https://maven.sk89q.com/repo/com/sk89q/worldedit/worldedit-libs/bukkit/7.0.1/bukkit-7.0.1.jar (133 kB at 167 kB/s)
+[INFO] Downloaded from worldedit-worldguard-repo: https://maven.sk89q.com/repo/com/sk89q/worldedit/worldedit-libs/core/7.0.1/core-7.0.1.jar (571 kB at 528 kB/s)
+[INFO] Downloaded from worldedit-worldguard-repo: https://maven.sk89q.com/repo/com/sk89q/worldedit/worldedit-core/7.0.1/worldedit-core-7.0.1.jar (1.4 MB at 1.3 MB/s)
+[INFO] Downloading from coreprotect-repo: https://maven.playpro.com/me/clip/placeholderapi/2.10.4/placeholderapi-2.10.4.jar
+[INFO] Downloading from coreprotect-repo: https://maven.playpro.com/net/coreprotect/coreprotect/2.16.3/coreprotect-2.16.3.jar
+[INFO] Downloaded from coreprotect-repo: https://maven.playpro.com/net/coreprotect/coreprotect/2.16.3/coreprotect-2.16.3.jar (342 kB at 1.4 MB/s)
+[INFO] Downloading from CodeMC: https://repo.codemc.org/repository/maven-public/me/clip/placeholderapi/2.10.4/placeholderapi-2.10.4.jar
+[INFO] Downloading from placeholderapi-repo: http://repo.extendedclip.com/content/repositories/placeholderapi/me/clip/placeholderapi/2.10.4/placeholderapi-2.10.4.jar
+[INFO] Downloaded from placeholderapi-repo: http://repo.extendedclip.com/content/repositories/placeholderapi/me/clip/placeholderapi/2.10.4/placeholderapi-2.10.4.jar (344 kB at 2.1 MB/s)
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ Slimefun ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ Slimefun ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ Slimefun ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 294 source files to /home/runner/work/builds/builds/TheBusyBiscuit/Slimefun4/master/files/target/classes
+[WARNING] /home/runner/work/builds/builds/TheBusyBiscuit/Slimefun4/master/files/src/main/java/me/mrCookieSlime/Slimefun/SlimefunPlugin.java: Some input files use or override a deprecated API.
+[WARNING] /home/runner/work/builds/builds/TheBusyBiscuit/Slimefun4/master/files/src/main/java/me/mrCookieSlime/Slimefun/SlimefunPlugin.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ Slimefun ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/runner/work/builds/builds/TheBusyBiscuit/Slimefun4/master/files/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ Slimefun ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ Slimefun ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ Slimefun ---
+[INFO] Building jar: /home/runner/work/builds/builds/TheBusyBiscuit/Slimefun4/master/files/target/Slimefun4-315.jar
+[INFO] 
+[INFO] >>> maven-source-plugin:3.1.0:jar (attach-sources) > generate-sources @ Slimefun >>>
+[INFO] 
+[INFO] <<< maven-source-plugin:3.1.0:jar (attach-sources) < generate-sources @ Slimefun <<<
+[INFO] 
+[INFO] 
+[INFO] --- maven-source-plugin:3.1.0:jar (attach-sources) @ Slimefun ---
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-archiver/3.4.0/maven-archiver-3.4.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-archiver/3.4.0/maven-archiver-3.4.0.pom (4.6 kB at 218 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-components/33/maven-shared-components-33.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-components/33/maven-shared-components-33.pom (5.1 kB at 204 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-utils/3.2.1/maven-shared-utils-3.2.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-utils/3.2.1/maven-shared-utils-3.2.1.pom (5.6 kB at 245 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/4.1.0/plexus-archiver-4.1.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/4.1.0/plexus-archiver-4.1.0.pom (4.8 kB at 186 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.1.1/plexus-utils-3.1.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.1.1/plexus-utils-3.1.1.pom (5.1 kB at 267 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-io/3.1.1/plexus-io-3.1.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-io/3.1.1/plexus-io-3.1.1.pom (4.5 kB at 303 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-compress/1.18/commons-compress-1.18.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-compress/1.18/commons-compress-1.18.pom (18 kB at 1.2 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/47/commons-parent-47.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/47/commons-parent-47.pom (78 kB at 3.7 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/iq80/snappy/snappy/0.4/snappy-0.4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/iq80/snappy/snappy/0.4/snappy-0.4.pom (15 kB at 969 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/tukaani/xz/1.8/xz-1.8.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/tukaani/xz/1.8/xz-1.8.pom (1.9 kB at 127 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interpolation/1.25/plexus-interpolation-1.25.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interpolation/1.25/plexus-interpolation-1.25.pom (2.6 kB at 176 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/2.0.4/plexus-utils-2.0.4.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-utils/3.2.1/maven-shared-utils-3.2.1.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/4.1.0/plexus-archiver-4.1.0.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-archiver/3.4.0/maven-archiver-3.4.0.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-io/3.1.1/plexus-io-3.1.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/2.0.4/plexus-utils-2.0.4.jar (222 kB at 6.0 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-compress/1.18/commons-compress-1.18.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-io/3.1.1/plexus-io-3.1.1.jar (75 kB at 955 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/iq80/snappy/snappy/0.4/snappy-0.4.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-archiver/3.4.0/maven-archiver-3.4.0.jar (24 kB at 287 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/tukaani/xz/1.8/xz-1.8.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-compress/1.18/commons-compress-1.18.jar (592 kB at 6.4 MB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-utils/3.2.1/maven-shared-utils-3.2.1.jar (167 kB at 1.6 MB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/4.1.0/plexus-archiver-4.1.0.jar (192 kB at 1.8 MB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/tukaani/xz/1.8/xz-1.8.jar (109 kB at 936 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/iq80/snappy/snappy/0.4/snappy-0.4.jar (58 kB at 495 kB/s)
+[INFO] Building jar: /home/runner/work/builds/builds/TheBusyBiscuit/Slimefun4/master/files/target/Slimefun4-315-sources.jar
+[INFO] 
+[INFO] --- maven-shade-plugin:3.2.1:shade (default) @ Slimefun ---
+[INFO] Including com.github.thebusybiscuit:CS-CoreLib2:jar:0.6.1 in the shaded jar.
+[INFO] Including org.bstats:bstats-bukkit:jar:1.5 in the shaded jar.
+[INFO] Replacing original artifact with shaded artifact.
+[INFO] Replacing /home/runner/work/builds/builds/TheBusyBiscuit/Slimefun4/master/files/target/Slimefun4-315.jar with /home/runner/work/builds/builds/TheBusyBiscuit/Slimefun4/master/files/target/Slimefun-DEV - 315 (git 86e575b6)-shaded.jar
+[INFO] Dependency-reduced POM written at: /home/runner/work/builds/builds/TheBusyBiscuit/Slimefun4/master/files/dependency-reduced-pom.xml
+[INFO] 
+[INFO] ---------------------< me.mrCookieSlime:Slimefun >----------------------
+[INFO] Building Slimefun DEV - 315 (git 86e575b6)
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- sonar-maven-plugin:3.7.0.1746:sonar (default-cli) @ Slimefun ---
+[INFO] User cache: /home/runner/.sonar/cache
+[INFO] SonarQube version: 8.0.0
+[INFO] Default locale: "en", source code encoding: "UTF-8"
+[INFO] Load global settings
+[INFO] Load global settings (done) | time=617ms
+[INFO] Server id: 74E9293D-AWHW8ct9-T_TB3XqouNu
+[INFO] User cache: /home/runner/.sonar/cache
+[INFO] Load/download plugins
+[INFO] Load plugins index
+[INFO] Load plugins index (done) | time=142ms
+[INFO] Load/download plugins (done) | time=233ms
+[INFO] Loaded core extensions: developer-scanner
+[INFO] Process project properties
+[INFO] Execute project builders
+[INFO] Execute project builders (done) | time=9ms
+[INFO] Project key: TheBusyBiscuit_Slimefun4
+[INFO] Base dir: /home/runner/work/builds/builds/TheBusyBiscuit/Slimefun4/master/files
+[INFO] Working dir: /home/runner/work/builds/builds/TheBusyBiscuit/Slimefun4/master/files/target/sonar
+[INFO] Load project settings for component key: 'TheBusyBiscuit_Slimefun4'
+[INFO] Load project settings for component key: 'TheBusyBiscuit_Slimefun4' (done) | time=138ms
+[INFO] Load project branches
+[INFO] Load project branches (done) | time=114ms
+[INFO] Load projects for organization 'thebusybiscuit-github'
+[INFO] Load projects for organization 'thebusybiscuit-github' (done) | time=773ms
+[INFO] Load project pull requests
+[INFO] Load project pull requests (done) | time=103ms
+[INFO] Load branch configuration
+[INFO] Github event: schedule
+[INFO] Load branch configuration (done) | time=9ms
+[INFO] Load quality profiles
+[INFO] Load quality profiles (done) | time=184ms
+[INFO] Detected Github Actions
+[INFO] Load active rules
+[INFO] Load active rules (done) | time=3325ms
+[INFO] Organization key: thebusybiscuit-github
+[INFO] Indexing files...
+[INFO] Project configuration:
+[INFO] 294 files indexed
+[INFO] 0 files ignored because of scm ignore settings
+[INFO] Quality profile for java: Additional Checks
+[INFO] ------------- Run sensors on module Slimefun
+[INFO] Load metrics repository
+[INFO] Load metrics repository (done) | time=107ms
+[INFO] Sensor JavaSquidSensor [java]
+[INFO] Configured Java source version (sonar.java.source): 8
+[INFO] JavaClasspath initialization
+[INFO] JavaClasspath initialization (done) | time=11ms
+[INFO] JavaTestClasspath initialization
+[INFO] JavaTestClasspath initialization (done) | time=1ms
+[INFO] Java Main Files AST scan
+[INFO] 294 source files to be analyzed
+[INFO] Load project repositories
+[INFO] Load project repositories (done) | time=223ms
+[INFO] 43/294 files analyzed, current file: src/main/java/me/mrCookieSlime/Slimefun/Objects/SlimefunItem/multiblocks/PressureChamber.java
+[INFO] 159/294 files analyzed, current file: src/main/java/me/mrCookieSlime/Slimefun/api/network/Network.java
+[INFO] 294/294 source files have been analyzed
+[WARNING] Classes not found during the analysis : [com.google.common.base.Function, com.google.common.collect.ImmutableList, com.google.common.collect.ImmutableList$Builder, com.google.common.collect.Multimap, com.sk89q.worldedit.event.extent.EditSessionEvent, org.yaml.snakeyaml.DumperOptions, org.yaml.snakeyaml.Yaml, org.yaml.snakeyaml.representer.Representer]
+[INFO] Java Main Files AST scan (done) | time=29731ms
+[INFO] Java Test Files AST scan
+[INFO] 0 source files to be analyzed
+[INFO] Java Test Files AST scan (done) | time=4ms
+[INFO] Sensor JavaSquidSensor [java] (done) | time=30363ms
+[INFO] Sensor SurefireSensor [java]
+[INFO] parsing [/home/runner/work/builds/builds/TheBusyBiscuit/Slimefun4/master/files/target/surefire-reports]
+[INFO] Sensor SurefireSensor [java] (done) | time=2ms
+[INFO] Sensor JaCoCoSensor [java]
+[INFO] Sensor JaCoCoSensor [java] (done) | time=1ms
+[INFO] Sensor JavaXmlSensor [java]
+[INFO] 0/0 source files have been analyzed
+[INFO] Sensor JavaXmlSensor [java] (done) | time=4ms
+[INFO] Sensor HTML [web]
+[INFO] Sensor HTML [web] (done) | time=5ms
+[INFO] Sensor JaCoCo XML Report Importer [jacoco]
+[INFO] Sensor JaCoCo XML Report Importer [jacoco] (done) | time=4ms
+[INFO] Sensor JavaSecuritySensor [security]
+[INFO] Reading type hierarchy from: /home/runner/work/builds/builds/TheBusyBiscuit/Slimefun4/master/files/target/sonar/ucfg2/java
+[INFO] Read 666 type definitions
+[INFO] Reading UCFGs from: /home/runner/work/builds/builds/TheBusyBiscuit/Slimefun4/master/files/target/sonar/ucfg2/java
+[INFO] 08:09:50.765 Building Type propagation graph
+[INFO] 08:09:50.86 Running Tarjan on 12592 nodes
+[INFO] 08:09:50.88 Tarjan found 12592 components
+[INFO] 08:09:50.913 Variable type analysis: done
+[INFO] 08:09:50.916 Building Type propagation graph
+[INFO] 08:09:50.972 Running Tarjan on 12542 nodes
+[INFO] 08:09:50.99 Tarjan found 12542 components
+[INFO] 08:09:51.017 Variable type analysis: done
+[INFO] Analyzing 1802 ucfgs to detect vulnerabilities.
+[INFO] All rules entrypoints : 0 Retained UCFGs : 0
+[INFO] rule: S5131, entrypoints: 0
+[INFO] Visited 0 ucfgs in 0 ms, 0 steps
+[INFO] rule: S5131 done
+[INFO] rule: S3649, entrypoints: 0
+[INFO] Visited 0 ucfgs in 0 ms, 0 steps
+[INFO] rule: S3649 done
+[INFO] rule: S2076, entrypoints: 0
+[INFO] Visited 0 ucfgs in 0 ms, 0 steps
+[INFO] rule: S2076 done
+[INFO] rule: S2091, entrypoints: 0
+[INFO] Visited 0 ucfgs in 0 ms, 0 steps
+[INFO] rule: S2091 done
+[INFO] rule: S2078, entrypoints: 0
+[INFO] Visited 0 ucfgs in 0 ms, 0 steps
+[INFO] rule: S2078 done
+[INFO] rule: S2631, entrypoints: 0
+[INFO] Visited 0 ucfgs in 0 ms, 0 steps
+[INFO] rule: S2631 done
+[INFO] rule: S5135, entrypoints: 0
+[INFO] Visited 0 ucfgs in 0 ms, 0 steps
+[INFO] rule: S5135 done
+[INFO] rule: S2083, entrypoints: 0
+[INFO] Visited 0 ucfgs in 0 ms, 0 steps
+[INFO] rule: S2083 done
+[INFO] rule: S5167, entrypoints: 0
+[INFO] Visited 0 ucfgs in 0 ms, 0 steps
+[INFO] rule: S5167 done
+[INFO] rule: S5144, entrypoints: 0
+[INFO] Visited 0 ucfgs in 0 ms, 0 steps
+[INFO] rule: S5144 done
+[INFO] rule: S5145, entrypoints: 0
+[INFO] Visited 0 ucfgs in 0 ms, 0 steps
+[INFO] rule: S5145 done
+[INFO] rule: S5146, entrypoints: 0
+[INFO] Visited 0 ucfgs in 0 ms, 0 steps
+[INFO] rule: S5146 done
+[INFO] rule: S5334, entrypoints: 0
+[INFO] Visited 0 ucfgs in 0 ms, 0 steps
+[INFO] rule: S5334 done
+[INFO] Sensor JavaSecuritySensor [security] (done) | time=3479ms
+[INFO] Sensor CSharpSecuritySensor [security]
+[INFO] Reading type hierarchy from: /home/runner/work/builds/builds/TheBusyBiscuit/Slimefun4/master/files/target/ucfg_cs2
+[INFO] Read 0 type definitions
+[INFO] Reading UCFGs from: /home/runner/work/builds/builds/TheBusyBiscuit/Slimefun4/master/files/target/ucfg_cs2
+[INFO] No UCFGs have been included for analysis.
+[INFO] Sensor CSharpSecuritySensor [security] (done) | time=1ms
+[INFO] Sensor PhpSecuritySensor [security]
+[INFO] Reading type hierarchy from: /home/runner/work/builds/builds/TheBusyBiscuit/Slimefun4/master/files/target/sonar/ucfg2/php
+[INFO] Read 0 type definitions
+[INFO] Reading UCFGs from: /home/runner/work/builds/builds/TheBusyBiscuit/Slimefun4/master/files/target/sonar/ucfg2/php
+[INFO] No UCFGs have been included for analysis.
+[INFO] Sensor PhpSecuritySensor [security] (done) | time=3ms
+[INFO] ------------- Run sensors on project
+[INFO] Sensor Zero Coverage Sensor
+[INFO] Sensor Zero Coverage Sensor (done) | time=72ms
+[INFO] Sensor Java CPD Block Indexer
+[INFO] Sensor Java CPD Block Indexer (done) | time=296ms
+[INFO] SCM provider for this project is: git
+[INFO] 1 files to be analyzed
+[INFO] 1/1 files analyzed
+[INFO] 63 files had no CPD blocks
+[INFO] Calculating CPD for 231 files
+[INFO] CPD calculation finished
+[INFO] Analysis report generated in 170ms, dir size=2 MB
+[INFO] Analysis report compressed in 631ms, zip size=1 MB
+[INFO] Analysis report uploaded in 714ms
+[INFO] ANALYSIS SUCCESSFUL, you can browse https://sonarcloud.io/dashboard?id=TheBusyBiscuit_Slimefun4
+[INFO] Note that you will be able to access the updated dashboard once the server has processed the submitted analysis report
+[INFO] More about the report processing at https://sonarcloud.io/api/ce/task?id=AW3jENv468AbEM_wM6BV
+[INFO] Analysis total time: 45.396 s
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  04:15 min
+[INFO] Finished at: 2019-10-19T08:09:56Z
+[INFO] ------------------------------------------------------------------------
