@@ -17,6 +17,8 @@ jobs:
         ref: gh-pages
     - name: Setup Java Action
       uses: actions/setup-java@v1.0.0
+      with:
+        java-version: 1.8
     - name: Setting up node.js
       uses: actions/setup-node@v1
       with:
