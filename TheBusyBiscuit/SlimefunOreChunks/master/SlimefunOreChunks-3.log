@@ -1,0 +1,223 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -------------< io.github.thebusybiscuit:SlimefunOreChunks >-------------
+[INFO] Building SlimefunOreChunks DEV - 3 (git 7ddf966e)
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/github/TheBusyBiscuit/CS-CoreLib/aaef21bd15/CS-CoreLib-aaef21bd15.pom
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/github/TheBusyBiscuit/CS-CoreLib/aaef21bd15/CS-CoreLib-aaef21bd15.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/github/TheBusyBiscuit/CS-CoreLib/aaef21bd15/CS-CoreLib-aaef21bd15.pom
+[INFO] Downloaded from jitpack.io: https://jitpack.io/com/github/TheBusyBiscuit/CS-CoreLib/aaef21bd15/CS-CoreLib-aaef21bd15.pom (4.6 kB at 4.0 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/github/TheBusyBiscuit/Slimefun4/72916b3e4f/Slimefun4-72916b3e4f.pom
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/github/TheBusyBiscuit/Slimefun4/72916b3e4f/Slimefun4-72916b3e4f.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/github/TheBusyBiscuit/Slimefun4/72916b3e4f/Slimefun4-72916b3e4f.pom
+[INFO] Downloaded from jitpack.io: https://jitpack.io/com/github/TheBusyBiscuit/Slimefun4/72916b3e4f/Slimefun4-72916b3e4f.pom (6.4 kB at 13 kB/s)
+[WARNING] The POM for com.github.TheBusyBiscuit:Slimefun4:jar:72916b3e4f is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/github/TheBusyBiscuit/CS-CoreLib/aaef21bd15/CS-CoreLib-aaef21bd15.jar
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/github/TheBusyBiscuit/Slimefun4/72916b3e4f/Slimefun4-72916b3e4f.jar
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/github/TheBusyBiscuit/CS-CoreLib/aaef21bd15/CS-CoreLib-aaef21bd15.jar
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/github/TheBusyBiscuit/Slimefun4/72916b3e4f/Slimefun4-72916b3e4f.jar
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/github/TheBusyBiscuit/CS-CoreLib/aaef21bd15/CS-CoreLib-aaef21bd15.jar
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/github/TheBusyBiscuit/Slimefun4/72916b3e4f/Slimefun4-72916b3e4f.jar
+[INFO] Downloaded from jitpack.io: https://jitpack.io/com/github/TheBusyBiscuit/CS-CoreLib/aaef21bd15/CS-CoreLib-aaef21bd15.jar (308 kB at 298 kB/s)
+[INFO] Downloaded from jitpack.io: https://jitpack.io/com/github/TheBusyBiscuit/Slimefun4/72916b3e4f/Slimefun4-72916b3e4f.jar (1.2 MB at 924 kB/s)
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ SlimefunOreChunks ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ SlimefunOreChunks ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ SlimefunOreChunks ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 2 source files to /home/runner/work/builds/builds/TheBusyBiscuit/SlimefunOreChunks/master/files/target/classes
+[WARNING] /home/runner/work/builds/builds/TheBusyBiscuit/SlimefunOreChunks/master/files/src/main/java/io/github/thebusybiscuit/slimefunorechunks/OreChunk.java: /home/runner/work/builds/builds/TheBusyBiscuit/SlimefunOreChunks/master/files/src/main/java/io/github/thebusybiscuit/slimefunorechunks/OreChunk.java uses or overrides a deprecated API.
+[WARNING] /home/runner/work/builds/builds/TheBusyBiscuit/SlimefunOreChunks/master/files/src/main/java/io/github/thebusybiscuit/slimefunorechunks/OreChunk.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ SlimefunOreChunks ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/runner/work/builds/builds/TheBusyBiscuit/SlimefunOreChunks/master/files/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ SlimefunOreChunks ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ SlimefunOreChunks ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ SlimefunOreChunks ---
+[INFO] Building jar: /home/runner/work/builds/builds/TheBusyBiscuit/SlimefunOreChunks/master/files/target/SlimefunOreChunks-3.jar
+[INFO] 
+[INFO] -------------< io.github.thebusybiscuit:SlimefunOreChunks >-------------
+[INFO] Building SlimefunOreChunks DEV - 3 (git 7ddf966e)
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- sonar-maven-plugin:3.7.0.1746:sonar (default-cli) @ SlimefunOreChunks ---
+[INFO] User cache: /home/runner/.sonar/cache
+[INFO] SonarQube version: 8.0.0
+[INFO] Default locale: "en", source code encoding: "UTF-8"
+[INFO] Load global settings
+[INFO] Load global settings (done) | time=903ms
+[INFO] Server id: 74E9293D-AWHW8ct9-T_TB3XqouNu
+[INFO] User cache: /home/runner/.sonar/cache
+[INFO] Load/download plugins
+[INFO] Load plugins index
+[INFO] Load plugins index (done) | time=198ms
+[INFO] Load/download plugins (done) | time=293ms
+[INFO] Loaded core extensions: developer-scanner
+[INFO] Process project properties
+[INFO] Execute project builders
+[INFO] Execute project builders (done) | time=3ms
+[INFO] Project key: TheBusyBiscuit_SlimefunOreChunks
+[INFO] Base dir: /home/runner/work/builds/builds/TheBusyBiscuit/SlimefunOreChunks/master/files
+[INFO] Working dir: /home/runner/work/builds/builds/TheBusyBiscuit/SlimefunOreChunks/master/files/target/sonar
+[INFO] Load project settings for component key: 'TheBusyBiscuit_SlimefunOreChunks'
+[INFO] Load project settings for component key: 'TheBusyBiscuit_SlimefunOreChunks' (done) | time=196ms
+[INFO] Found an active CI vendor: 'Github Actions'
+[INFO] Load project branches
+[INFO] Load project branches (done) | time=167ms
+[INFO] Load projects for organization 'thebusybiscuit-github'
+[INFO] Load projects for organization 'thebusybiscuit-github' (done) | time=1429ms
+[INFO] Load project pull requests
+[INFO] Load project pull requests (done) | time=163ms
+[INFO] Load branch configuration
+[INFO] Github event: schedule
+[INFO] Load branch configuration (done) | time=2ms
+[INFO] Load quality profiles
+[INFO] Load quality profiles (done) | time=217ms
+[INFO] Load active rules
+[INFO] Load active rules (done) | time=5086ms
+[INFO] Organization key: thebusybiscuit-github
+[INFO] Indexing files...
+[INFO] Project configuration:
+[INFO] 3 files indexed
+[INFO] 0 files ignored because of scm ignore settings
+[INFO] Quality profile for java: Additional Checks
+[INFO] Quality profile for xml: Sonar way
+[INFO] ------------- Run sensors on module SlimefunOreChunks
+[INFO] Load metrics repository
+[INFO] Load metrics repository (done) | time=166ms
+[INFO] Sensor JavaSquidSensor [java]
+[INFO] Configured Java source version (sonar.java.source): 8
+[INFO] JavaClasspath initialization
+[INFO] JavaClasspath initialization (done) | time=9ms
+[INFO] JavaTestClasspath initialization
+[INFO] JavaTestClasspath initialization (done) | time=0ms
+[INFO] Java Main Files AST scan
+[INFO] 2 source files to be analyzed
+[INFO] Load project repositories
+[INFO] Load project repositories (done) | time=176ms
+[INFO] 2/2 source files have been analyzed
+[INFO] Java Main Files AST scan (done) | time=1165ms
+[INFO] Java Test Files AST scan
+[INFO] 0 source files to be analyzed
+[INFO] Java Test Files AST scan (done) | time=3ms
+[INFO] Sensor JavaSquidSensor [java] (done) | time=1753ms
+[INFO] Sensor SurefireSensor [java]
+[INFO] parsing [/home/runner/work/builds/builds/TheBusyBiscuit/SlimefunOreChunks/master/files/target/surefire-reports]
+[INFO] Sensor SurefireSensor [java] (done) | time=1ms
+[INFO] Sensor JaCoCoSensor [java]
+[INFO] Sensor JaCoCoSensor [java] (done) | time=1ms
+[INFO] Sensor JavaXmlSensor [java]
+[INFO] 1 source files to be analyzed
+[INFO] 0/0 source files have been analyzed
+[INFO] 1/1 source files have been analyzed
+[INFO] Sensor JavaXmlSensor [java] (done) | time=234ms
+[INFO] Sensor HTML [web]
+[INFO] Sensor HTML [web] (done) | time=4ms
+[INFO] Sensor XML Sensor [xml]
+[INFO] 1 source files to be analyzed
+[INFO] Sensor XML Sensor [xml] (done) | time=97ms
+[INFO] Sensor JaCoCo XML Report Importer [jacoco]
+[INFO] 1/1 source files have been analyzed
+[INFO] Sensor JaCoCo XML Report Importer [jacoco] (done) | time=4ms
+[INFO] Sensor JavaSecuritySensor [security]
+[INFO] Reading type hierarchy from: /home/runner/work/builds/builds/TheBusyBiscuit/SlimefunOreChunks/master/files/target/sonar/ucfg2/java
+[INFO] Read 34 type definitions
+[INFO] Reading UCFGs from: /home/runner/work/builds/builds/TheBusyBiscuit/SlimefunOreChunks/master/files/target/sonar/ucfg2/java
+[INFO] 09:05:13.768 Building Type propagation graph
+[INFO] 09:05:13.778 Running Tarjan on 51 nodes
+[INFO] 09:05:13.78 Tarjan found 51 components
+[INFO] 09:05:13.782 Variable type analysis: done
+[INFO] 09:05:13.783 Building Type propagation graph
+[INFO] 09:05:13.788 Running Tarjan on 51 nodes
+[INFO] 09:05:13.788 Tarjan found 51 components
+[INFO] 09:05:13.789 Variable type analysis: done
+[INFO] Analyzing 9 ucfgs to detect vulnerabilities.
+[INFO] All rules entrypoints : 0 Retained UCFGs : 0
+[INFO] rule: S5131, entrypoints: 0
+[INFO] Visited 0 ucfgs in 0 ms, 0 steps
+[INFO] rule: S5131 done
+[INFO] rule: S3649, entrypoints: 0
+[INFO] Visited 0 ucfgs in 0 ms, 0 steps
+[INFO] rule: S3649 done
+[INFO] rule: S2076, entrypoints: 0
+[INFO] Visited 0 ucfgs in 0 ms, 0 steps
+[INFO] rule: S2076 done
+[INFO] rule: S2091, entrypoints: 0
+[INFO] Visited 0 ucfgs in 0 ms, 0 steps
+[INFO] rule: S2091 done
+[INFO] rule: S2078, entrypoints: 0
+[INFO] Visited 0 ucfgs in 0 ms, 0 steps
+[INFO] rule: S2078 done
+[INFO] rule: S2631, entrypoints: 0
+[INFO] Visited 0 ucfgs in 0 ms, 0 steps
+[INFO] rule: S2631 done
+[INFO] rule: S5135, entrypoints: 0
+[INFO] Visited 0 ucfgs in 0 ms, 0 steps
+[INFO] rule: S5135 done
+[INFO] rule: S2083, entrypoints: 0
+[INFO] Visited 0 ucfgs in 0 ms, 0 steps
+[INFO] rule: S2083 done
+[INFO] rule: S5167, entrypoints: 0
+[INFO] Visited 0 ucfgs in 0 ms, 0 steps
+[INFO] rule: S5167 done
+[INFO] rule: S5144, entrypoints: 0
+[INFO] Visited 0 ucfgs in 0 ms, 0 steps
+[INFO] rule: S5144 done
+[INFO] rule: S5145, entrypoints: 0
+[INFO] Visited 0 ucfgs in 0 ms, 0 steps
+[INFO] rule: S5145 done
+[INFO] rule: S5146, entrypoints: 0
+[INFO] Visited 0 ucfgs in 0 ms, 0 steps
+[INFO] rule: S5146 done
+[INFO] rule: S5334, entrypoints: 0
+[INFO] Visited 0 ucfgs in 0 ms, 0 steps
+[INFO] rule: S5334 done
+[INFO] Sensor JavaSecuritySensor [security] (done) | time=364ms
+[INFO] Sensor CSharpSecuritySensor [security]
+[INFO] Reading type hierarchy from: /home/runner/work/builds/builds/TheBusyBiscuit/SlimefunOreChunks/master/files/target/ucfg_cs2
+[INFO] Read 0 type definitions
+[INFO] Reading UCFGs from: /home/runner/work/builds/builds/TheBusyBiscuit/SlimefunOreChunks/master/files/target/ucfg_cs2
+[INFO] No UCFGs have been included for analysis.
+[INFO] Sensor CSharpSecuritySensor [security] (done) | time=3ms
+[INFO] Sensor PhpSecuritySensor [security]
+[INFO] Reading type hierarchy from: /home/runner/work/builds/builds/TheBusyBiscuit/SlimefunOreChunks/master/files/target/sonar/ucfg2/php
+[INFO] Read 0 type definitions
+[INFO] Reading UCFGs from: /home/runner/work/builds/builds/TheBusyBiscuit/SlimefunOreChunks/master/files/target/sonar/ucfg2/php
+[INFO] No UCFGs have been included for analysis.
+[INFO] Sensor PhpSecuritySensor [security] (done) | time=4ms
+[INFO] ------------- Run sensors on project
+[INFO] Sensor Zero Coverage Sensor
+[INFO] Sensor Zero Coverage Sensor (done) | time=15ms
+[INFO] Sensor Java CPD Block Indexer
+[INFO] Sensor Java CPD Block Indexer (done) | time=17ms
+[INFO] SCM provider for this project is: git
+[INFO] 3 files to be analyzed
+[INFO] 2/3 files analyzed
+[WARNING] Missing blame information for the following files:
+[WARNING]   * pom.xml
+[WARNING] This may lead to missing/broken features in SonarQube
+[INFO] Calculating CPD for 2 files
+[INFO] CPD calculation finished
+[INFO] Analysis report generated in 116ms, dir size=158 KB
+[INFO] Analysis report compressed in 19ms, zip size=34 KB
+[INFO] Analysis report uploaded in 327ms
+[INFO] ANALYSIS SUCCESSFUL, you can browse https://sonarcloud.io/dashboard?id=TheBusyBiscuit_SlimefunOreChunks
+[INFO] Note that you will be able to access the updated dashboard once the server has processed the submitted analysis report
+[INFO] More about the report processing at https://sonarcloud.io/api/ce/task?id=AW7p59Nx6Q4M_bIy6hUw
+[INFO] Analysis total time: 14.099 s
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  29.497 s
+[INFO] Finished at: 2019-12-09T09:05:14Z
+[INFO] ------------------------------------------------------------------------
