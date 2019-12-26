@@ -212,13 +212,16 @@
 		},
 		"dependencies": {
 			"Minecraft Version(s)": {
+				"4": "1.14.x, 1.15.x",
 				"1": "1.13.x, 1.14.x"
 			},
 			"CS-CoreLib Version": {
+				"4": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/CS-CoreLib/master/#79\">dev #79</a>",
 				"2": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/CS-CoreLib/master/#44\">1.5</a>",
 				"1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/CS-CoreLib/master/#36\">dev #36</a>"
 			},
 			"Slimefun Version": {
+				"4": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/Slimefun4/master/#370\">dev #370</a>",
 				"1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/Slimefun4/master/#73\">dev #73</a>"
 			}
 		}
