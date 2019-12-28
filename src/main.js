@@ -96,7 +96,8 @@ function check(job, logging) {
             var timestamp = parseInt(commit.commit.committer.date.replace(/\D/g, ""));
 
             if (commit.commit.message.toLowerCase().startsWith("[ci skip]")) {
-                return Promise.reject("Skipping build...");
+                reject("Skipping build...");
+                return;
             }
 
             job.commit = {
