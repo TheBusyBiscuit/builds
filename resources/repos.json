@@ -118,7 +118,7 @@
 		},
 		"dependencies": {
 			"Minecraft Version(s)": {
-				"13": "1.14.x",
+				"13": "1.14.x, 1.15.x",
 				"9": "1.12.x, 1.13.x, 1.14.x",
 				"4": "1.12.x, 1.13.x",
 				"1": "1.10.x, 1.11.x, 1.12.x"
@@ -151,7 +151,7 @@
 		},
 		"dependencies": {
 			"Minecraft Version(s)": {
-				"10": "1.14.x",
+				"10": "1.14.x, 1.15.x",
 				"5": "1.13.x, 1.14.x",
 				"3": "1.13.x",
 				"1": "1.10.x, 1.11.x, 1.12.x"
@@ -184,7 +184,7 @@
 		},
 		"dependencies": {
 			"Minecraft Version(s)": {
-				"6": "1.14.x",
+				"6": "1.14.x, 1.15.x",
 				"1": "1.13.x"
 			},
 			"CS-CoreLib Version": {
@@ -213,7 +213,7 @@
 		"dependencies": {
 			"Minecraft Version(s)": {
 				"4": "1.14.x, 1.15.x",
-				"1": "1.13.x, 1.14.x"
+				"1": "1.13.x, 1.14.x, 1.15.x"
 			},
 			"CS-CoreLib Version": {
 				"4": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/CS-CoreLib/master/#79\">dev #79</a>",
@@ -239,7 +239,7 @@
 		"dependencies": {
 			"Minecraft Version(s)": {
 				"21": "1.14.x, 1.15.x",
-				"1": "1.13.x, 1.14.x"
+				"1": "1.13.x, 1.14.x, 1.15.x"
 			},
 			"CS-CoreLib Version": {
 				"21": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/CS-CoreLib/master/#79\">dev #79</a>",
@@ -264,7 +264,7 @@
 		"dependencies": {
 			"Minecraft Version(s)": {
 				"6": "1.14.x, 1.15.x",
-				"1": "1.13.x, 1.14.x"
+				"1": "1.13.x, 1.14.x, 1.15.x"
 			},
 			"CS-CoreLib Version": {
 				"6": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/CS-CoreLib/master/#79\">dev #79</a>",
@@ -288,12 +288,15 @@
 		},
 		"dependencies": {
 			"Minecraft Version(s)": {
-				"1": "1.13.x, 1.14.x"
+				"8": "1.14.x, 1.15.x",
+				"1": "1.13.x, 1.14.x, 1.15.x"
 			},
-			"CS-CoreLib Version": {
+			"CS-CoreLib Version": 
+				"8": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/CS-CoreLib/master/#79\">dev #79</a>",
 				"1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/CS-CoreLib/master/#44\">1.6</a>"
 			},
 			"Slimefun Version": {
+				"8": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/Slimefun4/master/#380\">dev #380</a>",
 				"1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/Slimefun4/master/#73\">dev #73</a>"
 			}
 		}
@@ -311,7 +314,7 @@
 		"dependencies": {
 			"Minecraft Version(s)": {
 				"7": "1.14.x, 1.15.x",
-				"1": "1.13.x, 1.14.x"
+				"1": "1.13.x, 1.14.x, 1.15.x"
 			},
 			"CS-CoreLib Version": {
 				"7": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/CS-CoreLib/master/#79\">dev #79</a>",
@@ -335,7 +338,7 @@
 		},
 		"dependencies": {
 			"Minecraft Version(s)": {
-				"1": "1.13.x, 1.14.x"
+				"1": "1.13.x, 1.14.x, 1.15.x"
 			},
 			"CS-CoreLib Version": {
 				"1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/CS-CoreLib/master/#44\">1.6</a>"
@@ -354,7 +357,7 @@
 		},
 		"dependencies": {
 			"Minecraft Version(s)": {
-				"1": "1.13.x, 1.14.x"
+				"1": "1.13.x, 1.14.x, 1.15.x"
 			},
 			"CS-CoreLib Version": {
 				"1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/CS-CoreLib/master/#44\">1.6</a>"
@@ -376,7 +379,7 @@
 		},
 		"dependencies": {
 			"Minecraft Version(s)": {
-				"1": "1.9.x - 1.14.x"
+				"1": "1.9.x - 1.15.x"
 			}
 		}
 	},
@@ -392,7 +395,7 @@
 		},
 		"dependencies": {
 			"Minecraft Version(s)": {
-				"1": "1.9.x - 1.14.x"
+				"1": "1.9.x - 1.15.x"
 			}
 		}
 	},
@@ -408,8 +411,7 @@
 		},
 		"dependencies": {
 			"Minecraft Version(s)": {
-				"5": "1.14.x, 1.15.x",
-				"1": "1.14.x"
+				"1": "1.14.x, 1.15.x"
 			},
 			"CS-CoreLib Version": {
 				"6": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/CS-CoreLib/master/#79\">dev #79</a>",
@@ -433,7 +435,7 @@
 		},
 		"dependencies": {
 			"Minecraft Version(s)": {
-				"1": "1.14.x"
+				"1": "1.14.x, 1.15.x"
 			},
 			"CS-CoreLib Version": {
 				"1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/CS-CoreLib/master/#44\">1.6</a>"
@@ -452,7 +454,7 @@
 		},
 		"dependencies": {
 			"Minecraft Version(s)": {
-				"1": "1.14.x"
+				"1": "1.14.x, 1.15.x"
 			},
 			"CS-CoreLib Version": {
 				"1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/CS-CoreLib/master/#44\">1.6</a>"
@@ -474,7 +476,7 @@
 		},
 		"dependencies": {
 			"Minecraft Version(s)": {
-				"1": "1.14.x"
+				"1": "1.14.x, 1.15.x"
 			},
 			"CS-CoreLib Version": {
 				"1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/CS-CoreLib/master/#44\">1.6</a>"
