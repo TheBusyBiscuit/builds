@@ -1,0 +1,63 @@
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for me.mrCookieSlime:Slimefun:jar:RC - 4 (git ec409886)
+[WARNING] 'dependencies.dependency.systemPath' for me.minebuilders:clearlag-core:jar should not point at files within the project directory, ${project.basedir}/lib/Clearlag.jar will be unresolvable by dependent projects @ line 1, column 3321
+[WARNING] 'dependencies.dependency.systemPath' for me.mrCookieSlime:EmeraldEnchants:jar should not point at files within the project directory, ${project.basedir}/lib/EmeraldEnchants v2.0.jar will be unresolvable by dependent projects @ line 1, column 3524
+[WARNING] 'dependencies.dependency.systemPath' for me.mrCookieSlime:ExoticGarden:jar should not point at files within the project directory, ${project.basedir}/lib/ExoticGarden v1.2.0.jar will be unresolvable by dependent projects @ line 1, column 3738
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-source-plugin is missing. @ line 1, column 1356
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] 
+[INFO] ---------------------< me.mrCookieSlime:Slimefun >----------------------
+[INFO] Building Slimefun RC - 4 (git ec409886)
+[INFO] --------------------------------[ jar ]---------------------------------
+[WARNING] The POM for com.github.thebusybiscuit:CS-CoreLib2:jar:0.8.3 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ Slimefun ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ Slimefun ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ Slimefun ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 331 source files to /home/runner/work/builds/builds/TheBusyBiscuit/Slimefun4/stable/files/target/classes
+[WARNING] /home/runner/work/builds/builds/TheBusyBiscuit/Slimefun4/stable/files/src/main/java/me/mrCookieSlime/Slimefun/SlimefunPlugin.java: Some input files use or override a deprecated API.
+[WARNING] /home/runner/work/builds/builds/TheBusyBiscuit/Slimefun4/stable/files/src/main/java/me/mrCookieSlime/Slimefun/SlimefunPlugin.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ Slimefun ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/runner/work/builds/builds/TheBusyBiscuit/Slimefun4/stable/files/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ Slimefun ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ Slimefun ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ Slimefun ---
+[INFO] Building jar: /home/runner/work/builds/builds/TheBusyBiscuit/Slimefun4/stable/files/target/Slimefun4-4.jar
+[INFO] 
+[INFO] >>> maven-source-plugin:3.2.1:jar (attach-sources) > generate-sources @ Slimefun >>>
+[INFO] 
+[INFO] <<< maven-source-plugin:3.2.1:jar (attach-sources) < generate-sources @ Slimefun <<<
+[INFO] 
+[INFO] 
+[INFO] --- maven-source-plugin:3.2.1:jar (attach-sources) @ Slimefun ---
+[INFO] Building jar: /home/runner/work/builds/builds/TheBusyBiscuit/Slimefun4/stable/files/target/Slimefun4-4-sources.jar
+[INFO] 
+[INFO] --- maven-shade-plugin:3.2.1:shade (default) @ Slimefun ---
+[INFO] Including com.github.thebusybiscuit:CS-CoreLib2:jar:0.8.3 in the shaded jar.
+[INFO] Including org.bstats:bstats-bukkit:jar:1.5 in the shaded jar.
+[INFO] Replacing original artifact with shaded artifact.
+[INFO] Replacing /home/runner/work/builds/builds/TheBusyBiscuit/Slimefun4/stable/files/target/Slimefun4-4.jar with /home/runner/work/builds/builds/TheBusyBiscuit/Slimefun4/stable/files/target/Slimefun-RC - 4 (git ec409886)-shaded.jar
+[INFO] Dependency-reduced POM written at: /home/runner/work/builds/builds/TheBusyBiscuit/Slimefun4/stable/files/dependency-reduced-pom.xml
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  6.716 s
+[INFO] Finished at: 2020-01-06T19:20:40Z
+[INFO] ------------------------------------------------------------------------
