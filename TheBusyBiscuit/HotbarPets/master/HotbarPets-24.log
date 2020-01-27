@@ -1,0 +1,238 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------------< io.github.thebusybiscuit:HotbarPets >-----------------
+[INFO] Building HotbarPets DEV - 24 (git 0e26577b)
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/bukkit/bukkit/1.15.1-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/bukkit/bukkit/1.15.1-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/bukkit/bukkit/1.15.1-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloaded from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/bukkit/bukkit/1.15.1-R0.1-SNAPSHOT/maven-metadata.xml (1.4 kB at 3.0 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/bukkit/bukkit/1.15.1-R0.1-SNAPSHOT/bukkit-1.15.1-R0.1-20200121.034017-49.pom
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/bukkit/bukkit/1.15.1-R0.1-SNAPSHOT/bukkit-1.15.1-R0.1-20200121.034017-49.pom
+[INFO] Downloaded from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/bukkit/bukkit/1.15.1-R0.1-SNAPSHOT/bukkit-1.15.1-R0.1-20200121.034017-49.pom (8.4 kB at 140 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/github/TheBusyBiscuit/CS-CoreLib/6e17183656/CS-CoreLib-6e17183656.pom
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/github/TheBusyBiscuit/CS-CoreLib/6e17183656/CS-CoreLib-6e17183656.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/github/TheBusyBiscuit/CS-CoreLib/6e17183656/CS-CoreLib-6e17183656.pom
+[INFO] Downloaded from jitpack.io: https://jitpack.io/com/github/TheBusyBiscuit/CS-CoreLib/6e17183656/CS-CoreLib-6e17183656.pom (4.6 kB at 86 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/github/TheBusyBiscuit/Slimefun4/abcd579323/Slimefun4-abcd579323.pom
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/github/TheBusyBiscuit/Slimefun4/abcd579323/Slimefun4-abcd579323.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/github/TheBusyBiscuit/Slimefun4/abcd579323/Slimefun4-abcd579323.pom
+[INFO] Downloaded from jitpack.io: https://jitpack.io/com/github/TheBusyBiscuit/Slimefun4/abcd579323/Slimefun4-abcd579323.pom (5.6 kB at 4.4 kB/s)
+[WARNING] The POM for com.github.TheBusyBiscuit:Slimefun4:jar:abcd579323 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/bukkit/bukkit/1.15.1-R0.1-SNAPSHOT/bukkit-1.15.1-R0.1-20200121.034017-49.jar
+[INFO] Downloaded from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/bukkit/bukkit/1.15.1-R0.1-SNAPSHOT/bukkit-1.15.1-R0.1-20200121.034017-49.jar (1.2 MB at 7.3 MB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/github/TheBusyBiscuit/CS-CoreLib/6e17183656/CS-CoreLib-6e17183656.jar
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/github/TheBusyBiscuit/Slimefun4/abcd579323/Slimefun4-abcd579323.jar
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/github/TheBusyBiscuit/CS-CoreLib/6e17183656/CS-CoreLib-6e17183656.jar
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/github/TheBusyBiscuit/Slimefun4/abcd579323/Slimefun4-abcd579323.jar
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/github/TheBusyBiscuit/CS-CoreLib/6e17183656/CS-CoreLib-6e17183656.jar
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/github/TheBusyBiscuit/Slimefun4/abcd579323/Slimefun4-abcd579323.jar
+[INFO] Downloaded from jitpack.io: https://jitpack.io/com/github/TheBusyBiscuit/CS-CoreLib/6e17183656/CS-CoreLib-6e17183656.jar (308 kB at 3.6 MB/s)
+[INFO] Downloaded from jitpack.io: https://jitpack.io/com/github/TheBusyBiscuit/Slimefun4/abcd579323/Slimefun4-abcd579323.jar (1.2 MB at 604 kB/s)
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ HotbarPets ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ HotbarPets ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ HotbarPets ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 31 source files to /home/runner/work/builds/builds/TheBusyBiscuit/HotbarPets/master/files/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ HotbarPets ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/runner/work/builds/builds/TheBusyBiscuit/HotbarPets/master/files/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ HotbarPets ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ HotbarPets ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ HotbarPets ---
+[INFO] Building jar: /home/runner/work/builds/builds/TheBusyBiscuit/HotbarPets/master/files/target/HotbarPets-24.jar
+[INFO] 
+[INFO] ----------------< io.github.thebusybiscuit:HotbarPets >-----------------
+[INFO] Building HotbarPets DEV - 24 (git 0e26577b)
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- sonar-maven-plugin:3.7.0.1746:sonar (default-cli) @ HotbarPets ---
+[INFO] User cache: /home/runner/.sonar/cache
+[INFO] SonarQube version: 8.0.0
+[INFO] Default locale: "en", source code encoding: "UTF-8"
+[INFO] Load global settings
+[INFO] Load global settings (done) | time=590ms
+[INFO] Server id: 1BD809FA-AWHW8ct9-T_TB3XqouNu
+[INFO] User cache: /home/runner/.sonar/cache
+[INFO] Load/download plugins
+[INFO] Load plugins index
+[INFO] Load plugins index (done) | time=133ms
+[INFO] Load/download plugins (done) | time=230ms
+[INFO] Loaded core extensions: developer-scanner
+[INFO] Process project properties
+[INFO] Execute project builders
+[INFO] Execute project builders (done) | time=5ms
+[INFO] Project key: TheBusyBiscuit_HotbarPets
+[INFO] Base dir: /home/runner/work/builds/builds/TheBusyBiscuit/HotbarPets/master/files
+[INFO] Working dir: /home/runner/work/builds/builds/TheBusyBiscuit/HotbarPets/master/files/target/sonar
+[INFO] Load project settings for component key: 'TheBusyBiscuit_HotbarPets'
+[INFO] Load project settings for component key: 'TheBusyBiscuit_HotbarPets' (done) | time=180ms
+[INFO] Found an active CI vendor: 'Github Actions'
+[INFO] Load project branches
+[INFO] Load project branches (done) | time=106ms
+[INFO] Load projects for organization 'thebusybiscuit-github'
+[INFO] Load projects for organization 'thebusybiscuit-github' (done) | time=1058ms
+[INFO] Load project pull requests
+[INFO] Load project pull requests (done) | time=99ms
+[INFO] Load branch configuration
+[INFO] Github event: schedule
+d branch configuration (done) | time=2ms
+[INFO] Loa[INFO] Load quality profiles
+[INFO] Load quality profiles (done) | time=160ms
+[INFO] Load active rules
+[INFO] Load active rules (done) | time=3327ms
+[INFO] Organization key: thebusybiscuit-github
+[INFO] Indexing files...
+[INFO] Project configuration:
+[INFO] 32 files indexed
+[INFO] 0 files ignored because of scm ignore settings
+[INFO] Quality profile for java: Additional Checks
+[INFO] Quality profile for xml: Sonar way
+[INFO] ------------- Run sensors on module HotbarPets
+[INFO] Load metrics repository
+[INFO] Load metrics repository (done) | time=108ms
+[INFO] Sensor JavaSquidSensor [java]
+[INFO] Configured Java source version (sonar.java.source): 8
+[INFO] JavaClasspath initialization
+[INFO] JavaClasspath initialization (done) | time=10ms
+[INFO] JavaTestClasspath initialization
+[INFO] JavaTestClasspath initialization (done) | time=1ms
+[INFO] Java Main Files AST scan
+[INFO] 31 source files to be analyzed
+[INFO] Load project repositories
+[INFO] Load project repositories (done) | time=132ms
+[INFO] 31/31 source files have been analyzed
+[INFO] Java Main Files AST scan (done) | time=7883ms
+[INFO] Java Test Files AST scan
+[INFO] 0 source files to be analyzed
+[INFO] Java Test Files AST scan (done) | time=3ms
+[INFO] Sensor JavaSquidSensor [java] (done) | time=8059ms
+[INFO] Sensor SonarCSS Rules [cssfamily]
+[INFO] No CSS, PHP, HTML or VueJS files are found in the project. CSS analysis is skipped.
+[INFO] Sensor SonarCSS Rules [cssfamily] (done) | time=1ms
+[INFO] Sensor SurefireSensor [java]
+[INFO] parsing [/home/runner/work/builds/builds/TheBusyBiscuit/HotbarPets/master/files/target/surefire-reports]
+[INFO] Sensor SurefireSensor [java] (done) | time=1ms
+[INFO] Sensor JavaXmlSensor [java]
+[INFO] 1 source files to be analyzed
+[INFO] 0/0 source files have been analyzed
+[INFO] 1/1 source files have been analyzed
+[INFO] Sensor JavaXmlSensor [java] (done) | time=370ms
+[INFO] Sensor HTML [web]
+[INFO] Sensor HTML [web] (done) | time=5ms
+[INFO] Sensor XML Sensor [xml]
+[INFO] 1 source files to be analyzed
+[INFO] 1/1 source files have been analyzed
+[INFO] Sensor XML Sensor [xml] (done) | time=118ms
+[INFO] Sensor JaCoCo XML Report Importer [jacoco]
+[INFO] Sensor JaCoCo XML Report Importer [jacoco] (done) | time=7ms
+[INFO] Sensor JavaSecuritySensor [security]
+[INFO] Reading type hierarchy from: /home/runner/work/builds/builds/TheBusyBiscuit/HotbarPets/master/files/target/sonar/ucfg2/java
+[INFO] Read 124 type definitions
+[INFO] Reading UCFGs from: /home/runner/work/builds/builds/TheBusyBiscuit/HotbarPets/master/files/target/sonar/ucfg2/java
+[INFO] 00:21:43.664 Building Type propagation graph
+[INFO] 00:21:43.7 Running Tarjan on 698 nodes
+[INFO] 00:21:43.706 Tarjan found 698 components
+[INFO] 00:21:43.716 Variable type analysis: done
+[INFO] 00:21:43.72 Building Type propagation graph
+[INFO] 00:21:43.737 Running Tarjan on 698 nodes
+[INFO] 00:21:43.747 Tarjan found 698 components
+[INFO] 00:21:43.756 Variable type analysis: done
+[INFO] Analyzing 79 ucfgs to detect vulnerabilities.
+[INFO] All rules entrypoints : 0 Retained UCFGs : 0
+[INFO] rule: S5131, entrypoints: 0
+[INFO] Visited 0 ucfgs in 0 ms, 0 steps
+[INFO] rule: S5131 done
+[INFO] rule: S3649, entrypoints: 0
+[INFO] Visited 0 ucfgs in 0 ms, 0 steps
+[INFO] rule: S3649 done
+[INFO] rule: S2076, entrypoints: 0
+[INFO] Visited 0 ucfgs in 0 ms, 0 steps
+[INFO] rule: S2076 done
+[INFO] rule: S2091, entrypoints: 0
+[INFO] Visited 0 ucfgs in 0 ms, 0 steps
+[INFO] rule: S2091 done
+[INFO] rule: S2078, entrypoints: 0
+[INFO] Visited 0 ucfgs in 0 ms, 0 steps
+[INFO] rule: S2078 done
+[INFO] rule: S2631, entrypoints: 0
+[INFO] Visited 0 ucfgs in 0 ms, 0 steps
+[INFO] rule: S2631 done
+[INFO] rule: S5135, entrypoints: 0
+[INFO] Visited 0 ucfgs in 0 ms, 0 steps
+[INFO] rule: S5135 done
+[INFO] rule: S2083, entrypoints: 0
+[INFO] Visited 0 ucfgs in 0 ms, 0 steps
+[INFO] rule: S2083 done
+[INFO] rule: S5167, entrypoints: 0
+[INFO] Visited 0 ucfgs in 0 ms, 0 steps
+[INFO] rule: S5167 done
+[INFO] rule: S5144, entrypoints: 0
+[INFO] Visited 0 ucfgs in 0 ms, 0 steps
+[INFO] rule: S5144 done
+[INFO] rule: S5145, entrypoints: 0
+[INFO] Visited 0 ucfgs in 0 ms, 0 steps
+[INFO] rule: S5145 done
+[INFO] rule: S5146, entrypoints: 0
+[INFO] Visited 0 ucfgs in 0 ms, 0 steps
+[INFO] rule: S5146 done
+[INFO] rule: S5334, entrypoints: 0
+[INFO] Visited 0 ucfgs in 0 ms, 0 steps
+[INFO] rule: S5334 done
+[INFO] Sensor JavaSecuritySensor [security] (done) | time=681ms
+[INFO] Sensor CSharpSecuritySensor [security]
+[INFO] Reading type hierarchy from: /home/runner/work/builds/builds/TheBusyBiscuit/HotbarPets/master/files/target/ucfg_cs2
+[INFO] Read 0 type definitions
+[INFO] Reading UCFGs from: /home/runner/work/builds/builds/TheBusyBiscuit/HotbarPets/master/files/target/ucfg_cs2
+[INFO] No UCFGs have been included for analysis.
+[INFO] Sensor CSharpSecuritySensor [security] (done) | time=3ms
+[INFO] Sensor PhpSecuritySensor [security]
+[INFO] Reading type hierarchy from: /home/runner/work/builds/builds/TheBusyBiscuit/HotbarPets/master/files/target/sonar/ucfg2/php
+[INFO] Read 0 type definitions
+[INFO] Reading UCFGs from: /home/runner/work/builds/builds/TheBusyBiscuit/HotbarPets/master/files/target/sonar/ucfg2/php
+[INFO] No UCFGs have been included for analysis.
+[INFO] Sensor PhpSecuritySensor [security] (done) | time=1ms
+[INFO] Sensor PythonSecuritySensor [security]
+[INFO] Reading type hierarchy from: /home/runner/work/builds/builds/TheBusyBiscuit/HotbarPets/master/files/target/sonar/ucfg2/python
+[INFO] Read 0 type definitions
+[INFO] Reading UCFGs from: /home/runner/work/builds/builds/TheBusyBiscuit/HotbarPets/master/files/target/sonar/ucfg2/python
+[INFO] No UCFGs have been included for analysis.
+[INFO] Sensor PythonSecuritySensor [security] (done) | time=2ms
+[INFO] ------------- Run sensors on project
+[INFO] Sensor Zero Coverage Sensor
+[INFO] Sensor Zero Coverage Sensor (done) | time=14ms
+[INFO] Sensor Java CPD Block Indexer
+[INFO] Sensor Java CPD Block Indexer (done) | time=50ms
+[INFO] SCM provider for this project is: git
+[INFO] 2 files to be analyzed
+[INFO] 1/2 files analyzed
+[WARNING] Missing blame information for the following files:
+[WARNING]   * pom.xml
+[WARNING] This may lead to missing/broken features in SonarQube
+[INFO] 16 files had no CPD blocks
+[INFO] Calculating CPD for 15 files
+[INFO] CPD calculation finished
+[INFO] Analysis report generated in 94ms, dir size=269 KB
+[INFO] Analysis report compressed in 70ms, zip size=106 KB
+[INFO] Analysis report uploaded in 374ms
+[INFO] ANALYSIS SUCCESSFUL, you can browse https://sonarcloud.io/dashboard?id=TheBusyBiscuit_HotbarPets
+[INFO] Note that you will be able to access the updated dashboard once the server has processed the submitted analysis report
+[INFO] More about the report processing at https://sonarcloud.io/api/ce/task?id=AW_kYCmHGuUKD4gRbpnl
+[INFO] Analysis total time: 18.919 s
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  32.000 s
+[INFO] Finished at: 2020-01-27T00:21:45Z
+[INFO] ------------------------------------------------------------------------
