@@ -526,5 +526,46 @@
 				"1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/Slimefun4/master/#262\">dev #262</a>"
 			}
 		}
+	},
+	"J3fftw1/SlimeXpansion:master": {
+		"sonar": {
+			"enabled": false
+		},
+		"options": {
+			"prefix": "DEV"
+		},
+		"dependencies": {
+			"Minecraft Version(s)": {
+				"1": "1.14.x, 1.15.x"
+			},
+			"CS-CoreLib Version": {
+				"1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/CS-CoreLib/master/#79\">dev #79</a>"
+			},
+			"Slimefun Version": {
+				"1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/Slimefun4/master/#417\">dev #417</a>"
+			}
+		}
+	},
+	"J3fftw1/SoundMuffler:master": {
+		"sonar": {
+			"enabled": false
+		},
+		"options": {
+			"prefix": "DEV"
+		},
+		"dependencies": {
+			"Minecraft Version(s)": {
+				"1": "1.14.x, 1.15.x"
+			},
+			"CS-CoreLib Version": {
+				"1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/CS-CoreLib/master/#79\">dev #79</a>"
+			},
+			"Slimefun Version": {
+				"1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/Slimefun4/master/#397\">dev #397</a>"
+			},
+			"ProtocolLib Version": {
+				"1": "<a class=\"link_info\" href=\"https://www.spigotmc.org/resources/protocollib.1997/\">4.5.0</a>"
+			}
+		}
 	}
 }
