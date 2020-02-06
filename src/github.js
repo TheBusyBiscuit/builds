@@ -307,18 +307,19 @@ function pushChanges(job, logging) {
  */
 function getURL(job, cfg, endpoint) {
     var url = "https://api.github.com/repos/" + job.author + "/" + job.repo + endpoint;
-
-    if (cfg.getToken()) {
-        url += (endpoint.includes("?") ? "&": "?") + "access_token=" + cfg.getToken();
-    }
-
-    return {
-        url: url,
-        headers: {
+    var headers = {
             "Accept": "application/vnd.github.v3+json",
             "User-Agent": "The Busy Biscuit's Repository Compiler",
             "Time-Zone": "UTC"
-        }
+    };
+	
+    if (cfg.getToken()) {
+        headers.authorization = "token " + cfg.getToken();
+    }
+	
+    return {
+        url: url,
+        headers: headers
     };
 }
 
