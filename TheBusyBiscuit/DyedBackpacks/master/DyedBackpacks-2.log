@@ -1,0 +1,202 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------< io.github.thebusybiscuit:DyedBackpacks >---------------
+[INFO] Building DyedBackpacks DEV - 2 (git 092e6579)
+[INFO] --------------------------------[ jar ]---------------------------------
+[WARNING] The POM for com.github.TheBusyBiscuit:Slimefun4:jar:cb2e12946f is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ DyedBackpacks ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ DyedBackpacks ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ DyedBackpacks ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 3 source files to /home/runner/work/builds/builds/TheBusyBiscuit/DyedBackpacks/master/files/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ DyedBackpacks ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/runner/work/builds/builds/TheBusyBiscuit/DyedBackpacks/master/files/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ DyedBackpacks ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ DyedBackpacks ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ DyedBackpacks ---
+[INFO] Building jar: /home/runner/work/builds/builds/TheBusyBiscuit/DyedBackpacks/master/files/target/DyedBackpacks-2.jar
+[INFO] 
+[INFO] ---------------< io.github.thebusybiscuit:DyedBackpacks >---------------
+[INFO] Building DyedBackpacks DEV - 2 (git 092e6579)
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- sonar-maven-plugin:3.7.0.1746:sonar (default-cli) @ DyedBackpacks ---
+[INFO] User cache: /home/runner/.sonar/cache
+[INFO] SonarQube version: 8.0.0
+[INFO] Default locale: "en", source code encoding: "UTF-8"
+[INFO] Load global settings
+[INFO] Load global settings (done) | time=748ms
+[INFO] Server id: 1BD809FA-AWHW8ct9-T_TB3XqouNu
+[INFO] User cache: /home/runner/.sonar/cache
+[INFO] Load/download plugins
+[INFO] Load plugins index
+[INFO] Load plugins index (done) | time=150ms
+[INFO] Load/download plugins (done) | time=237ms
+[INFO] Loaded core extensions: developer-scanner
+[INFO] Process project properties
+[INFO] Execute project builders
+[INFO] Execute project builders (done) | time=6ms
+[INFO] Project key: TheBusyBiscuit_DyedBackpacks
+[INFO] Base dir: /home/runner/work/builds/builds/TheBusyBiscuit/DyedBackpacks/master/files
+[INFO] Working dir: /home/runner/work/builds/builds/TheBusyBiscuit/DyedBackpacks/master/files/target/sonar
+[INFO] Load project settings for component key: 'TheBusyBiscuit_DyedBackpacks'
+[INFO] Load project settings for component key: 'TheBusyBiscuit_DyedBackpacks' (done) | time=177ms
+[INFO] Found an active CI vendor: 'Github Actions'
+[INFO] Load project branches
+[INFO] Load project branches (done) | time=109ms
+[INFO] Load projects for organization 'thebusybiscuit-github'
+[INFO] Load projects for organization 'thebusybiscuit-github' (done) | time=929ms
+[INFO] Load project pull requests
+[INFO] Load project pull requests (done) | time=105ms
+[INFO] Load branch configuration
+[INFO] Github event: schedule
+[INFO] Load branch configuration (done) | time=2ms
+[INFO] Load quality profiles
+[INFO] Load quality profiles (done) | time=154ms
+[INFO] Load active rules
+[INFO] Load active rules (done) | time=3366ms
+[INFO] Organization key: thebusybiscuit-github
+[INFO] Indexing files...
+[INFO] Project configuration:
+[INFO] 4 files indexed
+[INFO] 0 files ignored because of scm ignore settings
+[INFO] Quality profile for java: Additional Checks
+[INFO] Quality profile for xml: Sonar way
+[INFO] ------------- Run sensors on module DyedBackpacks
+[INFO] Load metrics repository
+[INFO] Load metrics repository (done) | time=107ms
+[INFO] Sensor JavaSquidSensor [java]
+[INFO] Configured Java source version (sonar.java.source): 8
+[INFO] JavaClasspath initialization
+[INFO] JavaClasspath initialization (done) | time=9ms
+[INFO] JavaTestClasspath initialization
+[INFO] JavaTestClasspath initialization (done) | time=0ms
+[INFO] Java Main Files AST scan
+[INFO] 3 source files to be analyzed
+[INFO] Load project repositories
+[INFO] Load project repositories (done) | time=143ms
+Status ERROR: org.eclipse.jdt.core code=4 Could not retrieve declared methods java.lang.NullPointerException
+Status ERROR: org.eclipse.jdt.core code=4 Could not retrieve declared methods java.lang.NullPointerException
+[INFO] 3/3 source files have been analyzed
+[INFO] Java Main Files AST scan (done) | time=2142ms
+[INFO] Java Test Files AST scan
+[INFO] 0 source files to be analyzed
+[INFO] Java Test Files AST scan (done) | time=5ms
+[INFO] Sensor JavaSquidSensor [java] (done) | time=2295ms
+[INFO] Sensor SonarCSS Rules [cssfamily]
+[INFO] No CSS, PHP, HTML or VueJS files are found in the project. CSS analysis is skipped.
+[INFO] Sensor SonarCSS Rules [cssfamily] (done) | time=1ms
+[INFO] Sensor SurefireSensor [java]
+[INFO] parsing [/home/runner/work/builds/builds/TheBusyBiscuit/DyedBackpacks/master/files/target/surefire-reports]
+[INFO] Sensor SurefireSensor [java] (done) | time=2ms
+[INFO] Sensor JavaXmlSensor [java]
+[INFO] 0/0 source files have been analyzed
+[INFO] 1 source files to be analyzed
+[INFO] Sensor JavaXmlSensor [java] (done) | time=135ms
+[INFO] Sensor HTML [web]
+[INFO] 1/1 source files have been analyzed
+[INFO] Sensor HTML [web] (done) | time=264ms
+[INFO] Sensor XML Sensor [xml]
+[INFO] 1 source files to be analyzed
+[INFO] Sensor XML Sensor [xml] (done) | time=140ms
+[INFO] Sensor JaCoCo XML Report Importer [jacoco]
+[INFO] 1/1 source files have been analyzed
+[INFO] Sensor JaCoCo XML Report Importer [jacoco] (done) | time=3ms
+[INFO] Sensor JavaSecuritySensor [security]
+[INFO] Reading type hierarchy from: /home/runner/work/builds/builds/TheBusyBiscuit/DyedBackpacks/master/files/target/sonar/ucfg2/java
+[INFO] Read 41 type definitions
+[INFO] Reading UCFGs from: /home/runner/work/builds/builds/TheBusyBiscuit/DyedBackpacks/master/files/target/sonar/ucfg2/java
+[INFO] 11:12:40.44 Building Type propagation graph
+[INFO] 11:12:40.447 Running Tarjan on 48 nodes
+[INFO] 11:12:40.45 Tarjan found 48 components
+[INFO] 11:12:40.456 Variable type analysis: done
+[INFO] 11:12:40.46 Building Type propagation graph
+[INFO] 11:12:40.462 Running Tarjan on 48 nodes
+[INFO] 11:12:40.462 Tarjan found 48 components
+[INFO] 11:12:40.463 Variable type analysis: done
+[INFO] Analyzing 7 ucfgs to detect vulnerabilities.
+[INFO] All rules entrypoints : 0 Retained UCFGs : 0
+[INFO] rule: S5131, entrypoints: 0
+[INFO] rule: S5131 done
+[INFO] rule: S3649, entrypoints: 0
+[INFO] rule: S3649 done
+[INFO] rule: S2076, entrypoints: 0
+[INFO] rule: S2076 done
+[INFO] rule: S2091, entrypoints: 0
+[INFO] rule: S2091 done
+[INFO] rule: S2078, entrypoints: 0
+[INFO] rule: S2078 done
+[INFO] rule: S2631, entrypoints: 0
+[INFO] rule: S2631 done
+[INFO] rule: S5135, entrypoints: 0
+[INFO] rule: S5135 done
+[INFO] rule: S2083, entrypoints: 0
+[INFO] rule: S2083 done
+[INFO] rule: S5167, entrypoints: 0
+[INFO] rule: S5167 done
+[INFO] rule: S5144, entrypoints: 0
+[INFO] rule: S5144 done
+[INFO] rule: S5145, entrypoints: 0
+[INFO] rule: S5145 done
+[INFO] rule: S5146, entrypoints: 0
+[INFO] rule: S5146 done
+[INFO] rule: S5334, entrypoints: 0
+[INFO] rule: S5334 done
+[INFO] Sensor JavaSecuritySensor [security] (done) | time=279ms
+[INFO] Sensor CSharpSecuritySensor [security]
+[INFO] Reading type hierarchy from: /home/runner/work/builds/builds/TheBusyBiscuit/DyedBackpacks/master/files/target/ucfg_cs2
+[INFO] Read 0 type definitions
+[INFO] Reading UCFGs from: /home/runner/work/builds/builds/TheBusyBiscuit/DyedBackpacks/master/files/target/ucfg_cs2
+[INFO] No UCFGs have been included for analysis.
+[INFO] Sensor CSharpSecuritySensor [security] (done) | time=2ms
+[INFO] Sensor PhpSecuritySensor [security]
+[INFO] Reading type hierarchy from: /home/runner/work/builds/builds/TheBusyBiscuit/DyedBackpacks/master/files/target/sonar/ucfg2/php
+[INFO] Read 0 type definitions
+[INFO] Reading UCFGs from: /home/runner/work/builds/builds/TheBusyBiscuit/DyedBackpacks/master/files/target/sonar/ucfg2/php
+[INFO] No UCFGs have been included for analysis.
+[INFO] Sensor PhpSecuritySensor [security] (done) | time=3ms
+[INFO] Sensor PythonSecuritySensor [security]
+[INFO] Reading type hierarchy from: /home/runner/work/builds/builds/TheBusyBiscuit/DyedBackpacks/master/files/target/sonar/ucfg2/python
+[INFO] Read 0 type definitions
+[INFO] Reading UCFGs from: /home/runner/work/builds/builds/TheBusyBiscuit/DyedBackpacks/master/files/target/sonar/ucfg2/python
+[INFO] No UCFGs have been included for analysis.
+[INFO] Sensor PythonSecuritySensor [security] (done) | time=2ms
+[INFO] ------------- Run sensors on project
+[INFO] Sensor Zero Coverage Sensor
+[INFO] Sensor Zero Coverage Sensor (done) | time=12ms
+[INFO] Sensor Java CPD Block Indexer
+[INFO] Sensor Java CPD Block Indexer (done) | time=23ms
+[INFO] SCM provider for this project is: git
+[INFO] 2 files to be analyzed
+[INFO] 1/2 files analyzed
+[WARNING] Missing blame information for the following files:
+[WARNING]   * pom.xml
+[WARNING] This may lead to missing/broken features in SonarCloud
+[INFO] 1 file had no CPD blocks
+[INFO] Calculating CPD for 2 files
+[INFO] CPD calculation finished
+[INFO] Analysis report generated in 67ms, dir size=160 KB
+[INFO] Analysis report compressed in 20ms, zip size=35 KB
+[INFO] Analysis report uploaded in 198ms
+[INFO] ANALYSIS SUCCESSFUL, you can browse https://sonarcloud.io/dashboard?id=TheBusyBiscuit_DyedBackpacks
+[INFO] Note that you will be able to access the updated dashboard once the server has processed the submitted analysis report
+[INFO] More about the report processing at https://sonarcloud.io/api/ce/task?id=AXAppshWKvK4wtS2zTgv
+[INFO] Analysis total time: 11.968 s
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  16.084 s
+[INFO] Finished at: 2020-02-09T11:12:41Z
+[INFO] ------------------------------------------------------------------------
