@@ -1,0 +1,35 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -----------------------< me.john000708:Barrels >------------------------
+[INFO] Building Barrels DEV - 11 (git abecba9c)
+[INFO] --------------------------------[ jar ]---------------------------------
+[WARNING] The POM for com.github.TheBusyBiscuit:Slimefun4:jar:7dc349a2bc is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ Barrels ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ Barrels ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ Barrels ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 8 source files to /home/runner/work/builds/builds/John000708/Barrels/master/files/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ Barrels ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/runner/work/builds/builds/John000708/Barrels/master/files/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ Barrels ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ Barrels ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ Barrels ---
+[INFO] Building jar: /home/runner/work/builds/builds/John000708/Barrels/master/files/target/Barrels-11.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  2.155 s
+[INFO] Finished at: 2020-02-21T17:19:26Z
+[INFO] ------------------------------------------------------------------------
