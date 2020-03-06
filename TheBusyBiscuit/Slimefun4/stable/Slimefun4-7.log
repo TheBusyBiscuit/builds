@@ -1,0 +1,71 @@
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for me.mrCookieSlime:Slimefun:jar:RC - 7 (git 82c6bb9b)
+[WARNING] 'dependencies.dependency.systemPath' for me.minebuilders:clearlag-core:jar should not point at files within the project directory, ${project.basedir}/lib/Clearlag.jar will be unresolvable by dependent projects @ line 1, column 3375
+[WARNING] 'dependencies.dependency.systemPath' for me.mrCookieSlime:EmeraldEnchants:jar should not point at files within the project directory, ${project.basedir}/lib/EmeraldEnchants v2.0.jar will be unresolvable by dependent projects @ line 1, column 3578
+[WARNING] 'dependencies.dependency.systemPath' for me.mrCookieSlime:ExoticGarden:jar should not point at files within the project directory, ${project.basedir}/lib/ExoticGarden v1.2.0.jar will be unresolvable by dependent projects @ line 1, column 3792
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this erason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] 
+[INFO] ---------------------< me.mrCookieSlime:Slimefun >----------------------
+[INFO] Building Slimefun RC - 7 (git 82c6bb9b)
+[INFO] --------------------------------[ jar ]---------------------------------
+[WARNING] The POM for com.github.thebusybiscuit:CS-CoreLib2:jar:0.9.2 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ Slimefun ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ Slimefun ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 79 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ Slimefun ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 347 source files to /home/runner/work/builds/builds/TheBusyBiscuit/Slimefun4/stable/files/target/classes
+[WARNING] /home/runner/work/builds/builds/TheBusyBiscuit/Slimefun4/stable/files/src/main/java/me/mrCookieSlime/Slimefun/Objects/handlers/BlockTicker.java: Some input files use or override a deprecated API.
+[WARNING] /home/runner/work/builds/builds/TheBusyBiscuit/Slimefun4/stable/files/src/main/java/me/mrCookieSlime/Slimefun/Objects/handlers/BlockTicker.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ Slimefun ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/runner/work/builds/builds/TheBusyBiscuit/Slimefun4/stable/files/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ Slimefun ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ Slimefun ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ Slimefun ---
+[INFO] Building jar: /home/runner/work/builds/builds/TheBusyBiscuit/Slimefun4/stable/files/target/Slimefun4-7.jar
+[INFO] 
+[INFO] >>> maven-source-plugin:3.2.1:jar (attach-sources) > generate-sources @ Slimefun >>>
+[INFO] 
+[INFO] <<< maven-source-plugin:3.2.1:jar (attach-sources) < generate-sources @ Slimefun <<<
+[INFO] 
+[INFO] 
+[INFO] --- maven-source-plugin:3.2.1:jar (attach-sources) @ Slimefun ---
+[INFO] Building jar: /home/runner/work/builds/builds/TheBusyBiscuit/Slimefun4/stable/files/target/Slimefun4-7-sources.jar
+[INFO] 
+[INFO] --- maven-shade-plugin:3.2.2:shade (default) @ Slimefun ---
+[INFO] Including com.github.thebusybiscuit:CS-CoreLib2:jar:0.9.2 in the shaded jar.
+[INFO] Including org.bstats:bstats-bukkit:jar:1.7 in the shaded jar.
+[WARNING] CS-CoreLib2-0.9.2.jar, Slimefun4-7.jar, bstats-bukkit-1.7.jar define 1 overlapping resources: 
+[WARNING]   - META-INF/MANIFEST.MF
+[WARNING] maven-shade-plugin has detected that some class files are
+[WARNING] present in two or more JARs. When this happens, only one
+[WARNING] single version of the class is copied to the uber jar.
+[WARNING] Usually this is not harmful and you can skip these warnings,
+[WARNING] otherwise try to manually exclude artifacts based on
+[WARNING] mvn dependency:tree -Ddetail=true and the above output.
+[WARNING] See http://maven.apache.org/plugins/maven-shade-plugin/
+[INFO] Replacing original artifact with shaded artifact.
+[INFO] Replacing /home/runner/work/builds/builds/TheBusyBiscuit/Slimefun4/stable/files/target/Slimefun4-7.jar with /home/runner/work/builds/builds/TheBusyBiscuit/Slimefun4/stable/files/target/Slimefun-RC - 7 (git 82c6bb9b)-shaded.jar
+[INFO] Dependency-reduced POM written at: /home/runner/work/builds/builds/TheBusyBiscuit/Slimefun4/stable/files/dependency-reduced-pom.xml
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  7.689 s
+[INFO] Finished at: 2020-03-06T10:51:47Z
+[INFO] ------------------------------------------------------------------------
