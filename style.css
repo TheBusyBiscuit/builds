@@ -318,3 +318,9 @@ a.build_child {
 .info_table_middle {
 	width: 30%;
 }
+
+#download_section {
+	border: 3px solid rgb(95, 95, 95) !important;
+	background-color: rgb(111, 255, 111) !important;
+	font-weight: bold;	
+}
