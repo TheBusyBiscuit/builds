@@ -1,0 +1,209 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------------< io.github.thebusybiscuit:ExtraHeads >-----------------
+[INFO] Building ExtraHeads DEV - 13 (git 88072fdf)
+[INFO] --------------------------------[ jar ]---------------------------------
+[WARNING] The POM for com.github.TheBusyBiscuit:Slimefun4:jar:83685533f9 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ ExtraHeads ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ ExtraHeads ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ ExtraHeads ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 3 source files to /home/runner/work/builds/builds/TheBusyBiscuit/ExtraHeads/master/files/target/classes
+[WARNING] /home/runner/work/builds/builds/TheBusyBiscuit/ExtraHeads/master/files/src/main/java/io/github/thebusybiscuit/extraheads/ExtraHeads.java: /home/runner/work/builds/builds/TheBusyBiscuit/ExtraHeads/master/files/src/main/java/io/github/thebusybiscuit/extraheads/ExtraHeads.java uses or overrides a deprecated API.
+[WARNING] /home/runner/work/builds/builds/TheBusyBiscuit/ExtraHeads/master/files/src/main/java/io/github/thebusybiscuit/extraheads/ExtraHeads.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ ExtraHeads ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/runner/work/builds/builds/TheBusyBiscuit/ExtraHeads/master/files/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ ExtraHeads ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ ExtraHeads ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ ExtraHeads ---
+[INFO] Building jar: /home/runner/work/builds/builds/TheBusyBiscuit/ExtraHeads/master/files/target/ExtraHeads-13.jar
+[INFO] 
+[INFO] ----------------< io.github.thebusybiscuit:ExtraHeads >-----------------
+[INFO] Building ExtraHeads DEV - 13 (git 88072fdf)
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- sonar-maven-plugin:3.7.0.1746:sonar (default-cli) @ ExtraHeads ---
+[INFO] User cache: /home/runner/.sonar/cache
+[INFO] SonarQube version: 8.0.0
+[INFO] Default locale: "en", source code encoding: "UTF-8"
+[INFO] Load global settings
+[INFO] Load global settings (done) | time=727ms
+[INFO] Server id: 1BD809FA-AWHW8ct9-T_TB3XqouNu
+[INFO] User cache: /home/runner/.sonar/cache
+[INFO] Load/download plugins
+[INFO] Load plugins index
+[INFO] Load plugins index (done) | time=133ms
+[INFO] Load/download plugins (done) | time=212ms
+[INFO] Loaded core extensions: developer-scanner
+[INFO] Process project properties
+[INFO] Execute project builders
+[INFO] Execute project builders (done) | time=9ms
+[INFO] Project key: TheBusyBiscuit_ExtraHeads
+[INFO] Base dir: /home/runner/work/builds/builds/TheBusyBiscuit/ExtraHeads/master/files
+[INFO] Working dir: /home/runner/work/builds/builds/TheBusyBiscuit/ExtraHeads/master/files/target/sonar
+[INFO] Load project settings for component key: 'TheBusyBiscuit_ExtraHeads'
+[INFO] Load project settings for component key: 'TheBusyBiscuit_ExtraHeads' (done) | time=177ms
+[INFO] Found an active CI vendor: 'Github Actions'
+[INFO] Load project branches
+[INFO] Load project branches (done) | time=107ms
+[INFO] Check ALM binding of project 'TheBusyBiscuit_ExtraHeads'
+[INFO] Detected project binding: NOT_BOUND
+[INFO] Check ALM binding of project 'TheBusyBiscuit_ExtraHeads' (done) | time=99ms
+[INFO] Load project pull requests
+[NIFO] Load project pull requests (done) | time=101ms
+[INFO] Load branch configuration
+[INFO] Github event: schedule
+[INFO] Load branch configuration (done) | time=7ms
+[INFO] Load quality profiles
+[INFO] Load quality profiles (done) | time=160ms
+[INFO] Load active rules
+[INFO] Load active rules (done) | time=3456ms
+[INFO] Organization key: thebusybiscuit-github
+[INFO] Indexing files...
+[INFO] Project configuration:
+[INFO] 4 files indexed
+[INFO] 0 files ignored because of scm ignore settings
+[INFO] Quality profile for java: Additional Checks
+[INFO] Quality profile for xml: Sonar way
+[INFO] ------------- Run sensors on module ExtraHeads
+[INFO] Load metrics repository
+[INFO] Load metrics repository (done) | time=107ms
+[INFO] Sensor JavaSquidSensor [java]
+[INFO] Configured Java source version (sonar.java.source): 8
+[INFO] JavaClasspath initialization
+[INFO] JavaClasspath initialization (done) | time=12ms
+[INFO] JavaTestClasspath initialization
+[INFO] JavaTestClasspath initialization (done) | time=0ms
+[INFO] Java Main Files AST scan
+[INFO] 3 source files to be analyzed
+[INFO] Load project repositories
+[INFO] Load project repositories (done) | time=119ms
+Status ERROR: org.eclipse.jdt.core code=4 Could not retrieve declared methods java.lang.NullPointerException
+Status ERROR: org.eclipse.jdt.core code=4 Could not retrieve declared methods java.lang.NullPointerException
+Status ERROR: org.eclipse.jdt.core code=4 Could not retrieve declared methods java.lang.NullPointerException
+Status ERROR: org.eclipse.jdt.core code=4 Could not retrieve declared methods java.lang.NullPointerException
+Status ERROR: org.eclipse.jdt.core code=4 Could not retrieve declared methods java.lang.NullPointerException
+[INFO] 3/3 source files have been analyzed
+[INFO] Java Main Files AST scan (done) | time=2548ms
+[INFO] Java Test Files AST scan
+[INFO] 0 source files to be analyzed
+[INFO] Java Test Files AST scan (done) | time=2ms
+[INFO] Sensor JavaSquidSensor [java] (done) | time=2722ms
+[INFO] Sensor SonarCSS Rules [cssfamily]
+[INFO] No CSS, PHP, HTML or VueJS files are found in the project. CSS analysis is skipped.
+[INFO] Sensor SonarCSS Rules [cssfamily] (done) | time=1ms
+[INFO] Sensor SurefireSensor [java]
+[INFO] parsing [/home/runner/work/builds/builds/TheBusyBiscuit/ExtraHeads/master/files/target/surefire-reports]
+[INFO] Sensor SurefireSensor [java] (done) | time=2ms
+[INFO] Sensor JavaXmlSensor [java]
+[INFO] 0/0 source files have been analyzed
+[INFO] 1 source files to be analyzed
+[INFO] Sensor JavaXmlSensor [java] (done) | time=151ms
+[INFO] 1/1 source files have been analyzed
+[INFO] Sensor HTML [web]
+[INFO] Sensor HTML [web] (done) | time=3ms
+[INFO] Sensor XML Sensor [xml]
+[INFO] 1 source files to be analyzed
+[INFO] Sensor XML Sensor [xml] (done) | time=108ms
+[INFO] 1/1 source files have been analyzed
+[INFO] Sensor JaCoCo XML Report Importer [jacoco]
+[INFO] Sensor JaCoCo XML Report Importer [jacoco] (done) | time=4ms
+[INFO] Sensor ThymeLeaf template sensor [securityjavafrontend]
+[INFO] Sensor ThymeLeaf template sensor [securityjavafrontend] (done) | time=2ms
+[INFO] Sensor JavaSecuritySensor [security]
+[INFO] Reading type hierarchy from: /home/runner/work/builds/builds/TheBusyBiscuit/ExtraHeads/master/files/target/sonar/ucfg2/java
+[INFO] Read 71 type definitions
+[INFO] Reading UCFGs from: /home/runner/work/builds/builds/TheBusyBiscuit/ExtraHeads/master/files/target/sonar/ucfg2/java
+[INFO] 18:35:35.919 Building Type propagation graph
+[INFO] 18:35:35.93 Running Tarjan on 100 nodes
+[INFO] 18:35:35.932 Tarjan found 100 components
+[INFO] 18:35:35.935 Variable type analysis: done
+[INFO] 18:35:35.937 Building Type propagation graph
+[INFO] 18:35:35.946 Running Tarjan on 100 nodes
+[INFO] 18:35:35.947 Tarjan found 100 components
+[INFO] 18:35:35.948 Variable type analysis: done
+[INFO] Analyzing 11 ucfgs to detect vulnerabilities.
+[INFO] All rules entrypoints : 0 Retained UCFGs : 0
+[INFO] rule: S5131, entrypoints: 0
+[INFO] rule: S5131 done
+[INFO] rule: S3649, entrypoints: 0
+[INFO] rule: S3649 done
+[INFO] rule: S2076, entrypoints: 0
+[INFO] rule: S2076 done
+[INFO] rule: S2091, entrypoints: 0
+[INFO] rule: S2091 done
+[INFO] rule: S2078, entrypoints: 0
+[INFO] rule: S2078 done
+[INFO] rule: S2631, entrypoints: 0
+[INFO] rule: S2631 done
+[INFO] rule: S5135, entrypoints: 0
+[INFO] rule: S5135 done
+[INFO] rule: S2083, entrypoints: 0
+[INFO] rule: S2083 done
+[INFO] rule: S5167, entrypoints: 0
+[INFO] rule: S5167 done
+[INFO] rule: S5144, entrypoints: 0
+[INFO] rule: S5144 done
+[INFO] rule: S5145, entrypoints: 0
+[INFO] rule: S5145 done
+[INFO] rule: S5146, entrypoints: 0
+[INFO] rule: S5146 done
+[INFO] rule: S5334, entrypoints: 0
+[INFO] rule: S5334 done
+[INFO] Sensor JavaSecuritySensor [security] (done) | time=351ms
+[INFO] Sensor CSharpSecuritySensor [security]
+[INFO] Reading type hierarchy from: /home/runner/work/builds/builds/TheBusyBiscuit/ExtraHeads/master/files/target/ucfg_cs2
+[INFO] Read 0 type definitions
+[INFO] Reading UCFGs from: /home/runner/work/builds/builds/TheBusyBiscuit/ExtraHeads/master/files/target/ucfg_cs2
+[INFO] No UCFGs have been included for analysis.
+[INFO] Sensor CSharpSecuritySensor [security] (done) | time=4ms
+[INFO] Sensor PhpSecuritySensor [security]
+[INFO] Reading type hierarchy from: /home/runner/work/builds/builds/TheBusyBiscuit/ExtraHeads/master/files/target/sonar/ucfg2/php
+[INFO] Read 0 type definitions
+[INFO] Reading UCFGs from: /home/runner/work/builds/builds/TheBusyBiscuit/ExtraHeads/master/files/target/sonar/ucfg2/php
+[INFO] No UCFGs have been included for analysis.
+[INFO] Sensor PhpSecuritySensor [security] (done) | time=3ms
+[INFO] Sensor PythonSecuritySensor [security]
+[INFO] Reading type hierarchy from: /home/runner/work/builds/builds/TheBusyBiscuit/ExtraHeads/master/files/target/sonar/ucfg2/python
+[INFO] Read 0 type definitions
+[INFO] Reading UCFGs from: /home/runner/work/builds/builds/TheBusyBiscuit/ExtraHeads/master/files/target/sonar/ucfg2/python
+[INFO] No UCFGs have been included for analysis.
+[INFO] Sensor PythonSecuritySensor [security] (done) | time=2ms
+[INFO] ------------- Run sensors on project
+[INFO] Sensor Zero Coverage Sensor
+[INFO] Sensor Zero Coverage Sensor (done) | time=12ms
+[INFO] Sensor Java CPD Block Indexer
+[INFO] Sensor Java CPD Block Indexer (done) | time=25ms
+[INFO] SCM Publisher SCM provider for this project is: git
+[INFO] SCM Publisher 4 source files to be analyzed
+[INFO] SCM Publisher 3/4 source files have been analyzed (done) | time=143ms
+[WARNING] Missing blame information for the following files:
+[WARNING]   * pom.xml
+[WARNING] This may lead to missing/broken features in SonarCloud
+[INFO] CPD Executor Calculating CPD for 3 files
+[INFO] CPD Executor CPD calculation finished (done) | time=7ms
+[INFO] Analysis report generated in 85ms, dir size=172 KB
+[INFO] Analysis report compressed in 24ms, zip size=41 KB
+[INFO] Analysis report uploaded in 287ms
+[INFO] ANALYSIS SUCCESSFUL, you can find the results at: https://sonarcloud.io/dashboard?id=TheBusyBiscuit_ExtraHeads
+[INFO] Note that you will be able to access the updated dashboard once the server has processed the submitted analysis report
+[INFO] More about the report processing at https://sonarcloud.io/api/ce/task?id=AXEnk-e_f-jtfSi2Vy4e
+[INFO] Analysis total time: 11.977 s
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  16.398 s
+[INFO] Finished at: 2020-03-29T18:35:36Z
+[INFO] ------------------------------------------------------------------------
