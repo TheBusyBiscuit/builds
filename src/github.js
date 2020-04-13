@@ -102,6 +102,7 @@ function getLicense(job, cfg, logging) {
             reject("Invalid Job");
             return;
         }
+
         log(logging, "-> Fetching License...");
         getJSON(job, cfg, logging, "license", resolve, reject);
     });
@@ -120,6 +121,7 @@ function getTags(job, cfg, logging) {
             reject("Invalid Job");
             return;
         }
+
         log(logging, "-> Fetching Tags...");
         getJSON(job, cfg, logging, "tags", resolve, reject);
     });
@@ -134,7 +136,13 @@ function getJSON(job, cfg, logging, endpoint, resolve, reject) {
 
     request(url).then((json) => {
         log(logging, "-> " + endpoint + ": 200 - OK");
-        resolve(json);
+
+        if (json.documentation_url) {
+            reject("Missing License file");
+        }
+        else {
+            resolve(json);
+        }
     }, reject);
 }
 
@@ -312,11 +320,11 @@ function getURL(job, cfg, endpoint) {
             "User-Agent": "The Busy Biscuit's Repository Compiler",
             "Time-Zone": "UTC"
     };
-	
+
     if (cfg.getToken()) {
         headers.authorization = "token " + cfg.getToken();
     }
-	
+
     return {
         url: url,
         headers: headers
