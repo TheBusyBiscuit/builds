@@ -33,6 +33,6 @@
     "mocha": "7.1.1",
     "mocha-multi-reporters": "1.1.7",
     "mocha-sonarqube-reporter": "1.0.1",
-    "nyc": "15.0.0"
+    "nyc": "15.0.1"
   }
 }
