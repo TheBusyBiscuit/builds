@@ -80,10 +80,10 @@ svg {
 .current_info {
     border: 2px rgb(200, 200, 200) solid;
     margin: auto;
-    width: 60%;
+    width: 75%;
 }
 .current_commit {
-    border: 2px rgb(200, 200, 200) solid;
+    border: 2px rgb(230, 230, 230) solid;
     display: table;
     margin: auto;
     text-align: center;
@@ -167,7 +167,7 @@ tr:nth-child(odd) {
     float: left;
     height: 100%;
     margin-left: 1%;
-    overflow-y: scroll;
+    overflow-y: auto;
     position: relative;
     width: 30.5%;
 }
@@ -323,4 +323,8 @@ a.build_child {
 	border: 3px solid rgb(95, 95, 95) !important;
 	background-color: rgb(111, 255, 111) !important;
 	font-weight: bold;	
+}
+
+#dependency_section {
+	margin-bottom: 20px !important;
 }
