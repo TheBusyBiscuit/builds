@@ -30,6 +30,7 @@
 		},
 		"dependencies": {
 			"Minecraft Version(s)": {
+				"490": "1.13.x, 1.14.x, 1.15.x",
 				"366": "1.14.x, 1.15.x",
 				"96": "1.14.x",
 				"53": "1.13.x",
@@ -57,6 +58,7 @@
 		},
 		"dependencies": {
 			"Minecraft Version(s)": {
+				"11": "1.13.x, 1.14.x, 1.15.x",
 				"4": "1.14.x, 1.15.x",
 				"1": "1.14.x"
 			},
@@ -586,6 +588,25 @@
 			},
 			"Slimefun Version": {
 				"1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/Slimefun4/master/#417\">dev #417</a>"
+			}
+		}
+	},
+	"J3fftw1/LiteXpansion:master": {
+		"sonar": {
+			"enabled": false
+		},
+		"options": {
+			"prefix": "DEV"
+		},
+		"dependencies": {
+			"Minecraft Version(s)": {
+				"1": "1.14.x, 1.15.x"
+			},
+			"CS-CoreLib Version": {
+				"1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/CS-CoreLib/master/#79\">dev #79</a>"
+			},
+			"Slimefun Version": {
+				"1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/Slimefun4/master/#489\">dev #489</a>"
 			}
 		}
 	},
