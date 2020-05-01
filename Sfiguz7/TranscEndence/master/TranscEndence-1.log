@@ -1,0 +1,60 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------------------< me.sfiguz7:TranscEndence >----------------------
+[INFO] Building TranscEndence DEV - 1 (git ba7db1cd)
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/github/TheBusyBiscuit/CS-CoreLib/8081bb4fe4/CS-CoreLib-8081bb4fe4.pom
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/github/TheBusyBiscuit/CS-CoreLib/8081bb4fe4/CS-CoreLib-8081bb4fe4.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/github/TheBusyBiscuit/CS-CoreLib/8081bb4fe4/CS-CoreLib-8081bb4fe4.pom
+[INFO] Downloaded from jitpack.io: https://jitpack.io/com/github/TheBusyBiscuit/CS-CoreLib/8081bb4fe4/CS-CoreLib-8081bb4fe4.pom (4.8 kB at 28 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/github/TheBusyBiscuit/Slimefun4/master-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/github/TheBusyBiscuit/Slimefun4/master-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/github/TheBusyBiscuit/Slimefun4/master-SNAPSHOT/maven-metadata.xml
+[WARNING] Checksum validation failed, expected 95bae590bbf5b1e7bed9a7f7b85b77c82668550f but is 0d4dbb0dcc4e962c2a0f4317e263ec14c2e40bc6 from jitpack.io for https://jitpack.io/com/github/TheBusyBiscuit/Slimefun4/master-SNAPSHOT/maven-metadata.xml
+[WARNING] Could not validate integrity of download from https://jitpack.io/com/github/TheBusyBiscuit/Slimefun4/master-SNAPSHOT/maven-metadata.xml: Checksum validation failed, expected 95bae590bbf5b1e7bed9a7f7b85b77c82668550f but is e88cb4f0fb8768f8bfb53bee88087e50b9e19ee6
+[WARNING] Checksum validation failed, expected 95bae590bbf5b1e7bed9a7f7b85b77c82668550f but is e88cb4f0fb8768f8bfb53bee88087e50b9e19ee6 from jitpack.io for https://jitpack.io/com/github/TheBusyBiscuit/Slimefun4/master-SNAPSHOT/maven-metadata.xml
+[INFO] itpack.io: https://jitpack.io/com/github/TheBusyBiscuit/Slimefun4/master-SNAPSHOT/maven-metadata.xml (402 B at 3 B/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/github/TheBusyBiscuit/Slimefun4/master-RC-6-g2a595dd-637/SlimefunDownloaded from j4-master-RC-6-g2a595dd-637.pom
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/github/TheBusyBiscuit/Slimefun4/master-RC-6-g2a595dd-637/Slimefun4-master-RC-6-g2a595dd-637.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/github/TheBusyBiscuit/Slimefun4/master-RC-6-g2a595dd-637/Slimefun4-master-RC-6-g2a595dd-637.pom
+[INFO] Downloaded from jitpack.io: https://jitpack.io/com/github/TheBusyBiscuit/Slimefun4/master-RC-6-g2a595dd-637/Slimefun4-master-RC-6-g2a595dd-637.pom (7.7 kB at 27 kB/s)
+[WARNING] The POM for com.github.TheBusyBiscuit:Slimefun4:jar:master-RC-6-g2a595dd-637 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/github/TheBusyBiscuit/CS-CoreLib/8081bb4fe4/CS-CoreLib-8081bb4fe4.jar
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/github/TheBusyBiscuit/CS-CoreLib/8081bb4fe4/CS-CoreLib-8081bb4fe4.jar
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/github/TheBusyBiscuit/CS-Corbb4fe4/CS-CoreLib-8081bb4fe4.jar
+eLib/8081[INFO] Downloading from jitpack.io: https://jitpack.io/com/github/TheBusyBiscuit/Slimefun4/master-RC-6-g2a595dd-637/Slimefun4-master-RC-6-g2a595dd-637.jar
+[INFO] Downloaded fro1bb4fe4.jar (201 kB at 2.1 MB/s)
+m jitpack.io: https://jitpack.io/com/github/TheBusyBiscuit/CS-CoreLib/8081bb4fe4/CS-CoreLib-808[INFO] Downloaded from jitpack.io: https://jitpack.io/com/github/TheBusyBiscuit/Slimefun4/master-RC-6-g2a595dd-637/Slimefun4-master-RC-6-g2a595dd-637.jar (1.6 MB at 4.1 MB/s)
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ TranscEndence ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ TranscEndence ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ TranscEndence ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 24 source files to /home/runner/work/builds/builds/Sfiguz7/TranscEndence/master/files/target/classes
+[WARNING] /home/runner/work/builds/builds/Sfiguz7/TranscEndence/master/files/src/main/java/me/sfiguz7/transcendence/implementation/items/machines/QuirpOscillator.java: Some input files use or override a deprecated API.
+[WARNING] /home/runner/work/builds/builds/Sfiguz7/TranscEndence/master/files/src/main/java/me/sfiguz7/transcendence/implementation/items/machines/QuirpOscillator.java: Recompile with -Xlint:deprecation for details.
+[WARNING] /home/runner/work/builds/builds/Sfiguz7/TranscEndence/master/files/src/main/java/me/sfiguz7/transcendence/implementation/items/machines/ZotOverloader.java: /home/runner/work/builds/builds/Sfiguz7/TranscEndence/master/files/src/main/java/me/sfiguz7/transcendence/implementation/items/machines/ZotOverloader.java uses unchecked or unsafe operations.
+[WARNING] /home/runner/work/builds/builds/Sfiguz7/TranscEndence/master/files/src/main/java/me/sfiguz7/transcendence/implementation/items/machines/ZotOverloader.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ TranscEndence ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/runner/work/builds/builds/Sfiguz7/TranscEndence/master/files/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ TranscEndence ---
+[INFO] No sources to complie
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ TranscEndence ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ TranscEndence ---
+[INFO] Building jar: /home/runner/work/builds/builds/Sfiguz7/TranscEndence/master/files/target/TranscEndence-1.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  02:14 min
+[INFO] Finished at: 2020-05-01T17:36:44Z
+[INFO] ------------------------------------------------------------------------
