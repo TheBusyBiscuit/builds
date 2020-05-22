@@ -25,7 +25,7 @@
     "lodash": "^4.17.14",
     "request": "^2.88.0",
     "request-promise-native": "^1.0.7",
-    "xml-library": "0.1.0"
+    "xml-library": "0.2.0"
   },
   "devDependencies": {
     "chai": "4.2.0",
