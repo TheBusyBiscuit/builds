@@ -1,0 +1,205 @@
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for io.github.thebusybiscuit:Slimefun:jar:RC - 12 (git da707a93)
+[WARNING] 'dependencies.dependency.systemPath' for me.minebuilders:clearlag-core:jar should not point at files within the project directory, ${project.basedir}/lib/Clearlag.jar will be unresolvable by dependent projects @ line 1, column 7455
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] 
+[INFO] -----------------< io.github.thebusybiscuit:Slimefun >------------------
+[INFO] Building Slimefun RC - 12 (git da707a93)
+[INFO] --------------------------------[ jar ]---------------------------------
+[WARNING] The POM for com.github.thebusybiscuit:CS-CoreLib2:jar:0.20.4 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ Slimefun ---
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.5:prepare-agent (prepare) @ Slimefun ---
+[INFO] argLine set to -javaagent:/home/runner/.m2/repository/org/jacoco/org.jacoco.agent/0.8.5/org.jacoco.agent-0.8.5-runtime.jar=destfile=/home/runner/work/builds/builds/TheBusyBiscuit/Slimefun4/stable/files/target/jacoco.exec
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ Slimefun ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 111 resources
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ Slimefun ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 398 source files to /home/runner/work/builds/builds/TheBusyBiscuit/Slimefun4/stable/files/target/classes
+[INFO] /home/runner/work/builds/builds/TheBusyBiscuit/Slimefun4/stable/files/src/main/java/io/github/thebusybiscuit/slimefun4/implementation/items/cargo/TrashCan.java: Some input files use or override a deprecated API.
+[INFO] /home/runner/work/builds/builds/TheBusyBiscuit/Slimefun4/stable/files/src/main/java/io/github/thebusybiscuit/slimefun4/implementation/items/cargo/TrashCan.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ Slimefun ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/runner/work/builds/builds/TheBusyBiscuit/Slimefun4/stable/files/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ Slimefun ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 42 source files to /home/runner/work/builds/builds/TheBusyBiscuit/Slimefun4/stable/files/target/test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:3.0.0-M4:test (default-test) @ Slimefun ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running io.github.thebusybiscuit.slimefun4.tests.guide.TestGuideOpening
+[11:52:09 SEVERE]: [Slimefun] Failed to create AutoUpdater
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.803 s - in io.github.thebusybiscuit.slimefun4.tests.guide.TestGuideOpening
+[INFO] Running io.github.thebusybiscuit.slimefun4.tests.guide.TestChestSlimefunGuide
+[11:52:12 SEVERE]: [Slimefun] Failed to create AutoUpdater
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.077 s - in io.github.thebusybiscuit.slimefun4.tests.guide.TestChestSlimefunGuide
+[INFO] Running io.github.thebusybiscuit.slimefun4.tests.guide.TestBookSlimefunGuide
+[11:52:12 SEVERE]: [Slimefun] Failed to create AutoUpdater
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.035 s - in io.github.thebusybiscuit.slimefun4.tests.guide.TestBookSlimefunGuide
+[INFO] Running io.github.thebusybiscuit.slimefun4.tests.services.TestPermissionsService
+[11:52:12 SEVERE]: [Slimefun] Failed to create AutoUpdater
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.044 s - in io.github.thebusybiscuit.slimefun4.tests.services.TestPermissionsService
+[INFO] Running io.github.thebusybiscuit.slimefun4.tests.services.TestItemDataService
+[11:52:12 SEVERE]: [Slimefun] Failed to create AutoUpdater
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.033 s - in io.github.thebusybiscuit.slimefun4.tests.services.TestItemDataServic
+e[INFO] Running io.github.thebusybiscuit.slimefun4.tests.services.TestRecipeService
+[11:52:12 SEVERE]: [Slimefun] Failed to create AutoUpdater
+[11:52:12 INFO]: [Slimefun] Collecting Snapshots of all Recipes...
+[11:52:12 INFO]: [Slimefun] Found 0 Recipes!
+[11:52:12 INFO]: [Slimefun] Collecting Snapshots of all Recipes...
+[11:52:12 INFO]: [Slimefun] Found 1 Recipes!
+[11:52:12 INFO]: [Slimefun] Collecting Snapshots of all Recipes...
+[11:52:12 INFO]: [Slimefun] Found 2 Recipes!
+[11:52:12 INFO]: [Slimefun] Collecting Snapshots of all Recipes...
+[11:52:12 INFO]: [Slimefun] Found 3 Recipes!
+[11:52:12 INFO]: [Slimefun] Collecting Snapshots of all Recipes...
+[11:52:12 INFO]: [Slimefun] Found 4 Recipes!
+[11:52:12 INFO]: [Slimefun] Collecting Snapshots of all Recipes...
+[11:52:12 INFO]: [Slimefun] Found 5 Recipes!
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.083 s - in io.github.thebusybiscuit.slimefun4.tests.services.TestRecipeService
+[INFO] Running io.github.thebusybiscuit.slimefun4.tests.services.TestBlockDataService
+[11:52:12 SEVERE]: [Slimefun] Failed to create AutoUpdater
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.035 s - in io.github.thebusybiscuit.slimefun4.tests.services.TestBlockDataService
+[INFO] Running io.github.thebusybiscuit.slimefun4.tests.services.TestUpdaterService
+[11:52:12 SEVERE]: [Slimefun] Failed to create AutoUpdater
+[11:52:12 SEVERE]: [Slimefun] Failed to create AutoUpdater
+[11:52:12 SEVERE]: [Slimefun] Failed to create AutoUpdater
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.018 s - in io.github.thebusybiscuit.slimefun4.tests.services.TestUpdaterService
+[INFO] Running io.github.thebusybiscuit.slimefun4.tests.gps.TestWaypoints
+[11:52:12 SEVERE]: [Slimefun] Failed to create AutoUpdater
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.026 s - in io.github.thebusybiscuit.slimefun4.tests.gps.TestWaypoints
+[INFO] Running io.github.thebusybiscuit.slimefun4.tests.researches.TestResearchUnlocking
+[11:52:12 SEVERE]: [Slimefun] Failed to create AutoUpdater
+[11:52:12 SEVERE]: [Slimefun] Failed to create AutoUpdater
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.136 s - in io.github.thebusybiscuit.slimefun4.tests.researches.TestResearchUnlocking
+[INFO] Running io.github.thebusybiscuit.slimefun4.tests.researches.TestResearches
+[11:52:12 SEVERE]: [Slimefun] Failed to create AutoUpdater
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.034 s - in io.github.thebusybiscuit.slimefun4.tests.researches.TestResearches
+[INFO] Running io.github.thebusybiscuit.slimefun4.tests.researches.TestProfileResearches
+[11:52:12 SEVERE]: [Slimefun] Failed to create AutoUpdater
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.06 s - in io.github.thebusybiscuit.slimefun4.tests.researches.TestProfileResearches
+[INFO] Running io.github.thebusybiscuit.slimefun4.tests.researches.TestResearchSetup
+[11:52:12 SEVERE]: [Slimefun] Failed to create AutoUpdater
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.067 s - in io.github.thebusybiscuit.slimefun4.tests.researches.TestResearchSetup
+[INFO] Running io.github.thebusybiscuit.slimefun4.tests.utils.TestItemStackWrapper
+[11:52:12 SEVERE]: [Slimefun] Failed to create AutoUpdater
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.02 s - in io.github.thebusybiscuit.slimefun4.tests.utils.TestItemStackWrapper
+[INFO] Running io.github.thebusybiscuit.slimefun4.tests.utils.TestSoulboundItem
+[11:52:12 SEVERE]: [Slimefun] Failed to create AutoUpdater
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 s - in io.github.thebusybiscuit.slimefun4.tests.utils.TestSoulboundItem
+[INFO] Running io.github.thebusybiscuit.slimefun4.tests.utils.TestChatUtils
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in io.github.thebusybiscuit.slimefun4.tests.utils.TestChatUtils
+[INFO] Running io.github.thebusybiscuit.slimefun4.tests.networks.TestNetworkManager
+[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.087 s - in io.github.thebusybiscuit.slimefun4.tests.networks.TestNetworkManager
+[INFO] Running io.github.thebusybiscuit.slimefun4.tests.multiblocks.TestMultiBlocks
+[11:52:13 SEVERE]: [Slimefun] Failed to create AutoUpdater
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.022 s - in io.github.thebusybiscuit.slimefun4.tests.multiblocks.TestMultiBlocks
+[INFO] Running io.github.thebusybiscuit.slimefun4.tests.listeners.TestDeathpointListener
+[11:52:13 SEVERE]: [Slimefun] Failed to create AutoUpdater
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.043 s - in io.github.thebusybiscuit.slimefun4.tests.listeners.TestDeathpointListener
+[INFO] Running io.github.thebusybiscuit.slimefun4.tests.listeners.TestVanillaMachinesListener
+[11:52:13 SEVERE]: [Slimefun] Failed to create AutoUpdater
+[INFO] Tests run: 19, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.284 s - in io.github.thebusybiscuit.slimefun4.tests.listeners.TestVanillaMachinesListener
+[INFO] Running io.github.thebusybiscuit.slimefun4.tests.listeners.TestNetworkListener
+[11:52:13 SEVERE]: [Slimefun] Failed to create AutoUpdater
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.11 s - in io.github.thebusybiscuit.slimefun4.tests.listeners.TestNetworkListener
+[INFO] Running io.github.thebusybiscuit.slimefun4.tests.listeners.TestCargoNodeListener
+[11:52:13 SEVERE]: [Slimefun] Failed to create AutoUpdater
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.033 s - in io.github.thebusybiscuit.slimefun4.tests.listeners.TestCargoNodeListener
+[INFO] Running io.github.thebusybiscuit.slimefun4.tests.listeners.TestMultiblockListener
+[11:52:13 SEVERE]: [Slimefun] Failed to create AutoUpdater
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s - in io.github.thebusybiscuit.slimefun4.tests.listeners.TestMultiblockListener
+[INFO] Running io.github.thebusybiscuit.slimefun4.tests.listeners.TestIronGolemListener
+[11:52:13 SEVERE]: [Slimefun] Failed to create AutoUpdater
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.187 s - in io.github.thebusybiscuit.slimefun4.tests.listeners.TestIronGolemListener
+[INFO] Running io.github.thebusybiscuit.slimefun4.tests.listeners.TestSoulboundListener
+[11:52:13 SEVERE]: [Slimefun] Failed to create AutoUpdater
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.021 s - in io.github.thebusybiscuit.slimefun4.tests.listeners.TestSoulboundListener
+[INFO] Running io.github.thebusybiscuit.slimefun4.tests.listeners.TestBackpackListener
+[11:52:13 SEVERE]: [Slimefun] Failed to create AutoUpdater
+[INFO] Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.221 s - in io.github.thebusybiscuit.slimefun4.tests.listeners.TestBackpackListener
+[INFO] Running io.github.thebusybiscuit.slimefun4.tests.listeners.TestPlayerProfileListener
+[11:52:14 SEVERE]: [Slimefun] Failed to create AutoUpdater
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.022 s - in io.github.thebusybiscuit.slimefun4.tests.listeners.TestPlayerProfileListener
+[INFO] Running io.github.thebusybiscuit.slimefun4.tests.items.TestItemHandlers
+[11:52:14 SEVERE]: [Slimefun] Failed to create AutoUpdater
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.025 s - in io.github.thebusybiscuit.slimefun4.tests.items.TestItemHandlers
+[INFO] Running io.github.thebusybiscuit.slimefun4.tests.items.TestItemSetup
+[11:52:14 SEVERE]: [Slimefun] Failed to create AutoUpdater
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.379 s - in io.github.thebusybiscuit.slimefun4.tests.items.TestItemSetup
+[INFO] Running io.github.thebusybiscuit.slimefun4.tests.items.TestItemSettings
+[11:52:14 SEVERE]: [Slimefun] Failed to create AutoUpdater
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.018 s - in io.github.thebusybiscuit.slimefun4.tests.items.TestItemSettings
+[INFO] Running io.github.thebusybiscuit.slimefun4.tests.items.TestCategories
+[11:52:14 SEVERE]: [Slimefun] Failed to create AutoUpdater
+[11:52:14 INFO]: [Slimefun] Parent "slimefun:unregistered" for Category "slimefun:locked" was not found, probably just disabled.
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.023 s - in io.github.thebusybiscuit.slimefun4.tests.items.TestCategories
+[INFO] Running io.github.thebusybiscuit.slimefun4.tests.items.TestSlimefunItemRegistration
+[11:52:14 SEVERE]: [Slimefun] Failed to create AutoUpdater
+[11:52:14 SEVERE]: [Slimefun] Item "DUPLICATE_ID" from Slimefun vRC - 12 (git da707a93) has caused an Error!
+[11:52:14 SEVERE]: [Slimefun] You can report it here: https://github.com/TheBusyBiscuit/Slimefun4/issues
+[11:52:14 SEVERE]: [Slimefun] Registering MockSlimefunItem - 'DUPLICATE_ID' (Slimefun vRC - 12 (git da707a93)) has failed
+[INFO] Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.026 s - in io.github.thebusybiscuit.slimefun4.tests.items.TestSlimefunItemRegistration
+[INFO] Running io.github.thebusybiscuit.slimefun4.tests.TestPluginClass
+[11:52:14 SEVERE]: [Slimefun] Failed to create AutoUpdater
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.02 s - in io.github.thebusybiscuit.slimefun4.tests.TestPluginClass
+[INFO] Running io.github.thebusybiscuit.slimefun4.tests.profiles.TestPlayerProfile
+[11:52:14 SEVERE]: [Slimefun] Failed to create AutoUpdater
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.029 s - in io.github.thebusybiscuit.slimefun4.tests.profiles.TestPlayerProfile
+[INFO] Running io.github.thebusybiscuit.slimefun4.tests.profiles.TestPlayerBackpacks
+[11:52:14 SEVERE]: [Slimefun] Failed to create AutoUpdater
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.031 s - in io.github.thebusybiscuit.slimefun4.tests.profiles.TestPlayerBackpacks
+[INFO] Running io.github.thebusybiscuit.slimefun4.tests.profiles.TestGuideHistory
+[11:52:14 SEVERE]: [Slimefun] Failed to create AutoUpdater
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.021 s - in io.github.thebusybiscuit.slimefun4.tests.profiles.TestGuideHistory
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 176, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.5:report (report) @ Slimefun ---
+[INFO] Loading execution data file /home/runner/work/builds/builds/TheBusyBiscuit/Slimefun4/stable/files/target/jacoco.exec
+[INFO] Analyzed bundle 'Slimefun' with 528 classes
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ Slimefun ---
+[INFO] Building jar: /home/runner/work/builds/builds/TheBusyBiscuit/Slimefun4/stable/files/target/Slimefun4-12.jar
+[INFO] 
+[INFO] >>> maven-source-plugin:3.2.1:jar (attach-sources) > generate-sources @ Slimefun >>>
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.5:prepare-agent (prepare) @ Slimefun ---
+[INFO] argLine set to -javaagent:/home/runner/.m2/repository/org/jacoco/org.jacoco.agent/0.8.5/org.jacoco.agent-0.8.5-runtime.jar=destfile=/home/runner/work/builds/builds/TheBusyBiscuit/Slimefun4/stable/files/target/jacoco.exec
+[INFO] 
+[INFO] <<< maven-source-plugin:3.2.1:jar (attach-sources) < generate-sources @ Slimefun <<<
+[INFO] 
+[INFO] 
+[INFO] --- maven-source-plugin:3.2.1:jar (attach-sources) @ Slimefun ---
+[INFO] Building jar: /home/runner/work/builds/builds/TheBusyBiscuit/Slimefun4/stable/files/target/Slimefun4-12-sources.jar
+[INFO] 
+[INFO] --- maven-shade-plugin:3.2.3:shade (default) @ Slimefun ---
+[INFO] Including com.github.thebusybiscuit:CS-CoreLib2:jar:0.20.4 in the shaded jar.
+[INFO] Including org.bstats:bstats-bukkit:jar:1.7 in the shaded jar.
+[INFO] Replacing original artifact with shaded artifact.
+[INFO] Replacing /home/runner/work/builds/builds/TheBusyBiscuit/Slimefun4/stable/files/target/Slimefun4-12.jar with /home/runner/work/builds/builds/TheBusyBiscuit/Slimefun4/stable/files/target/Slimefun-RC - 12 (git da707a93)-shaded.jar
+[INFO] Dependency-reduced POM written at: /home/runner/work/builds/builds/TheBusyBiscuit/Slimefun4/stable/files/dependency-reduced-pom.xml
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  18.167 s
+[INFO] Finished at: 2020-05-27T11:52:18Z
+[INFO] ------------------------------------------------------------------------
