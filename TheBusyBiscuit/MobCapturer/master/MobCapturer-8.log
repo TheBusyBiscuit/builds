@@ -1,0 +1,217 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------------< io.github.thebusybiscuit:MobCapturer >----------------
+[INFO] Building MobCapturer DEV - 8 (git f3c5484e)
+[INFO] --------------------------------[ jar ]---------------------------------
+[WARNING] The POM for com.github.TheBusyBiscuit:Slimefun4:jar:e2b979fca9 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ MobCapturer ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ MobCapturer ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ MobCapturer ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 39 source files to /home/runner/work/builds/builds/TheBusyBiscuit/MobCapturer/master/files/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ MobCapturer ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/runner/work/builds/builds/TheBusyBiscuit/MobCapturer/master/files/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ MobCapturer ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ MobCapturer ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ MobCapturer ---
+[INFO] Building jar: /home/runner/work/builds/builds/TheBusyBiscuit/MobCapturer/master/files/target/MobCapturer-8.jar
+[INFO] 
+[INFO] ----------------< io.github.thebusybiscuit:MobCapturer >----------------
+[INFO] Building MobCapturer DEV - 8 (git f3c5484e)
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- sonar-maven-plugin:3.7.0.1746:sonar (default-cli) @ MobCapturer ---
+[INFO] User cache: /home/runner/.sonar/cache
+[INFO] SonarQube version: 8.0.0
+[INFO] Default locale: "en", source code encoding: "UTF-8"
+[INFO] Load global settings
+[INFO] Load global settings (done) | time=612ms
+[INFO] Server id: 1BD809FA-AWHW8ct9-T_TB3XqouNu
+[INFO] User cache: /home/runner/.sonar/cache
+[INFO] Load/download plugins
+[INFO] Load plugins index
+[INFO] Load plugins index (done) | time=140ms
+[INFO] Load/download plugins (done) | time=227ms
+[INFO] Loaded core extensions: developer-scanner
+[WARNING] The version of Java (1.8.0_252) you have used to run this analysis is deprecated and we will stop accepting it from October 2020. Please update to at least Java 11.
+[INFO] Process project properties
+[INFO] Execute project builders
+[INFO] Execute project builders (done) | time=11ms
+[INFO] Project key: TheBusyBiscuit_MobCapturer
+[INFO] Base dir: /home/runner/work/builds/builds/TheBusyBiscuit/MobCapturer/master/files
+[INFO] Working dir: /home/runner/work/builds/builds/TheBusyBiscuit/MobCapturer/master/files/target/sonar
+[INFO] Load project settings for component key: 'TheBusyBiscuit_MobCapturer'
+[INFO] Load project settings for component key: 'TheBusyBiscuit_MobCapturer' (done) | time=204ms
+[INFO] Found an active CI vendor: 'Github Actions'
+[INFO] Load project branches
+[INFO] Load project branches (done) | time=107ms
+[INFO] Check ALM binding of project 'TheBusyBiscuit_MobCapturer'
+[INFO] Detected project binding: NOT_BOUND
+[INFO] Check ALM binding of project 'TheBusyBiscuit_MobCapturer' (done) | time=102ms
+[INFO] Load project pull requests
+[INFO] Load project pull requests (done) | time=98ms
+[INFO] Load branch configuration
+[INFO] Github event: schedule
+[INFO] Load branch configuration (done) | time=3ms
+[INFO] Load quality profiles
+[INFO] Load quality profiles (done) | time=146ms
+[INFO] Load active rules
+[INFO] Load active rules (done) | time=3325ms
+[INFO] Organization key: thebusybiscuit-github
+[INFO] Indexing files...
+[INFO] Project configuration:
+[INFO] 40 files indexed
+[INFO] 0 files ignored because of scm ignore settings
+[INFO] Quality profile for java: Additional Checks
+[INFO] Quality profile for xml: Sonar way
+[INFO] ------------- Run sensors on module MobCapturer
+[INFO] Load metrics repository
+[INFO] Load metrics repository (done) | time=114ms
+[INFO] Sensor JavaSquidSensor [java]
+[INFO] Configured Java source version (sonar.java.source): 8
+[INFO] JavaClasspath initialization
+[INFO] JavaClasspath initialization (done) | time=11ms
+[INFO] JavaTestClasspath initialization
+[INFO] JavaTestClasspath initialization (done) | time=1ms
+[INFO] Java Main Files AST scan
+[INFO] 39 source files to be analyzed
+[INFO] Load project repositories
+[INFO] Load project repositories (done) | time=141ms
+Status ERROR: org.eclipse.jdt.core code=4 Could not retrieve declared methods java.lang.NullPointerException
+Status ERROR: org.eclipse.jdt.core code=4 Could not retrieve declared methods java.lang.NullPointerException
+Status ERROR: org.eclipse.jdt.core code=4 Could not retrieve declared methods java.lang.NullPointerException
+Status ERROR: org.eclipse.jdt.core code=4 Could not retrieve declared methods java.lang.NullPointerException
+Status ERROR: org.eclipse.jdt.core code=4 Could not retrieve declared methods java.lang.NullPointerException
+Status ERROR: org.eclipse.jdt.core code=4 Could not retrieve declared methods java.lang.NullPointerException
+[INFO] 39/39 source files have been analyzed
+[INFO] Java Main Files AST scan (done) | time=7296ms
+[INFO] Java Test Files AST scan
+[INFO] 0 source files to be analyzed
+[INFO] Java Test Files AST scan (done) | time=4ms
+[INFO] Java Generated Files AST scan
+[INFO] 0 source files to be analyzed
+[INFO] Java Generated Files AST scan (done) | time=1ms
+[INFO] Sensor JavaSquidSensor [java] (done) | time=7496ms
+[INFO] Sensor SonarCSS Rules [cssfamily]
+[INFO] No CSS, PHP, HTML or VueJS files are found in the project. CSS analysis is skipped.
+[INFO] Sensor SonarCSS Rules [cssfamily] (done) | time=1ms
+[INFO] Sensor SurefireSensor [java]
+[INFO] parsing [/home/runner/work/builds/builds/TheBusyBiscuit/MobCapturer/master/files/target/surefire-reports]
+[INFO] Sensor SurefireSensor [java] (done) | time=7ms
+[INFO] Sensor JavaXmlSensor [java]
+[INFO] 1 source files to be analyzed
+[INFO] 0/0 source files have been analyzed
+0 source files have been analyzed
+[INFO] 0/[INFO] 1/1 source files have been analyzed
+[INFO] Sensor JavaXmlSensor [java] (done) | time=172ms
+[INFO] Sensor HTML [web]
+[INFO] Sensor HTML [web] (done) | time=5ms
+[INFO] Sensor XML Sensor [xml]
+[INFO] 1 source files to be analyzed
+[INFO] 1/1 source files have been analyzed
+[INFO] Sensor XML Sensor [xml] (done) | time=138ms
+[INFO] Sensor JaCoCo XML Report Importer [jacoco]
+[INFO] 'sonar.coverage.jacoco.xmlReportPaths' is not defined. Using default locations: target/site/jacoco/jacoco.xml,target/site/jacoco-it/jacoco.xml,build/reports/jacoco/test/jacocoTestReport.xml
+[INFO] No report imported, no coverage information will be imported by JaCoCo XML Report Importer
+[INFO] Sensor JaCoCo XML Report Importer [jacoco] (done) | time=14ms
+[INFO] Sensor ThymeLeaf template sensor [securityjavafrontend]
+[INFO] Sensor ThymeLeaf template sensor [securityjavafrontend] (done) | time=4ms
+[INFO] Sensor JavaSecuritySensor [security]
+[INFO] Reading type hierarchy from: /home/runner/work/builds/builds/TheBusyBiscuit/MobCapturer/master/files/target/sonar/ucfg2/java
+[INFO] Read 195 type definitions
+[INFO] Reading UCFGs from: /home/runner/work/builds/builds/TheBusyBiscuit/MobCapturer/master/files/target/sonar/ucfg2/java
+[INFO] 21:09:37.407 Building Type propagation graph
+[INFO] 21:09:37.449 Running Tarjan on 676 nodes
+[INFO] 21:09:37.459 Tarjan found 594 components
+[INFO] 21:09:37.47 Variable type analysis: done
+[INFO] 21:09:37.479 Building Type propagation graph
+[INFO] 21:09:37.493 Running Tarjan on 676 nodes
+[INFO] 21:09:37.499 Tarjan found 594 components
+[INFO] 21:09:37.504 Variable type analysis: done
+[INFO] Analyzing 148 ucfgs to detect vulnerabilities.
+[INFO] All rules entrypoints : 0 Retained UCFGs : 0
+[INFO] rule: S5131, entrypoints: 0
+[INFO] rule: S5131 done
+[INFO] rule: S3649, entrypoints: 0
+[INFO] rule: S3649 done
+[INFO] rule: S2076, entrypoints: 0
+[INFO] rule: S2076 done
+[INFO] rule: S2091, entrypoints: 0
+[INFO] rule: S2091 done
+[INFO] rule: S2078, entrypoints: 0
+[INFO] rule: S2078 done
+[INFO] rule: S2631, entrypoints: 0
+[INFO] rule: S2631 done
+[INFO] rule: S5135, entrypoints: 0
+[INFO] rule: S5135 done
+[INFO] rule: S2083, entrypoints: 0
+[INFO] rule: S2083 done
+[INFO] rule: S5167, entrypoints: 0
+[INFO] rule: S5167 done
+[INFO] rule: S5144, entrypoints: 0
+[INFO] rule: S5144 done
+[INFO] rule: S5145, entrypoints: 0
+[INFO] rule: S5145 done
+[INFO] rule: S5146, entrypoints: 0
+[INFO] rule: S5146 done
+[INFO] rule: S5334, entrypoints: 0
+[INFO] rule: S5334 done
+[INFO] Sensor JavaSecuritySensor [security] (done) | time=1088ms
+[INFO] Sensor CSharpSecuritySensor [security]
+[INFO] Reading type hierarchy from: /home/runner/work/builds/builds/TheBusyBiscuit/MobCapturer/master/files/target/ucfg_cs2
+[INFO] Read 0 type definitions
+[INFO] Reading UCFGs from: /home/runner/work/builds/builds/TheBusyBiscuit/MobCapturer/master/files/target/ucfg_cs2
+[INFO] No UCFGs have been included for analysis.
+[INFO] Sensor CSharpSecuritySensor [security] (done) | time=5ms
+[INFO] Sensor PhpSecuritySensor [security]
+[INFO] Reading type hierarchy from: /home/runner/work/builds/builds/TheBusyBiscuit/MobCapturer/master/files/target/sonar/ucfg2/php
+[INFO] Read 0 type definitions
+[INFO] Reading UCFGs from: /home/runner/work/builds/builds/TheBusyBiscuit/MobCapturer/master/files/target/sonar/ucfg2/php
+[INFO] No UCFGs have been included for analysis.
+[INFO] Sensor PhpSecuritySensor [security] (done) | time=3ms
+[INFO] Sensor PythonSecuritySensor [security]
+[INFO] Reading type hierarchy from: /home/runner/work/builds/builds/TheBusyBiscuit/MobCapturer/master/files/target/sonar/ucfg2/python
+[INFO] Read 0 type definitions
+[INFO] Reading UCFGs from: /home/runner/work/builds/builds/TheBusyBiscuit/MobCapturer/master/files/target/sonar/ucfg2/python
+[INFO] No UCFGs have been included for analysis.
+[INFO] Sensor PythonSecuritySensor [security] (done) | time=4ms
+[INFO] ------------- Run sensors on project
+[INFO] Sensor Zero Coverage Sensor
+[INFO] Sensor Zero Coverage Sensor (done) | time=29ms
+[INFO] Sensor Java CPD Block Indexer
+[INFO] Sensor Java CPD Block Indexer (done) | time=74ms
+[INFO] SCM Publisher SCM provider for this project is: git
+[INFO] SCM Publisher 5 source files to be analyzed
+[INFO] SCM Publisher 4/5 source files have been analyzed (done) | time=214ms
+[WARNING] Missing blame information for the following files:
+[WARNING]   * pom.xml
+[WARNING] This may lead to missing/broken features in SonarCloud
+[INFO] CPD Executor 5 files had no CPD blocks
+[INFO] CPD Executor Calculating CPD for 34 files
+[INFO] CPD Executor CPD calculation finished (done) | time=20ms
+[INFO] Analysis report generated in 101ms, dir size=313 KB
+[INFO] Analysis report compressed in 119ms, zip size=137 KB
+[INFO] Analysis report uploaded in 386ms
+[INFO] ANALYSIS SUCCESSFUL, you can find the results at: https://sonarcloud.io/dashboard?id=TheBusyBiscuit_MobCapturer
+[INFO] Note that you will be able to access the updated dashboard once the server has processed the submitted analysis report
+[INFO] More about the report processing at https://sonarcloud.io/api/ce/task?id=AXJdHn8IpIczX1gjvKRD
+[INFO] Analysis total time: 18.635 s
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  24.509 s
+[INFO] Finished at: 2020-05-28T21:09:39Z
+[INFO] ------------------------------------------------------------------------
