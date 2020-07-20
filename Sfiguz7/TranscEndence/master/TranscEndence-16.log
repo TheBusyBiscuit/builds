@@ -1,0 +1,38 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------------------< me.sfiguz7:TranscEndence >----------------------
+[INFO] Building TranscEndence DEV - 16 (git df2e8999)
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ TranscEndence ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ TranscEndence ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ TranscEndence ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 26 source files to /home/runner/work/builds/builds/Sfiguz7/TranscEndence/master/files/target/classes
+[WARNING] /home/runner/work/builds/builds/Sfiguz7/TranscEndence/master/files/src/main/java/me/sfiguz7/transcendence/implementation/items/machines/QuirpAnnihilator.java: Some input files use or override a deprecated API.
+[WARNING] /home/runner/work/builds/builds/Sfiguz7/TranscEndence/master/files/src/main/java/me/sfiguz7/transcendence/implementation/items/machines/QuirpAnnihilator.java: Recompile with -Xlint:deprecation for details.
+[WARNING] /home/runner/work/builds/builds/Sfiguz7/TranscEndence/master/files/src/main/java/me/sfiguz7/transcendence/implementation/items/machines/ZotOverloader.java: /home/runner/work/builds/builds/Sfiguz7/TranscEndence/master/files/src/main/java/me/sfiguz7/transcendence/implementation/items/machines/ZotOverloader.java uses unchecked or unsafe operations.
+[WARNING] /home/runner/work/builds/builds/Sfiguz7/TranscEndence/master/files/src/main/java/me/sfiguz7/transcendence/implementation/items/machines/ZotOverloader.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ TranscEndence ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/runner/work/builds/builds/Sfiguz7/TranscEndence/master/files/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ TranscEndence ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ TranscEndence ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ TranscEndence ---
+[INFO] Building jar: /home/runner/work/builds/builds/Sfiguz7/TranscEndence/master/files/target/TranscEndence-16.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  2.348 s
+[INFO] Finished at: 2020-07-20T21:34:31Z
+[INFO] ------------------------------------------------------------------------
