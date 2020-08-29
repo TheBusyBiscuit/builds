@@ -670,28 +670,6 @@
 			}
 		}
 	},
-	"ClayCoffee/ClayTech:master": {
-		"sonar": {
-			"enabled": false
-		},
-		"options": {
-			"prefix": "DEVR"
-		},
-		"dependencies": {
-			"Minecraft Version(s)": {
-				"1": "1.13.x, 1.14.x, 1.15.x, 1.16.x"
-			},
-			"CS-CoreLib Version": {
-				"1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/CS-CoreLib/master/#79\">dev #79</a>"
-			},
-			"Slimefun Version": {
-				"1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/Slimefun4/master/#584\">dev #584</a>"
-			},
-			"(Optional) Multiverse-Core Version": {
-				"1": "<a class=\"link_info\" href=\"https://dev.bukkit.org/projects/multiverse-core/\">4.1.0</a>"
-			}
-		}
-	},
 	"Sfiguz7/ExtraTools:master": {
 		"sonar": {
 			"enabled": false
@@ -727,6 +705,28 @@
 			},
 			"Slimefun Version": {
 				"1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/Slimefun4/master/#478\">dev #478</a>"
+			}
+		}
+	},
+	"ClayCoffee/ClayTech:master": {
+		"sonar": {
+			"enabled": false
+		},
+		"options": {
+			"prefix": "DEV"
+		},
+		"dependencies": {
+			"Minecraft Version(s)": {
+				"1": "1.13.x, 1.14.x, 1.15.x, 1.16.x"
+			},
+			"CS-CoreLib Version": {
+				"1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/CS-CoreLib/master/#79\">dev #79</a>"
+			},
+			"Slimefun Version": {
+				"1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/Slimefun4/master/#584\">dev #584</a>"
+			},
+			"(Optional) Multiverse-Core Version": {
+				"1": "<a class=\"link_info\" href=\"https://dev.bukkit.org/projects/multiverse-core/\">4.1.0</a>"
 			}
 		}
 	}
