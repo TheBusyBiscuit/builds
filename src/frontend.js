@@ -8,7 +8,7 @@ $(function() {
         var info = repos[owner + "/" + repository + ":" + branch];
         var directory = owner + "/" + repository + "/" + branch;
 
-        if (info.options.custom_directory) {
+        if (info.options && info.options.custom_directory) {
             directory = info.options.custom_directory;
         }
 

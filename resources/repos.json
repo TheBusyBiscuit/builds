@@ -27,7 +27,8 @@
 			"host-url": "https://sonarcloud.io"
 		},
 		"options": {
-			"prefix": "DEV"
+			"prefix": "DEV",
+			"custom_directory": "TheBusyBiscuit/Slimefun4/master"
 		},
 		"dependencies": {
 			"Minecraft Version(s)": {
@@ -56,7 +57,8 @@
 			"enabled": false
 		},
 		"options": {
-			"prefix": "RC"
+			"prefix": "RC",
+			"custom_directory": "TheBusyBiscuit/Slimefun4/stable"
 		},
 		"dependencies": {
 			"Minecraft Version(s)": {

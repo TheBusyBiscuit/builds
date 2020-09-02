@@ -33,7 +33,15 @@
                     if (repo.split("/")[0] !== user) continue;
 
                     console.log("Found Project \"" + repo + "\"");
-                    addRepository(table, user, repo.split('/')[1].split(":")[0], repo.split('/')[1].split(":")[1]);
+					var repository = repo.split('/')[1].split(":")[0];
+					var branch = repo.split('/')[1].split(":")[1];
+					var directory = user + '/' + repository + '/' + branch;
+					
+					if (repos[repo].options && repos[repo].options.custom_directory) {
+						directory = repos[repo].options.custom_directory;
+					}
+					
+                    addRepository(table, directory, user, repository, branch);
                 }
 
                 // Alphabetical sorting
@@ -47,12 +55,12 @@
                 $(table).append(items);
             }
 
-            function addRepository(table, owner, repo, branch) {
+            function addRepository(table, repository, owner, repo, branch) {
                 let html = "";
 
                 html += "<tr project=\"" + repo + ":" + branch + "\"><td class=\"icon\"><img class=\"icon\" alt=\"project page\" src=\"https://cdnjs.cloudflare.com/ajax/libs/octicons/8.5.0/svg/beaker.svg\"></td>";
-                html += '<td class="table_label" style="width: auto;"><a class="link_info" href="' + owner + '/' + repo + '/' + branch + '">' + (repo + " (" + branch + ")") + "</a></td><td>";
-                html += '<img style="float: right;" alt=\"project badge\" src="https://thebusybiscuit.github.io/builds/' + owner + '/' + repo + '/' + branch + '/badge.svg"/></td></tr>';
+                html += '<td class="table_label" style="width: auto;"><a class="link_info" href="' + directory + '">' + (repo + " (" + branch + ")") + "</a></td><td>";
+                html += '<img style="float: right;" alt=\"project badge\" src="https://thebusybiscuit.github.io/builds/' + directory + '/badge.svg"/></td></tr>';
 
                 table.append(html);
             }
