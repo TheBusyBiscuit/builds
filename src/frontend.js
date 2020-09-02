@@ -4,11 +4,16 @@ $(function() {
     var repository = body.attr("repository");
     var branch = body.attr("branch");
 
-    createBadge(owner, repository, branch, "markdown");
-    createBadge(owner, repository, branch, "html");
-
     $.getJSON("https://thebusybiscuit.github.io/builds/resources/repos.json", function(repos) {
         var info = repos[owner + "/" + repository + ":" + branch];
+        var directory = owner + "/" + repository + "/" + branch;
+
+        if (info.options.custom_directory) {
+            directory = info.options.custom_directory;
+        }
+
+        createBadge(directory, "markdown");
+        createBadge(directory, "html");
 
 	    let i = 1;
         for (var key in info.dependencies) {
@@ -59,7 +64,7 @@ $(function() {
                 current_tag.text(builds[id].tag);
             }
             else {
-		var prefix = info.options ? info.options.prefix: "DEV";
+                var prefix = info.options ? info.options.prefix: "DEV";
                 download_jar.text(repository + " - " + prefix + " " + id + " (git " + builds[id].sha.substr(0, 5) + ").jar");
                 download_jar.attr("download", repository + " - " + prefix + " " + id + " (git " + builds[id].sha.substr(0, 5) + ").jar");
 
@@ -120,7 +125,7 @@ $(function() {
             }
         }
 
-        $.getJSON("https://thebusybiscuit.github.io/builds/" + owner + "/" + repository + "/" + branch + "/builds.json", function(builds) {
+        $.getJSON("https://thebusybiscuit.github.io/builds/" + directory + "/builds.json", function(builds) {
             var last_successful = builds.last_successful;
 
             // Get currently selected Build
@@ -206,14 +211,14 @@ $(function() {
     }
 });
 
-function createBadge(owner, repository, branch, language) {
+function createBadge(directory, language) {
     var url = "";
 
     if (language === "markdown") {
-        url = "[![Build Status](https://thebusybiscuit.github.io/builds/" + owner + "/" + repository + "/" + branch + "/badge.svg)](https://thebusybiscuit.github.io/builds/" + owner + "/" + repository + "/" + branch + ")"
+        url = "[![Build Status](https://thebusybiscuit.github.io/builds/" + directory + "/badge.svg)](https://thebusybiscuit.github.io/builds/" + directory + ")"
     }
     else if (language === "html") {
-        url = "<a href=\"https://thebusybiscuit.github.io/builds/" + owner + "/" + repository + "/" + branch + "\"><img src=\"https://thebusybiscuit.github.io/builds/" + owner + "/" + repository + "/" + branch + "/badge.svg\" alt=\"Build Status\"/></a>";
+        url = "<a href=\"https://thebusybiscuit.github.io/builds/" + directory + "\"><img src=\"https://thebusybiscuit.github.io/builds/" + directory + "/badge.svg\" alt=\"Build Status\"/></a>";
     }
 
     $("#badge_" + language).attr("value", url);
