@@ -8,7 +8,8 @@ module.exports = (assert, github) => {
             var job = {
                 author: "____",
                 repo: "____",
-                branch: "master"
+                branch: "master",
+				directory: "____/____/master"
             }
 
             return assert.isFulfilled(github.hasUpdate(job, 20172611114944));
@@ -18,7 +19,8 @@ module.exports = (assert, github) => {
             var job = {
                 author: "testRepository",
                 repo: "repo",
-                branch: "master"
+                branch: "master",
+				directory: "testRepository/repo/master"
             }
 
             return assert.isRejected(github.hasUpdate(job, 20190609123203));
@@ -28,7 +30,8 @@ module.exports = (assert, github) => {
             var job = {
                 author: "testRepository",
                 repo: "repo",
-                branch: "master"
+                branch: "master",
+				directory: "testRepository/repo/master"
             }
 
             return assert.isRejected(github.hasUpdate(job, 20190609021406));
@@ -38,7 +41,8 @@ module.exports = (assert, github) => {
             var job = {
                 author: "testRepository",
                 repo: "repo",
-                branch: "master"
+                branch: "master",
+				directory: "testRepository/repo/master"
             }
 
             return assert.isFulfilled(github.hasUpdate(job, 20290639123203));

@@ -10,7 +10,8 @@ module.exports = (assert, github) => {
             var job = {
                 author: "TheBusyBiscuit",
                 repo: "builds",
-                branch: "gh-pages"
+                branch: "gh-pages",
+				directory: "TheBusyBiscuit/builds/gh-pages"
             }
 
             return github.getLatestCommit(job).then((commit) => Promise.all([

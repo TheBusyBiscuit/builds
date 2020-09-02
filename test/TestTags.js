@@ -10,7 +10,8 @@ module.exports = (assert, github) => {
             var job = {
                 author: "TheBusyBiscuit",
                 repo: "GitHubWebAPI4Java",
-                branch: "master"
+                branch: "master",
+				directory: "TheBusyBiscuit/GitHubWebAPI4Java/master"
             }
 
             return github.getTags(job).then((tags) => Promise.all([
@@ -27,7 +28,8 @@ module.exports = (assert, github) => {
             var job = {
                 author: "TheBusyBiscuit",
                 repo: "Slimecraft",
-                branch: "master"
+                branch: "master",
+				directory: "TheBusyBiscuit/Slimecraft/master"
             }
 
             return github.getTags(job).then((tags) => {
@@ -42,7 +44,8 @@ module.exports = (assert, github) => {
             var job = {
                 author: "TheBusyBiscuit",
                 repo: "____",
-                branch: "master"
+                branch: "master",
+				directory: "TheBusyBiscuit/____/master"
             }
 
             return assert.isRejected(github.getTags(job));

@@ -166,7 +166,7 @@ describe("Maven Test", () => {
         });
 
         it("should return true for a valid Job", () => {
-            return assert.isTrue(maven.isValid({author: "TheBusyBiscuit", repo: "builds", branch: "master", id: 1, success: false}));
+            return assert.isTrue(maven.isValid({author: "TheBusyBiscuit", repo: "builds", branch: "master", directory: "TheBusyBiscuit/builds/master", id: 1, success: false}));
         });
     });
 

@@ -44,6 +44,8 @@ function validate(repo) {
                 repo: repo.split("/")[1].split(":")[0],
                 branch: repo.split("/")[1].split(":")[1]
             }
+			
+			job.directory = job.author + "/" + job.repo + "/" + job.branch;
 
             return assert.isTrue(projects.isValid(job));
         });
@@ -56,6 +58,8 @@ function validate(repo) {
                 repo: repo.split("/")[1].split(":")[0],
                 branch: repo.split("/")[1].split(":")[1]
             }
+			
+			job.directory = job.author + "/" + job.repo + "/" + job.branch;
 
             return assert.isFulfilled(github.exists(job));
         });
