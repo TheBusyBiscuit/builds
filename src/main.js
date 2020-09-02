@@ -49,7 +49,9 @@ function start(logging) {
             var nextJob = () => {
                 i++;
 
-                if (!global.status.running || i >= jobs.length) done();
+                if (!global.status.running || i >= jobs.length) {
+                    done();
+                }
                 else {
                     log(logging, "");
                     log(logging, "Watching: " + jobs[i].author + "/" + jobs[i].repo + ":" + jobs[i].branch)

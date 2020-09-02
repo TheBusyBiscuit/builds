@@ -31,15 +31,21 @@ function getProjects(logging) {
                 log(logging, "-> Found Project \"" + repo + "\"");
 
                 var job = {
-                    "author": repo.split("/")[0],
-                    "repo": repo.split('/')[1].split(":")[0],
-                    "branch": repo.split('/')[1].split(":")[1]
+                    author: repo.split("/")[0],
+                    repo: repo.split('/')[1].split(":")[0],
+                    branch: repo.split('/')[1].split(":")[1]
                 };
-				
+
+                job.directory = job.author + "/" + job.repo + "/" + job.branch;
+
 				if (json[repo].options) {
 					job.options = json[repo].options;
+
+                    if (json[repo].options.custom_directory) {
+                        job.directory = json[repo].options.custom_directory;
+                    }
 				}
-				
+
                 if (json[repo].sonar && json[repo].sonar.enabled) {
                     job.sonar = json[repo].sonar;
                 }
@@ -66,7 +72,7 @@ function addBuild(job, logging) {
             return;
         }
 
-        var file = path.resolve(__dirname, "../" + job.author + "/" + job.repo + "/" + job.branch + "/builds.json");
+        var file = path.resolve(__dirname, "../" + job.directory + "/builds.json");
         var builds = {};
 
         var append = () => {
@@ -140,7 +146,7 @@ function generateHTML(job, logging) {
 
             log(logging, "-> Saving 'index.html'...");
 
-            fs.writeFile(path.resolve(__dirname, "../" + job.author + "/" + job.repo + "/" + job.branch + "/index.html"), html, "utf8").then(resolve, reject);
+            fs.writeFile(path.resolve(__dirname, "../" + job.directory + "/index.html"), html, "utf8").then(resolve, reject);
         }, reject);
     });
 }
@@ -168,7 +174,7 @@ function generateBadge(job, logging) {
 
             log(logging, "-> Saving 'badge.svg'...");
 
-            fs.writeFile(path.resolve(__dirname, "../" + job.author + "/" + job.repo + "/" + job.branch + "/badge.svg"), svg, "utf8").then(resolve, reject);
+            fs.writeFile(path.resolve(__dirname, "../" + job.directory + "/badge.svg"), svg, "utf8").then(resolve, reject);
         }, reject);
     });
 }
@@ -183,8 +189,8 @@ function generateBadge(job, logging) {
 function clearWorkspace(job, logging) {
     if (!isValid(job, false)) return Promise.reject("Invalid Job!");
 
-    if (!FileSystem.existsSync(path.resolve(__dirname, "../" + job.author + "/" + job.repo + "/" + job.branch + "/files"))) return Promise.resolve();
-    else return clearFolder(path.resolve(__dirname, "../" + job.author + "/" + job.repo + "/" + job.branch + "/files"), logging)
+    if (!FileSystem.existsSync(path.resolve(__dirname, "../" + job.directory + "/files"))) return Promise.resolve();
+    else return clearFolder(path.resolve(__dirname, "../" + job.directory + "/files"), logging)
 }
 
 /**
@@ -248,6 +254,7 @@ function isValid(job, compiled) {
     if (!lodash.isString(job.author)) return false;
     if (!lodash.isString(job.repo)) return false;
     if (!lodash.isString(job.branch)) return false;
+    if (!lodash.isString(job.directory)) return false;
 
     if (compiled) {
         if (!lodash.isInteger(job.id)) return false;

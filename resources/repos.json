@@ -729,5 +729,19 @@
 				"1": "<a class=\"link_info\" href=\"https://dev.bukkit.org/projects/multiverse-core/\">4.1.0</a>"
 			}
 		}
+	},
+	"TheBusyBiscuit/ZeldaHearts2:master": {
+		"sonar": {
+			"enabled": false
+		},
+		"options": {
+			"prefix": "DEV",
+			"custom_directory": "test/test"
+		},
+		"dependencies": {
+			"Minecraft Version(s)": {
+				"1": "Nope"
+			}
+		}
 	}
 }

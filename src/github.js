@@ -76,6 +76,7 @@ function getLatestCommit(job, cfg, logging) {
             reject("Invalid Job");
             return;
         }
+
         log(logging, "-> Fetching latest Commit...");
 
         let url = getURL(job, cfg, "/commits?per_page=1&sha=" + job.branch);
@@ -183,7 +184,7 @@ function hasUpdate(job, timestamp) {
             return;
         }
 
-        var file = path.resolve(__dirname, "../" + job.author + "/" + job.repo + "/" + job.branch + "/builds.json");
+        var file = path.resolve(__dirname, "../" + job.directory + "/builds.json");
 
         if (FileSystem.existsSync(file)) {
             fs.readFile(file, "utf8")
@@ -220,7 +221,7 @@ function clone(job, commit, logging) {
         var cloning = process.spawn("git", [
             "clone",
             "https://github.com/" + job.author + "/" + job.repo + ".git",
-            path.resolve(__dirname, "../" + job.author + "/" + job.repo + "/" + job.branch + "/files"),
+            path.resolve(__dirname, "../" + job.directory + "/files"),
             "-b", job.branch,
             "--single-branch"
         ]);
@@ -237,7 +238,7 @@ function clone(job, commit, logging) {
                 "--hard",
                 commit
             ], {
-                cwd: path.resolve(__dirname, "../" + job.author + "/" + job.repo + "/" + job.branch + "/files")
+                cwd: path.resolve(__dirname, "../" + job.directory + "/files")
             });
 
             refresh.childProcess.stdout.on('data', (data) => log(logging, "-> " + data));
@@ -269,7 +270,7 @@ function pushChanges(job, logging) {
 
         var add = process.spawn("git", [
             "add",
-            path.resolve(__dirname, "../" + job.author + "/" + job.repo + "/" + job.branch + "/*")
+            path.resolve(__dirname, "../" + job.directory + "/*")
         ]);
 
         add.childProcess.stdout.on('data', (data) => log(logging, "-> " + data));

@@ -45,7 +45,7 @@ function setVersion(job, version, compact) {
             return;
         }
 
-        var file = path.resolve(__dirname, "../" + job.author + "/" + job.repo + "/" + job.branch + "/files/pom.xml");
+        var file = path.resolve(__dirname, "../" + job.directory + "/files/pom.xml");
 
         fs.readFile(file, "utf8").then((data) => {
             XML.promises.fromXML(data).then((json) => {
@@ -104,13 +104,13 @@ function compile(job, cfg, logging) {
 
         var args = getMavenArguments(job, cfg);
         var compiler = process.spawn("mvn", args, {
-            cwd: path.resolve(__dirname, "../" + job.author + "/" + job.repo + "/" + job.branch + "/files"),
+            cwd: path.resolve(__dirname, "../" + job.directory + "/files"),
             shell: true
         });
 
         var logger = (data) => {
             log(logging, data, true);
-            fs.appendFile(path.resolve(__dirname, "../" + job.author + "/" + job.repo + "/" + job.branch + "/" + job.repo + "-" + job.id + ".log"), data, "UTF-8").catch(err => console.log(err));
+            fs.appendFile(path.resolve(__dirname, "../" + job.directory + "/" + job.repo + "-" + job.id + ".log"), data, "UTF-8").catch(err => console.log(err));
         };
 
         compiler.childProcess.stdout.on('data', logger);
@@ -152,8 +152,8 @@ function relocate(job) {
     if (!job.success) return Promise.resolve();
 
     return fs.rename(
-        path.resolve(__dirname, "../" + job.author + "/" + job.repo + "/" + job.branch + "/files/target/" + job.repo + "-" + job.id + ".jar"),
-        path.resolve(__dirname, "../" + job.author + "/" + job.repo + "/" + job.branch + "/" + job.repo + "-" + job.id + ".jar")
+        path.resolve(__dirname, "../" + job.directory + "/files/target/" + job.repo + "-" + job.id + ".jar"),
+        path.resolve(__dirname, "../" + job.directory + "/" + job.repo + "-" + job.id + ".jar")
     );
 }
 
