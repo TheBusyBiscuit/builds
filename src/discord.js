@@ -65,7 +65,8 @@ function sendUpdate(webhook, job, cfg) {
             new Discord.RichEmbed()
             .setTitle(job.author + "/" + job.repo + ":" + job.branch + " ( #" + job.id + " )")
             .setColor(job.success ? 0X00FF00: 0XFF0000)
-            .setDescription(message).setURL("https://thebusybiscuit.github.io/builds/" + job.author + "/" + job.repo + "/" + job.branch + "#" + job.id)
+            .setDescription(message)
+			.setURL("https://thebusybiscuit.github.io/builds/" + job.directory + "#" + job.id)
             .setTimestamp(Date.now())
         ).then(resolve, reject);
     });
