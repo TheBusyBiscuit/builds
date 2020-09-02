@@ -735,8 +735,8 @@
 			"enabled": false
 		},
 		"options": {
-			"prefix": "DEV",
-			"custom_directory": "test/test"
+			"prefix": "TEST",
+			"custom_directory": "THIS_IS_A_TEST/test/testing"
 		},
 		"dependencies": {
 			"Minecraft Version(s)": {
