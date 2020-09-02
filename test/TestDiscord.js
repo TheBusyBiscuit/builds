@@ -31,6 +31,7 @@ describe("Discord Integration Test", () => {
             author: "TheBusyBiscuit",
             repo: "builds",
             branch: "gh-pages",
+			directory: "TheBusyBiscuit/builds/gh-pages",
             id: -1,
             success: true
         }))
@@ -43,6 +44,7 @@ describe("Discord Integration Test", () => {
             author: "TheBusyBiscuit",
             repo: "builds",
             branch: "gh-pages",
+			directory: "TheBusyBiscuit/builds/gh-pages",
             id: -1,
             success: false
         }))
@@ -60,6 +62,7 @@ describe("Discord Integration Test", () => {
             author: "TheBusyBiscuit",
             repo: "builds",
             branch: "gh-pages",
+			directory: "TheBusyBiscuit/builds/gh-pages",
             id: -1,
             success: false
         }))

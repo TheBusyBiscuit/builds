@@ -13,7 +13,8 @@ const testJobs = require('../test/TestJobs.js');
 var job = {
     author: "jitpack",
     repo: "maven-simple",
-    branch: "master"
+    branch: "master",
+	directory: "jitpack/maven-simple/master"
 }
 
 describe("Full System Test", function() {
@@ -49,7 +50,7 @@ describe("Full System Test", function() {
         system.compile(job).then(() => Promise.all([
             assert.exists(job.success),
             assert.isTrue(job.success),
-            assert.isTrue(FileSystem.existsSync(path.resolve(__dirname, "../" + job.author + "/" + job.repo + "/" + job.branch + "/files/target/" + job.repo + "-" + job.id + ".jar")))
+            assert.isTrue(FileSystem.existsSync(path.resolve(__dirname, "../" + job.directory + "/files/target/" + job.repo + "-" + job.id + ".jar")))
         ]))
     );
 
@@ -59,7 +60,7 @@ describe("Full System Test", function() {
             assert.isObject(job.license),
             assert.exists(job.tags),
             assert.isObject(job.tags),
-            assert.isTrue(FileSystem.existsSync(path.resolve(__dirname, "../" + job.author + "/" + job.repo + "/" + job.branch + "/" + job.repo + "-" + job.id + ".jar")))
+            assert.isTrue(FileSystem.existsSync(path.resolve(__dirname, "../" + job.directory + "/" + job.repo + "-" + job.id + ".jar")))
         ]))
     );
 
@@ -67,9 +68,9 @@ describe("Full System Test", function() {
     it("passes stage 'upload' - first build (addBuild & generateHTML & generateBadge)", async () => {
         await system.upload(job);
         return Promise.all([
-            assert.isTrue(FileSystem.existsSync(path.resolve(__dirname, "../" + job.author + "/" + job.repo + "/" + job.branch + "/builds.json"))),
-            assert.isTrue(FileSystem.existsSync(path.resolve(__dirname, "../" + job.author + "/" + job.repo + "/" + job.branch + "/index.html"))),
-            assert.isTrue(FileSystem.existsSync(path.resolve(__dirname, "../" + job.author + "/" + job.repo + "/" + job.branch + "/badge.svg")))
+            assert.isTrue(FileSystem.existsSync(path.resolve(__dirname, "../" + job.directory + "/builds.json"))),
+            assert.isTrue(FileSystem.existsSync(path.resolve(__dirname, "../" + job.directory + "/index.html"))),
+            assert.isTrue(FileSystem.existsSync(path.resolve(__dirname, "../" + job.directory + "/badge.svg")))
         ]);
     });
 
@@ -81,18 +82,18 @@ describe("Full System Test", function() {
 
         await system.upload(job);
         return Promise.all([
-            assert.isTrue(FileSystem.existsSync(path.resolve(__dirname, "../" + job.author + "/" + job.repo + "/" + job.branch + "/builds.json"))),
-            assert.isTrue(FileSystem.existsSync(path.resolve(__dirname, "../" + job.author + "/" + job.repo + "/" + job.branch + "/index.html"))),
-            assert.isTrue(FileSystem.existsSync(path.resolve(__dirname, "../" + job.author + "/" + job.repo + "/" + job.branch + "/badge.svg")))
+            assert.isTrue(FileSystem.existsSync(path.resolve(__dirname, "../" + job.directory + "/builds.json"))),
+            assert.isTrue(FileSystem.existsSync(path.resolve(__dirname, "../" + job.directory + "/index.html"))),
+            assert.isTrue(FileSystem.existsSync(path.resolve(__dirname, "../" + job.directory + "/badge.svg")))
         ]);
     });
 
     it("properly communicates status", () =>
-        assert.strictEqual(global.status.task[job.author + "/" + job.repo + "/" + job.branch], "Preparing Upload")
+        assert.strictEqual(global.status.task[job.directory], "Preparing Upload")
     );
 
     it("can handle failed builds", () =>
-        FileSystem.promises.writeFile(path.resolve(__dirname, "../" + job.author + "/" + job.repo + "/" + job.branch + "/files/src/main/java/com/github/jitpack/App.java"), "This will not compile.", "utf8").then(() =>
+        FileSystem.promises.writeFile(path.resolve(__dirname, "../" + job.directory + "/files/src/main/java/com/github/jitpack/App.java"), "This will not compile.", "utf8").then(() =>
             system.compile(job).then(() => Promise.all([
                 assert.exists(job.success),
                 assert.isFalse(job.success)
