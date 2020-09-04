@@ -2,8 +2,7 @@
 This is the repository of the backend for my builds-page.
 The page can be found here: https://thebusybiscuit.github.io/builds/
 
-This kinda serves as a "Continous Deployment" Service for Maven Projects,
-but it utilises GitHub Pages.
+This kinda serves as a "Continous Integration/Deployment" Service for Maven Projects which utilises static GitHub Pages.
 
 # Status
 [![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=TheBusyBiscuit_builds&metric=sqale_rating)](https://sonarcloud.io/dashboard?id=TheBusyBiscuit_builds)
@@ -16,7 +15,7 @@ but it utilises GitHub Pages.
 
 ## How it works
 The code itself is basically just a basic node.js Program.<br>
-It reads repositories from 'resources/repos.json' and connects to the GitHub-API.<br>
+It reads repositories from 'resources/repos.json' ([How to add your own repository](#how-to-add-your-own-repository)) and connects to the GitHub-API.<br>
 If you are interested in the specifics, then feel free to keep on reading.<br>
 
 ### 1. Commits
@@ -50,17 +49,23 @@ If we specified a discord webhook, it will also post a message on your discord s
 Now that everything completed, the program will add, commit and push all changed files to this repository.<br>
 After it's done, it will clear out any source files that arised during ```git clone```.<br>
 
-## How to add your own repo
-This repository holds Slimefun and a bunch of addons by the community. If you want to add yours then you will want to modify the `resources/repos.json`, go down to the bottom and add your repo as another JSON object.
+## How to add your own repository
+This repository hosts several of my Maven projects, including [Slimefun](https://github.com/TheBusyBiscuit/Slimefun4) and a couple of [Slimefun Addons](https://github.com/TheBusyBiscuit/Slimefun4/wiki/Addons) developed by the community.<br>
+If you want your own project to be added, simply submit a Pull Request to this repository with your desired changes and a description of why you want your project to be added.
+All you have to do is to modify the `resources/repos.json` file, go down to the bottom and add your repository as another JSON object.
 
-In your Pull Request with the modified `repos.json` explain what your addon is about and why you wish to be displayed on the build page.
+### Prerequisites
+Repositories must fulfill the following criteria:
+1. They must have a valid `pom.xml` file.
+2. They must be publicly available on GitHub and Open-Source.
+3. They must have a valid `LICENSE` file with a permissive Open-Source license (e.g. MIT, Apache or GNU GPL or similar).
 
 ### Example
-```
-{
-...
+```javascript
+    // ...
     // Replace this with your username, repo and branch you wish to publish. For example: AwesomeUser/CoolAddon:main
     "User/Repo:branch": {
+        // Some repositories support the usage of sonar-scanner, custom repositories cannot have this feature though (yet)
         "sonar": {
             "enabled": false
         },
@@ -69,6 +74,7 @@ In your Pull Request with the modified `repos.json` explain what your addon is a
             "prefix": "DEV"
         },
         // What your addon supports/depends on. The number key indicates the minium build.
+        // You can list any text or even links here.
         "dependencies": {
             "Minecraft Version(s)": {
                 "1": "1.13.x, 1.14.x, 1.15.x, 1.16.x"
@@ -81,6 +87,18 @@ In your Pull Request with the modified `repos.json` explain what your addon is a
             },
         }
     }
-...
 }
-...
+```
+
+### Auto-Updater
+If you are using [CS-CoreLib v2](https://github.com/TheBusyBiscuit/CS-CoreLib2) or [Slimefun](https://github.com/TheBusyBiscuit/Slimefun4) for your project, you can use our premade Auto-Updater for your project.
+You can add our Auto-Updater by placing this inside the `onEnable()` method of your main class which extends `JavaPlugin`.
+
+```java
+if (autoUpdatesEnabled) {
+    Updater updater = new GitHubBuildsUpdater(this, this.getFile(), "USER/REPO/BRANCH");
+    updater.start();
+}
+```
+
+**Make sure to add a config option for enabling/disabling auto-updates though!**
