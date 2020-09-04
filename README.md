@@ -49,3 +49,38 @@ If we specified a discord webhook, it will also post a message on your discord s
 ### 6. Finishing / Uploading
 Now that everything completed, the program will add, commit and push all changed files to this repository.<br>
 After it's done, it will clear out any source files that arised during ```git clone```.<br>
+
+## How to add your own repo
+This repository holds Slimefun and a bunch of addons by the community. If you want to add yours then you will want to modify the `resources/repos.json`, go down to the bottom and add your repo as another JSON object.
+
+In your Pull Request with the modified `repos.json` explain what your addon is about and why you wish to be displayed on the build page.
+
+### Example
+```
+{
+...
+    // Replace this with your username, repo and branch you wish to publish. For example: AwesomeUser/CoolAddon:main
+    "User/Repo:branch": {
+        "sonar": {
+            "enabled": false
+        },
+        // What the builds will be prefixed with. "DEV" would make builds like "CoolAddon - DEV 1 (githash)"
+        "options": {
+            "prefix": "DEV"
+        },
+        // What your addon supports/depends on. The number key indicates the minium build.
+        "dependencies": {
+            "Minecraft Version(s)": {
+                "1": "1.13.x, 1.14.x, 1.15.x, 1.16.x"
+            },
+            "CS-CoreLib Version": {
+                "1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/CS-CoreLib/master/#100\">dev #100</a>"
+            },
+            "Slimefun Version": {
+                "1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/Slimefun4/master/#600\">dev #600</a>"
+            },
+        }
+    }
+...
+}
+...
