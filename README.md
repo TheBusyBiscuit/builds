@@ -53,6 +53,8 @@ After it's done, it will clear out any source files that arised during ```git cl
 ## How to add your own repo
 This repository holds Slimefun and a bunch of addons by the community. If you want to add yours then you will want to modify the `resources/repos.json`, go down to the bottom and add your repo as another JSON object.
 
+In your Pull Request with the modified `repos.json` explain what your addon is about and why you wish to be displayed on the build page.
+
 ### Example
 ```
 {
