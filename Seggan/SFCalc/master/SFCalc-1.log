@@ -1,0 +1,70 @@
+INFO] Scanning for projects...
+[[INFO] 
+[INFO] -------------------< io.github.seggan.sfcalc:SFCalc >-------------------
+[INFO] Building SFCalc DEV - 1 (git 59afbc99)
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-clean-plugin/2.5/maven-clean-plugin-2.5.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-clean-plugin/2.5/maven-clean-plugin-2.5.pom (3.9 kB at 7.3 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/22/maven-plugins-22.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/22/maven-plugins-22.pom (13 kB at 266 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/21/maven-parent-21.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/21/maven-parent-21.pom (26 kB at 712 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/apache/10/apache-10.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/apache/10/apache-10.pom (15 kB at 510 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-clean-plugin/2.5/maven-clean-plugin-2.5.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-clean-plugin/2.5/maven-clean-plugin-2.5.jar (25 kB at 573 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-resources-plugin/2.6/maven-resources-plugin-2.6.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-resources-plugin/2.6/maven-resources-plugin-2.6.pom (8.1 kB at 225 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/23/maven-plugins-23.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/23/maven-plugins-23.pom (9.2 kB at 297 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/22/maven-parent-22.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/22/maven-parent-22.pom (30 kB at 959 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/apache/11/apache-11.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/apache/11/apache-11.pom (15 kB at 529 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-resources-plugin/2.6/maven-resources-plugin-2.6.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-resources-plugin/2.6/maven-resources-plugin-2.6.jar (30 kB at 720 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-compiler-plugin/3.1/maven-compiler-plugin-3.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-compiler-plugin/3.1/maven-compiler-plugin-3.1.pom (10 kB at 365 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/24/maven-plugins-24.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/24/maven-plugins-24.pom (11 kB at 386 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/23/maven-parent-23.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/23/maven-parent-23.pom (33 kB at 1.1 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/apache/13/apache-13.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/apache/13/apache-13.pom (14 kB at 499 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-compiler-plugin/3.1/maven-compiler-plugin-3.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-compiler-plugin/3.1/maven-compiler-plugin-3.1.jar (43 kB at 1.1 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/2.12.4/maven-surefire-plugin-2.12.4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/2.12.4/maven-surefire-plugin-2.12.4.pom (10 kB at 299 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire/2.12.4/surefire-2.12.4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire/2.12.4/surefire-2.12.4.pom (14 kB at 511 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/2.12.4/maven-surefire-plugin-2.12.4.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/2.12.4/maven-surefire-plugin-2.12.4.jar (30 kB at 802 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-jar-plugin/2.4/maven-jar-plugin-2.4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-jar-plugin/2.4/maven-jar-plugin-2.4.pom (5.8 kB at 216 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-jar-plugin/2.4/maven-jar-plugin-2.4.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-jar-plugin/2.4/maven-jar-plugin-2.4.jar (34 kB at 810 kB/s)
+[INFO] Downloading from jittpack: https://jitpack.io/org/bukkit/bukkit/1.15.2-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from jittpack: https://jitpack.io/org/bukkit/bukkit/1.15.2-R0.1-SNAPSHOT/bukkit-1.15.2-R0.1-SNAPSHOT.pom
+[WARNING] The POM for org.bukkit:bukkit:jar:1.15.2-R0.1-SNAPSHOT is missing, no dependency information available
+[INFO] Downloading from jittpack: https://jitpack.io/com/github/thebusybiscuit/Slimefun4/RC-15/Slimefun4-RC-15.pom
+[INFO] Downloaded from jittpack: https://jitpack.io/com/github/thebusybiscuit/Slimefun4/RC-15/Slimefun4-RC-15.pom (12 kB at 129 kB/s)
+[INFO] Downloading from jittpack: https://jitpack.io/com/github/TheBusyBiscuit/CS-CoreLib/9dd4a1cf8d/CS-CoreLib-9dd4a1cf8d.pom
+[INFO] Downloaded from jittpack: https://jitpack.io/com/github/TheBusyBiscuit/CS-CoreLib/9dd4a1cf8d/CS-CoreLib-9dd4a1cf8d.pom (4.2 kB at 63 kB/s)
+[INFO] Downloading from jittpack: https://jitpack.io/org/bukkit/bukkit/1.15.2-R0.1-SNAPSHOT/bukkit-1.15.2-R0.1-SNAPSHOT.jar
+[INFO] Downloading from jittpack: https://jitpack.io/com/github/TheBusyBiscuit/CS-CoreLib/9dd4a1cf8d/CS-CoreLib-9dd4a1cf8d.jar
+[INFO] Downloading from jittpack: https://jitpack.io/com/github/thebusybiscuit/Slimefun4/RC-15/Slimefun4-RC-15.jar
+[INFO] Downloaded from jittpack: https://jitpack.io/com/github/TheBusyBiscuit/CS-CoreLib/9dd4a1cf8d/CS-CoreLib-9dd4a1cf8d.jar (386 kB at 1.7 MB/s)
+[INFO] Downloaded from jittpack: https://jitpack.io/com/github/thebusybiscuit/Slimefun4/RC-15/Slimefun4-RC-15.jar (4.0 MB at 10 MB/s)
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  2.605 s
+[INFO] F--------------inished at: 2020-09-04T13:10:58Z
+[INFO] ----------------------------------------------------------
+[ERROR] Failed to execute goal on project SFCalc: Could not resolve dependencies for project io.github.seggan.sfcalc:SFCalc:jar:DEV - 1 (git 59afbc99): Could not find artifact org.bukkit:bukkit:jar:1.15.2-R0.1-SNAPSHOT in jittpack (https://jitpack.io) -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/DependencyResolutionException
