@@ -731,5 +731,24 @@
 				"1": "<a class=\"link_info\" href=\"https://dev.bukkit.org/projects/multiverse-core/\">4.1.0</a>"
 			}
 		}
+	},
+	"Seggan/SFCalc:master": {
+		"sonar": {
+			"enabled": false
+		},
+		"options": {
+			"prefix": "DEV"
+		},
+		"dependencies": {
+			"Minecraft Version(s)": {
+				"1": "1.14.x, 1.15.x, 1.16.x"
+			},
+			"CS-CoreLib Version": {
+				"1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/CS-CoreLib/master/#79\">dev #79</a>"
+			},
+			"Slimefun Version": {
+				"1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/Slimefun4/stable/#15\">RC-15</a>"
+			}
+		}
 	}
 }
