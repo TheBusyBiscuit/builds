@@ -1,12 +1,13 @@
 <!DOCTYPE HTML>
 <html>
     <head>
-        <title>Repo Server</title>
+        <title>TheBusyBiscuit's builds page</title>
 
 	<link rel="stylesheet" href="style.css">
         <link href="https://fonts.googleapis.com/css?family=Noto+Sans:400,700" rel="stylesheet">
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
         <script type="text/javascript">
             $(function() {
                 $.getJSON("https://thebusybiscuit.github.io/builds/resources/repos.json", function(repos) {
@@ -31,15 +32,15 @@
 
                 for (var repo in repos) {
                     if (repo.split("/")[0] !== user) continue;
-
-                    console.log("Found Project \"" + repo + "\"");
-					var repository = repo.split('/')[1].split(":")[0];
-					var branch = repo.split('/')[1].split(":")[1];
-					var directory = user + '/' + repository + '/' + branch;
-					
-					if (repos[repo].options && repos[repo].options.custom_directory) {
-						directory = repos[repo].options.custom_directory;
-					}
+                        
+                        console.log("Found Project \"" + repo + "\"");
+                        var repository = repo.split('/')[1].split(":")[0];
+                        var branch = repo.split('/')[1].split(":")[1];
+                        var directory = user + '/' + repository + '/' + branch;
+                        
+                        if (repos[repo].options && repos[repo].options.custom_directory) {
+                                directory = repos[repo].options.custom_directory;
+                        }
 					
                     addRepository(table, directory, user, repository, branch);
                 }
@@ -66,13 +67,15 @@
             }
         </script>
     </head>
+
     <body>
         <div class="header">
             <a class="link_main" href="https://github.com/TheBusyBiscuit/builds">
-				<img alt="beaker" src="https://cdnjs.cloudflare.com/ajax/libs/octicons/8.5.0/svg/beaker.svg" style="filter: invert(1);height: 50%; vertical-align: middle; padding-bottom: 6px;">
-				<span style="padding-left: 12px;">TheBusyBiscuit's builds page</span>
-			</a>
+                    <img alt="beaker" src="https://cdnjs.cloudflare.com/ajax/libs/octicons/8.5.0/svg/beaker.svg" style="filter: invert(1);height: 50%; vertical-align: middle; padding-bottom: 6px;">
+                    <span>TheBusyBiscuit's builds page</span>
+                </a>
         </div>
+
         <div id="repos" class="page">
             <div class="box repo">
                 <div style="width: 100%; text-align: center;">
