@@ -212,6 +212,7 @@ tr:nth-child(odd) {
     margin-left: 2px;
     margin-right: 2px;
     text-align: center;
+    padding-top: 4px;
 }
 .dev:nth-child(even) {
     background-color: rgb(231, 231, 231);
