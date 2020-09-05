@@ -26,7 +26,7 @@
             });
 
             function addProfile(user, repos) {
-                $("#repos").append('<div class="box" style="width: 65%; margin: 2vh auto;"><a style="padding-top: 1vh;" class="link_build link_repo" href="https://github.com/' + user + '">' + user + '</a><table id="projects_' + user + '" class="info_table"></table></div>');
+                $("#repos").append('<div class="box" style="width: 65%; margin: 2vh auto;"><a style="padding-top: 1vh;" class="link_build link_repo" href="https://github.com/' + user + '"><img alt="profil" src="https://cdnjs.cloudflare.com/ajax/libs/octicons/8.5.0/svg/person.svg" class="profile_icon">' + '<span>' + user + '<span></a><table id="projects_' + user + '" class="info_table"></table></div>');
                 var table = $("#projects_" + user);
 
                 for (var repo in repos) {
@@ -68,7 +68,10 @@
     </head>
     <body>
         <div class="header">
-            <a class="link_main" href="https://thebusybiscuit.github.io/builds/">TheBusyBiscuit's Repo Server</a>
+            <a class="link_main" href="https://github.com/TheBusyBiscuit/builds">
+				<img alt="beaker" src="https://cdnjs.cloudflare.com/ajax/libs/octicons/8.5.0/svg/beaker.svg" style="filter: invert(1);height: 50%; vertical-align: middle; padding-bottom: 6px;">
+				<span style="padding-left: 12px;">TheBusyBiscuit's builds page</span>
+			</a>
         </div>
         <div id="repos" class="page">
             <div class="box repo">

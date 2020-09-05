@@ -24,7 +24,7 @@ $(function() {
             $("#dependency_section").show();
         }
 
-        function loadBuild(builds, id) {
+        function selectBuild(builds, id) {
             var stroke = "rgb(110, 110, 110)";
             var color = "rgb(160, 160, 160)";
 
@@ -143,7 +143,7 @@ $(function() {
             }
 
             // Load currently selected Build
-            loadBuild(builds, current);
+            selectBuild(builds, current);
 
             // "Last Successful Build" Link
             var link_last_successful = $("#link_last_successful_build");
@@ -163,7 +163,7 @@ $(function() {
 
             // Add Click Events
             $(".trigger").click(function() {
-                loadBuild(builds, parseInt($(this).attr("href").substr(1)));
+                selectBuild(builds, parseInt($(this).attr("href").substr(1)));
             });
         });
     });

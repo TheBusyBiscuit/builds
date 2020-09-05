@@ -65,6 +65,7 @@ svg {
 .current_status {
     margin-bottom: auto;
     margin-top: auto;
+	font-weight: bold;
 }
 .current_name {
     font-size: 130%;
@@ -317,6 +318,11 @@ a.build_child {
 }
 .info_table_middle {
 	width: 30%;
+}
+.profile_icon {
+	padding-bottom: 6px;
+	transform: scale(1.5) translate(-8px, 1px);
+	vertical-align: middle;
 }
 
 #download_section {
