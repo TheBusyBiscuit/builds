@@ -1,25 +1,5 @@
 {
-	"TheBusyBiscuit/CS-CoreLib:master": {
-		"sonar": {
-			"enabled": true,
-			"organization": "thebusybiscuit-github",
-			"project-key": "TheBusyBiscuit_CS-CoreLib",
-			"host-url": "https://sonarcloud.io"
-		},
-		"options": {
-			"prefix": "DEV"
-		},
-		"dependencies": {
-			"Minecraft Version(s)": {
-				"88": "1.12.x, 1.13.x, 1.14.x, 1.15.x, 1.16.x",
-				"79": "1.12.x, 1.13.x, 1.14.x, 1.15.x",
-				"39": "1.12.x, 1.13.x, 1.14.x",
-				"20": "1.11.x, 1.12.x, 1.13.x",
-				"1": "1.10.x, 1.11.x, 1.12.x"
-			}
-		}
-	},
-	"TheBusyBiscuit/Slimefun4:master": {
+	"Slimefun/Slimefun4:master": {
 		"sonar": {
 			"enabled": true,
 			"organization": "thebusybiscuit-github",
@@ -52,7 +32,7 @@
 			}
 		}
 	},
-	"TheBusyBiscuit/Slimefun4:stable": {
+	"Slimefun/Slimefun4:stable": {
 		"sonar": {
 			"enabled": false
 		},
@@ -70,6 +50,26 @@
 			"CS-CoreLib Version": {
 				"4": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/CS-CoreLib/master/#79\">dev #79</a>",
 				"1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/CS-CoreLib/master/#44\">1.6</a>"
+			}
+		}
+	},
+	"TheBusyBiscuit/CS-CoreLib:master": {
+		"sonar": {
+			"enabled": true,
+			"organization": "thebusybiscuit-github",
+			"project-key": "TheBusyBiscuit_CS-CoreLib",
+			"host-url": "https://sonarcloud.io"
+		},
+		"options": {
+			"prefix": "DEV"
+		},
+		"dependencies": {
+			"Minecraft Version(s)": {
+				"88": "1.12.x, 1.13.x, 1.14.x, 1.15.x, 1.16.x",
+				"79": "1.12.x, 1.13.x, 1.14.x, 1.15.x",
+				"39": "1.12.x, 1.13.x, 1.14.x",
+				"20": "1.11.x, 1.12.x, 1.13.x",
+				"1": "1.10.x, 1.11.x, 1.12.x"
 			}
 		}
 	},
