@@ -6,6 +6,7 @@
   "scripts": {
     "remote": "node ./src/remote.js",
     "iteration": "node ./src/single-run.js",
+    "regen": "node ./src/force-update.js",
     "test": "nyc --reporter=lcov --reporter=text-lcov mocha test/*.js --reporter mocha-multi-reporters --reporter-options configFile=resources/mocha.json",
     "sonar": "node ./src/sonar.js"
   },
