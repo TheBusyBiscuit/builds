@@ -1,0 +1,34 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------------------< me.sfiguz7:TranscEndence >----------------------
+[INFO] Building TranscEndence DEV - 20 (git b158f9b4)
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ TranscEndence ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ TranscEndence ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ TranscEndence ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 27 source files to /home/runner/work/builds/builds/Sfiguz7/TranscEndence/master/files/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ TranscEndence ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/runner/work/builds/builds/Sfiguz7/TranscEndence/master/files/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ TranscEndence ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ TranscEndence ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ TranscEndence ---
+[INFO] Building jar: /home/runner/work/builds/builds/Sfiguz7/TranscEndence/master/files/target/TranscEndence-20.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  2.341 s
+[INFO] Finished at: 2020-09-10T17:11:22Z
+[INFO] ------------------------------------------------------------------------
