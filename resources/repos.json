@@ -362,7 +362,7 @@
 		},
 		"dependencies": {
 			"Minecraft Version(s)": {
-				"4": "1.14.x, 1.15.x",
+				"4": "1.14.x, 1.15.x, 1.16.x",
 				"1": "1.13.x, 1.14.x, 1.15.x"
 			},
 			"CS-CoreLib Version": {
