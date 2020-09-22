@@ -80,11 +80,12 @@ svg {
 }
 .current_info {
     border: 2px rgb(200, 200, 200) solid;
+    box-shadow: 0px 0px 3px 3px #d2d2d2;
     margin: auto;
     width: 75%;
 }
 .current_commit {
-    border: 2px rgb(230, 230, 230) solid;
+    box-shadow: 0px 0px 3px 3px #d2d2d2;
     display: table;
     margin: auto;
     padding: 0.75vh 0 0.75vh 0;
@@ -306,7 +307,6 @@ a.build_child {
         transform: rotate(360deg);
     }
 }
-
 .console {
     background-color: rgb(35, 35, 35);
     color: rgb(209, 154, 102);
@@ -316,25 +316,22 @@ a.build_child {
     overflow-y: scroll;
     width: 99.5%;
 }
-
 .table_label {
     width: 25%;
 }
 .info_table_middle {
-	width: 30%;
+    width: 30%;
 }
 .profile_icon {
 	padding-bottom: 6px;
 	transform: scale(1.5) translate(-8px, 1px);
 	vertical-align: middle;
 }
-
 #download_section {
-	border: 3px solid rgb(95, 95, 95) !important;
-	background-color: rgb(111, 255, 111) !important;
+	border: 3px solid #72d072 !important;
+	background-color: #6fff6f !important;
 	font-weight: bold;	
 }
-
 #dependency_section {
 	margin-bottom: 20px !important;
 }
