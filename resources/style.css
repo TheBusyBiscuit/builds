@@ -87,6 +87,7 @@ svg {
     border: 2px rgb(230, 230, 230) solid;
     display: table;
     margin: auto;
+    padding: 0.75vh 0 0.75vh 0;
     text-align: center;
     width: 95%;
 }
