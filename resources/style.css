@@ -99,6 +99,7 @@ svg {
     margin-top: auto;
 }
 .current_commit_avatar {
+    border-radius: 50%;
     height: 40px;
     margin-right: 10px;
     width: 40px;
