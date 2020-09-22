@@ -16,11 +16,11 @@ jobs:
       with:
         ref: gh-pages
     - name: Auto Minify
-      uses: nizarmah/auto-minify@master
+      uses: nizarmah/auto-minify@v2.0
       with:
         directory: 'resources'
     - name: Auto committing minified files
-      uses: stefanzweifel/git-auto-commit-action 
+      uses: stefanzweifel/git-auto-commit-action@v4.5.1
       with: 
         repository: 'resources'
         commit_message: "Automatically minified resources directory"
