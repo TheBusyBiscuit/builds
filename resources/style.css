@@ -198,16 +198,13 @@ tr:nth-child(odd) {
     display: block;
     height: 75%;
     margin-bottom: 3px;
-	overflow-y: hidden;
+    overflow-y: hidden;
     width: 100%;
 }
 .builds {
     background-color: rgb(244, 244, 244);
-    border: 2px rgb(200, 200, 200) solid;
     height: 100%;
-    margin: 2px;
     overflow-y: scroll;
-    transform: translateY(-5px);
 }
 .build_header {
     background-color: rgb(200, 200, 200);
@@ -328,7 +325,7 @@ a.build_child {
 	vertical-align: middle;
 }
 #download_section {
-	border: 3px solid #72d072 !important;
+	border: 2px solid #72d072 !important;
 	background-color: #6fff6f !important;
 	font-weight: bold;	
 }
