@@ -2,8 +2,8 @@
 	"Slimefun/Slimefun4:master": {
 		"sonar": {
 			"enabled": true,
-			"organization": "thebusybiscuit-github",
-			"project-key": "TheBusyBiscuit_Slimefun4",
+			"organization": "slimefun",
+			"project-key": "Slimefun_Slimefun4",
 			"host-url": "https://sonarcloud.io"
 		},
 		"options": {
@@ -50,6 +50,22 @@
 			"CS-CoreLib Version": {
 				"4": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/CS-CoreLib/master/#79\">dev #79</a>",
 				"1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/CS-CoreLib/master/#44\">1.6</a>"
+			}
+		}
+	},
+	"Slimefun/SensibleToolbox:master": {
+		"sonar": {
+			"enabled": true,
+			"organization": "slimefun",
+			"project-key": "Slimefun_SensibleToolbox",
+			"host-url": "https://sonarcloud.io"
+		},
+		"options": {
+			"prefix": "DEV"
+		},
+		"dependencies": {
+			"Minecraft Version(s)": {
+				"1": "1.14.x, 1.15.x, 1.16.x"
 			}
 		}
 	},
