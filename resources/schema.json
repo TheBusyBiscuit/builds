@@ -1,0 +1,62 @@
+{
+  "type": "object",
+
+  "patternProperties": {
+    "^[A-Za-z0-9]+/[A-Za-z0-9]+:[A-Za-z0-9]+$": {
+      "type": "object",
+      "required": ["sonar", "options"],
+      "additionalProperties": false,
+
+      "properties": {
+        "sonar": {
+          "type": "object",
+          "required": ["enabled"],
+          "additionalProperties": false,
+
+          "properties": {
+            "enabled": {
+              "type": "boolean"
+            },
+            "organization": {
+              "type": "string",
+              "pattern": "^[a-z-]+$"
+            },
+            "project-key": {
+              "type": "string",
+              "pattern": "^[A-Z0-9a-z_-]+$"
+            },
+            "host-url": {
+              "type": "string",
+              "format": "uri"
+            }
+          }
+        },
+        "options": {
+          "type": "object",
+          "required": ["prefix"],
+          "additionalProperties": false,
+
+          "properties": {
+            "prefix": {
+              "type": "string"
+            },
+            "custom_directory": {
+              "type": "string"
+            }
+          }
+        },
+        "dependencies": {
+          "type": "object",
+          
+          "additionalProperties": {
+            "type": "object",
+
+            "additionalProperties": {
+              "type": "string"
+            }
+          }
+        }
+	    }
+    }
+  }
+}
