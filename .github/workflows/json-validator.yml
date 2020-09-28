@@ -5,12 +5,12 @@ on:
     branches:
     - gh-pages
     paths:
-    - resources/repos.json
+    - 'resources/repos.json'
   pull_request:
     branches:
     - gh-pages
     paths:
-    - resources/repos.json
+    - 'resources/repos.json'
 
 jobs:
   validate:
