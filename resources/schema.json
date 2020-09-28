@@ -50,13 +50,16 @@
           
           "additionalProperties": {
             "type": "object",
+            "additionalProperties": false,
 
-            "additionalProperties": {
-              "type": "string"
+            "patternProperties": {
+              "^[0-9]+$": {
+                "type": "string"       
+              }
             }
           }
         }
-	    }
+      }
     }
   }
 }
