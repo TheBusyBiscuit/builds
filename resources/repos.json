@@ -831,5 +831,24 @@
 				"1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/Slimefun4/master/#683\">dev #683</a>"
 			}
 		}
+	},
+	"Mooy1/InfinityExpansion:master": {
+		"sonar": {
+			"enabled": false
+		},
+		"options": {
+			"prefix": "DEV"
+		},
+		"dependencies": {
+			"Minecraft Version(s)": {
+				"1": "1.16.x"
+			},
+			"CS-CoreLib Version": {
+				"1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/CS-CoreLib/master/#91\">dev #91</a>"
+			},
+			"Slimefun Version": {
+				"1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/Slimefun4/master/#683\">dev #683</a>"
+			}
+		}
 	}
 }
