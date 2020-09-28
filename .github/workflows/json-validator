@@ -1,0 +1,28 @@
+name: Validate repos.json
+
+on:
+  push:
+    branches:
+    - gh-pages
+    paths:
+    - resources/repos.json
+  pull_request:
+    branches:
+    - gh-pages
+    paths:
+    - resources/repos.json
+
+jobs:
+  validate:
+  
+    name: Validate JSON
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v2
+    - name: Validate JSON
+      uses: OrRosenblatt/validate-json-action@0.1.0
+      env:
+        INPUT_SCHEMA: resources/schema.json
+        INPUT_JSONS: resources/repos.json
