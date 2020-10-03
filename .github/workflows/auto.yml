@@ -29,3 +29,4 @@ jobs:
       run: node src/single-run.js
       env:
         JSON_CONFIG: ${{ secrets.JSON_CONFIG }}
+        ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
