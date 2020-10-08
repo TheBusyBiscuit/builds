@@ -128,7 +128,7 @@ function compile(job, cfg, logging) {
  * @return {Array<String>}   The needed console line arguments
  */
 function getMavenArguments(job, cfg) {
-    var args = ["clean", "package", "-B", "-release", "8"];
+    var args = ["clean", "package", "-B"];
 
     if (job.sonar && job.sonar.enabled && cfg.sonar.isEnabled()) {
         args.push("sonar:sonar");
