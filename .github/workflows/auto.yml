@@ -14,6 +14,12 @@ jobs:
       uses: actions/checkout@v1
       with:
         ref: gh-pages
+    - name: Setting up Java 11
+      uses: actions/setup-java
+      with:
+        java-version: '11'
+        java-package: jdk
+        architecture: x64
     - name: Setting up node.js
       uses: actions/setup-node@v1
       with:
