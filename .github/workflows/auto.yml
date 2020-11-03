@@ -11,7 +11,7 @@ jobs:
 
     steps:
     - name: Checking out Repository
-      uses: actions/checkout@v2.3.3
+      uses: actions/checkout@v2.3.4
       with:
         ref: gh-pages
     - name: Setting up Java 11
