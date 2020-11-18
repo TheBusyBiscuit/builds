@@ -814,6 +814,25 @@
 			}
 		}
 	},
+	"Seggan/Liquid:master": {
+		"sonar": {
+			"enabled": false
+		},
+		"options": {
+			"prefix": "DEV"
+		},
+		"dependencies": {
+			"Minecraft Version(s)": {
+				"1": "1.15.x, 1.16.x"
+			},
+			"CS-CoreLib Version": {
+				"1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/CS-CoreLib/master/#90\">dev #91 or higher</a>"
+			},
+			"Slimefun Version": {
+				"1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/Slimefun4/stable/#16\">RC-17 or higher</a>"
+			}
+		}
+	},
 	"LinoxGH/MoreTools:build": {
 		"sonar": {
 			"enabled": false
