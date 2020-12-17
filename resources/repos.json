@@ -649,12 +649,13 @@
 			}
 		}
 	},
-	"J3fftw1/LiteXpansion:master": {
+	"Slimefun-Addon-Community/LiteXpansion:master": {
 		"sonar": {
 			"enabled": false
 		},
 		"options": {
-			"prefix": "DEV"
+			"prefix": "DEV",
+			"custom_directory": "J3fftw1/LiteXpansion/master"
 		},
 		"dependencies": {
 			"Minecraft Version(s)": {
@@ -669,12 +670,13 @@
 			}
 		}
 	},
-	"J3fftw1/SoundMuffler:master": {
+	"Slimefun-Addon-Community/SoundMuffler:master": {
 		"sonar": {
 			"enabled": false
 		},
 		"options": {
-			"prefix": "DEV"
+			"prefix": "DEV",
+			"custom_directory": "J3fftw1/SoundMuffler/master"
 		},
 		"dependencies": {
 			"Minecraft Version(s)": {
