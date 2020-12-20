@@ -1,0 +1,82 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------------------< dev.j3fftw:SoundMuffler >-----------------------
+[INFO] Building SoundMuffler DEV - 19 (git 5caef292)
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] Downloading from dmulloy2-repo: https://repo.dmulloy2.net/nexus/repository/public/org/spigotmc/spigot-api/1.16.4-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/github/TheBusyBiscuit/Slimefun4/RC-18/Slimefun4-RC-18.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/github/TheBusyBiscuit/Slimefun4/RC-18/Slimefun4-RC-18.pom
+[INFO] Downloaded from jitpack.io: https://jitpack.io/com/github/TheBusyBiscuit/Slimefun4/RC-18/Slimefun4-RC-18.pom (12 kB at 59 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/github/TheBusyBiscuit/CS-CoreLib/8081bb4fe4/CS-CoreLib-8081bb4fe4.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/github/TheBusyBiscuit/CS-CoreLib/8081bb4fe4/CS-CoreLib-8081bb4fe4.pom
+[INFO] Downloaded from jitpack.io: https://jitpack.io/com/github/TheBusyBiscuit/CS-CoreLib/8081bb4fe4/CS-CoreLib-8081bb4fe4.pom (4.8 kB at 28 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/github/dmulloy2/ProtocolLib/7bac4ec634/ProtocolLib-7bac4ec634.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/github/dmulloy2/ProtocolLib/7bac4ec634/ProtocolLib-7bac4ec634.pom
+[INFO] Downloaded from jitpack.io: https://jitpack.io/com/github/dmulloy2/ProtocolLib/7bac4ec634/ProtocolLib-7bac4ec634.pom (9.1 kB at 35 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/cglib/cglib-nodep/3.2.5/cglib-nodep-3.2.5.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/cglib/cglib-nodep/3.2.5/cglib-nodep-3.2.5.pom
+[INFO] Downloading from dmulloy2-repo: https://repo.dmulloy2.net/nexus/repository/public/cglib/cglib-nodep/3.2.5/cglib-nodep-3.2.5.pom
+[INFO] Downloading from bstats-repo: https://repo.codemc.org/repository/maven-public/cglib/cglib-nodep/3.2.5/cglib-nodep-3.2.5.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/cglib/cglib-nodep/3.2.5/cglib-nodep-3.2.5.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/cglib/cglib-nodep/3.2.5/cglib-nodep-3.2.5.pom (3.9 kB at 66 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/cglib/cglib-parent/3.2.5/cglib-parent-3.2.5.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/cglib/cglib-parent/3.2.5/cglib-parent-3.2.5.pom
+[INFO] Downloading from dmulloy2-repo: https://repo.dmulloy2.net/nexus/repository/public/cglib/cglib-parent/3.2.5/cglib-parent-3.2.5.pom
+[INFO] Downloading from bstats-repo: https://repo.codemc.org/repository/maven-public/cglib/cglib-parent/3.2.5/cglib-parent-3.2.5.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/cglib/cglib-parent/3.2.5/cglib-parent-3.2.5.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/cglib/cglib-parent/3.2.5/cglib-parent-3.2.5.pom (9.8 kB at 467 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/github/TheBusyBiscuit/Slimefun4/RC-18/Slimefun4-RC-18.jar
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/cglib/cglib-nodep/3.2.5/cglib-nodep-3.2.5.jar
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/github/dmulloy2/ProtocolLib/7bac4ec634/ProtocolLib-7bac4ec634.jar
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/github/TheBusyBiscuit/CS-CoreLib/8081bb4fe4/CS-CoreLib-8081bb4fe4.jar
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/github/TheBusyBiscuit/Slimefun4/RC-18/Slimefun4-RC-18.jar
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/github/TheBusyBiscuit/CS-CoreLib/8081bb4fe4/CS-CoreLib-8081bb4fe4.jar
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/github/dmulloy2/ProtocolLib/7bac4ec634/ProtocolLib-7bac4ec634.jar
+[INFO] Downloading from jitpack.io: https://jitpack.io/cglib/cglib-nodep/3.2.5/cglib-nodep-3.2.5.jar
+[INFO] Downloaded from jitpack.io: https://jitpack.io/com/github/TheBusyBiscuit/CS-CoreLib/8081bb4fe4/CS-CoreLib-8081bb4fe4.jar (201 kB at 781 kB/s)
+[INFO] Downloaded from jitpack.io: https://jitpack.io/com/github/TheBusyBiscuit/Slimefun4/RC-18/Slimefun4-RC-18.jar (4.1 MB at 14 MB/s)
+[INFO] Downloaded from jitpack.io: https://jitpack.io/com/github/dmulloy2/ProtocolLib/7bac4ec634/ProtocolLib-7bac4ec634.jar (1.4 MB at 2.5 MB/s)
+[INFO] Downloading from dmulloy2-repo: https://repo.dmulloy2.net/nexus/repository/public/cglib/cglib-nodep/3.2.5/cglib-nodep-3.2.5.jar
+[INFO] Downloading from bstats-repo: https://repo.codemc.org/repository/maven-public/cglib/cglib-nodep/3.2.5/cglib-nodep-3.2.5.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/cglib/cglib-nodep/3.2.5/cglib-nodep-3.2.5.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/cglib/cglib-nodep/3.2.5/cglib-nodep-3.2.5.jar (353 kB at 7.8 MB/s)
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ SoundMuffler ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ SoundMuffler ---
+[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 2 resources to .
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.5.1:compile (default-compile) @ SoundMuffler ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] Compiling 3 source files to /home/runner/work/builds/builds/J3fftw1/SoundMuffler/master/files/target/classes
+[INFO] /home/runner/work/builds/builds/J3fftw1/SoundMuffler/master/files/src/main/java/dev/j3fftw/soundmuffler/SoundMufflerMachine.java: /home/runner/work/builds/builds/J3fftw1/SoundMuffler/master/files/src/main/java/dev/j3fftw/soundmuffler/SoundMufflerMachine.java uses or overrides a deprecated API.
+[INFO] /home/runner/work/builds/builds/J3fftw1/SoundMuffler/master/files/src/main/java/dev/j3fftw/soundmuffler/SoundMufflerMachine.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ SoundMuffler ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /home/runner/work/builds/builds/J3fftw1/SoundMuffler/master/files/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.5.1:testCompile (default-testCompile) @ SoundMuffler ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ SoundMuffler ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ SoundMuffler ---
+[INFO] Building jar: /home/runner/work/builds/builds/J3fftw1/SoundMuffler/master/files/target/SoundMuffler-19.jar
+[INFO] 
+[INFO] --- maven-shade-plugin:2.3:shade (default) @ SoundMuffler ---
+[INFO] Including org.bstats:bstats-bukkit:jar:1.7 in the shaded jar.
+[INFO] Replacing original artifact with shaded artifact.
+[INFO] Replacing /home/runner/work/builds/builds/J3fftw1/SoundMuffler/master/files/target/SoundMuffler-19.jar with /home/runner/work/builds/builds/J3fftw1/SoundMuffler/master/files/target/SoundMuffler-DEV - 19 (git 5caef292)-shaded.jar
+[INFO] Dependency-reduced POM written at: /home/runner/work/builds/builds/J3fftw1/SoundMuffler/master/files/dependency-reduced-pom.xml
+[INFO] Dependency-reduced POM written at: /home/runner/work/builds/builds/J3fftw1/SoundMuffler/master/files/dependency-reduced-pom.xml
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  6.655 s
+[INFO] Finished at: 2020-12-20T16:40:44Z
+[INFO] ------------------------------------------------------------------------
