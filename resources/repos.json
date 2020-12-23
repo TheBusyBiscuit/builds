@@ -651,7 +651,10 @@
 	},
 	"Slimefun-Addon-Community/LiteXpansion:master": {
 		"sonar": {
-			"enabled": false
+			"enabled": true,
+			"organization": "slimefun-addon-community",
+			"project-key": "Slimefun-Addon-Community_LiteXpansion",
+			"host-url": "https://sonarcloud.io"
 		},
 		"options": {
 			"prefix": "DEV",
@@ -672,7 +675,10 @@
 	},
 	"Slimefun-Addon-Community/SoundMuffler:master": {
 		"sonar": {
-			"enabled": false
+			"enabled": true,
+			"organization": "slimefun-addon-community",
+			"project-key": "Slimefun-Addon-Community_SoundMuffler",
+			"host-url": "https://sonarcloud.io"
 		},
 		"options": {
 			"prefix": "DEV",
