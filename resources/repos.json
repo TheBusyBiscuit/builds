@@ -930,5 +930,24 @@
 				"1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/Slimefun4/master/#772\">dev #772</a>"
 			}
 		}
+	},
+	"ProfElements/DynaTech/master": {
+		"sonar": {
+			"enabled": "false"
+		},
+		"options": {
+			"prefix": "DEV"
+		},
+		"dependencies": {
+			"Minecraft Version(s)": {
+				"1" : "1.14.x, 1.15.x, 1.16.x"
+			},
+			"CS-CoreLib Version": {
+				"1":"<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/CS-CoreLib/master/#92\">dev #92</a>"
+			},
+			"Slimefun Version": {
+				"1":"<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/Slimefun4/stable/#18\">RC-18</a>"
+			}
+		}
 	}
 }
