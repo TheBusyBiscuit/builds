@@ -931,7 +931,7 @@
 			}
 		}
 	},
-	"ProfElements/DynaTech/master": {
+	"ProfElements/DynaTech:master": {
 		"sonar": {
 			"enabled": "false"
 		},
