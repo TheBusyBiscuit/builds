@@ -933,7 +933,7 @@
 	},
 	"ProfElements/DynaTech:master": {
 		"sonar": {
-			"enabled": "false"
+			"enabled": false
 		},
 		"options": {
 			"prefix": "DEV"
