@@ -1,5 +1,6 @@
 {
   "type": "object",
+  "additionalProperties": false,
 
   "patternProperties": {
     "^[A-Za-z0-9_-]+/[A-Za-z0-9_-]+:[A-Za-z0-9_-]+$": {
