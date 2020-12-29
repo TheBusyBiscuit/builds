@@ -58,7 +58,7 @@ function structure(json) {
             getInterval: () => json.server.interval
         },
         github: {
-            getToken: () => json.github.token
+            getToken: () => process.env.ACCESS_TOKEN
         },
         discord: {
             isEnabled: () => json.discord.enabled,

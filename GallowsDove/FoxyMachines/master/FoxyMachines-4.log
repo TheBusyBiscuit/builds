@@ -1,0 +1,52 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------------< me.gallowsdove:FoxyMachines >---------------------
+[INFO] Building FoxyMachines DEV - 4 (git 973ffc7b)
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/github/TheBusyBiscuit/CS-CoreLib/8081bb4fe4/CS-CoreLib-8081bb4fe4.pom
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/github/TheBusyBiscuit/CS-CoreLib/8081bb4fe4/CS-CoreLib-8081bb4fe4.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/github/TheBusyBiscuit/CS-CoreLib/8081bb4fe4/CS-CoreLib-8081bb4fe4.pom
+[INFO] Downloaded from jitpack.io: https://jitpack.io/com/github/TheBusyBiscuit/CS-CoreLib/8081bb4fe4/CS-CoreLib-8081bb4fe4.pom (4.8 kB at 25 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/github/Slimefun/Slimefun4/RC-16/Slimefun4-RC-16.pom
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/github/Slimefun/Slimefun4/RC-16/Slimefun4-RC-16.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/github/Slimefun/Slimefun4/RC-16/Slimefun4-RC-16.pom
+[INFO] Downloaded from jitpack.io: https://jitpack.io/com/github/Slimefun/Slimefun4/RC-16/Slimefun4-RC-16.pom (12 kB at 156 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/github/TheBusyBiscuit/CS-CoreLib/8081bb4fe4/CS-CoreLib-8081bb4fe4.jar
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/github/Slimefun/Slimefun4/RC-16/Slimefun4-RC-16.jar
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/github/TheBusyBiscuit/CS-CoreLib/8081bb4fe4/CS-CoreLib-8081bb4fe4.jar
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/github/Slimefun/Slimefun4/RC-16/Slimefun4-RC-16.jar
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/github/TheBusyBiscuit/CS-CoreLib/8081bb4fe4/CS-CoreLib-8081bb4fe4.jar
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/github/Slimefun/Slimefun4/RC-16/Slimefun4-RC-16.jar
+[INFO] Downloaded from jitpack.io: https://jitpack.io/com/github/TheBusyBiscuit/CS-CoreLib/8081bb4fe4/CS-CoreLib-8081bb4fe4.jar (201 kB at 1.2 MB/s)
+[INFO] Downloaded from jitpack.io: https://jitpack.io/com/github/Slimefun/Slimefun4/RC-16/Slimefun4-RC-16.jar (4.1 MB at 9.3 MB/s)
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ FoxyMachines ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ FoxyMachines ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ FoxyMachines ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 12 source files to /home/runner/work/builds/builds/GallowsDove/FoxyMachines/master/files/target/classes
+[WARNING] /home/runner/work/builds/builds/GallowsDove/FoxyMachines/master/files/src/main/java/me/gallowsdove/foxymachines/implementation/machines/ImprovementForge.java: Some input files use or override a deprecated API.
+[WARNING] /home/runner/work/builds/builds/GallowsDove/FoxyMachines/master/files/src/main/java/me/gallowsdove/foxymachines/implementation/machines/ImprovementForge.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ FoxyMachines ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/runner/work/builds/builds/GallowsDove/FoxyMachines/master/files/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ FoxyMachines ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ FoxyMachines ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ FoxyMachines ---
+[INFO] Building jar: /home/runner/work/builds/builds/GallowsDove/FoxyMachines/master/files/target/FoxyMachines-4.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  6.401 s
+[INFO] Finished at: 2020-10-10T16:15:50Z
+[INFO] ------------------------------------------------------------------------
