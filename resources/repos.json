@@ -880,6 +880,25 @@
 			}
 		}
 	},
+	"NCBPFluffyBear/SlimyRepair:master": {
+		"sonar": {
+			"enabled": false
+		},
+		"options": {
+			"prefix": "DEV"
+		},
+		"dependencies": {
+			"Minecraft Version(s)": {
+				"1": "1.14.x, 1.15.x, 1.16.x"
+			},
+			"CS-CoreLib Version": {
+				"1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/CS-CoreLib/master/#92\">dev #92</a>"
+			},
+			"Slimefun Version": {
+				"1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/Slimefun4/master/#769\">dev #769</a>"
+			}
+		}
+	},
 	"Mooy1/InfinityExpansion:master": {
 		"sonar": {
 			"enabled": false
