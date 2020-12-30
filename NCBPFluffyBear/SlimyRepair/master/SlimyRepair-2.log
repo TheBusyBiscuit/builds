@@ -1,0 +1,111 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -------------------< me.ncbpfluffybear:SlimyRepair >--------------------
+[INFO] Building SlimyRepair DEV - 2 (git 1a0065a5)
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/spigotmc/spigot-api/1.14.2-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/spigotmc/spigot-api/1.14.2-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/spigotmc/spigot-api/1.14.2-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from CodeMC: https://repo.codemc.org/repository/maven-public/org/spigotmc/spigot-api/1.14.2-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloaded from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/spigotmc/spigot-api/1.14.2-R0.1-SNAPSHOT/maven-metadata.xml (1.5 kB at 2.8 kB/s)
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/spigotmc/spigot-api/1.14.2-R0.1-SNAPSHOT/maven-metadata.xml (1.5 kB at 914 B/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/spigotmc/spigot-api/1.14.2-R0.1-SNAPSHOT/spigot-api-1.14.2-R0.1-20190621.095659-33.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/spigotmc/spigot-api/1.14.2-R0.1-SNAPSHOT/spigot-api-1.14.2-R0.1-20190621.095659-33.pom (8.7 kB at 11 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/net/md-5/bungeecord-chat/1.13-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from jitpack.io: https://jitpack.io/net/md-5/bungeecord-chat/1.13-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/net/md-5/bungeecord-chat/1.13-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from CodeMC: https://repo.codemc.org/repository/maven-public/net/md-5/bungeecord-chat/1.13-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from spigotmc-public: https://hub.spigotmc.org/nexus/content/groups/public/net/md-5/bungeecord-chat/1.13-SNAPSHOT/maven-metadata.xml
+[INFO] Downloaded from spigotmc-public: https://hub.spigotmc.org/nexus/content/groups/public/net/md-5/bungeecord-chat/1.13-SNAPSHOT/maven-metadata.xml (1.2 kB at 7.5 kB/s)
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/net/md-5/bungeecord-chat/1.13-SNAPSHOT/maven-metadata.xml (1.2 kB at 2.5 kB/s)
+[INFO] Downloaded from CodeMC: https://repo.codemc.org/repository/maven-public/net/md-5/bungeecord-chat/1.13-SNAPSHOT/maven-metadata.xml (776 B at 821 B/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/net/md-5/bungeecord-chat/1.13-SNAPSHOT/bungeecord-chat-1.13-20200123.020938-2.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/net/md-5/bungeecord-chat/1.13-SNAPSHOT/bungeecord-chat-1.13-20200123.020938-2.pom (986 B at 2.0 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/net/md-5/bungeecord-parent/1.13-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/net/md-5/bungeecord-parent/1.13-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from jitpack.io: https://jitpack.io/net/md-5/bungeecord-parent/1.13-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from CodeMC: https://repo.codemc.org/repository/maven-public/net/md-5/bungeecord-parent/1.13-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from spigotmc-public: https://hub.spigotmc.org/nexus/content/groups/public/net/md-5/bungeecord-parent/1.13-SNAPSHOT/maven-metadata.xml
+[INFO] Downloaded from spigotmc-public: https://hub.spigotmc.org/nexus/content/groups/public/net/md-5/bungeecord-parent/1.13-SNAPSHOT/maven-metadata.xml (602 B at 4.8 kB/s)
+[INFO] Downloaded from CodeMC: https://repo.codemc.org/repository/maven-public/net/md-5/bungeecord-parent/1.13-SNAPSHOT/maven-metadata.xml (604 B at 1.2 kB/s)
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/net/md-5/bungeecord-parent/1.13-SNAPSHOT/maven-metadata.xml (602 B at 735 B/s)
+[INFO] Downloading from CodeMC: https://repo.codemc.org/repository/maven-public/net/md-5/bungeecord-parent/1.13-SNAPSHOT/bungeecord-parent-1.13-20190422.195939-129.pom
+[INFO] Downloaded from CodeMC: https://repo.codemc.org/repository/maven-public/net/md-5/bungeecord-parent/1.13-SNAPSHOT/bungeecord-parent-1.13-20190422.195939-129.pom (6.5 kB at 8.3 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/google/guava/guava/20.0/guava-20.0.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/google/guava/guava/20.0/guava-20.0.pom (6.8 kB at 6.3 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/google/guava/guava-parent/20.0/guava-parent-20.0.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/google/guava/guava-parent/20.0/guava-parent-20.0.pom (9.9 kB at 20 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/yaml/snakeyaml/1.23/snakeyaml-1.23.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/yaml/snakeyaml/1.23/snakeyaml-1.23.pom (38 kB at 43 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/github/TheBusyBiscuit/CS-CoreLib/e42a05d129/CS-CoreLib-e42a05d129.pom
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/github/TheBusyBiscuit/CS-CoreLib/e42a05d129/CS-CoreLib-e42a05d129.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/github/TheBusyBiscuit/CS-CoreLib/e42a05d129/CS-CoreLib-e42a05d129.pom
+[INFO] Downloaded from jitpack.io: https://jitpack.io/com/github/TheBusyBiscuit/CS-CoreLib/e42a05d129/CS-CoreLib-e42a05d129.pom (3.3 kB at 25 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/github/Slimefun/Slimefun4/RC-18/Slimefun4-RC-18.pom
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/github/Slimefun/Slimefun4/RC-18/Slimefun4-RC-18.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/github/Slimefun/Slimefun4/RC-18/Slimefun4-RC-18.pom
+[INFO] Downloaded from jitpack.io: https://jitpack.io/com/github/Slimefun/Slimefun4/RC-18/Slimefun4-RC-18.pom (12 kB at 117 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/bstats/bstats-bukkit/1.8/bstats-bukkit-1.8.pom
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/bstats/bstats-bukkit/1.8/bstats-bukkit-1.8.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/bstats/bstats-bukkit/1.8/bstats-bukkit-1.8.pom
+[INFO] Downloading from CodeMC: https://repo.codemc.org/repository/maven-public/org/bstats/bstats-bukkit/1.8/bstats-bukkit-1.8.pom
+[INFO] Downloaded from CodeMC: https://repo.codemc.org/repository/maven-public/org/bstats/bstats-bukkit/1.8/bstats-bukkit-1.8.pom (952 B at 2.0 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/bstats/bstats/1.8/bstats-1.8.pom
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/bstats/bstats/1.8/bstats-1.8.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/bstats/bstats/1.8/bstats-1.8.pom
+[INFO] Downloading from CodeMC: https://repo.codemc.org/repository/maven-public/org/bstats/bstats/1.8/bstats-1.8.pom
+[INFO] Downloaded from CodeMC: https://repo.codemc.org/repository/maven-public/org/bstats/bstats/1.8/bstats-1.8.pom (7.3 kB at 35 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/spigotmc/spigot-api/1.14.2-R0.1-SNAPSHOT/spigot-api-1.14.2-R0.1-20190621.095659-33.jar
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/yaml/snakeyaml/1.23/snakeyaml-1.23.jar
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/net/md-5/bungeecord-chat/1.13-SNAPSHOT/bungeecord-chat-1.13-20200123.020938-2.jar
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/github/TheBusyBiscuit/CS-CoreLib/e42a05d129/CS-CoreLib-e42a05d129.jar
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/github/Slimefun/Slimefun4/RC-18/Slimefun4-RC-18.jar
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/bstats/bstats-bukkit/1.8/bstats-bukkit-1.8.jar
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/spigotmc/spigot-api/1.14.2-R0.1-SNAPSHOT/spigot-api-1.14.2-R0.1-20190621.095659-33.jar (1.2 MB at 648 kB/s)
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/yaml/snakeyaml/1.23/snakeyaml-1.23.jar (301 kB at 155 kB/s)
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/net/md-5/bungeecord-chat/1.13-SNAPSHOT/bungeecord-chat-1.13-20200123.020938-2.jar (82 kB at 41 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/github/TheBusyBiscuit/CS-CoreLib/e42a05d129/CS-CoreLib-e42a05d129.jar
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/github/Slimefun/Slimefun4/RC-18/Slimefun4-RC-18.jar
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/bstats/bstats-bukkit/1.8/bstats-bukkit-1.8.jar
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/github/TheBusyBiscuit/CS-CoreLib/e42a05d129/CS-CoreLib-e42a05d129.jar
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/github/Slimefun/Slimefun4/RC-18/Slimefun4-RC-18.jar
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/bstats/bstats-bukkit/1.8/bstats-bukkit-1.8.jar
+[INFO] Downloaded from jitpack.io: https://jitpack.io/com/github/TheBusyBiscuit/CS-CoreLib/e42a05d129/CS-CoreLib-e42a05d129.jar (385 kB at 1.3 MB/s)
+[INFO] Downloaded from jitpack.io: https://jitpack.io/com/github/Slimefun/Slimefun4/RC-18/Slimefun4-RC-18.jar (4.1 MB at 13 MB/s)
+[INFO] Downloading from CodeMC: https://repo.codemc.org/repository/maven-public/org/bstats/bstats-bukkit/1.8/bstats-bukkit-1.8.jar
+[INFO] Downloaded from CodeMC: https://repo.codemc.org/repository/maven-public/org/bstats/bstats-bukkit/1.8/bstats-bukkit-1.8.jar (20 kB at 24 kB/s)
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ SlimyRepair ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ SlimyRepair ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ SlimyRepair ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 3 source files to /home/runner/work/builds/builds/NCBPFluffyBear/SlimyRepair/master/files/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ SlimyRepair ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/runner/work/builds/builds/NCBPFluffyBear/SlimyRepair/master/files/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ SlimyRepair ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ SlimyRepair ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ SlimyRepair ---
+[INFO] Building jar: /home/runner/work/builds/builds/NCBPFluffyBear/SlimyRepair/master/files/target/SlimyRepair-2.jar
+[INFO] 
+[INFO] --- maven-shade-plugin:3.1.0:shade (default) @ SlimyRepair ---
+[INFO] Including org.bstats:bstats-bukkit:jar:1.8 in the shaded jar.
+[INFO] Replacing original artifact with shaded artifact.
+[INFO] Replacing /home/runner/work/builds/builds/NCBPFluffyBear/SlimyRepair/master/files/target/SlimyRepair-2.jar with /home/runner/work/builds/builds/NCBPFluffyBear/SlimyRepair/master/files/target/SlimyRepair-DEV - 2 (git 1a0065a5)-shaded.jar
+[INFO] Dependency-reduced POM written at: /home/runner/work/builds/builds/NCBPFluffyBear/SlimyRepair/master/files/dependency-reduced-pom.xml
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  18.167 s
+[INFO] Finished at: 2020-12-30T19:14:00Z
+[INFO] ------------------------------------------------------------------------
