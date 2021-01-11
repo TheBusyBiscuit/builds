@@ -699,6 +699,11 @@
 			}
 		}
 	},
+	"J3fftw1/HeadLimiter" : {
+		"sonar": {
+			"enabled" : true,
+		}
+	}
 	"Sfiguz7/ExtraTools:master": {
 		"sonar": {
 			"enabled": false
