@@ -701,7 +701,7 @@
 	},
 	"J3fftw1/HeadLimiter:master" : {
 		"sonar": {
-			"enabled" : true
+			"enabled" : false
 		},
 		"options": {
 			"prefix": "DEV"
