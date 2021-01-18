@@ -1,0 +1,227 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -----------------< io.github.thebusybiscuit:SoulJars >------------------
+[INFO] Building SoulJars DEV - 21 (git 59212953)
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ SoulJars ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ SoulJars ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ SoulJars ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 3 source files to /home/runner/work/builds/builds/TheBusyBiscuit/SoulJars/master/files/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ SoulJars ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/runner/work/builds/builds/TheBusyBiscuit/SoulJars/master/files/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ SoulJars ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ SoulJars ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ SoulJars ---
+[INFO] Building jar: /home/runner/work/builds/builds/TheBusyBiscuit/SoulJars/master/files/target/SoulJars-21.jar
+[INFO] 
+[INFO] --- maven-shade-plugin:3.2.4:shade (default) @ SoulJars ---
+[INFO] Including org.bstats:bstats-bukkit:jar:1.8 in the shaded jar.
+[INFO] Replacing original artifact with shaded artifact.
+[INFO] Replacing /home/runner/work/builds/builds/TheBusyBiscuit/SoulJars/master/files/target/SoulJars-21.jar with /home/runner/work/builds/builds/TheBusyBiscuit/SoulJars/master/files/target/SoulJars-DEV - 21 (git 59212953)-shaded.jar
+[INFO] Dependency-reduced POM written at: /home/runner/work/builds/builds/TheBusyBiscuit/SoulJars/master/files/dependency-reduced-pom.xml
+[INFO] 
+[INFO] -----------------< io.github.thebusybiscuit:SoulJars >------------------
+[INFO] Building SoulJars DEV - 21 (git 59212953)
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- sonar-maven-plugin:3.8.0.2131:sonar (default-cli) @ SoulJars ---
+[INFO] User cache: /home/runner/.sonar/cache
+[INFO] SonarQube version: 8.5.0
+[INFO] Default locale: "en", source code encoding: "UTF-8"
+[INFO] Load global settings
+[INFO] Load global settings (done) | time=626ms
+[INFO] Server id: 1BD809FA-AWHW8ct9-T_TB3XqouNu
+[INFO] User cache: /home/runner/.sonar/cache
+[INFO] Load/download plugins
+[INFO] Load plugins index
+[INFO] Load plugins index (done) | time=152ms
+[INFO] Load/download plugins (done) | time=297ms
+[INFO] Loaded core extensions: developer-scanner
+[INFO] JavaScript/TypeScript frontend is enabled
+[INFO] Found an active CI vendor: 'Github Actions'
+[INFO] Load project settings for component key: 'TheBusyBiscuit_SoulJars'
+[INFO] Load project settings for component key: 'TheBusyBiscuit_SoulJars' (done) | time=126ms
+[INFO] Process project properties
+[INFO] Execute project builders
+[INFO] Execute project builders (done) | time=2ms
+[INFO] Project key: TheBusyBiscuit_SoulJars
+[INFO] Base dir: /home/runner/work/builds/builds/TheBusyBiscuit/SoulJars/master/files
+[INFO] Working dir: /home/runner/work/builds/builds/TheBusyBiscuit/SoulJars/master/files/target/sonar
+[INFO] Load project branches
+[INFO] Load project branches (done) | time=123ms
+[INFO] Check ALM binding of project 'TheBusyBiscuit_SoulJars'
+[INFO] Detected project binding: NOT_BOUND
+[INFO] Check ALM binding of project 'TheBusyBiscuit_SoulJars' (done) | time=120ms
+[INFO] Load project pull requests
+[INFO] Load project pull requests (done) | time=110ms
+[INFO] Load branch configuration
+[INFO] Github event: schedule
+[INFO] Load branch configuration (done) | time=10ms
+[INFO] Load quality profiles
+[INFO] Load quality profiles (done) | time=165ms
+[INFO] Load active rules
+[INFO] Load active rules (done) | time=3906ms
+[INFO] Organization key: thebusybiscuit-github
+[INFO] Indexing files...
+[INFO] Project configuration:
+[INFO] 4 files indexed
+[INFO] 0 files ignored because of scm ignore settings
+[INFO] Quality profile for java: Additional Checks
+[INFO] Quality profile for xml: Sonar way
+[INFO] ------------- Run sensors on module SoulJars
+[INFO] JavaScript/TypeScript frontend is enabled
+[INFO] Load metrics repository
+[INFO] Load metrics repository (done) | time=119ms
+[INFO] Sensor JavaSquidSensor [java]
+[INFO] Configured Java source version (sonar.java.source): 8
+[INFO] JavaClasspath initialization
+[INFO] JavaClasspath initialization (done) | time=6ms
+[INFO] JavaTestClasspath initialization
+[INFO] JavaTestClasspath initialization (done) | time=2ms
+[INFO] Java Main Files AST scan
+[INFO] 3 source files to be analyzed
+[INFO] Load project repositories
+[INFO] Load project repositories (done) | time=154ms
+[INFO] 3/3 source files have been analyzed
+[INFO] Java Main Files AST scan (done) | time=3181ms
+[INFO] Java Test Files AST scan
+[INFO] 0 source files to be analyzed
+[INFO] Java Test Files AST scan (done) | time=1ms
+[INFO] Java Generated Files AST scan
+[INFO] 0 source files to be analyzed
+[INFO] Java Generated Files AST scan (done) | time=0ms
+[INFO] Sensor JavaSquidSensor [java] (done) | time=3537ms
+[INFO] Sensor SonarCSS Rules [cssfamily]
+[INFO] No CSS, PHP, HTML or VueJS files are found in the project. CSS analysis is skipped.
+[INFO] Sensor SonarCSS Rules [cssfamily] (done) | time=1ms
+[INFO] Sensor C# Properties [csharp]
+[INFO] 0/0 source files have been analyzed
+[INFO] 0/0 source files have been analyzed
+[INFO] Sensor C# Properties [csharp] (done) | time=11ms
+[INFO] Sensor SurefireSensor [java]
+[INFO] parsing [/home/runner/work/builds/builds/TheBusyBiscuit/SoulJars/master/files/target/surefire-reports]
+[INFO] Sensor SurefireSensor [java] (done) | time=1ms
+[INFO] Sensor JavaXmlSensor [java]
+[INFO] 1 source files to be analyzed
+[INFO] 1/1 source files have been analyzed
+[INFO] Sensor JavaXmlSensor [java] (done) | time=207ms
+[INFO] Sensor HTML [web]
+[INFO] Sensor HTML [web] (done) | time=3ms
+[INFO] Sensor XML Sensor [xml]
+[INFO] 1 source files to be analyzed
+[INFO] 1/1 source files have been analyzed
+[INFO] Sensor XML Sensor [xml] (done) | time=153ms
+[INFO] Sensor VB.NET Properties [vbnet]
+[INFO] Sensor VB.NET Properties [vbnet] (done) | time=1ms
+[INFO] Sensor JaCoCo XML Report Importer [jacoco]
+[INFO] 'sonar.coverage.jacoco.xmlReportPaths' is not defined. Using default locations: target/site/jacoco/jacoco.xml,target/site/jacoco-it/jacoco.xml,build/reports/jacoco/test/jacocoTestReport.xml
+[INFO] No report imported, no coverage information will be imported by JaCoCo XML Report Importer
+[INFO] Sensor JaCoCo XML Report Importer [jacoco] (done) | time=10ms
+[INFO] Sensor ThymeLeaf template sensor [securityjavafrontend]
+[INFO] Sensor ThymeLeaf template sensor [securityjavafrontend] (done) | time=2ms
+[INFO] Sensor JavaSecuritySensor [security]
+[INFO] Reading type hierarchy from: /home/runner/work/builds/builds/TheBusyBiscuit/SoulJars/master/files/target/sonar/ucfg2/java
+[INFO] Read 84 type definitions
+[INFO] Reading UCFGs from: /home/runner/work/builds/builds/TheBusyBiscuit/SoulJars/master/files/target/sonar/ucfg2/java
+[INFO] 17:53:10.330546 Building Runtime Type propagation graph
+[INFO] 17:53:10.346893 Running Tarjan on 103 nodes
+[INFO] 17:53:10.355423 Tarjan found 103 components
+[INFO] 17:53:10.360824 Variable type analysis: done
+[INFO] 17:53:10.366268 Building Runtime Type propagation graph
+[INFO] 17:53:10.376996 Running Tarjan on 103 nodes
+[INFO] 17:53:10.384328 Tarjan found 103 components
+[INFO] 17:53:10.386189 Variable type analysis: done
+[INFO] Analyzing 8 ucfgs to detect vulnerabilities.
+[INFO] All rules entrypoints : 0 Retained UCFGs : 0
+[INFO] rule: S5131, entrypoints: 0
+[INFO] rule: S5131 done
+[INFO] rule: S3649, entrypoints: 0
+[INFO] rule: S3649 done
+[INFO] rule: S2076, entrypoints: 0
+[INFO] rule: S2076 done
+[INFO] rule: S2091, entrypoints: 0
+[INFO] rule: S2091 done
+[INFO] rule: S2078, entrypoints: 0
+[INFO] rule: S2078 done
+[INFO] rule: S2631, entrypoints: 0
+[INFO] rule: S2631 done
+[INFO] rule: S5135, entrypoints: 0
+[INFO] rule: S5135 done
+[INFO] rule: S2083, entrypoints: 0
+[INFO] rule: S2083 done
+[INFO] rule: S5167, entrypoints: 0
+[INFO] rule: S5167 done
+[INFO] rule: S5144, entrypoints: 0
+[INFO] rule: S5144 done
+[INFO] rule: S5145, entrypoints: 0
+[INFO] rule: S5145 done
+[INFO] rule: S5146, entrypoints: 0
+[INFO] rule: S5146 done
+[INFO] rule: S5334, entrypoints: 0
+[INFO] rule: S5334 done
+[INFO] Sensor JavaSecuritySensor [security] (done) | time=548ms
+[INFO] Sensor CSharpSecuritySensor [security]
+[INFO] Reading type hierarchy from: /home/runner/work/builds/builds/TheBusyBiscuit/SoulJars/master/files/target/ucfg_cs2
+[INFO] Read 0 type definitions
+[INFO] Reading UCFGs from: /home/runner/work/builds/builds/TheBusyBiscuit/SoulJars/master/files/target/ucfg_cs2
+[INFO] No UCFGs have been included for analysis.
+[INFO] Sensor CSharpSecuritySensor [security] (done) | time=3ms
+[INFO] Sensor PhpSecuritySensor [security]
+[INFO] Reading type hierarchy from: /home/runner/work/builds/builds/TheBusyBiscuit/SoulJars/master/files/target/sonar/ucfg2/php
+[INFO] Read 0 type definitions
+[INFO] Reading UCFGs from: /home/runner/work/builds/builds/TheBusyBiscuit/SoulJars/master/files/target/sonar/ucfg2/php
+[INFO] No UCFGs have been included for analysis.
+[INFO] Sensor PhpSecuritySensor [security] (done) | time=3ms
+[INFO] Sensor PythonSecuritySensor [security]
+[INFO] Reading type hierarchy from: /home/runner/work/builds/builds/TheBusyBiscuit/SoulJars/master/files/target/sonar/ucfg2/python
+[INFO] Read 0 type definitions
+[INFO] Reading UCFGs from: /home/runner/work/builds/builds/TheBusyBiscuit/SoulJars/master/files/target/sonar/ucfg2/python
+[INFO] No UCFGs have been included for analysis.
+[INFO] Sensor PythonSecuritySensor [security] (done) | time=3ms
+[INFO] Sensor JsSecuritySensor [security]
+[INFO] Reading type hierarchy from: /home/runner/work/builds/builds/TheBusyBiscuit/SoulJars/master/files/target/sonar/ucfg2/js
+[INFO] Read 0 type definitions
+[INFO] Reading UCFGs from: /home/runner/work/builds/builds/TheBusyBiscuit/SoulJars/master/files/target/sonar/ucfg2/js
+[INFO] No UCFGs have been included for analysis.
+[INFO] Sensor JsSecuritySensor [security] (done) | time=3ms
+[INFO] ------------- Run sensors on project
+[INFO] Sensor Zero Coverage Sensor
+[INFO] Sensor Zero Coverage Sensor (done) | time=16ms
+[INFO] Sensor Java CPD Block Indexer
+[INFO] Sensor Java CPD Block Indexer (done) | time=58ms
+[INFO] SCM Publisher SCM provider for this project is: git
+[INFO] SCM Publisher 1 source file to be analyzed
+[INFO] SCM Publisher 0/1 source files have been analyzed (done) | time=52ms
+[WARNING] Missing blame information for the following files:
+[WARNING]   * dependency-reduced-pom.xml
+[WARNING] This may lead to missing/broken features in SonarCloud
+[INFO] CPD Executor 1 file had no CPD blocks
+[INFO] CPD Executor Calculating CPD for 2 files
+[INFO] CPD Executor CPD calculation finished (done) | time=48ms
+[INFO] Analysis report generated in 198ms, dir size=199 KB
+[INFO] Analysis report compressed in 29ms, zip size=46 KB
+[INFO] Analysis report uploaded in 364ms
+[INFO] ANALYSIS SUCCESSFUL, you can find the results at: https://sonarcloud.io/dashboard?id=TheBusyBiscuit_SoulJars
+[INFO] Note that you will be able to access the updated dashboard once the server has processed the submitted analysis report
+[INFO] More about the report processing at https://sonarcloud.io/api/ce/task?id=AXcWoRUxhUFGizDCooM3
+[INFO] Analysis total time: 13.296 s
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  18.603 s
+[INFO] Finished at: 2021-01-18T17:53:11Z
+[INFO] ------------------------------------------------------------------------
