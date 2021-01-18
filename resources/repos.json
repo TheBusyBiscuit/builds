@@ -769,7 +769,7 @@
 		},
 		"dependencies": {
 			"Minecraft Version(s)": {
-				"1": "1.14+"
+				"1": "1.15.x, 1.16.x"
 			},
 			"CS-CoreLib Version": {
 				"5": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/CS-CoreLib/master/#90\">dev #90</a>",
