@@ -152,7 +152,7 @@ $(() => {
 
             // "Last Successful Build" Link
             let link_last_successful = $("#link_last_successful_build");
-            link_last_successful.text("#" + last_successful);
+            link_last_successful.text(`Last successful build (#${last_successful})`);
             link_last_successful.attr("href", "#" + last_successful);
 
             $(".build_header").text("Builds (" + builds.latest + ")");
@@ -166,9 +166,10 @@ $(() => {
                 list_builds.append(build(builds, buildID));
             }
 
-            // Add Click Events
-            $(".trigger").click(() => {
-                selectBuild(builds, parseInt($(this).attr("href").substr(1)));
+            // This cannot be converted to a lambda function (We'd lose the contextualized 'this')
+            $(".trigger").click(function() {
+                let target = $(this).attr("href").substr(1);
+                selectBuild(builds, parseInt(target));
             });
         });
     });

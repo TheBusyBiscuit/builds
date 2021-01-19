@@ -8,3 +8,4 @@ testRepository/*
 
 resources/config.json
 test/xunit.xml
+test-page.html
