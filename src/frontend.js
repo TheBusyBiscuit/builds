@@ -123,7 +123,8 @@ $(() => {
                     <td class="icon">
                         <img class="icon" alt="package icon" src="https://cdnjs.cloudflare.com/ajax/libs/octicons/8.5.0/svg/package.svg">
                     </td>
-                    <td class="info_table_middle">${label}</td><td>${content}</td>
+                    <td class="info_table_middle">${label}</td>
+                    <td>${content}</td>
                 `);
             }
         }
@@ -204,7 +205,6 @@ $(() => {
                 </svg>
                 <a class="trigger build_child link_build" href="#${id}">${name}</a>
                 <a class="trigger build_child link_date" href="#${id}">${builds[id].date}</a>
-                <a class="build_child link_commit" href=https://github.com/${owner}/${repository}/commit/${builds[id].sha}>#${builds[id].sha.substr(0, 5)}</a>
             </div>
         `;
     }
