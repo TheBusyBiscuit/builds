@@ -409,28 +409,6 @@
 			}
 		}
 	},
-	"John000708/Barrels:master": {
-		"abandoned": true,
-		"sonar": {
-			"enabled": false
-		},
-		"options": {
-			"prefix": "DEV"
-		},
-		"dependencies": {
-			"Minecraft Version(s)": {
-				"7": "1.14.x, 1.15.x",
-				"1": "1.13.x, 1.14.x, 1.15.x"
-			},
-			"CS-CoreLib Version": {
-				"1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/CS-CoreLib/master/#44\">1.6</a>"
-			},
-			"Slimefun Version": {
-				"10": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/Slimefun4/master/#439\">dev #439</a>",
-				"1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/Slimefun4/master/#73\">dev #73</a>"
-			}
-		}
-	},
 	"TheBusyBiscuit/CommandOverride:master": {
 		"abandoned": true,
 		"sonar": {
@@ -661,46 +639,6 @@
 			}
 		}
 	},
-	"John000708/SlimeXpansion:master": {
-		"abandoned": true,
-		"sonar": {
-			"enabled": false
-		},
-		"options": {
-			"prefix": "DEV"
-		},
-		"dependencies": {
-			"Minecraft Version(s)": {
-				"1": "1.14.x"
-			},
-			"CS-CoreLib Version": {
-				"1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/CS-CoreLib/master/#44\">1.6</a>"
-			},
-			"Slimefun Version": {
-				"1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/Slimefun4/master/#262\">dev #262</a>"
-			}
-		}
-	},
-	"J3fftw1/SlimeXpansion:master": {
-		"abandoned": true,
-		"sonar": {
-			"enabled": false
-		},
-		"options": {
-			"prefix": "DEV"
-		},
-		"dependencies": {
-			"Minecraft Version(s)": {
-				"1": "1.14.x, 1.15.x"
-			},
-			"CS-CoreLib Version": {
-				"1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/CS-CoreLib/master/#79\">dev #79</a>"
-			},
-			"Slimefun Version": {
-				"1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/Slimefun4/master/#417\">dev #417</a>"
-			}
-		}
-	},
 	"Slimefun-Addon-Community/SoundMuffler:master": {
 		"abandoned": false,
 		"sonar": {
@@ -725,23 +663,6 @@
 			},
 			"ProtocolLib Version": {
 				"1": "<a class=\"link_info\" href=\"https://www.spigotmc.org/resources/protocollib.1997/\">4.5.0</a>"
-			}
-		}
-	},
-	"J3fftw1/HeadLimiter:master" : {
-		"abandoned": false,
-		"sonar": {
-			"enabled" : false
-		},
-		"options": {
-			"prefix": "DEV"
-		},
-		"dependencies": {
-			"Minecraft Version(s)": {
-				"1": "1.14.x - 1.16.x"
-			},
-			"Slimefun Version": {
-				"1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/Slimefun4/master/#\">dev #778</a>"
 			}
 		}
 	},
@@ -1053,6 +974,85 @@
 			},
 			"Slimefun Version": {
 				"1":"<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/Slimefun4/stable/#18\">RC-18</a>"
+			}
+		}
+	},
+	"John000708/SlimeXpansion:master": {
+		"abandoned": true,
+		"sonar": {
+			"enabled": false
+		},
+		"options": {
+			"prefix": "DEV"
+		},
+		"dependencies": {
+			"Minecraft Version(s)": {
+				"1": "1.14.x"
+			},
+			"CS-CoreLib Version": {
+				"1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/CS-CoreLib/master/#44\">1.6</a>"
+			},
+			"Slimefun Version": {
+				"1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/Slimefun4/master/#262\">dev #262</a>"
+			}
+		}
+	},
+	"John000708/Barrels:master": {
+		"abandoned": true,
+		"sonar": {
+			"enabled": false
+		},
+		"options": {
+			"prefix": "DEV"
+		},
+		"dependencies": {
+			"Minecraft Version(s)": {
+				"7": "1.14.x, 1.15.x",
+				"1": "1.13.x, 1.14.x, 1.15.x"
+			},
+			"CS-CoreLib Version": {
+				"1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/CS-CoreLib/master/#44\">1.6</a>"
+			},
+			"Slimefun Version": {
+				"10": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/Slimefun4/master/#439\">dev #439</a>",
+				"1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/Slimefun4/master/#73\">dev #73</a>"
+			}
+		}
+	},
+	"J3fftw1/SlimeXpansion:master": {
+		"abandoned": true,
+		"sonar": {
+			"enabled": false
+		},
+		"options": {
+			"prefix": "DEV"
+		},
+		"dependencies": {
+			"Minecraft Version(s)": {
+				"1": "1.14.x, 1.15.x"
+			},
+			"CS-CoreLib Version": {
+				"1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/CS-CoreLib/master/#79\">dev #79</a>"
+			},
+			"Slimefun Version": {
+				"1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/Slimefun4/master/#417\">dev #417</a>"
+			}
+		}
+	},
+	"J3fftw1/HeadLimiter:master" : {
+		"abandoned": false,
+		"sonar": {
+			"enabled" : false
+		},
+		"options": {
+			"prefix": "DEV"
+		},
+		"dependencies": {
+			"Minecraft Version(s)": {
+				"1": "1.14.x - 1.16.x"
+			},
+			"Slimefun Version": {
+				"1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/Slimefun4/master/#\">dev #778</a>"
 			}
 		}
 	}
