@@ -201,7 +201,7 @@ $(() => {
         return `
             <div class="build ${builds[id].candidate === "RELEASE" ? "release" : "dev"}" id="build_${id}">
                 <svg class="build_child build_state">
-                    <circle cx="12" cy="29" r="11" stroke="${stroke}" stroke-width="2" fill="${color}"/>
+                    <circle cx="12" cy="24" r="12" stroke="${stroke}" stroke-width="2" fill="${color}"/>
                 </svg>
                 <a class="trigger build_child link_build" href="#${id}">${name}</a>
                 <a class="trigger build_child link_date" href="#${id}">${builds[id].date}</a>
