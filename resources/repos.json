@@ -636,6 +636,31 @@
 			}
 		}
 	},
+	"Slimefun-Addon-Community/LiteXpansion:master": {
+		"abandoned": false,
+		"sonar": {
+			"enabled": true,
+			"organization": "slimefun-addon-community",
+			"project-key": "Slimefun-Addon-Community_LiteXpansion",
+			"host-url": "https://sonarcloud.io"
+		},
+		"options": {
+			"prefix": "DEV",
+			"custom_directory": "J3fftw1/LiteXpansion/master"
+		},
+		"dependencies": {
+			"Minecraft Version(s)": {
+				"1": "1.14.x, 1.15.x, 1.16.x"
+			},
+			"CS-CoreLib Version": {
+				"1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/CS-CoreLib/master/#79\">dev #79</a>"
+			},
+			"Slimefun Version": {
+				"31": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/Slimefun4/master/#511\">dev #511</a>",
+				"1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/Slimefun4/master/#489\">dev #489</a>"
+			}
+		}
+	},
 	"John000708/SlimeXpansion:master": {
 		"abandoned": true,
 		"sonar": {
@@ -673,31 +698,6 @@
 			},
 			"Slimefun Version": {
 				"1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/Slimefun4/master/#417\">dev #417</a>"
-			}
-		}
-	},
-	"Slimefun-Addon-Community/LiteXpansion:master": {
-		"abandoned": false,
-		"sonar": {
-			"enabled": true,
-			"organization": "slimefun-addon-community",
-			"project-key": "Slimefun-Addon-Community_LiteXpansion",
-			"host-url": "https://sonarcloud.io"
-		},
-		"options": {
-			"prefix": "DEV",
-			"custom_directory": "J3fftw1/LiteXpansion/master"
-		},
-		"dependencies": {
-			"Minecraft Version(s)": {
-				"1": "1.14.x, 1.15.x, 1.16.x"
-			},
-			"CS-CoreLib Version": {
-				"1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/CS-CoreLib/master/#79\">dev #79</a>"
-			},
-			"Slimefun Version": {
-				"31": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/Slimefun4/master/#511\">dev #511</a>",
-				"1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/Slimefun4/master/#489\">dev #489</a>"
 			}
 		}
 	},

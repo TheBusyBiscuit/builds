@@ -332,3 +332,10 @@ a.build_child {
 #dependency_section {
 	margin-bottom: 20px !important;
 }
+.abandoned a:hover {
+    color: #9a99d1;
+}
+.abandoned a {
+    color: #d5d4f8;
+    font-style: italic;
+}

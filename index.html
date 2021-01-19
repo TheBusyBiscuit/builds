@@ -9,64 +9,7 @@
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
-        <script type="text/javascript">
-            $(function() {
-                $.getJSON("https://thebusybiscuit.github.io/builds/resources/repos.json", function(repos) {
-                    $("#repos").html("");
-                    var profiles = [];
-
-                    for (var repo in repos) {
-                        if (!profiles.includes(repo.split("/")[0])) {
-                            console.log("Found Author \"" + repo.split("/")[0] + "\"");
-                            profiles.push(repo.split("/")[0]);
-                            addProfile(repo.split("/")[0], repos);
-                        }
-                    }
-
-                    console.log(profiles);
-                });
-            });
-
-            function addProfile(user, repos) {
-                $("#repos").append('<div class="box" style="width: 65%; margin: 2vh auto;"><a style="padding-top: 1vh;" class="link_build link_repo" href="https://github.com/' + user + '"><img alt="profil" src="https://cdnjs.cloudflare.com/ajax/libs/octicons/8.5.0/svg/person.svg" class="profile_icon">' + '<span>' + user + '<span></a><table id="projects_' + user + '" class="info_table"></table></div>');
-                var table = $("#projects_" + user);
-
-                for (var repo in repos) {
-                    if (repo.split("/")[0] !== user) continue;
-                        
-                        console.log("Found Project \"" + repo + "\"");
-                        var repository = repo.split('/')[1].split(":")[0];
-                        var branch = repo.split('/')[1].split(":")[1];
-                        var directory = user + '/' + repository + '/' + branch;
-                        
-                        if (repos[repo].options && repos[repo].options.custom_directory) {
-                                directory = repos[repo].options.custom_directory;
-                        }
-					
-                    addRepository(table, directory, user, repository, branch);
-                }
-
-                // Alphabetical sorting
-                var items = table.children("tr");
-                items.sort((a, b) => {
-                    var repo1 = $(a).attr("project").toUpperCase();
-                    var repo2 = $(b).attr("project").toUpperCase();
-                    return (repo1 > repo2) ? 1 : -1;
-                });
-
-                $(table).append(items);
-            }
-
-            function addRepository(table, directory, owner, repo, branch) {
-                let html = "";
-
-                html += "<tr project=\"" + repo + ":" + branch + "\"><td class=\"icon\"><img class=\"icon\" alt=\"project page\" src=\"https://cdnjs.cloudflare.com/ajax/libs/octicons/8.5.0/svg/beaker.svg\"></td>";
-                html += '<td class="table_label" style="width: auto;"><a class="link_info" href="' + directory + '">' + (repo + " (" + branch + ")") + "</a></td><td>";
-                html += '<img style="float: right;" alt=\"project badge\" src="https://thebusybiscuit.github.io/builds/' + directory + '/badge.svg"/></td></tr>';
-
-                table.append(html);
-            }
-        </script>
+        <script src="src/index.js"></script>
     </head>
 
     <body>
