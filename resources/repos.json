@@ -1,5 +1,6 @@
 {
 	"Slimefun/Slimefun4:master": {
+		"abandoned": false,
 		"sonar": {
 			"enabled": true,
 			"organization": "slimefun",
@@ -34,6 +35,7 @@
 		}
 	},
 	"Slimefun/Slimefun4:stable": {
+		"abandoned": false,
 		"sonar": {
 			"enabled": false
 		},
@@ -56,6 +58,7 @@
 		}
 	},
 	"Slimefun/SensibleToolbox:master": {
+		"abandoned": false,
 		"sonar": {
 			"enabled": true,
 			"organization": "slimefun",
@@ -72,6 +75,7 @@
 		}
 	},
 	"TheBusyBiscuit/CS-CoreLib:master": {
+		"abandoned": true,
 		"sonar": {
 			"enabled": true,
 			"organization": "thebusybiscuit-github",
@@ -92,6 +96,7 @@
 		}
 	},
 	"TheBusyBiscuit/QuickSell:master": {
+		"abandoned": true,
 		"sonar": {
 			"enabled": true,
 			"organization": "thebusybiscuit-github",
@@ -111,6 +116,7 @@
 		}
 	},
 	"TheBusyBiscuit/QuickMarket:master": {
+		"abandoned": true,
 		"sonar": {
 			"enabled": true,
 			"organization": "thebusybiscuit-github",
@@ -132,6 +138,7 @@
 		}
 	},
 	"TheBusyBiscuit/ExoticGarden:master": {
+		"abandoned": false,
 		"sonar": {
 			"enabled": true,
 			"organization": "thebusybiscuit-github",
@@ -170,6 +177,7 @@
 		}
 	},
 	"TheBusyBiscuit/ChestTerminal:master": {
+		"abandoned": false,
 		"sonar": {
 			"enabled": true,
 			"organization": "thebusybiscuit-github",
@@ -208,6 +216,7 @@
 		}
 	},
 	"TheBusyBiscuit/luckyblocks-sf:master": {
+		"abandoned": false,
 		"sonar": {
 			"enabled": true,
 			"organization": "thebusybiscuit-github",
@@ -238,6 +247,7 @@
 		}
 	},
 	"TheBusyBiscuit/SoulJars:master": {
+		"abandoned": false,
 		"sonar": {
 			"enabled": true,
 			"organization": "thebusybiscuit-github",
@@ -265,6 +275,7 @@
 		}
 	},
 	"TheBusyBiscuit/HotbarPets:master": {
+		"abandoned": false,
 		"sonar": {
 			"enabled": true,
 			"organization": "thebusybiscuit-github",
@@ -293,6 +304,7 @@
 		}
 	},
 	"TheBusyBiscuit/ElectricSpawners:master": {
+		"abandoned": false,
 		"sonar": {
 			"enabled": true,
 			"organization": "thebusybiscuit-github",
@@ -318,6 +330,7 @@
 		}
 	},
 	"TheBusyBiscuit/ColoredEnderChests:master": {
+		"abandoned": false,
 		"sonar": {
 			"enabled": true,
 			"organization": "thebusybiscuit-github",
@@ -344,6 +357,7 @@
 		}
 	},
 	"TheBusyBiscuit/PrivateStorage:master": {
+		"abandoned": false,
 		"sonar": {
 			"enabled": true,
 			"organization": "thebusybiscuit-github",
@@ -370,6 +384,7 @@
 		}
 	},
 	"TheBusyBiscuit/ExtraGear:master": {
+		"abandoned": false,
 		"sonar": {
 			"enabled": true,
 			"organization": "thebusybiscuit-github",
@@ -395,6 +410,7 @@
 		}
 	},
 	"John000708/Barrels:master": {
+		"abandoned": true,
 		"sonar": {
 			"enabled": false
 		},
@@ -416,6 +432,7 @@
 		}
 	},
 	"TheBusyBiscuit/CommandOverride:master": {
+		"abandoned": true,
 		"sonar": {
 			"enabled": true,
 			"organization": "thebusybiscuit-github",
@@ -432,6 +449,7 @@
 		}
 	},
 	"TheBusyBiscuit/RankPrefixPlus:master": {
+		"abandoned": true,
 		"sonar": {
 			"enabled": true,
 			"organization": "thebusybiscuit-github",
@@ -448,6 +466,7 @@
 		}
 	},
 	"TheBusyBiscuit/ExtraHeads:master": {
+		"abandoned": false,
 		"sonar": {
 			"enabled": true,
 			"organization": "thebusybiscuit-github",
@@ -475,6 +494,7 @@
 		}
 	},
 	"TheBusyBiscuit/EmeraldEnchants2:master": {
+		"abandoned": true,
 		"sonar": {
 			"enabled": true,
 			"organization": "thebusybiscuit-github",
@@ -494,6 +514,7 @@
 		}
 	},
 	"TheBusyBiscuit/SlimefunOreChunks:master": {
+		"abandoned": false,
 		"sonar": {
 			"enabled": true,
 			"organization": "thebusybiscuit-github",
@@ -519,6 +540,7 @@
 		}
 	},
 	"TheBusyBiscuit/DyedBackpacks:master": {
+		"abandoned": false,
 		"sonar": {
 			"enabled": true,
 			"organization": "thebusybiscuit-github",
@@ -543,6 +565,7 @@
 		}
 	},
 	"TheBusyBiscuit/SlimyTreeTaps:master": {
+		"abandoned": false,
 		"sonar": {
 			"enabled": true,
 			"organization": "thebusybiscuit-github",
@@ -567,6 +590,7 @@
 		}
 	},
 	"TheBusyBiscuit/MobCapturer:master": {
+		"abandoned": false,
 		"sonar": {
 			"enabled": true,
 			"organization": "thebusybiscuit-github",
@@ -590,6 +614,7 @@
 		}
 	},
 	"TheBusyBiscuit/EcoPower:master": {
+		"abandoned": false,
 		"sonar": {
 			"enabled": true,
 			"organization": "thebusybiscuit-github",
@@ -612,6 +637,7 @@
 		}
 	},
 	"John000708/SlimeXpansion:master": {
+		"abandoned": true,
 		"sonar": {
 			"enabled": false
 		},
@@ -631,6 +657,7 @@
 		}
 	},
 	"J3fftw1/SlimeXpansion:master": {
+		"abandoned": true,
 		"sonar": {
 			"enabled": false
 		},
@@ -650,6 +677,7 @@
 		}
 	},
 	"Slimefun-Addon-Community/LiteXpansion:master": {
+		"abandoned": false,
 		"sonar": {
 			"enabled": true,
 			"organization": "slimefun-addon-community",
@@ -674,6 +702,7 @@
 		}
 	},
 	"Slimefun-Addon-Community/SoundMuffler:master": {
+		"abandoned": false,
 		"sonar": {
 			"enabled": true,
 			"organization": "slimefun-addon-community",
@@ -700,6 +729,7 @@
 		}
 	},
 	"J3fftw1/HeadLimiter:master" : {
+		"abandoned": false,
 		"sonar": {
 			"enabled" : false
 		},
@@ -716,6 +746,7 @@
 		}
 	},
 	"Sfiguz7/ExtraTools:master": {
+		"abandoned": false,
 		"sonar": {
 			"enabled": false
 		},
@@ -735,6 +766,7 @@
 		}
 	},
 	"Sfiguz7/TranscEndence:master": {
+		"abandoned": false,
 		"sonar": {
 			"enabled": false
 		},
@@ -754,6 +786,7 @@
 		}
 	},
 	"ClayCoffee/ClayTech:master": {
+		"abandoned": false,
 		"sonar": {
 			"enabled": false
 		},
@@ -777,6 +810,7 @@
 		}
 	},
 	"Seggan/SFCalc:master": {
+		"abandoned": false,
 		"sonar": {
 			"enabled": false
 		},
@@ -798,6 +832,7 @@
 		}
 	},
 	"Seggan/Slimy-Power-Suits:master": {
+		"abandoned": false,
 		"sonar": {
 			"enabled": false
 		},
@@ -820,6 +855,7 @@
 		}
 	},
 	"Seggan/SlimefunWarfare:master": {
+		"abandoned": false,
 		"sonar": {
 			"enabled": false
 		},
@@ -839,6 +875,7 @@
 		}
 	},
 	"Seggan/Liquid:master": {
+		"abandoned": false,
 		"sonar": {
 			"enabled": false
 		},
@@ -859,6 +896,7 @@
 		}
 	},
 	"LinoxGH/MoreTools:build": {
+		"abandoned": false,
 		"sonar": {
 			"enabled": false
 		},
@@ -879,6 +917,7 @@
 		}
 	},
 	"NCBPFluffyBear/FluffyMachines:master": {
+		"abandoned": false,
 		"sonar": {
 			"enabled": false
 		},
@@ -898,6 +937,7 @@
 		}
 	},
 	"NCBPFluffyBear/SlimyRepair:master": {
+		"abandoned": false,
 		"sonar": {
 			"enabled": false
 		},
@@ -917,6 +957,7 @@
 		}
 	},
 	"NCBPFluffyBear/SlimeCustomizer:master": {
+		"abandoned": false,
 		"sonar": {
 			"enabled": false
 		},
@@ -936,6 +977,7 @@
 		}
 	},
 	"Mooy1/InfinityExpansion:master": {
+		"abandoned": false,
 		"sonar": {
 			"enabled": false
 		},
@@ -955,6 +997,7 @@
 		}
 	},
 	"GallowsDove/FoxyMachines:master": {
+		"abandoned": false,
 		"sonar": {
 			"enabled": false
 		},
@@ -974,6 +1017,7 @@
 		}
 	},
 	"poma123/GlobalWarming:master": {
+		"abandoned": false,
 		"sonar": {
 			"enabled": false
 		},
@@ -993,6 +1037,7 @@
 		}
 	},
 	"ProfElements/DynaTech:master": {
+		"abandoned": false,
 		"sonar": {
 			"enabled": false
 		},
