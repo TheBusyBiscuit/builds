@@ -9,6 +9,9 @@
       "additionalProperties": false,
 
       "properties": {
+        "abandoned": {
+          "type": "boolean"
+        },
         "sonar": {
           "type": "object",
           "required": ["enabled"],
