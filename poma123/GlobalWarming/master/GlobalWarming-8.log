@@ -1,0 +1,40 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------------------< me.poma123:GlobalWarming >----------------------
+[INFO] Building GlobalWarming DEV - 8 (git 138506dd)
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/2.12.4/maven-surefire-plugin-2.12.4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/2.12.4/maven-surefire-plugin-2.12.4.pom (10 kB at 31 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire/2.12.4/surefire-2.12.4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire/2.12.4/surefire-2.12.4.pom (14 kB at 345 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/2.12.4/maven-surefire-plugin-2.12.4.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/2.12.4/maven-surefire-plugin-2.12.4.jar (30 kB at 823 kB/s)
+[INFO] Downloading from bstats-repo: https://repo.codemc.org/repository/maven-public/org/spigotmc/spigot-api/1.16.4-R0.1-SNAPSHOT/maven-metadata.xml
+[WARNING] Could not transfer metadata org.spigotmc:spigot-api:1.16.4-R0.1-SNAPSHOT/maven-metadata.xml from/to bstats-repo (https://repo.codemc.org/repository/maven-public): Transfer failed for https://repo.codemc.org/repository/maven-public/org/spigotmc/spigot-api/1.16.4-R0.1-SNAPSHOT/maven-metadata.xml 522 Origin Connection Time-out
+[WARNING] Failure to transfer org.spigotmc:spigot-api:1.16.4-R0.1-SNAPSHOT/maven-metadata.xml from https://repo.codemc.org/repository/maven-public was cached in the local repository, resolution will not be reattempted until the update interval of bstats-repo has elapsed or updates are forced. Original error: Could not transfer metadata org.spigotmc:spigot-api:1.16.4-R0.1-SNAPSHOT/maven-metadata.xml from/to bstats-repo (https://repo.codemc.org/repository/maven-public): Transfer failed for https://repo.codemc.org/repository/maven-public/org/spigotmc/spigot-api/1.16.4-R0.1-SNAPSHOT/maven-metadata.xml 522 Origin Connection Time-out
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/github/TheBusyBiscuit/CS-CoreLib/e42a05d129/CS-CoreLib-e42a05d129.pom
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/github/TheBusyBiscuit/CS-CoreLib/e42a05d129/CS-CoreLib-e42a05d129.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/github/TheBusyBiscuit/CS-CoreLib/e42a05d129/CS-CoreLib-e42a05d129.pom
+[INFO] Downloaded from jitpack.io: https://jitpack.io/com/github/TheBusyBiscuit/CS-CoreLib/e42a05d129/CS-CoreLib-e42a05d129.pom (3.3 kB at 21 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/github/TheBusyBiscuit/Slimefun4/RC-19/Slimefun4-RC-19.pom
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/github/TheBusyBiscuit/Slimefun4/RC-19/Slimefun4-RC-19.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/github/TheBusyBiscuit/Slimefun4/RC-19/Slimefun4-RC-19.pom
+[INFO] Downloaded from jitpack.io: https://jitpack.io/com/github/TheBusyBiscuit/Slimefun4/RC-19/Slimefun4-RC-19.pom (13 kB at 327 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/bstats/bstats-bukkit/1.8/bstats-bukkit-1.8.pom
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/bstats/bstats-bukkit/1.8/bstats-bukkit-1.8.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/bstats/bstats-bukkit/1.8/bstats-bukkit-1.8.pom
+[INFO] Downloading from bstats-repo: https://repo.codemc.org/repository/maven-public/org/bstats/bstats-bukkit/1.8/bstats-bukkit-1.8.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/bstats/bstats-bukkit/1.8/bstats-bukkit-1.8.pom
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  01:06 min
+[INFO] Finished at: 2021-01-20T13:13:45Z
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal on project GlobalWarming: Could not resolve dependencies for project me.poma123:GlobalWarming:jar:DEV - 8 (git 138506dd): Failed to collect dependencies at org.bstats:bstats-bukkit:jar:1.8: Failed to read artifact descriptor for org.bstats:bstats-bukkit:jar:1.8: Could not transfer artifact org.bstats:bstats-bukkit:pom:1.8 from/to jitpack.io (https://jitpack.io): Authentication failed for https://jitpack.io/org/bstats/bstats-bukkit/1.8/bstats-bukkit-1.8.pom 401 Unauthorized -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/DependencyResolutionException
