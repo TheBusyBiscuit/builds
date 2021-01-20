@@ -1,0 +1,189 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------------------< me.poma123:GlobalWarming >----------------------
+[INFO] Building GlobalWarming DEV - 9 (git d21d264b)
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-source-plugin/3.2.1/maven-source-plugin-3.2.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-source-plugin/3.2.1/maven-source-plugin-3.2.1.pom (6.9 kB at 23 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/33/maven-plugins-33.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/33/maven-plugins-33.pom (11 kB at 445 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-source-plugin/3.2.1/maven-source-plugin-3.2.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-source-plugin/3.2.1/maven-source-plugin-3.2.1.jar (32 kB at 1.4 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2in-3.8.1.pom
+/org/apache/maven/plugins/maven-compiler-plugin/3.8.1/maven-compiler-plug[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-compiler-plugin/3.8.1/maven-compiler-plugin-3.8.1.pom (12 kB at 656 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-compiler-plugin/3.8.1/maven-compiler-plugin-3.8.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-compiler-plugin/3.8.1/maven-compiler-plugin-3.8.1.jar (62 kB at 2.4 MB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/spigotmc/spigot-api/1.16.4-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/spigotmc/spigot-api/1.16.4-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/spigotmc/spigot-api/1.16.4-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from bstats-repo: https://repo.codemc.org/repository/maven-public/org/spigotmc/spigot-api/1.16.4-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloaded from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/spigotmc/spigot-api/1.16.4-R0.1-SNAPSHOT/maven-metadata.xml (1.5 kB at 6.7 kB/s)
+[Irepository/maven-pubNFO] Downloaded from paper-repo: https://repo.destroystokyo.com/lic/org/spigotmc/spigot-api/1.16.4-R0.1-SNAPSHOT/maven-metadata.xml (1.5 kB at 696 B/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/spigotmc/spigot-api/1.16.4-R0.1-SNAPSHOT/spigot-api-1.16.4-R0.1-20210114.220528-50.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/spigotmc/spigot-api/1.16.4-R0.1-SNAPSHOT/spigot-api-1.16.4-R0.1-20210114.220528-50.pom (11 kB at 5.7 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/net/md-5/bungeecord-chat/1.16-R0.3/bungeecord-chat-1.16-R0.3.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/net/md-5/bungeecord-chat/1.16-R0.3/bungeecord-chat-1.16-R0.3.pom (978 B at 890 B/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/net/md-5/bungeecord-parent/1.16-R0.3/bungeecord-parent-1.16-R0.3.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/net/md-5/bungeecord-parent/1.16-R0.3/bungeecord-parent-1.16-R0.3.pom (10 kB at 12 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/yaml/snakeyaml/1.26/snakeyaml-1.26.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/yaml/snakeyaml/1.26/snakeyaml-1.26.pom (38 kB at 39 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/github/TheBusyBiscuit/CS-CoreLib/e42a05d129/CS-CoreLib-e42a05d129.pom
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/github/TheBusyBiscuit/CS-CoreLib/e42a05d129/CS-CoreLib-e42a05d129.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/github/TheBusyBiscuit/CS-CoreLib/e42a05d129/CS-CoreLib-e42a05d129.pom
+[INFO] Downloaded from jitpack.io: https://jitpack.io/com/github/TheBusyBiscuit/CS-CoreLib/e42a05d129/CS-CoreLib-e42a05d129.pom (0 B at 0 B/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/github/TheBusyBiscuit/Slimefun4/RC-19/Slimefun4-RC-19.pom
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/github/TheBusyBiscuit/Slimefun4/RC-19/Slimefun4-RC-19.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/github/TheBusyBiscuit/Slimefun4/RC-19/Slimefun4-RC-19.pom
+[INFO] Downloaded from jitpack.io: https://jitpack.io/com/github/TheBusyBiscuit/Slimefun4/RC-19/Slimefun4-RC-19.pom (13 kB at 139 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/bstats/bstats-bukkit/1.8/bstats-bukkit-1.8.pom
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/bstats/bstats-bukkit/1.8/bstats-bukkit-1.8.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/bstats/bstats-bukkit/1.8/bstats-bukkit-1.8.pom
+[INFO] Downloading from bstats-repo: https://repo.codemc.org/repository/maven-public/org/bstats/bstats-bukkit/1.8/bstats-bukkit-1.8.pom
+[INFO] Downloaded from bstats-repo: https://repo.codemc.org/repository/maven-public/org/bstats/bstats-bukkit/1.8/bstats-bukkit-1.8.pom (952 B at 1.9 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/bstats/bstats/1.8/bstats-1.8.pom
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/bstats/bstats/1.8/bstats-1.8.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/bstats/bstats/1.8/bstats-1.8.pom
+[INFO] Downloading from bstats-repo: https://repo.codemc.org/repository/maven-public/org/bstats/bstats/1.8/bstats-1.8.pom
+[INFO] Downloaded from bstats-repo: https://repo.codemc.org/repository/maven-public/org/bstats/bstats/1.8/bstats-1.8.pom (7.3 kB at 16 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/spigotmc/spigot-api/1.16.4-R0.1-SNAPSHOT/spigot-api-1.16.4-R0.1-20210114.220528-50.jar
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/net/md-5/bungeecord-chat/1.16-R0.3/bungeecord-chat-1.16-R0.3.jar
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/github/TheBusyBiscuit/Slimefun4/RC-19/Slimefun4-RC-19.jar
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/github/TheBusyBiscuit/CS-CoreLib/e42a05d129/CS-CoreLib-e42a05d129.jar
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/yaml/snakeyaml/1.26/snakeyaml-1.26.jar
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/bstats/bstats-bukkit/1.8/bstats-bukkit-1.8.jar
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/net/md-5/bungeecord-chat/1.16-R0.3/bungeecord-chat-1.16-R0.3.jar (149 kB at 103 kB/s)
+[INFO16.4-R0.1-SNAPSHOT/spigot-api-1.16.4-R0.1] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/spigotmc/spigot-api/1.-20210114.220528-50.jar (1.3 MB at 825 kB/s)
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/yaml/snakeyaml/1.26/snakeyaml-1.26.jar (309 kB at 194 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/github/TheBusyBiscuit/CS-CoreLib/e42a05d129/CS-CoreLib-e42a05d129.jar
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/github/TheBusyBiscuit/Slimefun4/RC-19/Slimefun4-RC-19.jar
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/bstats/bstats-bukkit/1.8/bstats-bukkit-1.8.jar
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/github/TheBusyBiscuit/Slimefun4/RC-19/Slimefun4-RC-19.jar
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/github/TheBusyBiscuit/CS-CoreLib/e42a05d129/CS-CoreLib-e42a05d129.jar
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/bstats/bstats-bukkit/1.8/bstats-bukkit-1.8.jar
+[INFO] Downloaded from jitpack.io: https://jitpack.io/com/github/TheBusyBiscuit/CS-CoreLib/e42a05d129/CS-CoreLib-e42a05d129.jar (0 B at 0 B/s)
+[INFO] Downloaded from jitpack.io: https://jitpack.io/com/github/TheBusyBiscuit/Slimefun4/RC-19/Slimefun4-RC-19.jar (4.1 MB at 17 MB/s)
+[INFO] Downloading from bstats-repo: https://repo.codemc.org/repository/maven-public/org/bstats/bstats-bukkit/1.8/bstats-bukkit-1.8.jar
+[INFO] Downloaded from bstats-repo: https://repo.codemc.org/repository/maven-public/org/bstats/bstats-bukkit/1.8/bstats-bukkit-1.8.jar (20 kB at 37 kB/s)
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ GlobalWarming ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ GlobalWarming ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 4 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ GlobalWarming ---
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-component-annotations/1.7.1/plexus-component-annotations-1.7.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-component-annotations/1.7.1/plexus-component-annotations-1.7.1.pom (770 B at 48 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-containers/1.7.1/plexus-containers-1.7.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-containers/1.7.1/plexus-containers-1.7.1.pom (5.0 kB at 629 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-utils/3.2.1/maven-shared-utils-3.2.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-utils/3.2.1/maven-shared-utils-3.2.1.pom (5.6 kB at 402 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-java/0.9.10/plexus-java-0.9.10.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-java/0.9.10/plexus-java-0.9.10.pom (5.1 kB at 365 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-languages/0.9.10/plexus-languages-0.9.10.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-languages/0.9.10/plexus-languages-0.9.10.pom (4.1 kB at 460 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm/6.2/asm-6.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm/6.2/asm-6.2.pom (2.9 kB at 267 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/thoughtworks/qdox/qdox/2.0-M9/qdox-2.0-M9.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/thoughtworks/qdox/qdox/2.0-M9/qdox-2.0-M9.pom (16 kB at 1.3 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-api/2.8.4/plexus-compiler-api-2.8.4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-api/2.8.4/plexus-compiler-api-2.8.4.pom (867 B at 79 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler/2.8.4/plexus-compiler-2.8.4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler/2.8.4/plexus-compiler-2.8.4.pom (6.0 kB at 754 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-components/4.0/plexus-components-4.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-components/4.0/plexus-components-4.0.pom (2.7 kB at 266 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.0.22/plexus-utils-3.0.22.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.0.22/plexus-utils-3.0.22.pom (3.8 kB at 638 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-manager/2.8.4/plexus-compiler-manager-2.8.4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-manager/2.8.4/plexus-compiler-manager-2.8.4.pom (692 B at 86 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-javac/2.8.4/plexus-compiler-javac-2.8.4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-javac/2.8.4/plexus-compiler-javac-2.8.4.pom (771 B at 64 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compilers/2.8.4/plexus-compilers-2.8.4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compilers/2.8.4/plexus-compilers-2.8.4.pom (1.3 kB at 268 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/2.0.4/plexus-utils-2.0.4.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-utils/3.2.1/maven-shared-utils-3.2.1.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/commons-io/commons-io/2.5/commons-io-2.5.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-component-annotations/1.7.1/plexus-component-annotations-1.7.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-component-annotations/1.7.1/plexus-component-annotations-1.7.1.jar (4.3 kB at 95 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm/6.2/asm-6.2.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-java/0.9.10/plexus-java-0.9.10.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-utils/3.2.1/maven-shared-utils-3.2.1.jar (167 kB at 3.1 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/thoughtworks/qdox/qdox/2.0-M9/qdox-2.0-M9.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/2.0.4/plexus-utils-2.0.4.jar (222 kB at 2.6 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-api/2.8.4/plexus-compiler-api-2.8.4.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/commons-io/commons-io/2.5/commons-io-2.5.jar (209 kB at 2.5 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-manager/2.8.4/plexus-compiler-manager-2.8.4.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm/6.2/asm-6.2.jar (111 kB at 1.6 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-javac/2.8.4/plexus-compiler-javac-2.8.4.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-manager/2.8.4/plexus-compiler-manager-2.8.4.jar (4.7 kB at 60 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-api/2.8.4/plexus-compiler-api-2.8.4.jar (27 kB at 322 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-java/0.9.10/plexus-java-0.9.10.jar (39 kB at 429 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-javac/2.8.4/plexus-compiler-javac-2.8.4.jar (21 kB at 245 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/thoughtworks/qdox/qdox/2.0-M9/qdox-2.0-M9.jar (317 kB at 3.2 MB/s)
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 23 source files to /home/runner/work/builds/builds/poma123/GlobalWarming/master/files/target/classes
+[INFO] /home/runner/work/builds/builds/poma123/GlobalWarming/master/files/src/main/java/me/poma123/globalwarming/tasks/MechanicTask.java: /home/runner/work/builds/builds/poma123/GlobalWarming/master/files/src/main/java/me/poma123/globalwarming/tasks/MechanicTask.java uses or overrides a deprecated API.
+[INFO] /home/runner/work/builds/builds/poma123/GlobalWarming/master/files/src/main/java/me/poma123/globalwarming/tasks/MechanicTask.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ GlobalWarming ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/runner/work/builds/builds/poma123/GlobalWarming/master/files/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ GlobalWarming ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ GlobalWarming ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ GlobalWarming ---
+[INFO] Building jar: /home/runner/work/builds/builds/poma123/GlobalWarming/master/files/target/GlobalWarming-9.jar
+[INFO] 
+[INFO] >>> maven-source-plugin:3.2.1:jar (attach-sources) > generate-sources @ GlobalWarming >>>
+[INFO] 
+[INFO] <<< maven-source-plugin:3.2.1:jar (attach-sources) < generate-sources @ GlobalWarming <<<
+[INFO] 
+[INFO] 
+[INFO] --- maven-source-plugin:3.2.1:jar (attach-sources) @ GlobalWarming ---
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-archiver/3.5.0/maven-archiver-3.5.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-archiver/3.5.0/maven-archiver-3.5.0.pom (4.5 kB at 343 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/4.2.0/plexus-archiver-4.2.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/4.2.0/plexus-archiver-4.2.0.pom (4.8 kB at 403 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-io/3.2.0/plexus-io-3.2.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-io/3.2.0/plexus-io-3.2.0.pom (4.5 kB at 505 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-compress/1.19/commons-compress-1.19.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-compress/1.19/commons-compress-1.19.pom (18 kB at 1.1 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/48/commons-parent-48.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/48/commons-parent-48.pom (72 kB at 7.2 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/iq80/snappy/snappy/0.4/snappy-0.4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/iq80/snappy/snappy/0.4/snappy-0.4.pom (15 kB at 855 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/tukaani/xz/1.8/xz-1.8.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/tukaani/xz/1.8/xz-1.8.pom (1.9 kB at 173 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interpolation/1.25/plexus-interpolation-1.25.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interpolation/1.25/plexus-interpolation-1.25.pom (2.6 kB at 165 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/4.2.1/plexus-archiver-4.2.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/4.2.1/plexus-archiver-4.2.1.pom (4.8 kB at 484 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-archiver/3.5.0/maven-archiver-3.5.0.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/4.2.1/plexus-archiver-4.2.1.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-io/3.2.0/plexus-io-3.2.0.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-compress/1.19/commons-compress-1.19.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/iq80/snappy/snappy/0.4/snappy-0.4.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-archiver/3.5.0/maven-archiver-3.5.0.jar (26 kB at 1.1 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/tukaani/xz/1.8/xz-1.8.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/iq80/snappy/snappy/0.4/snappy-0.4.jar (58 kB at 2.6 MB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-io/3.2.0/plexus-io-3.2.0.jar (76 kB at 2.2 MB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/tukaani/xz/1.8/xz-1.8.jar (109 kB at 3.5 MB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/4.2.1/plexus-archiver-4.2.1.jar (196 kB at 3.0 MB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-compress/1.19/commons-compress-1.19.jar (615 kB at 11 MB/s)
+[INFO] Building jar: /home/runner/work/builds/builds/poma123/GlobalWarming/master/files/target/GlobalWarming-9-sources.jar
+[INFO] 
+[INFO] --- maven-shade-plugin:3.2.4:shade (default) @ GlobalWarming ---
+rg.bstats:bstats-bukkit:jar:1.8 in the shaded jar.
+[INFO] Including o[INFO] Replacing original artifact with shaded artifact.
+[INFO] Replacing /home/runner/work/builds/builds/poma123/GlobalWarming/master/files/target/GlobalWarming-9.jar with /home/runner/work/builds/builds/poma123/GlobalWarming/master/files/target/GlobalWarming-DEV - 9 (git d21d264b)-shaded.jar
+[INFO] Dependency-reduced POM written at: /home/runner/work/builds/builds/poma123/GlobalWarming/master/files/dependency-reduced-pom.xml
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  17.990 s
+[INFO] Finished at: 2021-01-20T17:55:27Z
+[INFO] ------------------------------------------------------------------------
