@@ -5,7 +5,7 @@ const projects = require('../src/projects.js');
 
 const chai = require('chai');
 chai.use(require('chai-as-promised'));
-const {assert} = chai;
+const { assert } = chai;
 
 const testJobs = require('../test/TestJobs.js');
 
@@ -14,7 +14,7 @@ var job = {
     author: "jitpack",
     repo: "maven-simple",
     branch: "master",
-	directory: "jitpack/maven-simple/master"
+    directory: "jitpack/maven-simple/master"
 }
 
 describe("Full System Test", function() {

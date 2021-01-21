@@ -3,7 +3,10 @@
  */
 module.exports = (logging, str, direct) => {
     if (logging) {
-        if (direct) process.stdout.write(str);
-        else console.log(str);
+        if (direct) {
+            process.stdout.write(str);
+        } else {
+            console.log(str);
+        }
     }
 }

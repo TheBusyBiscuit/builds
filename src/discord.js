@@ -3,21 +3,22 @@ const lodash = require("lodash/collection");
 const projects = require('../src/projects.js');
 
 module.exports = (cfg) => {
-	var config = cfg;
+    var config = cfg;
 
     var webhook = {
         send: () => Promise.resolve()
     };
 
     if (config) {
-		if (config.isEnabled()) webhook = new Discord.WebhookClient(config.getID(), config.getToken());
-	}
-	else config = {
-		isEnabled: () => true,
-		getMessages: (success) => {
-			return success ? "This Build was a success!": "This Build was a failure!";
-		}
-	}
+        if (config.isEnabled()) {
+            webhook = new Discord.WebhookClient(config.getID(), config.getToken());
+        }
+    } else config = {
+        isEnabled: () => true,
+        getMessages: (success) => {
+            return success ? "This Build was a success!" : "This Build was a failure!";
+        }
+    }
 
     return {
         /**
@@ -31,11 +32,11 @@ module.exports = (cfg) => {
          */
         sendUpdate: (job) => sendUpdate(webhook, job, config),
 
-		/**
-		 * This method returns the discord config used by this instance
-		 *
-		 * @return {Object} Config
-		 */
+        /**
+         * This method returns the discord config used by this instance
+         *
+         * @return {Object} Config
+         */
         getConfig: () => config
     }
 };
@@ -51,23 +52,25 @@ module.exports = (cfg) => {
  */
 function sendUpdate(webhook, job, cfg) {
     return new Promise((resolve, reject) => {
-		if (!cfg.isEnabled()) resolve();
+        if (!cfg.isEnabled()) {
+            resolve();
+        }
 
         if (!projects.isValid(job, true)) {
             reject("Invalid Job");
             return;
         }
 
-        var message = lodash.sample(cfg.getMessages(job.success));
+        let message = lodash.sample(cfg.getMessages(job.success));
         message = message.replace(/<user>/g, job.author).replace(/<repo>/g, job.repo).replace(/<branch>/g, job.branch).replace(/<id>/g, job.id);
 
         webhook.send(
             new Discord.RichEmbed()
-            .setTitle(job.author + "/" + job.repo + ":" + job.branch + " ( #" + job.id + " )")
-            .setColor(job.success ? 0X00FF00: 0XFF0000)
-            .setDescription(message)
-			.setURL("https://thebusybiscuit.github.io/builds/" + job.directory + "#" + job.id)
-            .setTimestamp(Date.now())
+                .setTitle(job.author + "/" + job.repo + ":" + job.branch + " ( #" + job.id + " )")
+                .setColor(job.success ? 0X00FF00 : 0XFF0000)
+                .setDescription(message)
+                .setURL("https://thebusybiscuit.github.io/builds/" + job.directory + "#" + job.id)
+                .setTimestamp(Date.now())
         ).then(resolve, reject);
     });
 }

@@ -38,13 +38,13 @@ function getProjects(logging) {
 
                 job.directory = job.author + "/" + job.repo + "/" + job.branch;
 
-				if (json[repo].options) {
-					job.options = json[repo].options;
+                if (json[repo].options) {
+                    job.options = json[repo].options;
 
                     if (json[repo].options.custom_directory) {
                         job.directory = json[repo].options.custom_directory;
                     }
-				}
+                }
 
                 if (json[repo].sonar && json[repo].sonar.enabled) {
                     job.sonar = json[repo].sonar;
@@ -88,7 +88,7 @@ function addBuild(job, logging) {
                 avatar: job.commit.avatar,
                 license: job.license,
                 candidate: "DEVELOPMENT",
-                status: (job.success ? "SUCCESS": "FAILURE")
+                status: (job.success ? "SUCCESS" : "FAILURE")
             }
 
             if (job.success) builds.last_successful = job.id;
@@ -117,8 +117,7 @@ function addBuild(job, logging) {
                 builds = JSON.parse(data);
                 append();
             }, append);
-        }
-        else append();
+        } else append();
     });
 }
 
@@ -169,8 +168,8 @@ function generateBadge(job, logging) {
         }
 
         fs.readFile(path.resolve(__dirname, "../resources/badge.svg"), "utf8").then((svg) => {
-            svg = svg.replace(/\${status}/g, job.success ? "SUCCESS": "FAILURE");
-            svg = svg.replace(/\${color}/g, job.success ? "rgb(30, 220, 30)": "rgb(220, 30, 30)");
+            svg = svg.replace(/\${status}/g, job.success ? "SUCCESS" : "FAILURE");
+            svg = svg.replace(/\${color}/g, job.success ? "rgb(30, 220, 30)" : "rgb(220, 30, 30)");
 
             log(logging, "-> Saving 'badge.svg'...");
 
@@ -215,11 +214,10 @@ async function clearFolder(file, logging) {
                 if (length === index) {
                     fs.rmdir(file).then(resolve, reject);
                     return true;
-                }
-                else return false;
+                } else return false;
             }
 
-            if(!check()) {
+            if (!check()) {
                 var next = () => {
                     index++;
                     check();
@@ -235,8 +233,7 @@ async function clearFolder(file, logging) {
                 }
             }
         })
-    }
-    else {
+    } else {
         return fs.unlink(file);
     }
 }

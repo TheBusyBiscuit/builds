@@ -1,6 +1,6 @@
 const chai = require('chai');
 chai.use(require('chai-as-promised'));
-const {assert} = chai;
+const { assert } = chai;
 
 const config = require('../src/config.js');
 

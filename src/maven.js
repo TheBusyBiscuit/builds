@@ -75,12 +75,11 @@ function updatePOM(job, json, version, compact) {
 
         if (node) {
             node.setValue(job.repo + "-" + job.id);
-        }
-        else {
+        } else {
             json.getChild("build").addChild(new XML.XMLNode("finalName", job.repo + "-" + job.id));
         }
 
-        XML.promises.toXML(json, compact ? minify: beautify).then((xml) => {
+        XML.promises.toXML(json, compact ? minify : beautify).then((xml) => {
             resolve(xml);
         }, reject);
     });

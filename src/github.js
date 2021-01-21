@@ -50,10 +50,10 @@ module.exports = (cfg) => {
         exists: (job) => exists(job, cfg),
 
         /**
-		 * This method returns the discord config used by this instance
-		 *
-		 * @return {Object} Config
-		 */
+         * This method returns the discord config used by this instance
+         *
+         * @return {Object} Config
+         */
         getConfig: () => cfg,
 
         clone,
@@ -140,8 +140,7 @@ function getJSON(job, cfg, logging, endpoint, resolve, reject) {
 
         if (json.documentation_url) {
             reject("Missing License file");
-        }
-        else {
+        } else {
             resolve(json);
         }
     }, reject);
@@ -188,16 +187,15 @@ function hasUpdate(job, timestamp) {
 
         if (FileSystem.existsSync(file)) {
             fs.readFile(file, "utf8")
-            .then((data) => {
-                if (!data) resolve(0); // Pretend like there is an Update if no local builds exist
-                var json = JSON.parse(data);
+                .then((data) => {
+                    if (!data) resolve(0); // Pretend like there is an Update if no local builds exist
+                    var json = JSON.parse(data);
 
-                if (!json.latest) resolve(0); // Pretend like there is an Update if no local builds exist
-                else if (timestamp > json[json.latest].timestamp) resolve(json.latest);
-                else reject();
-            }, () => resolve(0))
-        }
-        else resolve(0); // Pretend like there is an Update if no local builds exist
+                    if (!json.latest) resolve(0); // Pretend like there is an Update if no local builds exist
+                    else if (timestamp > json[json.latest].timestamp) resolve(json.latest);
+                    else reject();
+                }, () => resolve(0))
+        } else resolve(0); // Pretend like there is an Update if no local builds exist
     });
 }
 
@@ -238,8 +236,8 @@ function clone(job, commit, logging) {
                 "--hard",
                 commit
             ], {
-                cwd: path.resolve(__dirname, "../" + job.directory + "/files")
-            });
+                    cwd: path.resolve(__dirname, "../" + job.directory + "/files")
+                });
 
             refresh.childProcess.stdout.on('data', (data) => log(logging, "-> " + data));
             refresh.childProcess.stderr.on('data', (data) => log(logging, "-> " + data));
@@ -283,7 +281,7 @@ function pushChanges(job, logging) {
             var commit = process.spawn("git", [
                 "commit",
                 "-m",
-                (job.success ? "Successfully compiled: ": "Failed to compile: ") + job.author + "/" + job.repo + ":" + job.branch + " (" + job.id + ")"
+                (job.success ? "Successfully compiled: " : "Failed to compile: ") + job.author + "/" + job.repo + ":" + job.branch + " (" + job.id + ")"
             ]);
 
             commit.childProcess.stdout.on('data', (data) => log(logging, "-> " + data));
@@ -317,9 +315,9 @@ function pushChanges(job, logging) {
 function getURL(job, cfg, endpoint) {
     var url = "https://api.github.com/repos/" + job.author + "/" + job.repo + endpoint;
     var headers = {
-            "Accept": "application/vnd.github.v3+json",
-            "User-Agent": "The Busy Biscuit's Repository Compiler",
-            "Time-Zone": "UTC"
+        "Accept": "application/vnd.github.v3+json",
+        "User-Agent": "The Busy Biscuit's Repository Compiler",
+        "Time-Zone": "UTC"
     };
 
     if (cfg.getToken()) {

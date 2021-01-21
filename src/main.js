@@ -51,27 +51,28 @@ function start(logging) {
 
                 if (!global.status.running || i >= jobs.length) {
                     done();
-                }
-                else {
+                } else {
                     log(logging, "");
                     log(logging, "Watching: " + jobs[i].author + "/" + jobs[i].repo + ":" + jobs[i].branch)
 
                     let job = jobs[i];
 
                     // Project Lifecycle
-                    check(job, logging).then(() =>
-                        update(job, logging).then(() =>
-                            compile(job, logging).then(() =>
-                                gatherResources(job, logging).then(() =>
-                                    upload(job, logging).then(() =>
-                                        finish(job, logging).then(() => {
-                                            global.status.task[jobs[i].author + "/" + jobs[i].repo + "/" + jobs[i].branch] = "Finished"
-                                        }).then(nextJob, fail)
-                                    , fail)
-                                , fail)
-                            , fail)
-                        , fail)
-                    , nextJob);
+                    check(job, logging)
+                        .then(() => update(job, logging)
+                            .then(() => compile(job, logging)
+                                .then(() => gatherResources(job, logging)
+                                    .then(() => upload(job, logging)
+                                        .then(() => finish(job, logging)
+                                            .then(() => {
+                                                global.status.task[jobs[i].author + "/" + jobs[i].repo + "/" + jobs[i].branch] = "Finished"
+                                            })
+                                            .then(nextJob, fail),
+                                            fail),
+                                        fail),
+                                    fail),
+                                fail),
+                            nextJob);
                 }
             };
 
@@ -138,7 +139,7 @@ function update(job, logging) {
         log(logging, "Updating: " + job.author + "/" + job.repo + ":" + job.branch + " (" + job.id + ")");
 
         github.clone(job, job.commit.sha, logging).then(() => {
-            maven.setVersion(job, (job.options ? job.options.prefix: "DEV") + " - " + job.id + " (git " + job.commit.sha.substr(0, 8) + ")", true).then(resolve, reject);
+            maven.setVersion(job, (job.options ? job.options.prefix : "DEV") + " - " + job.id + " (git " + job.commit.sha.substr(0, 8) + ")", true).then(resolve, reject);
         }, reject);
     });
 }
@@ -161,15 +162,15 @@ function compile(job, logging) {
         log(logging, "Compiling: " + job.author + "/" + job.repo + ":" + job.branch + " (" + job.id + ")");
 
         maven.compile(job, cfg, logging)
-        .then(() => {
-            job.success = true;
-            resolve();
-        })
-        .catch((err) => {
-            log(logging, err.stack);
-            job.success = false;
-            resolve();
-        });
+            .then(() => {
+                job.success = true;
+                resolve();
+            })
+            .catch((err) => {
+                log(logging, err.stack);
+                job.success = false;
+                resolve();
+            });
     });
 }
 

@@ -1,4 +1,5 @@
 const fs = require('fs');
+const path = require('path');
 const lodash = require("lodash/object");
 
 const defaultConfig = {
@@ -29,7 +30,7 @@ const defaultConfig = {
     }
 }
 
-module.exports = (file) => {
+module.exports = file => {
     let cfg = {};
 
     if (file != 'null' && process.env.JSON_CONFIG) {
@@ -39,8 +40,7 @@ module.exports = (file) => {
     try {
         // Sadly this has to be a sync-process, otherwise a Promise would be more appropriate here
         cfg = JSON.parse(fs.readFileSync(file, 'UTF-8'));
-    }
-    catch(err) {}
+    } catch (err) { }
 
     cfg = lodash.defaultsDeep(cfg, defaultConfig);
 
@@ -52,6 +52,8 @@ module.exports = (file) => {
 };
 
 function structure(json) {
+    let messages = JSON.stringify(fs.readFileSync(path.resolve(__dirname, "../resources/discord-messages.json"), 'UTF-8'));
+
     return {
         server: {
             getPort: () => json.server.port,
@@ -64,8 +66,8 @@ function structure(json) {
             isEnabled: () => json.discord.enabled,
             getID: () => json.discord.id,
             getToken: () => json.discord.token,
-            getMessages: (success) => {
-                return success ? json.discord.messages.success: json.discord.messages.failure;
+            getMessages: success => {
+                return success ? messages.success : messages.failure;
             }
         },
         sonar: {

@@ -1,0 +1,40 @@
+{
+    "success": [
+        "Is it a bird?\nIs it a plane?\nNo, it's Build #<id> of <repo>",
+        "Wow, that actually worked?\nI mean, of course, yes, sure.",
+        "It'sa me, Build #<id> of <repo>",
+        "<repo> has been updated to Build #<id>",
+        "<user> really outdid themselves!\nBuild #<id> of <repo> was a success!",
+        "<repo> #<id> compiled successfully!\n<user> must be so proud!",
+        "Oh cool another build of <repo>...",
+        "Look!\nA new Build of <repo> just dropped from the sky!",
+        "Did someone order a large <repo> with some extra <user> on top?",
+        "Ding Dong!\nBuild #<id> of <repo> is here!",
+        "Knock Knock!\nWho's there?\nBuild #<id>!\nBuild #<id> who?\n\nBuild #<id> of <repo>!",
+        "Now entering... Build #<id> of <repo>",
+        "A new challenger approached!\nBuild #<id> of <repo>",
+        "A wild <repo> has appeared!",
+        "Whooooooooooooosh\n\nA <repo> build flew by!",
+        "Pssst...\nYou want some <repo>?\nHere's a fresh build!",
+        "Build <id> of <repo> has just graduated!\nIt is now ready for your servers!",
+        "<user> just grew another <repo> Tree in his garden.\nLook! There is already a juicy build #<id> hanging beneath it!",
+        "Another fresh oven-baked piece of <repo> is ready!\nBe careful not to burn yourself!",
+        "Did someone say <repo>?\nNo?\nWell, here you go anyway..."
+    ],
+    "failure": [
+        "Oh no!\nWhat has <user> done?\n<repo> did not compile!",
+        "Well, <user>...\nThat did not work out, did it?",
+        "<repo> failed to compile! No Build #<id> for you :(",
+        "A new build of <repo> is...\nOh damn it, it broke...",
+        "Build #<id> of <repo> fell into the void.",
+        "Build #<id> of <repo> failed to compile.\nPress 'F' to pay respect.",
+        "Another one bites the dust!\nIt was <repo> this time...",
+        "Uh oh, <repo> got snapped out of existance",
+        "Someone ate Build <id> of <repo>\n<user>, was it you?",
+        "<user>, there is a problem! *over*",
+        "Mission failed. We'll get 'em next time, <user>",
+        "How... Just how?",
+        "<repo>, I believed in you...",
+        "<repo> believed it could fly.\n\nSoon after... it hit the ground."
+    ]
+}
