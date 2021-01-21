@@ -28,12 +28,4 @@ describe("Config Test", function() {
     it("can return sonar's console arguments", () => {
         return assert.isNotNull(config("null").sonar.getArguments());
     });
-
-    it("can return sonar's console arguments", () => {
-        return assert.isNumber(config("null").server.getPort());
-    });
-
-    it("can return sonar's console arguments", () => {
-        return assert.isNumber(config("null").server.getInterval());
-    });
 });
