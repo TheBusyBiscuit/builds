@@ -37,16 +37,16 @@ function start(logging) {
     return new Promise((done, fail) => {
         log(logging, "Loading Projects...");
 
-        projects.getProjects(logging).then((jobs) => {
+        projects.getProjects(logging).then(jobs => {
             global.status.jobs = jobs.slice(0);
 
-            for (var index in jobs) {
-                global.status.task[jobs[index].author + "/" + jobs[index].repo + "/" + jobs[index].branch] = "Queued";
+            for (let index in jobs) {
+                updateStatus(jobs[index], "Queued");
             }
 
-            var i = -1;
+            let i = -1;
 
-            var nextJob = () => {
+            let nextJob = () => {
                 i++;
 
                 if (!global.status.running || i >= jobs.length) {
@@ -64,9 +64,7 @@ function start(logging) {
                                 .then(() => gatherResources(job, logging)
                                     .then(() => upload(job, logging)
                                         .then(() => finish(job, logging)
-                                            .then(() => {
-                                                global.status.task[jobs[i].author + "/" + jobs[i].repo + "/" + jobs[i].branch] = "Finished"
-                                            })
+                                            .then(() => updateStatus(jobs[i], "Finished"))
                                             .then(nextJob, fail),
                                             fail),
                                         fail),
@@ -90,12 +88,18 @@ function start(logging) {
  * @return {Promise}         A promise that resolves when this activity finished
  */
 function check(job, logging) {
-    if (!global.status.running) return Promise.reject("The operation has been cancelled");
-    if (!projects.isValid(job, false)) return Promise.reject("Invalid Job!");
+    if (!global.status.running) {
+        return Promise.reject("The operation has been cancelled");
+    }
 
-    global.status.task[job.author + "/" + job.repo + "/" + job.branch] = "Pulling Commits";
+    if (!projects.isValid(job, false)) {
+        return Promise.reject("Invalid Job!");
+    }
+
+    updateStatus(job, "Pulling Commits");
+
     return new Promise((resolve, reject) => {
-        github.getLatestCommit(job, logging).then((commit) => {
+        github.getLatestCommit(job, logging).then(commit => {
             var timestamp = parseInt(commit.commit.committer.date.replace(/\D/g, ""));
 
             if (commit.commit.message.toLowerCase().startsWith("[ci skip]")) {
@@ -112,9 +116,8 @@ function check(job, logging) {
                 avatar: commit.author.avatar_url
             }
 
-            github.hasUpdate(job, timestamp, logging).then((id) => {
+            github.hasUpdate(job, timestamp, logging).then(id => {
                 job.id = id + 1;
-
                 projects.clearWorkspace(job).then(resolve, reject);
             }, reject);
         }, reject);
@@ -131,15 +134,22 @@ function check(job, logging) {
  * @return {Promise}         A promise that resolves when this activity finished
  */
 function update(job, logging) {
-    if (!global.status.running) return Promise.reject("The operation has been cancelled");
-    if (!projects.isValid(job, false)) return Promise.reject("Invalid Job!");
+    if (!global.status.running) {
+        return Promise.reject("The operation has been cancelled");
+    }
 
-    global.status.task[job.author + "/" + job.repo + "/" + job.branch] = "Cloning Repository";
+    if (!projects.isValid(job, false)) {
+        return Promise.reject("Invalid Job!");
+    }
+
+    updateStatus(job, "Cloning Repository");
+
     return new Promise((resolve, reject) => {
         log(logging, "Updating: " + job.author + "/" + job.repo + ":" + job.branch + " (" + job.id + ")");
 
         github.clone(job, job.commit.sha, logging).then(() => {
-            maven.setVersion(job, (job.options ? job.options.prefix : "DEV") + " - " + job.id + " (git " + job.commit.sha.substr(0, 8) + ")", true).then(resolve, reject);
+            let name = (job.options ? job.options.prefix : "DEV") + " - " + job.id + " (git " + job.commit.sha.substr(0, 8) + ")";
+            maven.setVersion(job, name, true).then(resolve, reject);
         }, reject);
     });
 }
@@ -154,10 +164,16 @@ function update(job, logging) {
  * @return {Promise}         A promise that resolves when this activity finished
  */
 function compile(job, logging) {
-    if (!global.status.running) return Promise.reject("The operation has been cancelled");
-    if (!projects.isValid(job, false)) return Promise.reject("Invalid Job!");
+    if (!global.status.running) {
+        return Promise.reject("The operation has been cancelled");
+    }
 
-    global.status.task[job.author + "/" + job.repo + "/" + job.branch] = "Compiling";
+    if (!projects.isValid(job, false)) {
+        return Promise.reject("Invalid Job!");
+    }
+
+    updateStatus(job, "Compiling");
+
     return new Promise((resolve) => {
         log(logging, "Compiling: " + job.author + "/" + job.repo + ":" + job.branch + " (" + job.id + ")");
 
@@ -183,10 +199,16 @@ function compile(job, logging) {
  * @return {Promise}         A promise that resolves when this activity finished
  */
 function gatherResources(job, logging) {
-    if (!global.status.running) return Promise.reject("The operation has been cancelled");
-    if (!projects.isValid(job, true)) return Promise.reject("Invalid Job!");
+    if (!global.status.running) {
+        return Promise.reject("The operation has been cancelled");
+    }
 
-    global.status.task[job.author + "/" + job.repo + "/" + job.branch] = "Fetching Resources";
+    if (!projects.isValid(job, true)) {
+        return Promise.reject("Invalid Job!");
+    }
+
+    updateStatus(job, "Fetching Resources");
+
     return new Promise((resolve, reject) => {
         log(logging, "Gathering Resources: " + job.author + "/" + job.repo + ":" + job.branch);
 
@@ -225,19 +247,28 @@ function gatherResources(job, logging) {
  * @return {Promise}         A promise that resolves when this activity finished
  */
 function upload(job, logging) {
-    if (!global.status.running) return Promise.reject("The operation has been cancelled");
-    if (!projects.isValid(job, true)) return Promise.reject("Invalid Job!");
+    if (!global.status.running) {
+        return Promise.reject("The operation has been cancelled");
+    }
+
+    if (!projects.isValid(job, true)) {
+        return Promise.reject("Invalid Job!");
+    }
 
     global.status.task[job.author + "/" + job.repo + "/" + job.branch] = "Preparing Upload";
     return new Promise((resolve, reject) => {
-        var promises = [
+        let promises = [
             projects.addBuild(job, logging),
             projects.generateHTML(job, logging),
             projects.generateBadge(job, logging)
         ];
 
         log(logging, "Uploading: " + job.author + "/" + job.repo + ":" + job.branch + " (" + job.id + ")");
-        if (logging) promises.push(discord.sendUpdate(job));
+
+        // Discord counts as a form of "logging" in this sense
+        if (logging) {
+            promises.push(discord.sendUpdate(job));
+        }
 
         Promise.all(promises).then(resolve, reject);
     });
@@ -253,12 +284,30 @@ function upload(job, logging) {
  * @return {Promise}         A promise that resolves when this activity finished
  */
 function finish(job, logging) {
-    if (!global.status.running) return Promise.reject("The operation has been cancelled");
-    if (!projects.isValid(job, true)) return Promise.reject("Invalid Job!");
+    // Check if the program is still running
+    if (!global.status.running) {
+        return Promise.reject("The operation has been cancelled");
+    }
 
-    global.status.task[job.author + "/" + job.repo + "/" + job.branch] = "Uploading";
+    // Check if the job is still valid
+    if (!projects.isValid(job, true)) {
+        return Promise.reject("Invalid Job!");
+    }
+
+    updateStatus(job, "Uploading");
+
     return Promise.all([
         github.pushChanges(job, logging),
         projects.clearWorkspace(job)
     ]);
+}
+
+/**
+ * This updates our global status variable for the given job.
+ *
+ * @param  {Object} job    The currently handled Job Object
+ * @param  {String} status The new status message for this job
+ */
+function updateStatus(job, status) {
+    global.status.task[job.author + "/" + job.repo + "/" + job.branch] = status;
 }

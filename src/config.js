@@ -8,8 +8,8 @@ const defaultConfig = {
     },
     discord: {
         enabled: false,
-        id: "YOUR_DISCORD_BOT_ID",
-        token: "YOUR_DISCORD_BOT_TOKEN"
+        id: "YOUR_DISCORD_WEBHOOK_ID",
+        token: "YOUR_DISCORD_WEBHOOK_TOKEN"
     },
     sonar: {
         enabled: false,
@@ -40,7 +40,7 @@ module.exports = file => {
 };
 
 function structure(json) {
-    let messages = JSON.stringify(fs.readFileSync(path.resolve(__dirname, "../resources/discord-messages.json"), 'UTF-8'));
+    let messages = JSON.parse(fs.readFileSync(path.resolve(__dirname, "../resources/discord-messages.json"), 'UTF-8'));
 
     return {
         github: {
