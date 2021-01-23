@@ -106,7 +106,7 @@ $(() => {
             let matches = msg.match(/#[0-9]+/g);
 
             for (let n in matches) {
-                msg = msg.replace(matches[n], `<a class="link_info" href=https://github.com/"${owner}/${repository}/issues/${matches[n].replace("#", "")}>${matches[n]}</a>`);
+                msg = msg.replace(matches[n], `<a class="link_info" href=https://github.com/${owner}/${repository}/issues/${matches[n].replace("#", "")}>${matches[n]}</a>`);
             }
 
             $("#current_commit_message").html(msg);
