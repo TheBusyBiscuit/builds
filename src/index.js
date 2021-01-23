@@ -47,7 +47,7 @@ function addProfile(user, repos) {
             directory = repos[repo].options.custom_directory;
         }
 
-        let projectType = repos[repo].abandoned ? "abandoned" : "alive";
+        let projectType = repos[repo].options && repos[repo].options.abandoned ? "abandoned" : "alive";
         addRepository(table, directory, user, repository, branch, projectType);
     }
 

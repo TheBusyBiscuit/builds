@@ -137,6 +137,11 @@ function getMavenArguments(job, cfg) {
         args.push("-Dsonar.projectKey=" + job.sonar["project-key"]);
     }
 
+    if (job.options && !job.options.createJar) {
+        args.push("--file");
+        args.push("pom.xml");
+    }
+
     return args;
 }
 
@@ -148,7 +153,9 @@ function getMavenArguments(job, cfg) {
  * @return {Promise}         A promise that resolves when this activity finished
  */
 function relocate(job) {
-    if (!job.success) return Promise.resolve();
+    if (!job.success) {
+        return Promise.resolve();
+    }
 
     return fs.rename(
         path.resolve(__dirname, "../" + job.directory + "/files/target/" + job.repo + "-" + job.id + ".jar"),

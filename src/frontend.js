@@ -35,6 +35,9 @@ $(() => {
             } else if (builds[id].status === "FAILURE") {
                 stroke = "rgb(100, 60, 60)";
                 color = "rgb(255, 20, 20)";
+            } else if (builds[id].status === "COMPILE_ONLY") {
+                stroke = "rgb(10, 160, 160)";
+                color = "rgb(16, 200, 160)";
             }
 
             let current_icon = `<circle cx="31" cy="31" r="23" stroke="${stroke}" stroke-width="2" fill="${color}"/>`;
@@ -193,6 +196,9 @@ $(() => {
         } else if (builds[id].status === "FAILURE") {
             stroke = "rgb(100, 60, 60)";
             color = "rgb(255, 20, 20)";
+        } else if (builds[id].status === "COMPILE_ONLY") {
+            stroke = "rgb(10, 160, 160)";
+            color = "rgb(16, 200, 160)";
         }
 
         if (builds[id].candidate === "RELEASE") {

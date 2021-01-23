@@ -91,7 +91,13 @@ function addBuild(job, logging) {
                 status: (job.success ? "SUCCESS" : "FAILURE")
             }
 
-            if (job.success) builds.last_successful = job.id;
+            if (job.options && !job.options.createJar) {
+                builds[job.id].status = "COMPILE_ONLY";
+            }
+
+            if (job.success) {
+                builds.last_successful = job.id;
+            }
 
             builds.latest = job.id;
 
