@@ -9,9 +9,6 @@
       "additionalProperties": false,
 
       "properties": {
-        "abandoned": {
-          "type": "boolean"
-        },
         "sonar": {
           "type": "object",
           "required": ["enabled"],
@@ -46,6 +43,12 @@
             },
             "custom_directory": {
               "type": "string"
+            },
+            "abandoned": {
+              "type": "boolean"
+            },
+            "createJar": {
+              "type": "boolean
             }
           }
         },
