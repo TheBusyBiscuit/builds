@@ -48,7 +48,7 @@
               "type": "boolean"
             },
             "createJar": {
-              "type": "boolean
+              "type": "boolean"
             }
           }
         },
