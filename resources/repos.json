@@ -737,31 +737,6 @@
             }
         }
     },
-    "ClayCoffee/ClayTech:master": {
-        "sonar": {
-            "enabled": false
-        },
-        "options": {
-            "prefix": "DEV",
-            "abandoned": true,
-            "createJar": true
-        },
-        "dependencies": {
-            "Minecraft Version(s)": {
-                "1": "1.13.x, 1.14.x, 1.15.x, 1.16.x"
-            },
-            "CS-CoreLib Version": {
-                "1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/CS-CoreLib/master/#79\">dev #79</a>"
-            },
-            "Slimefun Version": {
-                "7": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/Slimefun4/stable/#16\">rc #16</a>",
-                "1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/Slimefun4/master/#584\">dev #584</a>"
-            },
-            "(Optional) Multiverse-Core Version": {
-                "1": "<a class=\"link_info\" href=\"https://dev.bukkit.org/projects/multiverse-core/\">4.1.0</a>"
-            }
-        }
-    },
     "Seggan/SFCalc:master": {
         "sonar": {
             "enabled": false
@@ -1021,6 +996,27 @@
             }
         }
     },
+    "kii-chan-reloaded/GeneticChickengineering:master": {
+        "sonar": {
+            "enabled": false
+        },
+        "options": {
+            "prefix": "DEV",
+            "abandoned": false,
+            "createJar": true
+        },
+        "dependencies": {
+            "Minecraft Version(s)": {
+                "1": "1.16.x"
+            },
+            "Slimefun Version": {
+                "1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/Slimefun4/stable/#20\">RC-20</a>"
+            },
+            "Server Software": {
+                "1": "<a class=\"link_info\" href=\"https://papermc.io/downloads\">Paper 1.16</a>"
+            }
+        }
+    },
     "J3fftw1/SlimeXpansion:master": {
         "sonar": {
             "enabled": false
@@ -1082,6 +1078,31 @@
             }
         }
     },
+    "ClayCoffee/ClayTech:master": {
+        "sonar": {
+            "enabled": false
+        },
+        "options": {
+            "prefix": "DEV",
+            "abandoned": true,
+            "createJar": true
+        },
+        "dependencies": {
+            "Minecraft Version(s)": {
+                "1": "1.13.x, 1.14.x, 1.15.x, 1.16.x"
+            },
+            "CS-CoreLib Version": {
+                "1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/CS-CoreLib/master/#79\">dev #79</a>"
+            },
+            "Slimefun Version": {
+                "7": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/Slimefun4/stable/#16\">rc #16</a>",
+                "1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/Slimefun4/master/#584\">dev #584</a>"
+            },
+            "(Optional) Multiverse-Core Version": {
+                "1": "<a class=\"link_info\" href=\"https://dev.bukkit.org/projects/multiverse-core/\">4.1.0</a>"
+            }
+        }
+    },
     "John000708/Barrels:master": {
         "sonar": {
             "enabled": false
@@ -1102,27 +1123,6 @@
             "Slimefun Version": {
                 "10": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/Slimefun4/master/#439\">dev #439</a>",
                 "1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/Slimefun4/master/#73\">dev #73</a>"
-            }
-        }
-    },
-    "kii-chan-reloaded/GeneticChickengineering:master": {
-        "sonar": {
-            "enabled": false
-        },
-        "options": {
-            "prefix": "DEV",
-            "abandoned": false,
-            "createJar": true
-        },
-        "dependencies": {
-            "Minecraft Version(s)": {
-                "1": "1.16.x"
-            },
-            "Slimefun Version": {
-                "1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/Slimefun4/stable/#20\">RC-20</a>"
-            },
-            "Server Software": {
-                "1": "<a class=\"link_info\" href=\"https://papermc.io/downloads\">Paper 1.16</a>"
             }
         }
     }
