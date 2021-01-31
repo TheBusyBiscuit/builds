@@ -1121,6 +1121,9 @@
             "Slimefun Version": {
                 "1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/Slimefun4/stable/#20\">RC-20</a>"
             }
+            "Server Software": {
+                "1": "<a class=\"link_info\" href=\"https://papermc.io/downloads\">Paper 1.16</a>"
+            }
         }
     }
 }
