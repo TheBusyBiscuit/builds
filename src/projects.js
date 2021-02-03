@@ -68,7 +68,7 @@ function getProjects(logging) {
 function addBuild(job, logging) {
     return new Promise((resolve, reject) => {
         if (!isValid(job, true)) {
-            reject("Invalid Job");
+            reject(new Error("Invalid Job"));
             return;
         }
 
@@ -140,7 +140,7 @@ function generateHTML(job, logging) {
 
     return new Promise((resolve, reject) => {
         if (!isValid(job)) {
-            reject("Invalid Job");
+            reject(new Error("Invalid Job"));
             return;
         }
 
@@ -169,7 +169,7 @@ function generateBadge(job, logging) {
 
     return new Promise((resolve, reject) => {
         if (!isValid(job)) {
-            reject("Invalid Job");
+            reject(new Error("Invalid Job"));
             return;
         }
 
@@ -192,10 +192,15 @@ function generateBadge(job, logging) {
  * @return {Promise}         A promise that resolves when this activity finished
  */
 function clearWorkspace(job, logging) {
-    if (!isValid(job, false)) return Promise.reject("Invalid Job!");
+    if (!isValid(job, false)) {
+        return Promise.reject(new Error("Invalid Job!"));
+    }
 
-    if (!FileSystem.existsSync(path.resolve(__dirname, "../" + job.directory + "/files"))) return Promise.resolve();
-    else return clearFolder(path.resolve(__dirname, "../" + job.directory + "/files"), logging)
+    if (!FileSystem.existsSync(path.resolve(__dirname, "../" + job.directory + "/files"))) {
+        return Promise.resolve();
+    } else {
+        return clearFolder(path.resolve(__dirname, "../" + job.directory + "/files"), logging);
+    }
 }
 
 /**
@@ -216,25 +221,27 @@ async function clearFolder(file, logging) {
         var index = 0;
 
         return new Promise((resolve, reject) => {
-            var check = () => {
+            let check = () => {
                 if (length === index) {
                     fs.rmdir(file).then(resolve, reject);
                     return true;
-                } else return false;
+                } else {
+                    return false;
+                }
             }
 
             if (!check()) {
-                var next = () => {
+                let next = () => {
                     index++;
                     check();
                 };
 
-                var cancel = (e) => {
+                let cancel = (e) => {
                     reject(e);
                     i = length;
                 };
 
-                for (var i = 0; i < length; i++) {
+                for (let i = 0; i < length; i++) {
                     clearFolder(file + '/' + files[i], logging).then(next, cancel);
                 }
             }
