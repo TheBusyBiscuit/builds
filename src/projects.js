@@ -1,18 +1,18 @@
-const FileSystem = require('fs');
-const fs = FileSystem.promises;
-const path = require('path');
+const FileSystem = require('fs')
+const fs = FileSystem.promises
+const path = require('path')
 
-const log = require('../src/logger.js');
-const lodash = require('lodash/lang');
+const log = require('../src/logger.js')
+const lodash = require('lodash/lang')
 
 module.exports = {
-    getProjects,
-    addBuild,
-    generateHTML,
-    generateBadge,
-    clearWorkspace,
-    clearFolder,
-    isValid
+  getProjects,
+  addBuild,
+  generateHTML,
+  generateBadge,
+  clearWorkspace,
+  clearFolder,
+  isValid
 }
 
 /**
@@ -21,41 +21,41 @@ module.exports = {
  * @param  {Boolean} logging Whether the internal activity should be logged
  * @return {Promise}         A Promise that resolves to an Array of Jobs
  */
-function getProjects(logging) {
-    return new Promise((resolve, reject) => {
-        fs.readFile(path.resolve(__dirname, "../resources/repos.json")).then((data) => {
-            var jobs = [];
-            var json = JSON.parse(data);
+function getProjects (logging) {
+  return new Promise((resolve, reject) => {
+    fs.readFile(path.resolve(__dirname, '../resources/repos.json')).then((data) => {
+      const jobs = []
+      const json = JSON.parse(data)
 
-            for (var repo in json) {
-                log(logging, "-> Found Project \"" + repo + "\"");
+      for (const repo in json) {
+        log(logging, '-> Found Project "' + repo + '"')
 
-                var job = {
-                    author: repo.split("/")[0],
-                    repo: repo.split('/')[1].split(":")[0],
-                    branch: repo.split('/')[1].split(":")[1]
-                };
+        const job = {
+          author: repo.split('/')[0],
+          repo: repo.split('/')[1].split(':')[0],
+          branch: repo.split('/')[1].split(':')[1]
+        }
 
-                job.directory = job.author + "/" + job.repo + "/" + job.branch;
+        job.directory = job.author + '/' + job.repo + '/' + job.branch
 
-                if (json[repo].options) {
-                    job.options = json[repo].options;
+        if (json[repo].options) {
+          job.options = json[repo].options
 
-                    if (json[repo].options.custom_directory) {
-                        job.directory = json[repo].options.custom_directory;
-                    }
-                }
+          if (json[repo].options.custom_directory) {
+            job.directory = json[repo].options.custom_directory
+          }
+        }
 
-                if (json[repo].sonar && json[repo].sonar.enabled) {
-                    job.sonar = json[repo].sonar;
-                }
+        if (json[repo].sonar && json[repo].sonar.enabled) {
+          job.sonar = json[repo].sonar
+        }
 
-                jobs.push(job);
-            }
+        jobs.push(job)
+      }
 
-            resolve(jobs);
-        }, reject);
-    });
+      resolve(jobs)
+    }, reject)
+  })
 }
 
 /**
@@ -65,66 +65,66 @@ function getProjects(logging) {
  * @param  {Boolean} logging Whether the internal activity should be logged
  * @return {Promise}         A Promise that resolves to an Array of Jobs
  */
-function addBuild(job, logging) {
-    return new Promise((resolve, reject) => {
-        if (!isValid(job, true)) {
-            reject(new Error("Invalid Job"));
-            return;
+function addBuild (job, logging) {
+  return new Promise((resolve, reject) => {
+    if (!isValid(job, true)) {
+      reject(new Error('Invalid Job'))
+      return
+    }
+
+    const file = path.resolve(__dirname, '../' + job.directory + '/builds.json')
+    let builds = {}
+
+    const append = () => {
+      log(logging, '-> Adding Build #' + job.id)
+
+      builds[job.id] = {
+        id: job.id,
+        sha: job.commit.sha,
+        date: job.commit.date,
+        timestamp: job.commit.timestamp,
+        message: job.commit.message,
+        author: job.commit.author,
+        avatar: job.commit.avatar,
+        license: job.license,
+        candidate: 'DEVELOPMENT',
+        status: (job.success ? 'SUCCESS' : 'FAILURE')
+      }
+
+      if (job.options && !job.options.createJar) {
+        builds[job.id].status = 'COMPILE_ONLY'
+      }
+
+      if (job.success) {
+        builds.last_successful = job.id
+      }
+
+      builds.latest = job.id
+
+      // Apply any Tags
+      for (const build in builds) {
+        for (const tag in job.tags) {
+          if (job.tags[tag] === builds[build].sha) {
+            builds[build].candidate = 'RELEASE'
+            builds[build].tag = tag
+            break
+          }
         }
+      }
 
-        var file = path.resolve(__dirname, "../" + job.directory + "/builds.json");
-        var builds = {};
+      log(logging, "-> Saving 'builds.json'...")
+      fs.writeFile(file, JSON.stringify(builds), 'utf8').then(resolve, reject)
+    }
 
-        var append = () => {
-            log(logging, "-> Adding Build #" + job.id);
+    log(logging, "-> Reading 'builds.json'...")
 
-            builds[job.id] = {
-                id: job.id,
-                sha: job.commit.sha,
-                date: job.commit.date,
-                timestamp: job.commit.timestamp,
-                message: job.commit.message,
-                author: job.commit.author,
-                avatar: job.commit.avatar,
-                license: job.license,
-                candidate: "DEVELOPMENT",
-                status: (job.success ? "SUCCESS" : "FAILURE")
-            }
-
-            if (job.options && !job.options.createJar) {
-                builds[job.id].status = "COMPILE_ONLY";
-            }
-
-            if (job.success) {
-                builds.last_successful = job.id;
-            }
-
-            builds.latest = job.id;
-
-            // Apply any Tags
-            for (let build in builds) {
-                for (let tag in job.tags) {
-                    if (job.tags[tag] === builds[build].sha) {
-                        builds[build].candidate = "RELEASE";
-                        builds[build].tag = tag;
-                        break;
-                    }
-                }
-            }
-
-            log(logging, "-> Saving 'builds.json'...");
-            fs.writeFile(file, JSON.stringify(builds), "utf8").then(resolve, reject);
-        }
-
-        log(logging, "-> Reading 'builds.json'...");
-
-        if (FileSystem.existsSync(file)) {
-            fs.readFile(file, "utf8").then((data) => {
-                builds = JSON.parse(data);
-                append();
-            }, append);
-        } else append();
-    });
+    if (FileSystem.existsSync(file)) {
+      fs.readFile(file, 'utf8').then((data) => {
+        builds = JSON.parse(data)
+        append()
+      }, append)
+    } else append()
+  })
 }
 
 /**
@@ -135,25 +135,25 @@ function addBuild(job, logging) {
  * @param  {Boolean} logging Whether the internal activity should be logged
  * @return {Promise}         A promise that resolves when this activity finished
  */
-function generateHTML(job, logging) {
-    log(logging, "-> Generating 'index.html'...");
+function generateHTML (job, logging) {
+  log(logging, "-> Generating 'index.html'...")
 
-    return new Promise((resolve, reject) => {
-        if (!isValid(job)) {
-            reject(new Error("Invalid Job"));
-            return;
-        }
+  return new Promise((resolve, reject) => {
+    if (!isValid(job)) {
+      reject(new Error('Invalid Job'))
+      return
+    }
 
-        fs.readFile(path.resolve(__dirname, "../resources/template.html"), "utf8").then((html) => {
-            html = html.replace(/\${owner}/g, job.author);
-            html = html.replace(/\${repository}/g, job.repo);
-            html = html.replace(/\${branch}/g, job.branch);
+    fs.readFile(path.resolve(__dirname, '../resources/template.html'), 'utf8').then((html) => {
+      html = html.replace(/\${owner}/g, job.author)
+      html = html.replace(/\${repository}/g, job.repo)
+      html = html.replace(/\${branch}/g, job.branch)
 
-            log(logging, "-> Saving 'index.html'...");
+      log(logging, "-> Saving 'index.html'...")
 
-            fs.writeFile(path.resolve(__dirname, "../" + job.directory + "/index.html"), html, "utf8").then(resolve, reject);
-        }, reject);
-    });
+      fs.writeFile(path.resolve(__dirname, '../' + job.directory + '/index.html'), html, 'utf8').then(resolve, reject)
+    }, reject)
+  })
 }
 
 /**
@@ -164,24 +164,24 @@ function generateHTML(job, logging) {
  * @param  {Boolean} logging Whether the internal activity should be logged
  * @return {Promise}         A promise that resolves when this activity finished
  */
-function generateBadge(job, logging) {
-    log(logging, "-> Generating 'badge.svg'...");
+function generateBadge (job, logging) {
+  log(logging, "-> Generating 'badge.svg'...")
 
-    return new Promise((resolve, reject) => {
-        if (!isValid(job)) {
-            reject(new Error("Invalid Job"));
-            return;
-        }
+  return new Promise((resolve, reject) => {
+    if (!isValid(job)) {
+      reject(new Error('Invalid Job'))
+      return
+    }
 
-        fs.readFile(path.resolve(__dirname, "../resources/badge.svg"), "utf8").then((svg) => {
-            svg = svg.replace(/\${status}/g, job.success ? "SUCCESS" : "FAILURE");
-            svg = svg.replace(/\${color}/g, job.success ? "rgb(30, 220, 30)" : "rgb(220, 30, 30)");
+    fs.readFile(path.resolve(__dirname, '../resources/badge.svg'), 'utf8').then((svg) => {
+      svg = svg.replace(/\${status}/g, job.success ? 'SUCCESS' : 'FAILURE')
+      svg = svg.replace(/\${color}/g, job.success ? 'rgb(30, 220, 30)' : 'rgb(220, 30, 30)')
 
-            log(logging, "-> Saving 'badge.svg'...");
+      log(logging, "-> Saving 'badge.svg'...")
 
-            fs.writeFile(path.resolve(__dirname, "../" + job.directory + "/badge.svg"), svg, "utf8").then(resolve, reject);
-        }, reject);
-    });
+      fs.writeFile(path.resolve(__dirname, '../' + job.directory + '/badge.svg'), svg, 'utf8').then(resolve, reject)
+    }, reject)
+  })
 }
 
 /**
@@ -191,16 +191,16 @@ function generateBadge(job, logging) {
  * @param  {Boolean} logging Whether the internal activity should be logged
  * @return {Promise}         A promise that resolves when this activity finished
  */
-function clearWorkspace(job, logging) {
-    if (!isValid(job, false)) {
-        return Promise.reject(new Error("Invalid Job!"));
-    }
+function clearWorkspace (job, logging) {
+  if (!isValid(job, false)) {
+    return Promise.reject(new Error('Invalid Job!'))
+  }
 
-    if (!FileSystem.existsSync(path.resolve(__dirname, "../" + job.directory + "/files"))) {
-        return Promise.resolve();
-    } else {
-        return clearFolder(path.resolve(__dirname, "../" + job.directory + "/files"), logging);
-    }
+  if (!FileSystem.existsSync(path.resolve(__dirname, '../' + job.directory + '/files'))) {
+    return Promise.resolve()
+  } else {
+    return clearFolder(path.resolve(__dirname, '../' + job.directory + '/files'), logging)
+  }
 }
 
 /**
@@ -210,47 +210,47 @@ function clearWorkspace(job, logging) {
  * @param  {Boolean} logging  Whether the internal activity should be logged
  * @return {Promise}          A promise that resolves when this activity finished
  */
-async function clearFolder(file, logging) {
-    log(logging, "-> Deleting '" + path + "'");
+async function clearFolder (file, logging) {
+  log(logging, "-> Deleting '" + path + "'")
 
-    var stats = await fs.stat(file);
+  const stats = await fs.stat(file)
 
-    if (stats.isDirectory()) {
-        var files = await fs.readdir(file);
-        var length = files.length;
-        var index = 0;
+  if (stats.isDirectory()) {
+    const files = await fs.readdir(file)
+    const length = files.length
+    let index = 0
 
-        return new Promise((resolve, reject) => {
-            let check = () => {
-                if (length === index) {
-                    fs.rmdir(file).then(resolve, reject);
-                    return true;
-                } else {
-                    return false;
-                }
-            }
+    return new Promise((resolve, reject) => {
+      const check = () => {
+        if (length === index) {
+          fs.rmdir(file).then(resolve, reject)
+          return true
+        } else {
+          return false
+        }
+      }
 
-            if (!check()) {
-                let i;
+      if (!check()) {
+        let i
 
-                let next = () => {
-                    index++;
-                    check();
-                };
+        const next = () => {
+          index++
+          check()
+        }
 
-                let cancel = (e) => {
-                    reject(e);
-                    i = length;
-                };
+        const cancel = (e) => {
+          reject(e)
+          i = length
+        }
 
-                for (i = 0; i < length; i++) {
-                    clearFolder(file + '/' + files[i], logging).then(next, cancel);
-                }
-            }
-        })
-    } else {
-        return fs.unlink(file);
-    }
+        for (i = 0; i < length; i++) {
+          clearFolder(file + '/' + files[i], logging).then(next, cancel)
+        }
+      }
+    })
+  } else {
+    return fs.unlink(file)
+  }
 }
 
 /**
@@ -261,17 +261,17 @@ async function clearFolder(file, logging) {
  * @param  {Boolean} compiled   Whether to check if the job has an ID and success-value
  * @return {Boolean}            Whether the job is a valid Job
  */
-function isValid(job, compiled) {
-    if (!lodash.isObject(job)) return false;
-    if (!lodash.isString(job.author)) return false;
-    if (!lodash.isString(job.repo)) return false;
-    if (!lodash.isString(job.branch)) return false;
-    if (!lodash.isString(job.directory)) return false;
+function isValid (job, compiled) {
+  if (!lodash.isObject(job)) return false
+  if (!lodash.isString(job.author)) return false
+  if (!lodash.isString(job.repo)) return false
+  if (!lodash.isString(job.branch)) return false
+  if (!lodash.isString(job.directory)) return false
 
-    if (compiled) {
-        if (!lodash.isInteger(job.id)) return false;
-        if (!lodash.isBoolean(job.success)) return false;
-    }
+  if (compiled) {
+    if (!lodash.isInteger(job.id)) return false
+    if (!lodash.isBoolean(job.success)) return false
+  }
 
-    return true;
+  return true
 }

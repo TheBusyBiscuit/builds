@@ -1,27 +1,27 @@
-const request = require('request-promise-native');
-const process = require('child-process-promise');
+const request = require('request-promise-native')
+const process = require('child-process-promise')
 
-const FileSystem = require('fs');
-const fs = FileSystem.promises;
-const path = require('path');
+const FileSystem = require('fs')
+const fs = FileSystem.promises
+const path = require('path')
 
-const projects = require('../src/projects.js');
-const log = require('../src/logger.js');
+const projects = require('../src/projects.js')
+const log = require('../src/logger.js')
 
-const months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+const months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
 
 module.exports = (cfg) => {
-    return {
-        /**
+  return {
+    /**
          * This method will return the latest Commit for the specified Job
          *
          * @param  {Object} job         The currently handled Job Object
          * @param  {Boolean} logging    Whether the internal behaviour should be logged
          * @return {Promise<Object>}    This will return a Promise that resolve with the latest commits
          */
-        getLatestCommit: (job, logging) => getLatestCommit(job, cfg, logging),
+    getLatestCommit: (job, logging) => getLatestCommit(job, cfg, logging),
 
-        /**
+    /**
          * This method will return a repository's license.
          * The Promise will reject if no License was found.
          *
@@ -29,39 +29,39 @@ module.exports = (cfg) => {
          * @param  {Boolean} logging    Whether the internal behaviour should be logged
          * @return {Promise}            This will return a Promise that resolve with the project license
          */
-        getLicense: (job, logging) => getLicense(job, cfg, logging),
+    getLicense: (job, logging) => getLicense(job, cfg, logging),
 
-        /**
+    /**
          * This method will return a repository's tags.
          * The Promise will also resolve if no tags exist.
          *
          * @param  {Object} job  The currently handled Job Object
          * @return {Promise}     This will return a Promise that resolve with the project tags
          */
-        getTags: (job, logging) => getTags(job, cfg, logging),
+    getTags: (job, logging) => getTags(job, cfg, logging),
 
-        /**
+    /**
          * This method will return a Promise.
          * The Promise will resolve if the Repository exists, otherwise it will reject.
          *
          * @param  {Object} job  The currently handled Job Object
          * @return {Promise}     This will return a Promise that resolve if the repository exists
          */
-        exists: (job) => exists(job, cfg),
+    exists: (job) => exists(job, cfg),
 
-        /**
+    /**
          * This method returns the discord config used by this instance
          *
          * @return {Object} Config
          */
-        getConfig: () => cfg,
+    getConfig: () => cfg,
 
-        clone,
-        pushChanges,
-        hasUpdate,
-        parseDate
-    }
-};
+    clone,
+    pushChanges,
+    hasUpdate,
+    parseDate
+  }
+}
 
 /**
  * This method will return the latest Commit for the specified Job
@@ -70,23 +70,23 @@ module.exports = (cfg) => {
  * @param  {Boolean} logging    Whether the internal behaviour should be logged
  * @return {Promise<Object>}    This will return a Promise that resolve with the latest commits
  */
-function getLatestCommit(job, cfg, logging) {
-    return new Promise((resolve, reject) => {
-        if (!projects.isValid(job)) {
-            reject(new Error("Invalid Job"));
-            return;
-        }
+function getLatestCommit (job, cfg, logging) {
+  return new Promise((resolve, reject) => {
+    if (!projects.isValid(job)) {
+      reject(new Error('Invalid Job'))
+      return
+    }
 
-        log(logging, "-> Fetching latest Commit...");
+    log(logging, '-> Fetching latest Commit...')
 
-        let url = getURL(job, cfg, "/commits?per_page=1&sha=" + job.branch);
-        url.json = true;
+    const url = getURL(job, cfg, '/commits?per_page=1&sha=' + job.branch)
+    url.json = true
 
-        request(url).then((json) => {
-            log(logging, "-> commits: 200 - OK");
-            resolve(json[0]);
-        }, reject);
-    });
+    request(url).then((json) => {
+      log(logging, '-> commits: 200 - OK')
+      resolve(json[0])
+    }, reject)
+  })
 }
 
 /**
@@ -97,16 +97,16 @@ function getLatestCommit(job, cfg, logging) {
  * @param  {Boolean} logging    Whether the internal behaviour should be logged
  * @return {Promise}            This will return a Promise that resolve with the project license
  */
-function getLicense(job, cfg, logging) {
-    return new Promise((resolve, reject) => {
-        if (!projects.isValid(job)) {
-            reject(new Error("Invalid Job"));
-            return;
-        }
+function getLicense (job, cfg, logging) {
+  return new Promise((resolve, reject) => {
+    if (!projects.isValid(job)) {
+      reject(new Error('Invalid Job'))
+      return
+    }
 
-        log(logging, "-> Fetching License...");
-        getJSON(job, cfg, logging, "license", resolve, reject);
-    });
+    log(logging, '-> Fetching License...')
+    getJSON(job, cfg, logging, 'license', resolve, reject)
+  })
 }
 
 /**
@@ -116,34 +116,34 @@ function getLicense(job, cfg, logging) {
  * @param  {Object} job  The currently handled Job Object
  * @return {Promise}     This will return a Promise that resolve with the project tags
  */
-function getTags(job, cfg, logging) {
-    return new Promise((resolve, reject) => {
-        if (!projects.isValid(job)) {
-            reject(new Error("Invalid Job"));
-            return;
-        }
+function getTags (job, cfg, logging) {
+  return new Promise((resolve, reject) => {
+    if (!projects.isValid(job)) {
+      reject(new Error('Invalid Job'))
+      return
+    }
 
-        log(logging, "-> Fetching Tags...");
-        getJSON(job, cfg, logging, "tags", resolve, reject);
-    });
+    log(logging, '-> Fetching Tags...')
+    getJSON(job, cfg, logging, 'tags', resolve, reject)
+  })
 }
 
 /**
  * A private utility method for fetching JSON Objects from GitHub's API
  */
-function getJSON(job, cfg, logging, endpoint, resolve, reject) {
-    let url = getURL(job, cfg, "/" + endpoint);
-    url.json = true;
+function getJSON (job, cfg, logging, endpoint, resolve, reject) {
+  const url = getURL(job, cfg, '/' + endpoint)
+  url.json = true
 
-    request(url).then((json) => {
-        log(logging, "-> " + endpoint + ": 200 - OK");
+  request(url).then((json) => {
+    log(logging, '-> ' + endpoint + ': 200 - OK')
 
-        if (json.documentation_url) {
-            reject("Missing License file");
-        } else {
-            resolve(json);
-        }
-    }, reject);
+    if (json.documentation_url) {
+      reject('Missing License file')
+    } else {
+      resolve(json)
+    }
+  }, reject)
 }
 
 /**
@@ -153,18 +153,18 @@ function getJSON(job, cfg, logging, endpoint, resolve, reject) {
  * @param  {Object} job  The currently handled Job Object
  * @return {Promise}     This will return a Promise that resolve if the repository exists
  */
-function exists(job, cfg) {
-    return new Promise((resolve, reject) => {
-        if (!projects.isValid(job)) {
-            reject(new Error("Invalid Job"));
-            return;
-        }
+function exists (job, cfg) {
+  return new Promise((resolve, reject) => {
+    if (!projects.isValid(job)) {
+      reject(new Error('Invalid Job'))
+      return
+    }
 
-        let url = getURL(job, cfg, "");
-        url.json = true;
+    const url = getURL(job, cfg, '')
+    url.json = true
 
-        request(url).then(resolve, reject);
-    });
+    request(url).then(resolve, reject)
+  })
 }
 
 /**
@@ -176,38 +176,38 @@ function exists(job, cfg) {
  * @param  {Number} timestamp  The timestamp of a commit returned by getCommits(job)
  * @return {Promise}        This will return a Promise that resolve if there are new uncompiled commits
  */
-function hasUpdate(job, timestamp) {
-    return new Promise((resolve, reject) => {
-        if (!projects.isValid(job)) {
-            reject(new Error("Invalid Job"));
-            return;
+function hasUpdate (job, timestamp) {
+  return new Promise((resolve, reject) => {
+    if (!projects.isValid(job)) {
+      reject(new Error('Invalid Job'))
+      return
+    }
+
+    const file = path.resolve(__dirname, '../' + job.directory + '/builds.json')
+
+    if (FileSystem.existsSync(file)) {
+      fs.readFile(file, 'utf8').then((data) => {
+        if (!data) {
+          // Pretend like there is an Update if no local builds exist
+          resolve(0)
         }
 
-        let file = path.resolve(__dirname, "../" + job.directory + "/builds.json");
+        const json = JSON.parse(data)
 
-        if (FileSystem.existsSync(file)) {
-            fs.readFile(file, "utf8").then((data) => {
-                if (!data) {
-                    // Pretend like there is an Update if no local builds exist
-                    resolve(0);
-                }
-
-                let json = JSON.parse(data);
-
-                if (!json.latest) {
-                    // Pretend like there is an Update if no local builds exist
-                    resolve(0);
-                } else if (timestamp > json[json.latest].timestamp) {
-                    resolve(json.latest);
-                } else {
-                    reject(new Error("Nothing to update."));
-                }
-            }, () => resolve(0))
+        if (!json.latest) {
+          // Pretend like there is an Update if no local builds exist
+          resolve(0)
+        } else if (timestamp > json[json.latest].timestamp) {
+          resolve(json.latest)
         } else {
-            // Pretend like there is an Update if no local builds exist
-            resolve(0);
+          reject(new Error('Nothing to update.'))
         }
-    });
+      }, () => resolve(0))
+    } else {
+      // Pretend like there is an Update if no local builds exist
+      resolve(0)
+    }
+  })
 }
 
 /**
@@ -219,49 +219,48 @@ function hasUpdate(job, timestamp) {
  * @param  {Boolean} logging    Whether the internal behaviour should be logged
  * @return {Promise}            A Promise that resolved upon a successful cloning process
  */
-function clone(job, commit, logging) {
-    return new Promise((resolve, reject) => {
-        if (!projects.isValid(job)) {
-            reject(new Error("Invalid Job"));
-            return;
-        }
+function clone (job, commit, logging) {
+  return new Promise((resolve, reject) => {
+    if (!projects.isValid(job)) {
+      reject(new Error('Invalid Job'))
+      return
+    }
 
-        log(logging, "-> Executing 'git clone'");
+    log(logging, "-> Executing 'git clone'")
 
-        var cloning = process.spawn("git", [
-            "clone",
-            "https://github.com/" + job.author + "/" + job.repo + ".git",
-            path.resolve(__dirname, "../" + job.directory + "/files"),
-            "-b", job.branch,
-            "--single-branch"
-        ]);
+    const cloning = process.spawn('git', [
+      'clone',
+      'https://github.com/' + job.author + '/' + job.repo + '.git',
+      path.resolve(__dirname, '../' + job.directory + '/files'),
+      '-b', job.branch,
+      '--single-branch'
+    ])
 
-        cloning.childProcess.stdout.on('data', (data) => log(logging, "-> " + data));
-        cloning.childProcess.stderr.on('data', (data) => log(logging, "-> " + data));
+    cloning.childProcess.stdout.on('data', (data) => log(logging, '-> ' + data))
+    cloning.childProcess.stderr.on('data', (data) => log(logging, '-> ' + data))
 
-        cloning.then(() => {
-            log(logging, "-> Finished 'git clone'");
-            log(logging, "-> Executing 'git reset'");
+    cloning.then(() => {
+      log(logging, "-> Finished 'git clone'")
+      log(logging, "-> Executing 'git reset'")
 
-            var refresh = process.spawn("git", [
-                "reset",
-                "--hard",
-                commit
-            ], {
-                    cwd: path.resolve(__dirname, "../" + job.directory + "/files")
-                });
+      const refresh = process.spawn('git', [
+        'reset',
+        '--hard',
+        commit
+      ], {
+        cwd: path.resolve(__dirname, '../' + job.directory + '/files')
+      })
 
-            refresh.childProcess.stdout.on('data', (data) => log(logging, "-> " + data));
-            refresh.childProcess.stderr.on('data', (data) => log(logging, "-> " + data));
+      refresh.childProcess.stdout.on('data', (data) => log(logging, '-> ' + data))
+      refresh.childProcess.stderr.on('data', (data) => log(logging, '-> ' + data))
 
-            refresh.then(() => {
-                log(logging, "-> Finished 'git reset'");
-                resolve();
-            }, reject);
-        }, reject);
-    });
+      refresh.then(() => {
+        log(logging, "-> Finished 'git reset'")
+        resolve()
+      }, reject)
+    }, reject)
+  })
 }
-
 
 /**
  * This method pushes all project files from the specified job to github.
@@ -270,51 +269,51 @@ function clone(job, commit, logging) {
  * @param  {Boolean} logging Whether the internal activity should be logged
  * @return {Promise}         A promise that resolves when this activity finished
  */
-function pushChanges(job, logging) {
-    return new Promise((resolve, reject) => {
-        if (!projects.isValid(job)) {
-            reject(new Error("Invalid Job"));
-            return;
-        }
-        log(logging, "-> Executing 'git add'");
+function pushChanges (job, logging) {
+  return new Promise((resolve, reject) => {
+    if (!projects.isValid(job)) {
+      reject(new Error('Invalid Job'))
+      return
+    }
+    log(logging, "-> Executing 'git add'")
 
-        var add = process.spawn("git", [
-            "add",
-            path.resolve(__dirname, "../" + job.directory + "/*")
-        ]);
+    const add = process.spawn('git', [
+      'add',
+      path.resolve(__dirname, '../' + job.directory + '/*')
+    ])
 
-        add.childProcess.stdout.on('data', (data) => log(logging, "-> " + data));
-        add.childProcess.stderr.on('data', (data) => log(logging, "-> " + data));
+    add.childProcess.stdout.on('data', (data) => log(logging, '-> ' + data))
+    add.childProcess.stderr.on('data', (data) => log(logging, '-> ' + data))
 
-        add.then(() => {
-            log(logging, "-> Finished 'git add'");
-            log(logging, "-> Executing 'git commit'");
+    add.then(() => {
+      log(logging, "-> Finished 'git add'")
+      log(logging, "-> Executing 'git commit'")
 
-            var commit = process.spawn("git", [
-                "commit",
-                "-m",
-                (job.success ? "Successfully compiled: " : "Failed to compile: ") + job.author + "/" + job.repo + ":" + job.branch + " (" + job.id + ")"
-            ]);
+      const commit = process.spawn('git', [
+        'commit',
+        '-m',
+        (job.success ? 'Successfully compiled: ' : 'Failed to compile: ') + job.author + '/' + job.repo + ':' + job.branch + ' (' + job.id + ')'
+      ])
 
-            commit.childProcess.stdout.on('data', (data) => log(logging, "-> " + data));
-            commit.childProcess.stderr.on('data', (data) => log(logging, "-> " + data));
+      commit.childProcess.stdout.on('data', (data) => log(logging, '-> ' + data))
+      commit.childProcess.stderr.on('data', (data) => log(logging, '-> ' + data))
 
-            commit.then(() => {
-                log(logging, "-> Finished 'git commit'");
-                log(logging, "-> Executing 'git push'");
+      commit.then(() => {
+        log(logging, "-> Finished 'git commit'")
+        log(logging, "-> Executing 'git push'")
 
-                var push = process.spawn("git", ["push", "origin", "HEAD:gh-pages", "--force"]);
+        const push = process.spawn('git', ['push', 'origin', 'HEAD:gh-pages', '--force'])
 
-                push.childProcess.stdout.on('data', (data) => log(logging, "-> " + data));
-                push.childProcess.stderr.on('data', (data) => log(logging, "-> " + data));
+        push.childProcess.stdout.on('data', (data) => log(logging, '-> ' + data))
+        push.childProcess.stderr.on('data', (data) => log(logging, '-> ' + data))
 
-                push.then(() => {
-                    log(logging, "-> Finished 'git push'");
-                    resolve();
-                }, reject);
-            }, reject);
-        }, reject);
-    });
+        push.then(() => {
+          log(logging, "-> Finished 'git push'")
+          resolve()
+        }, reject)
+      }, reject)
+    }, reject)
+  })
 }
 
 /**
@@ -324,22 +323,22 @@ function pushChanges(job, logging) {
  * @param  {String} endpoint The endpoint of this URL
  * @return {Object}          A Github-API URL Object
  */
-function getURL(job, cfg, endpoint) {
-    let url = "https://api.github.com/repos/" + job.author + "/" + job.repo + endpoint;
-    let headers = {
-        "Accept": "application/vnd.github.v3+json",
-        "User-Agent": "The Busy Biscuit's Repository Compiler",
-        "Time-Zone": "UTC"
-    };
+function getURL (job, cfg, endpoint) {
+  const url = 'https://api.github.com/repos/' + job.author + '/' + job.repo + endpoint
+  const headers = {
+    Accept: 'application/vnd.github.v3+json',
+    'User-Agent': "The Busy Biscuit's Repository Compiler",
+    'Time-Zone': 'UTC'
+  }
 
-    if (cfg.getToken()) {
-        headers.authorization = "token " + cfg.getToken();
-    }
+  if (cfg.getToken()) {
+    headers.authorization = 'token ' + cfg.getToken()
+  }
 
-    return {
-        url: url,
-        headers: headers
-    };
+  return {
+    url: url,
+    headers: headers
+  }
 }
 
 /**
@@ -348,13 +347,13 @@ function getURL(job, cfg, endpoint) {
  * @param  {String} str A Date returned from GitHub
  * @return {String}     A formatted human-readable Date format
  */
-function parseDate(str) {
-    let date = "";
+function parseDate (str) {
+  let date = ''
 
-    date += str.split("T")[0].split("-")[2] + " ";
-    date += months[parseInt(str.split("T")[0].split("-")[1]) - 1] + " ";
-    date += str.split("T")[0].split("-")[0] + " (";
-    date += str.split("T")[1].replace("Z", "") + ")";
+  date += str.split('T')[0].split('-')[2] + ' '
+  date += months[parseInt(str.split('T')[0].split('-')[1]) - 1] + ' '
+  date += str.split('T')[0].split('-')[0] + ' ('
+  date += str.split('T')[1].replace('Z', '') + ')'
 
-    return date;
+  return date
 }

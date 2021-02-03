@@ -1,6 +1,6 @@
 global.status = {
-    task: {},
-    running: true
-};
+  task: {},
+  running: true
+}
 
-require('./main.js').start(true);
+require('./main.js').start(true)

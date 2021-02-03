@@ -1,34 +1,34 @@
-const XML = require('xml-library');
-const process = require('child-process-promise');
-const lodash = require('lodash/lang');
+const XML = require('xml-library')
+const process = require('child-process-promise')
+const lodash = require('lodash/lang')
 
-const FileSystem = require('fs');
-const fs = FileSystem.promises;
-const path = require('path');
+const FileSystem = require('fs')
+const fs = FileSystem.promises
+const path = require('path')
 
-const log = require('../src/logger.js');
-const projects = require('../src/projects.js');
+const log = require('../src/logger.js')
+const projects = require('../src/projects.js')
 
 const minify = {
-    indent: 0,
-    header: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>",
-    new_lines: false
-};
+  indent: 0,
+  header: '<?xml version="1.0" encoding="UTF-8"?>',
+  new_lines: false
+}
 
 const beautify = {
-    indent: 4,
-    header: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>",
-    new_lines: true
-};
+  indent: 4,
+  header: '<?xml version="1.0" encoding="UTF-8"?>',
+  new_lines: true
+}
 
 module.exports = {
-    setVersion,
-    updatePOM,
-    compile,
-    getMavenArguments,
-    relocate,
-    isValid
-};
+  setVersion,
+  updatePOM,
+  compile,
+  getMavenArguments,
+  relocate,
+  isValid
+}
 
 /**
  * This method changes the project's version in your pom.xml file
@@ -38,23 +38,23 @@ module.exports = {
  * @param {String} version  The Version that shall be set
  * @param {Boolean} compact Whether the XML can be minified. This will also change the finalName
  */
-function setVersion(job, version, compact) {
-    return new Promise((resolve, reject) => {
-        if (!isValid(job)) {
-            reject(new Error("Invalid Job"));
-            return;
-        }
+function setVersion (job, version, compact) {
+  return new Promise((resolve, reject) => {
+    if (!isValid(job)) {
+      reject(new Error('Invalid Job'))
+      return
+    }
 
-        var file = path.resolve(__dirname, "../" + job.directory + "/files/pom.xml");
+    const file = path.resolve(__dirname, '../' + job.directory + '/files/pom.xml')
 
-        fs.readFile(file, "utf8").then((data) => {
-            XML.promises.fromXML(data).then((json) => {
-                updatePOM(job, json, version, compact).then((xml) => {
-                    fs.writeFile(file, xml, "utf8").then(resolve, reject);
-                }, reject);
-            }, reject);
-        }, reject);
-    });
+    fs.readFile(file, 'utf8').then((data) => {
+      XML.promises.fromXML(data).then((json) => {
+        updatePOM(job, json, version, compact).then((xml) => {
+          fs.writeFile(file, xml, 'utf8').then(resolve, reject)
+        }, reject)
+      }, reject)
+    }, reject)
+  })
 }
 
 /**
@@ -67,22 +67,22 @@ function setVersion(job, version, compact) {
  * @param  {Boolean} compact    Whether the file can be minified or not
  * @return {Promise}            A Promise that fulfills with the updated xml string
  */
-function updatePOM(job, json, version, compact) {
-    return new Promise((resolve, reject) => {
-        json.getChild("version").setValue(version);
+function updatePOM (job, json, version, compact) {
+  return new Promise((resolve, reject) => {
+    json.getChild('version').setValue(version)
 
-        var node = json.getChild(["build", "finalName"]);
+    const node = json.getChild(['build', 'finalName'])
 
-        if (node) {
-            node.setValue(job.repo + "-" + job.id);
-        } else {
-            json.getChild("build").addChild(new XML.XMLNode("finalName", job.repo + "-" + job.id));
-        }
+    if (node) {
+      node.setValue(job.repo + '-' + job.id)
+    } else {
+      json.getChild('build').addChild(new XML.XMLNode('finalName', job.repo + '-' + job.id))
+    }
 
-        XML.promises.toXML(json, compact ? minify : beautify).then((xml) => {
-            resolve(xml);
-        }, reject);
-    });
+    XML.promises.toXML(json, compact ? minify : beautify).then((xml) => {
+      resolve(xml)
+    }, reject)
+  })
 }
 
 /**
@@ -93,31 +93,31 @@ function updatePOM(job, json, version, compact) {
  * @param  {Boolean} logging Whether the internal activity should be logged
  * @return {Promise}         A promise that resolves when this activity finished
  */
-function compile(job, cfg, logging) {
-    return new Promise((resolve, reject) => {
-        if (!isValid(job)) {
-            reject(new Error("Invalid Job"));
-            return;
-        }
+function compile (job, cfg, logging) {
+  return new Promise((resolve, reject) => {
+    if (!isValid(job)) {
+      reject(new Error('Invalid Job'))
+      return
+    }
 
-        log(logging, "-> Executing 'mvn package'");
+    log(logging, "-> Executing 'mvn package'")
 
-        var args = getMavenArguments(job, cfg);
-        var compiler = process.spawn("mvn", args, {
-            cwd: path.resolve(__dirname, "../" + job.directory + "/files"),
-            shell: true
-        });
+    const args = getMavenArguments(job, cfg)
+    const compiler = process.spawn('mvn', args, {
+      cwd: path.resolve(__dirname, '../' + job.directory + '/files'),
+      shell: true
+    })
 
-        var logger = (data) => {
-            log(logging, data, true);
-            fs.appendFile(path.resolve(__dirname, "../" + job.directory + "/" + job.repo + "-" + job.id + ".log"), data, "UTF-8").catch(err => console.log(err));
-        };
+    const logger = (data) => {
+      log(logging, data, true)
+      fs.appendFile(path.resolve(__dirname, '../' + job.directory + '/' + job.repo + '-' + job.id + '.log'), data, 'UTF-8').catch(err => console.log(err))
+    }
 
-        compiler.childProcess.stdout.on('data', logger);
-        compiler.childProcess.stderr.on('data', logger);
+    compiler.childProcess.stdout.on('data', logger)
+    compiler.childProcess.stderr.on('data', logger)
 
-        compiler.then(resolve, reject);
-    });
+    compiler.then(resolve, reject)
+  })
 }
 
 /**
@@ -127,23 +127,23 @@ function compile(job, cfg, logging) {
  * @param  {Object} cfg      Our config.js Object
  * @return {Array<String>}   The needed console line arguments
  */
-function getMavenArguments(job, cfg) {
-    var args = ["clean", "package", "-B"];
+function getMavenArguments (job, cfg) {
+  const args = ['clean', 'package', '-B']
 
-    if (job.sonar && job.sonar.enabled && cfg.sonar.isEnabled()) {
-        args.push("sonar:sonar");
-        args.push("-Dsonar.login=" + cfg.sonar.getToken());
-        args.push("-Dsonar.host.url=" + job.sonar["host-url"]);
-        args.push("-Dsonar.organization=" + job.sonar["organization"]);
-        args.push("-Dsonar.projectKey=" + job.sonar["project-key"]);
-    }
+  if (job.sonar && job.sonar.enabled && cfg.sonar.isEnabled()) {
+    args.push('sonar:sonar')
+    args.push('-Dsonar.login=' + cfg.sonar.getToken())
+    args.push('-Dsonar.host.url=' + job.sonar['host-url'])
+    args.push('-Dsonar.organization=' + job.sonar.organization)
+    args.push('-Dsonar.projectKey=' + job.sonar['project-key'])
+  }
 
-    if (job.options && !job.options.createJar) {
-        args.push("--file");
-        args.push("pom.xml");
-    }
+  if (job.options && !job.options.createJar) {
+    args.push('--file')
+    args.push('pom.xml')
+  }
 
-    return args;
+  return args
 }
 
 /**
@@ -153,15 +153,15 @@ function getMavenArguments(job, cfg) {
  * @param  {Object} job      The currently handled Job Object
  * @return {Promise}         A promise that resolves when this activity finished
  */
-function relocate(job) {
-    if (!job.success) {
-        return Promise.resolve();
-    }
+function relocate (job) {
+  if (!job.success) {
+    return Promise.resolve()
+  }
 
-    return fs.rename(
-        path.resolve(__dirname, "../" + job.directory + "/files/target/" + job.repo + "-" + job.id + ".jar"),
-        path.resolve(__dirname, "../" + job.directory + "/" + job.repo + "-" + job.id + ".jar")
-    );
+  return fs.rename(
+    path.resolve(__dirname, '../' + job.directory + '/files/target/' + job.repo + '-' + job.id + '.jar'),
+    path.resolve(__dirname, '../' + job.directory + '/' + job.repo + '-' + job.id + '.jar')
+  )
 }
 
 /**
@@ -171,9 +171,9 @@ function relocate(job) {
  * @param  {Object}  job The job object to be tested
  * @return {Boolean}     Whether the job is a valid Job
  */
-function isValid(job) {
-    if (!projects.isValid(job)) return false;
-    if (!lodash.isInteger(job.id)) return false;
+function isValid (job) {
+  if (!projects.isValid(job)) return false
+  if (!lodash.isInteger(job.id)) return false
 
-    return true;
+  return true
 }

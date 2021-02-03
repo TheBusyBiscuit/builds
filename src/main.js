@@ -1,29 +1,29 @@
-const path = require('path');
+const path = require('path')
 
-const cfg = require('../src/config.js')(path.resolve(__dirname, "../resources/config.json"));
+const cfg = require('../src/config.js')(path.resolve(__dirname, '../resources/config.json'))
 
 // Modules
-const projects = require('../src/projects.js');
-const maven = require('../src/maven.js');
-const github = require('../src/github.js')(cfg.github);
-const discord = require('../src/discord.js')(cfg.discord);
-const log = require('../src/logger.js');
+const projects = require('../src/projects.js')
+const maven = require('../src/maven.js')
+const github = require('../src/github.js')(cfg.github)
+const discord = require('../src/discord.js')(cfg.discord)
+const log = require('../src/logger.js')
 
 module.exports = {
-    start,
-    check,
-    update,
-    compile,
-    gatherResources,
-    upload,
-    finish,
+  start,
+  check,
+  update,
+  compile,
+  gatherResources,
+  upload,
+  finish,
 
-    /**
+  /**
      * This method returns the discord config used by this instance
      *
      * @return {Object} Config
      */
-    getConfig: () => cfg
+  getConfig: () => cfg
 }
 
 /**
@@ -33,50 +33,50 @@ module.exports = {
  * @param  {Boolean} logging Whether the internal activity should be logged.
  * @return {Promise}         A Promise that is resolved after all projects have finished their lifecycle
  */
-function start(logging) {
-    return new Promise((resolve, reject) => {
-        log(logging, "Loading Projects...");
+function start (logging) {
+  return new Promise((resolve, reject) => {
+    log(logging, 'Loading Projects...')
 
-        projects.getProjects(logging).then(jobs => {
-            global.status.jobs = jobs.slice(0);
+    projects.getProjects(logging).then(jobs => {
+      global.status.jobs = jobs.slice(0)
 
-            for (let index in jobs) {
-                updateStatus(jobs[index], "Queued");
-            }
+      for (const index in jobs) {
+        updateStatus(jobs[index], 'Queued')
+      }
 
-            let i = -1;
+      let i = -1
 
-            let nextJob = () => {
-                i++;
+      const nextJob = () => {
+        i++
 
-                if (!global.status.running || i >= jobs.length) {
-                    resolve();
-                } else {
-                    log(logging, "");
-                    log(logging, "Watching: " + jobs[i].author + "/" + jobs[i].repo + ":" + jobs[i].branch)
+        if (!global.status.running || i >= jobs.length) {
+          resolve()
+        } else {
+          log(logging, '')
+          log(logging, 'Watching: ' + jobs[i].author + '/' + jobs[i].repo + ':' + jobs[i].branch)
 
-                    let job = jobs[i];
+          const job = jobs[i]
 
-                    // Project Lifecycle
-                    check(job, logging)
-                        .then(() => update(job, logging)
-                            .then(() => compile(job, logging)
-                                .then(() => gatherResources(job, logging)
-                                    .then(() => upload(job, logging)
-                                        .then(() => finish(job, logging)
-                                            .then(() => updateStatus(jobs[i], "Finished"))
-                                            .then(nextJob, reject),
-                                            reject),
-                                        reject),
-                                    reject),
-                                reject),
-                            nextJob);
-                }
-            };
+          // Project Lifecycle
+          check(job, logging)
+            .then(() => update(job, logging)
+              .then(() => compile(job, logging)
+                .then(() => gatherResources(job, logging)
+                  .then(() => upload(job, logging)
+                    .then(() => finish(job, logging)
+                      .then(() => updateStatus(jobs[i], 'Finished'))
+                      .then(nextJob, reject),
+                    reject),
+                  reject),
+                reject),
+              reject),
+            nextJob)
+        }
+      }
 
-            nextJob();
-        });
-    });
+      nextJob()
+    })
+  })
 }
 
 /**
@@ -87,41 +87,41 @@ function start(logging) {
  * @param  {Boolean} logging Whether the internal activity should be logged
  * @return {Promise}         A promise that resolves when this activity finished
  */
-function check(job, logging) {
-    if (!global.status.running) {
-        return Promise.reject(new Error("The operation has been cancelled"));
-    }
+function check (job, logging) {
+  if (!global.status.running) {
+    return Promise.reject(new Error('The operation has been cancelled'))
+  }
 
-    if (!projects.isValid(job, false)) {
-        return Promise.reject(new Error("Invalid Job!"));
-    }
+  if (!projects.isValid(job, false)) {
+    return Promise.reject(new Error('Invalid Job!'))
+  }
 
-    updateStatus(job, "Pulling Commits");
+  updateStatus(job, 'Pulling Commits')
 
-    return new Promise((resolve, reject) => {
-        github.getLatestCommit(job, logging).then(commit => {
-            let timestamp = parseInt(commit.commit.committer.date.replace(/\D/g, ""));
+  return new Promise((resolve, reject) => {
+    github.getLatestCommit(job, logging).then(commit => {
+      const timestamp = parseInt(commit.commit.committer.date.replace(/\D/g, ''))
 
-            if (commit.commit.message.toLowerCase().startsWith("[ci skip]")) {
-                reject(new Error("Skipping build..."));
-                return;
-            }
+      if (commit.commit.message.toLowerCase().startsWith('[ci skip]')) {
+        reject(new Error('Skipping build...'))
+        return
+      }
 
-            job.commit = {
-                sha: commit.sha,
-                date: github.parseDate(commit.commit.committer.date),
-                timestamp: timestamp,
-                message: commit.commit.message,
-                author: commit.author.login,
-                avatar: commit.author.avatar_url
-            }
+      job.commit = {
+        sha: commit.sha,
+        date: github.parseDate(commit.commit.committer.date),
+        timestamp: timestamp,
+        message: commit.commit.message,
+        author: commit.author.login,
+        avatar: commit.author.avatar_url
+      }
 
-            github.hasUpdate(job, timestamp, logging).then(id => {
-                job.id = id + 1;
-                projects.clearWorkspace(job).then(resolve, reject);
-            }, reject);
-        }, reject);
-    });
+      github.hasUpdate(job, timestamp, logging).then(id => {
+        job.id = id + 1
+        projects.clearWorkspace(job).then(resolve, reject)
+      }, reject)
+    }, reject)
+  })
 }
 
 /**
@@ -133,25 +133,25 @@ function check(job, logging) {
  * @param  {Boolean} logging Whether the internal activity should be logged
  * @return {Promise}         A promise that resolves when this activity finished
  */
-function update(job, logging) {
-    if (!global.status.running) {
-        return Promise.reject(new Error("The operation has been cancelled"));
-    }
+function update (job, logging) {
+  if (!global.status.running) {
+    return Promise.reject(new Error('The operation has been cancelled'))
+  }
 
-    if (!projects.isValid(job, false)) {
-        return Promise.reject(new Error("Invalid Job!"));
-    }
+  if (!projects.isValid(job, false)) {
+    return Promise.reject(new Error('Invalid Job!'))
+  }
 
-    updateStatus(job, "Cloning Repository");
+  updateStatus(job, 'Cloning Repository')
 
-    return new Promise((resolve, reject) => {
-        log(logging, "Updating: " + job.author + "/" + job.repo + ":" + job.branch + " (" + job.id + ")");
+  return new Promise((resolve, reject) => {
+    log(logging, 'Updating: ' + job.author + '/' + job.repo + ':' + job.branch + ' (' + job.id + ')')
 
-        github.clone(job, job.commit.sha, logging).then(() => {
-            let name = (job.options ? job.options.prefix : "DEV") + " - " + job.id + " (git " + job.commit.sha.substr(0, 8) + ")";
-            maven.setVersion(job, name, true).then(resolve, reject);
-        }, reject);
-    });
+    github.clone(job, job.commit.sha, logging).then(() => {
+      const name = (job.options ? job.options.prefix : 'DEV') + ' - ' + job.id + ' (git ' + job.commit.sha.substr(0, 8) + ')'
+      maven.setVersion(job, name, true).then(resolve, reject)
+    }, reject)
+  })
 }
 
 /**
@@ -163,31 +163,31 @@ function update(job, logging) {
  * @param  {Boolean} logging Whether the internal activity should be logged
  * @return {Promise}         A promise that resolves when this activity finished
  */
-function compile(job, logging) {
-    if (!global.status.running) {
-        return Promise.reject(new Error("The operation has been cancelled"));
-    }
+function compile (job, logging) {
+  if (!global.status.running) {
+    return Promise.reject(new Error('The operation has been cancelled'))
+  }
 
-    if (!projects.isValid(job, false)) {
-        return Promise.reject(new Error("Invalid Job!"));
-    }
+  if (!projects.isValid(job, false)) {
+    return Promise.reject(new Error('Invalid Job!'))
+  }
 
-    updateStatus(job, "Compiling");
+  updateStatus(job, 'Compiling')
 
-    return new Promise((resolve) => {
-        log(logging, "Compiling: " + job.author + "/" + job.repo + ":" + job.branch + " (" + job.id + ")");
+  return new Promise((resolve) => {
+    log(logging, 'Compiling: ' + job.author + '/' + job.repo + ':' + job.branch + ' (' + job.id + ')')
 
-        maven.compile(job, cfg, logging)
-            .then(() => {
-                job.success = true;
-                resolve();
-            })
-            .catch((err) => {
-                log(logging, err.stack);
-                job.success = false;
-                resolve();
-            });
-    });
+    maven.compile(job, cfg, logging)
+      .then(() => {
+        job.success = true
+        resolve()
+      })
+      .catch((err) => {
+        log(logging, err.stack)
+        job.success = false
+        resolve()
+      })
+  })
 }
 
 /**
@@ -198,43 +198,43 @@ function compile(job, logging) {
  * @param  {Boolean} logging Whether the internal activity should be logged
  * @return {Promise}         A promise that resolves when this activity finished
  */
-function gatherResources(job, logging) {
-    if (!global.status.running) {
-        return Promise.reject(new Error("The operation has been cancelled"));
-    }
+function gatherResources (job, logging) {
+  if (!global.status.running) {
+    return Promise.reject(new Error('The operation has been cancelled'))
+  }
 
-    if (!projects.isValid(job, true)) {
-        return Promise.reject(new Error("Invalid Job!"));
-    }
+  if (!projects.isValid(job, true)) {
+    return Promise.reject(new Error('Invalid Job!'))
+  }
 
-    updateStatus(job, "Fetching Resources");
+  updateStatus(job, 'Fetching Resources')
 
-    return new Promise((resolve, reject) => {
-        log(logging, "Gathering Resources: " + job.author + "/" + job.repo + ":" + job.branch);
+  return new Promise((resolve, reject) => {
+    log(logging, 'Gathering Resources: ' + job.author + '/' + job.repo + ':' + job.branch)
 
-        Promise.all([
-            github.getLicense(job, logging),
-            github.getTags(job, logging),
-            maven.relocate(job)
-        ]).then((values) => {
-            var license = values[0];
-            var tags = values[1];
+    Promise.all([
+      github.getLicense(job, logging),
+      github.getTags(job, logging),
+      maven.relocate(job)
+    ]).then((values) => {
+      const license = values[0]
+      const tags = values[1]
 
-            job.license = {
-                name: license.license.name,
-                id: license.license.spdx_id,
-                url: license.download_url
-            };
+      job.license = {
+        name: license.license.name,
+        id: license.license.spdx_id,
+        url: license.download_url
+      }
 
-            job.tags = {};
+      job.tags = {}
 
-            for (var index in tags) {
-                job.tags[tags[index].name] = tags[index].commit.sha;
-            }
+      for (const index in tags) {
+        job.tags[tags[index].name] = tags[index].commit.sha
+      }
 
-            resolve();
-        }, reject)
-    });
+      resolve()
+    }, reject)
+  })
 }
 
 /**
@@ -246,32 +246,32 @@ function gatherResources(job, logging) {
  * @param  {Boolean} logging Whether the internal activity should be logged
  * @return {Promise}         A promise that resolves when this activity finished
  */
-function upload(job, logging) {
-    if (!global.status.running) {
-        return Promise.reject(new Error("The operation has been cancelled"));
+function upload (job, logging) {
+  if (!global.status.running) {
+    return Promise.reject(new Error('The operation has been cancelled'))
+  }
+
+  if (!projects.isValid(job, true)) {
+    return Promise.reject(new Error('Invalid Job!'))
+  }
+
+  global.status.task[job.author + '/' + job.repo + '/' + job.branch] = 'Preparing Upload'
+  return new Promise((resolve, reject) => {
+    const promises = [
+      projects.addBuild(job, logging),
+      projects.generateHTML(job, logging),
+      projects.generateBadge(job, logging)
+    ]
+
+    log(logging, 'Uploading: ' + job.author + '/' + job.repo + ':' + job.branch + ' (' + job.id + ')')
+
+    // Discord counts as a form of "logging" in this sense
+    if (logging) {
+      promises.push(discord.sendUpdate(job))
     }
 
-    if (!projects.isValid(job, true)) {
-        return Promise.reject(new Error("Invalid Job!"));
-    }
-
-    global.status.task[job.author + "/" + job.repo + "/" + job.branch] = "Preparing Upload";
-    return new Promise((resolve, reject) => {
-        let promises = [
-            projects.addBuild(job, logging),
-            projects.generateHTML(job, logging),
-            projects.generateBadge(job, logging)
-        ];
-
-        log(logging, "Uploading: " + job.author + "/" + job.repo + ":" + job.branch + " (" + job.id + ")");
-
-        // Discord counts as a form of "logging" in this sense
-        if (logging) {
-            promises.push(discord.sendUpdate(job));
-        }
-
-        Promise.all(promises).then(resolve, reject);
-    });
+    Promise.all(promises).then(resolve, reject)
+  })
 }
 
 /**
@@ -283,23 +283,23 @@ function upload(job, logging) {
  * @param  {Boolean} logging Whether the internal activity should be logged
  * @return {Promise}         A promise that resolves when this activity finished
  */
-function finish(job, logging) {
-    // Check if the program is still running
-    if (!global.status.running) {
-        return Promise.reject(new Error("The operation has been cancelled"));
-    }
+function finish (job, logging) {
+  // Check if the program is still running
+  if (!global.status.running) {
+    return Promise.reject(new Error('The operation has been cancelled'))
+  }
 
-    // Check if the job is still valid
-    if (!projects.isValid(job, true)) {
-        return Promise.reject(new Error("Invalid Job!"));
-    }
+  // Check if the job is still valid
+  if (!projects.isValid(job, true)) {
+    return Promise.reject(new Error('Invalid Job!'))
+  }
 
-    updateStatus(job, "Uploading");
+  updateStatus(job, 'Uploading')
 
-    return Promise.all([
-        github.pushChanges(job, logging),
-        projects.clearWorkspace(job)
-    ]);
+  return Promise.all([
+    github.pushChanges(job, logging),
+    projects.clearWorkspace(job)
+  ])
 }
 
 /**
@@ -308,6 +308,6 @@ function finish(job, logging) {
  * @param  {Object} job    The currently handled Job Object
  * @param  {String} status The new status message for this job
  */
-function updateStatus(job, status) {
-    global.status.task[job.author + "/" + job.repo + "/" + job.branch] = status;
+function updateStatus (job, status) {
+  global.status.task[job.author + '/' + job.repo + '/' + job.branch] = status
 }
