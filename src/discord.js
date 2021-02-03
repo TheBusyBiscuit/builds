@@ -61,7 +61,7 @@ function sendUpdate(webhook, job, cfg) {
 
         // Check if the job is valid
         if (!projects.isValid(job, true)) {
-            reject("Invalid Job");
+            reject(new Error("Invalid Job"));
             return;
         }
 
