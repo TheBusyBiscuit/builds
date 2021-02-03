@@ -73,7 +73,7 @@ module.exports = (cfg) => {
 function getLatestCommit(job, cfg, logging) {
     return new Promise((resolve, reject) => {
         if (!projects.isValid(job)) {
-            reject("Invalid Job");
+            reject(new Error("Invalid Job"));
             return;
         }
 
@@ -100,7 +100,7 @@ function getLatestCommit(job, cfg, logging) {
 function getLicense(job, cfg, logging) {
     return new Promise((resolve, reject) => {
         if (!projects.isValid(job)) {
-            reject("Invalid Job");
+            reject(new Error("Invalid Job"));
             return;
         }
 
@@ -119,7 +119,7 @@ function getLicense(job, cfg, logging) {
 function getTags(job, cfg, logging) {
     return new Promise((resolve, reject) => {
         if (!projects.isValid(job)) {
-            reject("Invalid Job");
+            reject(new Error("Invalid Job"));
             return;
         }
 
@@ -156,7 +156,7 @@ function getJSON(job, cfg, logging, endpoint, resolve, reject) {
 function exists(job, cfg) {
     return new Promise((resolve, reject) => {
         if (!projects.isValid(job)) {
-            reject("Invalid Job");
+            reject(new Error("Invalid Job"));
             return;
         }
 
@@ -179,23 +179,34 @@ function exists(job, cfg) {
 function hasUpdate(job, timestamp) {
     return new Promise((resolve, reject) => {
         if (!projects.isValid(job)) {
-            reject("Invalid Job");
+            reject(new Error("Invalid Job"));
             return;
         }
 
-        var file = path.resolve(__dirname, "../" + job.directory + "/builds.json");
+        let file = path.resolve(__dirname, "../" + job.directory + "/builds.json");
 
         if (FileSystem.existsSync(file)) {
-            fs.readFile(file, "utf8")
-                .then((data) => {
-                    if (!data) resolve(0); // Pretend like there is an Update if no local builds exist
-                    var json = JSON.parse(data);
+            fs.readFile(file, "utf8").then((data) => {
+                if (!data) {
+                    // Pretend like there is an Update if no local builds exist
+                    resolve(0);
+                }
 
-                    if (!json.latest) resolve(0); // Pretend like there is an Update if no local builds exist
-                    else if (timestamp > json[json.latest].timestamp) resolve(json.latest);
-                    else reject();
-                }, () => resolve(0))
-        } else resolve(0); // Pretend like there is an Update if no local builds exist
+                let json = JSON.parse(data);
+
+                if (!json.latest) {
+                    // Pretend like there is an Update if no local builds exist
+                    resolve(0);
+                } else if (timestamp > json[json.latest].timestamp) {
+                    resolve(json.latest);
+                } else {
+                    reject(new Error("Nothing to update."));
+                }
+            }, () => resolve(0))
+        } else {
+            // Pretend like there is an Update if no local builds exist
+            resolve(0);
+        }
     });
 }
 
@@ -211,9 +222,10 @@ function hasUpdate(job, timestamp) {
 function clone(job, commit, logging) {
     return new Promise((resolve, reject) => {
         if (!projects.isValid(job)) {
-            reject("Invalid Job");
+            reject(new Error("Invalid Job"));
             return;
         }
+
         log(logging, "-> Executing 'git clone'");
 
         var cloning = process.spawn("git", [
@@ -261,7 +273,7 @@ function clone(job, commit, logging) {
 function pushChanges(job, logging) {
     return new Promise((resolve, reject) => {
         if (!projects.isValid(job)) {
-            reject("Invalid Job");
+            reject(new Error("Invalid Job"));
             return;
         }
         log(logging, "-> Executing 'git add'");
@@ -313,8 +325,8 @@ function pushChanges(job, logging) {
  * @return {Object}          A Github-API URL Object
  */
 function getURL(job, cfg, endpoint) {
-    var url = "https://api.github.com/repos/" + job.author + "/" + job.repo + endpoint;
-    var headers = {
+    let url = "https://api.github.com/repos/" + job.author + "/" + job.repo + endpoint;
+    let headers = {
         "Accept": "application/vnd.github.v3+json",
         "User-Agent": "The Busy Biscuit's Repository Compiler",
         "Time-Zone": "UTC"
@@ -337,7 +349,7 @@ function getURL(job, cfg, endpoint) {
  * @return {String}     A formatted human-readable Date format
  */
 function parseDate(str) {
-    var date = "";
+    let date = "";
 
     date += str.split("T")[0].split("-")[2] + " ";
     date += months[parseInt(str.split("T")[0].split("-")[1]) - 1] + " ";
