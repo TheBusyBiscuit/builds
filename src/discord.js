@@ -24,21 +24,21 @@ module.exports = cfg => {
 
   return {
     /**
-         * This method sends a message into your Discord channel that
-         * contains the status of the specified job.
-         * It returns a Promise that will reject if the job is invalid or
-         * when the message could not be sent.
-         *
-         * @param  {Object} job      The Job that shall be posted
-         * @return {Promise}         A Promise that resolves when the message has been posted.
-         */
+     * This method sends a message into your Discord channel that
+     * contains the status of the specified job.
+     * It returns a Promise that will reject if the job is invalid or
+     * when the message could not be sent.
+     *
+     * @param  {Object} job      The Job that shall be posted
+     * @return {Promise}         A Promise that resolves when the message has been posted.
+     */
     sendUpdate: job => sendUpdate(webhook, job, config),
 
     /**
-         * This method returns the discord config used by this instance
-         *
-         * @return {Object} Config
-         */
+     * This method returns the discord config used by this instance
+     *
+     * @return {Object} Config
+     */
     getConfig: () => config
   }
 }
