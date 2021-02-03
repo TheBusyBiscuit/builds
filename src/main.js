@@ -34,7 +34,7 @@ module.exports = {
  * @return {Promise}         A Promise that is resolved after all projects have finished their lifecycle
  */
 function start(logging) {
-    return new Promise((done, fail) => {
+    return new Promise((resolve, reject) => {
         log(logging, "Loading Projects...");
 
         projects.getProjects(logging).then(jobs => {
@@ -50,7 +50,7 @@ function start(logging) {
                 i++;
 
                 if (!global.status.running || i >= jobs.length) {
-                    done();
+                    resolve();
                 } else {
                     log(logging, "");
                     log(logging, "Watching: " + jobs[i].author + "/" + jobs[i].repo + ":" + jobs[i].branch)
@@ -65,11 +65,11 @@ function start(logging) {
                                     .then(() => upload(job, logging)
                                         .then(() => finish(job, logging)
                                             .then(() => updateStatus(jobs[i], "Finished"))
-                                            .then(nextJob, fail),
-                                            fail),
-                                        fail),
-                                    fail),
-                                fail),
+                                            .then(nextJob, reject),
+                                            reject),
+                                        reject),
+                                    reject),
+                                reject),
                             nextJob);
                 }
             };
@@ -89,11 +89,11 @@ function start(logging) {
  */
 function check(job, logging) {
     if (!global.status.running) {
-        return Promise.reject("The operation has been cancelled");
+        return Promise.reject(new Error("The operation has been cancelled"));
     }
 
     if (!projects.isValid(job, false)) {
-        return Promise.reject("Invalid Job!");
+        return Promise.reject(new Error("Invalid Job!"));
     }
 
     updateStatus(job, "Pulling Commits");
@@ -103,7 +103,7 @@ function check(job, logging) {
             var timestamp = parseInt(commit.commit.committer.date.replace(/\D/g, ""));
 
             if (commit.commit.message.toLowerCase().startsWith("[ci skip]")) {
-                reject("Skipping build...");
+                reject(new Error("Skipping build..."));
                 return;
             }
 
@@ -135,11 +135,11 @@ function check(job, logging) {
  */
 function update(job, logging) {
     if (!global.status.running) {
-        return Promise.reject("The operation has been cancelled");
+        return Promise.reject(new Error("The operation has been cancelled"));
     }
 
     if (!projects.isValid(job, false)) {
-        return Promise.reject("Invalid Job!");
+        return Promise.reject(new Error("Invalid Job!"));
     }
 
     updateStatus(job, "Cloning Repository");
@@ -165,11 +165,11 @@ function update(job, logging) {
  */
 function compile(job, logging) {
     if (!global.status.running) {
-        return Promise.reject("The operation has been cancelled");
+        return Promise.reject(new Error("The operation has been cancelled"));
     }
 
     if (!projects.isValid(job, false)) {
-        return Promise.reject("Invalid Job!");
+        return Promise.reject(new Error("Invalid Job!"));
     }
 
     updateStatus(job, "Compiling");
@@ -200,11 +200,11 @@ function compile(job, logging) {
  */
 function gatherResources(job, logging) {
     if (!global.status.running) {
-        return Promise.reject("The operation has been cancelled");
+        return Promise.reject(new Error("The operation has been cancelled"));
     }
 
     if (!projects.isValid(job, true)) {
-        return Promise.reject("Invalid Job!");
+        return Promise.reject(new Error("Invalid Job!"));
     }
 
     updateStatus(job, "Fetching Resources");
@@ -248,11 +248,11 @@ function gatherResources(job, logging) {
  */
 function upload(job, logging) {
     if (!global.status.running) {
-        return Promise.reject("The operation has been cancelled");
+        return Promise.reject(new Error("The operation has been cancelled"));
     }
 
     if (!projects.isValid(job, true)) {
-        return Promise.reject("Invalid Job!");
+        return Promise.reject(new Error("Invalid Job!"));
     }
 
     global.status.task[job.author + "/" + job.repo + "/" + job.branch] = "Preparing Upload";
@@ -286,12 +286,12 @@ function upload(job, logging) {
 function finish(job, logging) {
     // Check if the program is still running
     if (!global.status.running) {
-        return Promise.reject("The operation has been cancelled");
+        return Promise.reject(new Error("The operation has been cancelled"));
     }
 
     // Check if the job is still valid
     if (!projects.isValid(job, true)) {
-        return Promise.reject("Invalid Job!");
+        return Promise.reject(new Error("Invalid Job!"));
     }
 
     updateStatus(job, "Uploading");
