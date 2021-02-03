@@ -100,7 +100,7 @@ function check(job, logging) {
 
     return new Promise((resolve, reject) => {
         github.getLatestCommit(job, logging).then(commit => {
-            var timestamp = parseInt(commit.commit.committer.date.replace(/\D/g, ""));
+            let timestamp = parseInt(commit.commit.committer.date.replace(/\D/g, ""));
 
             if (commit.commit.message.toLowerCase().startsWith("[ci skip]")) {
                 reject(new Error("Skipping build..."));
