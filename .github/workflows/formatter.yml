@@ -23,7 +23,7 @@ jobs:
     - name: Installing dependencies
       run: npm install
     - name: Run Auto Formatter
-      run: npm run standard
+      run: npm run formatter
     - name: Auto Commit
       uses: stefanzweifel/git-auto-commit-action@v4.8.0
       with: 
