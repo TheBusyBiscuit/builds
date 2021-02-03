@@ -231,6 +231,8 @@ async function clearFolder(file, logging) {
             }
 
             if (!check()) {
+                let i;
+
                 let next = () => {
                     index++;
                     check();
@@ -241,7 +243,7 @@ async function clearFolder(file, logging) {
                     i = length;
                 };
 
-                for (var i = 0; i < length; i++) {
+                for (i = 0; i < length; i++) {
                     clearFolder(file + '/' + files[i], logging).then(next, cancel);
                 }
             }
