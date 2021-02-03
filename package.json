@@ -7,7 +7,8 @@
         "iteration": "node ./src/single-run.js",
         "regen": "node ./src/force-update.js",
         "test": "nyc --reporter=lcov --reporter=text-lcov mocha test/*.js --reporter mocha-multi-reporters --reporter-options configFile=resources/mocha.json",
-        "sonar": "node ./src/sonar.js"
+        "sonar": "node ./src/sonar.js",
+        "formatter" "standard --fix"
     },
     "repository": {
         "type": "git",
@@ -33,6 +34,7 @@
         "mocha": "8.2.1",
         "mocha-multi-reporters": "1.5.1",
         "mocha-sonarqube-reporter": "1.0.2",
-        "nyc": "15.1.0"
+        "nyc": "15.1.0",
+        "standard": "16.0.3"
     }
 }
