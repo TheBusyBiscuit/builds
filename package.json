@@ -8,7 +8,7 @@
         "regen": "node ./src/force-update.js",
         "test": "nyc --reporter=lcov --reporter=text-lcov mocha test/*.js --reporter mocha-multi-reporters --reporter-options configFile=resources/mocha.json",
         "sonar": "node ./src/sonar.js",
-        "formatter": "standard --fix src/*.js"
+        "formatter": "standard --fix"
     },
     "repository": {
         "type": "git",
@@ -36,5 +36,11 @@
         "mocha-sonarqube-reporter": "1.0.2",
         "nyc": "15.1.0",
         "standard": "16.0.3"
+    },
+    "standard": {
+        "ignore": [
+            "test/*.js",
+            "src/frontend.js"
+        ]
     }
 }
