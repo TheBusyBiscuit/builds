@@ -13,47 +13,47 @@ const months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', '
 module.exports = (cfg) => {
   return {
     /**
-         * This method will return the latest Commit for the specified Job
-         *
-         * @param  {Object} job         The currently handled Job Object
-         * @param  {Boolean} logging    Whether the internal behaviour should be logged
-         * @return {Promise<Object>}    This will return a Promise that resolve with the latest commits
-         */
+     * This method will return the latest Commit for the specified Job
+     *
+     * @param  {Object} job         The currently handled Job Object
+     * @param  {Boolean} logging    Whether the internal behaviour should be logged
+     * @return {Promise<Object>}    This will return a Promise that resolve with the latest commits
+     */
     getLatestCommit: (job, logging) => getLatestCommit(job, cfg, logging),
 
     /**
-         * This method will return a repository's license.
-         * The Promise will reject if no License was found.
-         *
-         * @param  {Object} job         The currently handled Job Object
-         * @param  {Boolean} logging    Whether the internal behaviour should be logged
-         * @return {Promise}            This will return a Promise that resolve with the project license
-         */
+     * This method will return a repository's license.
+     * The Promise will reject if no License was found.
+     *
+     * @param  {Object} job         The currently handled Job Object
+     * @param  {Boolean} logging    Whether the internal behaviour should be logged
+     * @return {Promise}            This will return a Promise that resolve with the project license
+     */
     getLicense: (job, logging) => getLicense(job, cfg, logging),
 
     /**
-         * This method will return a repository's tags.
-         * The Promise will also resolve if no tags exist.
-         *
-         * @param  {Object} job  The currently handled Job Object
-         * @return {Promise}     This will return a Promise that resolve with the project tags
-         */
+     * This method will return a repository's tags.
+     * The Promise will also resolve if no tags exist.
+     *
+     * @param  {Object} job  The currently handled Job Object
+     * @return {Promise}     This will return a Promise that resolve with the project tags
+     */
     getTags: (job, logging) => getTags(job, cfg, logging),
 
     /**
-         * This method will return a Promise.
-         * The Promise will resolve if the Repository exists, otherwise it will reject.
-         *
-         * @param  {Object} job  The currently handled Job Object
-         * @return {Promise}     This will return a Promise that resolve if the repository exists
-         */
+     * This method will return a Promise.
+     * The Promise will resolve if the Repository exists, otherwise it will reject.
+     *
+     * @param  {Object} job  The currently handled Job Object
+     * @return {Promise}     This will return a Promise that resolve if the repository exists
+     */
     exists: (job) => exists(job, cfg),
 
     /**
-         * This method returns the discord config used by this instance
-         *
-         * @return {Object} Config
-         */
+     * This method returns the discord config used by this instance
+     *
+     * @return {Object} Config
+     */
     getConfig: () => cfg,
 
     clone,
