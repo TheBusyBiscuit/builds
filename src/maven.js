@@ -41,7 +41,7 @@ module.exports = {
 function setVersion(job, version, compact) {
     return new Promise((resolve, reject) => {
         if (!isValid(job)) {
-            reject("Invalid Job");
+            reject(new Error("Invalid Job"));
             return;
         }
 
@@ -96,9 +96,10 @@ function updatePOM(job, json, version, compact) {
 function compile(job, cfg, logging) {
     return new Promise((resolve, reject) => {
         if (!isValid(job)) {
-            reject("Invalid Job");
+            reject(new Error("Invalid Job"));
             return;
         }
+
         log(logging, "-> Executing 'mvn package'");
 
         var args = getMavenArguments(job, cfg);
