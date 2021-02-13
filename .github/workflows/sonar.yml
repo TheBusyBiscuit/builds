@@ -1,0 +1,24 @@
+name: Sonarcloud Scanner
+on:
+  push:
+    branches:
+    - gh-pages
+    paths:
+    - '*.js'
+
+jobs:
+  sonarcloud:
+
+    name: SonarCloud
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+      - name: SonarCloud Scan
+        uses: SonarSource/sonarcloud-github-action@v1.5
+        env:
+          GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+          SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
