@@ -50,15 +50,20 @@ Now that everything completed, the program will add, commit and push all changed
 After it's done, it will clear out any source files that arised during ```git clone```.<br>
 
 ## How to add your own repository
-This repository hosts several of my Maven projects, including [Slimefun](https://github.com/TheBusyBiscuit/Slimefun4) and a couple of [Slimefun Addons](https://github.com/TheBusyBiscuit/Slimefun4/wiki/Addons) developed by the community.<br>
+This repository hosts several of my Maven projects, including [Slimefun](https://github.com/Slimefun/Slimefun4) and a couple of [Slimefun Addons](https://github.com/Slimefun/Slimefun4/wiki/Addons) developed by the community.<br>
 If you want your own project to be added, simply submit a Pull Request to this repository with your desired changes and a description of why you want your project to be added.
 All you have to do is to modify the `resources/repos.json` file, go down to the bottom and add your repository as another JSON object.
 
-### Prerequisites
-Repositories must fulfill the following criteria:
-1. They must have a valid `pom.xml` file.
-2. They must be publicly available on GitHub and Open-Source.
-3. They must have a valid `LICENSE` file with a permissive Open-Source license (e.g. MIT, Apache or GNU GPL or similar).
+### Guidelines
+Repositories on this page must adhere to the following guidelines.
+If a project violates any of these rules, it will be removed from the site.
+If you see a project on our site which violates these guidelines, feel free to report it on the Issues Tracker.
+Note that many of these guidelines are requirements of technical nature.
+
+1. They must be publicly available on GitHub and Open-Source.
+2. They must have a valid `LICENSE` file with a permissive Open-Source license (e.g. MIT, Apache or GNU GPL or similar).
+3. They must have a valid `pom.xml` file.
+4. They are not allowed to force auto-updates on people without providing an option to disable it.
 
 ### Example
 ```javascript
@@ -91,7 +96,7 @@ Repositories must fulfill the following criteria:
 ```
 
 ### Auto-Updater
-If you are using [CS-CoreLib v2](https://github.com/TheBusyBiscuit/CS-CoreLib2) or [Slimefun](https://github.com/TheBusyBiscuit/Slimefun4) for your project, you can use our premade Auto-Updater for your project.
+If you are using [CS-CoreLib v2](https://github.com/TheBusyBiscuit/CS-CoreLib2) or [Slimefun](https://github.com/Slimefun/Slimefun4) for your project, you can use our premade Auto-Updater for your project.
 You can add our Auto-Updater by placing this inside the `onEnable()` method of your main class which extends `JavaPlugin`.
 
 ```java
