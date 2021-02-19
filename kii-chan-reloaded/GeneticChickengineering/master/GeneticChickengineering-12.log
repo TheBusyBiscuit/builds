@@ -1,0 +1,218 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------< space.kiichan:GeneticChickengineering >----------------
+[INFO] Building GeneticChickengineering DEV - 12 (git 8912d443)
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-shade-plugin/3.2.1/maven-shade-plugin-3.2.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-shade-plugin/3.2.1/maven-shade-plugin-3.2.1.pom (9.3 kB at 24 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/33/maven-plugins-33.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/33/maven-plugins-33.pom (11 kB at 249 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/33/maven-parent-33.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/33/maven-parent-33.pom (44 kB at 833 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/apache/21/apache-21.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/apache/21/apache-21.pom (17 kB at 428 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-shade-plugin/3.2.1/maven-shade-plugin-3.2.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-shade-plugin/3.2.1/maven-shade-plugin-3.2.1.jar (114 kB at 1.5 MB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/destroystokyo/paper/paper-api/1.16.5-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/destroystokyo/paper/paper-api/1.16.5-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/destroystokyo/paper/paper-api/1.16.5-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from sqlite-jdbc: https://repo1.maven.org/com/destroystokyo/paper/paper-api/1.16.5-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/destroystokyo/paper/paper-api/1.16.5-R0.1-SNAPSHOT/maven-metadata.xml (1.5 kB at 745 B/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/destroystokyo/paper/paper-api/1.16.5-R0.1-SNAPSHOT/paper-api-1.16.5-R0.1-20210218.214446-53.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/destroystokyo/paper/paper-api/1.16.5-R0.1-SNAPSHOT/paper-api-1.16.5-R0.1-20210218.214446-53.pom (12 kB at 15 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/destroystokyo/paper/paper-parent/dev-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/destroystokyo/paper/paper-parent/dev-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/destroystokyo/paper/paper-parent/dev-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from sqlite-jdbc: https://repo1.maven.org/com/destroystokyo/paper/paper-parent/dev-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from spigotmc-public: https://hub.spigotmc.org/nexus/content/groups/public/com/destroystokyo/paper/paper-parent/dev-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/com/destroystokyo/paper/paper-parent/dev-SNAPSHOT/maven-metadata.xml
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/destroystokyo/paper/paper-parent/dev-SNAPSHOT/maven-metadata.xml (610 B at 541 B/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/destroystokyo/paper/paper-parent/dev-SNAPSHOT/paper-parent-dev-20200427.054227-11.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/destroystokyo/paper/paper-parent/dev-SNAPSHOT/paper-parent-dev-20200427.054227-11.pom (1.9 kB at 1.1 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.pom (965 B at 1.4 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.pom (3.5 kB at 3.2 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/junit/junit/4.10/junit-4.10.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/junit/junit/4.10/junit-4.10.pom (2.3 kB at 2.9 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.pom (481 B at 975 B/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/hamcrest/hamcrest-parent/1.1/hamcrest-parent-1.1.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/hamcrest/hamcrest-parent/1.1/hamcrest-parent-1.1.pom (5.9 kB at 4.2 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/net/md-5/bungeecord-chat/1.16-R0.4/bungeecord-chat-1.16-R0.4.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/net/md-5/bungeecord-chat/1.16-R0.4/bungeecord-chat-1.16-R0.4.pom (978 B at 1.3 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/net/md-5/bungeecord-parent/1.16-R0.4/bungeecord-parent-1.16-R0.4.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/net/md-5/bungeecord-parent/1.16-R0.4/bungeecord-parent-1.16-R0.4.pom (10 kB at 13 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/yaml/snakeyaml/1.27/snakeyaml-1.27.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/yaml/snakeyaml/1.27/snakeyaml-1.27.pom (37 kB at 64 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.pom (3.8 kB at 7.7 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/slf4j/slf4j-parent/1.7.25/slf4j-parent-1.7.25.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/slf4j/slf4j-parent/1.7.25/slf4j-parent-1.7.25.pom (14 kB at 27 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/ow2/asm/asm/9.0/asm-9.0.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/ow2/asm/asm/9.0/asm-9.0.pom (2.7 kB at 5.3 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/ow2/ow2/1.5/ow2-1.5.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/ow2/ow2/1.5/ow2-1.5.pom (11 kB at 23 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/ow2/asm/asm-commons/9.0/asm-commons-9.0.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/ow2/asm/asm-commons/9.0/asm-commons-9.0.pom (3.3 kB at 4.2 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/ow2/asm/asm-tree/9.0/asm-tree-9.0.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/ow2/asm/asm-tree/9.0/asm-tree-9.0.pom (2.9 kB at 3.7 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/ow2/asm/asm-analysis/9.0/asm-analysis-9.0.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/ow2/asm/asm-analysis/9.0/asm-analysis-9.0.pom (3.0 kB at 3.6 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/github/TheBusyBiscuit/CS-CoreLib2/0.29.6/CS-CoreLib2-0.29.6.pom
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/github/TheBusyBiscuit/CS-CoreLib2/0.29.6/CS-CoreLib2-0.29.6.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/github/TheBusyBiscuit/CS-CoreLib2/0.29.6/CS-CoreLib2-0.29.6.pom
+[INFO] Downloaded from jitpack.io: https://jitpack.io/com/github/TheBusyBiscuit/CS-CoreLib2/0.29.6/CS-CoreLib2-0.29.6.pom (8.2 kB at 64 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/github/Slimefun/Slimefun4/RC-20/Slimefun4-RC-20.pom
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/github/Slimefun/Slimefun4/RC-20/Slimefun4-RC-20.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/github/Slimefun/Slimefun4/RC-20/Slimefun4-RC-20.pom
+[INFO] Downloaded from jitpack.io: https://jitpack.io/com/github/Slimefun/Slimefun4/RC-20/Slimefun4-RC-20.pom (13 kB at 177 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/xerial/sqlite-jdbc/3.34.0/sqlite-jdbc-3.34.0.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/xerial/sqlite-jdbc/3.34.0/sqlite-jdbc-3.34.0.pom (6.5 kB at 5.6 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/sonatype/oss/oss-parent/9/oss-parent-9.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/sonatype/oss/oss-parent/9/oss-parent-9.pom (6.6 kB at 7.5 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/io/papermc/paperlib/1.0.6/paperlib-1.0.6.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/io/papermc/paperlib/1.0.6/paperlib-1.0.6.pom (1.3 kB at 1.2 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/destroystokyo/paper/paper-api/1.16.5-R0.1-SNAPSHOT/paper-api-1.16.5-R0.1-20210218.214446-53.jar
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/junit/junit/4.10/junit-4.10.jar
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.jar
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/junit/junit/4.10/junit-4.10.jar (253 kB at 319 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/net/md-5/bungeecord-chat/1.16-R0.4/bungeecord-chat-1.16-R0.4.jar
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar (33 kB at 33 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/yaml/snakeyaml/1.27/snakeyaml-1.27.jar
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.jar (24 kB at 23 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar (77 kB at 70 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/ow2/asm/asm/9.0/asm-9.0.jar
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/destroystokyo/paper/paper-api/1.16.5-R0.1-SNAPSHOT/paper-api-1.16.5-R0.1-20210218.214446-53.jar (1.5 MB at 1.2 MB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/ow2/asm/asm-commons/9.0/asm-commons-9.0.jar
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/net/md-5/bungeecord-chat/1.16-R0.4/bungeecord-chat-1.16-R0.4.jar (149 kB at 86 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/ow2/asm/asm-tree/9.0/asm-tree-9.0.jar
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar (41 kB at 21 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/ow2/asm/asm-analysis/9.0/asm-analysis-9.0.jar
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/yaml/snakeyaml/1.27/snakeyaml-1.27.jar (310 kB at 157 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/github/TheBusyBiscuit/CS-CoreLib2/0.29.6/CS-CoreLib2-0.29.6.jar
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/ow2/asm/asm/9.0/asm-9.0.jar (122 kB at 59 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/github/Slimefun/Slimefun4/RC-20/Slimefun4-RC-20.jar
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/ow2/asm/asm-commons/9.0/asm-commons-9.0.jar (72 kB at 32 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/xerial/sqlite-jdbc/3.34.0/sqlite-jdbc-3.34.0.jar
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/io/papermc/paperlib/1.0.6/paperlib-1.0.6.jar
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/ow2/asm/asm-tree/9.0/asm-tree-9.0.jar (53 kB at 19 kB/s)
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/xerial/sqlite-jdbc/3.34.0/sqlite-jdbc-3.34.0.jar (7.3 MB at 2.7 MB/s)
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/io/papermc/paperlib/1.0.6/paperlib-1.0.6.jar (23 kB at 8.4 kB/s)
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/ow2/asm/asm-analysis/9.0/asm-analysis-9.0.jar (33 kB at 10 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/github/TheBusyBiscuit/CS-CoreLib2/0.29.6/CS-CoreLib2-0.29.6.jar
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/github/Slimefun/Slimefun4/RC-20/Slimefun4-RC-20.jar
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/github/TheBusyBiscuit/CS-CoreLib2/0.29.6/CS-CoreLib2-0.29.6.jar
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/github/Slimefun/Slimefun4/RC-20/Slimefun4-RC-20.jar
+[INFO] Downloaded from jitpack.io: https://jitpack.io/com/github/TheBusyBiscuit/CS-CoreLib2/0.29.6/CS-CoreLib2-0.29.6.jar (185 kB at 1.6 MB/s)
+[INFO] Downloaded from jitpack.io: https://jitpack.io/com/github/Slimefun/Slimefun4/RC-20/Slimefun4-RC-20.jar (4.2 MB at 13 MB/s)
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ GeneticChickengineering ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ GeneticChickengineering ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ GeneticChickengineering ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 22 source files to /home/runner/work/builds/builds/kii-chan-reloaded/GeneticChickengineering/master/files/target/classes
+[WARNING] /home/runner/work/builds/builds/kii-chan-reloaded/GeneticChickengineering/master/files/src/main/java/space/kiichan/geneticchickengineering/chickens/PocketChicken.java: /home/runner/work/builds/builds/kii-chan-reloaded/GeneticChickengineering/master/files/src/main/java/space/kiichan/geneticchickengineering/chickens/PocketChicken.java uses unchecked or unsafe operations.
+[WARNING] /home/runner/work/builds/builds/kii-chan-reloaded/GeneticChickengineering/master/files/src/main/java/space/kiichan/geneticchickengineering/chickens/PocketChicken.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ GeneticChickengineering ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/runner/work/builds/builds/kii-chan-reloaded/GeneticChickengineering/master/files/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ GeneticChickengineering ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ GeneticChickengineering ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ GeneticChickengineering ---
+[INFO] Building jar: /home/runner/work/builds/builds/kii-chan-reloaded/GeneticChickengineering/master/files/target/GeneticChickengineering-12.jar
+[INFO] 
+[INFO] --- maven-shade-plugin:3.2.1:shade (default) @ GeneticChickengineering ---
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-component-annotations/1.7.1/plexus-component-annotations-1.7.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-component-annotations/1.7.1/plexus-component-annotations-1.7.1.pom (770 B at 22 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-containers/1.7.1/plexus-containers-1.7.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-containers/1.7.1/plexus-containers-1.7.1.pom (5.0 kB at 117 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.1.0/plexus-utils-3.1.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.1.0/plexus-utils-3.1.0.pom (4.7 kB at 129 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-artifact-transfer/0.10.0/maven-artifact-transfer-0.10.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-artifact-transfer/0.10.0/maven-artifact-transfer-0.10.0.pom (12 kB at 321 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-components/31/maven-shared-components-31.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-components/31/maven-shared-components-31.pom (5.1 kB at 170 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/31/maven-parent-31.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/31/maven-parent-31.pom (43 kB at 1.2 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/apache/19/apache-19.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/apache/19/apache-19.pom (15 kB at 500 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.11/commons-codec-1.11.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.11/commons-codec-1.11.pom (14 kB at 341 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/42/commons-parent-42.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/42/commons-parent-42.pom (68 kB at 2.1 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm/7.0/asm-7.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm/7.0/asm-7.0.pom (2.9 kB at 95 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-commons/7.0/asm-commons-7.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-commons/7.0/asm-commons-7.0.pom (3.7 kB at 111 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-tree/7.0/asm-tree-7.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-tree/7.0/asm-tree-7.0.pom (3.1 kB at 95 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-analysis/7.0/asm-analysis-7.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-analysis/7.0/asm-analysis-7.0.pom (3.2 kB at 93 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jdom/jdom2/2.0.6/jdom2-2.0.6.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jdom/jdom2/2.0.6/jdom2-2.0.6.pom (4.6 kB at 112 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-dependency-tree/3.0.1/maven-dependency-tree-3.0.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-dependency-tree/3.0.1/maven-dependency-tree-3.0.1.pom (7.5 kB at 278 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/vafer/jdependency/2.1.1/jdependency-2.1.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/vafer/jdependency/2.1.1/jdependency-2.1.1.pom (11 kB at 256 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/commons-io/commons-io/2.6/commons-io-2.6.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/commons-io/commons-io/2.6/commons-io-2.6.pom (14 kB at 528 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm/7.0-beta/asm-7.0-beta.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm/7.0-beta/asm-7.0-beta.pom (2.9 kB at 95 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-analysis/7.0-beta/asm-analysis-7.0-beta.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-analysis/7.0-beta/asm-analysis-7.0-beta.pom (3.2 kB at 96 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-tree/7.0-beta/asm-tree-7.0-beta.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-tree/7.0-beta/asm-tree-7.0-beta.pom (3.1 kB at 121 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-commons/7.0-beta/asm-commons-7.0-beta.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-commons/7.0-beta/asm-commons-7.0-beta.pom (3.7 kB at 127 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-util/7.0-beta/asm-util-7.0-beta.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-util/7.0-beta/asm-util-7.0-beta.pom (3.7 kB at 141 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-component-annotations/1.7.1/plexus-component-annotations-1.7.1.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-artifact-transfer/0.10.0/maven-artifact-transfer-0.10.0.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.1.0/plexus-utils-3.1.0.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.11/commons-codec-1.11.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm/7.0/asm-7.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-component-annotations/1.7.1/plexus-component-annotations-1.7.1.jar (4.3 kB at 100 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-commons/7.0/asm-commons-7.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-commons/7.0/asm-commons-7.0.jar (80 kB at 1.3 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-tree/7.0/asm-tree-7.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-artifact-transfer/0.10.0/maven-artifact-transfer-0.10.0.jar (128 kB at 1.7 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-analysis/7.0/asm-analysis-7.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.1.0/plexus-utils-3.1.0.jar (262 kB at 3.2 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jdom/jdom2/2.0.6/jdom2-2.0.6.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm/7.0/asm-7.0.jar (114 kB at 1.3 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-dependency-tree/3.0.1/maven-dependency-tree-3.0.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-tree/7.0/asm-tree-7.0.jar (50 kB at 536 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/vafer/jdependency/2.1.1/jdependency-2.1.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-analysis/7.0/asm-analysis-7.0.jar (33 kB at 343 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.11/commons-codec-1.11.jar (335 kB at 3.2 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-util/7.0-beta/asm-util-7.0-beta.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jdom/jdom2/2.0.6/jdom2-2.0.6.jar (305 kB at 3.0 MB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-util/7.0-beta/asm-util-7.0-beta.jar (81 kB at 691 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/vafer/jdependency/2.1.1/jdependency-2.1.1.jar (186 kB at 1.4 MB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-dependency-tree/3.0.1/maven-dependency-tree-3.0.1.jar (37 kB at 274 kB/s)
+[INFO] Including com.github.TheBusyBiscuit:CS-CoreLib2:jar:0.29.6 in the shaded jar.
+[INFO] Including org.xerial:sqlite-jdbc:jar:3.34.0 in the shaded jar.
+[INFO] Including io.papermc:paperlib:jar:1.0.6 in the shaded jar.
+[INFO] Replacing original artifact with shaded artifact.
+[INFO] Replacing /home/runner/work/builds/builds/kii-chan-reloaded/GeneticChickengineering/master/files/target/GeneticChickengineering-12.jar with /home/runner/work/builds/builds/kii-chan-reloaded/GeneticChickengineering/master/files/target/GeneticChickengineering-DEV - 12 (git 8912d443)-shaded.jar
+[INFO] Dependency-reduced POM written at: /home/runner/work/builds/builds/kii-chan-reloaded/GeneticChickengineering/master/files/dependency-reduced-pom.xml
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  38.094 s
+[INFO] Finished at: 2021-02-19T18:48:44Z
+[INFO] ------------------------------------------------------------------------
