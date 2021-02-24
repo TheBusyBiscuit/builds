@@ -840,10 +840,8 @@
             "Minecraft Version(s)": {
                 "1": "1.15.x, 1.16.x"
             },
-            "CS-CoreLib Version": {
-                "1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/CS-CoreLib/master/#90\">dev #90</a>"
-            },
             "Slimefun Version": {
+                "10": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/Slimefun4/stable/#20\">RC-20</a>",
                 "4": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/Slimefun4/master/#669\">dev #669</a>",
                 "1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/Slimefun4/stable/#15\">RC-15</a>"
             }
