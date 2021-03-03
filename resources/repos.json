@@ -1072,7 +1072,7 @@
         },
         "options": {
             "prefix": "DEV",
-            "abandoned": true,
+            "abandoned": false,
             "createJar": true
         },
         "dependencies": {
