@@ -48,14 +48,14 @@ describe('Full Gradle System Test', function () {
     assert.isFulfilled(system.update(job, true))
   )
 
-  it('passes stage \'compile\' (compile)', () =>
-    // Writes into settings.gradle since the example repo didn't have one
-    fs.writeFile(path.resolve(__dirname, '../' + job.directory + '/files/settings.gradle'), `rootProject.name = 'gradle-simple'`, 'utf8').then(() => Promise.all([
-      assert.isFulfilled(system.compile(job, true)),
-      assert.exists(job.success),
-      assert.isTrue(job.success),
+  it('passes stage \'compile\' (compile)', function () {
+      // Writes into settings.gradle since the example repo didn't have one
+      fs.writeFile(path.resolve(__dirname, '../' + job.directory + '/files/settings.gradle'), `rootProject.name = 'gradle-simple'`, 'utf8')
+      system.compile(job, true)
+      assert.exists(job.success)
+      assert.isTrue(job.success)
       assert.isTrue(FileSystem.existsSync(path.resolve(__dirname, '../' + job.directory + '/files/build/libs/' + job.repo + '-' + (job.options ? job.options.prefix : 'DEV') + ' - ' + job.id + ' (git ' + job.commit.sha.substr(0, 8) + ')' + '.jar')))
-    ]))
+    }
   )
 
   it('passes stage \'gatherResources\' (getLicense & getTags & relocate)', () =>
@@ -96,7 +96,7 @@ describe('Full Gradle System Test', function () {
   )
 
   it('can handle failed builds', () =>
-    FileSystem.promises.writeFile(path.resolve(__dirname, '../' + job.directory + '/files/src/main/java/com/github/jitpack/App.java'), 'This will not compile.', 'utf8').then(() =>
+    FileSystem.promises.writeFile(path.resolve(__dirname, '../' + job.directory + '/files/src/main/java/Hello.java'), 'This will not compile.', 'utf8').then(() =>
       system.compile(job, true).then(() => Promise.all([
         assert.exists(job.success),
         assert.isFalse(job.success)
