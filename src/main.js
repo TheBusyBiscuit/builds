@@ -183,7 +183,6 @@ function compile (job, logging) {
   updateStatus(job, 'Compiling')
 
   return new Promise((resolve) => {
-    log(logging, 'a')
     if (job.options.buildTool === 'maven') {
       log(logging, 'Compiling using Maven: ' + job.author + '/' + job.repo + ':' + job.branch + ' (' + job.id + ')')
 
@@ -198,9 +197,7 @@ function compile (job, logging) {
           resolve()
         })
     }
-    log(logging, 'b')
     if (job.options.buildTool === 'gradle') {
-      log(logging, 'c')
       log(logging, 'Compiling using Gradle: ' + job.author + '/' + job.repo + ':' + job.branch + ' (' + job.id + ')')
       gradle.compile(job, logging, job.version)
         .then(() => {

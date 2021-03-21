@@ -22,7 +22,7 @@ module.exports = {
  * @return {Array<String>}   The needed console line arguments
  */
 function getGradleArguments (version) {
-  return ['build', 'package', '-Pversion=' + version]
+  return ['build', '-Pversion="' + version.replaceAll("(", "\\(").replaceAll(")", "\\)") + '"']
 }
 
 /**
