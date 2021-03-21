@@ -15,7 +15,7 @@ var job = {
     repo: "gradle-simple",
     branch: "master",
     directory: "jitback/gradle-simple/master",
-    options: {buildTool: "gradle"}
+    options: {buildTool: "gradle", prefix: "TEST"}
 }
 
 describe("Full Gradle System Test", function() {
