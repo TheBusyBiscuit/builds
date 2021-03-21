@@ -26,11 +26,11 @@ describe('Gradle Test', () => {
     it('should create a gradle.properties file with the right version when there isn\'t one', async () => {
       await fs.mkdir(path.resolve(__dirname, '../' + fakeJob.directory + '/files'))
       assert.isFulfilled(gradle.setVersion(fakeJob, '1.1'))
-      assert.equal(await fs.readFile(path.resolve(__dirname, '../' + fakeJob.directory + '/files/gradle.properties'), 'utf8'), 'version=1.1')
+      assert.equal(await fs.readFile(path.resolve(__dirname, '../' + fakeJob.directory + '/files/gradle.properties'), 'utf8'), '\nversion=1.1')
     })
     it('should edit the version of a gradle.properties file', async () => {
       assert.isFulfilled(gradle.setVersion(fakeJob, '1.2'))
-      assert.equal(await fs.readFile(path.resolve(__dirname, '../' + fakeJob.directory + '/files/gradle.properties'), 'utf8'), 'version=1.2')
+      assert.equal(await fs.readFile(path.resolve(__dirname, '../' + fakeJob.directory + '/files/gradle.properties'), 'utf8'), '\nversion=1.2')
     })
   })
 
