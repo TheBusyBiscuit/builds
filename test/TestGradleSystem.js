@@ -15,7 +15,7 @@ var job = {
   author: 'jitpack',
   repo: 'gradle-simple',
   branch: 'master',
-  directory: 'jitback/gradle-simple/master',
+  directory: 'jitpack/gradle-simple/master',
   options: { buildTool: 'gradle', prefix: 'TEST' }
 }
 
