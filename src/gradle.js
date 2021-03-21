@@ -39,7 +39,7 @@ function setVersion (job, version) {
       return
     }
     const file = path.resolve(__dirname, '../' + job.directory + '/files/gradle.properties')
-    if (!FileSystem.existsSync(file)){
+    if (!FileSystem.existsSync(file)) {
       fs.writeFile(file, '\nversion=' + version, 'utf8').then(resolve, reject)
     } else {
       fs.readFile(file, 'utf8').then((data) => {
