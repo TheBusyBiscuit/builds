@@ -51,7 +51,7 @@ function setVersion (job, version) {
         }
       }
       result.push('\nversion=' + version)
-      fs.writeFile(file, result, 'utf8').then(resolve,reject)
+      fs.writeFile(file, result, 'utf8').then(resolve, reject)
     }, reject)
   })
 }
