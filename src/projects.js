@@ -40,7 +40,7 @@ function getProjects (logging) {
 
         if (json[repo].options) {
           job.options = json[repo].options
-
+          job.version = undefined
           if (json[repo].options.custom_directory) {
             job.directory = json[repo].options.custom_directory
           }
