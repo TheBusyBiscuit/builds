@@ -155,6 +155,7 @@ function update (job, logging) {
       }
       if (job.options.buildTool === 'gradle') {
         job.version = name
+        log('Compiling using gradle, version: ' + job.version)
       }
     }, reject)
   })
