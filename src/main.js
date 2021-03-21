@@ -56,7 +56,7 @@ function start (logging) {
           log(logging, '')
           log(logging, 'Watching: ' + jobs[i].author + '/' + jobs[i].repo + ':' + jobs[i].branch)
 
-          let job = jobs[i]
+          const job = jobs[i]
 
           // Project Lifecycle
           check(job, logging)
