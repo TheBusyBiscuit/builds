@@ -10,6 +10,7 @@ const projects = require('../src/projects.js')
 
 module.exports = {
   getGradleArguments,
+  setVersion,
   compile,
   relocate,
   isValid
@@ -18,11 +19,41 @@ module.exports = {
 /**
  * This will return the console line arguments for gradle.compile()
  *
- * @param  {String} version  The version to overwrite the config
  * @return {Array<String>}   The needed console line arguments
  */
-function getGradleArguments (version) {
-  return ['build', '-Pversion="' + version.replace(/\(/g, '\\(').replace(/\)/g, '\\)') + '"']
+function getGradleArguments () {
+  return ['build']
+}
+
+/**
+ * This method changes the project's version in your gradle.properties file
+ * It also returns a Promise that resolves when it's done.
+ *
+ * @param {Object} job      The currently handled Job Object
+ * @param {String} version  The Version that shall be set
+ */
+function setVersion (job, version) {
+  return new Promise((resolve, reject) => {
+    if (!isValid(job)) {
+      reject(new Error('Invalid Job'))
+      return
+    }
+
+    const file = path.resolve(__dirname, '../' + job.directory + '/files/gradle.properties')
+
+    fs.readFile(file, 'utf8').then((data) => {
+      let content = data.split('\n')
+      let result = []
+      let line
+      for (line in content){
+        if (!line.startsWith('version=')){
+          result.push(line)
+        }
+      }
+      result.push(`\nversion="${version}"`)
+      fs.writeFile(file, result, 'utf8').then(resolve,reject)
+    }, reject)
+  })
 }
 
 /**
@@ -31,10 +62,9 @@ function getGradleArguments (version) {
  *
  * @param  {Object} job      The currently handled Job Object
  * @param  {Boolean} logging Whether the internal activity should be logged
- * @param  {String} version     A Version String that should be used
  * @return {Promise}         A promise that resolves when this activity finished
  */
-function compile (job, logging, version) {
+function compile (job, logging) {
   return new Promise((resolve, reject) => {
     if (!isValid(job)) {
       reject(new Error('Invalid Job'))
@@ -50,7 +80,7 @@ function compile (job, logging, version) {
 
     log(logging, '-> Executing \'./gradlew build\'')
 
-    const args = getGradleArguments(version)
+    const args = getGradleArguments()
     const compiler = process.spawn('./gradlew', args, {
       cwd: path.resolve(__dirname, '../' + job.directory + '/files'),
       shell: true

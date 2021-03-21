@@ -155,8 +155,7 @@ function update (job, logging) {
         maven.setVersion(job, name, true).then(resolve, reject)
       }
       if (job.options && job.options.buildTool === 'gradle') {
-        job.version = name
-        resolve()
+        gradle.setVersion(job, name).then(resolve, reject)
       }
     }, reject)
   })
@@ -199,7 +198,7 @@ function compile (job, logging) {
     }
     if (job.options.buildTool === 'gradle') {
       log(logging, 'Compiling using Gradle: ' + job.author + '/' + job.repo + ':' + job.branch + ' (' + job.id + ')')
-      gradle.compile(job, logging, job.version)
+      gradle.compile(job, logging)
         .then(() => {
           job.success = true
           resolve()
