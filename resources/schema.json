@@ -34,7 +34,7 @@
         },
         "options": {
           "type": "object",
-          "required": ["prefix"],
+          "required": ["prefix", "buildTool"],
           "additionalProperties": false,
 
           "properties": {
