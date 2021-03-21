@@ -47,6 +47,10 @@ describe("Full Gradle System Test", function() {
         assert.isFulfilled(system.update(job, true))
     );
 
+    // Writes into settings.gradle since the example repo didn't have one
+    var settingsGradle = path.resolve(__dirname, '../' + job.directory + '/files/settings.gradle')
+    FileSystem.writeFile(settingsGradle, `rootProject.name = 'gradle-simple'`)
+
     it("passes stage 'compile' (compile)", () =>
         system.compile(job, true).then(() => Promise.all([
             assert.exists(job.success),
