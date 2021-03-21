@@ -1160,12 +1160,12 @@
             }
         }
     },
-    "RobotHanzo/Addon-Template:gradle": {
+    "RobotHanzo/Addon-Template:master": {
         "sonar": {
             "enabled": false
         },
         "options": {
-            "buildTool": "gradle",
+            "buildTool": "maven",
             "prefix": "TEST",
             "abandoned": false,
             "createJar": true
@@ -1183,12 +1183,12 @@
             }
         }
     },
-    "RobotHanzo/Addon-Template:master": {
+    "RobotHanzo/Addon-Template:gradle": {
         "sonar": {
             "enabled": false
         },
         "options": {
-            "buildTool": "maven",
+            "buildTool": "gradle",
             "prefix": "TEST",
             "abandoned": false,
             "createJar": true
