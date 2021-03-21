@@ -50,7 +50,7 @@ function setVersion (job, version) {
           result.push(line)
         }
       }
-      result.push(`\nversion="${version}"`)
+      result.push('\nversion=' + version)
       fs.writeFile(file, result, 'utf8').then(resolve,reject)
     }, reject)
   })
@@ -120,7 +120,7 @@ function relocate (job) {
     log(true, data, true)
   })
   return fs.rename(
-    path.resolve(__dirname, '../' + job.directory + '/files/build/libs/' + job.repo + '-' + job.id + '.jar'),
+    path.resolve(__dirname, '../' + job.directory + '/files/build/libs/' + job.repo + '-' + (job.options ? job.options.prefix : 'DEV') + ' - ' + job.id + ' (git ' + job.commit.sha.substr(0, 8) + ')' + '.jar'),
     path.resolve(__dirname, '../' + job.directory + '/' + job.repo + '-' + job.id + '.jar')
   )
 }
