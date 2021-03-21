@@ -38,21 +38,23 @@ function setVersion (job, version) {
       reject(new Error('Invalid Job'))
       return
     }
-
     const file = path.resolve(__dirname, '../' + job.directory + '/files/gradle.properties')
-
-    fs.readFile(file, 'utf8').then((data) => {
-      const content = data.split('\n')
-      const result = []
-      let line
-      for (line in content) {
-        if (!line.startsWith('version=')) {
-          result.push(line)
+    if (!FileSystem.existsSync(file)){
+      fs.writeFile(file, '\nversion=' + version, 'utf8').then(resolve, reject)
+    } else {
+      fs.readFile(file, 'utf8').then((data) => {
+        const content = data.split('\n')
+        const result = []
+        let line
+        for (line in content) {
+          if (!line.startsWith('version=')) {
+            result.push(line)
+          }
         }
-      }
-      result.push('\nversion=' + version)
-      fs.writeFile(file, result, 'utf8').then(resolve, reject)
-    }, reject)
+        result.push('\nversion=' + version)
+        fs.writeFile(file, result, 'utf8').then(resolve, reject)
+      }, reject)
+    }
   })
 }
 
