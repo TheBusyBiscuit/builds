@@ -12,9 +12,9 @@ const testJobs = require('../test/TestJobs.js');
 // A public sample Gradle project
 var job = {
     author: "gradle",
-    repo: "radle-build-scan-quickstart",
+    repo: "gradle-build-scan-quickstart",
     branch: "master",
-    directory: "gradle/radle-build-scan-quickstart/master"
+    directory: "gradle/gradle-build-scan-quickstart/master"
 }
 
 describe("Full Gradle System Test", function() {
