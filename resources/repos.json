@@ -7,7 +7,7 @@
             "host-url": "https://sonarcloud.io"
         },
         "options": {
-            "buildTool":"maven",
+            "buildTool": "maven",
             "prefix": "DEV",
             "custom_directory": "TheBusyBiscuit/Slimefun4/master",
             "abandoned": false,
@@ -42,7 +42,7 @@
             "enabled": false
         },
         "options": {
-            "buildTool":"maven",
+            "buildTool": "maven",
             "prefix": "RC",
             "custom_directory": "TheBusyBiscuit/Slimefun4/stable",
             "abandoned": false,
@@ -71,7 +71,7 @@
             "host-url": "https://sonarcloud.io"
         },
         "options": {
-            "buildTool":"maven",
+            "buildTool": "maven",
             "prefix": "DEV",
             "abandoned": false,
             "createJar": true
@@ -90,7 +90,7 @@
             "host-url": "https://sonarcloud.io"
         },
         "options": {
-            "buildTool":"maven",
+            "buildTool": "maven",
             "prefix": "DEV",
             "abandoned": true,
             "createJar": false
@@ -113,7 +113,7 @@
             "host-url": "https://sonarcloud.io"
         },
         "options": {
-            "buildTool":"maven",
+            "buildTool": "maven",
             "prefix": "DEV",
             "abandoned": true,
             "createJar": true
@@ -135,7 +135,7 @@
             "host-url": "https://sonarcloud.io"
         },
         "options": {
-            "buildTool":"maven",
+            "buildTool": "maven",
             "prefix": "DEV",
             "abandoned": true,
             "createJar": true
@@ -159,7 +159,7 @@
             "host-url": "https://sonarcloud.io"
         },
         "options": {
-            "buildTool":"maven",
+            "buildTool": "maven",
             "prefix": "DEV",
             "abandoned": false,
             "createJar": true
@@ -200,7 +200,7 @@
             "host-url": "https://sonarcloud.io"
         },
         "options": {
-            "buildTool":"maven",
+            "buildTool": "maven",
             "prefix": "DEV",
             "abandoned": false,
             "createJar": true
@@ -241,7 +241,7 @@
             "host-url": "https://sonarcloud.io"
         },
         "options": {
-            "buildTool":"maven",
+            "buildTool": "maven",
             "prefix": "DEV",
             "abandoned": false,
             "createJar": true
@@ -269,7 +269,7 @@
             "host-url": "https://sonarcloud.io"
         },
         "options": {
-            "buildTool":"maven",
+            "buildTool": "maven",
             "prefix": "DEV",
             "abandoned": false,
             "createJar": true
@@ -294,7 +294,7 @@
             "host-url": "https://sonarcloud.io"
         },
         "options": {
-            "buildTool":"maven",
+            "buildTool": "maven",
             "prefix": "DEV",
             "abandoned": false,
             "createJar": true
@@ -321,7 +321,7 @@
             "host-url": "https://sonarcloud.io"
         },
         "options": {
-            "buildTool":"maven",
+            "buildTool": "maven",
             "prefix": "DEV",
             "abandoned": false,
             "createJar": true
@@ -345,7 +345,7 @@
             "host-url": "https://sonarcloud.io"
         },
         "options": {
-            "buildTool":"maven",
+            "buildTool": "maven",
             "prefix": "DEV",
             "abandoned": false,
             "createJar": true
@@ -370,7 +370,7 @@
             "host-url": "https://sonarcloud.io"
         },
         "options": {
-            "buildTool":"maven",
+            "buildTool": "maven",
             "prefix": "DEV",
             "abandoned": false,
             "createJar": true
@@ -399,7 +399,7 @@
             "host-url": "https://sonarcloud.io"
         },
         "options": {
-            "buildTool":"maven",
+            "buildTool": "maven",
             "prefix": "DEV",
             "abandoned": false,
             "createJar": true
@@ -427,7 +427,7 @@
             "host-url": "https://sonarcloud.io"
         },
         "options": {
-            "buildTool":"maven",
+            "buildTool": "maven",
             "prefix": "DEV",
             "abandoned": true,
             "createJar": true
@@ -446,7 +446,7 @@
             "host-url": "https://sonarcloud.io"
         },
         "options": {
-            "buildTool":"maven",
+            "buildTool": "maven",
             "prefix": "DEV",
             "abandoned": true,
             "createJar": true
@@ -465,7 +465,7 @@
             "host-url": "https://sonarcloud.io"
         },
         "options": {
-            "buildTool":"maven",
+            "buildTool": "maven",
             "prefix": "DEV",
             "abandoned": false,
             "createJar": true
@@ -495,7 +495,7 @@
             "host-url": "https://sonarcloud.io"
         },
         "options": {
-            "buildTool":"maven",
+            "buildTool": "maven",
             "prefix": "DEV",
             "abandoned": true,
             "createJar": true
@@ -517,7 +517,7 @@
             "host-url": "https://sonarcloud.io"
         },
         "options": {
-            "buildTool":"maven",
+            "buildTool": "maven",
             "prefix": "DEV",
             "abandoned": false,
             "createJar": true
@@ -545,7 +545,7 @@
             "host-url": "https://sonarcloud.io"
         },
         "options": {
-            "buildTool":"maven",
+            "buildTool": "maven",
             "prefix": "DEV",
             "abandoned": false,
             "createJar": true
@@ -569,7 +569,7 @@
             "host-url": "https://sonarcloud.io"
         },
         "options": {
-            "buildTool":"maven",
+            "buildTool": "maven",
             "prefix": "DEV",
             "abandoned": false,
             "createJar": true
@@ -596,7 +596,7 @@
             "host-url": "https://sonarcloud.io"
         },
         "options": {
-            "buildTool":"maven",
+            "buildTool": "maven",
             "prefix": "DEV",
             "custom_directory": "TheBusyBiscuit/MobCapturer/master",
             "abandoned": false,
@@ -623,7 +623,7 @@
             "host-url": "https://sonarcloud.io"
         },
         "options": {
-            "buildTool":"maven",
+            "buildTool": "maven",
             "prefix": "DEV",
             "abandoned": false,
             "createJar": true
@@ -648,7 +648,7 @@
             "host-url": "https://sonarcloud.io"
         },
         "options": {
-            "buildTool":"maven",
+            "buildTool": "maven",
             "prefix": "DEV",
             "custom_directory": "J3fftw1/LiteXpansion/master",
             "abandoned": false,
@@ -675,7 +675,7 @@
             "host-url": "https://sonarcloud.io"
         },
         "options": {
-            "buildTool":"maven",
+            "buildTool": "maven",
             "prefix": "DEV",
             "custom_directory": "J3fftw1/SoundMuffler/master",
             "abandoned": false,
@@ -701,7 +701,7 @@
             "enabled": false
         },
         "options": {
-            "buildTool":"maven",
+            "buildTool": "maven",
             "prefix": "DEV",
             "abandoned": false,
             "createJar": true
@@ -723,7 +723,7 @@
             "enabled": false
         },
         "options": {
-            "buildTool":"maven",
+            "buildTool": "maven",
             "prefix": "DEV",
             "abandoned": false,
             "createJar": true
@@ -745,7 +745,7 @@
             "enabled": false
         },
         "options": {
-            "buildTool":"maven",
+            "buildTool": "maven",
             "prefix": "DEV",
             "abandoned": false,
             "createJar": true
@@ -769,7 +769,7 @@
             "enabled": false
         },
         "options": {
-            "buildTool":"maven",
+            "buildTool": "maven",
             "prefix": "DEV",
             "abandoned": true,
             "createJar": true
@@ -794,7 +794,7 @@
             "enabled": false
         },
         "options": {
-            "buildTool":"maven",
+            "buildTool": "maven",
             "prefix": "DEV",
             "abandoned": false,
             "createJar": true
@@ -816,7 +816,7 @@
             "enabled": false
         },
         "options": {
-            "buildTool":"maven",
+            "buildTool": "maven",
             "prefix": "DEV",
             "abandoned": false,
             "createJar": true
@@ -839,7 +839,7 @@
             "enabled": false
         },
         "options": {
-            "buildTool":"maven",
+            "buildTool": "maven",
             "prefix": "DEV",
             "abandoned": false,
             "createJar": true
@@ -860,7 +860,7 @@
             "enabled": false
         },
         "options": {
-            "buildTool":"maven",
+            "buildTool": "maven",
             "prefix": "DEV",
             "abandoned": false,
             "createJar": true
@@ -882,7 +882,7 @@
             "enabled": false
         },
         "options": {
-            "buildTool":"maven",
+            "buildTool": "maven",
             "prefix": "DEV",
             "abandoned": false,
             "createJar": true
@@ -904,7 +904,7 @@
             "enabled": false
         },
         "options": {
-            "buildTool":"maven",
+            "buildTool": "maven",
             "prefix": "DEV",
             "abandoned": false,
             "createJar": true
@@ -926,7 +926,7 @@
             "enabled": false
         },
         "options": {
-            "buildTool":"maven",
+            "buildTool": "maven",
             "prefix": "DEV",
             "abandoned": false,
             "createJar": true
@@ -945,7 +945,7 @@
             "enabled": false
         },
         "options": {
-            "buildTool":"maven",
+            "buildTool": "maven",
             "prefix": "DEV",
             "abandoned": false,
             "createJar": true
@@ -964,7 +964,7 @@
             "enabled": false
         },
         "options": {
-            "buildTool":"maven",
+            "buildTool": "maven",
             "prefix": "DEV",
             "abandoned": false,
             "createJar": true
@@ -986,7 +986,7 @@
             "enabled": false
         },
         "options": {
-            "buildTool":"maven",
+            "buildTool": "maven",
             "prefix": "DEV",
             "abandoned": false,
             "createJar": true
@@ -1008,7 +1008,7 @@
             "enabled": false
         },
         "options": {
-            "buildTool":"maven",
+            "buildTool": "maven",
             "prefix": "DEV",
             "abandoned": false,
             "createJar": true
@@ -1030,7 +1030,7 @@
             "enabled": false
         },
         "options": {
-            "buildTool":"maven",
+            "buildTool": "maven",
             "prefix": "DEV",
             "abandoned": false,
             "createJar": true
@@ -1052,7 +1052,7 @@
             "enabled": false
         },
         "options": {
-            "buildTool":"maven",
+            "buildTool": "maven",
             "prefix": "DEV",
             "abandoned": true,
             "createJar": false
@@ -1074,7 +1074,7 @@
             "enabled": false
         },
         "options": {
-            "buildTool":"maven",
+            "buildTool": "maven",
             "prefix": "DEV",
             "abandoned": false,
             "createJar": true
@@ -1088,13 +1088,12 @@
             }
         }
     },
-
     "John000708/SlimeXpansion:master": {
         "sonar": {
             "enabled": false
         },
         "options": {
-            "buildTool":"maven",
+            "buildTool": "maven",
             "prefix": "DEV",
             "abandoned": true,
             "createJar": false
@@ -1116,7 +1115,7 @@
             "enabled": false
         },
         "options": {
-            "buildTool":"maven",
+            "buildTool": "maven",
             "prefix": "DEV",
             "abandoned": false,
             "createJar": true
@@ -1142,7 +1141,7 @@
             "enabled": false
         },
         "options": {
-            "buildTool":"maven",
+            "buildTool": "maven",
             "prefix": "DEV",
             "abandoned": true,
             "createJar": true
@@ -1160,12 +1159,36 @@
                 "1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/Slimefun4/master/#73\">dev #73</a>"
             }
         }
-    }, "RobotHanzo/Addon-Template:gradle": {
+    },
+    "RobotHanzo/Addon-Template:gradle": {
         "sonar": {
             "enabled": false
         },
         "options": {
-            "buildTool":"gradle",
+            "buildTool": "gradle",
+            "prefix": "TEST",
+            "abandoned": false,
+            "createJar": true
+        },
+        "dependencies": {
+            "Minecraft Version(s)": {
+                "1": "1.14.x, 1.15.x, 1.16.x"
+            },
+            "CS-CoreLib Version": {
+                "1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/CS-CoreLib/master/#91\">dev #91 or higher</a>"
+            },
+            "Slimefun Version": {
+                "1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/Slimefun4/stable/#17\">RC-17 or higher</a>",
+                "6": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/Slimefun4/stable/#19\">RC-19 or higher</a>"
+            }
+        }
+    },
+    "RobotHanzo/Addon-Template:master": {
+        "sonar": {
+            "enabled": false
+        },
+        "options": {
+            "buildTool": "maven",
             "prefix": "TEST",
             "abandoned": false,
             "createJar": true
