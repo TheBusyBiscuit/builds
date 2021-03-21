@@ -48,7 +48,7 @@ function compile (job, logging, version) {
       shell: true
     })
 
-    log(logging, "-> Executing './gradlew build'")
+    log(logging, '-> Executing \'./gradlew build\'')
 
     const args = getGradleArguments(version)
     const compiler = process.spawn('./gradlew', args, {
@@ -83,8 +83,12 @@ function relocate (job) {
     cwd: path.resolve(__dirname, '../' + job.directory + '/files'),
     shell: true
   })
-  temp.childProcess.stdout.on('data', logger)
-  temp.childProcess.stderr.on('data', logger)
+  temp.childProcess.stdout.on('data', function (data) {
+    log(true, data, true)
+  })
+  temp.childProcess.stderr.on('data', function (data) {
+    log(true, data, true)
+  })
   return fs.rename(
     path.resolve(__dirname, '../' + job.directory + '/files/build/libs/' + job.repo + '-' + job.id + '.jar'),
     path.resolve(__dirname, '../' + job.directory + '/' + job.repo + '-' + job.id + '.jar')
