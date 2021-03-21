@@ -41,6 +41,13 @@ function compile (job, logging, version) {
       return
     }
 
+    log(logging, "-> Granting gradlew a+x permissions")
+
+    process.spawn(`chmod`, ['a+x','gradlew'], {
+      cwd: path.resolve(__dirname, '../' + job.directory + '/files'),
+      shell: true
+    })
+
     log(logging, "-> Executing './gradlew build'")
 
     const args = getGradleArguments(version)
