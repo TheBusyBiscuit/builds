@@ -40,7 +40,8 @@ function getProjects (logging) {
 
         if (json[repo].options) {
           job.options = json[repo].options
-          job.version = undefined
+          job.version = (job.options ? job.options.prefix : 'DEV') + ' - ' + job.id + ' (git ' + job.commit.sha.substr(0, 8) + ')'
+          log(logging, `Version: ${job.version}`)
           if (json[repo].options.custom_directory) {
             job.directory = json[repo].options.custom_directory
           }
