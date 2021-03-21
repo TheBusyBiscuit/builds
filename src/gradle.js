@@ -47,7 +47,7 @@ function setVersion (job, version) {
         const result = []
         let line
         for (line in content) {
-          if (!line.startsWith('version=')) {
+          if (!line.includes('version=')) {
             result.push(line)
           }
         }
