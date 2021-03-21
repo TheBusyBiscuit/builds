@@ -45,11 +45,11 @@ describe("Full Gradle System Test", function() {
     );
 
     it("passes stage 'update' (clone & setVersion)", () =>
-        assert.isFulfilled(system.update(job))
+        assert.isFulfilled(system.update(job, true))
     );
 
     it("passes stage 'compile' (compile)", () =>
-        system.compile(job).then(() => Promise.all([
+        system.compile(job, true).then(() => Promise.all([
             assert.exists(job.success),
             assert.isTrue(job.success),
             assert.isTrue(FileSystem.existsSync(path.resolve(__dirname, "../" + job.directory + "/files/target/" + job.repo + "-" + job.id + ".jar")))
@@ -57,7 +57,7 @@ describe("Full Gradle System Test", function() {
     );
 
     it("passes stage 'gatherResources' (getLicense & getTags & relocate)", () =>
-        system.gatherResources(job).then(() => Promise.all([
+        system.gatherResources(job, true).then(() => Promise.all([
             assert.exists(job.license),
             assert.isObject(job.license),
             assert.exists(job.tags),
@@ -96,7 +96,7 @@ describe("Full Gradle System Test", function() {
 
     it("can handle failed builds", () =>
         FileSystem.promises.writeFile(path.resolve(__dirname, "../" + job.directory + "/files/src/main/java/com/github/jitpack/App.java"), "This will not compile.", "utf8").then(() =>
-            system.compile(job).then(() => Promise.all([
+            system.compile(job, true).then(() => Promise.all([
                 assert.exists(job.success),
                 assert.isFalse(job.success)
             ]))
