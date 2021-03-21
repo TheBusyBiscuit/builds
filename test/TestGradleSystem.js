@@ -51,7 +51,7 @@ describe("Full Gradle System Test", function() {
         system.compile(job, true).then(() => Promise.all([
             assert.exists(job.success),
             assert.isTrue(job.success),
-            assert.isTrue(FileSystem.existsSync(path.resolve(__dirname, "../" + job.directory + "/files/target/" + job.repo + "-" + job.id + ".jar")))
+            assert.isTrue(FileSystem.existsSync(path.resolve(__dirname, '../' + job.directory + '/files/build/libs/' + job.repo + '-' + (job.options ? job.options.prefix : 'DEV') + ' - ' + job.id + ' (git ' + job.commit.sha.substr(0, 8) + ')' + '.jar')))
         ]))
     );
 
