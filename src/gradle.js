@@ -42,16 +42,16 @@ function setVersion (job, version) {
     const file = path.resolve(__dirname, '../' + job.directory + '/files/gradle.properties')
 
     fs.readFile(file, 'utf8').then((data) => {
-      let content = data.split('\n')
-      let result = []
+      const content = data.split('\n')
+      const result = []
       let line
-      for (line in content){
-        if (!line.startsWith('version=')){
+      for (line in content) {
+        if (!line.startsWith('version=')) {
           result.push(line)
         }
       }
       result.push(`\nversion="${version}"`)
-      fs.writeFile(file, result, 'utf8').then(resolve,reject)
+      fs.writeFile(file, result, 'utf8').then(resolve, reject)
     }, reject)
   })
 }
