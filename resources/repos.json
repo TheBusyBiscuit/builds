@@ -1160,7 +1160,7 @@
             }
         }
     },
-    "RobotHanzo/Addon-Template:master": {
+    "RobotHanzo/BusyBiscuitBuilderTestRepo:master": {
         "sonar": {
             "enabled": false
         },
@@ -1183,7 +1183,7 @@
             }
         }
     },
-    "RobotHanzo/Addon-Template:gradle": {
+    "RobotHanzo/BusyBiscuitBuilderTestRepo:gradle": {
         "sonar": {
             "enabled": false
         },
