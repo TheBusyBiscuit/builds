@@ -14,12 +14,11 @@ var job = {
     author: "jitpack",
     repo: "gradle-simple",
     branch: "master",
-    directory: "jitback/gradle-simple/master"
+    directory: "jitback/gradle-simple/master",
+    options: {buildTool: "gradle"}
 }
 
 describe("Full Gradle System Test", function() {
-    job.options = Object;
-    job.options.buildTool = 'gradle';
     this.timeout(60000);
 
     before(() => {
