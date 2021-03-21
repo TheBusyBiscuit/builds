@@ -79,7 +79,7 @@ function relocate (job) {
   if (!job.success) {
     return Promise.resolve()
   }
-  const temp = process.spawn(`dir build/libs`, [], {
+  const temp = process.spawn('dir build/libs', [], {
     cwd: path.resolve(__dirname, '../' + job.directory + '/files'),
     shell: true
   })
