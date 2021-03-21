@@ -2,6 +2,7 @@ const chai = require('chai')
 chai.use(require('chai-as-promised'))
 const { assert } = chai
 const FileSystem = require('fs')
+const path = require('path')
 const fs = FileSystem.promises
 
 const gradle = require('../src/gradle.js')
@@ -86,6 +87,6 @@ describe('Gradle Test', () => {
   })
 
   describe('Gradle Test: \'setVersion\'', () => {
-    testJobs(false, (fakeJob) => gradle.setVersion(fakeJob, "1"))
+    testJobs(false, (fakeJob) => gradle.setVersion(fakeJob, '1'))
   })
 })
