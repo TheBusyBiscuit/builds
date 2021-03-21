@@ -109,16 +109,6 @@ function relocate (job) {
   if (!job.success) {
     return Promise.resolve()
   }
-  const temp = process.spawn('dir build/libs', [], {
-    cwd: path.resolve(__dirname, '../' + job.directory + '/files'),
-    shell: true
-  })
-  temp.childProcess.stdout.on('data', function (data) {
-    log(true, data, true)
-  })
-  temp.childProcess.stderr.on('data', function (data) {
-    log(true, data, true)
-  })
   return fs.rename(
     path.resolve(__dirname, '../' + job.directory + '/files/build/libs/' + job.repo + '-' + (job.options ? job.options.prefix : 'DEV') + ' - ' + job.id + ' (git ' + job.commit.sha.substr(0, 8) + ')' + '.jar'),
     path.resolve(__dirname, '../' + job.directory + '/' + job.repo + '-' + job.id + '.jar')

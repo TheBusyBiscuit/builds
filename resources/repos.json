@@ -1159,51 +1159,5 @@
                 "1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/Slimefun4/master/#73\">dev #73</a>"
             }
         }
-    },
-    "RobotHanzo/BusyBiscuitBuilderTestRepo:master": {
-        "sonar": {
-            "enabled": false
-        },
-        "options": {
-            "buildTool": "maven",
-            "prefix": "TEST",
-            "abandoned": false,
-            "createJar": true
-        },
-        "dependencies": {
-            "Minecraft Version(s)": {
-                "1": "1.14.x, 1.15.x, 1.16.x"
-            },
-            "CS-CoreLib Version": {
-                "1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/CS-CoreLib/master/#91\">dev #91 or higher</a>"
-            },
-            "Slimefun Version": {
-                "1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/Slimefun4/stable/#17\">RC-17 or higher</a>",
-                "6": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/Slimefun4/stable/#19\">RC-19 or higher</a>"
-            }
-        }
-    },
-    "RobotHanzo/BusyBiscuitBuilderTestRepo:gradle": {
-        "sonar": {
-            "enabled": false
-        },
-        "options": {
-            "buildTool": "gradle",
-            "prefix": "TEST",
-            "abandoned": false,
-            "createJar": true
-        },
-        "dependencies": {
-            "Minecraft Version(s)": {
-                "1": "1.14.x, 1.15.x, 1.16.x"
-            },
-            "CS-CoreLib Version": {
-                "1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/CS-CoreLib/master/#91\">dev #91 or higher</a>"
-            },
-            "Slimefun Version": {
-                "1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/Slimefun4/stable/#17\">RC-17 or higher</a>",
-                "6": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/Slimefun4/stable/#19\">RC-19 or higher</a>"
-            }
-        }
     }
 }

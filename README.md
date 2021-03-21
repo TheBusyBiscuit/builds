@@ -26,7 +26,7 @@ After that it will proceed to step 2.<br>
 
 ### 2. Cloning
 After we established that our repository is out of date, this program will ```git clone``` said repository.<br>
-It will also locate it's `pom.xml` or `build.gradle` file and set the version to "DEV - $id (git $commit)".<br>
+It will also locate it's `pom.xml` or `gradle.properties` file and set the version to "DEV - $id (git $commit)".<br>
 
 ### 3. Compiling
 This is the easiest step, the program just runs ```mvn clean package -B``` to compile our Maven Project.<br>
@@ -63,7 +63,7 @@ Note that many of these guidelines are requirements of technical nature.
 
 1. They must be publicly available on GitHub and Open-Source.
 2. They must have a valid `LICENSE` file with a permissive Open-Source license (e.g. MIT, Apache or GNU GPL or similar).
-3. They must have a valid `pom.xml` or `build.gradle` file.
+3. They must have a valid `pom.xml` or `gradle.properties` file.
 4. They are not allowed to force auto-updates on people without providing an option to disable it.
 
 ### Example
@@ -78,7 +78,7 @@ Note that many of these guidelines are requirements of technical nature.
         "options": {
             // What the builds will be prefixed with. "DEV" would make builds like "CoolAddon - DEV 1 (githash)"
             "prefix": "DEV",
-            // What type of build tool will be used
+            // What type of build tool will be used, must be "maven" or "gradle"
             "buildTool": "maven"
         },
         // What your addon supports/depends on. The number key indicates the minium build.
