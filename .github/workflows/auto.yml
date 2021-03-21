@@ -3,6 +3,8 @@ name: TheBusyBot
 on:
   schedule:
   - cron: '*/10 * * * *'
+  workflow_dispatch:
+
 
 jobs:
   runner:
@@ -34,5 +36,5 @@ jobs:
     - name: Running builds program
       run: node src/single-run.js
       env:
-        JSON_CONFIG: ${{ secrets.JSON_CONFIG }}
+        #JSON_CONFIG: ${{ secrets.JSON_CONFIG }}
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
