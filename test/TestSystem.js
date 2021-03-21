@@ -18,10 +18,11 @@ var job = {
 }
 
 describe("Full Maven System Test", function() {
+    job.options = Object;
+    job.options.buildTool = 'maven';
     this.timeout(60000);
 
     before(() => {
-        job.options.buildTool = 'maven';
         global.status = {
             task: {},
             running: true

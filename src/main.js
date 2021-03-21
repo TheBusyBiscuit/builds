@@ -151,10 +151,10 @@ function update (job, logging) {
     github.clone(job, job.commit.sha, logging).then(() => {
       const name = (job.options ? job.options.prefix : 'DEV') + ' - ' + job.id + ' (git ' + job.commit.sha.substr(0, 8) + ')'
       log(logging, `-> Building using: ${job.options.buildTool}`)
-      if (job.options && job.options.buildTool === 'maven') {
+      if (job.options.buildTool === 'maven') {
         maven.setVersion(job, name, true).then(resolve, reject)
       }
-      if (job.options && job.options.buildTool === 'gradle') {
+      if (job.options.buildTool === 'gradle') {
         gradle.setVersion(job, name).then(resolve, reject)
       }
     }, reject)
@@ -234,14 +234,14 @@ function gatherResources (job, logging) {
   return new Promise((resolve, reject) => {
     log(logging, 'Gathering Resources: ' + job.author + '/' + job.repo + ':' + job.branch)
     let promises
-    if (job.options && job.options.buildTool === 'maven') {
+    if (job.options.buildTool === 'maven') {
       promises = [
         github.getLicense(job, logging),
         github.getTags(job, logging),
         maven.relocate(job)
       ]
     }
-    if (job.options && job.options.buildTool === 'gradle') {
+    if (job.options.buildTool === 'gradle') {
       promises = [
         github.getLicense(job, logging),
         github.getTags(job, logging),
