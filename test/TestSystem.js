@@ -17,10 +17,11 @@ var job = {
     directory: "jitpack/maven-simple/master"
 }
 
-describe("Full System Test", function() {
+describe("Full Maven System Test", function() {
     this.timeout(60000);
 
     before(() => {
+        job.options.buildTool = 'maven';
         global.status = {
             task: {},
             running: true
