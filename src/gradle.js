@@ -41,10 +41,10 @@ function compile (job, logging, version) {
       return
     }
 
-    log(logging, "-> Executing 'gradlew build'")
+    log(logging, "-> Executing './gradlew build'")
 
     const args = getGradleArguments(version)
-    const compiler = process.spawn(`${'../' + job.directory + '/files/'}gradlew`, args, {
+    const compiler = process.spawn(`./gradlew`, args, {
       cwd: path.resolve(__dirname, '../' + job.directory + '/files'),
       shell: true
     })
