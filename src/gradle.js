@@ -38,7 +38,7 @@ function setVersion (job, version) {
       reject(new Error('Invalid Job'))
       return
     }
-    const file = path.resolve(__dirname, '../' + job.directory + '/files/gradle.properties')
+    const file = path.resolve(__dirname, `../${job.directory}/files/gradle.properties`)
     if (!FileSystem.existsSync(file)) {
       fs.writeFile(file, '\nversion=' + version, 'utf8').then(resolve, reject)
     } else {
@@ -73,24 +73,24 @@ function compile (job, logging) {
       return
     }
 
-    log(logging, '-> Granting gradlew a+x permissions')
+    log(logging, '-> Granting gradlew +x permissions')
 
-    process.spawn('chmod', ['a+x', 'gradlew'], {
-      cwd: path.resolve(__dirname, '../' + job.directory + '/files'),
+    process.spawn('chmod', ['+x', 'gradlew'], {
+      cwd: path.resolve(__dirname, `../${job.directory}/files`),
       shell: true
     })
 
-    log(logging, '-> Executing \'./gradlew build\'')
+    log(logging, "-> Executing './gradlew build'")
 
     const args = getGradleArguments()
     const compiler = process.spawn('./gradlew', args, {
-      cwd: path.resolve(__dirname, '../' + job.directory + '/files'),
+      cwd: path.resolve(__dirname, `../${job.directory}/files'),
       shell: true
     })
 
     const logger = (data) => {
       log(logging, data, true)
-      fs.appendFile(path.resolve(__dirname, '../' + job.directory + '/' + job.repo + '-' + job.id + '.log'), data, 'UTF-8').catch(err => console.log(err))
+      fs.appendFile(path.resolve(__dirname, `../${job.directory}/${job.repo}-${job.id}.log`), data, 'utf8').catch(err => console.log(err))
     }
 
     compiler.childProcess.stdout.on('data', logger)
@@ -112,8 +112,8 @@ function relocate (job) {
     return Promise.resolve()
   }
   return fs.rename(
-    path.resolve(__dirname, '../' + job.directory + '/files/build/libs/' + job.repo + '-' + (job.options ? job.options.prefix : 'DEV') + ' - ' + job.id + ' (git ' + job.commit.sha.substr(0, 8) + ')' + '.jar'),
-    path.resolve(__dirname, '../' + job.directory + '/' + job.repo + '-' + job.id + '.jar')
+    path.resolve(__dirname, `../${job.directory}/files/build/libs/${job.repo}-${(job.options ? job.options.prefix : 'DEV')} - ${job.id} (git ${job.commit.sha.substr(0, 8)}).jar`),
+    path.resolve(__dirname, `../${job.directory}/${job.repo}-${job.id}.jar`)
   )
 }
 

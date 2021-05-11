@@ -150,11 +150,10 @@ function update (job, logging) {
 
     github.clone(job, job.commit.sha, logging).then(() => {
       const name = (job.options ? job.options.prefix : 'DEV') + ' - ' + job.id + ' (git ' + job.commit.sha.substr(0, 8) + ')'
-      log(logging, `-> Building using: ${job.options.buildTool}`)
-      if (job.options.buildTool === 'maven') {
+      log(logging, `-> Building using: ${job.options.buildTool ?? 'Maven'}`)
+      if (!job.options.buildTool || job.options.buildTool === 'maven') {
         maven.setVersion(job, name, true).then(resolve, reject)
-      }
-      if (job.options.buildTool === 'gradle') {
+      } else {
         gradle.setVersion(job, name).then(resolve, reject)
       }
     }, reject)
@@ -182,8 +181,8 @@ function compile (job, logging) {
   updateStatus(job, 'Compiling')
 
   return new Promise((resolve) => {
-    if (job.options.buildTool === 'maven') {
-      log(logging, 'Compiling using Maven: ' + job.author + '/' + job.repo + ':' + job.branch + ' (' + job.id + ')')
+    if (!job.options.buildTool || job.options.buildTool === 'maven') {
+      log(logging, `Compiling using Maven: ${job.author}/${job.repo}:${job.branch} (${job.id})`)
 
       maven.compile(job, cfg, logging)
         .then(() => {
@@ -195,9 +194,8 @@ function compile (job, logging) {
           job.success = false
           resolve()
         })
-    }
-    if (job.options.buildTool === 'gradle') {
-      log(logging, 'Compiling using Gradle: ' + job.author + '/' + job.repo + ':' + job.branch + ' (' + job.id + ')')
+    } else {
+      log(logging, `Compiling using Gradle: ${job.author}/${job.repo}:${job.branch} (${job.id})`)
       gradle.compile(job, logging)
         .then(() => {
           job.success = true
@@ -233,20 +231,14 @@ function gatherResources (job, logging) {
 
   return new Promise((resolve, reject) => {
     log(logging, 'Gathering Resources: ' + job.author + '/' + job.repo + ':' + job.branch)
-    let promises
+    const promises = [
+      github.getLicense(job, logging),
+      github.getTags(job, logging)
+    ]
     if (job.options.buildTool === 'maven') {
-      promises = [
-        github.getLicense(job, logging),
-        github.getTags(job, logging),
-        maven.relocate(job)
-      ]
-    }
-    if (job.options.buildTool === 'gradle') {
-      promises = [
-        github.getLicense(job, logging),
-        github.getTags(job, logging),
-        gradle.relocate(job)
-      ]
+      promises.push(maven.relocate(job))
+    } else {
+      promises.push(gradle.relocate(job))
     }
     Promise.all(promises).then((values) => {
       const license = values[0]
