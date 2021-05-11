@@ -233,12 +233,12 @@ function gatherResources (job, logging) {
     log(logging, 'Gathering Resources: ' + job.author + '/' + job.repo + ':' + job.branch)
     const promises = [
       github.getLicense(job, logging),
-      github.getTags(job, logging),
-    ];
+      github.getTags(job, logging)
+    ]
     if (job.options.buildTool === 'maven') {
-      promises.push(maven.relocate(job));
+      promises.push(maven.relocate(job))
     } else {
-      promises.push(gradle.relocate(job));
+      promises.push(gradle.relocate(job))
     }
     Promise.all(promises).then((values) => {
       const license = values[0]
