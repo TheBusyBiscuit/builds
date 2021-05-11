@@ -1,8 +1,7 @@
 const process = require('child-process-promise')
 const lodash = require('lodash/lang')
 
-const FileSystem = require('fs')
-const fs = FileSystem.promises
+const fs = require('fs/promises')
 const path = require('path')
 
 const log = require('../src/logger.js')
@@ -84,7 +83,7 @@ function compile (job, logging) {
 
     const args = getGradleArguments()
     const compiler = process.spawn('./gradlew', args, {
-      cwd: path.resolve(__dirname, `../${job.directory}/files'),
+      cwd: path.resolve(__dirname, `../${job.directory}/files`),
       shell: true
     })
 
