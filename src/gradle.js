@@ -90,7 +90,7 @@ function compile (job, logging) {
 
     const logger = (data) => {
       log(logging, data, true)
-      fs.appendFile(path.resolve(__dirname, '../' + job.directory + '/' + job.repo + '-' + job.id + '.log'), data, 'UTF-8').catch(err => console.log(err))
+      fs.appendFile(path.resolve(__dirname, `../${job.directory}/${job.repo}-${job.id}.log`), data, 'utf8').catch(err => console.log(err))
     }
 
     compiler.childProcess.stdout.on('data', logger)
