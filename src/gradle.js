@@ -38,7 +38,7 @@ function setVersion (job, version) {
       reject(new Error('Invalid Job'))
       return
     }
-    const file = path.resolve(__dirname, '../' + job.directory + '/files/gradle.properties')
+    const file = path.resolve(__dirname, `../${job.directory}/files/gradle.properties`)
     if (!FileSystem.existsSync(file)) {
       fs.writeFile(file, '\nversion=' + version, 'utf8').then(resolve, reject)
     } else {
