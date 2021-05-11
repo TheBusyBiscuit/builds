@@ -153,8 +153,7 @@ function update (job, logging) {
       log(logging, `-> Building using: ${job.options.buildTool ?? 'Maven'}`)
       if (job.options.buildTool === 'maven') {
         maven.setVersion(job, name, true).then(resolve, reject)
-      }
-      if (job.options.buildTool === 'gradle') {
+      } else {
         gradle.setVersion(job, name).then(resolve, reject)
       }
     }, reject)
