@@ -183,7 +183,7 @@ function compile (job, logging) {
 
   return new Promise((resolve) => {
     if (!job.options.buildTool || job.options.buildTool === 'maven') {
-      log(logging, 'Compiling using Maven: ' + job.author + '/' + job.repo + ':' + job.branch + ' (' + job.id + ')')
+      log(logging, `Compiling using Maven: ${job.author}/${job.repo}:${job.branch} (${job.id})`)
 
       maven.compile(job, cfg, logging)
         .then(() => {
