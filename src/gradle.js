@@ -125,7 +125,5 @@ function relocate (job) {
  */
 function isValid (job) {
   if (!projects.isValid(job)) return false
-  if (!lodash.isInteger(job.id)) return false
-
-  return true
+  return lodash.isInteger(job.id);
 }
