@@ -197,7 +197,7 @@ function compile (job, logging) {
         })
     }
     if (job.options.buildTool === 'gradle') {
-      log(logging, 'Compiling using Gradle: ' + job.author + '/' + job.repo + ':' + job.branch + ' (' + job.id + ')')
+      log(logging, `Compiling using Gradle: ${job.author}/${job.repo}:${job.branch} (${job.id})`)
       gradle.compile(job, logging)
         .then(() => {
           job.success = true
