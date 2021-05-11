@@ -76,7 +76,7 @@ function compile (job, logging) {
     log(logging, '-> Granting gradlew +x permissions')
 
     process.spawn('chmod', ['+x', 'gradlew'], {
-      cwd: path.resolve(__dirname, '../' + job.directory + '/files'),
+      cwd: path.resolve(__dirname, `../${job.directory}/files`),
       shell: true
     })
 
