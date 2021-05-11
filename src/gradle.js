@@ -1,7 +1,7 @@
 const process = require('child-process-promise')
 const lodash = require('lodash/lang')
 
-const fs = require('fs/promises')
+const fs = require('fs/promises').promises
 const path = require('path')
 
 const log = require('../src/logger.js')
