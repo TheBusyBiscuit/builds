@@ -80,7 +80,7 @@ function compile (job, logging) {
       shell: true
     })
 
-    log(logging, '-> Executing \'./gradlew build\'')
+    log(logging, "-> Executing './gradlew build'")
 
     const args = getGradleArguments()
     const compiler = process.spawn('./gradlew', args, {
