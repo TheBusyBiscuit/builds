@@ -1,0 +1,53 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------------< io.github.mooy1:SimpleUtils >---------------------
+[INFO] Building SimpleUtils DEV - 8 (git 1505dfa3)
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/github/TheBusyBiscuit/Slimefun4/c29d0e5/Slimefun4-c29d0e5.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/github/TheBusyBiscuit/Slimefun4/c29d0e5/Slimefun4-c29d0e5.pom
+[INFO] Downloaded from jitpack.io: https://jitpack.io/com/github/TheBusyBiscuit/Slimefun4/c29d0e5/Slimefun4-c29d0e5.pom (13 kB at 61 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/io/github/mooy1/InfinityLib/d6dbf58/InfinityLib-d6dbf58.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/io/github/mooy1/InfinityLib/d6dbf58/InfinityLib-d6dbf58.pom
+[INFO] Downloaded from jitpack.io: https://jitpack.io/io/github/mooy1/InfinityLib/d6dbf58/InfinityLib-d6dbf58.pom (4.5 kB at 64 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/github/TheBusyBiscuit/Slimefun4/c29d0e5/Slimefun4-c29d0e5.jar
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/io/github/mooy1/InfinityLib/d6dbf58/InfinityLib-d6dbf58.jar
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/github/TheBusyBiscuit/Slimefun4/c29d0e5/Slimefun4-c29d0e5.jar
+[INFO] Downloading from jitpack.io: https://jitpack.io/io/github/mooy1/InfinityLib/d6dbf58/InfinityLib-d6dbf58.jar
+[INFO] Downloaded from jitpack.io: https://jitpack.io/io/github/mooy1/InfinityLib/d6dbf58/InfinityLib-d6dbf58.jar (82 kB at 345 kB/s)
+[INFO] Downloaded from jitpack.io: https://jitpack.io/com/github/TheBusyBiscuit/Slimefun4/c29d0e5/Slimefun4-c29d0e5.jar (4.2 MB at 12 MB/s)
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ SimpleUtils ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ SimpleUtils ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ SimpleUtils ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 8 source files to /home/runner/work/builds/builds/Mooy1/SimpleUtils/master/files/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ SimpleUtils ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/runner/work/builds/builds/Mooy1/SimpleUtils/master/files/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ SimpleUtils ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ SimpleUtils ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ SimpleUtils ---
+[INFO] Building jar: /home/runner/work/builds/builds/Mooy1/SimpleUtils/master/files/target/SimpleUtils-8.jar
+[INFO] 
+[INFO] --- maven-shade-plugin:3.1.0:shade (default) @ SimpleUtils ---
+[INFO] Including io.github.mooy1:InfinityLib:jar:d6dbf58 in the shaded jar.
+[INFO] Replacing original artifact with shaded artifact.
+[INFO] Replacing /home/runner/work/builds/builds/Mooy1/SimpleUtils/master/files/target/SimpleUtils-8.jar with /home/runner/work/builds/builds/Mooy1/SimpleUtils/master/files/target/SimpleUtils-DEV - 8 (git 1505dfa3)-shaded.jar
+[INFO] Dependency-reduced POM written at: /home/runner/work/builds/builds/Mooy1/SimpleUtils/master/files/dependency-reduced-pom.xml
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  4.928 s
+[INFO] Finished at: 2021-05-08T17:47:34Z
+[INFO] ------------------------------------------------------------------------

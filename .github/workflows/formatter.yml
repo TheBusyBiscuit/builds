@@ -27,7 +27,7 @@ jobs:
     - name: Run Auto Formatter
       run: npm run formatter
     - name: Auto Commit
-      uses: stefanzweifel/git-auto-commit-action@v4.9.2
+      uses: stefanzweifel/git-auto-commit-action@v4.11.0
       with: 
         commit_message: "Auto-Formatter"
         branch: ${{ github.ref }}
