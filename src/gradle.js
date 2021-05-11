@@ -84,7 +84,7 @@ function compile (job, logging) {
 
     const args = getGradleArguments()
     const compiler = process.spawn('./gradlew', args, {
-      cwd: path.resolve(__dirname, '../' + job.directory + '/files'),
+      cwd: path.resolve(__dirname, `../${job.directory}/files'),
       shell: true
     })
 
