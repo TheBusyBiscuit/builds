@@ -150,7 +150,7 @@ function update (job, logging) {
 
     github.clone(job, job.commit.sha, logging).then(() => {
       const name = (job.options ? job.options.prefix : 'DEV') + ' - ' + job.id + ' (git ' + job.commit.sha.substr(0, 8) + ')'
-      log(logging, `-> Building using: ${job.options.buildTool ?? 'Maven'}`)
+      log(logging, `-> Building using: ${job.options.buildTool === null ? 'maven' : job.options.buildTool}`)
       if (!job.options.buildTool || job.options.buildTool === 'maven') {
         maven.setVersion(job, name, true).then(resolve, reject)
       } else {
