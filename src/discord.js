@@ -1,6 +1,7 @@
 const Discord = require('discord.js')
 const lodash = require('lodash/collection')
 const projects = require('../src/projects.js')
+const log = require('../src/logger.js')
 
 module.exports = cfg => {
   let config = cfg
@@ -55,7 +56,11 @@ module.exports = cfg => {
 function sendUpdate (webhook, job, cfg) {
   return new Promise((resolve, reject) => {
     // Check if the discord webhook was enabled
+
+    log(true, 'Preparing Discord webhook...')
+
     if (!cfg.isEnabled()) {
+      log(true, '-> Webhook disabled.')
       resolve()
     }
 
@@ -71,6 +76,8 @@ function sendUpdate (webhook, job, cfg) {
       .replace(/<repo>/g, job.repo)
       .replace(/<branch>/g, job.branch)
       .replace(/<id>/g, job.id)
+
+    log(true, '-> Sent webhook.')
 
     // Sendm it via our webhook
     webhook.send(new Discord.RichEmbed()
