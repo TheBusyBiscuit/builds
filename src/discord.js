@@ -1,7 +1,7 @@
 const lodash = require('lodash/collection')
 const projects = require('../src/projects.js')
 const log = require('../src/logger.js')
-const {MessageEmbed, WebhookClient} = require('discord.js')
+const { MessageEmbed, WebhookClient } = require('discord.js')
 
 module.exports = cfg => {
   let config = cfg
@@ -71,13 +71,13 @@ function sendUpdate (webhook, job, cfg) {
     }
 
     // Select a random message and apply variables
-    let message = lodash.sample(cfg.getMessages(job.success))
+    const message = lodash.sample(cfg.getMessages(job.success))
       .replace(/<user>/g, job.author)
       .replace(/<repo>/g, job.repo)
       .replace(/<branch>/g, job.branch)
       .replace(/<id>/g, job.id)
 
-    let embed = new MessageEmbed()
+    const embed = new MessageEmbed()
       .setTitle(job.author + '/' + job.repo + ':' + job.branch + ' ( #' + job.id + ' )')
       .setColor(job.success ? 0X00FF00 : 0XFF0000)
       .setDescription(message)
