@@ -1,7 +1,7 @@
-const Discord = require('discord.js')
 const lodash = require('lodash/collection')
 const projects = require('../src/projects.js')
 const log = require('../src/logger.js')
+const {MessageEmbed, WebhookClient} = require('discord.js')
 
 module.exports = cfg => {
   let config = cfg
@@ -12,7 +12,7 @@ module.exports = cfg => {
 
   if (config) {
     if (config.isEnabled()) {
-      webhook = new Discord.WebhookClient(config.getID(), config.getToken())
+      webhook = new WebhookClient(config.getID(), config.getToken())
     }
   } else {
     config = {
@@ -71,21 +71,21 @@ function sendUpdate (webhook, job, cfg) {
     }
 
     // Select a random message and apply variables
-    const message = lodash.sample(cfg.getMessages(job.success))
+    let message = lodash.sample(cfg.getMessages(job.success))
       .replace(/<user>/g, job.author)
       .replace(/<repo>/g, job.repo)
       .replace(/<branch>/g, job.branch)
       .replace(/<id>/g, job.id)
 
-    log(true, '-> Sent webhook.')
-
-    // Sendm it via our webhook
-    webhook.send(new Discord.RichEmbed()
+    let embed = new MessageEmbed()
       .setTitle(job.author + '/' + job.repo + ':' + job.branch + ' ( #' + job.id + ' )')
       .setColor(job.success ? 0X00FF00 : 0XFF0000)
       .setDescription(message)
       .setURL('https://thebusybiscuit.github.io/builds/' + job.directory + '#' + job.id)
       .setTimestamp(Date.now())
-    ).then(resolve, reject)
+
+    // Send the embed via our webhook
+    log(true, '-> Sent via webhook.')
+    webhook.send(embed).then(resolve, reject)
   })
 }
