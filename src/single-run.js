@@ -3,4 +3,7 @@ global.status = {
   running: true
 }
 
-require('./main.js').start(true).then(() => console.log('Run completed.'))
+require('./main.js').start(true).then(() => {
+  console.log('Run completed.')
+  require('why-is-node-running')();
+})
