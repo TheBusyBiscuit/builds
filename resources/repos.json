@@ -679,6 +679,10 @@
             "Slimefun Version": {
                 "5": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/Slimefun4/stable/#16\">RC-16</a>",
                 "1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/Slimefun4/stable/#15\">RC-15</a>"
+            },
+            "Java Version": {
+                "1": "8",
+                "22": "11"
             }
         }
     },
@@ -714,10 +718,33 @@
         },
         "dependencies": {
             "Minecraft Version(s)": {
-                "1": "1.14.x, 1.15.x, 1.16.x"
+                "1": "1.14.x, 1.15.x, 1.16.x",
+                "32": "1.16.x"
             },
             "Slimefun Version": {
-                "1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/Slimefun4/stable/#17\">RC-17 or higher</a>"
+                "1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/Slimefun4/stable/#17\">RC-17 or higher</a>",
+                "25": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/Slimefun4/master/#840\">DEV 840 or higher</a>"
+            }
+        }
+    },
+    "Seggan/EMC2:master": {
+        "sonar": {
+            "enabled": false
+        },
+        "options": {
+            "prefix": "DEV",
+            "abandoned": false,
+            "createJar": true
+        },
+        "dependencies": {
+            "Minecraft Version(s)": {
+                "1": "1.16.x"
+            },
+            "Slimefun Version": {
+                "1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/Slimefun4/master/#880\">DEV 880 or higher</a>"
+            },
+            "Java Version": {
+                "1": "11"
             }
         }
     },
