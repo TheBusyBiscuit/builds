@@ -26,8 +26,7 @@
         "lodash": "^4.17.19",
         "request": "^2.88.0",
         "request-promise-native": "^1.0.7",
-        "xml-library": "0.2.0",
-        "why-is-node-running": "2.2.0"
+        "xml-library": "0.2.0"
     },
     "devDependencies": {
         "chai": "4.3.4",
