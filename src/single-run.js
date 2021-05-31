@@ -3,4 +3,4 @@ global.status = {
   running: true
 }
 
-require('./main.js').start(true)
+require('./main.js').start(true).then(() => console.log("Run completed."))

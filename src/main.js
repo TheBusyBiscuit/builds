@@ -54,7 +54,7 @@ function start (logging) {
           resolve()
         } else {
           log(logging, '')
-          log(logging, 'Watching: ' + jobs[i].author + '/' + jobs[i].repo + ':' + jobs[i].branch + ` (${i + 1} / ${jobs.length} )`)
+          log(logging, 'Watching: ' + jobs[i].author + '/' + jobs[i].repo + ':' + jobs[i].branch + ` (${i + 1} / ${jobs.length})`)
 
           const job = jobs[i]
 
