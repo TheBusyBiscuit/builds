@@ -1099,7 +1099,7 @@
     },
     "Sefiraat/Simple-Storage:master": {
         "sonar": {
-            "enabled": true
+            "enabled": false
         },
         "options": {
             "prefix": "DEV",
