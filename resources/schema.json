@@ -34,7 +34,7 @@
         },
         "options": {
           "type": "object",
-          "required": ["prefix"],
+          "required": ["prefix", "buildTool"],
           "additionalProperties": false,
 
           "properties": {
@@ -49,6 +49,9 @@
             },
             "createJar": {
               "type": "boolean"
+            },
+            "buildTool": {
+              "type": "string"
             }
           }
         },

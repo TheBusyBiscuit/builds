@@ -1,8 +1,8 @@
-# Maven Builds Server
+# Maven and Gradle Builds Server
 This is the repository of the backend for my builds-page.
 The page can be found here: https://thebusybiscuit.github.io/builds/
 
-This kinda serves as a "Continous Integration/Deployment" Service for Maven Projects which utilises static GitHub Pages.
+This kinda serves as a "Continous Integration/Deployment" Service for Maven and Gradle Projects which utilises static GitHub Pages.
 
 # Status
 [![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=TheBusyBiscuit_builds&metric=sqale_rating)](https://sonarcloud.io/dashboard?id=TheBusyBiscuit_builds)
@@ -26,10 +26,11 @@ After that it will proceed to step 2.<br>
 
 ### 2. Cloning
 After we established that our repository is out of date, this program will ```git clone``` said repository.<br>
-It will also locate it's pom.xml file and set the version to "DEV - $id (git $commit)".<br>
+It will also locate it's `pom.xml` or `gradle.properties` file and set the version to "DEV - $id (git $commit)".<br>
 
 ### 3. Compiling
 This is the easiest step, the program just runs ```mvn clean package -B``` to compile our Maven Project.<br>
+If a Gradle project is detected, the program runs ```gradlew build``` to compile our Gradle Project.<br>
 It will also catch the state (Success / Failure).<br>
 If you enabled Sonar-Integration for this project, then it will also run a sonar-scan on the repository.<br>
 
@@ -62,7 +63,7 @@ Note that many of these guidelines are requirements of technical nature.
 
 1. They must be publicly available on GitHub and Open-Source.
 2. They must have a valid `LICENSE` file with a permissive Open-Source license (e.g. MIT, Apache or GNU GPL or similar).
-3. They must have a valid `pom.xml` file.
+3. They must have a valid `pom.xml` or `gradle.properties` file.
 4. They are not allowed to force auto-updates on people without providing an option to disable it.
 
 ### Example
@@ -73,10 +74,12 @@ Note that many of these guidelines are requirements of technical nature.
         // Some repositories support the usage of sonar-scanner, custom repositories cannot have this feature though (yet)
         "sonar": {
             "enabled": false
-        },
-        // What the builds will be prefixed with. "DEV" would make builds like "CoolAddon - DEV 1 (githash)"
+        },        
         "options": {
-            "prefix": "DEV"
+            // What the builds will be prefixed with. "DEV" would make builds like "CoolAddon - DEV 1 (githash)"
+            "prefix": "DEV",
+            // What type of build tool will be used, must be "maven" or "gradle"
+            "buildTool": "maven"
         },
         // What your addon supports/depends on. The number key indicates the minium build.
         // You can list any text or even links here.
