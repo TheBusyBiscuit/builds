@@ -170,7 +170,7 @@
                 "6": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/CS-CoreLib/master/#36\">dev #36</a>",
                 "5": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/CS-CoreLib/master/#23\">dev #23</a>",
                 "2": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/CS-CoreLib/master/#13\">1.5.18</a>",
-                "2": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/CS-CoreLib/master/#1\">1.5.16</a>"
+                "1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/CS-CoreLib/master/#1\">1.5.16</a>"
             },
             "Slimefun Version": {
                 "55": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/Slimefun4/master/#584\">dev #584</a> or later",
@@ -899,7 +899,7 @@
                 "1": "1.16.x"
             },
             "Slimefun Version": {
-                "1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/Slimefun4/master/#825\">dev #825</a>"
+                "1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/Slimefun4/master/#950\">dev #950</a>"
             }
         }
     },
@@ -1072,7 +1072,7 @@
         },
         "options": {
             "prefix": "DEV",
-            "abandoned": false,
+            "abandoned": true,
             "createJar": true
         },
         "dependencies": {
