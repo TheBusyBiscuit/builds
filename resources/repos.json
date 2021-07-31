@@ -14,6 +14,7 @@
         },
         "dependencies": {
             "Minecraft Version(s)": {
+                "936": "1.14.x, 1.15.x, 1.16.x, 1.17.x",
                 "724": "1.14.x, 1.15.x, 1.16.x",
                 "560": "1.13.x, 1.14.x, 1.15.x, 1.16.x",
                 "490": "1.13.x, 1.14.x, 1.15.x",
@@ -48,6 +49,7 @@
         },
         "dependencies": {
             "Minecraft Version(s)": {
+                "25": "1.14.x, 1.15.x, 1.16.x, 1.17.x",
                 "18": "1.14.x, 1.15.x, 1.16.x",
                 "14": "1.13.x, 1.14.x, 1.15.x, 1.16.x",
                 "11": "1.13.x, 1.14.x, 1.15.x",
@@ -896,7 +898,7 @@
         },
         "dependencies": {
             "Minecraft Version(s)": {
-                "1": "1.16.x"
+                "1": "1.16.x, 1.17.x"
             },
             "Slimefun Version": {
                 "1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/Slimefun4/master/#950\">dev #950</a>"
@@ -914,7 +916,7 @@
         },
         "dependencies": {
             "Minecraft Version(s)": {
-                "1": "1.16.x"
+                "1": "1.16.x, 1.17.x"
             },
             "Slimefun Version": {
                 "1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/Slimefun4/master/#825\">dev #825</a>"
