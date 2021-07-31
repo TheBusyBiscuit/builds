@@ -207,12 +207,6 @@
                 "3": "1.13.x",
                 "1": "1.10.x, 1.11.x, 1.12.x"
             },
-            "CS-CoreLib Version": {
-                "5": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/CS-CoreLib/master/#44\">1.6</a>",
-                "4": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/CS-CoreLib/master/#36\">dev #36</a>",
-                "3": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/CS-CoreLib/master/#31\">dev #31</a>",
-                "1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/CS-CoreLib/master/#1\">1.5.16</a>"
-            },
             "Slimefun Version": {
                 "33": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/Slimefun4/master/#584\">dev #584</a> or later",
                 "32": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/Slimefun4/master/#542\">dev #542</a>",
@@ -368,10 +362,6 @@
                 "7": "1.14.x, 1.15.x, 1.16.x",
                 "1": "1.13.x, 1.14.x, 1.15.x"
             },
-            "CS-CoreLib Version": {
-                "7": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/CS-CoreLib/master/#79\">dev #79</a>",
-                "1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/CS-CoreLib/master/#44\">1.6</a>"
-            },
             "Slimefun Version": {
                 "9": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/Slimefun4/master/#439\">dev #439</a> or later",
                 "7": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/Slimefun4/master/#380\">dev #380</a>",
@@ -395,10 +385,6 @@
             "Minecraft Version(s)": {
                 "4": "1.14.x, 1.15.x, 1.16.x",
                 "1": "1.13.x, 1.14.x, 1.15.x"
-            },
-            "CS-CoreLib Version": {
-                "4": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/CS-CoreLib/master/#79\">dev #79</a>",
-                "1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/CS-CoreLib/master/#44\">1.6</a>"
             },
             "Slimefun Version": {
                 "4": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/Slimefun4/master/#439\">dev #439</a> or later",
@@ -459,10 +445,6 @@
                 "17": "1.14.x, 1.15.x, 1.16.x",
                 "1": "1.14.x, 1.15.x"
             },
-            "CS-CoreLib Version": {
-                "6": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/CS-CoreLib/master/#79\">dev #79</a>",
-                "1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/CS-CoreLib/master/#44\">1.6</a>"
-            },
             "Slimefun Version": {
                 "17": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/Slimefun4/master/#584\">dev #584</a> or later",
                 "10": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/Slimefun4/master/#439\">dev #439</a>",
@@ -507,9 +489,6 @@
         "dependencies": {
             "Minecraft Version(s)": {
                 "1": "1.14.x, 1.15.x, 1.16.x"
-            },
-            "CS-CoreLib Version": {
-                "1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/CS-CoreLib/master/#44\">1.6</a>"
             },
             "Slimefun Version": {
                 "9": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/Slimefun4/master/#542\">dev #542</a> or later",
@@ -558,9 +537,6 @@
             "Minecraft Version(s)": {
                 "1": "1.14.x, 1.15.x, 1.16.x"
             },
-            "CS-CoreLib Version": {
-                "1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/CS-CoreLib/master/#79\">dev #79</a>"
-            },
             "Slimefun Version": {
                 "10": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/Slimefun4/master/#475\">dev #475</a> or later",
                 "7": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/Slimefun4/master/#439\">dev #439</a>",
@@ -585,9 +561,6 @@
             "Minecraft Version(s)": {
                 "1": "1.15.x, 1.16.x"
             },
-            "CS-CoreLib Version": {
-                "1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/CS-CoreLib/master/#79\">dev #79</a>"
-            },
             "Slimefun Version": {
                 "10": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/Slimefun4/master/#600\">dev #600</a> or later",
                 "1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/Slimefun4/master/#439\">dev #439</a>"
@@ -610,9 +583,6 @@
             "Minecraft Version(s)": {
                 "1": "1.14.x, 1.15.x, 1.16.x"
             },
-            "CS-CoreLib Version": {
-                "1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/CS-CoreLib/master/#79\">dev #79</a>"
-            },
             "Slimefun Version": {
                 "1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/Slimefun4/master/#610\">dev #610</a> or later"
             }
@@ -633,10 +603,7 @@
         },
         "dependencies": {
             "Minecraft Version(s)": {
-                "1": "1.14.x, 1.15.x, 1.16.x"
-            },
-            "CS-CoreLib Version": {
-                "1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/CS-CoreLib/master/#79\">dev #79</a>"
+                "1": "1.14+"
             },
             "Slimefun Version": {
                 "31": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/Slimefun4/master/#511\">dev #511</a>",
@@ -659,10 +626,7 @@
         },
         "dependencies": {
             "Minecraft Version(s)": {
-                "1": "1.14.x, 1.15.x, 1.16.x"
-            },
-            "CS-CoreLib Version": {
-                "1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/CS-CoreLib/master/#79\">dev #79</a>"
+                "1": "1.14+"
             },
             "Slimefun Version": {
                 "1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/Slimefun4/master/#397\">dev #397</a>"
@@ -685,9 +649,6 @@
             "Minecraft Version(s)": {
                 "1": "1.14.x, 1.15.x"
             },
-            "CS-CoreLib Version": {
-                "1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/CS-CoreLib/master/#83\">dev #83</a>"
-            },
             "Slimefun Version": {
                 "1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/Slimefun4/master/#476\">dev #476</a>"
             }
@@ -705,9 +666,6 @@
         "dependencies": {
             "Minecraft Version(s)": {
                 "1": "1.14.x, 1.15.x"
-            },
-            "CS-CoreLib Version": {
-                "1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/CS-CoreLib/master/#83\">dev #83</a>"
             },
             "Slimefun Version": {
                 "1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/Slimefun4/master/#478\">dev #478</a>"
@@ -727,13 +685,13 @@
             "Minecraft Version(s)": {
                 "1": "1.15.x, 1.16.x"
             },
-            "CS-CoreLib Version": {
-                "5": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/CS-CoreLib/master/#90\">dev #90</a>",
-                "1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/CS-CoreLib/master/#79\">dev #79</a>"
-            },
             "Slimefun Version": {
                 "5": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/Slimefun4/stable/#16\">RC-16</a>",
                 "1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/Slimefun4/stable/#15\">RC-15</a>"
+            },
+            "Java Version": {
+                "1": "8",
+                "22": "11"
             }
         }
     },
@@ -749,9 +707,6 @@
         "dependencies": {
             "Minecraft Version(s)": {
                 "1": "1.15.x, 1.16.x"
-            },
-            "CS-CoreLib Version": {
-                "1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/CS-CoreLib/master/#90\">dev #90 or higher</a>"
             },
             "Slimefun Version": {
                 "1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/Slimefun4/stable/#16\">RC-16 or higher</a>"
@@ -772,13 +727,33 @@
         },
         "dependencies": {
             "Minecraft Version(s)": {
-                "1": "1.14.x, 1.15.x, 1.16.x"
-            },
-            "CS-CoreLib Version": {
-                "1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/CS-CoreLib/master/#91\">dev #91 or higher</a>"
+                "1": "1.14.x, 1.15.x, 1.16.x",
+                "32": "1.16.x"
             },
             "Slimefun Version": {
-                "1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/Slimefun4/stable/#17\">RC-17 or higher</a>"
+                "1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/Slimefun4/stable/#17\">RC-17 or higher</a>",
+                "25": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/Slimefun4/master/#840\">DEV 840 or higher</a>"
+            }
+        }
+    },
+    "Seggan/EMC2:master": {
+        "sonar": {
+            "enabled": false
+        },
+        "options": {
+            "prefix": "DEV",
+            "abandoned": false,
+            "createJar": true
+        },
+        "dependencies": {
+            "Minecraft Version(s)": {
+                "1": "1.16.x"
+            },
+            "Slimefun Version": {
+                "1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/Slimefun4/master/#880\">DEV 880 or higher</a>"
+            },
+            "Java Version": {
+                "1": "11"
             }
         }
     },
@@ -794,9 +769,6 @@
         "dependencies": {
             "Minecraft Version(s)": {
                 "1": "1.14.x, 1.15.x, 1.16.x"
-            },
-            "CS-CoreLib Version": {
-                "1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/CS-CoreLib/master/#91\">dev #91 or higher</a>"
             },
             "Slimefun Version": {
                 "1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/Slimefun4/stable/#17\">RC-17 or higher</a>",
@@ -837,9 +809,6 @@
             "Minecraft Version(s)": {
                 "1": "1.16.x"
             },
-            "CS-CoreLib Version": {
-                "1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/CS-CoreLib/master/#91\">dev #91</a>"
-            },
             "Slimefun Version": {
                 "1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/Slimefun4/master/#683\">dev #683</a>"
             }
@@ -858,9 +827,6 @@
             "Minecraft Version(s)": {
                 "1": "1.14.x, 1.15.x, 1.16.x"
             },
-            "CS-CoreLib Version": {
-                "1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/CS-CoreLib/master/#92\">dev #92</a>"
-            },
             "Slimefun Version": {
                 "1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/Slimefun4/master/#769\">dev #769</a>"
             }
@@ -878,9 +844,6 @@
         "dependencies": {
             "Minecraft Version(s)": {
                 "1": "1.14.x, 1.15.x, 1.16.x"
-            },
-            "CS-CoreLib Version": {
-                "1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/CS-CoreLib/master/#92\">dev #92</a>"
             },
             "Slimefun Version": {
                 "1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/Slimefun4/master/#769\">dev #769</a>"
@@ -936,9 +899,6 @@
             "Minecraft Version(s)": {
                 "1": "1.16.x"
             },
-            "CS-CoreLib Version": {
-                "1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/CS-CoreLib/master/#91\">dev #91</a>"
-            },
             "Slimefun Version": {
                 "1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/Slimefun4/master/#683\">dev #683</a>"
             }
@@ -957,9 +917,6 @@
             "Minecraft Version(s)": {
                 "1": "1.14.x, 1.15.x, 1.16.x"
             },
-            "CS-CoreLib Version": {
-                "1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/CS-CoreLib/master/#91\">dev #91</a>"
-            },
             "Slimefun Version": {
                 "1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/Slimefun4/master/#772\">dev #772</a>"
             }
@@ -977,9 +934,6 @@
         "dependencies": {
             "Minecraft Version(s)": {
                 "1": "1.14.x, 1.15.x, 1.16.x"
-            },
-            "CS-CoreLib Version": {
-                "1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/CS-CoreLib/master/#92\">dev #92</a>"
             },
             "Slimefun Version": {
                 "1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/Slimefun4/stable/#18\">RC-18</a>"
@@ -1004,6 +958,24 @@
             },
             "Server Software": {
                 "1": "<a class=\"link_info\" href=\"https://papermc.io/downloads\">Paper 1.16</a>"
+            }
+        }
+    },
+    "waleks647/SMG:master": {
+        "sonar": {
+            "enabled": false
+        },
+        "options": {
+            "prefix": "DEV",
+            "abandoned": false,
+            "createJar": true
+        },
+        "dependencies": {
+            "Minecraft Version(s)": {
+                "1": "1.16.x"
+            },
+            "Slimefun Version": {
+                "1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/Slimefun4/stable/#21\">RC-21</a>"
             }
         }
     },
@@ -1039,7 +1011,7 @@
         },
         "dependencies": {
             "Minecraft Version(s)": {
-                "1": "1.14.x - 1.16.x"
+                "1": "1.14+"
             },
             "Slimefun Version": {
                 "1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/Slimefun4/master/#\">dev #778</a>"
@@ -1113,6 +1085,96 @@
             "Slimefun Version": {
                 "10": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/Slimefun4/master/#439\">dev #439</a>",
                 "1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/Slimefun4/master/#73\">dev #73</a>"
+            }
+        }
+    },
+    "Apeiros-46B/AlchimiaVitae:master": {
+        "sonar": {
+            "enabled": false
+        },
+        "options": {
+            "prefix": "DEV",
+            "abandoned": false,
+            "createJar": true
+        },
+        "dependencies": {
+            "Minecraft Version(s)": {
+                "1": "1.16.x"
+            },
+            "Slimefun Version": {
+                "1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/Slimefun4/stable/#23\">RC-23</a>"
+            }
+        }
+    },
+    "Sefiraat/Simple-Storage:master": {
+        "sonar": {
+            "enabled": false
+        },
+        "options": {
+            "prefix": "DEV",
+            "abandoned": false,
+            "createJar": true
+        },
+        "dependencies": {
+            "Minecraft Version(s)": {
+                "1": "1.16.x"
+            },
+            "Slimefun Version": {
+                "1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/Slimefun4/master/#925\">dev #925</a>"
+            }
+        }
+    },
+    "Sefiraat/SlimeTinker:master": {
+        "sonar": {
+            "enabled": false
+        },
+        "options": {
+            "prefix": "DEV",
+            "abandoned": false,
+            "createJar": true
+        },
+        "dependencies": {
+            "Minecraft Version(s)": {
+                "1": "1.16.x"
+            },
+            "Slimefun Version": {
+                "1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/Slimefun4/master/#925\">dev #925</a>"
+            }
+        }
+    },
+    "WalshyDev/SFMobDrops:main": {
+        "sonar": {
+            "enabled": false
+        },
+        "options": {
+            "prefix": "DEV",
+            "abandoned": false,
+            "createJar": true
+        },
+        "dependencies": {
+            "Minecraft Version(s)": {
+                "1": "1.14.x, 1.15.x, 1.16.x, 1.17.x"
+            },
+            "Slimefun Version": {
+                "1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/Slimefun4/master/#880\">DEV #880 / RC #22</a>"
+            }
+        }
+    },
+    "EpicPlayerA10/PotionExpansion:master": {
+        "sonar": {
+            "enabled": false
+        },
+        "options": {
+            "prefix": "DEV",
+            "abandoned": false,
+            "createJar": true
+        },
+        "dependencies": {
+            "Minecraft Version(s)": {
+                "1": "1.14.x, 1.15.x, 1.16.x, 1.17.x"
+            },
+            "Slimefun Version": {
+                "1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/Slimefun4/stable/#26\">RC-26 or higher</a>"
             }
         }
     }

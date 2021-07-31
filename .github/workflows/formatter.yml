@@ -19,7 +19,7 @@ jobs:
       with:
         ref: gh-pages
     - name: Setting up node.js
-      uses: actions/setup-node@v2.1.5
+      uses: actions/setup-node@v2.3.0
       with:
         node-version: '12'
     - name: Installing dependencies
@@ -27,7 +27,7 @@ jobs:
     - name: Run Auto Formatter
       run: npm run formatter
     - name: Auto Commit
-      uses: stefanzweifel/git-auto-commit-action@v4.9.2
+      uses: stefanzweifel/git-auto-commit-action@v4.11.0
       with: 
         commit_message: "Auto-Formatter"
         branch: ${{ github.ref }}

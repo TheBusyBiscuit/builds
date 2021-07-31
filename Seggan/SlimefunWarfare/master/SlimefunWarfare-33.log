@@ -1,0 +1,49 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------< io.github.seggan.slimefunwarfare:SlimefunWarfare >----------
+[INFO] Building SlimefunWarfare DEV - 33 (git d0fa13c2)
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] Downloading from jittpack: https://jitpack.io/com/github/TheBusyBiscuit/Slimefun4/RC-22/Slimefun4-RC-22.pom
+[INFO] Downloaded from jittpack: https://jitpack.io/com/github/TheBusyBiscuit/Slimefun4/RC-22/Slimefun4-RC-22.pom (13 kB at 27 kB/s)
+[INFO] Downloading from jittpack: https://jitpack.io/io/github/mooy1/InfinityLib/88207a6/InfinityLib-88207a6.pom
+[INFO] Downloaded from jittpack: https://jitpack.io/io/github/mooy1/InfinityLib/88207a6/InfinityLib-88207a6.pom (4.5 kB at 49 kB/s)
+[INFO] Downloading from jittpack: https://jitpack.io/com/github/TheBusyBiscuit/Slimefun4/RC-22/Slimefun4-RC-22.jar
+[INFO] Downloading from jittpack: https://jitpack.io/io/github/mooy1/InfinityLib/88207a6/InfinityLib-88207a6.jar
+[INFO] Downloaded from jittpack: https://jitpack.io/io/github/mooy1/InfinityLib/88207a6/InfinityLib-88207a6.jar (79 kB at 449 kB/s)
+[INFO] Downloaded from jittpack: https://jitpack.io/com/github/TheBusyBiscuit/Slimefun4/RC-22/Slimefun4-RC-22.jar (4.2 MB at 11 MB/s)
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ SlimefunWarfare ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ SlimefunWarfare ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ SlimefunWarfare ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 40 source files to /home/runner/work/builds/builds/Seggan/SlimefunWarfare/master/files/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ SlimefunWarfare ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/runner/work/builds/builds/Seggan/SlimefunWarfare/master/files/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ SlimefunWarfare ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ SlimefunWarfare ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ SlimefunWarfare ---
+[INFO] Building jar: /home/runner/work/builds/builds/Seggan/SlimefunWarfare/master/files/target/SlimefunWarfare-33.jar
+[INFO] 
+[INFO] --- maven-shade-plugin:3.2.4:shade (default) @ SlimefunWarfare ---
+[INFO] Including io.github.mooy1:InfinityLib:jar:88207a6 in the shaded jar.
+[INFO] Including com.google.code.findbugs:jsr305:jar:3.0.2 in the shaded jar.
+[INFO] Replacing original artifact with shaded artifact.
+[INFO] Replacing /home/runner/work/builds/builds/Seggan/SlimefunWarfare/master/files/target/SlimefunWarfare-33.jar with /home/runner/work/builds/builds/Seggan/SlimefunWarfare/master/files/target/SlimefunWarfare-DEV - 33 (git d0fa13c2)-shaded.jar
+[INFO] Dependency-reduced POM written at: /home/runner/work/builds/builds/Seggan/SlimefunWarfare/master/files/dependency-reduced-pom.xml
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  5.636 s
+[INFO] Finished at: 2021-05-15T14:38:45Z
+[INFO] ------------------------------------------------------------------------

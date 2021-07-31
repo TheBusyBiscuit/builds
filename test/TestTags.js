@@ -11,7 +11,7 @@ module.exports = (assert, github) => {
                 author: "TheBusyBiscuit",
                 repo: "GitHubWebAPI4Java",
                 branch: "master",
-				directory: "TheBusyBiscuit/GitHubWebAPI4Java/master"
+                directory: "TheBusyBiscuit/GitHubWebAPI4Java/master"
             }
 
             return github.getTags(job).then((tags) => Promise.all([
@@ -24,12 +24,12 @@ module.exports = (assert, github) => {
             ]));
         });
 
-        it("should resolve with an empty Array for 'TheBusyBiscuit/Slimecraft' (No Tags)", () => {
+        it("should resolve with an empty Array for 'TheBusyBiscuit/TheBusyBiscuit:main' (No Tags)", () => {
             var job = {
                 author: "TheBusyBiscuit",
-                repo: "Slimecraft",
-                branch: "master",
-				directory: "TheBusyBiscuit/Slimecraft/master"
+                repo: "TheBusyBiscuit",
+                branch: "main",
+                directory: "TheBusyBiscuit/TheBusyBiscuit/main"
             }
 
             return github.getTags(job).then((tags) => {
@@ -45,7 +45,7 @@ module.exports = (assert, github) => {
                 author: "TheBusyBiscuit",
                 repo: "____",
                 branch: "master",
-				directory: "TheBusyBiscuit/____/master"
+                directory: "TheBusyBiscuit/____/master"
             }
 
             return assert.isRejected(github.getTags(job));
