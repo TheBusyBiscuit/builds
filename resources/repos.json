@@ -167,13 +167,6 @@
                 "4": "1.12.x, 1.13.x",
                 "1": "1.10.x, 1.11.x, 1.12.x"
             },
-            "CS-CoreLib Version": {
-                "13": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/CS-CoreLib/master/#51\">1.6.1</a>",
-                "6": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/CS-CoreLib/master/#36\">dev #36</a>",
-                "5": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/CS-CoreLib/master/#23\">dev #23</a>",
-                "2": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/CS-CoreLib/master/#13\">1.5.18</a>",
-                "1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/CS-CoreLib/master/#1\">1.5.16</a>"
-            },
             "Slimefun Version": {
                 "55": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/Slimefun4/master/#584\">dev #584</a> or later",
                 "52": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/Slimefun4/master/#542\">dev #542</a>",
