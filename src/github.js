@@ -85,7 +85,7 @@ function getLatestCommit (job, cfg, logging) {
     request(url).then((json) => {
       log(logging, '-> commits: 200 - OK')
       resolve(json[0])
-    }, reject)
+    }).catch(reject)
   })
 }
 
@@ -143,7 +143,7 @@ function getJSON (job, cfg, logging, endpoint, resolve, reject) {
     } else {
       resolve(json)
     }
-  }, reject)
+  }).catch(reject)
 }
 
 /**
@@ -163,7 +163,7 @@ function exists (job, cfg) {
     const url = getURL(job, cfg, '')
     url.json = true
 
-    request(url).then(resolve, reject)
+    request(url).then(resolve).catch(reject)
   })
 }
 

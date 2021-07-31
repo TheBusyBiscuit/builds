@@ -50,10 +50,11 @@ function start (logging) {
         i++
 
         if (!global.status.running || i >= jobs.length) {
+          log(logging, 'Finished!')
           resolve()
         } else {
           log(logging, '')
-          log(logging, 'Watching: ' + jobs[i].author + '/' + jobs[i].repo + ':' + jobs[i].branch)
+          log(logging, 'Watching: ' + jobs[i].author + '/' + jobs[i].repo + ':' + jobs[i].branch + ` (${i + 1} / ${jobs.length})`)
 
           const job = jobs[i]
 
@@ -256,6 +257,7 @@ function upload (job, logging) {
   }
 
   global.status.task[job.author + '/' + job.repo + '/' + job.branch] = 'Preparing Upload'
+
   return new Promise((resolve, reject) => {
     const promises = [
       projects.addBuild(job, logging),

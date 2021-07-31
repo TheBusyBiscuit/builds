@@ -1,0 +1,418 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------------< com.github.slimefun:Slimefun >--------------------
+[INFO] Building Slimefun RC - 24 (git 588bc490)
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ Slimefun ---
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.7:prepare-agent (prepare) @ Slimefun ---
+[INFO] argLine set to -javaagent:/home/runner/.m2/repository/org/jacoco/org.jacoco.agent/0.8.7/org.jacoco.agent-0.8.7-runtime.jar=destfile=/home/runner/work/builds/builds/TheBusyBiscuit/Slimefun4/stable/files/target/jacoco.exec
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ Slimefun ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 239 resources
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ Slimefun ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 525 source files to /home/runner/work/builds/builds/TheBusyBiscuit/Slimefun4/stable/files/target/classes
+[INFO] /home/runner/work/builds/builds/TheBusyBiscuit/Slimefun4/stable/files/src/main/java/io/github/thebusybiscuit/slimefun4/implementation/items/cargo/TrashCan.java: Some input files use or override a deprecated API.
+[INFO] /home/runner/work/builds/builds/TheBusyBiscuit/Slimefun4/stable/files/src/main/java/io/github/thebusybiscuit/slimefun4/implementation/items/cargo/TrashCan.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ Slimefun ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/runner/work/builds/builds/TheBusyBiscuit/Slimefun4/stable/files/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ Slimefun ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 96 source files to /home/runner/work/builds/builds/TheBusyBiscuit/Slimefun4/stable/files/target/test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:3.0.0-M5:test (default-test) @ Slimefun ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running io.github.thebusybiscuit.slimefun4.testing.tests.items.TestDamageableItem
+Jun 03, 2021 5:18:57 PM org.bukkit.plugin.java.JavaPluginLoader <init>
+WARNING: Could not initialize LibraryLoader (missing dependencies?)
+[17:18:58 SEVERE]: [Slimefun] Failed to create AutoUpdater
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.683 s - in io.github.thebusybiscuit.slimefun4.testing.tests.items.TestDamageableItem
+[INFO] Running io.github.thebusybiscuit.slimefun4.testing.tests.items.food.TestDietCookie
+[17:18:59 WARNING]: Could not initialize LibraryLoader (missing dependencies?)
+[17:18:59 SEVERE]: [Slimefun] Failed to create AutoUpdater
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.06 s - in io.github.thebusybiscuit.slimefun4.testing.tests.items.food.TestDietCookie
+[INFO] Running io.github.thebusybiscuit.slimefun4.testing.tests.items.food.TestMeatJerky
+[17:18:59 WARNING]: Could not initialize LibraryLoader (missing dependencies?)
+[17:18:59 SEVERE]: [Slimefun] Failed to create AutoUpdater
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.035 s - in io.github.thebusybiscuit.slimefun4.testing.tests.items.food.TestMeatJerky
+[INFO] Running io.github.thebusybiscuit.slimefun4.testing.tests.items.food.TestMonsterJerky
+[17:18:59 WARNING]: Could not initialize LibraryLoader (missing dependencies?)
+[17:18:59 SEVERE]: [Slimefun] Failed to create AutoUpdater
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.038 s - in io.github.thebusybiscuit.slimefun4.testing.tests.items.food.TestMonsterJerky
+[INFO] Running io.github.thebusybiscuit.slimefun4.testing.tests.items.autocrafters.TestAutoCrafter
+[17:18:59 WARNING]: Could not initialize LibraryLoader (missing dependencies?)
+[17:18:59 SEVERE]: [Slimefun] Failed to create AutoUpdater
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.055 s - in io.github.thebusybiscuit.slimefun4.testing.tests.items.autocrafters.TestAutoCrafter
+[INFO] Running io.github.thebusybiscuit.slimefun4.testing.tests.items.autocrafters.TestAbstractRecipe
+[17:18:59 WARNING]: Could not initialize LibraryLoader (missing dependencies?)
+[17:18:59 SEVERE]: [Slimefun] Failed to create AutoUpdater
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.032 s - in io.github.thebusybiscuit.slimefun4.testing.tests.items.autocrafters.TestAbstractRecipe
+[INFO] Running io.github.thebusybiscuit.slimefun4.testing.tests.items.backpacks.TestEnderBackpack
+[17:18:59 WARNING]: Could not initialize LibraryLoader (missing dependencies?)
+[17:18:59 SEVERE]: [Slimefun] Failed to create AutoUpdater
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.038 s - in io.github.thebusybiscuit.slimefun4.testing.tests.items.backpacks.TestEnderBackpack
+[INFO] Running io.github.thebusybiscuit.slimefun4.testing.tests.items.tools.TestPortableDustbin
+[17:18:59 WARNING]: Could not initialize LibraryLoader (missing dependencies?)
+[17:18:59 SEVERE]: [Slimefun] Failed to create AutoUpdater
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.029 s - in io.github.thebusybiscuit.slimefun4.testing.tests.items.tools.TestPortableDustbin
+[INFO] Running io.github.thebusybiscuit.slimefun4.testing.tests.items.tools.TestTapeMeasure
+[17:18:59 WARNING]: Could not initialize LibraryLoader (missing dependencies?)
+[17:18:59 SEVERE]: [Slimefun] Failed to create AutoUpdater
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.055 s - in io.github.thebusybiscuit.slimefun4.testing.tests.items.tools.TestTapeMeasure
+[INFO] Running io.github.thebusybiscuit.slimefun4.testing.tests.items.tools.TestClimbingPick
+[17:18:59 WARNING]: Could not initialize LibraryLoader (missing dependencies?)
+[17:18:59 SEVERE]: [Slimefun] Failed to create AutoUpdater
+[INFO] Tests run: 56, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.322 s - in io.github.thebusybiscuit.slimefun4.testing.tests.items.tools.TestClimbingPick
+[INFO] Running io.github.thebusybiscuit.slimefun4.testing.tests.items.TestSlimefunItem
+[17:18:59 WARNING]: Could not initialize LibraryLoader (missing dependencies?)
+[17:18:59 SEVERE]: [Slimefun] Failed to create AutoUpdater
+[INFO] Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.077 s - in io.github.thebusybiscuit.slimefun4.testing.tests.items.TestSlimefunItem
+[INFO] Running io.github.thebusybiscuit.slimefun4.testing.tests.items.TestRadioactiveItem
+[17:19:00 WARNING]: Could not initialize LibraryLoader (missing dependencies?)
+[17:19:00 SEVERE]: [Slimefun] Failed to create AutoUpdater
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.034 s - in io.github.thebusybiscuit.slimefun4.testing.tests.items.TestRadioactiveItem
+[INFO] Running io.github.thebusybiscuit.slimefun4.testing.tests.profiles.TestAsyncProfileLoadEvent
+[17:19:00 WARNING]: Could not initialize LibraryLoader (missing dependencies?)
+[17:19:00 SEVERE]: [Slimefun] Failed to create AutoUpdater
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.029 s - in io.github.thebusybiscuit.slimefun4.testing.tests.profiles.TestAsyncProfileLoadEvent
+[INFO] Running io.github.thebusybiscuit.slimefun4.testing.tests.profiles.TestPlayerBackpacks
+[17:19:00 WARNING]: Could not initialize LibraryLoader (missing dependencies?)
+[17:19:00 SEVERE]: [Slimefun] Failed to create AutoUpdater
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.042 s - in io.github.thebusybiscuit.slimefun4.testing.tests.profiles.TestPlayerBackpacks
+[INFO] Running io.github.thebusybiscuit.slimefun4.testing.tests.profiles.TestGuideHistory
+[17:19:00 WARNING]: Could not initialize LibraryLoader (missing dependencies?)
+[17:19:00 SEVERE]: [Slimefun] Failed to create AutoUpdater
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.055 s - in io.github.thebusybiscuit.slimefun4.testing.tests.profiles.TestGuideHistory
+[INFO] Running io.github.thebusybiscuit.slimefun4.testing.tests.profiles.TestPlayerProfile
+[17:19:00 WARNING]: Could not initialize LibraryLoader (missing dependencies?)
+[17:19:00 SEVERE]: [Slimefun] Failed to create AutoUpdater
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.046 s - in io.github.thebusybiscuit.slimefun4.testing.tests.profiles.TestPlayerProfile
+[INFO] Running io.github.thebusybiscuit.slimefun4.testing.tests.gps.TestWaypoints
+[17:19:00 WARNING]: Could not initialize LibraryLoader (missing dependencies?)
+[17:19:00 SEVERE]: [Slimefun] Failed to create AutoUpdater
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.034 s - in io.github.thebusybiscuit.slimefun4.testing.tests.gps.TestWaypoints
+[INFO] Running io.github.thebusybiscuit.slimefun4.testing.tests.multiblocks.TestMultiBlocks
+[17:19:00 WARNING]: Could not initialize LibraryLoader (missing dependencies?)
+[17:19:00 SEVERE]: [Slimefun] Failed to create AutoUpdater
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.034 s - in io.github.thebusybiscuit.slimefun4.testing.tests.multiblocks.TestMultiBlocks
+[INFO] Running io.github.thebusybiscuit.slimefun4.testing.tests.services.TestBlockDataService
+[17:19:00 WARNING]: Could not initialize LibraryLoader (missing dependencies?)
+[17:19:00 SEVERE]: [Slimefun] Failed to create AutoUpdater
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.021 s - in io.github.thebusybiscuit.slimefun4.testing.tests.services.TestBlockDataService
+[INFO] Running io.github.thebusybiscuit.slimefun4.testing.tests.services.TestRecipeService
+[17:19:00 WARNING]: Could not initialize LibraryLoader (missing dependencies?)
+[17:19:00 SEVERE]: [Slimefun] Failed to create AutoUpdater
+[17:19:00 INFO]: [Slimefun] Collecting Snapshots of all Recipes...
+[17:19:00 INFO]: [Slimefun] Found 0 Recipes!
+[17:19:00 INFO]: [Slimefun] Collecting Snapshots of all Recipes...
+[17:19:00 INFO]: [Slimefun] Found 1 Recipes!
+[17:19:00 INFO]: [Slimefun] Collecting Snapshots of all Recipes...
+[17:19:00 INFO]: [Slimefun] Found 1 Recipes!
+[17:19:00 INFO]: [Slimefun] Collecting Snapshots of all Recipes...
+[17:19:00 INFO]: [Slimefun] Found 2 Recipes!
+[17:19:00 INFO]: [Slimefun] Collecting Snapshots of all Recipes...
+[17:19:00 INFO]: [Slimefun] Found 3 Recipes!
+[17:19:00 INFO]: [Slimefun] Collecting Snapshots of all Recipes...
+[17:19:00 INFO]: [Slimefun] Found 4 Recipes!
+[17:19:00 INFO]: [Slimefun] Collecting Snapshots of all Recipes...
+[17:19:00 INFO]: [Slimefun] Found 5 Recipes!
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.056 s - in io.github.thebusybiscuit.slimefun4.testing.tests.services.TestRecipeService
+[INFO] Running io.github.thebusybiscuit.slimefun4.testing.tests.services.TestItemDataService
+[17:19:00 WARNING]: Could not initialize LibraryLoader (missing dependencies?)
+[17:19:00 SEVERE]: [Slimefun] Failed to create AutoUpdater
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.018 s - in io.github.thebusybiscuit.slimefun4.testing.tests.services.TestItemDataService
+[INFO] Running io.github.thebusybiscuit.slimefun4.testing.tests.services.TestUpdaterService
+[17:19:00 WARNING]: Could not initialize LibraryLoader (missing dependencies?)
+[17:19:00 SEVERE]: [Slimefun] Failed to create AutoUpdater
+[17:19:00 SEVERE]: [Slimefun] Failed to create AutoUpdater
+[17:19:00 SEVERE]: [Slimefun] Failed to create AutoUpdater
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.022 s - in io.github.thebusybiscuit.slimefun4.testing.tests.services.TestUpdaterService
+[INFO] Running io.github.thebusybiscuit.slimefun4.testing.tests.services.TestPermissionsService
+[17:19:00 WARNING]: Could not initialize LibraryLoader (missing dependencies?)
+[17:19:00 SEVERE]: [Slimefun] Failed to create AutoUpdater
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.033 s - in io.github.thebusybiscuit.slimefun4.testing.tests.services.TestPermissionsService
+[INFO] Running io.github.thebusybiscuit.slimefun4.testing.tests.registration.TestItemSetup
+[17:19:00 WARNING]: Could not initialize LibraryLoader (missing dependencies?)
+[17:19:00 SEVERE]: [Slimefun] Failed to create AutoUpdater
+[17:19:00 INFO]: [Slimefun] Loading Wiki pages...
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.407 s - in io.github.thebusybiscuit.slimefun4.testing.tests.registration.TestItemSetup
+[INFO] Running io.github.thebusybiscuit.slimefun4.testing.tests.registration.TestSlimefunItemRegistration
+[17:19:00 WARNING]: Could not initialize LibraryLoader (missing dependencies?)
+[17:19:00 SEVERE]: [Slimefun] Failed to create AutoUpdater
+[17:19:00 SEVERE]: [Slimefun] Item "DUPLICATE_ID" from Slimefun vRC - 24 (git 588bc490) has caused an Error!
+[17:19:00 SEVERE]: [Slimefun] You can report it here: https://github.com/Slimefun/Slimefun4/issues
+[17:19:00 SEVERE]: [Slimefun] Registering MockSlimefunItem - 'DUPLICATE_ID' (Slimefun vRC - 24 (git 588bc490)) has failed!
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.018 s - in io.github.thebusybiscuit.slimefun4.testing.tests.registration.TestSlimefunItemRegistration
+[INFO] Running io.github.thebusybiscuit.slimefun4.testing.tests.registration.TestCategories
+[17:19:00 WARNING]: Could not initialize LibraryLoader (missing dependencies?)
+[17:19:00 SEVERE]: [Slimefun] Failed to create AutoUpdater
+[17:19:00 INFO]: [Slimefun] Parent "slimefun:unregistered" for Category "slimefun:locked" was not found, probably just disabled.
+[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.02 s - in io.github.thebusybiscuit.slimefun4.testing.tests.registration.TestCategories
+[INFO] Running io.github.thebusybiscuit.slimefun4.testing.tests.registration.TestRechargeableItems
+[17:19:00 WARNING]: Could not initialize LibraryLoader (missing dependencies?)
+[17:19:00 SEVERE]: [Slimefun] Failed to create AutoUpdater
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.019 s - in io.github.thebusybiscuit.slimefun4.testing.tests.registration.TestRechargeableItems
+[INFO] Running io.github.thebusybiscuit.slimefun4.testing.tests.registration.TestItemHandlers
+[17:19:00 WARNING]: Could not initialize LibraryLoader (missing dependencies?)
+[17:19:01 SEVERE]: [Slimefun] Failed to create AutoUpdater
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 s - in io.github.thebusybiscuit.slimefun4.testing.tests.registration.TestItemHandlers
+[INFO] Running io.github.thebusybiscuit.slimefun4.testing.tests.tasks.TestArmorTask
+[17:19:01 WARNING]: Could not initialize LibraryLoader (missing dependencies?)
+[17:19:01 SEVERE]: [Slimefun] Failed to create AutoUpdater
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.027 s - in io.github.thebusybiscuit.slimefun4.testing.tests.tasks.TestArmorTask
+[INFO] Running io.github.thebusybiscuit.slimefun4.testing.tests.utils.TestLoreComparison
+[17:19:01 WARNING]: Could not initialize LibraryLoader (missing dependencies?)
+[17:19:01 SEVERE]: [Slimefun] Failed to create AutoUpdater
+[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 s - in io.github.thebusybiscuit.slimefun4.testing.tests.utils.TestLoreComparison
+[INFO] Running io.github.thebusybiscuit.slimefun4.testing.tests.utils.TestChatUtils
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in io.github.thebusybiscuit.slimefun4.testing.tests.utils.TestChatUtils
+[INFO] Running io.github.thebusybiscuit.slimefun4.testing.tests.utils.TestChargeUtils
+[17:19:01 WARNING]: Could not initialize LibraryLoader (missing dependencies?)
+[17:19:01 SEVERE]: [Slimefun] Failed to create AutoUpdater
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 s - in io.github.thebusybiscuit.slimefun4.testing.tests.utils.TestChargeUtils
+[INFO] Running io.github.thebusybiscuit.slimefun4.testing.tests.utils.TestItemStackWrapper
+[17:19:01 WARNING]: Could not initialize LibraryLoader (missing dependencies?)
+[17:19:01 SEVERE]: [Slimefun] Failed to create AutoUpdater
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 s - in io.github.thebusybiscuit.slimefun4.testing.tests.utils.TestItemStackWrapper
+[INFO] Running io.github.thebusybiscuit.slimefun4.testing.tests.utils.TestNumberUtils
+[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in io.github.thebusybiscuit.slimefun4.testing.tests.utils.TestNumberUtils
+[INFO] Running io.github.thebusybiscuit.slimefun4.testing.tests.utils.TestHeadTextures
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in io.github.thebusybiscuit.slimefun4.testing.tests.utils.TestHeadTextures
+[INFO] Running io.github.thebusybiscuit.slimefun4.testing.tests.utils.TestInfiniteBlockGenerators
+[17:19:01 WARNING]: Could not initialize LibraryLoader (missing dependencies?)
+[17:19:01 SEVERE]: [Slimefun] Failed to create AutoUpdater
+[INFO] Tests run: 31, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.05 s - in io.github.thebusybiscuit.slimefun4.testing.tests.utils.TestInfiniteBlockGenerators
+[INFO] Running io.github.thebusybiscuit.slimefun4.testing.tests.utils.TestMinecraftVersion
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in io.github.thebusybiscuit.slimefun4.testing.tests.utils.TestMinecraftVersion
+[INFO] Running io.github.thebusybiscuit.slimefun4.testing.tests.utils.TestWikiResource
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in io.github.thebusybiscuit.slimefun4.testing.tests.utils.TestWikiResource
+[INFO] Running io.github.thebusybiscuit.slimefun4.testing.tests.utils.TestFireworkUtils
+[17:19:01 WARNING]: Could not initialize LibraryLoader (missing dependencies?)
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s - in io.github.thebusybiscuit.slimefun4.testing.tests.utils.TestFireworkUtils
+[INFO] Running io.github.thebusybiscuit.slimefun4.testing.tests.utils.TestSoulboundItem
+[17:19:01 WARNING]: Could not initialize LibraryLoader (missing dependencies?)
+[17:19:01 SEVERE]: [Slimefun] Failed to create AutoUpdater
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 s - in io.github.thebusybiscuit.slimefun4.testing.tests.utils.TestSoulboundItem
+[INFO] Running io.github.thebusybiscuit.slimefun4.testing.tests.localization.TestSlimefunSpelling
+[INFO] Tests run: 200, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.765 s - in io.github.thebusybiscuit.slimefun4.testing.tests.localization.TestSlimefunSpelling
+[INFO] Running io.github.thebusybiscuit.slimefun4.testing.tests.researches.TestResearches
+[17:19:01 WARNING]: Could not initialize LibraryLoader (missing dependencies?)
+[17:19:02 SEVERE]: [Slimefun] Failed to create AutoUpdater
+[INFO] Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.625 s - in io.github.thebusybiscuit.slimefun4.testing.tests.researches.TestResearches
+[INFO] Running io.github.thebusybiscuit.slimefun4.testing.tests.researches.TestResearchSetup
+[17:19:02 WARNING]: Could not initialize LibraryLoader (missing dependencies?)
+[17:19:02 SEVERE]: [Slimefun] Failed to create AutoUpdater
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.038 s - in io.github.thebusybiscuit.slimefun4.testing.tests.researches.TestResearchSetup
+[INFO] Running io.github.thebusybiscuit.slimefun4.testing.tests.researches.TestProfileResearches
+[17:19:02 WARNING]: Could not initialize LibraryLoader (missing dependencies?)
+[17:19:02 SEVERE]: [Slimefun] Failed to create AutoUpdater
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.024 s - in io.github.thebusybiscuit.slimefun4.testing.tests.researches.TestProfileResearches
+[INFO] Running io.github.thebusybiscuit.slimefun4.testing.tests.researches.TestResearchUnlocking
+[17:19:02 WARNING]: Could not initialize LibraryLoader (missing dependencies?)
+[17:19:02 SEVERE]: [Slimefun] Failed to create AutoUpdater
+[17:19:02 WARNING]: Could not initialize LibraryLoader (missing dependencies?)
+[17:19:02 SEVERE]: [Slimefun] Failed to create AutoUpdater
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.054 s - in io.github.thebusybiscuit.slimefun4.testing.tests.researches.TestResearchUnlocking
+[INFO] Running io.github.thebusybiscuit.slimefun4.testing.tests.commands.TestChargeCommand
+[17:19:02 WARNING]: Could not initialize LibraryLoader (missing dependencies?)
+[17:19:02 SEVERE]: [Slimefun] Failed to create AutoUpdater
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 s - in io.github.thebusybiscuit.slimefun4.testing.tests.commands.TestChargeCommand
+[INFO] Running io.github.thebusybiscuit.slimefun4.testing.tests.commands.TestGuideCommand
+[17:19:02 WARNING]: Could not initialize LibraryLoader (missing dependencies?)
+[17:19:02 SEVERE]: [Slimefun] Failed to create AutoUpdater
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 s - in io.github.thebusybiscuit.slimefun4.testing.tests.commands.TestGuideCommand
+[INFO] Running io.github.thebusybiscuit.slimefun4.testing.tests.commands.TestBackpackCommand
+[17:19:02 WARNING]: Could not initialize LibraryLoader (missing dependencies?)
+[17:19:02 SEVERE]: [Slimefun] Failed to create AutoUpdater
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.027 s - in io.github.thebusybiscuit.slimefun4.testing.tests.commands.TestBackpackCommand
+[INFO] Running io.github.thebusybiscuit.slimefun4.testing.tests.commands.TestResearchCommand
+[17:19:02 WARNING]: Could not initialize LibraryLoader (missing dependencies?)
+[17:19:02 SEVERE]: [Slimefun] Failed to create AutoUpdater
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.03 s - in io.github.thebusybiscuit.slimefun4.testing.tests.commands.TestResearchCommand
+[INFO] Running io.github.thebusybiscuit.slimefun4.testing.tests.commands.TestDebugFishCommand
+[17:19:02 WARNING]: Could not initialize LibraryLoader (missing dependencies?)
+[17:19:02 SEVERE]: [Slimefun] Failed to create AutoUpdater
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 s - in io.github.thebusybiscuit.slimefun4.testing.tests.commands.TestDebugFishCommand
+[INFO] Running io.github.thebusybiscuit.slimefun4.testing.tests.tags.TestSlimefunTags
+[17:19:02 WARNING]: Could not initialize LibraryLoader (missing dependencies?)
+[17:19:02 SEVERE]: [Slimefun] Failed to create AutoUpdater
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.057 s - in io.github.thebusybiscuit.slimefun4.testing.tests.tags.TestSlimefunTags
+[INFO] Running io.github.thebusybiscuit.slimefun4.testing.tests.tags.TestTagParser
+[17:19:02 WARNING]: Could not initialize LibraryLoader (missing dependencies?)
+[17:19:02 SEVERE]: [Slimefun] Failed to create AutoUpdater
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.017 s - in io.github.thebusybiscuit.slimefun4.testing.tests.tags.TestTagParser
+[INFO] Running io.github.thebusybiscuit.slimefun4.testing.tests.geo.TestResourceRegistration
+[17:19:02 WARNING]: Could not initialize LibraryLoader (missing dependencies?)
+[17:19:02 SEVERE]: [Slimefun] Failed to create AutoUpdater
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.022 s - in io.github.thebusybiscuit.slimefun4.testing.tests.geo.TestResourceRegistration
+[INFO] Running io.github.thebusybiscuit.slimefun4.testing.tests.TestPluginClass
+[17:19:02 WARNING]: Could not initialize LibraryLoader (missing dependencies?)
+[17:19:02 SEVERE]: [Slimefun] Failed to create AutoUpdater
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.022 s - in io.github.thebusybiscuit.slimefun4.testing.tests.TestPluginClass
+[INFO] Running io.github.thebusybiscuit.slimefun4.testing.tests.listeners.TestCartographyTableListener
+[17:19:03 WARNING]: Could not initialize LibraryLoader (missing dependencies?)
+[17:19:03 SEVERE]: [Slimefun] Failed to create AutoUpdater
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.178 s - in io.github.thebusybiscuit.slimefun4.testing.tests.listeners.TestCartographyTableListener
+[INFO] Running io.github.thebusybiscuit.slimefun4.testing.tests.listeners.TestBrewingStandListener
+[17:19:03 WARNING]: Could not initialize LibraryLoader (missing dependencies?)
+[17:19:03 SEVERE]: [Slimefun] Failed to create AutoUpdater
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.104 s - in io.github.thebusybiscuit.slimefun4.testing.tests.listeners.TestBrewingStandListener
+[INFO] Running io.github.thebusybiscuit.slimefun4.testing.tests.listeners.TestIronGolemListener
+[17:19:03 WARNING]: Could not initialize LibraryLoader (missing dependencies?)
+[17:19:03 SEVERE]: [Slimefun] Failed to create AutoUpdater
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.237 s - in io.github.thebusybiscuit.slimefun4.testing.tests.listeners.TestIronGolemListener
+[INFO] Running io.github.thebusybiscuit.slimefun4.testing.tests.listeners.TestBackpackListener
+[17:19:03 WARNING]: Could not initialize LibraryLoader (missing dependencies?)
+[17:19:03 SEVERE]: [Slimefun] Failed to create AutoUpdater
+[INFO] Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.063 s - in io.github.thebusybiscuit.slimefun4.testing.tests.listeners.TestBackpackListener
+[INFO] Running io.github.thebusybiscuit.slimefun4.testing.tests.listeners.TestAnvilListener
+[17:19:03 WARNING]: Could not initialize LibraryLoader (missing dependencies?)
+[17:19:03 SEVERE]: [Slimefun] Failed to create AutoUpdater
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 s - in io.github.thebusybiscuit.slimefun4.testing.tests.listeners.TestAnvilListener
+[INFO] Running io.github.thebusybiscuit.slimefun4.testing.tests.listeners.TestVillagerTradingListener
+[17:19:03 WARNING]: Could not initialize LibraryLoader (missing dependencies?)
+[17:19:03 SEVERE]: [Slimefun] Failed to create AutoUpdater
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 s - in io.github.thebusybiscuit.slimefun4.testing.tests.listeners.TestVillagerTradingListener
+[INFO] Running io.github.thebusybiscuit.slimefun4.testing.tests.listeners.TestCraftingTableListener
+[17:19:03 WARNING]: Could not initialize LibraryLoader (missing dependencies?)
+[17:19:03 SEVERE]: [Slimefun] Failed to create AutoUpdater
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.057 s - in io.github.thebusybiscuit.slimefun4.testing.tests.listeners.TestCraftingTableListener
+[INFO] Running io.github.thebusybiscuit.slimefun4.testing.tests.listeners.TestFireworksListener
+[17:19:03 WARNING]: Could not initialize LibraryLoader (missing dependencies?)
+[17:19:03 SEVERE]: [Slimefun] Failed to create AutoUpdater
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 s - in io.github.thebusybiscuit.slimefun4.testing.tests.listeners.TestFireworksListener
+[INFO] Running io.github.thebusybiscuit.slimefun4.testing.tests.listeners.TestSlimefunGuideListener
+[17:19:03 WARNING]: Could not initialize LibraryLoader (missing dependencies?)
+[17:19:03 SEVERE]: [Slimefun] Failed to create AutoUpdater
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 s - in io.github.thebusybiscuit.slimefun4.testing.tests.listeners.TestSlimefunGuideListener
+[INFO] Running io.github.thebusybiscuit.slimefun4.testing.tests.listeners.TestPiglinListener
+[17:19:03 WARNING]: Could not initialize LibraryLoader (missing dependencies?)
+[17:19:03 SEVERE]: [Slimefun] Failed to create AutoUpdater
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.118 s - in io.github.thebusybiscuit.slimefun4.testing.tests.listeners.TestPiglinListener
+[INFO] Running io.github.thebusybiscuit.slimefun4.testing.tests.listeners.TestPlayerProfileListener
+[17:19:03 WARNING]: Could not initialize LibraryLoader (missing dependencies?)
+[17:19:03 SEVERE]: [Slimefun] Failed to create AutoUpdater
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.026 s - in io.github.thebusybiscuit.slimefun4.testing.tests.listeners.TestPlayerProfileListener
+[INFO] Running io.github.thebusybiscuit.slimefun4.testing.tests.listeners.TestGrindstoneListener
+[17:19:03 WARNING]: Could not initialize LibraryLoader (missing dependencies?)
+[17:19:03 SEVERE]: [Slimefun] Failed to create AutoUpdater
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.025 s - in io.github.thebusybiscuit.slimefun4.testing.tests.listeners.TestGrindstoneListener
+[INFO] Running io.github.thebusybiscuit.slimefun4.testing.tests.listeners.TestItemPickupListener
+[17:19:03 WARNING]: Could not initialize LibraryLoader (missing dependencies?)
+[17:19:03 SEVERE]: [Slimefun] Failed to create AutoUpdater
+[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.02 s - in io.github.thebusybiscuit.slimefun4.testing.tests.listeners.TestItemPickupListener
+[INFO] Running io.github.thebusybiscuit.slimefun4.testing.tests.listeners.TestCargoNodeListener
+[17:19:03 WARNING]: Could not initialize LibraryLoader (missing dependencies?)
+[17:19:03 SEVERE]: [Slimefun] Failed to create AutoUpdater
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 s - in io.github.thebusybiscuit.slimefun4.testing.tests.listeners.TestCargoNodeListener
+[INFO] Running io.github.thebusybiscuit.slimefun4.testing.tests.listeners.TestMultiblockListener
+[17:19:03 WARNING]: Could not initialize LibraryLoader (missing dependencies?)
+[17:19:03 SEVERE]: [Slimefun] Failed to create AutoUpdater
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 s - in io.github.thebusybiscuit.slimefun4.testing.tests.listeners.TestMultiblockListener
+[INFO] Running io.github.thebusybiscuit.slimefun4.testing.tests.listeners.TestCoolerListener
+[17:19:03 WARNING]: Could not initialize LibraryLoader (missing dependencies?)
+[17:19:03 SEVERE]: [Slimefun] Failed to create AutoUpdater
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.025 s - in io.github.thebusybiscuit.slimefun4.testing.tests.listeners.TestCoolerListener
+[INFO] Running io.github.thebusybiscuit.slimefun4.testing.tests.listeners.TestNetworkListener
+[17:19:04 WARNING]: Could not initialize LibraryLoader (missing dependencies?)
+[17:19:04 SEVERE]: [Slimefun] Failed to create AutoUpdater
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.1 s - in io.github.thebusybiscuit.slimefun4.testing.tests.listeners.TestNetworkListener
+[INFO] Running io.github.thebusybiscuit.slimefun4.testing.tests.listeners.TestSoulboundListener
+[17:19:04 WARNING]: Could not initialize LibraryLoader (missing dependencies?)
+[17:19:04 SEVERE]: [Slimefun] Failed to create AutoUpdater
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.023 s - in io.github.thebusybiscuit.slimefun4.testing.tests.listeners.TestSoulboundListener
+[INFO] Running io.github.thebusybiscuit.slimefun4.testing.tests.listeners.TestCauldronListener
+[17:19:04 WARNING]: Could not initialize LibraryLoader (missing dependencies?)
+[17:19:04 SEVERE]: [Slimefun] Failed to create AutoUpdater
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.021 s - in io.github.thebusybiscuit.slimefun4.testing.tests.listeners.TestCauldronListener
+[INFO] Running io.github.thebusybiscuit.slimefun4.testing.tests.listeners.TestDeathpointListener
+[17:19:04 WARNING]: Could not initialize LibraryLoader (missing dependencies?)
+[17:19:04 SEVERE]: [Slimefun] Failed to create AutoUpdater
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.047 s - in io.github.thebusybiscuit.slimefun4.testing.tests.listeners.TestDeathpointListener
+[INFO] Running io.github.thebusybiscuit.slimefun4.testing.tests.listeners.TestBeeListener
+[17:19:04 WARNING]: Could not initialize LibraryLoader (missing dependencies?)
+[17:19:04 SEVERE]: [Slimefun] Failed to create AutoUpdater
+MockBukkit detected! Cannot access NMS ItemStack API.
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.15 s - in io.github.thebusybiscuit.slimefun4.testing.tests.listeners.TestBeeListener
+[INFO] Running io.github.thebusybiscuit.slimefun4.testing.tests.guide.TestGuideOpening
+[17:19:04 WARNING]: Could not initialize LibraryLoader (missing dependencies?)
+[17:19:04 SEVERE]: [Slimefun] Failed to create AutoUpdater
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.047 s - in io.github.thebusybiscuit.slimefun4.testing.tests.guide.TestGuideOpening
+[INFO] Running io.github.thebusybiscuit.slimefun4.testing.tests.networks.TestNetworkManager
+[17:19:04 WARNING]: Could not initialize LibraryLoader (missing dependencies?)
+[INFO] Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.089 s - in io.github.thebusybiscuit.slimefun4.testing.tests.networks.TestNetworkManager
+[INFO] Running io.github.thebusybiscuit.slimefun4.testing.tests.settings.TestEnumSetting
+[17:19:04 WARNING]: Could not initialize LibraryLoader (missing dependencies?)
+[17:19:04 SEVERE]: [Slimefun] Failed to create AutoUpdater
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.028 s - in io.github.thebusybiscuit.slimefun4.testing.tests.settings.TestEnumSetting
+[INFO] Running io.github.thebusybiscuit.slimefun4.testing.tests.settings.TestDoubleRangeSetting
+[17:19:04 WARNING]: Could not initialize LibraryLoader (missing dependencies?)
+[17:19:04 SEVERE]: [Slimefun] Failed to create AutoUpdater
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.018 s - in io.github.thebusybiscuit.slimefun4.testing.tests.settings.TestDoubleRangeSetting
+[INFO] Running io.github.thebusybiscuit.slimefun4.testing.tests.settings.TestItemSettings
+[17:19:04 WARNING]: Could not initialize LibraryLoader (missing dependencies?)
+[17:19:04 SEVERE]: [Slimefun] Failed to create AutoUpdater
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.018 s - in io.github.thebusybiscuit.slimefun4.testing.tests.settings.TestItemSettings
+[INFO] Running io.github.thebusybiscuit.slimefun4.testing.tests.settings.TestIntRangeSetting
+[17:19:04 WARNING]: Could not initialize LibraryLoader (missing dependencies?)
+[17:19:04 SEVERE]: [Slimefun] Failed to create AutoUpdater
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.063 s - in io.github.thebusybiscuit.slimefun4.testing.tests.settings.TestIntRangeSetting
+[INFO] Running io.github.thebusybiscuit.slimefun4.testing.tests.settings.TestMaterialTagSetting
+[17:19:04 WARNING]: Could not initialize LibraryLoader (missing dependencies?)
+[17:19:04 SEVERE]: [Slimefun] Failed to create AutoUpdater
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.022 s - in io.github.thebusybiscuit.slimefun4.testing.tests.settings.TestMaterialTagSetting
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 643, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.7:report (report) @ Slimefun ---
+[INFO] Loading execution data file /home/runner/work/builds/builds/TheBusyBiscuit/Slimefun4/stable/files/target/jacoco.exec
+[INFO] Analyzed bundle 'Slimefun' with 580 classes
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ Slimefun ---
+[INFO] Building jar: /home/runner/work/builds/builds/TheBusyBiscuit/Slimefun4/stable/files/target/Slimefun4-24.jar
+[INFO] >>> maven-source-plugin:3.2.1:jar (attach-sources) > generate-sources @ Slimefun >>>
+[INFO] 
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.7:prepare-agent (prepare) @ Slimefun ---
+[INFO] argLine set to -javaagent:/home/runner/.m2/repository/org/jacoco/org.jacoco.agent/0.8.7/org.jacoco.agent-0.8.7-runtime.jar=destfile=/home/runner/work/builds/builds/TheBusyBiscuit/Slimefun4/stable/files/target/jacoco.exec
+[INFO] 
+[INFO] <<< maven-source-plugin:3.2.1:jar (attach-sources) < generate-sources @ Slimefun <<<
+[INFO] 
+[INFO] 
+[INFO] --- maven-source-plugin:3.2.1:jar (attach-sources) @ Slimefun ---
+[INFO] Building jar: /home/runner/work/builds/builds/TheBusyBiscuit/Slimefun4/stable/files/target/Slimefun4-24-sources.jar
+[INFO] 
+[INFO] --- maven-shade-plugin:3.2.4:shade (default) @ Slimefun ---
+[INFO] Including com.github.thebusybiscuit:CS-CoreLib2:jar:0.31.0 in the shaded jar.
+[INFO] Including io.papermc:paperlib:jar:1.0.6 in the shaded jar.
+[INFO] Including com.konghq:unirest-java:jar:3.11.11 in the shaded jar.
+[INFO] Including org.apache.httpcomponents:httpclient:jar:4.5.13 in the shaded jar.
+[INFO] Including org.apache.httpcomponents:httpcore:jar:4.4.13 in the shaded jar.
+[INFO] Including commons-logging:commons-logging:jar:1.2 in the shaded jar.
+[INFO] Including commons-codec:commons-codec:jar:1.11 in the shaded jar.
+[INFO] Including org.apache.httpcomponents:httpmime:jar:4.5.13 in the shaded jar.
+[INFO] Including org.apache.httpcomponents:httpcore-nio:jar:4.4.13 in the shaded jar.
+[INFO] Including org.apache.httpcomponents:httpasyncclient:jar:4.1.4 in the shaded jar.
+[INFO] Replacing original artifact with shaded artifact.
+[INFO] Replacing /home/runner/work/builds/builds/TheBusyBiscuit/Slimefun4/stable/files/target/Slimefun4-24.jar with /home/runner/work/builds/builds/TheBusyBiscuit/Slimefun4/stable/files/target/Slimefun-RC - 24 (git 588bc490)-shaded.jar
+[INFO] Dependency-reduced POM written at: /home/runner/work/builds/builds/TheBusyBiscuit/Slimefun4/stable/files/dependency-reduced-pom.xml
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  22.355 s
+[INFO] Finished at: 2021-06-03T17:19:09Z
+[INFO] ------------------------------------------------------------------------

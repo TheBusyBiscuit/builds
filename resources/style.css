@@ -16,6 +16,8 @@
     --table-secondary: #2d3338;
     --table-background: #222325;
     --selected: #115304;
+    --report: #818181;
+    --report-hover: #a51313;
 }
 
 html, body {
@@ -92,13 +94,15 @@ svg {
 }
 
 .current_header {
-    display: flex;
+    display: block;
+    margin-left: 16px;
+    width: 100%;
 }
 
 .current_status {
+    font-weight: bold;
     margin-bottom: auto;
     margin-top: auto;
-    font-weight: bold;
 }
 
 .current_name {
@@ -466,4 +470,24 @@ a.build_child {
 
 .project_info .icon {
     padding-left: 8px;
+}
+
+.report_button {
+    align-items: center;
+    display: flex;
+    float: right;
+}
+
+.report_button img {
+    filter: invert(1) brightness(0.5);
+    min-height: 18px;
+    min-width: 18px;
+}
+
+.report_link {
+    color: var(--report);
+}
+
+.report_link:hover {
+    color: var(--report-hover);
 }
