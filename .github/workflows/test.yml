@@ -23,7 +23,7 @@ jobs:
         java-package: jdk
         architecture: x64
     - name: Setting up node.js
-      uses: actions/setup-node@v2.3.0
+      uses: actions/setup-node@v2.4.0
       with:
         node-version: '12'
     - name: Installing dependencies
