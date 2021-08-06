@@ -22,7 +22,7 @@
     "homepage": "https://github.com/TheBusyBiscuit/builds#readme",
     "dependencies": {
         "child-process-promise": "^2.2.1",
-        "discord.js": "^12.5.3",
+        "discord.js": "^13.0.0",
         "lodash": "^4.17.19",
         "request": "^2.88.0",
         "request-promise-native": "^1.0.7",
