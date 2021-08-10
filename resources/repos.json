@@ -854,10 +854,10 @@
         },
         "dependencies": {
             "Minecraft Version(s)": {
-                "1": "1.16.x"
+                "1": "1.16.x, 1.17.x"
             },
             "Slimefun Version": {
-                "1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/Slimefun4/master/#825\">dev #825</a>"
+                "1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/Slimefun4/master/#950\">dev #950</a>"
             }
         }
     },
@@ -872,7 +872,7 @@
         },
         "dependencies": {
             "Minecraft Version(s)": {
-                "1": "1.16.x"
+                "1": "1.16.x, 1.17.x"
             },
             "Slimefun Version": {
                 "1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/Slimefun4/master/#825\">dev #825</a>"
@@ -1039,7 +1039,7 @@
         },
         "options": {
             "prefix": "DEV",
-            "abandoned": false,
+            "abandoned": true,
             "createJar": true
         },
         "dependencies": {

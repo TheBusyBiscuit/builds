@@ -5,6 +5,7 @@ testRepository/*
 /.scannerwork/*
 /coverage/*
 /jitpack/*
+/.idea/
 
 resources/config.json
 test/xunit.xml
