@@ -89,6 +89,8 @@ function sendUpdate (webhook, job, cfg) {
 
     // Send the embed via our webhook
     log(true, '-> Sent via webhook.')
-    webhook.send(embed).then(resolve, reject)
+    webhook.send({
+      embeds: [embed]
+    }).then(resolve, reject)
   })
 }
