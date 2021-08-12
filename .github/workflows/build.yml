@@ -33,7 +33,7 @@ jobs:
     - name: Setting up node.js
       uses: actions/setup-node@v2.4.0
       with:
-        node-version: '16'
+        node-version: '16.6.0'
 
     - name: Installing dependencies
       run: npm install
