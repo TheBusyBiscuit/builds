@@ -12,7 +12,10 @@ module.exports = cfg => {
 
   if (config) {
     if (config.isEnabled()) {
-      webhook = new WebhookClient(config.getID(), config.getToken())
+      webhook = new WebhookClient({
+        id: config.getID(),
+        token: config.getToken()
+      })
     }
   } else {
     config = {
