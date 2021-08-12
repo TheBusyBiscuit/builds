@@ -1,0 +1,142 @@
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for io.github.sefiraat.slimetinker:SlimeTinker:jar:DEV - 27 (git f0148817)
+[WARNING] 'dependencies.dependency.version' for org.jetbrains:annotations:jar is either LATEST or RELEASE (both of them are being deprecated) @ line 1, column 3302
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] 
+[INFO] -------------< io.github.sefiraat.slimetinker:SlimeTinker >-------------
+[INFO] Building SlimeTinker DEV - 27 (git f0148817)
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] Downloading from aikar: https://repo.aikar.co/content/groups/aikar/org/spigotmc/spigot-api/1.17-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloaded from aikar: https://repo.aikar.co/content/groups/aikar/org/spigotmc/spigot-api/1.17-R0.1-SNAPSHOT/maven-metadata.xml (1.4 kB at 2.7 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/github/Slimefun/Slimefun4/25dea3d/Slimefun4-25dea3d.pom
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/github/Slimefun/Slimefun4/25dea3d/Slimefun4-25dea3d.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/github/Slimefun/Slimefun4/25dea3d/Slimefun4-25dea3d.pom
+[INFO] Downloaded from jitpack.io: https://jitpack.io/com/github/Slimefun/Slimefun4/25dea3d/Slimefun4-25dea3d.pom (13 kB at 18 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/jetbrains/annotations/maven-metadata.xml
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/jetbrains/annotations/maven-metadata.xml
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/jetbrains/annotations/maven-metadata.xml
+[INFO] Downloading from aikar: https://repo.aikar.co/content/groups/aikar/org/jetbrains/annotations/maven-metadata.xml
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jetbrains/annotations/maven-metadata.xml
+[INFO] Downloaded from aikar: https://repo.aikar.co/content/groups/aikar/org/jetbrains/annotations/maven-metadata.xml (703 B at 3.8 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jetbrains/annotations/maven-metadata.xml (714 B at 7.9 kB/s)
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/jetbrains/annotations/maven-metadata.xml (703 B at 830 B/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/jetbrains/annotations/22.0.0/annotations-22.0.0.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/jetbrains/annotations/22.0.0/annotations-22.0.0.pom (1.3 kB at 1.8 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/io/github/mooy1/InfinityLib/84a3ce8/InfinityLib-84a3ce8.pom
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/io/github/mooy1/InfinityLib/84a3ce8/InfinityLib-84a3ce8.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/io/github/mooy1/InfinityLib/84a3ce8/InfinityLib-84a3ce8.pom
+[INFO] Downloaded from jitpack.io: https://jitpack.io/io/github/mooy1/InfinityLib/84a3ce8/InfinityLib-84a3ce8.pom (4.6 kB at 9.1 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/google/code/findbugs/annotations/3.0.1u2/annotations-3.0.1u2.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/google/code/findbugs/annotations/3.0.1u2/annotations-3.0.1u2.pom (7.0 kB at 9.6 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/net/jcip/jcip-annotations/1.0/jcip-annotations-1.0.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/net/jcip/jcip-annotations/1.0/jcip-annotations-1.0.pom (491 B at 662 B/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/google/code/findbugs/jsr305/3.0.1/jsr305-3.0.1.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/google/code/findbugs/jsr305/3.0.1/jsr305-3.0.1.pom (4.3 kB at 5.8 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/co/aikar/acf-paper/0.5.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/co/aikar/acf-paper/0.5.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from jitpack.io: https://jitpack.io/co/aikar/acf-paper/0.5.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from aikar: https://repo.aikar.co/content/groups/aikar/co/aikar/acf-paper/0.5.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloaded from aikar: https://repo.aikar.co/content/groups/aikar/co/aikar/acf-paper/0.5.0-SNAPSHOT/maven-metadata.xml (1.4 kB at 8.0 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/co/aikar/acf-paper/0.5.0-SNAPSHOT/acf-paper-0.5.0-20210210.142912-169.pom
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/co/aikar/acf-paper/0.5.0-SNAPSHOT/acf-paper-0.5.0-20210210.142912-169.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/co/aikar/acf-paper/0.5.0-SNAPSHOT/acf-paper-0.5.0-20210210.142912-169.pom
+[INFO] Downloading from aikar: https://repo.aikar.co/content/groups/aikar/co/aikar/acf-paper/0.5.0-SNAPSHOT/acf-paper-0.5.0-20210210.142912-169.pom
+[INFO] Downloaded from aikar: https://repo.aikar.co/content/groups/aikar/co/aikar/acf-paper/0.5.0-SNAPSHOT/acf-paper-0.5.0-20210210.142912-169.pom (3.8 kB at 43 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/co/aikar/acf-parent/0.5.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from jitpack.io: https://jitpack.io/co/aikar/acf-parent/0.5.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from aikar: https://repo.aikar.co/content/groups/aikar/co/aikar/acf-parent/0.5.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/co/aikar/acf-parent/0.5.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloaded from aikar: https://repo.aikar.co/content/groups/aikar/co/aikar/acf-parent/0.5.0-SNAPSHOT/maven-metadata.xml (814 B at 8.7 kB/s)
+[INFO] Downloading from aikar: https://repo.aikar.co/content/groups/aikar/co/aikar/acf-parent/0.5.0-SNAPSHOT/acf-parent-0.5.0-20210210.142848-172.pom
+[INFO] Downloaded from aikar: https://repo.aikar.co/content/groups/aikar/co/aikar/acf-parent/0.5.0-SNAPSHOT/acf-parent-0.5.0-20210210.142848-172.pom (8.1 kB at 90 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/github/Slimefun/Slimefun4/25dea3d/Slimefun4-25dea3d.jar
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/io/github/mooy1/InfinityLib/84a3ce8/InfinityLib-84a3ce8.jar
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/google/code/findbugs/annotations/3.0.1u2/annotations-3.0.1u2.jar
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/net/jcip/jcip-annotations/1.0/jcip-annotations-1.0.jar
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/google/code/findbugs/jsr305/3.0.1/jsr305-3.0.1.jar
+[INFO] Downloaded fromaven-public/com/google/code/findbugs/annotations/3.0.1u2/annotations-3.0.1u2.jar (40 kB at 23 kB/s)
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/net/jcip/jcip-annotations/1.0/jcip-annotations-1.0.jar (2.3 kB at 1.3 kB/s)
+m paper-repo: https://repo.destroystokyo.com/repository/[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/google/code/findbugs/jsr305/3.0.1/jsr305-3.0.1.jar (20 kB at 9.3 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/github/Slimefun/Slimefun4/25dea3d/Slimefun4-25dea3d.jar
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/io/github/mooy1/InfinityLib/84a3ce8/InfinityLib-84a3ce8.jar
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/github/Slimefun/Slimefun4/25dea3d/Slimefun4-25dea3d.jar
+[INFO] Downloading from jitpack.io: https://jitpack.io/io/github/mooy1/InfinityLib/84a3ce8/InfinityLib-84a3ce8.jar
+[INFO] Downloaded from jitpack.io: https://jitpack.io/io/github/mooy1/InfinityLib/84a3ce8/InfinityLib-84a3ce8.jar (82 kB at 83 kB/s)
+[INFO] Downloaded from jitpack.io: https://jitpack.io/com/github/Slimefun/Slimefun4/25dea3d/Slimefun4-25dea3d.jar (4.3 MB at 3.8 MB/s)
+[INFO] Downloading from aikar: https://repo.aikar.co/content/groups/aikar/co/aikar/acf-paper/0.5.0-SNAPSHOT/acf-paper-0.5.0-20210210.142912-169.jar
+[INFO] Downloaded from aikar: https://repo.aikar.co/content/groups/aikar/co/aikar/acf-paper/0.5.0-SNAPSHOT/acf-paper-0.5.0-20210210.142912-169.jar (322 kB at 888 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jetbrains/annotations/22.0.0/annotations-22.0.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jetbrains/annotations/22.0.0/annotations-22.0.0.jar (28 kB at 863 kB/s)
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ SlimeTinker ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ SlimeTinker ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ SlimeTinker ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 100 source files to /home/runner/work/builds/builds/Sefiraat/SlimeTinker/master/files/target/classes
+[WARNING] /home/runner/work/builds/builds/Sefiraat/SlimeTinker/master/files/src/main/java/io/github/sefiraat/slimetinker/utils/EntityUtils.java: /home/runner/work/builds/builds/Sefiraat/SlimeTinker/master/files/src/main/java/io/github/sefiraat/slimetinker/utils/EntityUtils.java uses unchecked or unsafe operations.
+[WARNING] /home/runner/work/builds/builds/Sefiraat/SlimeTinker/master/files/src/main/java/io/github/sefiraat/slimetinker/utils/EntityUtils.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ SlimeTinker ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/runner/work/builds/builds/Sefiraat/SlimeTinker/master/files/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ SlimeTinker ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ SlimeTinker ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ SlimeTinker ---
+[INFO] Building jar: /home/runner/work/builds/builds/Sefiraat/SlimeTinker/master/files/target/SlimeTinker-27.jar
+[INFO] 
+[INFO] --- maven-shade-plugin:3.2.4:shade (default) @ SlimeTinker ---
+[INFO] Including org.jetbrains:annotations:jar:22.0.0 in the shaded jar.
+[INFO] Including io.github.mooy1:InfinityLib:jar:84a3ce8 in the shaded jar.
+[INFO] Including org.bstats:bstats-bukkit:jar:2.2.1 in the shaded jar.
+[INFO] Including org.bstats:bstats-base:jar:2.2.1 in the shaded jar.
+[INFO] Including com.google.code.findbugs:annotations:jar:3.0.1u2 in the shaded jar.
+[INFO] Including net.jcip:jcip-annotations:jar:1.0 in the shaded jar.
+[INFO] Including com.google.code.findbugs:jsr305:jar:3.0.1 in the shaded jar.
+[INFO] Including co.aikar:acf-paper:jar:0.5.0-SNAPSHOT in the shaded jar.
+[WARNING] annotations-3.0.1u2.jar, jcip-annotations-1.0.jar define 4 overlapping classes: 
+[WARNING]   - net.jcip.annotations.GuardedBy
+[WARNING]   - net.jcip.annotations.Immutable
+[WARNING]   - net.jcip.annotations.NotThreadSafe
+[WARNING]   - net.jcip.annotations.ThreadSafe
+[WARNING] annotations-3.0.1u2.jar, jsr305-3.0.1.jar define 37 overlapping classes and resources: 
+[WARNING]   - META-INF/maven/com.google.code.findbugs/jsr305/pom.properties
+[WARNING]   - META-INF/maven/com.google.code.findbugs/jsr305/pom.xml
+[WARNING]   - javax.annotation.CheckForNull
+[WARNING]   - javax.annotation.CheckForSigned
+[WARNING]   - javax.annotation.CheckReturnValue
+[WARNING]   - javax.annotation.Detainted
+[WARNING]   - javax.annotation.MatchesPattern
+[WARNING]   - javax.annotation.MatchesPattern$Checker
+[WARNING]   - javax.annotation.Nonnegative
+[WARNING]   - javax.annotation.Nonnegative$Checker
+[WARNING]   - 27 more...
+[WARNING] maven-shade-plugin has detected that some class files are
+[WARNING] present in two or more JARs. When this happens, only one
+[WARNING] single version of the class is copied to the uber jar.
+[WARNING] Usually this is not harmful and you can skip these warnings,
+[WARNING] otherwise try to manually exclude artifacts based on
+[WARNING] mvn dependency:tree -Ddetail=true and the above output.
+[WARNING] See http://maven.apache.org/plugins/maven-shade-plugin/
+[INFO] Replacing original artifact with shaded artifact.
+[INFO] Replacing /home/runner/work/builds/builds/Sefiraat/SlimeTinker/master/files/target/SlimeTinker-27.jar with /home/runner/work/builds/builds/Sefiraat/SlimeTinker/master/files/target/SlimeTinker-DEV - 27 (git f0148817)-shaded.jar
+[INFO] Dependency-reduced POM written at: /home/runner/work/builds/builds/Sefiraat/SlimeTinker/master/files/dependency-reduced-pom.xml
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  21.258 s
+[INFO] Finished at: 2021-08-12T18:22:02Z
+[INFO] ------------------------------------------------------------------------
