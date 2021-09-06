@@ -1,0 +1,50 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -------------------< io.github.seggan.sfcalc:SFCalc >-------------------
+[INFO] Building SFCalc DEV - 34 (git 60f3c45d)
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] Downloading from jittpack: https://jitpack.io/org/spigotmc/spigot-api/1.16.5-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from jittpack: https://jitpack.io/com/github/TheBusyBiscuit/Slimefun4/RC-27/Slimefun4-RC-27.pom
+[INFO] Downloaded from jittpack: https://jitpack.io/com/github/TheBusyBiscuit/Slimefun4/RC-27/Slimefun4-RC-27.pom (0 B at 0 B/s)
+[INFO] Downloading from jittpack: https://jitpack.io/io/github/mooy1/InfinityLib/1.0.0/InfinityLib-1.0.0.pom
+[INFO] Downloaded from jittpack: https://jitpack.io/io/github/mooy1/InfinityLib/1.0.0/InfinityLib-1.0.0.pom (5.1 kB at 25 kB/s)
+[INFO] Downloading from jittpack: https://jitpack.io/com/github/TheBusyBiscuit/Slimefun4/RC-27/Slimefun4-RC-27.jar
+[INFO] Downloading from jittpack: https://jitpack.io/io/github/mooy1/InfinityLib/1.0.0/InfinityLib-1.0.0.jar
+[INFO] Downloaded from jittpack: https://jitpack.io/com/github/TheBusyBiscuit/Slimefun4/RC-27/Slimefun4-RC-27.jar (0 B at 0 B/s)
+[INFO] Downloaded from jittpack: https://jitpack.io/io/github/mooy1/InfinityLib/1.0.0/InfinityLib-1.0.0.jar (86 kB at 290 kB/s)
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ SFCalc ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ SFCalc ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ SFCalc ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 7 source files to /home/runner/work/builds/builds/Seggan/SFCalc/master/files/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ SFCalc ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/runner/work/builds/builds/Seggan/SFCalc/master/files/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ SFCalc ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ SFCalc ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ SFCalc ---
+[INFO] Building jar: /home/runner/work/builds/builds/Seggan/SFCalc/master/files/target/SFCalc-34.jar
+[INFO] 
+[INFO] --- maven-shade-plugin:3.2.4:shade (default) @ SFCalc ---
+[INFO] Including io.github.mooy1:InfinityLib:jar:1.0.0 in the shaded jar.
+[INFO] Replacing original artifact with shaded artifact.
+[INFO] Replacing /home/runner/work/builds/builds/Seggan/SFCalc/master/files/target/SFCalc-34.jar with /home/runner/work/builds/builds/Seggan/SFCalc/master/files/target/SFCalc-DEV - 34 (git 60f3c45d)-shaded.jar
+[INFO] Dependency-reduced POM written at: /home/runner/work/builds/builds/Seggan/SFCalc/master/files/dependency-reduced-pom.xml
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  3.739 s
+[INFO] Finished at: 2021-09-06T13:24:42Z
+[INFO] ------------------------------------------------------------------------
