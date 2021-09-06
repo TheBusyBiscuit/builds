@@ -1,0 +1,273 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -----------------< io.github.thebusybiscuit:EcoPower >------------------
+[INFO] Building EcoPower DEV - 5 (git 5c1ecd68)
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ EcoPower ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ EcoPower ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ EcoPower ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 9 source files to /home/runner/work/builds/builds/TheBusyBiscuit/EcoPower/master/files/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ EcoPower ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/runner/work/builds/builds/TheBusyBiscuit/EcoPower/master/files/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ EcoPower ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ EcoPower ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ EcoPower ---
+[INFO] Building jar: /home/runner/work/builds/builds/TheBusyBiscuit/EcoPower/master/files/target/EcoPower-5.jar
+[INFO] 
+[INFO] --- maven-shade-plugin:3.2.4:shade (default) @ EcoPower ---
+[INFO] Including org.bstats:bstats-bukkit:jar:2.2.1 in the shaded jar.
+[INFO] Including org.bstats:bstats-base:jar:2.2.1 in the shaded jar.
+[INFO] Replacing original artifact with shaded artifact.
+[INFO] Replacing /home/runner/work/builds/builds/TheBusyBiscuit/EcoPower/master/files/target/EcoPower-5.jar with /home/runner/work/builds/builds/TheBusyBiscuit/EcoPower/master/files/target/EcoPower-DEV - 5 (git 5c1ecd68)-shaded.jar
+[INFO] Dependency-reduced POM written at: /home/runner/work/builds/builds/TheBusyBiscuit/EcoPower/master/files/dependency-reduced-pom.xml
+[INFO] 
+[INFO] -----------------< io.github.thebusybiscuit:EcoPower >------------------
+[INFO] Building EcoPower DEV - 5 (git 5c1ecd68)
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- sonar-maven-plugin:3.9.0.2155:sonar (default-cli) @ EcoPower ---
+[INFO] User cache: /home/runner/.sonar/cache
+[INFO] SonarQube version: 8.9.1
+[INFO] Default locale: "en", source code encoding: "UTF-8"
+[INFO] Load global settings
+[INFO] Load global settings (done) | time=595ms
+[INFO] Server id: 1BD809FA-AWHW8ct9-T_TB3XqouNu
+[INFO] User cache: /home/runner/.sonar/cache
+[INFO] Load/download plugins
+[INFO] Load plugins index
+[INFO] Load plugins index (done) | time=139ms
+[INFO] Load/download plugins (done) | time=328ms
+[INFO] Loaded core extensions: developer-scanner
+[INFO] Found an active CI vendor: 'Github Actions'
+[INFO] Load project settings for component key: 'TheBusyBiscuit_EcoPower'
+[INFO] Load project settings for component key: 'TheBusyBiscuit_EcoPower' (done) | time=124ms
+[INFO] Process project properties
+[INFO] Execute project builders
+[INFO] Execute project builders (done) | time=1ms
+[INFO] Project key: TheBusyBiscuit_EcoPower
+[INFO] Base dir: /home/runner/work/builds/builds/TheBusyBiscuit/EcoPower/master/files
+[INFO] Working dir: /home/runner/work/builds/builds/TheBusyBiscuit/EcoPower/master/files/target/sonar
+[INFO] Load project branches
+[INFO] Load project branches (done) | time=111ms
+[INFO] Check ALM binding of project 'TheBusyBiscuit_EcoPower'
+[INFO] Detected project binding: NOT_BOUND
+[INFO] Check ALM binding of project 'TheBusyBiscuit_EcoPower' (done) | time=109ms
+[INFO] Load project pull requests
+[INFO] Load project pull requests (done) | time=107ms
+[INFO] Load branch configuration
+[INFO] Github event: workflow_dispatch
+[INFO] Load branch configuration (done) | time=7ms
+[INFO] Load quality profiles
+[INFO] Load quality profiles (done) | time=162ms
+[INFO] Load active rules
+[INFO] Load active rules (done) | time=4161ms
+[INFO] Organization key: thebusybiscuit-github
+[INFO] Indexing files...
+[INFO] Project configuration:
+[INFO] 9 files indexed
+[INFO] 1 file ignored because of scm ignore settings
+[INFO] Quality profile for java: Additional Checks
+[INFO] ------------- Run sensors on module EcoPower
+[INFO] Load metrics repository
+[INFO] Load metrics repository (done) | time=114ms
+[INFO] Sensor JavaSensor [java]
+[INFO] Configured Java source version (sonar.java.source): 8
+[INFO] JavaClasspath initialization
+[INFO] JavaClasspath initialization (done) | time=5ms
+[INFO] JavaTestClasspath initialization
+[INFO] JavaTestClasspath initialization (done) | time=1ms
+[INFO] Java "Main" source files AST scan
+[INFO] 9 source files to be analyzed
+[INFO] Load project repositories
+[INFO] Load project repositories (done) | time=112ms
+[INFO] 9/9 source files have been analyzed
+[INFO] Java "Main" source files AST scan (done) | time=2341ms
+[INFO] No "Test" source files to scan.
+[INFO] No "Generated" source files to scan.
+[INFO] Sensor JavaSensor [java] (done) | time=2608ms
+[INFO] Sensor CSS Rules [cssfamily]
+[INFO] No CSS, PHP, HTML or VueJS files are found in the project. CSS analysis is skipped.
+[INFO] Sensor CSS Rules [cssfamily] (done) | time=1ms
+[INFO] Sensor C# Project Type Information [csharp]
+[INFO] Sensor C# Project Type Information [csharp] (done) | time=1ms
+[INFO] Sensor C# Analysis Log [csharp]
+[INFO] Sensor C# Analysis Log [csharp] (done) | time=12ms
+[INFO] Sensor C# Properties [csharp]
+[INFO] Sensor C# Properties [csharp] (done) | time=0ms
+[INFO] Sensor SurefireSensor [java]
+[INFO] parsing [/home/runner/work/builds/builds/TheBusyBiscuit/EcoPower/master/files/target/surefire-reports]
+[INFO] Sensor SurefireSensor [java] (done) | time=1ms
+[INFO] Sensor JavaXmlSensor [java]
+[INFO] Sensor JavaXmlSensor [java] (done) | time=1ms
+[INFO] Sensor HTML [web]
+[INFO] Sensor HTML [web] (done) | time=3ms
+[INFO] Sensor VB.NET Project Type Information [vbnet]
+[INFO] Sensor VB.NET Project Type Information [vbnet] (done) | time=0ms
+[INFO] Sensor VB.NET Analysis Log [vbnet]
+[INFO] Sensor VB.NET Analysis Log [vbnet] (done) | time=11ms
+[INFO] Sensor VB.NET Properties [vbnet]
+[INFO] Sensor VB.NET Properties [vbnet] (done) | time=1ms
+[INFO] Sensor JaCoCo XML Report Importer [jacoco]
+[INFO] 'sonar.coverage.jacoco.xmlReportPaths' is not defined. Using default locations: target/site/jacoco/jacoco.xml,target/site/jacoco-it/jacoco.xml,build/reports/jacoco/test/jacocoTestReport.xml
+[INFO] No report imported, no coverage information will be imported by JaCoCo XML Report Importer
+[INFO] Sensor JaCoCo XML Report Importer [jacoco] (done) | time=4ms
+[INFO] Sensor ThymeLeaf template sensor [securityjavafrontend]
+[INFO] Sensor ThymeLeaf template sensor [securityjavafrontend] (done) | time=3ms
+[INFO] Sensor Serverless configuration file sensor [securityjsfrontend]
+[INFO] 0 Serverless function entries were found in the project
+[INFO] 0 Serverless function handlers were kept as entrypoints
+[INFO] Sensor Serverless configuration file sensor [securityjsfrontend] (done) | time=60ms
+[INFO] Sensor AWS SAM template file sensor [securityjsfrontend]
+[INFO] Sensor AWS SAM template file sensor [securityjsfrontend] (done) | time=2ms
+[INFO] Sensor JavaSecuritySensor [security]
+[INFO] Reading type hierarchy from: /home/runner/work/builds/builds/TheBusyBiscuit/EcoPower/master/files/target/sonar/ucfg2/java
+[INFO] Read 84 type definitions
+[INFO] Reading UCFGs from: /home/runner/work/builds/builds/TheBusyBiscuit/EcoPower/master/files/target/sonar/ucfg2/java
+[INFO] 13:23:26.691600523 Building Runtime Type propagation graph
+[INFO] 13:23:26.706672842 Running Tarjan on 188 nodes
+[INFO] 13:23:26.709362306 Tarjan found 188 components
+[INFO] 13:23:26.71269471 Variable type analysis: done
+[INFO] 13:23:26.714426915 Building Runtime Type propagation graph
+[INFO] 13:23:26.720639394 Running Tarjan on 188 nodes
+[INFO] 13:23:26.722843329 Tarjan found 188 components
+[INFO] 13:23:26.724781947 Variable type analysis: done
+[INFO] Analyzing 36 ucfgs to detect vulnerabilities.
+[INFO] All rules entrypoints : 0 Retained UCFGs : 0
+[INFO] rule: S5131, entrypoints: 0
+[INFO] rule: S5131 done
+[INFO] rule: S3649, entrypoints: 0
+[INFO] rule: S3649 done
+[INFO] rule: S2076, entrypoints: 0
+[INFO] rule: S2076 done
+[INFO] rule: S2091, entrypoints: 0
+[INFO] rule: S2091 done
+[INFO] rule: S2078, entrypoints: 0
+[INFO] rule: S2078 done
+[INFO] rule: S2631, entrypoints: 0
+[INFO] rule: S2631 done
+[INFO] rule: S5135, entrypoints: 0
+[INFO] rule: S5135 done
+[INFO] rule: S2083, entrypoints: 0
+[INFO] rule: S2083 done
+[INFO] rule: S5167, entrypoints: 0
+[INFO] rule: S5167 done
+[INFO] rule: S5144, entrypoints: 0
+[INFO] rule: S5144 done
+[INFO] rule: S5145, entrypoints: 0
+[INFO] rule: S5145 done
+[INFO] rule: S5146, entrypoints: 0
+[INFO] rule: S5146 done
+[INFO] rule: S5334, entrypoints: 0
+[INFO] rule: S5334 done
+[INFO] rule: S6096, entrypoints: 0
+[INFO] rule: S6096 done
+[INFO] Sensor JavaSecuritySensor [security] (done) | time=637ms
+[INFO] Sensor CSharpSecuritySensor [security]
+[INFO] Reading type hierarchy from: /home/runner/work/builds/builds/TheBusyBiscuit/EcoPower/master/files/target/ucfg_cs2
+[INFO] Read 0 type definitions
+[INFO] Reading UCFGs from: /home/runner/work/builds/builds/TheBusyBiscuit/EcoPower/master/files/target/ucfg_cs2
+[INFO] No UCFGs have been included for analysis.
+[INFO] Sensor CSharpSecuritySensor [security] (done) | time=1ms
+[INFO] Sensor PhpSecuritySensor [security]
+[INFO] Reading type hierarchy from: /home/runner/work/builds/builds/TheBusyBiscuit/EcoPower/master/files/target/sonar/ucfg2/php
+[INFO] Read 0 type definitions
+[INFO] Reading UCFGs from: /home/runner/work/builds/builds/TheBusyBiscuit/EcoPower/master/files/target/sonar/ucfg2/php
+[INFO] No UCFGs have been included for analysis.
+[INFO] Sensor PhpSecuritySensor [security] (done) | time=0ms
+[INFO] Sensor PythonSecuritySensor [security]
+[INFO] Reading type hierarchy from: /home/runner/work/builds/builds/TheBusyBiscuit/EcoPower/master/files/target/sonar/ucfg2/python
+[INFO] Read 0 type definitions
+[INFO] Reading UCFGs from: /home/runner/work/builds/builds/TheBusyBiscuit/EcoPower/master/files/target/sonar/ucfg2/python
+[INFO] No UCFGs have been included for analysis.
+[INFO] Sensor PythonSecuritySensor [security] (done) | time=0ms
+[INFO] Sensor JsSecuritySensor [security]
+[INFO] Reading type hierarchy from: /home/runner/work/builds/builds/TheBusyBiscuit/EcoPower/master/files/target/sonar/ucfg2/js
+[INFO] Read 0 type definitions
+[INFO] Reading UCFGs from: /home/runner/work/builds/builds/TheBusyBiscuit/EcoPower/master/files/target/sonar/ucfg2/js
+[INFO] 13:23:27.18118339 Building Runtime Type propagation graph
+[INFO] 13:23:27.181965438 Running Tarjan on 0 nodes
+[INFO] 13:23:27.182087945 Tarjan found 0 components
+[INFO] 13:23:27.182138049 Variable type analysis: done
+[INFO] 13:23:27.182224854 Building Runtime Type propagation graph
+[INFO] 13:23:27.182380063 Running Tarjan on 0 nodes
+[INFO] 13:23:27.183100207 Tarjan found 0 components
+[INFO] 13:23:27.183161711 Variable type analysis: done
+[INFO] Analyzing 2 ucfgs to detect vulnerabilities.
+[INFO] rule: S5146, entrypoints: 3
+[INFO] Running symbolic analysis
+[INFO] rule: S5146 done
+[INFO] rule: S6096, entrypoints: 3
+[INFO] Running symbolic analysis
+[INFO] rule: S6096 done
+[INFO] rule: S5144, entrypoints: 3
+[INFO] Running symbolic analysis
+[INFO] rule: S5144 done
+[INFO] rule: S5696, entrypoints: 3
+[INFO] Running symbolic analysis
+[INFO] rule: S5696 done
+[INFO] rule: S5131, entrypoints: 3
+[INFO] Running symbolic analysis
+[INFO] rule: S5131 done
+[INFO] rule: S5147, entrypoints: 3
+[INFO] Running symbolic analysis
+[INFO] rule: S5147 done
+[INFO] rule: S2631, entrypoints: 3
+[INFO] Running symbolic analysis
+[INFO] rule: S2631 done
+[INFO] rule: S2076, entrypoints: 3
+[INFO] Running symbolic analysis
+[INFO] rule: S2076 done
+[INFO] rule: S2083, entrypoints: 3
+[INFO] Running symbolic analysis
+[INFO] rule: S2083 done
+[INFO] rule: S5334, entrypoints: 3
+[INFO] Running symbolic analysis
+[INFO] rule: S5334 done
+[INFO] rule: S3649, entrypoints: 3
+[INFO] Running symbolic analysis
+[INFO] rule: S3649 done
+[INFO] rule: S6105, entrypoints: 3
+[INFO] Running symbolic analysis
+[INFO] rule: S6105 done
+[INFO] rule: S5883, entrypoints: 3
+[INFO] Running symbolic analysis
+[INFO] rule: S5883 done
+[INFO] Sensor JsSecuritySensor [security] (done) | time=939ms
+[INFO] ------------- Run sensors on project
+[INFO] Sensor Zero Coverage Sensor
+[INFO] Sensor Zero Coverage Sensor (done) | time=7ms
+[INFO] Sensor Java CPD Block Indexer
+[INFO] Sensor Java CPD Block Indexer (done) | time=26ms
+[INFO] SCM Publisher SCM provider for this project is: git
+[INFO] SCM Publisher 9 source files to be analyzed
+[INFO] SCM Publisher 9/9 source files have been analyzed (done) | time=150ms
+[INFO] CPD Executor 3 files had no CPD blocks
+[INFO] CPD Executor Calculating CPD for 6 files
+[INFO] CPD Executor CPD calculation finished (done) | time=9ms
+[INFO] Analysis report generated in 424ms, dir size=241 KB
+[INFO] Analysis report compressed in 40ms, zip size=66 KB
+[INFO] Analysis report uploaded in 339ms
+[INFO] ANALYSIS SUCCESSFUL, you can find the results at: https://sonarcloud.io/dashboard?id=TheBusyBiscuit_EcoPower
+[INFO] Note that you will be able to access the updated dashboard once the server has processed the submitted analysis report
+[INFO] More about the report processing at https://sonarcloud.io/api/ce/task?id=AXu7RyyWj26EpdV4zm1r
+[INFO] Analysis total time: 12.839 s
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  17.931 s
+[INFO] Finished at: 2021-09-06T13:23:29Z
+[INFO] ------------------------------------------------------------------------
