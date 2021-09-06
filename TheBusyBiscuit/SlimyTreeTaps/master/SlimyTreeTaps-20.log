@@ -1,0 +1,280 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------< io.github.thebusybiscuit:SlimyTreeTaps >---------------
+[INFO] Building SlimyTreeTaps DEV - 20 (git 963f0383)
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] Downloading from paper-repo: https://papermc.io/repo/repository/maven-public/com/github/Slimefun/Slimefun4/RC-27/Slimefun4-RC-27.pom
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/github/Slimefun/Slimefun4/RC-27/Slimefun4-RC-27.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/github/Slimefun/Slimefun4/RC-27/Slimefun4-RC-27.pom
+[INFO] Downloaded from jitpack.io: https://jitpack.io/com/github/Slimefun/Slimefun4/RC-27/Slimefun4-RC-27.pom (14 kB at 76 kB/s)
+[INFO] Downloading from paper-repo: https://papermc.io/repo/repository/maven-public/com/github/Slimefun/Slimefun4/RC-27/Slimefun4-RC-27.jar
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/github/Slimefun/Slimefun4/RC-27/Slimefun4-RC-27.jar
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/github/Slimefun/Slimefun4/RC-27/Slimefun4-RC-27.jar
+[INFO] Downloaded from jitpack.io: https://jitpack.io/com/github/Slimefun/Slimefun4/RC-27/Slimefun4-RC-27.jar (4.3 MB at 16 MB/s)
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ SlimyTreeTaps ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ SlimyTreeTaps ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ SlimyTreeTaps ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 6 source files to /home/runner/work/builds/builds/TheBusyBiscuit/SlimyTreeTaps/master/files/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ SlimyTreeTaps ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/runner/work/builds/builds/TheBusyBiscuit/SlimyTreeTaps/master/files/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ SlimyTreeTaps ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ SlimyTreeTaps ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ SlimyTreeTaps ---
+[INFO] Building jar: /home/runner/work/builds/builds/TheBusyBiscuit/SlimyTreeTaps/master/files/target/SlimyTreeTaps-20.jar
+[INFO] 
+[INFO] --- maven-shade-plugin:3.2.4:shade (default) @ SlimyTreeTaps ---
+[INFO] Including org.bstats:bstats-bukkit:jar:2.2.1 in the shaded jar.
+[INFO] Including org.bstats:bstats-base:jar:2.2.1 in the shaded jar.
+[INFO] Replacing original artifact with shaded artifact.
+[INFO] Replacing /home/runner/work/builds/builds/TheBusyBiscuit/SlimyTreeTaps/master/files/target/SlimyTreeTaps-20.jar with /home/runner/work/builds/builds/TheBusyBiscuit/SlimyTreeTaps/master/files/target/SlimyTreeTaps-DEV - 20 (git 963f0383)-shaded.jar
+[INFO] Dependency-reduced POM written at: /home/runner/work/builds/builds/TheBusyBiscuit/SlimyTreeTaps/master/files/dependency-reduced-pom.xml
+[INFO] 
+[INFO] ---------------< io.github.thebusybiscuit:SlimyTreeTaps >---------------
+[INFO] Building SlimyTreeTaps DEV - 20 (git 963f0383)
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- sonar-maven-plugin:3.9.0.2155:sonar (default-cli) @ SlimyTreeTaps ---
+[INFO] User cache: /home/runner/.sonar/cache
+[INFO] SonarQube version: 8.9.1
+[INFO] Default locale: "en", source code encoding: "UTF-8"
+[INFO] Load global settings
+[INFO] Load global settings (done) | time=596ms
+[INFO] Server id: 1BD809FA-AWHW8ct9-T_TB3XqouNu
+[INFO] User cache: /home/runner/.sonar/cache
+[INFO] Load/download plugins
+[INFO] Load plugins index
+[INFO] Load plugins index (done) | time=143ms
+[INFO] Load/download plugins (done) | time=368ms
+[INFO] Loaded core extensions: developer-scanner
+[INFO] Found an active CI vendor: 'Github Actions'
+[INFO] Load project settings for component key: 'TheBusyBiscuit_SlimyTreeTaps'
+[INFO] Load project settings for component key: 'TheBusyBiscuit_SlimyTreeTaps' (done) | time=128ms
+[INFO] Process project properties
+[INFO] Execute project builders
+[INFO] Execute project builders (done) | time=2ms
+[INFO] Project key: TheBusyBiscuit_SlimyTreeTaps
+[INFO] Base dir: /home/runner/work/builds/builds/TheBusyBiscuit/SlimyTreeTaps/master/files
+[INFO] Working dir: /home/runner/work/builds/builds/TheBusyBiscuit/SlimyTreeTaps/master/files/target/sonar
+[INFO] Load project branches
+[INFO] Load project branches (done) | time=130ms
+[INFO] Check ALM binding of project 'TheBusyBiscuit_SlimyTreeTaps'
+[INFO] Detected project binding: NOT_BOUND
+[INFO] Check ALM binding of project 'TheBusyBiscuit_SlimyTreeTaps' (done) | time=105ms
+[INFO] Load project pull requests
+[INFO] Load project pull requests (done) | time=111ms
+[INFO] Load branch configuration
+[INFO] Github event: workflow_dispatch
+[INFO] Load branch configuration (done) | time=2ms
+[INFO] Load quality profiles
+[INFO] Load quality profiles (done) | time=180ms
+[INFO] Load active rules
+[INFO] Load active rules (done) | time=4227ms
+[INFO] Organization key: thebusybiscuit-github
+[INFO] Indexing files...
+[INFO] Project configuration:
+[INFO] 6 files indexed
+[INFO] 1 file ignored because of scm ignore settings
+[INFO] Quality profile for java: Additional Checks
+[INFO] ------------- Run sensors on module SlimyTreeTaps
+[INFO] Load metrics repository
+[INFO] Load metrics repository (done) | time=110ms
+[INFO] Sensor JavaSensor [java]
+[INFO] Configured Java source version (sonar.java.source): 8
+[INFO] JavaClasspath initialization
+[INFO] JavaClasspath initialization (done) | time=4ms
+[INFO] JavaTestClasspath initialization
+[INFO] JavaTestClasspath initialization (done) | time=0ms
+[INFO] Java "Main" source files AST scan
+[INFO] 6 source files to be analyzed
+[INFO] Load project repositories
+[INFO] Load project repositories (done) | time=128ms
+[INFO] 6/6 source files have been analyzed
+[INFO] Java "Main" source files AST scan (done) | time=2801ms
+[INFO] No "Test" source files to scan.
+[INFO] No "Generated" source files to scan.
+[INFO] Sensor JavaSensor [java] (done) | time=3202ms
+[INFO] Sensor CSS Rules [cssfamily]
+[INFO] No CSS, PHP, HTML or VueJS files are found in the project. CSS analysis is skipped.
+[INFO] Sensor CSS Rules [cssfamily] (done) | time=2ms
+[INFO] Sensor C# Project Type Information [csharp]
+[INFO] Sensor C# Project Type Information [csharp] (done) | time=1ms
+[INFO] Sensor C# Analysis Log [csharp]
+[INFO] Sensor C# Analysis Log [csharp] (done) | time=12ms
+[INFO] Sensor C# Properties [csharp]
+[INFO] Sensor C# Properties [csharp] (done) | time=0ms
+[INFO] Sensor SurefireSensor [java]
+[INFO] parsing [/home/runner/work/builds/builds/TheBusyBiscuit/SlimyTreeTaps/master/files/target/surefire-reports]
+[INFO] Sensor SurefireSensor [java] (done) | time=3ms
+[INFO] Sensor JavaXmlSensor [java]
+[INFO] Sensor JavaXmlSensor [java] (done) | time=1ms
+[INFO] Sensor HTML [web]
+[INFO] Sensor HTML [web] (done) | time=3ms
+[INFO] Sensor VB.NET Project Type Information [vbnet]
+[INFO] Sensor VB.NET Project Type Information [vbnet] (done) | time=1ms
+[INFO] Sensor VB.NET Analysis Log [vbnet]
+[INFO] Sensor VB.NET Analysis Log [vbnet] (done) | time=11ms
+[INFO] Sensor VB.NET Properties [vbnet]
+[INFO] Sensor VB.NET Properties [vbnet] (done) | time=1ms
+[INFO] Sensor JaCoCo XML Report Importer [jacoco]
+[INFO] 'sonar.coverage.jacoco.xmlReportPaths' is not defined. Using default locations: target/site/jacoco/jacoco.xml,target/site/jacoco-it/jacoco.xml,build/reports/jacoco/test/jacocoTestReport.xml
+[INFO] No report imported, no coverage information will be imported by JaCoCo XML Report Importer
+[INFO] Sensor JaCoCo XML Report Importer [jacoco] (done) | time=4ms
+[INFO] Sensor ThymeLeaf template sensor [securityjavafrontend]
+[INFO] Sensor ThymeLeaf template sensor [securityjavafrontend] (done) | time=2ms
+[INFO] Sensor Serverless configuration file sensor [securityjsfrontend]
+[INFO] 0 Serverless function entries were found in the project
+[INFO] 0 Serverless function handlers were kept as entrypoints
+[INFO] Sensor Serverless configuration file sensor [securityjsfrontend] (done) | time=57ms
+[INFO] Sensor AWS SAM template file sensor [securityjsfrontend]
+[INFO] Sensor AWS SAM template file sensor [securityjsfrontend] (done) | time=2ms
+[INFO] Sensor JavaSecuritySensor [security]
+[INFO] Reading type hierarchy from: /home/runner/work/builds/builds/TheBusyBiscuit/SlimyTreeTaps/master/files/target/sonar/ucfg2/java
+[INFO] Read 114 type definitions
+[INFO] Reading UCFGs from: /home/runner/work/builds/builds/TheBusyBiscuit/SlimyTreeTaps/master/files/target/sonar/ucfg2/java
+[INFO] 13:22:31.809285655 Building Runtime Type propagation graph
+[INFO] 13:22:31.818533468 Running Tarjan on 253 nodes
+[INFO] 13:22:31.820868723 Tarjan found 253 components
+[INFO] 13:22:31.823854921 Variable type analysis: done
+[INFO] 13:22:31.825986462 Building Runtime Type propagation graph
+[INFO] 13:22:31.829900522 Running Tarjan on 253 nodes
+[INFO] 13:22:31.831137104 Tarjan found 253 components
+[INFO] 13:22:31.832456091 Variable type analysis: done
+[INFO] Analyzing 40 ucfgs to detect vulnerabilities.
+[INFO] All rules entrypoints : 0 Retained UCFGs : 0
+[INFO] rule: S5131, entrypoints: 0
+[INFO] rule: S5131 done
+[INFO] rule: S3649, entrypoints: 0
+[INFO] rule: S3649 done
+[INFO] rule: S2076, entrypoints: 0
+[INFO] rule: S2076 done
+[INFO] rule: S2091, entrypoints: 0
+[INFO] rule: S2091 done
+[INFO] rule: S2078, entrypoints: 0
+[INFO] rule: S2078 done
+[INFO] rule: S2631, entrypoints: 0
+[INFO] rule: S2631 done
+[INFO] rule: S5135, entrypoints: 0
+[INFO] rule: S5135 done
+[INFO] rule: S2083, entrypoints: 0
+[INFO] rule: S2083 done
+[INFO] rule: S5167, entrypoints: 0
+[INFO] rule: S5167 done
+[INFO] rule: S5144, entrypoints: 0
+[INFO] rule: S5144 done
+[INFO] rule: S5145, entrypoints: 0
+[INFO] rule: S5145 done
+[INFO] rule: S5146, entrypoints: 0
+[INFO] rule: S5146 done
+[INFO] rule: S5334, entrypoints: 0
+[INFO] rule: S5334 done
+[INFO] rule: S6096, entrypoints: 0
+[INFO] rule: S6096 done
+[INFO] Sensor JavaSecuritySensor [security] (done) | time=685ms
+[INFO] Sensor CSharpSecuritySensor [security]
+[INFO] Reading type hierarchy from: /home/runner/work/builds/builds/TheBusyBiscuit/SlimyTreeTaps/master/files/target/ucfg_cs2
+[INFO] Read 0 type definitions
+[INFO] Reading UCFGs from: /home/runner/work/builds/builds/TheBusyBiscuit/SlimyTreeTaps/master/files/target/ucfg_cs2
+[INFO] No UCFGs have been included for analysis.
+[INFO] Sensor CSharpSecuritySensor [security] (done) | time=0ms
+[INFO] Sensor PhpSecuritySensor [security]
+[INFO] Reading type hierarchy from: /home/runner/work/builds/builds/TheBusyBiscuit/SlimyTreeTaps/master/files/target/sonar/ucfg2/php
+[INFO] Read 0 type definitions
+[INFO] Reading UCFGs from: /home/runner/work/builds/builds/TheBusyBiscuit/SlimyTreeTaps/master/files/target/sonar/ucfg2/php
+[INFO] No UCFGs have been included for analysis.
+[INFO] Sensor PhpSecuritySensor [security] (done) | time=0ms
+[INFO] Sensor PythonSecuritySensor [security]
+[INFO] Reading type hierarchy from: /home/runner/work/builds/builds/TheBusyBiscuit/SlimyTreeTaps/master/files/target/sonar/ucfg2/python
+[INFO] Read 0 type definitions
+[INFO] Reading UCFGs from: /home/runner/work/builds/builds/TheBusyBiscuit/SlimyTreeTaps/master/files/target/sonar/ucfg2/python
+[INFO] No UCFGs have been included for analysis.
+[INFO] Sensor PythonSecuritySensor [security] (done) | time=0ms
+[INFO] Sensor JsSecuritySensor [security]
+[INFO] Reading type hierarchy from: /home/runner/work/builds/builds/TheBusyBiscuit/SlimyTreeTaps/master/files/target/sonar/ucfg2/js
+[INFO] Read 0 type definitions
+[INFO] Reading UCFGs from: /home/runner/work/builds/builds/TheBusyBiscuit/SlimyTreeTaps/master/files/target/sonar/ucfg2/js
+[INFO] 13:22:32.35711298 Building Runtime Type propagation graph
+[INFO] 13:22:32.357251589 Running Tarjan on 0 nodes
+[INFO] 13:22:32.357325394 Tarjan found 0 components
+[INFO] 13:22:32.357371897 Variable type analysis: done
+[INFO] 13:22:32.3574168 Building Runtime Type propagation graph
+[INFO] 13:22:32.357470603 Running Tarjan on 0 nodes
+[INFO] 13:22:32.357518806 Tarjan found 0 components
+[INFO] 13:22:32.362409131 Variable type analysis: done
+[INFO] Analyzing 2 ucfgs to detect vulnerabilities.
+[INFO] rule: S6105, entrypoints: 3
+[INFO] Running symbolic analysis
+[INFO] rule: S6105 done
+[INFO] rule: S5334, entrypoints: 3
+[INFO] Running symbolic analysis
+[INFO] rule: S5334 done
+[INFO] rule: S2076, entrypoints: 3
+[INFO] Running symbolic analysis
+[INFO] rule: S2076 done
+[INFO] rule: S5147, entrypoints: 3
+[INFO] Running symbolic analysis
+[INFO] rule: S5147 done
+[INFO] rule: S6096, entrypoints: 3
+[INFO] Running symbolic analysis
+[INFO] rule: S6096 done
+[INFO] rule: S2631, entrypoints: 3
+[INFO] Running symbolic analysis
+[INFO] rule: S2631 done
+[INFO] rule: S3649, entrypoints: 3
+[INFO] Running symbolic analysis
+[INFO] rule: S3649 done
+[INFO] rule: S5883, entrypoints: 3
+[INFO] Running symbolic analysis
+[INFO] rule: S5883 done
+[INFO] rule: S2083, entrypoints: 3
+[INFO] Running symbolic analysis
+[INFO] rule: S2083 done
+[INFO] rule: S5131, entrypoints: 3
+[INFO] Running symbolic analysis
+[INFO] rule: S5131 done
+[INFO] rule: S5144, entrypoints: 3
+[INFO] Running symbolic analysis
+[INFO] rule: S5144 done
+[INFO] rule: S5146, entrypoints: 3
+[INFO] Running symbolic analysis
+[INFO] rule: S5146 done
+[INFO] rule: S5696, entrypoints: 3
+[INFO] Running symbolic analysis
+[INFO] rule: S5696 done
+[INFO] Sensor JsSecuritySensor [security] (done) | time=722ms
+[INFO] ------------- Run sensors on project
+[INFO] Sensor Zero Coverage Sensor
+[INFO] Sensor Zero Coverage Sensor (done) | time=8ms
+[INFO] Sensor Java CPD Block Indexer
+[INFO] Sensor Java CPD Block Indexer (done) | time=30ms
+[INFO] SCM Publisher SCM provider for this project is: git
+[INFO] SCM Publisher 5 source files to be analyzed
+[INFO] SCM Publisher 5/5 source files have been analyzed (done) | time=155ms
+[INFO] CPD Executor Calculating CPD for 6 files
+[INFO] CPD Executor CPD calculation finished (done) | time=17ms
+[INFO] Analysis report generated in 413ms, dir size=238 KB
+[INFO] Analysis report compressed in 24ms, zip size=61 KB
+[INFO] Analysis report uploaded in 335ms
+[INFO] ANALYSIS SUCCESSFUL, you can find the results at: https://sonarcloud.io/dashboard?id=TheBusyBiscuit_SlimyTreeTaps
+[INFO] Note that you will be able to access the updated dashboard once the server has processed the submitted analysis report
+[INFO] More about the report processing at https://sonarcloud.io/api/ce/task?id=AXu7RlWaj26EpdV4zm0r
+[INFO] Analysis total time: 13.322 s
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  20.616 s
+[INFO] Finished at: 2021-09-06T13:22:34Z
+[INFO] ------------------------------------------------------------------------
