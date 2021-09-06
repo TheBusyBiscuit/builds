@@ -1,0 +1,65 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------------< io.github.mooy1:SimpleUtils >---------------------
+[INFO] Building SimpleUtils DEV - 11 (git 2459e526)
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/io/github/mooy1/InfinityLib/1.2.1/InfinityLib-1.2.1.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/io/github/mooy1/InfinityLib/1.2.1/InfinityLib-1.2.1.pom
+[INFO] Downloaded from jitpack.io: https://jitpack.io/io/github/mooy1/InfinityLib/1.2.1/InfinityLib-1.2.1.pom (5.8 kB at 28 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/io/github/mooy1/InfinityLib/1.2.1/InfinityLib-1.2.1.jar
+[INFO] Downloading from jitpack.io: https://jitpack.io/io/github/mooy1/InfinityLib/1.2.1/InfinityLib-1.2.1.jar
+[INFO] Downloaded from jitpack.io: https://jitpack.io/io/github/mooy1/InfinityLib/1.2.1/InfinityLib-1.2.1.jar (91 kB at 1.2 MB/s)
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ SimpleUtils ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ SimpleUtils ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ SimpleUtils ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 7 source files to /home/runner/work/builds/builds/Mooy1/SimpleUtils/master/files/target/classes
+[WARNING] /home/runner/work/builds/builds/Mooy1/SimpleUtils/master/files/src/main/java/io/github/mooy1/simpleutils/implementation/blocks/Workbench.java: /home/runner/work/builds/builds/Mooy1/SimpleUtils/master/files/src/main/java/io/github/mooy1/simpleutils/implementation/blocks/Workbench.java uses or overrides a deprecated API.
+[WARNING] /home/runner/work/builds/builds/Mooy1/SimpleUtils/master/files/src/main/java/io/github/mooy1/simpleutils/implementation/blocks/Workbench.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ SimpleUtils ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/runner/work/builds/builds/Mooy1/SimpleUtils/master/files/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ SimpleUtils ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to /home/runner/work/builds/builds/Mooy1/SimpleUtils/master/files/target/test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:3.0.0-M5:test (default-test) @ SimpleUtils ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running io.github.mooy1.simpleutils.TestSimpleUtils
+Sep 06, 2021 1:26:08 PM org.bukkit.plugin.java.JavaPluginLoader <init>
+WARNING: Could not initialize LibraryLoader (missing dependencies?)
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.078 s - in io.github.mooy1.simpleutils.TestSimpleUtils
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ SimpleUtils ---
+[INFO] Building jar: /home/runner/work/builds/builds/Mooy1/SimpleUtils/master/files/target/SimpleUtils-11.jar
+[INFO] 
+[INFO] --- maven-shade-plugin:3.2.4:shade (default) @ SimpleUtils ---
+[INFO] Including io.github.mooy1:InfinityLib:jar:1.2.1 in the shaded jar.
+[INFO] Minimizing jar io.github.mooy1:SimpleUtils:jar:DEV - 11 (git 2459e526)
+[WARNING] /home/runner/work/builds/builds/Mooy1/SimpleUtils/master/files/target/classes (Is a directory)
+[INFO] Minimized 65 -> 45 (69%)
+[INFO] Replacing original artifact with shaded artifact.
+[INFO] Replacing /home/runner/work/builds/builds/Mooy1/SimpleUtils/master/files/target/SimpleUtils-11.jar with /home/runner/work/builds/builds/Mooy1/SimpleUtils/master/files/target/SimpleUtils-DEV - 11 (git 2459e526)-shaded.jar
+[INFO] Dependency-reduced POM written at: /home/runner/work/builds/builds/Mooy1/SimpleUtils/master/files/dependency-reduced-pom.xml
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  5.887 s
+[INFO] Finished at: 2021-09-06T13:26:10Z
+[INFO] ------------------------------------------------------------------------
