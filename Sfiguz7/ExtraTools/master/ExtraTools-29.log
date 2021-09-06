@@ -1,0 +1,52 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -----------------------< me.sfiguz7:ExtraTools >------------------------
+[INFO] Building ExtraTools DEV - 29 (git 83f6db7f)
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] Downloading from bstats-repo: https://repo.codemc.org/repository/maven-public/org/bukkit/bukkit/1.15.2-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/bukkit/bukkit/1.15.2-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/bukkit/bukkit/1.15.2-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/bukkit/bukkit/1.15.2-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloaded from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/bukkit/bukkit/1.15.2-R0.1-SNAPSHOT/maven-metadata.xml (1.5 kB at 3.4 kB/s)
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/bukkit/bukkit/1.15.2-R0.1-SNAPSHOT/maven-metadata.xml (1.5 kB at 985 B/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/bukkit/bukkit/1.15.2-R0.1-SNAPSHOT/bukkit-1.15.2-R0.1-20200624.001047-124.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/bukkit/bukkit/1.15.2-R0.1-SNAPSHOT/bukkit-1.15.2-R0.1-20200624.001047-124.pom (9.4 kB at 6.9 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/bukkit/bukkit/1.15.2-R0.1-SNAPSHOT/bukkit-1.15.2-R0.1-20200624.001047-124.jar
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/bukkit/bukkit/1.15.2-R0.1-SNAPSHOT/bukkit-1.15.2-R0.1-20200624.001047-124.jar (1.2 MB at 587 kB/s)
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ ExtraTools ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ ExtraTools ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ ExtraTools ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 10 source files to /home/runner/work/builds/builds/Sfiguz7/ExtraTools/master/files/target/classes
+[WARNING] /home/runner/work/builds/builds/Sfiguz7/ExtraTools/master/files/src/main/java/me/sfiguz7/extratools/implementation/machines/CobblestoneGenerator.java: /home/runner/work/builds/builds/Sfiguz7/ExtraTools/master/files/src/main/java/me/sfiguz7/extratools/implementation/machines/CobblestoneGenerator.java uses or overrides a deprecated API.
+[WARNING] /home/runner/work/builds/builds/Sfiguz7/ExtraTools/master/files/src/main/java/me/sfiguz7/extratools/implementation/machines/CobblestoneGenerator.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ ExtraTools ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/runner/work/builds/builds/Sfiguz7/ExtraTools/master/files/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ ExtraTools ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ ExtraTools ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ ExtraTools ---
+[INFO] Building jar: /home/runner/work/builds/builds/Sfiguz7/ExtraTools/master/files/target/ExtraTools-29.jar
+[INFO] 
+[INFO] --- maven-shade-plugin:3.2.4:shade (default) @ ExtraTools ---
+[INFO] Including org.bstats:bstats-bukkit:jar:1.7 in the shaded jar.
+[INFO] Replacing original artifact with shaded artifact.
+[INFO] Replacing /home/runner/work/builds/builds/Sfiguz7/ExtraTools/master/files/target/ExtraTools-29.jar with /home/runner/work/builds/builds/Sfiguz7/ExtraTools/master/files/target/ExtraTools-DEV - 29 (git 83f6db7f)-shaded.jar
+[INFO] Dependency-reduced POM written at: /home/runner/work/builds/builds/Sfiguz7/ExtraTools/master/files/dependency-reduced-pom.xml
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  7.609 s
+[INFO] Finished at: 2021-09-06T13:24:31Z
+[INFO] ------------------------------------------------------------------------
