@@ -1,0 +1,135 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -----------------< dev.j3fftw.headlimiter:HeadLimiter >-----------------
+[INFO] Building HeadLimiter DEV - 4 (git 0c6ced86)
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] Downloading from bstats-repo: https://repo.codemc.org/repository/maven-public/com/destroystokyo/paper/paper-api/1.16.5-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from papermc-repo: https://papermc.io/repo/repository/maven-public/com/destroystokyo/paper/paper-api/1.16.5-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/com/destroystokyo/paper/paper-api/1.16.5-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/destroystokyo/paper/paper-api/1.16.5-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloaded from papermc-repo: https://papermc.io/repo/repository/maven-public/com/destroystokyo/paper/paper-api/1.16.5-R0.1-SNAPSHOT/maven-metadata.xml (1.5 kB at 2.7 kB/s)
+[INFO] Downloading from papermc-repo: https://papermc.io/repo/repository/maven-public/com/destroystokyo/paper/paper-api/1.16.5-R0.1-SNAPSHOT/paper-api-1.16.5-R0.1-20210829.193010-365.pom
+[INFO] Downloaded from papermc-repo: https://papermc.io/repo/repository/maven-public/com/destroystokyo/paper/paper-api/1.16.5-R0.1-SNAPSHOT/paper-api-1.16.5-R0.1-20210829.193010-365.pom (14 kB at 38 kB/s)
+[INFO] Downloading from papermc-repo: https://papermc.io/repo/repository/maven-public/com/destroystokyo/paper/paper-parent/dev-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/com/destroystokyo/paper/paper-parent/dev-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/destroystokyo/paper/paper-parent/dev-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from bstats-repo: https://repo.codemc.org/repository/maven-public/com/destroystokyo/paper/paper-parent/dev-SNAPSHOT/maven-metadata.xml
+[INFO] Downloaded from papermc-repo: https://papermc.io/repo/repository/maven-public/com/destroystokyo/paper/paper-parent/dev-SNAPSHOT/maven-metadata.xml (610 B at 2.3 kB/s)
+[INFO] Downloading from papermc-repo: https://papermc.io/repo/repository/maven-public/com/destroystokyo/paper/paper-parent/dev-SNAPSHOT/paper-parent-dev-20200427.054227-11.pom
+[INFO] Downloaded from papermc-repo: https://papermc.io/repo/repository/maven-public/com/destroystokyo/paper/paper-parent/dev-SNAPSHOT/paper-parent-dev-20200427.054227-11.pom (1.9 kB at 7.1 kB/s)
+[INFO] Downloading from papermc-repo: https://papermc.io/repo/repository/maven-public/net/kyori/adventure-bom/4.7.0/adventure-bom-4.7.0.pom
+[INFO] Downloaded from papermc-repo: https://papermc.io/repo/repository/maven-public/net/kyori/adventure-bom/4.7.0/adventure-bom-4.7.0.pom (3.9 kB at 15 kB/s)
+[INFO] Downloading from papermc-repo: https://papermc.io/repo/repository/maven-public/net/kyori/adventure-api/4.7.0/adventure-api-4.7.0.pom
+[INFO] Downloaded from papermc-repo: https://papermc.io/repo/repository/maven-public/net/kyori/adventure-api/4.7.0/adventure-api-4.7.0.pom (3.3 kB at 13 kB/s)
+[INFO] Downloading from papermc-repo: https://papermc.io/repo/repository/maven-public/net/kyori/adventure-key/4.7.0/adventure-key-4.7.0.pom
+[INFO] Downloaded from papermc-repo: https://papermc.io/repo/repository/maven-public/net/kyori/adventure-key/4.7.0/adventure-key-4.7.0.pom (3.1 kB at 5.2 kB/s)
+[INFO] Downloading from papermc-repo: https://papermc.io/repo/repository/maven-public/net/kyori/examination-api/1.1.0/examination-api-1.1.0.pom
+[INFO] Downloaded from papermc-repo: https://papermc.io/repo/repository/maven-public/net/kyori/examination-api/1.1.0/examination-api-1.1.0.pom (2.0 kB at 3.5 kB/s)
+[INFO] Downloading from papermc-repo: https://papermc.io/repo/repository/maven-public/org/checkerframework/checker-qual/3.10.0/checker-qual-3.10.0.pom
+[INFO] Downloaded from papermc-repo: https://papermc.io/repo/repository/maven-public/org/checkerframework/checker-qual/3.10.0/checker-qual-3.10.0.pom (2.1 kB at 7.9 kB/s)
+[INFO] Downloading from papermc-repo: https://papermc.io/repo/repository/maven-public/net/kyori/examination-string/1.1.0/examination-string-1.1.0.pom
+[INFO] Downloaded from papermc-repo: https://papermc.io/repo/repository/maven-public/net/kyori/examination-string/1.1.0/examination-string-1.1.0.pom (2.0 kB at 7.8 kB/s)
+[INFO] Downloading from papermc-repo: https://papermc.io/repo/repository/maven-public/org/checkerframework/checker-qual/3.11.0/checker-qual-3.11.0.pom
+[INFO] Downloaded from papermc-repo: https://papermc.io/repo/repository/maven-public/org/checkerframework/checker-qual/3.11.0/checker-qual-3.11.0.pom (2.1 kB at 8.2 kB/s)
+[INFO] Downloading from papermc-repo: https://papermc.io/repo/repository/maven-public/org/jetbrains/annotations/20.1.0/annotations-20.1.0.pom
+[INFO] Downloaded from papermc-repo: https://papermc.io/repo/repository/maven-public/org/jetbrains/annotations/20.1.0/annotations-20.1.0.pom (1.4 kB at 5.3 kB/s)
+[INFO] Downloading from papermc-repo: https://papermc.io/repo/repository/maven-public/net/kyori/adventure-text-serializer-gson/4.7.0/adventure-text-serializer-gson-4.7.0.pom
+[INFO] Downloaded from papermc-repo: https://papermc.io/repo/repository/maven-public/net/kyori/adventure-text-serializer-gson/4.7.0/adventure-text-serializer-gson-4.7.0.pom (2.8 kB at 11 kB/s)
+[INFO] Downloading from papermc-repo: https://papermc.io/repo/repository/maven-public/net/kyori/adventure-text-serializer-legacy/4.7.0/adventure-text-serializer-legacy-4.7.0.pom
+[INFO] Downloaded from papermc-repo: https://papermc.io/repo/repository/maven-public/net/kyori/adventure-text-serializer-legacy/4.7.0/adventure-text-serializer-legacy-4.7.0.pom (2.6 kB at 10 kB/s)
+[INFO] Downloading from papermc-repo: https://papermc.io/repo/repository/maven-public/net/kyori/adventure-text-serializer-plain/4.7.0/adventure-text-serializer-plain-4.7.0.pom
+[INFO] Downloaded from papermc-repo: https://papermc.io/repo/repository/maven-public/net/kyori/adventure-text-serializer-plain/4.7.0/adventure-text-serializer-plain-4.7.0.pom (2.6 kB at 10 kB/s)
+[INFO] Downloading from papermc-repo: https://papermc.io/repo/repository/maven-public/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.pom
+[INFO] Downloaded from papermc-repo: https://papermc.io/repo/repository/maven-public/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.pom (3.5 kB at 14 kB/s)
+[INFO] Downloading from papermc-repo: https://papermc.io/repo/repository/maven-public/junit/junit/4.10/junit-4.10.pom
+[INFO] Downloaded from papermc-repo: https://papermc.io/repo/repository/maven-public/junit/junit/4.10/junit-4.10.pom (2.3 kB at 9.5 kB/s)
+[INFO] Downloading from papermc-repo: https://papermc.io/repo/repository/maven-public/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.pom
+[INFO] Downloaded from papermc-repo: https://papermc.io/repo/repository/maven-public/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.pom (481 B at 1.8 kB/s)
+[INFO] Downloading from papermc-repo: https://papermc.io/repo/repository/maven-public/org/hamcrest/hamcrest-parent/1.1/hamcrest-parent-1.1.pom
+[INFO] Downloaded from papermc-repo: https://papermc.io/repo/repository/maven-public/org/hamcrest/hamcrest-parent/1.1/hamcrest-parent-1.1.pom (5.9 kB at 24 kB/s)
+[INFO] Downloading from papermc-repo: https://papermc.io/repo/repository/maven-public/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.pom
+[INFO] Downloaded from papermc-repo: https://papermc.io/repo/repository/maven-public/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.pom (3.8 kB at 15 kB/s)
+[INFO] Downloading from papermc-repo: https://papermc.io/repo/repository/maven-public/org/slf4j/slf4j-parent/1.7.25/slf4j-parent-1.7.25.pom
+[INFO] Downloaded from papermc-repo: https://papermc.io/repo/repository/maven-public/org/slf4j/slf4j-parent/1.7.25/slf4j-parent-1.7.25.pom (14 kB at 52 kB/s)
+[INFO] Downloading from papermc-repo: https://papermc.io/repo/repository/maven-public/org/ow2/asm/asm/9.0/asm-9.0.pom
+[INFO] Downloaded from papermc-repo: https://papermc.io/repo/repository/maven-public/org/ow2/asm/asm/9.0/asm-9.0.pom (2.7 kB at 11 kB/s)
+[INFO] Downloading from papermc-repo: https://papermc.io/repo/repository/maven-public/org/ow2/asm/asm-commons/9.0/asm-commons-9.0.pom
+[INFO] Downloaded from papermc-repo: https://papermc.io/repo/repository/maven-public/org/ow2/asm/asm-commons/9.0/asm-commons-9.0.pom (3.3 kB at 13 kB/s)
+[INFO] Downloading from papermc-repo: https://papermc.io/repo/repository/maven-public/org/ow2/asm/asm-tree/9.0/asm-tree-9.0.pom
+[INFO] Downloaded from papermc-repo: https://papermc.io/repo/repository/maven-public/org/ow2/asm/asm-tree/9.0/asm-tree-9.0.pom (2.9 kB at 12 kB/s)
+[INFO] Downloading from papermc-repo: https://papermc.io/repo/repository/maven-public/org/ow2/asm/asm-analysis/9.0/asm-analysis-9.0.pom
+[INFO] Downloaded from papermc-repo: https://papermc.io/repo/repository/maven-public/org/ow2/asm/asm-analysis/9.0/asm-analysis-9.0.pom (3.0 kB at 12 kB/s)
+[INFO] Downloading from papermc-repo: https://papermc.io/repo/repository/maven-public/com/destroystokyo/paper/paper-api/1.16.5-R0.1-SNAPSHOT/paper-api-1.16.5-R0.1-20210829.193010-365.jar
+[INFO] Downloading from papermc-repo: https://papermc.io/repo/repository/maven-public/net/kyori/adventure-api/4.7.0/adventure-api-4.7.0.jar
+[INFO] Downloading from papermc-repo: https://papermc.io/repo/repository/maven-public/net/kyori/adventure-key/4.7.0/adventure-key-4.7.0.jar
+[INFO] Downloading from papermc-repo: https://papermc.io/repo/repository/maven-public/net/kyori/examination-api/1.1.0/examination-api-1.1.0.jar
+[INFO] Downloading from papermc-repo: https://papermc.io/repo/repository/maven-public/net/kyori/examination-string/1.1.0/examination-string-1.1.0.jar
+[INFO] Downloaded from papermc-repo: https://papermc.io/repo/repository/maven-public/com/destroystokyo/paper/paper-api/1.16.5-R0.1-SNAPSHOT/paper-api-1.16.5-R0.1-20210829.193010-365.jar (1.6 MB at 5.7 MB/s)
+[INFO] Downloading from papermc-repo: https://papermc.io/repo/repository/maven-public/org/checkerframework/checker-qual/3.11.0/checker-qual-3.11.0.jar
+[INFO] Downloaded from papermc-repo: https://papermc.io/repo/repository/maven-public/net/kyori/examination-string/1.1.0/examination-string-1.1.0.jar (5.9 kB at 9.0 kB/s)
+[INFO] Downloading from papermc-repo: https://papermc.io/repo/repository/maven-public/org/jetbrains/annotations/20.1.0/annotations-20.1.0.jar
+[INFO] Downloaded from papermc-repo: https://papermc.io/repo/repository/maven-public/org/checkerframework/checker-qual/3.11.0/checker-qual-3.11.0.jar (208 kB at 244 kB/s)
+[INFO] Downloading from papermc-repo: https://papermc.io/repo/repository/maven-public/net/kyori/adventure-text-serializer-gson/4.7.0/adventure-text-serializer-gson-4.7.0.jar
+[INFO] Downloaded from papermc-repo: https://papermc.io/repo/repository/maven-public/net/kyori/adventure-key/4.7.0/adventure-key-4.7.0.jar (8.2 kB at 8.6 kB/s)
+[INFO] Downloading from papermc-repo: https://papermc.io/repo/repository/maven-public/net/kyori/adventure-text-serializer-legacy/4.7.0/adventure-text-serializer-legacy-4.7.0.jar
+[INFO] Downloaded from papermc-repo: https://papermc.io/repo/repository/maven-public/net/kyori/adventure-api/4.7.0/adventure-api-4.7.0.jar (235 kB at 241 kB/s)
+[INFO] Downloading from papermc-repo: https://papermc.io/repo/repository/maven-public/net/kyori/adventure-text-serializer-plain/4.7.0/adventure-text-serializer-plain-4.7.0.jar
+[INFO] Downloaded from papermc-repo: https://papermc.io/repo/repository/maven-public/net/kyori/examination-api/1.1.0/examination-api-1.1.0.jar (22 kB at 22 kB/s)
+[INFO] Downloading from papermc-repo: https://papermc.io/repo/repository/maven-public/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.jar
+[INFO] Downloaded from papermc-repo: https://papermc.io/repo/repository/maven-public/org/jetbrains/annotations/20.1.0/annotations-20.1.0.jar (26 kB at 22 kB/s)
+[INFO] Downloading from papermc-repo: https://papermc.io/repo/repository/maven-public/junit/junit/4.10/junit-4.10.jar
+[INFO] Downloaded from papermc-repo: https://papermc.io/repo/repository/maven-public/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.jar (24 kB at 17 kB/s)
+[INFO] Downloading from papermc-repo: https://papermc.io/repo/repository/maven-public/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar
+[INFO] Downloaded from papermc-repo: https://papermc.io/repo/repository/maven-public/net/kyori/adventure-text-serializer-gson/4.7.0/adventure-text-serializer-gson-4.7.0.jar (30 kB at 21 kB/s)
+[INFO] Downloading from papermc-repo: https://papermc.io/repo/repository/maven-public/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar
+[INFO] Downloaded from papermc-repo: https://papermc.io/repo/repository/maven-public/junit/junit/4.10/junit-4.10.jar (253 kB at 142 kB/s)
+[INFO] Downloading from papermc-repo: https://papermc.io/repo/repository/maven-public/org/ow2/asm/asm/9.0/asm-9.0.jar
+[INFO] Downloaded from papermc-repo: https://papermc.io/repo/repository/maven-public/net/kyori/adventure-text-serializer-legacy/4.7.0/adventure-text-serializer-legacy-4.7.0.jar (21 kB at 12 kB/s)
+[INFO] Downloading from papermc-repo: https://papermc.io/repo/repository/maven-public/org/ow2/asm/asm-commons/9.0/asm-commons-9.0.jar
+[INFO] Downloaded from papermc-repo: https://papermc.io/repo/repository/maven-public/net/kyori/adventure-text-serializer-plain/4.7.0/adventure-text-serializer-plain-4.7.0.jar (6.0 kB at 3.2 kB/s)
+[INFO] Downloading from papermc-repo: https://papermc.io/repo/repository/maven-public/org/ow2/asm/asm-tree/9.0/asm-tree-9.0.jar
+[INFO] Downloaded from papermc-repo: https://papermc.io/repo/repository/maven-public/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar (77 kB at 41 kB/s)
+[INFO] Downloading from papermc-repo: https://papermc.io/repo/repository/maven-public/org/ow2/asm/asm-analysis/9.0/asm-analysis-9.0.jar
+[INFO] Downloaded from papermc-repo: https://papermc.io/repo/repository/maven-public/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar (41 kB at 21 kB/s)
+[INFO] Downloaded from papermc-repo: https://papermc.io/repo/repository/maven-public/org/ow2/asm/asm/9.0/asm-9.0.jar (122 kB at 52 kB/s)
+[INFO] Downloaded from papermc-repo: https://papermc.io/repo/repository/maven-public/org/ow2/asm/asm-tree/9.0/asm-tree-9.0.jar (53 kB at 19 kB/s)
+[INFO] Downloaded from papermc-repo: https://papermc.io/repo/repository/maven-public/org/ow2/asm/asm-commons/9.0/asm-commons-9.0.jar (72 kB at 26 kB/s)
+[INFO] Downloaded from papermc-repo: https://papermc.io/repo/repository/maven-public/org/ow2/asm/asm-analysis/9.0/asm-analysis-9.0.jar (33 kB at 12 kB/s)
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ HeadLimiter ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ HeadLimiter ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources to .
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.5.1:compile (default-compile) @ HeadLimiter ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to /home/runner/work/builds/builds/J3fftw1/HeadLimiter/master/files/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ HeadLimiter ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/runner/work/builds/builds/J3fftw1/HeadLimiter/master/files/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.5.1:testCompile (default-testCompile) @ HeadLimiter ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ HeadLimiter ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ HeadLimiter ---
+[INFO] Building jar: /home/runner/work/builds/builds/J3fftw1/HeadLimiter/master/files/target/HeadLimiter-4.jar
+[INFO] 
+[INFO] --- maven-shade-plugin:2.3:shade (default) @ HeadLimiter ---
+[INFO] Including com.github.Slimefun-Addon-Community:extrautils:jar:cea1be6550 in the shaded jar.
+[INFO] Including org.bstats:bstats-bukkit:jar:1.7 in the shaded jar.
+[INFO] Replacing original artifact with shaded artifact.
+[INFO] Replacing /home/runner/work/builds/builds/J3fftw1/HeadLimiter/master/files/target/HeadLimiter-4.jar with /home/runner/work/builds/builds/J3fftw1/HeadLimiter/master/files/target/HeadLimiter-DEV - 4 (git 0c6ced86)-shaded.jar
+[INFO] Dependency-reduced POM written at: /home/runner/work/builds/builds/J3fftw1/HeadLimiter/master/files/dependency-reduced-pom.xml
+[INFO] Dependency-reduced POM written at: /home/runner/work/builds/builds/J3fftw1/HeadLimiter/master/files/dependency-reduced-pom.xml
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  12.855 s
+[INFO] Finished at: 2021-09-06T13:26:26Z
+[INFO] ------------------------------------------------------------------------
