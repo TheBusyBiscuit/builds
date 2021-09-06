@@ -1,0 +1,312 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------------< io.github.thebusybiscuit:MobCapturer >----------------
+[INFO] Building MobCapturer DEV - 16 (git a55be0fd)
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/spigotmc/spigot-api/1.15.2-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/spigotmc/spigot-api/1.15.2-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/spigotmc/spigot-api/1.15.2-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloaded from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/spigotmc/spigot-api/1.15.2-R0.1-SNAPSHOT/maven-metadata.xml (1.5 kB at 4.0 kB/s)
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/spigotmc/spigot-api/1.15.2-R0.1-SNAPSHOT/maven-metadata.xml (1.5 kB at 1.0 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/spigotmc/spigot-api/1.15.2-R0.1-SNAPSHOT/spigot-api-1.15.2-R0.1-20200624.001023-124.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/spigotmc/spigot-api/1.15.2-R0.1-SNAPSHOT/spigot-api-1.15.2-R0.1-20200624.001023-124.pom (9.6 kB at 8.3 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/net/md-5/bungeecord-chat/1.15-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/net/md-5/bungeecord-chat/1.15-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from jitpack.io: https://jitpack.io/net/md-5/bungeecord-chat/1.15-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from spigotmc-public: https://hub.spigotmc.org/nexus/content/groups/public/net/md-5/bungeecord-chat/1.15-SNAPSHOT/maven-metadata.xml
+[INFO] Downloaded from spigotmc-public: https://hub.spigotmc.org/nexus/content/groups/public/net/md-5/bungeecord-chat/1.15-SNAPSHOT/maven-metadata.xml (1.2 kB at 9.0 kB/s)
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/net/md-5/bungeecord-chat/1.15-SNAPSHOT/maven-metadata.xml (1.2 kB at 999 B/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/net/md-5/bungeecord-chat/1.15-SNAPSHOT/bungeecord-chat-1.15-20200526.094816-73.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/net/md-5/bungeecord-chat/1.15-SNAPSHOT/bungeecord-chat-1.15-20200526.094816-73.pom (986 B at 1.2 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/net/md-5/bungeecord-parent/1.15-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/net/md-5/bungeecord-parent/1.15-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from jitpack.io: https://jitpack.io/net/md-5/bungeecord-parent/1.15-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from spigotmc-public: https://hub.spigotmc.org/nexus/content/groups/public/net/md-5/bungeecord-parent/1.15-SNAPSHOT/maven-metadata.xml
+[INFO] Downloaded from spigotmc-public: https://hub.spigotmc.org/nexus/content/groups/public/net/md-5/bungeecord-parent/1.15-SNAPSHOT/maven-metadata.xml (602 B at 8.4 kB/s)
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/net/md-5/bungeecord-parent/1.15-SNAPSHOT/maven-metadata.xml (602 B at 743 B/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/net/md-5/bungeecord-parent/1.15-SNAPSHOT/bungeecord-parent-1.15-20200526.094750-74.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/net/md-5/bungeecord-parent/1.15-SNAPSHOT/bungeecord-parent-1.15-20200526.094750-74.pom (9.4 kB at 19 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/yaml/snakeyaml/1.25/snakeyaml-1.25.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/yaml/snakeyaml/1.25/snakeyaml-1.25.pom (38 kB at 42 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/bstats/bstats-bukkit/2.1.0/bstats-bukkit-2.1.0.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/bstats/bstats-bukkit/2.1.0/bstats-bukkit-2.1.0.pom (1.7 kB at 1.6 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/bstats/bstats-base/2.1.0/bstats-base-2.1.0.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/bstats/bstats-base/2.1.0/bstats-base-2.1.0.pom (1.5 kB at 3.1 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/spigotmc/spigot-api/1.15.2-R0.1-SNAPSHOT/spigot-api-1.15.2-R0.1-20200624.001023-124.jar
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/net/md-5/bungeecord-chat/1.15-SNAPSHOT/bungeecord-chat-1.15-20200526.094816-73.jar
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/yaml/snakeyaml/1.25/snakeyaml-1.25.jar
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/bstats/bstats-bukkit/2.1.0/bstats-bukkit-2.1.0.jar
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/bstats/bstats-base/2.1.0/bstats-base-2.1.0.jar
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/bstats/bstats-base/2.1.0/bstats-base-2.1.0.jar (18 kB at 11 kB/s)
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/bstats/bstats-bukkit/2.1.0/bstats-bukkit-2.1.0.jar (4.0 kB at 2.2 kB/s)
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/net/md-5/bungeecord-chat/1.15-SNAPSHOT/bungeecord-chat-1.15-20200526.094816-73.jar (132 kB at 69 kB/s)
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/yaml/snakeyaml/1.25/snakeyaml-1.25.jar (303 kB at 152 kB/s)
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/spigotmc/spigot-api/1.15.2-R0.1-SNAPSHOT/spigot-api-1.15.2-R0.1-20200624.001023-124.jar (1.3 MB at 603 kB/s)
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ MobCapturer ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ MobCapturer ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ MobCapturer ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 39 source files to /home/runner/work/builds/builds/TheBusyBiscuit/MobCapturer/master/files/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ MobCapturer ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/runner/work/builds/builds/TheBusyBiscuit/MobCapturer/master/files/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ MobCapturer ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ MobCapturer ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ MobCapturer ---
+[INFO] Building jar: /home/runner/work/builds/builds/TheBusyBiscuit/MobCapturer/master/files/target/MobCapturer-16.jar
+[INFO] 
+[INFO] --- maven-shade-plugin:3.2.4:shade (default) @ MobCapturer ---
+[INFO] Including org.bstats:bstats-bukkit:jar:2.1.0 in the shaded jar.
+[INFO] Including org.bstats:bstats-base:jar:2.1.0 in the shaded jar.
+[INFO] Replacing original artifact with shaded artifact.
+[INFO] Replacing /home/runner/work/builds/builds/TheBusyBiscuit/MobCapturer/master/files/target/MobCapturer-16.jar with /home/runner/work/builds/builds/TheBusyBiscuit/MobCapturer/master/files/target/MobCapturer-DEV - 16 (git a55be0fd)-shaded.jar
+[INFO] Dependency-reduced POM written at: /home/runner/work/builds/builds/TheBusyBiscuit/MobCapturer/master/files/dependency-reduced-pom.xml
+[INFO] 
+[INFO] ----------------< io.github.thebusybiscuit:MobCapturer >----------------
+[INFO] Building MobCapturer DEV - 16 (git a55be0fd)
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- sonar-maven-plugin:3.9.0.2155:sonar (default-cli) @ MobCapturer ---
+[INFO] User cache: /home/runner/.sonar/cache
+[INFO] SonarQube version: 8.9.1
+[INFO] Default locale: "en", source code encoding: "UTF-8"
+[INFO] Load global settings
+[INFO] Load global settings (done) | time=591ms
+[INFO] Server id: 1BD809FA-AWHW8ct9-T_TB3XqouNu
+[INFO] User cache: /home/runner/.sonar/cache
+[INFO] Load/download plugins
+[INFO] Load plugins index
+[INFO] Load plugins index (done) | time=143ms
+[INFO] Load/download plugins (done) | time=357ms
+[INFO] Loaded core extensions: developer-scanner
+[INFO] Found an active CI vendor: 'Github Actions'
+[INFO] Load project settings for component key: 'TheBusyBiscuit_MobCapturer'
+[INFO] Load project settings for component key: 'TheBusyBiscuit_MobCapturer' (done) | time=118ms
+[INFO] Process project properties
+[INFO] Execute project builders
+[INFO] Execute project builders (done) | time=2ms
+[INFO] Project key: TheBusyBiscuit_MobCapturer
+[INFO] Base dir: /home/runner/work/builds/builds/TheBusyBiscuit/MobCapturer/master/files
+[INFO] Working dir: /home/runner/work/builds/builds/TheBusyBiscuit/MobCapturer/master/files/target/sonar
+[INFO] Load project branches
+[INFO] Load project branches (done) | time=116ms
+[INFO] Check ALM binding of project 'TheBusyBiscuit_MobCapturer'
+[INFO] Detected project binding: NOT_BOUND
+[INFO] Check ALM binding of project 'TheBusyBiscuit_MobCapturer' (done) | time=108ms
+[INFO] Load project pull requests
+[INFO] Load project pull requests (done) | time=108ms
+[INFO] Load branch configuration
+[INFO] Github event: workflow_dispatch
+[INFO] Load branch configuration (done) | time=2ms
+[INFO] Load quality profiles
+[INFO] Load quality profiles (done) | time=156ms
+[INFO] Load active rules
+[INFO] Load active rules (done) | time=4106ms
+[INFO] Organization key: thebusybiscuit-github
+[INFO] Indexing files...
+[INFO] Project configuration:
+[INFO] 39 files indexed
+[INFO] 1 file ignored because of scm ignore settings
+[INFO] Quality profile for java: Additional Checks
+[INFO] ------------- Run sensors on module MobCapturer
+[INFO] Load metrics repository
+[INFO] Load metrics repository (done) | time=110ms
+[INFO] Sensor JavaSensor [java]
+[INFO] Configured Java source version (sonar.java.source): 8
+[INFO] JavaClasspath initialization
+[INFO] JavaClasspath initialization (done) | time=5ms
+[INFO] JavaTestClasspath initialization
+[INFO] JavaTestClasspath initialization (done) | time=1ms
+[INFO] Java "Main" source files AST scan
+[INFO] 39 source files to be analyzed
+[INFO] Load project repositories
+[INFO] Load project repositories (done) | time=136ms
+[INFO] 39/39 source files have been analyzed
+[INFO] Java "Main" source files AST scan (done) | time=5514ms
+[INFO] No "Test" source files to scan.
+[INFO] No "Generated" source files to scan.
+[INFO] Sensor JavaSensor [java] (done) | time=5792ms
+[INFO] Sensor CSS Rules [cssfamily]
+[INFO] No CSS, PHP, HTML or VueJS files are found in the project. CSS analysis is skipped.
+[INFO] Sensor CSS Rules [cssfamily] (done) | time=2ms
+[INFO] Sensor C# Project Type Information [csharp]
+[INFO] Sensor C# Project Type Information [csharp] (done) | time=1ms
+[INFO] Sensor C# Analysis Log [csharp]
+[INFO] Sensor C# Analysis Log [csharp] (done) | time=12ms
+[INFO] Sensor C# Properties [csharp]
+[INFO] Sensor C# Properties [csharp] (done) | time=0ms
+[INFO] Sensor SurefireSensor [java]
+[INFO] parsing [/home/runner/work/builds/builds/TheBusyBiscuit/MobCapturer/master/files/target/surefire-reports]
+[INFO] Sensor SurefireSensor [java] (done) | time=3ms
+[INFO] Sensor JavaXmlSensor [java]
+[INFO] Sensor JavaXmlSensor [java] (done) | time=1ms
+[INFO] Sensor HTML [web]
+[INFO] Sensor HTML [web] (done) | time=3ms
+[INFO] Sensor VB.NET Project Type Information [vbnet]
+[INFO] Sensor VB.NET Project Type Information [vbnet] (done) | time=1ms
+[INFO] Sensor VB.NET Analysis Log [vbnet]
+[INFO] Sensor VB.NET Analysis Log [vbnet] (done) | time=12ms
+[INFO] Sensor VB.NET Properties [vbnet]
+[INFO] Sensor VB.NET Properties [vbnet] (done) | time=1ms
+[INFO] Sensor JaCoCo XML Report Importer [jacoco]
+[INFO] 'sonar.coverage.jacoco.xmlReportPaths' is not defined. Using default locations: target/site/jacoco/jacoco.xml,target/site/jacoco-it/jacoco.xml,build/reports/jacoco/test/jacocoTestReport.xml
+[INFO] No report imported, no coverage information will be imported by JaCoCo XML Report Importer
+[INFO] Sensor JaCoCo XML Report Importer [jacoco] (done) | time=4ms
+[INFO] Sensor ThymeLeaf template sensor [securityjavafrontend]
+[INFO] Sensor ThymeLeaf template sensor [securityjavafrontend] (done) | time=2ms
+[INFO] Sensor Serverless configuration file sensor [securityjsfrontend]
+[INFO] 0 Serverless function entries were found in the project
+[INFO] 0 Serverless function handlers were kept as entrypoints
+[INFO] Sensor Serverless configuration file sensor [securityjsfrontend] (done) | time=59ms
+[INFO] Sensor AWS SAM template file sensor [securityjsfrontend]
+[INFO] Sensor AWS SAM template file sensor [securityjsfrontend] (done) | time=1ms
+[INFO] Sensor JavaSecuritySensor [security]
+[INFO] Reading type hierarchy from: /home/runner/work/builds/builds/TheBusyBiscuit/MobCapturer/master/files/target/sonar/ucfg2/java
+[INFO] Read 217 type definitions
+[INFO] Reading UCFGs from: /home/runner/work/builds/builds/TheBusyBiscuit/MobCapturer/master/files/target/sonar/ucfg2/java
+[INFO] 13:23:06.157974965 Building Runtime Type propagation graph
+[INFO] 13:23:06.175281791 Running Tarjan on 742 nodes
+[INFO] 13:23:06.179508266 Tarjan found 660 components
+[INFO] 13:23:06.183832048 Variable type analysis: done
+[INFO] 13:23:06.19630586 Building Runtime Type propagation graph
+[INFO] 13:23:06.205110133 Running Tarjan on 742 nodes
+[INFO] 13:23:06.207428183 Tarjan found 660 components
+[INFO] 13:23:06.210379576 Variable type analysis: done
+[INFO] Analyzing 150 ucfgs to detect vulnerabilities.
+[INFO] All rules entrypoints : 0 Retained UCFGs : 0
+[INFO] rule: S5131, entrypoints: 0
+[INFO] rule: S5131 done
+[INFO] rule: S3649, entrypoints: 0
+[INFO] rule: S3649 done
+[INFO] rule: S2076, entrypoints: 0
+[INFO] rule: S2076 done
+[INFO] rule: S2091, entrypoints: 0
+[INFO] rule: S2091 done
+[INFO] rule: S2078, entrypoints: 0
+[INFO] rule: S2078 done
+[INFO] rule: S2631, entrypoints: 0
+[INFO] rule: S2631 done
+[INFO] rule: S5135, entrypoints: 0
+[INFO] rule: S5135 done
+[INFO] rule: S2083, entrypoints: 0
+[INFO] rule: S2083 done
+[INFO] rule: S5167, entrypoints: 0
+[INFO] rule: S5167 done
+[INFO] rule: S5144, entrypoints: 0
+[INFO] rule: S5144 done
+[INFO] rule: S5145, entrypoints: 0
+[INFO] rule: S5145 done
+[INFO] rule: S5146, entrypoints: 0
+[INFO] rule: S5146 done
+[INFO] rule: S5334, entrypoints: 0
+[INFO] rule: S5334 done
+[INFO] rule: S6096, entrypoints: 0
+[INFO] rule: S6096 done
+[INFO] Sensor JavaSecuritySensor [security] (done) | time=969ms
+[INFO] Sensor CSharpSecuritySensor [security]
+[INFO] Reading type hierarchy from: /home/runner/work/builds/builds/TheBusyBiscuit/MobCapturer/master/files/target/ucfg_cs2
+[INFO] Read 0 type definitions
+[INFO] Reading UCFGs from: /home/runner/work/builds/builds/TheBusyBiscuit/MobCapturer/master/files/target/ucfg_cs2
+[INFO] No UCFGs have been included for analysis.
+[INFO] Sensor CSharpSecuritySensor [security] (done) | time=0ms
+[INFO] Sensor PhpSecuritySensor [security]
+[INFO] Reading type hierarchy from: /home/runner/work/builds/builds/TheBusyBiscuit/MobCapturer/master/files/target/sonar/ucfg2/php
+[INFO] Read 0 type definitions
+[INFO] Reading UCFGs from: /home/runner/work/builds/builds/TheBusyBiscuit/MobCapturer/master/files/target/sonar/ucfg2/php
+[INFO] No UCFGs have been included for analysis.
+[INFO] Sensor PhpSecuritySensor [security] (done) | time=0ms
+[INFO] Sensor PythonSecuritySensor [security]
+[INFO] Reading type hierarchy from: /home/runner/work/builds/builds/TheBusyBiscuit/MobCapturer/master/files/target/sonar/ucfg2/python
+[INFO] Read 0 type definitions
+[INFO] Reading UCFGs from: /home/runner/work/builds/builds/TheBusyBiscuit/MobCapturer/master/files/target/sonar/ucfg2/python
+[INFO] No UCFGs have been included for analysis.
+[INFO] Sensor PythonSecuritySensor [security] (done) | time=0ms
+[INFO] Sensor JsSecuritySensor [security]
+[INFO] Reading type hierarchy from: /home/runner/work/builds/builds/TheBusyBiscuit/MobCapturer/master/files/target/sonar/ucfg2/js
+[INFO] Read 0 type definitions
+[INFO] Reading UCFGs from: /home/runner/work/builds/builds/TheBusyBiscuit/MobCapturer/master/files/target/sonar/ucfg2/js
+[INFO] 13:23:06.953018811 Building Runtime Type propagation graph
+[INFO] 13:23:06.953145719 Running Tarjan on 0 nodes
+[INFO] 13:23:06.953197623 Tarjan found 0 components
+[INFO] 13:23:06.953236125 Variable type analysis: done
+[INFO] 13:23:06.953273128 Building Runtime Type propagation graph
+[INFO] 13:23:06.95331563 Running Tarjan on 0 nodes
+[INFO] 13:23:06.953355933 Tarjan found 0 components
+[INFO] 13:23:06.953393835 Variable type analysis: done
+[INFO] Analyzing 2 ucfgs to detect vulnerabilities.
+[INFO] rule: S5883, entrypoints: 3
+[INFO] Running symbolic analysis
+[INFO] rule: S5883 done
+[INFO] rule: S5696, entrypoints: 3
+[INFO] Running symbolic analysis
+[INFO] rule: S5696 done
+[INFO] rule: S5147, entrypoints: 3
+[INFO] Running symbolic analysis
+[INFO] rule: S5147 done
+[INFO] rule: S5334, entrypoints: 3
+[INFO] Running symbolic analysis
+[INFO] rule: S5334 done
+[INFO] rule: S2083, entrypoints: 3
+[INFO] Running symbolic analysis
+[INFO] rule: S2083 done
+[INFO] rule: S6096, entrypoints: 3
+[INFO] Running symbolic analysis
+[INFO] rule: S6096 done
+[INFO] rule: S6105, entrypoints: 3
+[INFO] Running symbolic analysis
+[INFO] rule: S6105 done
+[INFO] rule: S2631, entrypoints: 3
+[INFO] Running symbolic analysis
+[INFO] rule: S2631 done
+[INFO] rule: S5146, entrypoints: 3
+[INFO] Running symbolic analysis
+[INFO] rule: S5146 done
+[INFO] rule: S5131, entrypoints: 3
+[INFO] Running symbolic analysis
+[INFO] rule: S5131 done
+[INFO] rule: S5144, entrypoints: 3
+[INFO] Running symbolic analysis
+[INFO] rule: S5144 done
+[INFO] rule: S3649, entrypoints: 3
+[INFO] Running symbolic analysis
+[INFO] rule: S3649 done
+[INFO] rule: S2076, entrypoints: 3
+[INFO] Running symbolic analysis
+[INFO] rule: S2076 done
+[INFO] Sensor JsSecuritySensor [security] (done) | time=690ms
+[INFO] ------------- Run sensors on project
+[INFO] Sensor Zero Coverage Sensor
+[INFO] Sensor Zero Coverage Sensor (done) | time=12ms
+[INFO] Sensor Java CPD Block Indexer
+[INFO] Sensor Java CPD Block Indexer (done) | time=54ms
+[INFO] SCM Publisher SCM provider for this project is: git
+[INFO] SCM Publisher 4 source files to be analyzed
+[INFO] SCM Publisher 4/4 source files have been analyzed (done) | time=127ms
+[INFO] CPD Executor 5 files had no CPD blocks
+[INFO] CPD Executor Calculating CPD for 34 files
+[INFO] CPD Executor CPD calculation finished (done) | time=17ms
+[INFO] Analysis report generated in 406ms, dir size=341 KB
+[INFO] Analysis report compressed in 93ms, zip size=138 KB
+[INFO] Analysis report uploaded in 458ms
+[INFO] ANALYSIS SUCCESSFUL, you can find the results at: https://sonarcloud.io/dashboard?id=TheBusyBiscuit_MobCapturer
+[INFO] Note that you will be able to access the updated dashboard once the server has processed the submitted analysis report
+[INFO] More about the report processing at https://sonarcloud.io/api/ce/task?id=AXu7Rt1E2Sk2lgxmCYBZ
+[INFO] Analysis total time: 16.379 s
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  32.408 s
+[INFO] Finished at: 2021-09-06T13:23:08Z
+[INFO] ------------------------------------------------------------------------
