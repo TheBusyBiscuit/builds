@@ -1,0 +1,307 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------------------< dev.j3fftw:SoundMuffler >-----------------------
+[INFO] Building SoundMuffler DEV - 22 (git 37411b6c)
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] Downloading from dmulloy2-repo: https://repo.dmulloy2.net/nexus/repository/public/org/spigotmc/spigot-api/1.16.5-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/yaml/snakeyaml/1.27/snakeyaml-1.27.pom
+[INFO] Downloading from dmulloy2-repo: https://repo.dmulloy2.net/nexus/repository/public/org/yaml/snakeyaml/1.27/snakeyaml-1.27.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/yaml/snakeyaml/1.27/snakeyaml-1.27.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/yaml/snakeyaml/1.27/snakeyaml-1.27.pom (0 B at 0 B/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/github/dmulloy2/ProtocolLib/4.6.0/ProtocolLib-4.6.0.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/github/dmulloy2/ProtocolLib/4.6.0/ProtocolLib-4.6.0.pom
+[INFO] Downloaded from jitpack.io: https://jitpack.io/com/github/dmulloy2/ProtocolLib/4.6.0/ProtocolLib-4.6.0.pom (9.2 kB at 37 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/net/bytebuddy/byte-buddy/1.10.16/byte-buddy-1.10.16.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/net/bytebuddy/byte-buddy/1.10.16/byte-buddy-1.10.16.pom
+[INFO] Downloading from dmulloy2-repo: https://repo.dmulloy2.net/nexus/repository/public/net/bytebuddy/byte-buddy/1.10.16/byte-buddy-1.10.16.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.10.16/byte-buddy-1.10.16.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.10.16/byte-buddy-1.10.16.pom (11 kB at 345 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/net/bytebuddy/byte-buddy-parent/1.10.16/byte-buddy-parent-1.10.16.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/net/bytebuddy/byte-buddy-parent/1.10.16/byte-buddy-parent-1.10.16.pom
+[INFO] Downloading from dmulloy2-repo: https://repo.dmulloy2.net/nexus/repository/public/net/bytebuddy/byte-buddy-parent/1.10.16/byte-buddy-parent-1.10.16.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-parent/1.10.16/byte-buddy-parent-1.10.16.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-parent/1.10.16/byte-buddy-parent-1.10.16.pom (40 kB at 941 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/spigotmc/spigot-api/1.16.5-R0.1-SNAPSHOT/spigot-api-1.16.5-R0.1-20210611.041013-99.jar
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/yaml/snakeyaml/1.27/snakeyaml-1.27.jar
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/net/bytebuddy/byte-buddy/1.10.16/byte-buddy-1.10.16.jar
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/github/dmulloy2/ProtocolLib/4.6.0/ProtocolLib-4.6.0.jar
+[INFO] Downloaded from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/spigotmc/spigot-api/1.16.5-R0.1-SNAPSHOT/spigot-api-1.16.5-R0.1-20210611.041013-99.jar (0 B at 0 B/s)
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/yaml/snakeyaml/1.27/snakeyaml-1.27.jar
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/github/dmulloy2/ProtocolLib/4.6.0/ProtocolLib-4.6.0.jar
+[INFO] Downloading from jitpack.io: https://jitpack.io/net/bytebuddy/byte-buddy/1.10.16/byte-buddy-1.10.16.jar
+[INFO] Downloaded from jitpack.io: https://jitpack.io/com/github/dmulloy2/ProtocolLib/4.6.0/ProtocolLib-4.6.0.jar (4.6 MB at 9.4 MB/s)
+[INFO] Downloading from dmulloy2-repo: https://repo.dmulloy2.net/nexus/repository/public/net/bytebuddy/byte-buddy/1.10.16/byte-buddy-1.10.16.jar
+[INFO] Downloading from dmulloy2-repo: https://repo.dmulloy2.net/nexus/repository/public/org/yaml/snakeyaml/1.27/snakeyaml-1.27.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/yaml/snakeyaml/1.27/snakeyaml-1.27.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.10.16/byte-buddy-1.10.16.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/yaml/snakeyaml/1.27/snakeyaml-1.27.jar (0 B at 0 B/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.10.16/byte-buddy-1.10.16.jar (3.5 MB at 16 MB/s)
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ SoundMuffler ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ SoundMuffler ---
+[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 2 resources to .
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.5.1:compile (default-compile) @ SoundMuffler ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] Compiling 3 source files to /home/runner/work/builds/builds/J3fftw1/SoundMuffler/master/files/target/classes
+[INFO] /home/runner/work/builds/builds/J3fftw1/SoundMuffler/master/files/src/main/java/dev/j3fftw/soundmuffler/SoundMufflerMachine.java: /home/runner/work/builds/builds/J3fftw1/SoundMuffler/master/files/src/main/java/dev/j3fftw/soundmuffler/SoundMufflerMachine.java uses or overrides a deprecated API.
+[INFO] /home/runner/work/builds/builds/J3fftw1/SoundMuffler/master/files/src/main/java/dev/j3fftw/soundmuffler/SoundMufflerMachine.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ SoundMuffler ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /home/runner/work/builds/builds/J3fftw1/SoundMuffler/master/files/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.5.1:testCompile (default-testCompile) @ SoundMuffler ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ SoundMuffler ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ SoundMuffler ---
+[INFO] Building jar: /home/runner/work/builds/builds/J3fftw1/SoundMuffler/master/files/target/SoundMuffler-22.jar
+[INFO] 
+[INFO] --- maven-shade-plugin:2.3:shade (default) @ SoundMuffler ---
+[INFO] Including org.bstats:bstats-bukkit:jar:2.2.1 in the shaded jar.
+[INFO] Including org.bstats:bstats-base:jar:2.2.1 in the shaded jar.
+[INFO] Replacing original artifact with shaded artifact.
+[INFO] Replacing /home/runner/work/builds/builds/J3fftw1/SoundMuffler/master/files/target/SoundMuffler-22.jar with /home/runner/work/builds/builds/J3fftw1/SoundMuffler/master/files/target/SoundMuffler-DEV - 22 (git 37411b6c)-shaded.jar
+[INFO] Dependency-reduced POM written at: /home/runner/work/builds/builds/J3fftw1/SoundMuffler/master/files/dependency-reduced-pom.xml
+[INFO] Dependency-reduced POM written at: /home/runner/work/builds/builds/J3fftw1/SoundMuffler/master/files/dependency-reduced-pom.xml
+[INFO] 
+[INFO] ----------------------< dev.j3fftw:SoundMuffler >-----------------------
+[INFO] Building SoundMuffler DEV - 22 (git 37411b6c)
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- sonar-maven-plugin:3.9.0.2155:sonar (default-cli) @ SoundMuffler ---
+[INFO] User cache: /home/runner/.sonar/cache
+[INFO] SonarQube version: 8.9.1
+[INFO] Default locale: "en", source code encoding: "UTF-8" (analysis is platform dependent)
+[INFO] Load global settings
+[INFO] Load global settings (done) | time=580ms
+[INFO] Server id: 1BD809FA-AWHW8ct9-T_TB3XqouNu
+[INFO] User cache: /home/runner/.sonar/cache
+[INFO] Load/download plugins
+[INFO] Load plugins index
+[INFO] Load plugins index (done) | time=142ms
+[INFO] Load/download plugins (done) | time=315ms
+[INFO] Loaded core extensions: developer-scanner
+[INFO] Found an active CI vendor: 'Github Actions'
+[INFO] Load project settings for component key: 'Slimefun-Addon-Community_SoundMuffler'
+[INFO] Load project settings for component key: 'Slimefun-Addon-Community_SoundMuffler' (done) | time=122ms
+[INFO] Process project properties
+[INFO] Execute project builders
+[INFO] Execute project builders (done) | time=2ms
+[INFO] Project key: Slimefun-Addon-Community_SoundMuffler
+[INFO] Base dir: /home/runner/work/builds/builds/J3fftw1/SoundMuffler/master/files
+[INFO] Working dir: /home/runner/work/builds/builds/J3fftw1/SoundMuffler/master/files/target/sonar
+[INFO] Load project branches
+[INFO] Load project branches (done) | time=107ms
+[INFO] Check ALM binding of project 'Slimefun-Addon-Community_SoundMuffler'
+[INFO] Detected project binding: BOUND
+[INFO] Check ALM binding of project 'Slimefun-Addon-Community_SoundMuffler' (done) | time=107ms
+[INFO] Load project pull requests
+[INFO] Load project pull requests (done) | time=102ms
+[INFO] Load branch configuration
+[INFO] Github event: workflow_dispatch
+[INFO] Load branch configuration (done) | time=3ms
+[INFO] Load quality profiles
+[INFO] Load quality profiles (done) | time=155ms
+[INFO] Load active rules
+[INFO] Load active rules (done) | time=4007ms
+[INFO] Organization key: slimefun-addon-community
+[INFO] Indexing files...
+[INFO] Project configuration:
+[INFO] 3 files indexed
+[INFO] 1 file ignored because of scm ignore settings
+[INFO] Quality profile for java: Slimefun Quality Profile
+[INFO] ------------- Run sensors on module SoundMuffler
+[INFO] Load metrics repository
+[INFO] Load metrics repository (done) | time=109ms
+[INFO] Sensor JavaSensor [java]
+[INFO] Configured Java source version (sonar.java.source): 8
+[INFO] JavaClasspath initialization
+[INFO] JavaClasspath initialization (done) | time=5ms
+[INFO] JavaTestClasspath initialization
+[INFO] JavaTestClasspath initialization (done) | time=1ms
+[INFO] Java "Main" source files AST scan
+[INFO] 3 source files to be analyzed
+[INFO] Load project repositories
+[INFO] Load project repositories (done) | time=119ms
+[INFO] 3/3 source files have been analyzed
+[INFO] Java "Main" source files AST scan (done) | time=2804ms
+[INFO] No "Test" source files to scan.
+[INFO] No "Generated" source files to scan.
+[INFO] Sensor JavaSensor [java] (done) | time=3077ms
+[INFO] Sensor CSS Rules [cssfamily]
+[INFO] No CSS, PHP, HTML or VueJS files are found in the project. CSS analysis is skipped.
+[INFO] Sensor CSS Rules [cssfamily] (done) | time=0ms
+[INFO] Sensor C# Project Type Information [csharp]
+[INFO] Sensor C# Project Type Information [csharp] (done) | time=0ms
+[INFO] Sensor C# Analysis Log [csharp]
+[INFO] Sensor C# Analysis Log [csharp] (done) | time=11ms
+[INFO] Sensor C# Properties [csharp]
+[INFO] Sensor C# Properties [csharp] (done) | time=0ms
+[INFO] Sensor SurefireSensor [java]
+[INFO] parsing [/home/runner/work/builds/builds/J3fftw1/SoundMuffler/master/files/target/surefire-reports]
+[INFO] Sensor SurefireSensor [java] (done) | time=2ms
+[INFO] Sensor JavaXmlSensor [java]
+[INFO] Sensor JavaXmlSensor [java] (done) | time=1ms
+[INFO] Sensor HTML [web]
+[INFO] Sensor HTML [web] (done) | time=3ms
+[INFO] Sensor VB.NET Project Type Information [vbnet]
+[INFO] Sensor VB.NET Project Type Information [vbnet] (done) | time=1ms
+[INFO] Sensor VB.NET Analysis Log [vbnet]
+[INFO] Sensor VB.NET Analysis Log [vbnet] (done) | time=12ms
+[INFO] Sensor VB.NET Properties [vbnet]
+[INFO] Sensor VB.NET Properties [vbnet] (done) | time=1ms
+[INFO] Sensor JaCoCo XML Report Importer [jacoco]
+[INFO] 'sonar.coverage.jacoco.xmlReportPaths' is not defined. Using default locations: target/site/jacoco/jacoco.xml,target/site/jacoco-it/jacoco.xml,build/reports/jacoco/test/jacocoTestReport.xml
+[INFO] No report imported, no coverage information will be imported by JaCoCo XML Report Importer
+[INFO] Sensor JaCoCo XML Report Importer [jacoco] (done) | time=4ms
+[INFO] Sensor ThymeLeaf template sensor [securityjavafrontend]
+[INFO] Sensor ThymeLeaf template sensor [securityjavafrontend] (done) | time=2ms
+[INFO] Sensor Serverless configuration file sensor [securityjsfrontend]
+[INFO] 0 Serverless function entries were found in the project
+[INFO] 0 Serverless function handlers were kept as entrypoints
+[INFO] Sensor Serverless configuration file sensor [securityjsfrontend] (done) | time=58ms
+[INFO] Sensor AWS SAM template file sensor [securityjsfrontend]
+[INFO] Sensor AWS SAM template file sensor [securityjsfrontend] (done) | time=1ms
+[INFO] Sensor JavaSecuritySensor [security]
+[INFO] Reading type hierarchy from: /home/runner/work/builds/builds/J3fftw1/SoundMuffler/master/files/target/sonar/ucfg2/java
+[INFO] Read 103 type definitions
+[INFO] Reading UCFGs from: /home/runner/work/builds/builds/J3fftw1/SoundMuffler/master/files/target/sonar/ucfg2/java
+[INFO] 13:24:19.477380352 Building Runtime Type propagation graph
+[INFO] 13:24:19.484706298 Running Tarjan on 75 nodes
+[INFO] 13:24:19.486647815 Tarjan found 66 components
+[INFO] 13:24:19.488813147 Variable type analysis: done
+[INFO] 13:24:19.491147489 Building Runtime Type propagation graph
+[INFO] 13:24:19.4946187 Running Tarjan on 75 nodes
+[INFO] 13:24:19.495491553 Tarjan found 66 components
+[INFO] 13:24:19.496407909 Variable type analysis: done
+[INFO] Analyzing 30 ucfgs to detect vulnerabilities.
+[INFO] All rules entrypoints : 0 Retained UCFGs : 0
+[INFO] rule: S5131, entrypoints: 0
+[INFO] rule: S5131 done
+[INFO] rule: S3649, entrypoints: 0
+[INFO] rule: S3649 done
+[INFO] rule: S2076, entrypoints: 0
+[INFO] rule: S2076 done[INFO] rule: S2091, entrypoints: 0
+
+[INFO] rule: S2091 done
+[INFO] rule: S2078, entrypoints: 0
+[INFO] rule: S2078 done
+[INFO] rule: S2631, entrypoints: 0
+[INFO] rule: S2631 done
+[INFO] rule: S5135, entrypoints: 0
+[INFO] rule: S5135 done
+[INFO] rule: S2083, entrypoints: 0
+[INFO] rule: S2083 done
+[INFO] rule: S5167, entrypoints: 0
+[INFO] rule: S5167 done
+[INFO] rule: S5144, entrypoints: 0
+[INFO] rule: S5144 done
+[INFO] rule: S5145, entrypoints: 0
+[INFO] rule: S5145 done
+[INFO] rule: S5146, entrypoints: 0
+[INFO] rule: S5146 done
+[INFO] rule: S5334, entrypoints: 0
+[INFO] rule: S5334 done
+[INFO] Sensor JavaSecuritySensor [security] (done) | time=459ms
+[INFO] Sensor CSharpSecuritySensor [security]
+[INFO] Reading type hierarchy from: /home/runner/work/builds/builds/J3fftw1/SoundMuffler/master/files/target/ucfg_cs2
+[INFO] Read 0 type definitions
+[INFO] Reading UCFGs from: /home/runner/work/builds/builds/J3fftw1/SoundMuffler/master/files/target/ucfg_cs2
+[INFO] No UCFGs have been included for analysis.
+[INFO] Sensor CSharpSecuritySensor [security] (done) | time=0ms
+[INFO] Sensor PhpSecuritySensor [security]
+[INFO] Reading type hierarchy from: /home/runner/work/builds/builds/J3fftw1/SoundMuffler/master/files/target/sonar/ucfg2/php
+[INFO] Read 0 type definitions
+[INFO] Reading UCFGs from: /home/runner/work/builds/builds/J3fftw1/SoundMuffler/master/files/target/sonar/ucfg2/php
+[INFO] No UCFGs have been included for analysis.
+[INFO] Sensor PhpSecuritySensor [security] (done) | time=0ms
+[INFO] Sensor PythonSecuritySensor [security]
+[INFO] Reading type hierarchy from: /home/runner/work/builds/builds/J3fftw1/SoundMuffler/master/files/target/sonar/ucfg2/python
+[INFO] Read 0 type definitions
+[INFO] Reading UCFGs from: /home/runner/work/builds/builds/J3fftw1/SoundMuffler/master/files/target/sonar/ucfg2/python
+[INFO] No UCFGs have been included for analysis.
+[INFO] Sensor PythonSecuritySensor [security] (done) | time=3ms
+[INFO] Sensor JsSecuritySensor [security]
+[INFO] Reading type hierarchy from: /home/runner/work/builds/builds/J3fftw1/SoundMuffler/master/files/target/sonar/ucfg2/js
+[INFO] Read 0 type definitions
+[INFO] Reading UCFGs from: /home/runner/work/builds/builds/J3fftw1/SoundMuffler/master/files/target/sonar/ucfg2/js
+[INFO] 13:24:19.830708921 Building Runtime Type propagation graph
+[INFO] 13:24:19.83085033 Running Tarjan on 0 nodes
+[INFO] 13:24:19.830933735 Tarjan found 0 components
+[INFO] 13:24:19.830985938 Variable type analysis: done
+[INFO] 13:24:19.831035741 Building Runtime Type propagation graph
+[INFO] 13:24:19.831095745 Running Tarjan on 0 nodes
+[INFO] 13:24:19.831149748 Tarjan found 0 components
+[INFO] 13:24:19.831202051 Variable type analysis: done
+[INFO] Analyzing 2 ucfgs to detect vulnerabilities.
+[INFO] rule: S2083, entrypoints: 3
+[INFO] Running symbolic analysis
+[INFO] rule: S2083 done
+[INFO] rule: S6096, entrypoints: 3
+[INFO] Running symbolic analysis
+[INFO] rule: S6096 done
+[INFO] rule: S2076, entrypoints: 3
+[INFO] Running symbolic analysis
+[INFO] rule: S2076 done
+[INFO] rule: S5334, entrypoints: 3
+[INFO] Running symbolic analysis
+[INFO] rule: S5334 done
+[INFO] rule: S5146, entrypoints: 3
+[INFO] Running symbolic analysis
+[INFO] rule: S5146 done
+[INFO] rule: S5883, entrypoints: 3
+[INFO] Running symbolic analysis
+[INFO] rule: S5883 done
+[INFO] rule: S5131, entrypoints: 3
+[INFO] Running symbolic analysis
+[INFO] rule: S5131 done
+[INFO] rule: S5696, entrypoints: 3
+[INFO] Running symbolic analysis
+[INFO] rule: S5696 done
+[INFO] rule: S5147, entrypoints: 3
+[INFO] Running symbolic analysis
+[INFO] rule: S5147 done
+[INFO] rule: S6105, entrypoints: 3
+[INFO] Running symbolic analysis
+[INFO] rule: S6105 done
+[INFO] rule: S5144, entrypoints: 3
+[INFO] Running symbolic analysis
+[INFO] rule: S5144 done
+[INFO] rule: S2631, entrypoints: 3
+[INFO] Running symbolic analysis
+[INFO] rule: S2631 done
+[INFO] rule: S3649, entrypoints: 3
+[INFO] Running symbolic analysis
+[INFO] rule: S3649 done
+[INFO] Sensor JsSecuritySensor [security] (done) | time=780ms
+[INFO] ------------- Run sensors on project
+[INFO] Sensor Zero Coverage Sensor
+[INFO] Sensor Zero Coverage Sensor (done) | time=7ms
+[INFO] Sensor Java CPD Block Indexer
+[INFO] Sensor Java CPD Block Indexer (done) | time=24ms
+[INFO] SCM Publisher SCM provider for this project is: git
+[INFO] SCM Publisher 3 source files to be analyzed
+[INFO] SCM Publisher 3/3 source files have been analyzed (done) | time=153ms
+[INFO] CPD Executor Calculating CPD for 3 files
+[INFO] CPD Executor CPD calculation finished (done) | time=8ms
+[INFO] Analysis report generated in 459ms, dir size=215 KB
+[INFO] Analysis report compressed in 19ms, zip size=49 KB
+[INFO] Analysis report uploaded in 336ms
+[INFO] ANALYSIS SUCCESSFUL, you can find the results at: https://sonarcloud.io/dashboard?id=Slimefun-Addon-Community_SoundMuffler
+[INFO] Note that you will be able to access the updated dashboard once the server has processed the submitted analysis report
+[INFO] More about the report processing at https://sonarcloud.io/api/ce/task?id=AXu7R_mxtzdR7V3Dx8dH
+[INFO] Analysis total time: 12.771 s
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  19.895 s
+[INFO] Finished at: 2021-09-06T13:24:21Z
+[INFO] ------------------------------------------------------------------------
