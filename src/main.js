@@ -5,6 +5,7 @@ const cfg = require('../src/config.js')(path.resolve(__dirname, '../resources/co
 // Modules
 const projects = require('../src/projects.js')
 const maven = require('../src/maven.js')
+const gradle = require('../src/gradle.js')
 const github = require('../src/github.js')(cfg.github)
 const discord = require('../src/discord.js')(cfg.discord)
 const log = require('../src/logger.js')
@@ -150,13 +151,18 @@ function update (job, logging) {
 
     github.clone(job, job.commit.sha, logging).then(() => {
       const name = (job.options ? job.options.prefix : 'DEV') + ' - ' + job.id + ' (git ' + job.commit.sha.substr(0, 8) + ')'
-      maven.setVersion(job, name, true).then(resolve, reject)
+      log(logging, `-> Building using: ${job.options.buildTool === null ? 'maven' : job.options.buildTool}`)
+      if (!job.options.buildTool || job.options.buildTool === 'maven') {
+        maven.setVersion(job, name, true).then(resolve, reject)
+      } else {
+        gradle.setVersion(job, name).then(resolve, reject)
+      }
     }, reject)
   })
 }
 
 /**
- * This method compiles the project using Maven.
+ * This method compiles the project using Maven or Gradle depending on job.config.buildTool.
  * After completing, the job update will have the flag 'success',
  * that is either true or false.
  *
@@ -176,18 +182,32 @@ function compile (job, logging) {
   updateStatus(job, 'Compiling')
 
   return new Promise((resolve) => {
-    log(logging, 'Compiling: ' + job.author + '/' + job.repo + ':' + job.branch + ' (' + job.id + ')')
+    if (!job.options.buildTool || job.options.buildTool === 'maven') {
+      log(logging, `Compiling using Maven: ${job.author}/${job.repo}:${job.branch} (${job.id})`)
 
-    maven.compile(job, cfg, logging)
-      .then(() => {
-        job.success = true
-        resolve()
-      })
-      .catch((err) => {
-        log(logging, err.stack)
-        job.success = false
-        resolve()
-      })
+      maven.compile(job, cfg, logging)
+        .then(() => {
+          job.success = true
+          resolve()
+        })
+        .catch((err) => {
+          log(logging, err.stack)
+          job.success = false
+          resolve()
+        })
+    } else {
+      log(logging, `Compiling using Gradle: ${job.author}/${job.repo}:${job.branch} (${job.id})`)
+      gradle.compile(job, logging)
+        .then(() => {
+          job.success = true
+          resolve()
+        })
+        .catch((err) => {
+          log(logging, err.stack)
+          job.success = false
+          resolve()
+        })
+    }
   })
 }
 
@@ -212,12 +232,16 @@ function gatherResources (job, logging) {
 
   return new Promise((resolve, reject) => {
     log(logging, 'Gathering Resources: ' + job.author + '/' + job.repo + ':' + job.branch)
-
-    Promise.all([
+    const promises = [
       github.getLicense(job, logging),
-      github.getTags(job, logging),
-      maven.relocate(job)
-    ]).then((values) => {
+      github.getTags(job, logging)
+    ]
+    if (job.options.buildTool === 'maven') {
+      promises.push(maven.relocate(job))
+    } else {
+      promises.push(gradle.relocate(job))
+    }
+    Promise.all(promises).then((values) => {
       const license = values[0]
       const tags = values[1]
 

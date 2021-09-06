@@ -17,7 +17,9 @@ var job = {
     directory: "jitpack/maven-simple/master"
 }
 
-describe("Full System Test", function() {
+describe("Full Maven System Test", function() {
+    job.options = Object;
+    job.options.buildTool = 'maven';
     this.timeout(60000);
 
     before(() => {
