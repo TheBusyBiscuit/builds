@@ -49,6 +49,9 @@
             },
             "createJar": {
               "type": "boolean"
+            },
+            "ignoreTags": {
+              "type": "boolean"
             }
           }
         },

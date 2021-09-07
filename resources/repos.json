@@ -10,7 +10,8 @@
             "prefix": "DEV",
             "custom_directory": "TheBusyBiscuit/Slimefun4/master",
             "abandoned": false,
-            "createJar": true
+            "createJar": true,
+            "ignoreTags": true
         },
         "dependencies": {
             "Minecraft Version(s)": {
@@ -45,7 +46,8 @@
             "prefix": "RC",
             "custom_directory": "TheBusyBiscuit/Slimefun4/stable",
             "abandoned": false,
-            "createJar": true
+            "createJar": true,
+            "ignoreTags": false
         },
         "dependencies": {
             "Minecraft Version(s)": {
@@ -73,7 +75,8 @@
         "options": {
             "prefix": "DEV",
             "abandoned": false,
-            "createJar": true
+            "createJar": true,
+            "ignoreTags": false
         },
         "dependencies": {
             "Minecraft Version(s)": {
