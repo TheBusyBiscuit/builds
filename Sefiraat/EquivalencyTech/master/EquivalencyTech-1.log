@@ -1,0 +1,160 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -----------------< io.github.sefiraat:EquivalencyTech >-----------------
+[INFO] Building EquivalencyTech DEV - 1 (git f7cc8fd5)
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] Downloading from sk89q-repo: https://maven.enginehub.org/repo/org/spigotmc/spigot-api/1.17-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from skullcreator-repo: https://github.com/deanveloper/SkullCreator/raw/mvn-repo/org/spigotmc/spigot-api/1.17-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from aikar: https://repo.aikar.co/content/groups/aikar/org/spigotmc/spigot-api/1.17-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/org/spigotmc/spigot-api/1.17-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from repo: https://repo.mattstudios.me/artifactory/public/org/spigotmc/spigot-api/1.17-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloaded from aikar: https://repo.aikar.co/content/groups/aikar/org/spigotmc/spigot-api/1.17-R0.1-SNAPSHOT/maven-metadata.xml (1.4 kB at 2.6 kB/s)
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/org/spigotmc/spigot-api/1.17-R0.1-SNAPSHOT/maven-metadata.xml (1.4 kB at 1.9 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/destroystokyo/paper/paper-api/1.16.5-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/com/destroystokyo/paper/paper-api/1.16.5-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/destroystokyo/paper/paper-api/1.16.5-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from aikar: https://repo.aikar.co/content/groups/aikar/com/destroystokyo/paper/paper-api/1.16.5-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloaded from aikar: https://repo.aikar.co/content/groups/aikar/com/destroystokyo/paper/paper-api/1.16.5-R0.1-SNAPSHOT/maven-metadata.xml (1.5 kB at 8.3 kB/s)
+[INFO] Downloading from sk89q-repo: https://maven.enginehub.org/repo/com/destroystokyo/paper/paper-api/1.16.5-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from skullcreator-repo: https://github.com/deanveloper/SkullCreator/raw/mvn-repo/com/destroystokyo/paper/paper-api/1.16.5-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloaded from sk89q-repo: https://maven.enginehub.org/repo/com/destroystokyo/paper/paper-api/1.16.5-R0.1-SNAPSHOT/maven-metadata.xml (1.5 kB at 14 kB/s)
+[INFO] Downloading from repo: https://repo.mattstudios.me/artifactory/public/com/destroystokyo/paper/paper-api/1.16.5-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/com/destroystokyo/paper/paper-api/1.16.5-R0.1-SNAPSHOT/maven-metadata.xml (1.5 kB at 3.6 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/destroystokyo/paper/paper-api/1.16.5-R0.1-SNAPSHOT/paper-api-1.16.5-R0.1-20210829.193010-365.pom
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/com/destroystokyo/paper/paper-api/1.16.5-R0.1-SNAPSHOT/paper-api-1.16.5-R0.1-20210829.193010-365.pom
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/com/destroystokyo/paper/paper-api/1.16.5-R0.1-SNAPSHOT/paper-api-1.16.5-R0.1-20210829.193010-365.pom (14 kB at 24 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/destroystokyo/paper/paper-parent/dev-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/com/destroystokyo/paper/paper-parent/dev-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/destroystokyo/paper/paper-parent/dev-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from aikar: https://repo.aikar.co/content/groups/aikar/com/destroystokyo/paper/paper-parent/dev-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from sk89q-repo: https://maven.enginehub.org/repo/com/destroystokyo/paper/paper-parent/dev-SNAPSHOT/maven-metadata.xml
+[INFO] Downloaded from sk89q-repo: https://maven.enginehub.org/repo/com/destroystokyo/paper/paper-parent/dev-SNAPSHOT/maven-metadata.xml (610 B at 5.3 kB/s)
+[INFO] Downloading from skullcreator-repo: https://github.com/deanveloper/SkullCreator/raw/mvn-repo/com/destroystokyo/paper/paper-parent/dev-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from repo: https://repo.mattstudios.me/artifactory/public/com/destroystokyo/paper/paper-parent/dev-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from sonatype: https://oss.sonatype.org/content/groups/public/com/destroystokyo/paper/paper-parent/dev-SNAPSHOT/maven-metadata.xml
+[INFO] Downloaded from aikar: https://repo.aikar.co/content/groups/aikar/com/destroystokyo/paper/paper-parent/dev-SNAPSHOT/maven-metadata.xml (610 B at 1.6 kB/s)
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/com/destroystokyo/paper/paper-parent/dev-SNAPSHOT/maven-metadata.xml (610 B at 1.4 kB/s)
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/com/destroystokyo/paper/paper-parent/dev-SNAPSHOT/paper-parent-dev-20200427.054227-11.pom
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/com/destroystokyo/paper/paper-parent/dev-SNAPSHOT/paper-parent-dev-20200427.054227-11.pom (1.9 kB at 4.3 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/net/kyori/adventure-bom/4.7.0/adventure-bom-4.7.0.pom
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/net/kyori/adventure-bom/4.7.0/adventure-bom-4.7.0.pom
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/net/kyori/adventure-bom/4.7.0/adventure-bom-4.7.0.pom (3.9 kB at 8.9 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/net/kyori/adventure-api/4.7.0/adventure-api-4.7.0.pom
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/net/kyori/adventure-api/4.7.0/adventure-api-4.7.0.pom
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/net/kyori/adventure-api/4.7.0/adventure-api-4.7.0.pom (3.3 kB at 7.8 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/net/kyori/adventure-key/4.7.0/adventure-key-4.7.0.pom
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/net/kyori/adventure-key/4.7.0/adventure-key-4.7.0.pom
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/net/kyori/adventure-key/4.7.0/adventure-key-4.7.0.pom (3.1 kB at 7.4 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/checkerframework/checker-qual/3.11.0/checker-qual-3.11.0.pom
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/org/checkerframework/checker-qual/3.11.0/checker-qual-3.11.0.pom
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/org/checkerframework/checker-qual/3.11.0/checker-qual-3.11.0.pom (2.1 kB at 5.0 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/jetbrains/annotations/20.1.0/annotations-20.1.0.pom
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/org/jetbrains/annotations/20.1.0/annotations-20.1.0.pom
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/org/jetbrains/annotations/20.1.0/annotations-20.1.0.pom (1.4 kB at 3.2 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/net/kyori/adventure-text-serializer-gson/4.7.0/adventure-text-serializer-gson-4.7.0.pom
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/net/kyori/adventure-text-serializer-gson/4.7.0/adventure-text-serializer-gson-4.7.0.pom
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/net/kyori/adventure-text-serializer-gson/4.7.0/adventure-text-serializer-gson-4.7.0.pom (2.8 kB at 6.1 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/net/kyori/adventure-text-serializer-legacy/4.7.0/adventure-text-serializer-legacy-4.7.0.pom
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/net/kyori/adventure-text-serializer-legacy/4.7.0/adventure-text-serializer-legacy-4.7.0.pom
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/net/kyori/adventure-text-serializer-legacy/4.7.0/adventure-text-serializer-legacy-4.7.0.pom (2.6 kB at 6.1 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/net/kyori/adventure-text-serializer-plain/4.7.0/adventure-text-serializer-plain-4.7.0.pom
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/net/kyori/adventure-text-serializer-plain/4.7.0/adventure-text-serializer-plain-4.7.0.pom
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/net/kyori/adventure-text-serializer-plain/4.7.0/adventure-text-serializer-plain-4.7.0.pom (2.6 kB at 5.9 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.pom
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.pom
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.pom (3.8 kB at 9.1 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/slf4j/slf4j-parent/1.7.25/slf4j-parent-1.7.25.pom
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/org/slf4j/slf4j-parent/1.7.25/slf4j-parent-1.7.25.pom
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/org/slf4j/slf4j-parent/1.7.25/slf4j-parent-1.7.25.pom (14 kB at 32 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/net/kyori/adventure-api/4.7.0/adventure-api-4.7.0.jar
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/net/kyori/adventure-key/4.7.0/adventure-key-4.7.0.jar
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/checkerframework/checker-qual/3.11.0/checker-qual-3.11.0.jar
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/jetbrains/annotations/20.1.0/annotations-20.1.0.jar
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/net/kyori/adventure-text-serializer-gson/4.7.0/adventure-text-serializer-gson-4.7.0.jar
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/net/kyori/adventure-text-serializer-legacy/4.7.0/adventure-text-serializer-legacy-4.7.0.jar
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/net/kyori/adventure-text-serializer-plain/4.7.0/adventure-text-serializer-plain-4.7.0.jar
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/org/yaml/snakeyaml/1.28/snakeyaml-1.28.jar
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/com/destroystokyo/paper/paper-api/1.16.5-R0.1-SNAPSHOT/paper-api-1.16.5-R0.1-20210829.193010-365.jar
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/net/kyori/adventure-api/4.7.0/adventure-api-4.7.0.jar
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/net/kyori/adventure-key/4.7.0/adventure-key-4.7.0.jar
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/org/checkerframework/checker-qual/3.11.0/checker-qual-3.11.0.jar
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/org/yaml/snakeyaml/1.28/snakeyaml-1.28.jar (0 B at 0 B/s)
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/org/jetbrains/annotations/20.1.0/annotations-20.1.0.jar
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/org/jetbrains/annotations/20.1.0/annotations-20.1.0.jar (26 kB at 28 kB/s)
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/net/kyori/adventure-text-serializer-gson/4.7.0/adventure-text-serializer-gson-4.7.0.jar
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/net/kyori/adventure-api/4.7.0/adventure-api-4.7.0.jar (235 kB at 210 kB/s)
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/net/kyori/adventure-text-serializer-legacy/4.7.0/adventure-text-serializer-legacy-4.7.0.jar
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/com/destroystokyo/paper/paper-api/1.16.5-R0.1-SNAPSHOT/paper-api-1.16.5-R0.1-20210829.193010-365.jar (1.6 MB at 1.3 MB/s)
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/net/kyori/adventure-text-serializer-plain/4.7.0/adventure-text-serializer-plain-4.7.0.jar
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/net/kyori/adventure-key/4.7.0/adventure-key-4.7.0.jar (8.2 kB at 5.4 kB/s)
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/org/checkerframework/checker-qual/3.11.0/checker-qual-3.11.0.jar (208 kB at 128 kB/s)
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/net/kyori/adventure-text-serializer-gson/4.7.0/adventure-text-serializer-gson-4.7.0.jar (30 kB at 16 kB/s)
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/net/kyori/adventure-text-serializer-legacy/4.7.0/adventure-text-serializer-legacy-4.7.0.jar (21 kB at 11 kB/s)
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/net/kyori/adventure-text-serializer-plain/4.7.0/adventure-text-serializer-plain-4.7.0.jar (6.0 kB at 2.8 kB/s)
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar (41 kB at 17 kB/s)
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ EquivalencyTech ---
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.6:prepare-agent (prepare) @ EquivalencyTech ---
+[INFO] argLine set to -javaagent:/home/runner/.m2/repository/org/jacoco/org.jacoco.agent/0.8.6/org.jacoco.agent-0.8.6-runtime.jar=destfile=/home/runner/work/builds/builds/Sefiraat/EquivalencyTech/master/files/target/jacoco.exec
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ EquivalencyTech ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 7 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ EquivalencyTech ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 36 source files to /home/runner/work/builds/builds/Sefiraat/EquivalencyTech/master/files/target/classes
+[WARNING] /home/runner/work/builds/builds/Sefiraat/EquivalencyTech/master/files/src/main/java/io/github/sefiraat/equivalencytech/recipes/EmcDefinitions.java: Some input files use or override a deprecated API.
+[WARNING] /home/runner/work/builds/builds/Sefiraat/EquivalencyTech/master/files/src/main/java/io/github/sefiraat/equivalencytech/recipes/EmcDefinitions.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ EquivalencyTech ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/runner/work/builds/builds/Sefiraat/EquivalencyTech/master/files/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ EquivalencyTech ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:3.0.0-M5:test (default-test) @ EquivalencyTech ---
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.11/commons-codec-1.11.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.11/commons-codec-1.11.pom (0 B at 0 B/s)
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.6:report (report) @ EquivalencyTech ---
+[INFO] Skipping JaCoCo execution due to missing execution data file.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ EquivalencyTech ---
+[INFO] Building jar: /home/runner/work/builds/builds/Sefiraat/EquivalencyTech/master/files/target/EquivalencyTech-1.jar
+[INFO] 
+[INFO] --- maven-shade-plugin:3.2.3:shade (default) @ EquivalencyTech ---
+[INFO] Including dev.triumphteam:triumph-gui:jar:3.0.3 in the shaded jar.
+[INFO] Including org.bstats:bstats-bukkit:jar:2.2.1 in the shaded jar.
+[INFO] Including org.bstats:bstats-base:jar:2.2.1 in the shaded jar.
+[INFO] Including co.aikar:acf-paper:jar:0.5.0-SNAPSHOT in the shaded jar.
+[INFO] Including com.google.code.findbugs:jsr305:jar:2.0.1 in the shaded jar.
+[INFO] Including dev.dbassett:skullcreator:jar:3.0.1 in the shaded jar.
+[WARNING] EquivalencyTech-1.jar, skullcreator-3.0.1.jar define 1 overlapping resources: 
+[WARNING]   - plugin.yml
+[WARNING] EquivalencyTech-1.jar, acf-paper-0.5.0-SNAPSHOT.jar, bstats-base-2.2.1.jar, bstats-bukkit-2.2.1.jar, jsr305-2.0.1.jar, skullcreator-3.0.1.jar, triumph-gui-3.0.3.jar define 1 overlapping resources: 
+[WARNING]   - META-INF/MANIFEST.MF
+[WARNING] maven-shade-plugin has detected that some class files are
+[WARNING] present in two or more JARs. When this happens, only one
+[WARNING] single version of the class is copied to the uber jar.
+[WARNING] Usually this is not harmful and you can skip these warnings,
+[WARNING] otherwise try to manually exclude artifacts based on
+[WARNING] mvn dependency:tree -Ddetail=true and the above output.
+[WARNING] See http://maven.apache.org/plugins/maven-shade-plugin/
+[INFO] Replacing original artifact with shaded artifact.
+[INFO] Replacing /home/runner/work/builds/builds/Sefiraat/EquivalencyTech/master/files/target/EquivalencyTech-1.jar with /home/runner/work/builds/builds/Sefiraat/EquivalencyTech/master/files/target/EquivalencyTech-DEV - 1 (git f7cc8fd5)-shaded.jar
+[INFO] Dependency-reduced POM written at: /home/runner/work/builds/builds/Sefiraat/EquivalencyTech/master/files/dependency-reduced-pom.xml
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar (33 kB at 36 kB/s)
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  17.844 s
+[INFO] Finished at: 2021-09-19T17:51:42Z
+[INFO] ------------------------------------------------------------------------
