@@ -1004,7 +1004,7 @@
         },
         "options": {
             "prefix": "DEV",
-            "abandoned": false,
+            "abandoned": true,
             "createJar": true
         },
         "dependencies": {
@@ -1157,6 +1157,7 @@
                 "1": "1.16.x"
             },
             "Slimefun Version": {
+                "7": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/Slimefun4/stable/#28\">RC-28</a>",
                 "1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/Slimefun4/master/#925\">dev #925</a>"
             }
         }
@@ -1175,7 +1176,62 @@
                 "1": "1.16.x"
             },
             "Slimefun Version": {
+                "33": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/Slimefun4/stable/#28\">RC-28</a>",
                 "1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/Slimefun4/master/#925\">dev #925</a>"
+            }
+        }
+    },
+    "Sefiraat/SMG:master": {
+        "sonar": {
+            "enabled": false
+        },
+        "options": {
+            "prefix": "DEV",
+            "abandoned": false,
+            "createJar": true
+        },
+        "dependencies": {
+            "Minecraft Version(s)": {
+                "1": "1.16.x"
+            },
+            "Slimefun Version": {
+                "1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/Slimefun4/stable/#28\">RC-28</a>"
+            }
+        }
+    },
+    "Sefiraat/DankTech:master": {
+        "sonar": {
+            "enabled": false
+        },
+        "options": {
+            "prefix": "DEV",
+            "abandoned": false,
+            "createJar": true
+        },
+        "dependencies": {
+            "Minecraft Version(s)": {
+                "1": "1.16.x"
+            },
+            "Slimefun Version": {
+                "1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/Slimefun4/stable/#28\">RC-28</a>"
+            }
+        }
+    },
+    "Sefiraat/EquivalencyTech:master": {
+        "sonar": {
+            "enabled": false
+        },
+        "options": {
+            "prefix": "DEV",
+            "abandoned": false,
+            "createJar": true
+        },
+        "dependencies": {
+            "Minecraft Version(s)": {
+                "1": "1.16.x"
+            },
+            "Slimefun Version": {
+                "1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/Slimefun4/stable/#28\">RC-28</a> or later"
             }
         }
     },
