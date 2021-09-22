@@ -755,27 +755,6 @@
             }
         }
     },
-    "Seggan/EMC2:master": {
-        "sonar": {
-            "enabled": false
-        },
-        "options": {
-            "prefix": "DEV",
-            "abandoned": false,
-            "createJar": true
-        },
-        "dependencies": {
-            "Minecraft Version(s)": {
-                "1": "1.16.x"
-            },
-            "Slimefun Version": {
-                "1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/Slimefun4/master/#880\">DEV 880 or higher</a>"
-            },
-            "Java Version": {
-                "1": "11"
-            }
-        }
-    },
     "Seggan/Liquid:master": {
         "sonar": {
             "enabled": false
@@ -1232,6 +1211,28 @@
             },
             "Slimefun Version": {
                 "1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/Slimefun4/stable/#28\">RC-28</a> or later"
+            }
+        }
+    },
+    "Sefiraat/EMC2:master": {
+        "sonar": {
+            "enabled": false
+        },
+        "options": {
+            "prefix": "DEV",
+            "abandoned": false,
+            "createJar": true,
+            "custom_directory": "Seggan/EMC2/master"
+        },
+        "dependencies": {
+            "Minecraft Version(s)": {
+                "1": "1.16.x"
+            },
+            "Slimefun Version": {
+                "1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/Slimefun4/master/#880\">DEV 880 or higher</a>"
+            },
+            "Java Version": {
+                "1": "11"
             }
         }
     },
