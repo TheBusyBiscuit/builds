@@ -1,0 +1,42 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------------------< me.sfiguz7:TranscEndence >----------------------
+[INFO] Building TranscEndence DEV - 36 (git 3dc099a2)
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ TranscEndence ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ TranscEndence ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ TranscEndence ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 31 source files to /home/runner/work/builds/builds/Sfiguz7/TranscEndence/master/files/target/classes
+[WARNING] /home/runner/work/builds/builds/Sfiguz7/TranscEndence/master/files/src/main/java/me/sfiguz7/transcendence/implementation/items/machines/QuirpOscillator.java: /home/runner/work/builds/builds/Sfiguz7/TranscEndence/master/files/src/main/java/me/sfiguz7/transcendence/implementation/items/machines/QuirpOscillator.java uses or overrides a deprecated API.
+[WARNING] /home/runner/work/builds/builds/Sfiguz7/TranscEndence/master/files/src/main/java/me/sfiguz7/transcendence/implementation/items/machines/QuirpOscillator.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ TranscEndence ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/runner/work/builds/builds/Sfiguz7/TranscEndence/master/files/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ TranscEndence ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ TranscEndence ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ TranscEndence ---
+[INFO] Building jar: /home/runner/work/builds/builds/Sfiguz7/TranscEndence/master/files/target/TranscEndence-36.jar
+[INFO] 
+[INFO] --- maven-shade-plugin:3.2.4:shade (default) @ TranscEndence ---
+[INFO] Including org.bstats:bstats-bukkit:jar:1.7 in the shaded jar.
+[INFO] Replacing original artifact with shaded artifact.
+[INFO] Replacing /home/runner/work/builds/builds/Sfiguz7/TranscEndence/master/files/target/TranscEndence-36.jar with /home/runner/work/builds/builds/Sfiguz7/TranscEndence/master/files/target/TranscEndence-DEV - 36 (git 3dc099a2)-shaded.jar
+[INFO] Dependency-reduced POM written at: /home/runner/work/builds/builds/Sfiguz7/TranscEndence/master/files/dependency-reduced-pom.xml
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  3.274 s
+[INFO] Finished at: 2021-09-22T17:05:43Z
+[INFO] ------------------------------------------------------------------------
