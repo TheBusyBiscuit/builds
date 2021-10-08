@@ -655,7 +655,7 @@
             }
         }
     },
-    "Sfiguz7/ExtraTools:master": {
+    "]uz7/ExtraTools:master": {
         "sonar": {
             "enabled": false
         },
@@ -669,7 +669,7 @@
                 "1": "1.14+"
             },
             "Slimefun Version": {
-                "1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/Slimefun4/master/#476\">dev #476</a>"
+                "1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/Slimefun4/master/#476\">dev #476</a>",
                 "31": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/Slimefun4/stable/#28\">RC-28</a>"
             }
         }
@@ -688,7 +688,7 @@
                 "1": "1.14+"
             },
             "Slimefun Version": {
-                "1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/Slimefun4/master/#478\">dev #478</a>"
+                "1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/Slimefun4/master/#478\">dev #478</a>",
                 "37": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/Slimefun4/stable/#28\">RC-28</a>"
             }
         }
