@@ -1,0 +1,408 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -----------------< io.github.mooy1:InfinityExpansion >------------------
+[INFO] Building InfinityExpansion DEV - 124 (git 9f240edd)
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-compiler-plugin/3.1/maven-compiler-plugin-3.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-compiler-plugin/3.1/maven-compiler-plugin-3.1.pom (10 kB at 34 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/24/maven-plugins-24.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/24/maven-plugins-24.pom (11 kB at 373 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/apache/13/apache-13.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/apache/13/apache-13.pom (0 B at 0 B/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-compiler-plugin/3.1/maven-compiler-plugin-3.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-compiler-plugin/3.1/maven-compiler-plugin-3.1.jar (43 kB at 954 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/spigotmc/spigot-api/1.17.1-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/spigotmc/spigot-api/1.17.1-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloaded from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/spigotmc/spigot-api/1.17.1-R0.1-SNAPSHOT/maven-metadata.xml (1.5 kB at 8.9 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/spigotmc/spigot-api/1.17.1-R0.1-SNAPSHOT/spigot-api-1.17.1-R0.1-20211027.074215-88.pom
+[INFO] Downloaded from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/spigotmc/spigot-api/1.17.1-R0.1-SNAPSHOT/spigot-api-1.17.1-R0.1-20211027.074215-88.pom (10 kB at 111 kB/s)
+[INFO] Downloading from jitpack.io: https://jitpack.io/commons-lang/commons-lang/2.6/commons-lang-2.6.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/commons-lang/commons-lang/2.6/commons-lang-2.6.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/commons-lang/commons-lang/2.6/commons-lang-2.6.pom (0 B at 0 B/s)
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/apache/commons/commons-parent/17/commons-parent-17.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/17/commons-parent-17.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/17/commons-parent-17.pom (0 B at 0 B/s)
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/apache/apache/7/apache-7.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/apache/7/apache-7.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/apache/7/apache-7.pom (0 B at 0 B/s)
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/google/guava/guava/21.0/guava-21.0.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/21.0/guava-21.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/21.0/guava-21.0.pom (0 B at 0 B/s)
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/google/guava/guava-parent/21.0/guava-parent-21.0.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/21.0/guava-parent-21.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/21.0/guava-parent-21.0.pom (0 B at 0 B/s)
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/sonatype/oss/oss-parent/7/oss-parent-7.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/sonatype/oss/oss-parent/7/oss-parent-7.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/sonatype/oss/oss-parent/7/oss-parent-7.pom (0 B at 0 B/s)
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/google/code/gson/gson/2.8.0/gson-2.8.0.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/code/gson/gson/2.8.0/gson-2.8.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/code/gson/gson/2.8.0/gson-2.8.0.pom (0 B at 0 B/s)
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/google/code/gson/gson-parent/2.8.0/gson-parent-2.8.0.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/code/gson/gson-parent/2.8.0/gson-parent-2.8.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/code/gson/gson-parent/2.8.0/gson-parent-2.8.0.pom (0 B at 0 B/s)
+[INFO] Downloading from jitpack.io: https://jitpack.io/net/md-5/bungeecord-chat/1.16-R0.4/bungeecord-chat-1.16-R0.4.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/net/md-5/bungeecord-chat/1.16-R0.4/bungeecord-chat-1.16-R0.4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/net/md-5/bungeecord-chat/1.16-R0.4/bungeecord-chat-1.16-R0.4.pom (0 B at 0 B/s)
+[INFO] Downloading from jitpack.io: https://jitpack.io/net/md-5/bungeecord-parent/1.16-R0.4/bungeecord-parent-1.16-R0.4.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/net/md-5/bungeecord-parent/1.16-R0.4/bungeecord-parent-1.16-R0.4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/net/md-5/bungeecord-parent/1.16-R0.4/bungeecord-parent-1.16-R0.4.pom (0 B at 0 B/s)
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/yaml/snakeyaml/1.28/snakeyaml-1.28.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/yaml/snakeyaml/1.28/snakeyaml-1.28.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/yaml/snakeyaml/1.28/snakeyaml-1.28.pom (0 B at 0 B/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/io/github/Slimefun/Slimefun4/RC-28/Slimefun4-RC-28.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/io/github/Slimefun/Slimefun4/RC-28/Slimefun4-RC-28.pom
+[INFO] Downloaded from jitpack.io: https://jitpack.io/io/github/Slimefun/Slimefun4/RC-28/Slimefun4-RC-28.pom (14 kB at 57 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/projectlombok/lombok/1.18.20/lombok-1.18.20.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/projectlombok/lombok/1.18.20/lombok-1.18.20.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/projectlombok/lombok/1.18.20/lombok-1.18.20.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/projectlombok/lombok/1.18.20/lombok-1.18.20.pom (1.5 kB at 71 kB/s)
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.pom (0 B at 0 B/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/io/github/mooy1/InfinityLib/1.3.4/InfinityLib-1.3.4.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/io/github/mooy1/InfinityLib/1.3.4/InfinityLib-1.3.4.pom
+[INFO] Downloaded from jitpack.io: https://jitpack.io/io/github/mooy1/InfinityLib/1.3.4/InfinityLib-1.3.4.pom (5.8 kB at 41 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/junit/jupiter/junit-jupiter/5.7.2/junit-jupiter-5.7.2.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/junit/jupiter/junit-jupiter/5.7.2/junit-jupiter-5.7.2.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter/5.7.2/junit-jupiter-5.7.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter/5.7.2/junit-jupiter-5.7.2.pom (3.2 kB at 100 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/junit/junit-bom/5.7.2/junit-bom-5.7.2.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/junit/junit-bom/5.7.2/junit-bom-5.7.2.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/junit-bom/5.7.2/junit-bom-5.7.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/junit-bom/5.7.2/junit-bom-5.7.2.pom (5.1 kB at 255 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/junit/jupiter/junit-jupiter-api/5.7.2/junit-jupiter-api-5.7.2.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/junit/jupiter/junit-jupiter-api/5.7.2/junit-jupiter-api-5.7.2.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/5.7.2/junit-jupiter-api-5.7.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/5.7.2/junit-jupiter-api-5.7.2.pom (3.2 kB at 145 kB/s)
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.pom (0 B at 0 B/s)
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.pom (0 B at 0 B/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/junit/platform/junit-platform-commons/1.7.2/junit-platform-commons-1.7.2.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/junit/platform/junit-platform-commons/1.7.2/junit-platform-commons-1.7.2.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/1.7.2/junit-platform-commons-1.7.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/1.7.2/junit-platform-commons-1.7.2.pom (2.8 kB at 142 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/junit/jupiter/junit-jupiter-params/5.7.2/junit-jupiter-params-5.7.2.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/junit/jupiter/junit-jupiter-params/5.7.2/junit-jupiter-params-5.7.2.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-params/5.7.2/junit-jupiter-params-5.7.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-params/5.7.2/junit-jupiter-params-5.7.2.pom (3.0 kB at 143 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/junit/jupiter/junit-jupiter-engine/5.7.2/junit-jupiter-engine-5.7.2.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/junit/jupiter/junit-jupiter-engine/5.7.2/junit-jupiter-engine-5.7.2.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-engine/5.7.2/junit-jupiter-engine-5.7.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-engine/5.7.2/junit-jupiter-engine-5.7.2.pom (3.2 kB at 152 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/junit/platform/junit-platform-engine/1.7.2/junit-platform-engine-1.7.2.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/junit/platform/junit-platform-engine/1.7.2/junit-platform-engine-1.7.2.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-engine/1.7.2/junit-platform-engine-1.7.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-engine/1.7.2/junit-platform-engine-1.7.2.pom (3.2 kB at 152 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/github/seeseemelk/MockBukkit-v1.16/1.5.0/MockBukkit-v1.16-1.5.0.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/github/seeseemelk/MockBukkit-v1.16/1.5.0/MockBukkit-v1.16-1.5.0.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/github/seeseemelk/MockBukkit-v1.16/1.5.0/MockBukkit-v1.16-1.5.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/github/seeseemelk/MockBukkit-v1.16/1.5.0/MockBukkit-v1.16-1.5.0.pom (2.5 kB at 67 kB/s)
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/yaml/snakeyaml/1.27/snakeyaml-1.27.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/yaml/snakeyaml/1.27/snakeyaml-1.27.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/yaml/snakeyaml/1.27/snakeyaml-1.27.pom (0 B at 0 B/s)
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/junit/jupiter/junit-jupiter/5.7.1/junit-jupiter-5.7.1.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter/5.7.1/junit-jupiter-5.7.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter/5.7.1/junit-jupiter-5.7.1.pom (0 B at 0 B/s)
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/junit/junit-bom/5.7.1/junit-bom-5.7.1.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/junit-bom/5.7.1/junit-bom-5.7.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/junit-bom/5.7.1/junit-bom-5.7.1.pom (0 B at 0 B/s)
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/junit/jupiter/junit-jupiter-api/5.7.1/junit-jupiter-api-5.7.1.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/5.7.1/junit-jupiter-api-5.7.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/5.7.1/junit-jupiter-api-5.7.1.pom (0 B at 0 B/s)
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/junit/platform/junit-platform-commons/1.7.1/junit-platform-commons-1.7.1.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/1.7.1/junit-platform-commons-1.7.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/1.7.1/junit-platform-commons-1.7.1.pom (0 B at 0 B/s)
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/junit/jupiter/junit-jupiter-params/5.7.1/junit-jupiter-params-5.7.1.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-params/5.7.1/junit-jupiter-params-5.7.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-params/5.7.1/junit-jupiter-params-5.7.1.pom (0 B at 0 B/s)
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/junit/jupiter/junit-jupiter-engine/5.7.1/junit-jupiter-engine-5.7.1.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-engine/5.7.1/junit-jupiter-engine-5.7.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-engine/5.7.1/junit-jupiter-engine-5.7.1.pom (0 B at 0 B/s)
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/junit/platform/junit-platform-engine/1.7.1/junit-platform-engine-1.7.1.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-engine/1.7.1/junit-platform-engine-1.7.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-engine/1.7.1/junit-platform-engine-1.7.1.pom (0 B at 0 B/s)
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/apache/commons/commons-io/1.3.2/commons-io-1.3.2.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-io/1.3.2/commons-io-1.3.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-io/1.3.2/commons-io-1.3.2.pom (0 B at 0 B/s)
+[WARNING] The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2: https://issues.sonatype.org/browse/MVNCENTRAL-244
+[INFO] Downloading from jitpack.io: https://jitpack.io/commons-io/commons-io/1.3.2/commons-io-1.3.2.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/commons-io/commons-io/1.3.2/commons-io-1.3.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/commons-io/commons-io/1.3.2/commons-io-1.3.2.pom (0 B at 0 B/s)
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/apache/commons/commons-parent/3/commons-parent-3.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/3/commons-parent-3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/3/commons-parent-3.pom (0 B at 0 B/s)
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/apache/apache/4/apache-4.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/apache/4/apache-4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/apache/4/apache-4.pom (0 B at 0 B/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/jetbrains/annotations/19.0.0/annotations-19.0.0.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/jetbrains/annotations/19.0.0/annotations-19.0.0.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jetbrains/annotations/19.0.0/annotations-19.0.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jetbrains/annotations/19.0.0/annotations-19.0.0.pom (1.4 kB at 64 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/spigotmc/spigot-api/1.17.1-R0.1-SNAPSHOT/spigot-api-1.17.1-R0.1-20211027.074215-88.jar
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/io/github/Slimefun/Slimefun4/RC-28/Slimefun4-RC-28.jar
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/projectlombok/lombok/1.18.20/lombok-1.18.20.jar
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/io/github/mooy1/InfinityLib/1.3.4/InfinityLib-1.3.4.jar
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/junit/jupiter/junit-jupiter/5.7.2/junit-jupiter-5.7.2.jar
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/junit/jupiter/junit-jupiter-api/5.7.2/junit-jupiter-api-5.7.2.jar
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/junit/platform/junit-platform-commons/1.7.2/junit-platform-commons-1.7.2.jar
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/junit/jupiter/junit-jupiter-params/5.7.2/junit-jupiter-params-5.7.2.jar
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/junit/jupiter/junit-jupiter-engine/5.7.2/junit-jupiter-engine-5.7.2.jar
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/junit/platform/junit-platform-engine/1.7.2/junit-platform-engine-1.7.2.jar
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/github/seeseemelk/MockBukkit-v1.16/1.5.0/MockBukkit-v1.16-1.5.0.jar
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/jetbrains/annotations/19.0.0/annotations-19.0.0.jar
+[INFO] Downloaded from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/spigotmc/spigot-api/1.17.1-R0.1-SNAPSHOT/spigot-api-1.17.1-R0.1-20211027.074215-88.jar (1.4 MB at 6.8 MB/s)
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/google/guava/guava/21.0/guava-21.0.jar
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/google/code/gson/gson/2.8.0/gson-2.8.0.jar
+[INFO] Downloading from jitpack.io: https://jitpack.io/net/md-5/bungeecord-chat/1.16-R0.4/bungeecord-chat-1.16-R0.4.jar
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/yaml/snakeyaml/1.28/snakeyaml-1.28.jar
+[INFO] Downloading from jitpack.io: https://jitpack.io/io/github/Slimefun/Slimefun4/RC-28/Slimefun4-RC-28.jar
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/projectlombok/lombok/1.18.20/lombok-1.18.20.jar
+[INFO] Downloading from jitpack.io: https://jitpack.io/io/github/mooy1/InfinityLib/1.3.4/InfinityLib-1.3.4.jar
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/junit/jupiter/junit-jupiter/5.7.2/junit-jupiter-5.7.2.jar
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/junit/jupiter/junit-jupiter-api/5.7.2/junit-jupiter-api-5.7.2.jar
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/junit/platform/junit-platform-commons/1.7.2/junit-platform-commons-1.7.2.jar
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/junit/jupiter/junit-jupiter-params/5.7.2/junit-jupiter-params-5.7.2.jar
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/junit/jupiter/junit-jupiter-engine/5.7.2/junit-jupiter-engine-5.7.2.jar
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/junit/platform/junit-platform-engine/1.7.2/junit-platform-engine-1.7.2.jar
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/github/seeseemelk/MockBukkit-v1.16/1.5.0/MockBukkit-v1.16-1.5.0.jar
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.jar
+[INFO] Downloading from jitpack.io: https://jitpack.io/commons-io/commons-io/1.3.2/commons-io-1.3.2.jar
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/jetbrains/annotations/19.0.0/annotations-19.0.0.jar
+[INFO] Downloaded from jitpack.io: https://jitpack.io/io/github/Slimefun/Slimefun4/RC-28/Slimefun4-RC-28.jar (4.3 MB at 12 MB/s)
+[INFO] Downloaded from jitpack.io: https://jitpack.io/io/github/mooy1/InfinityLib/1.3.4/InfinityLib-1.3.4.jar (90 kB at 236 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/21.0/guava-21.0.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/code/gson/gson/2.8.0/gson-2.8.0.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/net/md-5/bungeecord-chat/1.16-R0.4/bungeecord-chat-1.16-R0.4.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/yaml/snakeyaml/1.28/snakeyaml-1.28.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/projectlombok/lombok/1.18.20/lombok-1.18.20.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/21.0/guava-21.0.jar (0 B at 0 B/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter/5.7.2/junit-jupiter-5.7.2.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter/5.7.2/junit-jupiter-5.7.2.jar (6.4 kB at 277 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/5.7.2/junit-jupiter-api-5.7.2.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/code/gson/gson/2.8.0/gson-2.8.0.jar (0 B at 0 B/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/yaml/snakeyaml/1.28/snakeyaml-1.28.jar (0 B at 0 B/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/5.7.2/junit-jupiter-api-5.7.2.jar (176 kB at 3.1 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/1.7.2/junit-platform-commons-1.7.2.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar (2.4 kB at 38 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar (0 B at 0 B/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-params/5.7.2/junit-jupiter-params-5.7.2.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-engine/5.7.2/junit-jupiter-engine-5.7.2.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/1.7.2/junit-platform-commons-1.7.2.jar (100 kB at 1.2 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-engine/1.7.2/junit-platform-engine-1.7.2.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-engine/5.7.2/junit-jupiter-engine-5.7.2.jar (213 kB at 1.9 MB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-engine/1.7.2/junit-platform-engine-1.7.2.jar (181 kB at 1.6 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/github/seeseemelk/MockBukkit-v1.16/1.5.0/MockBukkit-v1.16-1.5.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.jar (0 B at 0 B/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/commons-io/commons-io/1.3.2/commons-io-1.3.2.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/commons-io/commons-io/1.3.2/commons-io-1.3.2.jar (0 B at 0 B/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jetbrains/annotations/19.0.0/annotations-19.0.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-params/5.7.2/junit-jupiter-params-5.7.2.jar (567 kB at 4.0 MB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/net/md-5/bungeecord-chat/1.16-R0.4/bungeecord-chat-1.16-R0.4.jar (0 B at 0 B/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jetbrains/annotations/19.0.0/annotations-19.0.0.jar (25 kB at 153 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/github/seeseemelk/MockBukkit-v1.16/1.5.0/MockBukkit-v1.16-1.5.0.jar (268 kB at 1.6 MB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/projectlombok/lombok/1.18.20/lombok-1.18.20.jar (1.9 MB at 8.9 MB/s)
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ InfinityExpansion ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ InfinityExpansion ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ InfinityExpansion ---
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-api/2.0.9/maven-plugin-api-2.0.9.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-api/2.0.9/maven-plugin-api-2.0.9.pom (1.5 kB at 75 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven/2.0.9/maven-2.0.9.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven/2.0.9/maven-2.0.9.pom (19 kB at 822 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/8/maven-parent-8.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/8/maven-parent-8.pom (24 kB at 928 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact/2.0.9/maven-artifact-2.0.9.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact/2.0.9/maven-artifact-2.0.9.pom (1.6 kB at 81 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/1.5.1/plexus-utils-1.5.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/1.5.1/plexus-utils-1.5.1.pom (2.3 kB at 96 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-core/2.0.9/maven-core-2.0.9.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-core/2.0.9/maven-core-2.0.9.pom (7.8 kB at 389 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-settings/2.0.9/maven-settings-2.0.9.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-settings/2.0.9/maven-settings-2.0.9.pom (2.1 kB at 94 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-model/2.0.9/maven-model-2.0.9.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-model/2.0.9/maven-model-2.0.9.pom (3.1 kB at 137 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-parameter-documenter/2.0.9/maven-plugin-parameter-documenter-2.0.9.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-parameter-documenter/2.0.9/maven-plugin-parameter-documenter-2.0.9.pom (2.0 kB at 85 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-profile/2.0.9/maven-profile-2.0.9.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-profile/2.0.9/maven-profile-2.0.9.pom (2.0 kB at 45 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-repository-metadata/2.0.9/maven-repository-metadata-2.0.9.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-repository-metadata/2.0.9/maven-repository-metadata-2.0.9.pom (1.9 kB at 76 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-error-diagnostics/2.0.9/maven-error-diagnostics-2.0.9.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-error-diagnostics/2.0.9/maven-error-diagnostics-2.0.9.pom (1.7 kB at 92 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-project/2.0.9/maven-project-2.0.9.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-project/2.0.9/maven-project-2.0.9.pom (2.7 kB at 143 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact-manager/2.0.9/maven-artifact-manager-2.0.9.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact-manager/2.0.9/maven-artifact-manager-2.0.9.pom (2.7 kB at 150 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-registry/2.0.9/maven-plugin-registry-2.0.9.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-registry/2.0.9/maven-plugin-registry-2.0.9.pom (2.0 kB at 66 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-descriptor/2.0.9/maven-plugin-descriptor-2.0.9.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-descriptor/2.0.9/maven-plugin-descriptor-2.0.9.pom (2.1 kB at 115 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-monitor/2.0.9/maven-monitor-2.0.9.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-monitor/2.0.9/maven-monitor-2.0.9.pom (1.3 kB at 76 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-toolchain/1.0/maven-toolchain-1.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-toolchain/1.0/maven-toolchain-1.0.pom (3.4 kB at 163 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-api/2.2/plexus-compiler-api-2.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-api/2.2/plexus-compiler-api-2.2.pom (865 B at 26 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler/2.2/plexus-compiler-2.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler/2.2/plexus-compiler-2.2.pom (3.6 kB at 172 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-components/1.3.1/plexus-components-1.3.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-components/1.3.1/plexus-components-1.3.1.pom (3.1 kB at 170 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.0.8/plexus-utils-3.0.8.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.0.8/plexus-utils-3.0.8.pom (3.1 kB at 175 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/3.2/plexus-3.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/3.2/plexus-3.2.pom (19 kB at 987 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-manager/2.2/plexus-compiler-manager-2.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-manager/2.2/plexus-compiler-manager-2.2.pom (690 B at 33 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-javac/2.2/plexus-compiler-javac-2.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-javac/2.2/plexus-compiler-javac-2.2.pom (769 B at 25 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compilers/2.2/plexus-compilers-2.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compilers/2.2/plexus-compilers-2.2.pom (1.2 kB at 65 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-container-default/1.5.5/plexus-container-default-1.5.5.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-container-default/1.5.5/plexus-container-default-1.5.5.pom (2.8 kB at 145 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/1.4.5/plexus-utils-1.4.5.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/1.4.5/plexus-utils-1.4.5.pom (2.3 kB at 108 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-classworlds/2.2.2/plexus-classworlds-2.2.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-classworlds/2.2.2/plexus-classworlds-2.2.2.pom (4.0 kB at 212 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/xbean/xbean-reflect/3.4/xbean-reflect-3.4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/xbean/xbean-reflect/3.4/xbean-reflect-3.4.pom (2.8 kB at 156 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/xbean/xbean/3.4/xbean-3.4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/xbean/xbean/3.4/xbean-3.4.pom (19 kB at 1.1 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/log4j/log4j/1.2.12/log4j-1.2.12.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/log4j/log4j/1.2.12/log4j-1.2.12.pom (145 B at 7.6 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/commons-logging/commons-logging-api/1.1/commons-logging-api-1.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/commons-logging/commons-logging-api/1.1/commons-logging-api-1.1.pom (5.3 kB at 255 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/collections/google-collections/1.0/google-collections-1.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/collections/google-collections/1.0/google-collections-1.0.pom (2.5 kB at 130 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/google/1/google-1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/google/1/google-1.pom (1.6 kB at 82 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/junit/junit/3.8.2/junit-3.8.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/junit/junit/3.8.2/junit-3.8.2.pom (747 B at 39 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-api/2.0.9/maven-plugin-api-2.0.9.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact/2.0.9/maven-artifact-2.0.9.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/1.5.1/plexus-utils-1.5.1.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-core/2.0.9/maven-core-2.0.9.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-settings/2.0.9/maven-settings-2.0.9.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-api/2.0.9/maven-plugin-api-2.0.9.jar (13 kB at 645 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-parameter-documenter/2.0.9/maven-plugin-parameter-documenter-2.0.9.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/1.5.1/plexus-utils-1.5.1.jar (211 kB at 9.2 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-profile/2.0.9/maven-profile-2.0.9.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-core/2.0.9/maven-core-2.0.9.jar (160 kB at 6.7 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-model/2.0.9/maven-model-2.0.9.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact/2.0.9/maven-artifact-2.0.9.jar (89 kB at 3.0 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-repository-metadata/2.0.9/maven-repository-metadata-2.0.9.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-parameter-documenter/2.0.9/maven-plugin-parameter-documenter-2.0.9.jar (21 kB at 633 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-error-diagnostics/2.0.9/maven-error-diagnostics-2.0.9.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-settings/2.0.9/maven-settings-2.0.9.jar (49 kB at 1.3 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-project/2.0.9/maven-project-2.0.9.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-profile/2.0.9/maven-profile-2.0.9.jar (35 kB at 884 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-registry/2.0.9/maven-plugin-registry-2.0.9.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-model/2.0.9/maven-model-2.0.9.jar (87 kB at 2.1 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-descriptor/2.0.9/maven-plugin-descriptor-2.0.9.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-repository-metadata/2.0.9/maven-repository-metadata-2.0.9.jar (25 kB at 523 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact-manager/2.0.9/maven-artifact-manager-2.0.9.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-error-diagnostics/2.0.9/maven-error-diagnostics-2.0.9.jar (14 kB at 265 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-monitor/2.0.9/maven-monitor-2.0.9.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-registry/2.0.9/maven-plugin-registry-2.0.9.jar (29 kB at 510 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-toolchain/1.0/maven-toolchain-1.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-descriptor/2.0.9/maven-plugin-descriptor-2.0.9.jar (37 kB at 553 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-utils/0.1/maven-shared-utils-0.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-monitor/2.0.9/maven-monitor-2.0.9.jar (10 kB at 145 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/code/findbugs/jsr305/2.0.1/jsr305-2.0.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-project/2.0.9/maven-project-2.0.9.jar (122 kB at 1.7 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-api/2.2/plexus-compiler-api-2.2.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact-manager/2.0.9/maven-artifact-manager-2.0.9.jar (58 kB at 782 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-manager/2.2/plexus-compiler-manager-2.2.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-toolchain/1.0/maven-toolchain-1.0.jar (33 kB at 427 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-javac/2.2/plexus-compiler-javac-2.2.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-manager/2.2/plexus-compiler-manager-2.2.jar (4.6 kB at 50 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-container-default/1.5.5/plexus-container-default-1.5.5.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/code/findbugs/jsr305/2.0.1/jsr305-2.0.1.jar (32 kB at 339 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-classworlds/2.2.2/plexus-classworlds-2.2.2.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-utils/0.1/maven-shared-utils-0.1.jar (155 kB at 1.6 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/xbean/xbean-reflect/3.4/xbean-reflect-3.4.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-api/2.2/plexus-compiler-api-2.2.jar (25 kB at 258 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/log4j/log4j/1.2.12/log4j-1.2.12.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-javac/2.2/plexus-compiler-javac-2.2.jar (19 kB at 192 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/commons-logging/commons-logging-api/1.1/commons-logging-api-1.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-classworlds/2.2.2/plexus-classworlds-2.2.2.jar (46 kB at 412 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/collections/google-collections/1.0/google-collections-1.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/commons-logging/commons-logging-api/1.1/commons-logging-api-1.1.jar (45 kB at 366 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/junit/junit/3.8.2/junit-3.8.2.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/log4j/log4j/1.2.12/log4j-1.2.12.jar (358 kB at 2.8 MB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/xbean/xbean-reflect/3.4/xbean-reflect-3.4.jar (134 kB at 1.0 MB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-container-default/1.5.5/plexus-container-default-1.5.5.jar (217 kB at 1.6 MB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/junit/junit/3.8.2/junit-3.8.2.jar (121 kB at 844 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/collections/google-collections/1.0/google-collections-1.0.jar (640 kB at 3.9 MB/s)
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 50 source files to /home/runner/work/builds/builds/Mooy1/InfinityExpansion/master/files/target/classes
+[WARNING] /home/runner/work/builds/builds/Mooy1/InfinityExpansion/master/files/src/main/java/io/github/mooy1/infinityexpansion/categories/InfinityGroup.java: Some input files use or override a deprecated API.
+[WARNING] /home/runner/work/builds/builds/Mooy1/InfinityExpansion/master/files/src/main/java/io/github/mooy1/infinityexpansion/categories/InfinityGroup.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ InfinityExpansion ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/runner/work/builds/builds/Mooy1/InfinityExpansion/master/files/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ InfinityExpansion ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to /home/runner/work/builds/builds/Mooy1/InfinityExpansion/master/files/target/test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:3.0.0-M5:test (default-test) @ InfinityExpansion ---
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.11/commons-codec-1.11.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.11/commons-codec-1.11.pom (0 B at 0 B/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/42/commons-parent-42.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/42/commons-parent-42.pom (0 B at 0 B/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/apache/18/apache-18.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/apache/18/apache-18.pom (0 B at 0 B/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/junit/platform/junit-platform-launcher/1.7.2/junit-platform-launcher-1.7.2.jar
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/junit/platform/junit-platform-launcher/1.7.2/junit-platform-launcher-1.7.2.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-launcher/1.7.2/junit-platform-launcher-1.7.2.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-launcher/1.7.2/junit-platform-launcher-1.7.2.jar (137 kB at 5.1 MB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/junit/platform/junit-platform-launcher/1.7.2/junit-platform-launcher-1.7.2.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/junit/platform/junit-platform-launcher/1.7.2/junit-platform-launcher-1.7.2.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-launcher/1.7.2/junit-platform-launcher-1.7.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-launcher/1.7.2/junit-platform-launcher-1.7.2.pom (3.0 kB at 168 kB/s)
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running io.github.mooy1.infinityexpansion.TestInfinityExpansion
+Oct 28, 2021 2:11:15 AM org.bukkit.plugin.java.JavaPluginLoader <init>
+WARNING: Could not initialize LibraryLoader (missing dependencies?)
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.035 s - in io.github.mooy1.infinityexpansion.TestInfinityExpansion
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ InfinityExpansion ---
+[INFO] Building jar: /home/runner/work/builds/builds/Mooy1/InfinityExpansion/master/files/target/InfinityExpansion-124.jar
+[INFO] 
+[INFO] --- maven-shade-plugin:3.2.4:shade (default) @ InfinityExpansion ---
+[INFO] Including io.github.mooy1:InfinityLib:jar:1.3.4 in the shaded jar.
+[INFO] Minimizing jar io.github.mooy1:InfinityExpansion:jar:DEV - 124 (git 9f240edd)
+[WARNING] /home/runner/work/builds/builds/Mooy1/InfinityExpansion/master/files/target/classes (Is a directory)
+[INFO] Minimized 124 -> 117 (94%)
+[INFO] Replacing original artifact with shaded artifact.
+[INFO] Replacing /home/runner/work/builds/builds/Mooy1/InfinityExpansion/master/files/target/InfinityExpansion-124.jar with /home/runner/work/builds/builds/Mooy1/InfinityExpansion/master/files/target/InfinityExpansion-DEV - 124 (git 9f240edd)-shaded.jar
+[INFO] Dependency-reduced POM written at: /home/runner/work/builds/builds/Mooy1/InfinityExpansion/master/files/dependency-reduced-pom.xml
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  14.549 s
+[INFO] Finished at: 2021-10-28T02:11:17Z
+[INFO] ------------------------------------------------------------------------
