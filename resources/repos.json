@@ -1206,6 +1206,24 @@
             }
         }
     },
+    "Sefiraat/DankTech2:master": {
+        "sonar": {
+            "enabled": false
+        },
+        "options": {
+            "prefix": "DEV",
+            "abandoned": false,
+            "createJar": true
+        },
+        "dependencies": {
+            "Minecraft Version(s)": {
+                "1": "1.16.x"
+            },
+            "Slimefun Version": {
+                "1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/Slimefun4/master/#966\">dev #983</a>"
+            }
+        }
+    },
     "Sefiraat/SMG:master": {
         "sonar": {
             "enabled": false
@@ -1230,7 +1248,7 @@
         },
         "options": {
             "prefix": "DEV",
-            "abandoned": false,
+            "abandoned": true,
             "createJar": true
         },
         "dependencies": {
