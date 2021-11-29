@@ -16,7 +16,7 @@ jobs:
       with:
         ref: gh-pages
     - name: Setup Java JDK 11
-      uses: actions/setup-java@v2.3.0
+      uses: actions/setup-java@v2.4.0
       with:
         distribution: 'adopt'
         java-version: '11'
