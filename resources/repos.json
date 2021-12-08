@@ -1059,7 +1059,6 @@
             }
         }
     },
-    
     "J3fftw1/LuckyPandas:master": {
         "sonar": {
             "enabled": false
