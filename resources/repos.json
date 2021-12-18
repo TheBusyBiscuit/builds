@@ -655,6 +655,25 @@
             }
         }
     },
+    "Slimefun-Addon-Community/HardcoreSlimefun:main": {
+        "sonar": {
+            "enabled": false
+        },
+        "options": {
+            "prefix": "DEV",
+            "abandoned": false,
+            "createJar": true,
+            "ignoreTags": true
+        },
+        "dependencies": {
+            "Minecraft Version(s)": {
+                "1": "1.14.x+"
+            },
+            "Slimefun Version": {
+                "1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/Slimefun4/master/#966\">DEV #966 / RC #28</a>"
+            }
+        }  
+    },
     "Sfiguz7/ExtraTools:master": {
         "sonar": {
             "enabled": false
@@ -1295,25 +1314,6 @@
             "Slimefun Version": {
                 "6": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/Slimefun4/master/#966\">DEV #966 / RC #28</a>",
                 "1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/Slimefun4/master/#880\">DEV #880 / RC #22</a>"
-            }
-        }
-    },
-    "WalshyDev/HardcoreSF:main": {
-        "sonar": {
-            "enabled": false
-        },
-        "options": {
-            "prefix": "DEV",
-            "abandoned": false,
-            "createJar": true,
-            "ignoreTags": true
-        },
-        "dependencies": {
-            "Minecraft Version(s)": {
-                "1": "1.14.x+"
-            },
-            "Slimefun Version": {
-                "1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/Slimefun4/master/#966\">DEV #966 / RC #28</a>"
             }
         }
     },
