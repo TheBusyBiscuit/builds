@@ -1,0 +1,175 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------------< io.github.sefiraat.networks:Networks >----------------
+[INFO] Building Networks DEV - 3 (git 4f651814)
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] Downloading from central: https://repo1.maven.org/maven2/org/apache/maven/plugins/maven-clean-plugin/2.5/maven-clean-plugin-2.5.pom
+[INFO] Downloaded from central: https://repo1.maven.org/maven2/org/apache/maven/plugins/maven-clean-plugin/2.5/maven-clean-plugin-2.5.pom (3.9 kB at 14 kB/s)
+[INFO] Downloading from central: https://repo1.maven.org/maven2/org/apache/maven/plugins/maven-plugins/22/maven-plugins-22.pom
+[INFO] Downloaded from central: https://repo1.maven.org/maven2/org/apache/maven/plugins/maven-plugins/22/maven-plugins-22.pom (13 kB at 362 kB/s)
+[INFO] Downloading from central: https://repo1.maven.org/maven2/org/apache/maven/maven-parent/21/maven-parent-21.pom
+[INFO] Downloaded from central: https://repo1.maven.org/maven2/org/apache/maven/maven-parent/21/maven-parent-21.pom (26 kB at 712 kB/s)
+[INFO] Downloading from central: https://repo1.maven.org/maven2/org/apache/apache/10/apache-10.pom
+[INFO] Downloaded from central: https://repo1.maven.org/maven2/org/apache/apache/10/apache-10.pom (15 kB at 411 kB/s)
+[INFO] Downloading from central: https://repo1.maven.org/maven2/org/apache/maven/plugins/maven-clean-plugin/2.5/maven-clean-plugin-2.5.jar
+[INFO] Downloaded from central: https://repo1.maven.org/maven2/org/apache/maven/plugins/maven-clean-plugin/2.5/maven-clean-plugin-2.5.jar (25 kB at 704 kB/s)
+[INFO] Downloading from central: https://repo1.maven.org/maven2/org/apache/maven/plugins/maven-resources-plugin/2.6/maven-resources-plugin-2.6.pom
+[INFO] Downloaded from central: https://repo1.maven.org/maven2/org/apache/maven/plugins/maven-resources-plugin/2.6/maven-resources-plugin-2.6.pom (8.1 kB at 254 kB/s)
+[INFO] Downloading from central: https://repo1.maven.org/maven2/org/apache/maven/plugins/maven-plugins/23/maven-plugins-23.pom
+[INFO] Downloaded from central: https://repo1.maven.org/maven2/org/apache/maven/plugins/maven-plugins/23/maven-plugins-23.pom (9.2 kB at 287 kB/s)
+[INFO] Downloading from central: https://repo1.maven.org/maven2/org/apache/maven/maven-parent/22/maven-parent-22.pom
+[INFO] Downloaded from central: https://repo1.maven.org/maven2/org/apache/maven/maven-parent/22/maven-parent-22.pom (30 kB at 901 kB/s)
+[INFO] Downloading from central: https://repo1.maven.org/maven2/org/apache/apache/11/apache-11.pom
+[INFO] Downloaded from central: https://repo1.maven.org/maven2/org/apache/apache/11/apache-11.pom (15 kB at 449 kB/s)
+[INFO] Downloading from central: https://repo1.maven.org/maven2/org/apache/maven/plugins/maven-resources-plugin/2.6/maven-resources-plugin-2.6.jar
+[INFO] Downloaded from central: https://repo1.maven.org/maven2/org/apache/maven/plugins/maven-resources-plugin/2.6/maven-resources-plugin-2.6.jar (30 kB at 868 kB/s)
+[INFO] Downloading from central: https://repo1.maven.org/maven2/org/apache/maven/plugins/maven-compiler-plugin/3.1/maven-compiler-plugin-3.1.pom
+[INFO] Downloaded from central: https://repo1.maven.org/maven2/org/apache/maven/plugins/maven-compiler-plugin/3.1/maven-compiler-plugin-3.1.pom (10 kB at 365 kB/s)
+[INFO] Downloading from central: https://repo1.maven.org/maven2/org/apache/maven/plugins/maven-plugins/24/maven-plugins-24.pom
+[INFO] Downloaded from central: https://repo1.maven.org/maven2/org/apache/maven/plugins/maven-plugins/24/maven-plugins-24.pom (11 kB at 373 kB/s)
+[INFO] Downloading from central: https://repo1.maven.org/maven2/org/apache/maven/maven-parent/23/maven-parent-23.pom
+[INFO] Downloaded from central: https://repo1.maven.org/maven2/org/apache/maven/maven-parent/23/maven-parent-23.pom (33 kB at 836 kB/s)
+[INFO] Downloading from central: https://repo1.maven.org/maven2/org/apache/apache/13/apache-13.pom
+[INFO] Downloaded from central: https://repo1.maven.org/maven2/org/apache/apache/13/apache-13.pom (14 kB at 482 kB/s)
+[INFO] Downloading from central: https://repo1.maven.org/maven2/org/apache/maven/plugins/maven-compiler-plugin/3.1/maven-compiler-plugin-3.1.jar
+[INFO] Downloaded from central: https://repo1.maven.org/maven2/org/apache/maven/plugins/maven-compiler-plugin/3.1/maven-compiler-plugin-3.1.jar (43 kB at 1.3 MB/s)
+[INFO] Downloading from central: https://repo1.maven.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/2.12.4/maven-surefire-plugin-2.12.4.pom
+[INFO] Downloaded from central: https://repo1.maven.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/2.12.4/maven-surefire-plugin-2.12.4.pom (10 kB at 361 kB/s)
+[INFO] Downloading from central: https://repo1.maven.org/maven2/org/apache/maven/surefire/surefire/2.12.4/surefire-2.12.4.pom
+[INFO] Downloaded from central: https://repo1.maven.org/maven2/org/apache/maven/surefire/surefire/2.12.4/surefire-2.12.4.pom (14 kB at 492 kB/s)
+[INFO] Downloading from central: https://repo1.maven.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/2.12.4/maven-surefire-plugin-2.12.4.jar
+[INFO] Downloaded from central: https://repo1.maven.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/2.12.4/maven-surefire-plugin-2.12.4.jar (30 kB at 1.1 MB/s)
+[INFO] Downloading from central: https://repo1.maven.org/maven2/org/apache/maven/plugins/maven-jar-plugin/2.4/maven-jar-plugin-2.4.pom
+[INFO] Downloaded from central: https://repo1.maven.org/maven2/org/apache/maven/plugins/maven-jar-plugin/2.4/maven-jar-plugin-2.4.pom (5.8 kB at 208 kB/s)
+[INFO] Downloading from central: https://repo1.maven.org/maven2/org/apache/maven/plugins/maven-jar-plugin/2.4/maven-jar-plugin-2.4.jar
+[INFO] Downloaded from central: https://repo1.maven.org/maven2/org/apache/maven/plugins/maven-jar-plugin/2.4/maven-jar-plugin-2.4.jar (34 kB at 1.1 MB/s)
+[INFO] Downloading from apache.snapshots: https://repository.apache.org/snapshots/org/apache/maven/plugins/maven-shade-plugin/3.3.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from central: https://repo1.maven.org/maven2/org/apache/maven/plugins/maven-shade-plugin/3.3.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloaded from apache.snapshots: https://repository.apache.org/snapshots/org/apache/maven/plugins/maven-shade-plugin/3.3.0-SNAPSHOT/maven-metadata.xml (1.0 kB at 2.1 kB/s)
+[INFO] Downloading from central: https://repo1.maven.org/maven2/org/apache/maven/plugins/maven-shade-plugin/3.3.0-SNAPSHOT/maven-shade-plugin-3.3.0-20210714.100309-67.pom
+[INFO] Downloading from apache.snapshots: https://repository.apache.org/snapshots/org/apache/maven/plugins/maven-shade-plugin/3.3.0-SNAPSHOT/maven-shade-plugin-3.3.0-20210714.100309-67.pom
+[INFO] Downloaded from apache.snapshots: https://repository.apache.org/snapshots/org/apache/maven/plugins/maven-shade-plugin/3.3.0-SNAPSHOT/maven-shade-plugin-3.3.0-20210714.100309-67.pom (13 kB at 63 kB/s)
+[INFO] Downloading from central: https://repo1.maven.org/maven2/org/apache/maven/plugins/maven-plugins/34/maven-plugins-34.pom
+[INFO] Downloaded from central: https://repo1.maven.org/maven2/org/apache/maven/plugins/maven-plugins/34/maven-plugins-34.pom (11 kB at 369 kB/s)
+[INFO] Downloading from central: https://repo1.maven.org/maven2/org/apache/maven/maven-parent/34/maven-parent-34.pom
+[INFO] Downloaded from central: https://repo1.maven.org/maven2/org/apache/maven/maven-parent/34/maven-parent-34.pom (43 kB at 1.4 MB/s)
+[INFO] Downloading from central: https://repo1.maven.org/maven2/org/apache/apache/23/apache-23.pom
+[INFO] Downloaded from central: https://repo1.maven.org/maven2/org/apache/apache/23/apache-23.pom (18 kB at 361 kB/s)
+[INFO] Downloading from apache.snapshots: https://repository.apache.org/snapshots/org/apache/maven/plugins/maven-shade-plugin/3.3.0-SNAPSHOT/maven-shade-plugin-3.3.0-20210714.100309-67.jar
+[INFO] Downloaded from apache.snapshots: https://repository.apache.org/snapshots/org/apache/maven/plugins/maven-shade-plugin/3.3.0-SNAPSHOT/maven-shade-plugin-3.3.0-20210714.100309-67.jar (140 kB at 286 kB/s)
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/spigotmc/spigot-api/1.17.1-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/spigotmc/spigot-api/1.17.1-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from jeff-media-public: https://hub.jeff-media.com/nexus/repository/jeff-media-public/org/spigotmc/spigot-api/1.17.1-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloaded from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/spigotmc/spigot-api/1.17.1-R0.1-SNAPSHOT/maven-metadata.xml (1.5 kB at 4.5 kB/s)
+[WARNING] Could not transfer metadata org.spigotmc:spigot-api:1.17.1-R0.1-SNAPSHOT/maven-metadata.xml from/to jeff-media-public (https://hub.jeff-media.com/nexus/repository/jeff-media-public/): transfer failed for https://hub.jeff-media.com/nexus/repository/jeff-media-public/org/spigotmc/spigot-api/1.17.1-R0.1-SNAPSHOT/maven-metadata.xml, status: 503 Service Unavailable
+[WARNING] org.spigotmc:spigot-api:1.17.1-R0.1-SNAPSHOT/maven-metadata.xmlfailed to transfer from https://hub.jeff-media.com/nexus/repository/jeff-media-public/ during a previous attempt. This failure was cached in the local repository and resolution will not be reattempted until the update interval of jeff-media-public has elapsed or updates are forced. Original error: Could not transfer metadata org.spigotmc:spigot-api:1.17.1-R0.1-SNAPSHOT/maven-metadata.xml from/to jeff-media-public (https://hub.jeff-media.com/nexus/repository/jeff-media-public/): transfer failed for https://hub.jeff-media.com/nexus/repository/jeff-media-public/org/spigotmc/spigot-api/1.17.1-R0.1-SNAPSHOT/maven-metadata.xml, status: 503 Service Unavailable
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/spigotmc/spigot-api/1.17.1-R0.1-SNAPSHOT/spigot-api-1.17.1-R0.1-20211121.234319-104.pom
+[INFO] Downloaded from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/spigotmc/spigot-api/1.17.1-R0.1-SNAPSHOT/spigot-api-1.17.1-R0.1-20211121.234319-104.pom (10 kB at 137 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/commons-lang/commons-lang/2.6/commons-lang-2.6.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/commons-lang/commons-lang/2.6/commons-lang-2.6.pom
+[INFO] Downloading from jeff-media-public: https://hub.jeff-media.com/nexus/repository/jeff-media-public/commons-lang/commons-lang/2.6/commons-lang-2.6.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/commons-lang/commons-lang/2.6/commons-lang-2.6.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/commons-lang/commons-lang/2.6/commons-lang-2.6.pom (17 kB at 151 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/apache/commons/commons-parent/17/commons-parent-17.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/apache/commons/commons-parent/17/commons-parent-17.pom
+[INFO] Downloading from jeff-media-public: https://hub.jeff-media.com/nexus/repository/jeff-media-public/org/apache/commons/commons-parent/17/commons-parent-17.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/17/commons-parent-17.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/17/commons-parent-17.pom (31 kB at 1.0 MB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/apache/apache/7/apache-7.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/apache/apache/7/apache-7.pom
+[INFO] Downloading from jeff-media-public: https://hub.jeff-media.com/nexus/repository/jeff-media-public/org/apache/apache/7/apache-7.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/apache/7/apache-7.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/apache/7/apache-7.pom (14 kB at 534 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/google/guava/guava/21.0/guava-21.0.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/google/guava/guava/21.0/guava-21.0.pom
+[INFO] Downloading from jeff-media-public: https://hub.jeff-media.com/nexus/repository/jeff-media-public/com/google/guava/guava/21.0/guava-21.0.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/21.0/guava-21.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/21.0/guava-21.0.pom (7.0 kB at 234 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/google/guava/guava-parent/21.0/guava-parent-21.0.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/google/guava/guava-parent/21.0/guava-parent-21.0.pom
+[INFO] Downloading from jeff-media-public: https://hub.jeff-media.com/nexus/repository/jeff-media-public/com/google/guava/guava-parent/21.0/guava-parent-21.0.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/21.0/guava-parent-21.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/21.0/guava-parent-21.0.pom (9.7 kB at 322 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/sonatype/oss/oss-parent/7/oss-parent-7.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/sonatype/oss/oss-parent/7/oss-parent-7.pom
+[INFO] Downloading from jeff-media-public: https://hub.jeff-media.com/nexus/repository/jeff-media-public/org/sonatype/oss/oss-parent/7/oss-parent-7.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/sonatype/oss/oss-parent/7/oss-parent-7.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/sonatype/oss/oss-parent/7/oss-parent-7.pom (4.8 kB at 134 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/google/code/gson/gson/2.8.0/gson-2.8.0.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/google/code/gson/gson/2.8.0/gson-2.8.0.pom
+[INFO] Downloading from jeff-media-public: https://hub.jeff-media.com/nexus/repository/jeff-media-public/com/google/code/gson/gson/2.8.0/gson-2.8.0.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/code/gson/gson/2.8.0/gson-2.8.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/code/gson/gson/2.8.0/gson-2.8.0.pom (1.4 kB at 54 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/google/code/gson/gson-parent/2.8.0/gson-parent-2.8.0.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/google/code/gson/gson-parent/2.8.0/gson-parent-2.8.0.pom
+[INFO] Downloading from jeff-media-public: https://hub.jeff-media.com/nexus/repository/jeff-media-public/com/google/code/gson/gson-parent/2.8.0/gson-parent-2.8.0.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/code/gson/gson-parent/2.8.0/gson-parent-2.8.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/code/gson/gson-parent/2.8.0/gson-parent-2.8.0.pom (3.5 kB at 119 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/net/md-5/bungeecord-chat/1.16-R0.4/bungeecord-chat-1.16-R0.4.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/net/md-5/bungeecord-chat/1.16-R0.4/bungeecord-chat-1.16-R0.4.pom
+[INFO] Downloading from jeff-media-public: https://hub.jeff-media.com/nexus/repository/jeff-media-public/net/md-5/bungeecord-chat/1.16-R0.4/bungeecord-chat-1.16-R0.4.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/net/md-5/bungeecord-chat/1.16-R0.4/bungeecord-chat-1.16-R0.4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/net/md-5/bungeecord-chat/1.16-R0.4/bungeecord-chat-1.16-R0.4.pom (978 B at 27 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/net/md-5/bungeecord-parent/1.16-R0.4/bungeecord-parent-1.16-R0.4.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/net/md-5/bungeecord-parent/1.16-R0.4/bungeecord-parent-1.16-R0.4.pom
+[INFO] Downloading from jeff-media-public: https://hub.jeff-media.com/nexus/repository/jeff-media-public/net/md-5/bungeecord-parent/1.16-R0.4/bungeecord-parent-1.16-R0.4.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/net/md-5/bungeecord-parent/1.16-R0.4/bungeecord-parent-1.16-R0.4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/net/md-5/bungeecord-parent/1.16-R0.4/bungeecord-parent-1.16-R0.4.pom (10 kB at 145 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/yaml/snakeyaml/1.28/snakeyaml-1.28.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/yaml/snakeyaml/1.28/snakeyaml-1.28.pom
+[INFO] Downloading from jeff-media-public: https://hub.jeff-media.com/nexus/repository/jeff-media-public/org/yaml/snakeyaml/1.28/snakeyaml-1.28.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/yaml/snakeyaml/1.28/snakeyaml-1.28.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/yaml/snakeyaml/1.28/snakeyaml-1.28.pom (37 kB at 1.3 MB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/github/Slimefun/Slimefun4/b8f7dc/Slimefun4-b8f7dc.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/github/Slimefun/Slimefun4/b8f7dc/Slimefun4-b8f7dc.pom
+[INFO] Downloaded from jitpack.io: https://jitpack.io/com/github/Slimefun/Slimefun4/b8f7dc/Slimefun4-b8f7dc.pom (14 kB at 77 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/bstats/bstats-bukkit/2.2.1/bstats-bukkit-2.2.1.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/bstats/bstats-bukkit/2.2.1/bstats-bukkit-2.2.1.pom
+[INFO] Downloading from jeff-media-public: https://hub.jeff-media.com/nexus/repository/jeff-media-public/org/bstats/bstats-bukkit/2.2.1/bstats-bukkit-2.2.1.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/bstats/bstats-bukkit/2.2.1/bstats-bukkit-2.2.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/bstats/bstats-bukkit/2.2.1/bstats-bukkit-2.2.1.pom (1.7 kB at 60 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/bstats/bstats-base/2.2.1/bstats-base-2.2.1.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/bstats/bstats-base/2.2.1/bstats-base-2.2.1.pom
+[INFO] Downloading from jeff-media-public: https://hub.jeff-media.com/nexus/repository/jeff-media-public/org/bstats/bstats-base/2.2.1/bstats-base-2.2.1.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/bstats/bstats-base/2.2.1/bstats-base-2.2.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/bstats/bstats-base/2.2.1/bstats-base-2.2.1.pom (1.5 kB at 56 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/google/code/findbugs/annotations/3.0.1u2/annotations-3.0.1u2.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/google/code/findbugs/annotations/3.0.1u2/annotations-3.0.1u2.pom
+[INFO] Downloading from jeff-media-public: https://hub.jeff-media.com/nexus/repository/jeff-media-public/com/google/code/findbugs/annotations/3.0.1u2/annotations-3.0.1u2.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/code/findbugs/annotations/3.0.1u2/annotations-3.0.1u2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/code/findbugs/annotations/3.0.1u2/annotations-3.0.1u2.pom (7.0 kB at 250 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/net/jcip/jcip-annotations/1.0/jcip-annotations-1.0.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/net/jcip/jcip-annotations/1.0/jcip-annotations-1.0.pom
+[INFO] Downloading from jeff-media-public: https://hub.jeff-media.com/nexus/repository/jeff-media-public/net/jcip/jcip-annotations/1.0/jcip-annotations-1.0.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/net/jcip/jcip-annotations/1.0/jcip-annotations-1.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/net/jcip/jcip-annotations/1.0/jcip-annotations-1.0.pom (491 B at 18 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/google/code/findbugs/jsr305/3.0.1/jsr305-3.0.1.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/google/code/findbugs/jsr305/3.0.1/jsr305-3.0.1.pom
+[INFO] Downloading from jeff-media-public: https://hub.jeff-media.com/nexus/repository/jeff-media-public/com/google/code/findbugs/jsr305/3.0.1/jsr305-3.0.1.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/code/findbugs/jsr305/3.0.1/jsr305-3.0.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/code/findbugs/jsr305/3.0.1/jsr305-3.0.1.pom (4.3 kB at 165 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/projectlombok/lombok/1.18.20/lombok-1.18.20.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/projectlombok/lombok/1.18.20/lombok-1.18.20.pom
+[INFO] Downloading from jeff-media-public: https://hub.jeff-media.com/nexus/repository/jeff-media-public/org/projectlombok/lombok/1.18.20/lombok-1.18.20.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/projectlombok/lombok/1.18.20/lombok-1.18.20.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/projectlombok/lombok/1.18.20/lombok-1.18.20.pom (1.5 kB at 55 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/de/jeff_media/MorePersistentDataTypes/1.0.0/MorePersistentDataTypes-1.0.0.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/de/jeff_media/MorePersistentDataTypes/1.0.0/MorePersistentDataTypes-1.0.0.pom
+[INFO] Downloading from jeff-media-public: https://hub.jeff-media.com/nexus/repository/jeff-media-public/de/jeff_media/MorePersistentDataTypes/1.0.0/MorePersistentDataTypes-1.0.0.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/de/jeff_media/MorePersistentDataTypes/1.0.0/MorePersistentDataTypes-1.0.0.pom
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/io/github/mooy1/InfinityExpansion/9a0c8dd/InfinityExpansion-9a0c8dd.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/io/github/mooy1/InfinityExpansion/9a0c8dd/InfinityExpansion-9a0c8dd.pom
+[INFO] Downloaded from jitpack.io: https://jitpack.io/io/github/mooy1/InfinityExpansion/9a0c8dd/InfinityExpansion-9a0c8dd.pom (5.4 kB at 39 kB/s)
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  10.921 s
+[INFO] Finished at: 2021-12-20T19:24:02Z
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal on project Networks: Could not resolve dependencies for project io.github.sefiraat.networks:Networks:jar:DEV - 3 (git 4f651814): Failed to collect dependencies at de.jeff_media:MorePersistentDataTypes:jar:1.0.0: Failed to read artifact descriptor for de.jeff_media:MorePersistentDataTypes:jar:1.0.0: Could not transfer artifact de.jeff_media:MorePersistentDataTypes:pom:1.0.0 from/to jeff-media-public (https://hub.jeff-media.com/nexus/repository/jeff-media-public/): transfer failed for https://hub.jeff-media.com/nexus/repository/jeff-media-public/de/jeff_media/MorePersistentDataTypes/1.0.0/MorePersistentDataTypes-1.0.0.pom, status: 503 Service Unavailable -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/DependencyResolutionException
