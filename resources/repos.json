@@ -1179,7 +1179,7 @@
         },
         "dependencies": {
             "Minecraft Version(s)": {
-                "1": "1.16.x"
+                "1": "1.16.x,1.17.x,1.18.x"
             },
             "Slimefun Version": {
                 "7": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/Slimefun4/stable/#28\">RC-28</a>",
@@ -1198,7 +1198,7 @@
         },
         "dependencies": {
             "Minecraft Version(s)": {
-                "1": "1.16.x"
+                "1": "1.16.x,1.17.x,1.18.x"
             },
             "Slimefun Version": {
                 "33": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/Slimefun4/stable/#28\">RC-28</a>",
@@ -1217,7 +1217,7 @@
         },
         "dependencies": {
             "Minecraft Version(s)": {
-                "1": "1.17.x"
+                "1": "1.17.x,1.18.x"
             },
             "Slimefun Version": {
                 "1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/Slimefun4/master/#966\">dev #983</a>"
@@ -1238,7 +1238,7 @@
         },
         "dependencies": {
             "Minecraft Version(s)": {
-                "1": "1.16.x"
+                "1": "1.16.x,1.17.x,1.18.x"
             },
             "Slimefun Version": {
                 "1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/Slimefun4/master/#966\">dev #983</a>"
@@ -1292,10 +1292,28 @@
         },
         "dependencies": {
             "Minecraft Version(s)": {
-                "1": "1.16.x"
+                "1": "1.16.x,1.17.x,1.18.x"
             },
             "Slimefun Version": {
                 "1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/Slimefun4/stable/#28\">RC-28</a> or later"
+            }
+        }
+    },
+    "Sefiraat/Networks:master": {
+        "sonar": {
+            "enabled": false
+        },
+        "options": {
+            "prefix": "DEV",
+            "abandoned": false,
+            "createJar": true
+        },
+        "dependencies": {
+            "Minecraft Version(s)": {
+                "1": "1.16.x,1.17.x,1.18.x"
+            },
+            "Slimefun Version": {
+                "1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/Slimefun4/stable/#28\">DEV-984</a> or later"
             }
         }
     },
