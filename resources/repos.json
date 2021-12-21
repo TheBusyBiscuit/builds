@@ -1387,7 +1387,7 @@
         "options": {
             "prefix": "DEV",
             "abandoned": false,
-            "createJar": true,
+            "createJar": true
         },
         "dependencies": {
             "Minecraft Version(s)": {
