@@ -1380,4 +1380,22 @@
             }
         }
     }
+    "qwertyuioplkjhgfd/SlimefunRecipeManager:main": {
+        "sonar": {
+            "enabled": false
+        },
+        "options": {
+            "prefix": "DEV",
+            "abandoned": false,
+            "createJar": true,
+        },
+        "dependencies": {
+            "Minecraft Version(s)": {
+                "1": "1.15.x, 1.16.x, 1.17.x, 1.18.x"
+            },
+            "Slimefun Version": {
+                "1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/Slimefun4/stable/#27\">RC-27 or above</a>"
+            }
+        }
+    }
 }
