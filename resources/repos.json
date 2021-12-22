@@ -1080,7 +1080,21 @@
             }
         }
     },
-
+    "J3fftw1/LuckyPandas:master": {
+        "sonar": {
+            "enabled": false
+        },
+        "options": {
+            "prefix": "DEV",
+            "abandoned": false,
+            "createJar": true
+        },
+        "dependencies": {
+            "Minecraft Version(s)": {
+                "1": "1.14+"
+            }
+        }
+    },
     "John000708/SlimeXpansion:master": {
         "sonar": {
             "enabled": false
