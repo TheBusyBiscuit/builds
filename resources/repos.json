@@ -1381,7 +1381,7 @@
         },
         "dependencies": {
             "Minecraft Version(s)": {
-                "1": "1.15.x, 1.16.x, 1.17.x"
+                "1": "1.15.x, 1.16.x, 1.17.x, 1.18.x"
             },
             "Slimefun Version": {
                 "1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/Slimefun4/master/#980\">DEV #980 or above</a>"
@@ -1391,6 +1391,25 @@
             },
             "(Optional-Recipe-Integration) SMG Version": {
                 "1": "<a class=\"link_info\" href=\"/builds/Sefiraat/SMG/master/#1\">DEV #1 or above</a>"
+            }
+        }
+    },
+    "FN-FAL113/SfChunkInfo:main": {
+        "sonar": {
+            "enabled": false
+        },
+        "options": {
+            "prefix": "DEV",
+            "abandoned": false,
+            "createJar": true,
+            "ignoreTags": true
+        },
+        "dependencies": {
+            "Minecraft Version(s)": {
+                "1": "1.14.x, 1.15.x, 1.16.x, 1.17.x, 1.18.x"
+            },
+            "Slimefun Version": {
+                "1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/Slimefun4/master/#980\">DEV #980 or above</a>"
             }
         }
     }
