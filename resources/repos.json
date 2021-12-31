@@ -1412,5 +1412,23 @@
                 "1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/Slimefun4/master/#980\">DEV #980 or above</a>"
             }
         }
-    }
+    },
+     "lucasGithuber/Element-Manipulation:main": {
+        "sonar": {
+            "enabled": false
+        },
+        "options": {
+            "prefix": "DEV",
+            "abandoned": false,
+            "createJar": true
+        },
+        "dependencies": {
+            "Minecraft Version(s)": {
+                "1": "1.17.x,1.18.x"
+            },
+            "Slimefun Version": {
+                "1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/Slimefun4/master/#980\">DEV #980 or above</a>"
+            }
+        }
+    },
 }
