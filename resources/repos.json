@@ -1413,7 +1413,7 @@
             }
         }
     },
-     "lucasGithuber/Element-Manipulation:main": {
+     "lucasGithuber/Element-Manipulation:master": {
         "sonar": {
             "enabled": false
         },
