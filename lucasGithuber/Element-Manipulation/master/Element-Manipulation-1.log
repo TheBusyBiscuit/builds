@@ -1,0 +1,273 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------------< me.lucasgithuber:ElementManipulation >----------------
+[INFO] Building ElementManipulation DEV - 1 (git 7bffd5f1)
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] Downloading from maven-snapshots: https://repository.apache.org/content/repositories/snapshots/org/apache/maven/plugins/maven-clean-plugin/2.5/maven-clean-plugin-2.5.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-clean-plugin/2.5/maven-clean-plugin-2.5.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-clean-plugin/2.5/maven-clean-plugin-2.5.pom (3.9 kB at 21 kB/s)
+[INFO] Downloading from maven-snapshots: https://repository.apache.org/content/repositories/snapshots/org/apache/maven/plugins/maven-plugins/22/maven-plugins-22.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/22/maven-plugins-22.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/22/maven-plugins-22.pom (13 kB at 186 kB/s)
+[INFO] Downloading from maven-snapshots: https://repository.apache.org/content/repositories/snapshots/org/apache/maven/maven-parent/21/maven-parent-21.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/21/maven-parent-21.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/21/maven-parent-21.pom (26 kB at 628 kB/s)
+[INFO] Downloading from maven-snapshots: https://repository.apache.org/content/repositories/snapshots/org/apache/apache/10/apache-10.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/apache/10/apache-10.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/apache/10/apache-10.pom (15 kB at 448 kB/s)
+[INFO] Downloading from maven-snapshots: https://repository.apache.org/content/repositories/snapshots/org/apache/maven/plugins/maven-clean-plugin/2.5/maven-clean-plugin-2.5.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-clean-plugin/2.5/maven-clean-plugin-2.5.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-clean-plugin/2.5/maven-clean-plugin-2.5.jar (25 kB at 770 kB/s)
+[INFO] Downloading from maven-snapshots: https://repository.apache.org/content/repositories/snapshots/org/apache/maven/plugins/maven-resources-plugin/2.6/maven-resources-plugin-2.6.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-resources-plugin/2.6/maven-resources-plugin-2.6.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-resources-plugin/2.6/maven-resources-plugin-2.6.pom (8.1 kB at 270 kB/s)
+[INFO] Downloading from maven-snapshots: https://repository.apache.org/content/repositories/snapshots/org/apache/maven/plugins/maven-plugins/23/maven-plugins-23.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/23/maven-plugins-23.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/23/maven-plugins-23.pom (9.2 kB at 256 kB/s)
+[INFO] Downloading from maven-snapshots: https://repository.apache.org/content/repositories/snapshots/org/apache/maven/maven-parent/22/maven-parent-22.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/22/maven-parent-22.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/22/maven-parent-22.pom (30 kB at 708 kB/s)
+[INFO] Downloading from maven-snapshots: https://repository.apache.org/content/repositories/snapshots/org/apache/apache/11/apache-11.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/apache/11/apache-11.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/apache/11/apache-11.pom (15 kB at 494 kB/s)
+[INFO] Downloading from maven-snapshots: https://repository.apache.org/content/repositories/snapshots/org/apache/maven/plugins/maven-resources-plugin/2.6/maven-resources-plugin-2.6.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-resources-plugin/2.6/maven-resources-plugin-2.6.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-resources-plugin/2.6/maven-resources-plugin-2.6.jar (30 kB at 895 kB/s)
+[INFO] Downloading from maven-snapshots: https://repository.apache.org/content/repositories/snapshots/org/apache/maven/plugins/maven-compiler-plugin/3.1/maven-compiler-plugin-3.1.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-compiler-plugin/3.1/maven-compiler-plugin-3.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-compiler-plugin/3.1/maven-compiler-plugin-3.1.pom (10 kB at 352 kB/s)
+[INFO] Downloading from maven-snapshots: https://repository.apache.org/content/repositories/snapshots/org/apache/maven/plugins/maven-plugins/24/maven-plugins-24.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/24/maven-plugins-24.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/24/maven-plugins-24.pom (11 kB at 349 kB/s)
+[INFO] Downloading from maven-snapshots: https://repository.apache.org/content/repositories/snapshots/org/apache/maven/maven-parent/23/maven-parent-23.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/23/maven-parent-23.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/23/maven-parent-23.pom (33 kB at 1.1 MB/s)
+[INFO] Downloading from maven-snapshots: https://repository.apache.org/content/repositories/snapshots/org/apache/apache/13/apache-13.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/apache/13/apache-13.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/apache/13/apache-13.pom (14 kB at 378 kB/s)
+[INFO] Downloading from maven-snapshots: https://repository.apache.org/content/repositories/snapshots/org/apache/maven/plugins/maven-compiler-plugin/3.1/maven-compiler-plugin-3.1.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-compiler-plugin/3.1/maven-compiler-plugin-3.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-compiler-plugin/3.1/maven-compiler-plugin-3.1.jar (43 kB at 1.2 MB/s)
+[INFO] Downloading from maven-snapshots: https://repository.apache.org/content/repositories/snapshots/org/apache/maven/plugins/maven-surefire-plugin/2.12.4/maven-surefire-plugin-2.12.4.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/2.12.4/maven-surefire-plugin-2.12.4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/2.12.4/maven-surefire-plugin-2.12.4.pom (10 kB at 349 kB/s)
+[INFO] Downloading from maven-snapshots: https://repository.apache.org/content/repositories/snapshots/org/apache/maven/surefire/surefire/2.12.4/surefire-2.12.4.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire/2.12.4/surefire-2.12.4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire/2.12.4/surefire-2.12.4.pom (14 kB at 476 kB/s)
+[INFO] Downloading from maven-snapshots: https://repository.apache.org/content/repositories/snapshots/org/apache/maven/plugins/maven-surefire-plugin/2.12.4/maven-surefire-plugin-2.12.4.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/2.12.4/maven-surefire-plugin-2.12.4.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/2.12.4/maven-surefire-plugin-2.12.4.jar (30 kB at 1.0 MB/s)
+[INFO] Downloading from maven-snapshots: https://repository.apache.org/content/repositories/snapshots/org/apache/maven/plugins/maven-jar-plugin/2.4/maven-jar-plugin-2.4.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-jar-plugin/2.4/maven-jar-plugin-2.4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-jar-plugin/2.4/maven-jar-plugin-2.4.pom (5.8 kB at 194 kB/s)
+[INFO] Downloading from maven-snapshots: https://repository.apache.org/content/repositories/snapshots/org/apache/maven/plugins/maven-jar-plugin/2.4/maven-jar-plugin-2.4.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-jar-plugin/2.4/maven-jar-plugin-2.4.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-jar-plugin/2.4/maven-jar-plugin-2.4.jar (34 kB at 619 kB/s)
+[INFO] Downloading from maven-snapshots: https://repository.apache.org/content/repositories/snapshots/org/apache/maven/plugins/maven-shade-plugin/3.3.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloaded from maven-snapshots: https://repository.apache.org/content/repositories/snapshots/org/apache/maven/plugins/maven-shade-plugin/3.3.1-SNAPSHOT/maven-metadata.xml (1.0 kB at 4.9 kB/s)
+[INFO] Downloading from maven-snapshots: https://repository.apache.org/content/repositories/snapshots/org/apache/maven/plugins/maven-shade-plugin/3.3.1-SNAPSHOT/maven-shade-plugin-3.3.1-20211223.020350-35.pom
+[INFO] Downloaded from maven-snapshots: https://repository.apache.org/content/repositories/snapshots/org/apache/maven/plugins/maven-shade-plugin/3.3.1-SNAPSHOT/maven-shade-plugin-3.3.1-20211223.020350-35.pom (13 kB at 62 kB/s)
+[INFO] Downloading from maven-snapshots: https://repository.apache.org/content/repositories/snapshots/org/apache/maven/plugins/maven-plugins/34/maven-plugins-34.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/34/maven-plugins-34.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/34/maven-plugins-34.pom (11 kB at 345 kB/s)
+[INFO] Downloading from maven-snapshots: https://repository.apache.org/content/repositories/snapshots/org/apache/maven/maven-parent/34/maven-parent-34.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/34/maven-parent-34.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/34/maven-parent-34.pom (43 kB at 1.2 MB/s)
+[INFO] Downloading from maven-snapshots: https://repository.apache.org/content/repositories/snapshots/org/apache/apache/23/apache-23.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/apache/23/apache-23.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/apache/23/apache-23.pom (18 kB at 658 kB/s)
+[INFO] Downloading from maven-snapshots: https://repository.apache.org/content/repositories/snapshots/org/apache/maven/plugins/maven-shade-plugin/3.3.1-SNAPSHOT/maven-shade-plugin-3.3.1-20211223.020350-35.jar
+[INFO] Downloaded from maven-snapshots: https://repository.apache.org/content/repositories/snapshots/org/apache/maven/plugins/maven-shade-plugin/3.3.1-SNAPSHOT/maven-shade-plugin-3.3.1-20211223.020350-35.jar (142 kB at 359 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/spigotmc/spigot-api/1.17.1-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/spigotmc/spigot-api/1.17.1-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/spigotmc/spigot-api/1.17.1-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloaded from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/spigotmc/spigot-api/1.17.1-R0.1-SNAPSHOT/maven-metadata.xml (1.5 kB at 8.7 kB/s)
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/spigotmc/spigot-api/1.17.1-R0.1-SNAPSHOT/maven-metadata.xml (1.5 kB at 872 B/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/spigotmc/spigot-api/1.17.1-R0.1-SNAPSHOT/spigot-api-1.17.1-R0.1-20211121.234319-104.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/spigotmc/spigot-api/1.17.1-R0.1-SNAPSHOT/spigot-api-1.17.1-R0.1-20211121.234319-104.pom (10 kB at 12 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/commons-lang/commons-lang/2.6/commons-lang-2.6.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/commons-lang/commons-lang/2.6/commons-lang-2.6.pom (17 kB at 18 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/apache/commons/commons-parent/17/commons-parent-17.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/apache/commons/commons-parent/17/commons-parent-17.pom (31 kB at 32 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/apache/apache/7/apache-7.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/apache/apache/7/apache-7.pom (14 kB at 15 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/google/guava/guava/21.0/guava-21.0.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/google/guava/guava/21.0/guava-21.0.pom (7.0 kB at 8.1 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/google/guava/guava-parent/21.0/guava-parent-21.0.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/google/guava/guava-parent/21.0/guava-parent-21.0.pom (9.7 kB at 11 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/sonatype/oss/oss-parent/7/oss-parent-7.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/sonatype/oss/oss-parent/7/oss-parent-7.pom (4.8 kB at 5.6 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/google/code/gson/gson/2.8.0/gson-2.8.0.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/google/code/gson/gson/2.8.0/gson-2.8.0.pom (1.4 kB at 2.7 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/google/code/gson/gson-parent/2.8.0/gson-parent-2.8.0.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/google/code/gson/gson-parent/2.8.0/gson-parent-2.8.0.pom (3.5 kB at 6.6 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/net/md-5/bungeecord-chat/1.16-R0.4/bungeecord-chat-1.16-R0.4.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/net/md-5/bungeecord-chat/1.16-R0.4/bungeecord-chat-1.16-R0.4.pom (978 B at 1.1 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/net/md-5/bungeecord-parent/1.16-R0.4/bungeecord-parent-1.16-R0.4.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/net/md-5/bungeecord-parent/1.16-R0.4/bungeecord-parent-1.16-R0.4.pom (10 kB at 18 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/yaml/snakeyaml/1.28/snakeyaml-1.28.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/yaml/snakeyaml/1.28/snakeyaml-1.28.pom (37 kB at 28 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/github/Slimefun/Slimefun4/RC-28/Slimefun4-RC-28.pom
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/github/Slimefun/Slimefun4/RC-28/Slimefun4-RC-28.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/github/Slimefun/Slimefun4/RC-28/Slimefun4-RC-28.pom
+[INFO] Downloaded from jitpack.io: https://jitpack.io/com/github/Slimefun/Slimefun4/RC-28/Slimefun4-RC-28.pom (14 kB at 61 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/projectlombok/lombok/1.18.20/lombok-1.18.20.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/projectlombok/lombok/1.18.20/lombok-1.18.20.pom (1.5 kB at 2.8 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.pom (4.3 kB at 8.2 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/io/github/mooy1/InfinityLib/1.3.9/InfinityLib-1.3.9.pom
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/io/github/mooy1/InfinityLib/1.3.9/InfinityLib-1.3.9.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/io/github/mooy1/InfinityLib/1.3.9/InfinityLib-1.3.9.pom
+[INFO] Downloaded from jitpack.io: https://jitpack.io/io/github/mooy1/InfinityLib/1.3.9/InfinityLib-1.3.9.pom (5.8 kB at 31 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/javax/annotation/javax.annotation-api/1.3.2/javax.annotation-api-1.3.2.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/javax/annotation/javax.annotation-api/1.3.2/javax.annotation-api-1.3.2.pom (14 kB at 22 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/net/java/jvnet-parent/3/jvnet-parent-3.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/net/java/jvnet-parent/3/jvnet-parent-3.pom (4.8 kB at 5.6 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/net/kyori/adventure-platform-bukkit/4.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/net/kyori/adventure-platform-bukkit/4.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from jitpack.io: https://jitpack.io/net/kyori/adventure-platform-bukkit/4.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/net/kyori/adventure-platform-bukkit/4.0.0-SNAPSHOT/maven-metadata.xml (1.4 kB at 2.7 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/net/kyori/adventure-platform-bukkit/4.0.0-SNAPSHOT/adventure-platform-bukkit-4.0.0-20210914.041527-93.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/net/kyori/adventure-platform-bukkit/4.0.0-SNAPSHOT/adventure-platform-bukkit-4.0.0-20210914.041527-93.pom (4.1 kB at 7.5 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/net/kyori/adventure-platform-api/4.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/net/kyori/adventure-platform-api/4.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from jitpack.io: https://jitpack.io/net/kyori/adventure-platform-api/4.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/net/kyori/adventure-platform-api/4.0.0-SNAPSHOT/maven-metadata.xml (1.4 kB at 2.7 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/net/kyori/adventure-platform-api/4.0.0-SNAPSHOT/adventure-platform-api-4.0.0-20210914.041527-74.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/net/kyori/adventure-platform-api/4.0.0-SNAPSHOT/adventure-platform-api-4.0.0-20210914.041527-74.pom (2.3 kB at 4.5 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/net/kyori/adventure-api/4.9.1/adventure-api-4.9.1.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/net/kyori/adventure-api/4.9.1/adventure-api-4.9.1.pom (3.2 kB at 6.2 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/net/kyori/adventure-bom/4.9.1/adventure-bom-4.9.1.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/net/kyori/adventure-bom/4.9.1/adventure-bom-4.9.1.pom (4.0 kB at 7.6 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/net/kyori/adventure-key/4.9.1/adventure-key-4.9.1.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/net/kyori/adventure-key/4.9.1/adventure-key-4.9.1.pom (3.0 kB at 5.5 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/net/kyori/examination-api/1.3.0/examination-api-1.3.0.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/net/kyori/examination-api/1.3.0/examination-api-1.3.0.pom (2.1 kB at 4.0 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/jetbrains/annotations/22.0.0/annotations-22.0.0.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/jetbrains/annotations/22.0.0/annotations-22.0.0.pom (1.3 kB at 2.5 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/net/kyori/examination-string/1.3.0/examination-string-1.3.0.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/net/kyori/examination-string/1.3.0/examination-string-1.3.0.pom (2.1 kB at 4.0 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/net/kyori/adventure-text-serializer-bungeecord/4.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/net/kyori/adventure-text-serializer-bungeecord/4.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from jitpack.io: https://jitpack.io/net/kyori/adventure-text-serializer-bungeecord/4.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/net/kyori/adventure-text-serializer-bungeecord/4.0.0-SNAPSHOT/maven-metadata.xml (1.4 kB at 2.7 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/net/kyori/adventure-text-serializer-bungeecord/4.0.0-SNAPSHOT/adventure-text-serializer-bungeecord-4.0.0-20210914.041527-85.pom
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/net/kyori/adventure-text-serializer-bungeecord/4.0.0-SNAPSHOT/adventure-text-serializer-bungeecord-4.0.0-20210914.041527-85.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/net/kyori/adventure-text-serializer-bungeecord/4.0.0-SNAPSHOT/adventure-text-serializer-bungeecord-4.0.0-20210914.041527-85.pom
+[WARNING] The POM for net.kyori:adventure-text-serializer-bungeecord:jar:4.0.0-20210914.041527-85 is missing, no dependency information available
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/net/kyori/adventure-text-serializer-legacy/4.9.1/adventure-text-serializer-legacy-4.9.1.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/net/kyori/adventure-text-serializer-legacy/4.9.1/adventure-text-serializer-legacy-4.9.1.pom (2.7 kB at 5.1 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/net/kyori/adventure-nbt/4.9.1/adventure-nbt-4.9.1.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/net/kyori/adventure-nbt/4.9.1/adventure-nbt-4.9.1.pom (3.0 kB at 5.8 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/net/kyori/adventure-text-serializer-gson/4.9.1/adventure-text-serializer-gson-4.9.1.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/net/kyori/adventure-text-serializer-gson/4.9.1/adventure-text-serializer-gson-4.9.1.pom (2.9 kB at 5.5 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/net/kyori/adventure-text-serializer-gson-legacy-impl/4.9.1/adventure-text-serializer-gson-legacy-impl-4.9.1.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/net/kyori/adventure-text-serializer-gson-legacy-impl/4.9.1/adventure-text-serializer-gson-legacy-impl-4.9.1.pom (3.1 kB at 5.9 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/net/kyori/adventure-platform-facet/4.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from jitpack.io: https://jitpack.io/net/kyori/adventure-platform-facet/4.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/net/kyori/adventure-platform-facet/4.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/net/kyori/adventure-platform-facet/4.0.0-SNAPSHOT/maven-metadata.xml (1.4 kB at 2.6 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/net/kyori/adventure-platform-facet/4.0.0-SNAPSHOT/adventure-platform-facet-4.0.0-20210914.041527-54.pom
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/net/kyori/adventure-platform-facet/4.0.0-SNAPSHOT/adventure-platform-facet-4.0.0-20210914.041527-54.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/net/kyori/adventure-platform-facet/4.0.0-SNAPSHOT/adventure-platform-facet-4.0.0-20210914.041527-54.pom
+[WARNING] The POM for net.kyori:adventure-platform-facet:jar:4.0.0-20210914.041527-54 is missing, no dependency information available
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/net/kyori/adventure-platform-viaversion/4.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/net/kyori/adventure-platform-viaversion/4.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from jitpack.io: https://jitpack.io/net/kyori/adventure-platform-viaversion/4.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/net/kyori/adventure-platform-viaversion/4.0.0-SNAPSHOT/maven-metadata.xml (1.4 kB at 1.6 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/net/kyori/adventure-platform-viaversion/4.0.0-SNAPSHOT/adventure-platform-viaversion-4.0.0-20210914.041527-77.pom
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/net/kyori/adventure-platform-viaversion/4.0.0-SNAPSHOT/adventure-platform-viaversion-4.0.0-20210914.041527-77.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/net/kyori/adventure-platform-viaversion/4.0.0-SNAPSHOT/adventure-platform-viaversion-4.0.0-20210914.041527-77.pom
+[WARNING] The POM for net.kyori:adventure-platform-viaversion:jar:4.0.0-20210914.041527-77 is missing, no dependency information available
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/net/kyori/adventure-text-minimessage/4.1.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/net/kyori/adventure-text-minimessage/4.1.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from jitpack.io: https://jitpack.io/net/kyori/adventure-text-minimessage/4.1.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/net/kyori/adventure-text-minimessage/4.1.0-SNAPSHOT/maven-metadata.xml (1.4 kB at 2.7 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/net/kyori/adventure-text-minimessage/4.1.0-SNAPSHOT/adventure-text-minimessage-4.1.0-20210612.213444-40.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/net/kyori/adventure-text-minimessage/4.1.0-SNAPSHOT/adventure-text-minimessage-4.1.0-20210612.213444-40.pom (2.1 kB at 4.1 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/net/kyori/adventure-api/4.8.1/adventure-api-4.8.1.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/net/kyori/adventure-api/4.8.1/adventure-api-4.8.1.pom (3.2 kB at 6.1 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/net/kyori/adventure-bom/4.8.1/adventure-bom-4.8.1.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/net/kyori/adventure-bom/4.8.1/adventure-bom-4.8.1.pom (4.0 kB at 7.5 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/net/kyori/adventure-key/4.8.1/adventure-key-4.8.1.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/net/kyori/adventure-key/4.8.1/adventure-key-4.8.1.pom (3.0 kB at 5.8 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/net/kyori/examination-api/1.1.0/examination-api-1.1.0.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/net/kyori/examination-api/1.1.0/examination-api-1.1.0.pom (2.0 kB at 4.0 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/checkerframework/checker-qual/3.10.0/checker-qual-3.10.0.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/checkerframework/checker-qual/3.10.0/checker-qual-3.10.0.pom (2.1 kB at 4.1 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/net/kyori/examination-string/1.1.0/examination-string-1.1.0.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/net/kyori/examination-string/1.1.0/examination-string-1.1.0.pom (2.0 kB at 3.9 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/jetbrains/annotations/21.0.1/annotations-21.0.1.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/jetbrains/annotations/21.0.1/annotations-21.0.1.pom (1.3 kB at 2.5 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/io/github/baked-libs/dough-api/1.0.3/dough-api-1.0.3.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/io/github/baked-libs/dough-api/1.0.3/dough-api-1.0.3.pom (16 kB at 24 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/io/github/baked-libs/dough/1.0.3/dough-1.0.3.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/io/github/baked-libs/dough/1.0.3/dough-1.0.3.pom (11 kB at 21 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/spigotmc/spigot-api/1.17.1-R0.1-SNAPSHOT/spigot-api-1.17.1-R0.1-20211121.234319-104.jar
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/commons-lang/commons-lang/2.6/commons-lang-2.6.jar
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/google/guava/guava/21.0/guava-21.0.jar
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/google/code/gson/gson/2.8.0/gson-2.8.0.jar
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/net/md-5/bungeecord-chat/1.16-R0.4/bungeecord-chat-1.16-R0.4.jar
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/net/md-5/bungeecord-chat/1.16-R0.4/bungeecord-chat-1.16-R0.4.jar (149 kB at 130 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/yaml/snakeyaml/1.28/snakeyaml-1.28.jar
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/google/code/gson/gson/2.8.0/gson-2.8.0.jar (232 kB at 185 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/github/Slimefun/Slimefun4/RC-28/Slimefun4-RC-28.jar
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/spigotmc/spigot-api/1.17.1-R0.1-SNAPSHOT/spigot-api-1.17.1-R0.1-20211121.234319-104.jar (1.4 MB at 883 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/projectlombok/lombok/1.18.20/lombok-1.18.20.jar
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/google/guava/guava/21.0/guava-21.0.jar (2.5 MB at 1.6 MB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/commons-lang/commons-lang/2.6/commons-lang-2.6.jar (284 kB at 173 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/io/github/mooy1/InfinityLib/1.3.9/InfinityLib-1.3.9.jar
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/javax/annotation/javax.annotation-api/1.3.2/javax.annotation-api-1.3.2.jar
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/net/kyori/adventure-platform-bukkit/4.0.0-SNAPSHOT/adventure-platform-bukkit-4.0.0-20210914.041527-93.jar
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/yaml/snakeyaml/1.28/snakeyaml-1.28.jar (327 kB at 122 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/net/kyori/adventure-platform-api/4.0.0-SNAPSHOT/adventure-platform-api-4.0.0-20210914.041527-74.jar
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar (20 kB at 7.2 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/net/kyori/adventure-text-serializer-bungeecord/4.0.0-SNAPSHOT/adventure-text-serializer-bungeecord-4.0.0-20210914.041527-85.jar
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/javax/annotation/javax.annotation-api/1.3.2/javax.annotation-api-1.3.2.jar (27 kB at 7.6 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/net/kyori/adventure-text-serializer-legacy/4.9.1/adventure-text-serializer-legacy-4.9.1.jar
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/net/kyori/adventure-nbt/4.9.1/adventure-nbt-4.9.1.jar
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/net/kyori/adventure-platform-bukkit/4.0.0-SNAPSHOT/adventure-platform-bukkit-4.0.0-20210914.041527-93.jar (110 kB at 29 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/net/kyori/examination-api/1.3.0/examination-api-1.3.0.jar
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/net/kyori/adventure-platform-api/4.0.0-SNAPSHOT/adventure-platform-api-4.0.0-20210914.041527-74.jar (2.5 kB at 602 B/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/net/kyori/examination-string/1.3.0/examination-string-1.3.0.jar
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/net/kyori/adventure-text-serializer-legacy/4.9.1/adventure-text-serializer-legacy-4.9.1.jar (24 kB at 5.1 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/jetbrains/annotations/22.0.0/annotations-22.0.0.jar
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/net/kyori/adventure-nbt/4.9.1/adventure-nbt-4.9.1.jar (93 kB at 19 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/net/kyori/adventure-text-serializer-gson/4.9.1/adventure-text-serializer-gson-4.9.1.jar
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/net/kyori/examination-string/1.3.0/examination-string-1.3.0.jar (13 kB at 2.3 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/net/kyori/adventure-text-serializer-gson-legacy-impl/4.9.1/adventure-text-serializer-gson-legacy-impl-4.9.1.jar
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/net/kyori/examination-api/1.3.0/examination-api-1.3.0.jar (23 kB at 4.1 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/net/kyori/adventure-platform-facet/4.0.0-SNAPSHOT/adventure-platform-facet-4.0.0-20210914.041527-54.jar
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/jetbrains/annotations/22.0.0/annotations-22.0.0.jar (28 kB at 4.8 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/net/kyori/adventure-platform-viaversion/4.0.0-SNAPSHOT/adventure-platform-viaversion-4.0.0-20210914.041527-77.jar
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/net/kyori/adventure-text-serializer-gson/4.9.1/adventure-text-serializer-gson-4.9.1.jar (38 kB at 6.3 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/net/kyori/adventure-text-minimessage/4.1.0-SNAPSHOT/adventure-text-minimessage-4.1.0-20210612.213444-40.jar
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/net/kyori/adventure-api/4.8.1/adventure-api-4.8.1.jar
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/net/kyori/adventure-key/4.8.1/adventure-key-4.8.1.jar
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/net/kyori/adventure-text-serializer-gson-legacy-impl/4.9.1/adventure-text-serializer-gson-legacy-impl-4.9.1.jar (4.9 kB at 716 B/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/io/github/baked-libs/dough-api/1.0.3/dough-api-1.0.3.jar
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/net/kyori/adventure-text-minimessage/4.1.0-SNAPSHOT/adventure-text-minimessage-4.1.0-20210612.213444-40.jar (99 kB at 13 kB/s)
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/net/kyori/adventure-key/4.8.1/adventure-key-4.8.1.jar (8.2 kB at 1.0 kB/s)
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/net/kyori/adventure-api/4.8.1/adventure-api-4.8.1.jar (264 kB at 32 kB/s)
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/io/github/baked-libs/dough-api/1.0.3/dough-api-1.0.3.jar (183 kB at 21 kB/s)
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/projectlombok/lombok/1.18.20/lombok-1.18.20.jar (1.9 MB at 171 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/github/Slimefun/Slimefun4/RC-28/Slimefun4-RC-28.jar
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/io/github/mooy1/InfinityLib/1.3.9/InfinityLib-1.3.9.jar
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/github/Slimefun/Slimefun4/RC-28/Slimefun4-RC-28.jar
+[INFO] Downloading from jitpack.io: https://jitpack.io/io/github/mooy1/InfinityLib/1.3.9/InfinityLib-1.3.9.jar
+[INFO] Downloaded from jitpack.io: https://jitpack.io/io/github/mooy1/InfinityLib/1.3.9/InfinityLib-1.3.9.jar (91 kB at 453 kB/s)
+[INFO] Downloaded from jitpack.io: https://jitpack.io/com/github/Slimefun/Slimefun4/RC-28/Slimefun4-RC-28.jar (4.3 MB at 9.2 MB/s)
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  49.158 s
+[INFO] Finished at: 2022-01-02T23:25:45Z
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal on project ElementManipulation: Could not resolve dependencies for project me.lucasgithuber:ElementManipulation:jar:DEV - 1 (git 7bffd5f1): The following artifacts could not be resolved: net.kyori:adventure-text-serializer-bungeecord:jar:4.0.0-SNAPSHOT, net.kyori:adventure-platform-facet:jar:4.0.0-SNAPSHOT, net.kyori:adventure-platform-viaversion:jar:4.0.0-SNAPSHOT: Could not find artifact net.kyori:adventure-text-serializer-bungeecord:jar:4.0.0-20210914.041527-85 in paper-repo (https://repo.destroystokyo.com/repository/maven-public/) -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/DependencyResolutionException
