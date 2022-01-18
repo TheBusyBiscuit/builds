@@ -18,14 +18,18 @@ jobs:
       uses: actions/checkout@v2.4.0
       with:
         ref: gh-pages
+
     - name: Setting up node.js
       uses: actions/setup-node@v2.5.1
       with:
-        node-version: '16'
+        node-version: '16.6.0'
+
     - name: Installing dependencies
       run: npm install
+
     - name: Run Auto Formatter
       run: npm run formatter
+
     - name: Auto Commit
       uses: stefanzweifel/git-auto-commit-action@v4.11.0
       with: 
