@@ -1,0 +1,104 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------------------< me.profelements:DynaTech >----------------------
+[INFO] Building DynaTech DEV - 158 (git d9931e35)
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/spigotmc/spigot-api/1.17.1-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/spigotmc/spigot-api/1.17.1-R0.1-SNAPSHOT/maven-metadata.xml (1.5 kB at 794 B/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/github/Slimefun/Slimefun4/RC-30/Slimefun4-RC-30.pom
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/github/Slimefun/Slimefun4/RC-30/Slimefun4-RC-30.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/github/Slimefun/Slimefun4/RC-30/Slimefun4-RC-30.pom
+[INFO] Downloaded from jitpack.io: https://jitpack.io/com/github/Slimefun/Slimefun4/RC-30/Slimefun4-RC-30.pom (14 kB at 47 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/github/thebusybiscuit/exoticgarden/a2c4b6d/exoticgarden-a2c4b6d.pom
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/github/thebusybiscuit/exoticgarden/a2c4b6d/exoticgarden-a2c4b6d.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/github/thebusybiscuit/exoticgarden/a2c4b6d/exoticgarden-a2c4b6d.pom
+[INFO] Downloaded from jitpack.io: https://jitpack.io/com/github/thebusybiscuit/exoticgarden/a2c4b6d/exoticgarden-a2c4b6d.pom (4.4 kB at 26 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/io/github/mooy1/InfinityExpansion/c4e42cc/InfinityExpansion-c4e42cc.pom
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/io/github/mooy1/InfinityExpansion/c4e42cc/InfinityExpansion-c4e42cc.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/io/github/mooy1/InfinityExpansion/c4e42cc/InfinityExpansion-c4e42cc.pom
+[INFO] Downloaded from jitpack.io: https://jitpack.io/io/github/mooy1/InfinityExpansion/c4e42cc/InfinityExpansion-c4e42cc.pom (5.5 kB at 40 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/bstats/bstats-bukkit/1.8/bstats-bukkit-1.8.pom
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/bstats/bstats-bukkit/1.8/bstats-bukkit-1.8.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/bstats/bstats-bukkit/1.8/bstats-bukkit-1.8.pom
+[INFO] Downloading from CodeMC: https://repo.codemc.org/repository/maven-public/org/bstats/bstats-bukkit/1.8/bstats-bukkit-1.8.pom
+[INFO] Downloaded from CodeMC: https://repo.codemc.org/repository/maven-public/org/bstats/bstats-bukkit/1.8/bstats-bukkit-1.8.pom (952 B at 1.7 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/bstats/bstats/1.8/bstats-1.8.pom
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/bstats/bstats/1.8/bstats-1.8.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/bstats/bstats/1.8/bstats-1.8.pom
+[INFO] Downloading from CodeMC: https://repo.codemc.org/repository/maven-public/org/bstats/bstats/1.8/bstats-1.8.pom
+[INFO] Downloaded from CodeMC: https://repo.codemc.org/repository/maven-public/org/bstats/bstats/1.8/bstats-1.8.pom (7.3 kB at 32 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/github/Slimefun-Addon-Community/extrautils/73e76ac/extrautils-73e76ac.pom
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/github/Slimefun-Addon-Community/extrautils/73e76ac/extrautils-73e76ac.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/github/Slimefun-Addon-Community/extrautils/73e76ac/extrautils-73e76ac.pom
+[INFO] Downloaded from jitpack.io: https://jitpack.io/com/github/Slimefun-Addon-Community/extrautils/73e76ac/extrautils-73e76ac.pom (3.7 kB at 19 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/spigotmc/spigot-api/1.17.1-R0.1-SNAPSHOT/spigot-api-1.17.1-R0.1-20211121.234319-104.jar
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/github/Slimefun/Slimefun4/RC-30/Slimefun4-RC-30.jar
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/github/thebusybiscuit/exoticgarden/a2c4b6d/exoticgarden-a2c4b6d.jar
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/io/github/mooy1/InfinityExpansion/c4e42cc/InfinityExpansion-c4e42cc.jar
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/bstats/bstats-bukkit/1.8/bstats-bukkit-1.8.jar
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/spigotmc/spigot-api/1.17.1-R0.1-SNAPSHOT/spigot-api-1.17.1-R0.1-20211121.234319-104.jar (0 B at 0 B/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/github/Slimefun-Addon-Community/extrautils/73e76ac/extrautils-73e76ac.jar
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/github/Slimefun/Slimefun4/RC-30/Slimefun4-RC-30.jar
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/github/Slimefun-Addon-Community/extrautils/73e76ac/extrautils-73e76ac.jar
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/bstats/bstats-bukkit/1.8/bstats-bukkit-1.8.jar
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/io/github/mooy1/InfinityExpansion/c4e42cc/InfinityExpansion-c4e42cc.jar
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/github/thebusybiscuit/exoticgarden/a2c4b6d/exoticgarden-a2c4b6d.jar
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/github/Slimefun/Slimefun4/RC-30/Slimefun4-RC-30.jar
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/github/thebusybiscuit/exoticgarden/a2c4b6d/exoticgarden-a2c4b6d.jar
+[INFO] Downloading from jitpack.io: https://jitpack.io/io/github/mooy1/InfinityExpansion/c4e42cc/InfinityExpansion-c4e42cc.jar
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/bstats/bstats-bukkit/1.8/bstats-bukkit-1.8.jar
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/github/Slimefun-Addon-Community/extrautils/73e76ac/extrautils-73e76ac.jar
+[INFO] Downloaded from jitpack.io: https://jitpack.io/com/github/thebusybiscuit/exoticgarden/a2c4b6d/exoticgarden-a2c4b6d.jar (131 kB at 730 kB/s)
+[INFO] Downloaded from jitpack.io: https://jitpack.io/com/github/Slimefun/Slimefun4/RC-30/Slimefun4-RC-30.jar (4.3 MB at 18 MB/s)
+[INFO] Downloaded from jitpack.io: https://jitpack.io/com/github/Slimefun-Addon-Community/extrautils/73e76ac/extrautils-73e76ac.jar (24 kB at 97 kB/s)
+[INFO] Downloaded from jitpack.io: https://jitpack.io/io/github/mooy1/InfinityExpansion/c4e42cc/InfinityExpansion-c4e42cc.jar (274 kB at 1.0 MB/s)
+[INFO] Downloading from CodeMC: https://repo.codemc.org/repository/maven-public/org/bstats/bstats-bukkit/1.8/bstats-bukkit-1.8.jar
+[INFO] Downloaded from CodeMC: https://repo.codemc.org/repository/maven-public/org/bstats/bstats-bukkit/1.8/bstats-bukkit-1.8.jar (20 kB at 61 kB/s)
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ DynaTech ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ DynaTech ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ DynaTech ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 56 source files to /home/runner/work/builds/builds/ProfElements/DynaTech/master/files/target/classes
+[WARNING] /home/runner/work/builds/builds/ProfElements/DynaTech/master/files/src/main/java/me/profelements/dynatech/items/electric/abstracts/AbstractMachine.java: Some input files use or override a deprecated API.
+[WARNING] /home/runner/work/builds/builds/ProfElements/DynaTech/master/files/src/main/java/me/profelements/dynatech/items/electric/abstracts/AbstractMachine.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ DynaTech ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/runner/work/builds/builds/ProfElements/DynaTech/master/files/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ DynaTech ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ DynaTech ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ DynaTech ---
+[INFO] Building jar: /home/runner/work/builds/builds/ProfElements/DynaTech/master/files/target/DynaTech-158.jar
+[INFO] 
+[INFO] --- maven-shade-plugin:3.2.4:shade (default) @ DynaTech ---
+[INFO] Including com.google.code.findbugs:jsr305:jar:2.0.1 in the shaded jar.
+[INFO] Including org.bstats:bstats-bukkit:jar:1.8 in the shaded jar.
+[INFO] Including com.github.Slimefun-Addon-Community:extrautils:jar:73e76ac in the shaded jar.
+[WARNING] DynaTech-158.jar, bstats-bukkit-1.8.jar, extrautils-73e76ac.jar, jsr305-2.0.1.jar define 1 overlapping resource: 
+[WARNING]   - META-INF/MANIFEST.MF
+[WARNING] maven-shade-plugin has detected that some class files are
+[WARNING] present in two or more JARs. When this happens, only one
+[WARNING] single version of the class is copied to the uber jar.
+[WARNING] Usually this is not harmful and you can skip these warnings,
+[WARNING] otherwise try to manually exclude artifacts based on
+[WARNING] mvn dependency:tree -Ddetail=true and the above output.
+[WARNING] See http://maven.apache.org/plugins/maven-shade-plugin/
+[INFO] Replacing original artifact with shaded artifact.
+[INFO] Replacing /home/runner/work/builds/builds/ProfElements/DynaTech/master/files/target/DynaTech-158.jar with /home/runner/work/builds/builds/ProfElements/DynaTech/master/files/target/DynaTech-DEV - 158 (git d9931e35)-shaded.jar
+[INFO] Dependency-reduced POM written at: /home/runner/work/builds/builds/ProfElements/DynaTech/master/files/dependency-reduced-pom.xml
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  13.856 s
+[INFO] Finished at: 2022-01-27T09:59:22Z
+[INFO] ------------------------------------------------------------------------
