@@ -1,0 +1,61 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------< io.github.seggan.slimefunwarfare:SlimefunWarfare >----------
+[INFO] Building SlimefunWarfare DEV - 71 (git 784fc10f)
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] Downloading from CodeMC: https://repo.codemc.org/repository/maven-public/org/spigotmc/spigot-api/1.17.1-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from jittpack: https://jitpack.io/org/spigotmc/spigot-api/1.17.1-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from jittpack: https://jitpack.io/io/github/TheBusyBiscuit/Slimefun4/RC-28/Slimefun4-RC-28.pom
+[INFO] Downloaded from jittpack: https://jitpack.io/io/github/TheBusyBiscuit/Slimefun4/RC-28/Slimefun4-RC-28.pom (14 kB at 71 kB/s)
+[INFO] Downloading from jittpack: https://jitpack.io/io/github/Mooy1/InfinityLib/1.3.2/InfinityLib-1.3.2.pom
+[INFO] Downloaded from jittpack: https://jitpack.io/io/github/Mooy1/InfinityLib/1.3.2/InfinityLib-1.3.2.pom (5.8 kB at 58 kB/s)
+[INFO] Downloading from jittpack: https://jitpack.io/io/github/TheBusyBiscuit/Slimefun4/RC-28/Slimefun4-RC-28.jar
+[INFO] Downloading from jittpack: https://jitpack.io/io/github/Mooy1/InfinityLib/1.3.2/InfinityLib-1.3.2.jar
+[INFO] Downloaded from jittpack: https://jitpack.io/io/github/Mooy1/InfinityLib/1.3.2/InfinityLib-1.3.2.jar (90 kB at 369 kB/s)
+[INFO] Downloaded from jittpack: https://jitpack.io/io/github/TheBusyBiscuit/Slimefun4/RC-28/Slimefun4-RC-28.jar (4.3 MB at 15 MB/s)
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ SlimefunWarfare ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ SlimefunWarfare ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ SlimefunWarfare ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 43 source files to /home/runner/work/builds/builds/Seggan/SlimefunWarfare/master/files/target/classes
+[WARNING] /home/runner/work/builds/builds/Seggan/SlimefunWarfare/master/files/src/main/java/io/github/seggan/slimefunwarfare/items/powersuits/ModuleManipulator.java: /home/runner/work/builds/builds/Seggan/SlimefunWarfare/master/files/src/main/java/io/github/seggan/slimefunwarfare/items/powersuits/ModuleManipulator.java uses or overrides a deprecated API.
+[WARNING] /home/runner/work/builds/builds/Seggan/SlimefunWarfare/master/files/src/main/java/io/github/seggan/slimefunwarfare/items/powersuits/ModuleManipulator.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ SlimefunWarfare ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/runner/work/builds/builds/Seggan/SlimefunWarfare/master/files/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ SlimefunWarfare ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ SlimefunWarfare ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ SlimefunWarfare ---
+[INFO] Building jar: /home/runner/work/builds/builds/Seggan/SlimefunWarfare/master/files/target/SlimefunWarfare-71.jar
+[INFO] 
+[INFO] --- maven-shade-plugin:3.2.4:shade (default) @ SlimefunWarfare ---
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm/8.0/asm-8.0.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-commons/8.0/asm-commons-8.0.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-tree/8.0/asm-tree-8.0.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-analysis/8.0/asm-analysis-8.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-analysis/8.0/asm-analysis-8.0.jar (33 kB at 331 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-tree/8.0/asm-tree-8.0.jar (53 kB at 487 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-commons/8.0/asm-commons-8.0.jar (72 kB at 645 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm/8.0/asm-8.0.jar (122 kB at 1.0 MB/s)
+[INFO] Including io.github.Mooy1:InfinityLib:jar:1.3.2 in the shaded jar.
+[INFO] Including com.google.code.findbugs:jsr305:jar:3.0.2 in the shaded jar.
+[INFO] Replacing original artifact with shaded artifact.
+[INFO] Replacing /home/runner/work/builds/builds/Seggan/SlimefunWarfare/master/files/target/SlimefunWarfare-71.jar with /home/runner/work/builds/builds/Seggan/SlimefunWarfare/master/files/target/SlimefunWarfare-DEV - 71 (git 784fc10f)-shaded.jar
+[INFO] Dependency-reduced POM written at: /home/runner/work/builds/builds/Seggan/SlimefunWarfare/master/files/dependency-reduced-pom.xml
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  5.221 s
+[INFO] Finished at: 2022-01-27T09:59:03Z
+[INFO] ------------------------------------------------------------------------
