@@ -113,7 +113,7 @@ function check (job, logging) {
         date: github.parseDate(commit.commit.committer.date),
         timestamp: timestamp,
         message: commit.commit.message,
-        author: commit.author.login,
+        author: commit.author.name,
         avatar: commit.author.avatar_url
       }
 
