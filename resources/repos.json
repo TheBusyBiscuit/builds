@@ -1178,11 +1178,19 @@
             "createJar": true
         },
         "dependencies": {
+            "Java Version": {
+                "19": "Java 17"
+            },
             "Minecraft Version(s)": {
-                "1": "1.16.x"
+                "1": "1.16.x",
+                "19": "1.18.2"
+            },
+            "Paper Version": {
+                "19": "<a class=\"link_info\" href=\"https://papermc.io/api/v2/projects/paper/versions/1.18.2/builds/252/downloads/paper-1.18.2-252.jar\">Build 252+</a>"
             },
             "Slimefun Version": {
-                "1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/Slimefun4/stable/#23\">RC-23</a>"
+                "1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/Slimefun4/stable/#28\">RC-28</a>",
+                "19": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/Slimefun4/stable/#30\">RC-30</a>"
             }
         }
     },
