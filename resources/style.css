@@ -209,6 +209,22 @@ tr:nth-child(odd) {
     box-shadow: 0 3px 6px var(--shadow);
 }
 
+.box_user {
+    margin: 2vh auto;
+}
+
+@media (min-width: 320px) {
+    .box_user {
+        width: 95%;
+    }
+}
+
+@media (min-width: 1020px) {
+    .box_user {
+        width: 65%;
+    }
+}
+
 .repo {
     font-size: 110%;
     margin: auto;
@@ -232,7 +248,7 @@ tr:nth-child(odd) {
 .header {
     background-color: var(--header);
     display: table;
-    height: 6%;
+    height: 50px;
     margin-bottom: 10px;
     padding-top: 5px;
     width: 100%;
