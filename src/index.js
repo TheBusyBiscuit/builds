@@ -65,7 +65,7 @@ function addRepository(table, directory, owner, repo, branch, projectType) {
                 <a class="link_info" href="${directory}">${repo} (${branch})${projectType == 'abandoned' ? " [abandoned]" : ""}</a>
             </td>
             <td>
-                <img style="float: right;" alt="project badge" src="https://thebusybiscuit.github.io/builds/${directory}/badge.svg" />
+                <img class="badge" alt="project badge" src="https://thebusybiscuit.github.io/builds/${directory}/badge.svg" />
             </td>
         </tr>
     `);

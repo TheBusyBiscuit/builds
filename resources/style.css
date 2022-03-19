@@ -450,6 +450,14 @@ a.build_child {
     font-style: italic;
 }
 
+.badge {
+    float: right;
+}
+
+.abandoned .badge {
+    filter: opacity(0.2);
+}
+
 .header_icon {
     filter: invert(1);
     height: 50%;
