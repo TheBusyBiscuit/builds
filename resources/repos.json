@@ -1470,5 +1470,20 @@
                 "1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/Slimefun4/stable/#30\">RC-30 or higher</a>"
             }
         }
+    },
+    "TheSilentPro/SlimeBot:master": {
+        "sonar": {
+            "enabled": false
+        },
+        "options": {
+            "prefix": "Build",
+            "abandoned": false,
+            "createJar": true
+        },
+        "dependencies": {
+            "Slimefun Version": {
+                "1": "RC-30 or higher"
+            }
+        }
     }
 }
