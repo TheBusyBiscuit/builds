@@ -19,7 +19,7 @@ $(function() {
 
 function addProfile(user, repos) {
     $("#repos").append(
-        `<div class="box" style="width: 65%; margin: 2vh auto;">
+        `<div class="box box_user">
             <a style="padding-top: 1vh;" class="link_repo" href="https://github.com/${user}">
                 <img alt="profile" src="https://cdnjs.cloudflare.com/ajax/libs/octicons/8.5.0/svg/person.svg" class="profile_icon">
                 <span>${user}</span>
@@ -65,7 +65,7 @@ function addRepository(table, directory, owner, repo, branch, projectType) {
                 <a class="link_info" href="${directory}">${repo} (${branch})${projectType == 'abandoned' ? " [abandoned]" : ""}</a>
             </td>
             <td>
-                <img style="float: right;" alt="project badge" src="https://thebusybiscuit.github.io/builds/${directory}/badge.svg" />
+                <img class="badge" alt="project badge" src="https://thebusybiscuit.github.io/builds/${directory}/badge.svg" />
             </td>
         </tr>
     `);
