@@ -1482,7 +1482,8 @@
         },
         "dependencies": {
             "Slimefun Version": {
-                "1": "RC-30 or higher"
+                "1": "RC-30 or higher",
+                "4": "RC-31 or higher"
             }
         }
     }
