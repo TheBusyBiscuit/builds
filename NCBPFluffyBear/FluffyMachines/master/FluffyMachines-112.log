@@ -1,0 +1,205 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------< io.ncbpfluffybear:FluffyMachines >------------------
+[INFO] Building FluffyMachines DEV - 112 (git 9dd847e9)
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-clean-plugin/2.5/maven-clean-plugin-2.5.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-clean-plugin/2.5/maven-clean-plugin-2.5.pom (3.9 kB at 16 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/22/maven-plugins-22.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/22/maven-plugins-22.pom (13 kB at 621 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/21/maven-parent-21.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/21/maven-parent-21.pom (26 kB at 824 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/apache/10/apache-10.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/apache/10/apache-10.pom (15 kB at 617 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-clean-plugin/2.5/maven-clean-plugin-2.5.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-clean-plugin/2.5/maven-clean-plugin-2.5.jar (25 kB at 1.4 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-resources-plugin/2.6/maven-resources-plugin-2.6.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-resources-plugin/2.6/maven-resources-plugin-2.6.pom (8.1 kB at 541 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/23/maven-plugins-23.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/23/maven-plugins-23.pom (9.2 kB at 511 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/22/maven-parent-22.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/22/maven-parent-22.pom (30 kB at 1.6 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/apache/11/apache-11.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/apache/11/apache-11.pom (15 kB at 871 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-resources-plugin/2.6/maven-resources-plugin-2.6.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-resources-plugin/2.6/maven-resources-plugin-2.6.jar (30 kB at 1.7 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-compiler-plugin/3.8.1/maven-compiler-plugin-3.8.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-compiler-plugin/3.8.1/maven-compiler-plugin-3.8.1.pom (12 kB at 542 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/33/maven-plugins-33.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/33/maven-plugins-33.pom (11 kB at 712 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/33/maven-parent-33.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/33/maven-parent-33.pom (44 kB at 2.3 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/apache/21/apache-21.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/apache/21/apache-21.pom (17 kB at 1.2 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-compiler-plugin/3.8.1/maven-compiler-plugin-3.8.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-compiler-plugin/3.8.1/maven-compiler-plugin-3.8.1.jar (62 kB at 3.5 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/2.12.4/maven-surefire-plugin-2.12.4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/2.12.4/maven-surefire-plugin-2.12.4.pom (10 kB at 655 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire/2.12.4/surefire-2.12.4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire/2.12.4/surefire-2.12.4.pom (14 kB at 726 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/2.12.4/maven-surefire-plugin-2.12.4.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/2.12.4/maven-surefire-plugin-2.12.4.jar (30 kB at 1.9 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-jar-plugin/2.4/maven-jar-plugin-2.4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-jar-plugin/2.4/maven-jar-plugin-2.4.pom (5.8 kB at 389 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-jar-plugin/2.4/maven-jar-plugin-2.4.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-jar-plugin/2.4/maven-jar-plugin-2.4.jar (34 kB at 2.3 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-shade-plugin/3.2.4/maven-shade-plugin-3.2.4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-shade-plugin/3.2.4/maven-shade-plugin-3.2.4.pom (11 kB at 769 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/34/maven-plugins-34.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/34/maven-plugins-34.pom (11 kB at 712 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/34/maven-parent-34.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/34/maven-parent-34.pom (43 kB at 2.7 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/apache/23/apache-23.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/apache/23/apache-23.pom (18 kB at 1.3 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-shade-plugin/3.2.4/maven-shade-plugin-3.2.4.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-shade-plugin/3.2.4/maven-shade-plugin-3.2.4.jar (134 kB at 6.7 MB/s)
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/spigotmc/spigot-api/1.16.3-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/spigotmc/spigot-api/1.16.3-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from CodeMC: https://repo.codemc.org/repository/maven-public/org/spigotmc/spigot-api/1.16.3-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/spigotmc/spigot-api/1.16.3-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from md_5-snapshots: https://repo.md-5.net/content/repositories/snapshots/org/spigotmc/spigot-api/1.16.3-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from md_5-releases: https://repo.md-5.net/content/repositories/releases/org/spigotmc/spigot-api/1.16.3-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloaded from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/spigotmc/spigot-api/1.16.3-R0.1-SNAPSHOT/maven-metadata.xml (1.5 kB at 4.9 kB/s)
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/spigotmc/spigot-api/1.16.3-R0.1-SNAPSHOT/maven-metadata.xml (1.5 kB at 1.1 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/spigotmc/spigot-api/1.16.3-R0.1-SNAPSHOT/spigot-api-1.16.3-R0.1-20201025.071724-27.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/spigotmc/spigot-api/1.16.3-R0.1-SNAPSHOT/spigot-api-1.16.3-R0.1-20201025.071724-27.pom (11 kB at 20 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/commons-lang/commons-lang/2.6/commons-lang-2.6.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/commons-lang/commons-lang/2.6/commons-lang-2.6.pom (17 kB at 33 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/apache/commons/commons-parent/17/commons-parent-17.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/apache/commons/commons-parent/17/commons-parent-17.pom (31 kB at 58 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/apache/apache/7/apache-7.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/apache/apache/7/apache-7.pom (14 kB at 21 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/google/guava/guava/21.0/guava-21.0.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/google/guava/guava/21.0/guava-21.0.pom (7.0 kB at 12 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/google/guava/guava-parent/21.0/guava-parent-21.0.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/google/guava/guava-parent/21.0/guava-parent-21.0.pom (9.7 kB at 18 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/sonatype/oss/oss-parent/7/oss-parent-7.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/sonatype/oss/oss-parent/7/oss-parent-7.pom (4.8 kB at 9.2 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/google/code/gson/gson/2.8.0/gson-2.8.0.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/google/code/gson/gson/2.8.0/gson-2.8.0.pom (1.4 kB at 2.8 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/google/code/gson/gson-parent/2.8.0/gson-parent-2.8.0.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/google/code/gson/gson-parent/2.8.0/gson-parent-2.8.0.pom (3.5 kB at 6.2 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/net/md-5/bungeecord-chat/1.16-R0.3/bungeecord-chat-1.16-R0.3.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/net/md-5/bungeecord-chat/1.16-R0.3/bungeecord-chat-1.16-R0.3.pom (978 B at 1.7 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/net/md-5/bungeecord-parent/1.16-R0.3/bungeecord-parent-1.16-R0.3.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/net/md-5/bungeecord-parent/1.16-R0.3/bungeecord-parent-1.16-R0.3.pom (10 kB at 6.9 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/yaml/snakeyaml/1.26/snakeyaml-1.26.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/yaml/snakeyaml/1.26/snakeyaml-1.26.pom (38 kB at 54 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/github/TheBusyBiscuit/Slimefun4/RC-31/Slimefun4-RC-31.pom
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/github/TheBusyBiscuit/Slimefun4/RC-31/Slimefun4-RC-31.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/github/TheBusyBiscuit/Slimefun4/RC-31/Slimefun4-RC-31.pom
+[INFO] Downloaded from jitpack.io: https://jitpack.io/com/github/TheBusyBiscuit/Slimefun4/RC-31/Slimefun4-RC-31.pom (13 kB at 82 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/gmail/nossr50/mcMMO/mcMMO/2.1.149/mcMMO-2.1.149.pom
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/gmail/nossr50/mcMMO/mcMMO/2.1.149/mcMMO-2.1.149.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/gmail/nossr50/mcMMO/mcMMO/2.1.149/mcMMO-2.1.149.pom
+[INFO] Downloading from CodeMC: https://repo.codemc.org/repository/maven-public/com/gmail/nossr50/mcMMO/mcMMO/2.1.149/mcMMO-2.1.149.pom
+[INFO] Downloaded from CodeMC: https://repo.codemc.org/repository/maven-public/com/gmail/nossr50/mcMMO/mcMMO/2.1.149/mcMMO-2.1.149.pom (8.2 kB at 38 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/apache/maven/scm/maven-scm-provider-gitexe/1.8.1/maven-scm-provider-gitexe-1.8.1.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/apache/maven/scm/maven-scm-provider-gitexe/1.8.1/maven-scm-provider-gitexe-1.8.1.pom (2.6 kB at 4.8 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/apache/maven/scm/maven-scm-providers-git/1.8.1/maven-scm-providers-git-1.8.1.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/apache/maven/scm/maven-scm-providers-git/1.8.1/maven-scm-providers-git-1.8.1.pom (2.2 kB at 4.2 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/apache/maven/scm/maven-scm-providers/1.8.1/maven-scm-providers-1.8.1.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/apache/maven/scm/maven-scm-providers/1.8.1/maven-scm-providers-1.8.1.pom (3.7 kB at 7.2 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/apache/maven/scm/maven-scm/1.8.1/maven-scm-1.8.1.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/apache/maven/scm/maven-scm/1.8.1/maven-scm-1.8.1.pom (22 kB at 33 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/regexp/regexp/1.3/regexp-1.3.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/regexp/regexp/1.3/regexp-1.3.pom (145 B at 282 B/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/commons-io/commons-io/2.2/commons-io-2.2.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/commons-io/commons-io/2.2/commons-io-2.2.pom (11 kB at 18 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/apache/commons/commons-parent/24/commons-parent-24.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/apache/commons/commons-parent/24/commons-parent-24.pom (47 kB at 74 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/apache/apache/9/apache-9.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/apache/apache/9/apache-9.pom (15 kB at 29 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/apache/maven/scm/maven-scm-provider-git-commons/1.8.1/maven-scm-provider-git-commons-1.8.1.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/apache/maven/scm/maven-scm-provider-git-commons/1.8.1/maven-scm-provider-git-commons-1.8.1.pom (2.3 kB at 4.1 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/apache/maven/scm/maven-scm-api/1.8.1/maven-scm-api-1.8.1.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/apache/maven/scm/maven-scm-api/1.8.1/maven-scm-api-1.8.1.pom (1.6 kB at 3.0 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/codehaus/plexus/plexus-utils/3.0.7/plexus-utils-3.0.7.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/codehaus/plexus/plexus-utils/3.0.7/plexus-utils-3.0.7.pom (2.5 kB at 4.7 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/codehaus/plexus/plexus/3.1/plexus-3.1.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/codehaus/plexus/plexus/3.1/plexus-3.1.pom (19 kB at 35 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/sonatype/spice/spice-parent/17/spice-parent-17.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/sonatype/spice/spice-parent/17/spice-parent-17.pom (6.8 kB at 13 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/sonatype/forge/forge-parent/10/forge-parent-10.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/sonatype/forge/forge-parent/10/forge-parent-10.pom (14 kB at 24 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.pom (4.3 kB at 7.7 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/projectlombok/lombok/1.18.20/lombok-1.18.20.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/projectlombok/lombok/1.18.20/lombok-1.18.20.pom (1.5 kB at 2.4 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/bstats/bstats-bukkit/2.2.1/bstats-bukkit-2.2.1.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/bstats/bstats-bukkit/2.2.1/bstats-bukkit-2.2.1.pom (1.7 kB at 3.3 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/bstats/bstats-base/2.2.1/bstats-base-2.2.1.pom
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/bstats/bstats-base/2.2.1/bstats-base-2.2.1.pom (1.5 kB at 2.9 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/github/Slimefun-Addon-Community/extrautils/73e76ac06c/extrautils-73e76ac06c.pom
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/github/Slimefun-Addon-Community/extrautils/73e76ac06c/extrautils-73e76ac06c.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/github/Slimefun-Addon-Community/extrautils/73e76ac06c/extrautils-73e76ac06c.pom
+[INFO] Downloaded from jitpack.io: https://jitpack.io/com/github/Slimefun-Addon-Community/extrautils/73e76ac06c/extrautils-73e76ac06c.pom (3.7 kB at 47 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/fr/neatmonster/nocheatplus/3.16.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/fr/neatmonster/nocheatplus/3.16.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from jitpack.io: https://jitpack.io/fr/neatmonster/nocheatplus/3.16.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from CodeMC: https://repo.codemc.org/repository/maven-public/fr/neatmonster/nocheatplus/3.16.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from md_5-snapshots: https://repo.md-5.net/content/repositories/snapshots/fr/neatmonster/nocheatplus/3.16.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from md_5-releases: https://repo.md-5.net/content/repositories/releases/fr/neatmonster/nocheatplus/3.16.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloaded from md_5-snapshots: https://repo.md-5.net/content/repositories/snapshots/fr/neatmonster/nocheatplus/3.16.1-SNAPSHOT/maven-metadata.xml (781 B at 14 kB/s)
+[INFO] Downloaded from CodeMC: https://repo.codemc.org/repository/maven-public/fr/neatmonster/nocheatplus/3.16.1-SNAPSHOT/maven-metadata.xml (338 B at 757 B/s)
+[INFO] Downloading from CodeMC: https://repo.codemc.org/repository/maven-public/fr/neatmonster/nocheatplus/3.16.1-SNAPSHOT/nocheatplus-3.16.1-SNAPSHOT.pom
+[WARNING] The POM for fr.neatmonster:nocheatplus:jar:3.16.1-SNAPSHOT is missing, no dependency information available
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/spigotmc/spigot-api/1.16.3-R0.1-SNAPSHOT/spigot-api-1.16.3-R0.1-20201025.071724-27.jar
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/commons-lang/commons-lang/2.6/commons-lang-2.6.jar
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/net/md-5/bungeecord-chat/1.16-R0.3/bungeecord-chat-1.16-R0.3.jar
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/google/guava/guava/21.0/guava-21.0.jar
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/google/code/gson/gson/2.8.0/gson-2.8.0.jar
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/google/code/gson/gson/2.8.0/gson-2.8.0.jar (232 kB at 192 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/yaml/snakeyaml/1.26/snakeyaml-1.26.jar
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/google/guava/guava/21.0/guava-21.0.jar (2.5 MB at 1.6 MB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/github/TheBusyBiscuit/Slimefun4/RC-31/Slimefun4-RC-31.jar
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/commons-lang/commons-lang/2.6/commons-lang-2.6.jar (284 kB at 174 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/gmail/nossr50/mcMMO/mcMMO/2.1.149/mcMMO-2.1.149.jar
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/spigotmc/spigot-api/1.16.3-R0.1-SNAPSHOT/spigot-api-1.16.3-R0.1-20201025.071724-27.jar (1.3 MB at 679 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/apache/maven/scm/maven-scm-provider-gitexe/1.8.1/maven-scm-provider-gitexe-1.8.1.jar
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/net/md-5/bungeecord-chat/1.16-R0.3/bungeecord-chat-1.16-R0.3.jar (149 kB at 77 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/regexp/regexp/1.3/regexp-1.3.jar
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/commons-io/commons-io/2.2/commons-io-2.2.jar
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/apache/maven/scm/maven-scm-provider-git-commons/1.8.1/maven-scm-provider-git-commons-1.8.1.jar
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/yaml/snakeyaml/1.26/snakeyaml-1.26.jar (309 kB at 95 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/apache/maven/scm/maven-scm-api/1.8.1/maven-scm-api-1.8.1.jar
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/regexp/regexp/1.3/regexp-1.3.jar (25 kB at 7.8 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/codehaus/plexus/plexus-utils/3.0.7/plexus-utils-3.0.7.jar
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/apache/maven/scm/maven-scm-provider-gitexe/1.8.1/maven-scm-provider-gitexe-1.8.1.jar (64 kB at 17 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/commons-io/commons-io/2.2/commons-io-2.2.jar (174 kB at 42 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/projectlombok/lombok/1.18.20/lombok-1.18.20.jar
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/apache/maven/scm/maven-scm-provider-git-commons/1.8.1/maven-scm-provider-git-commons-1.8.1.jar (38 kB at 8.9 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/bstats/bstats-bukkit/2.2.1/bstats-bukkit-2.2.1.jar
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/apache/maven/scm/maven-scm-api/1.8.1/maven-scm-api-1.8.1.jar (105 kB at 24 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/bstats/bstats-base/2.2.1/bstats-base-2.2.1.jar
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar (20 kB at 4.5 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/github/Slimefun-Addon-Community/extrautils/73e76ac06c/extrautils-73e76ac06c.jar
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/codehaus/plexus/plexus-utils/3.0.7/plexus-utils-3.0.7.jar (230 kB at 47 kB/s)
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/bstats/bstats-bukkit/2.2.1/bstats-bukkit-2.2.1.jar (4.1 kB at 748 B/s)
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/bstats/bstats-base/2.2.1/bstats-base-2.2.1.jar (22 kB at 4.0 kB/s)
+[INFO] Downloaded from paper-repo: https://repo.destroystokyo.com/repository/maven-public/org/projectlombok/lombok/1.18.20/lombok-1.18.20.jar (1.9 MB at 331 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/github/TheBusyBiscuit/Slimefun4/RC-31/Slimefun4-RC-31.jar
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/gmail/nossr50/mcMMO/mcMMO/2.1.149/mcMMO-2.1.149.jar
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/github/Slimefun-Addon-Community/extrautils/73e76ac06c/extrautils-73e76ac06c.jar
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/github/TheBusyBiscuit/Slimefun4/RC-31/Slimefun4-RC-31.jar
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/gmail/nossr50/mcMMO/mcMMO/2.1.149/mcMMO-2.1.149.jar
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/github/Slimefun-Addon-Community/extrautils/73e76ac06c/extrautils-73e76ac06c.jar
+[INFO] Downloaded from jitpack.io: https://jitpack.io/com/github/TheBusyBiscuit/Slimefun4/RC-31/Slimefun4-RC-31.jar (4.4 MB at 32 MB/s)
+[INFO] Downloaded from jitpack.io: https://jitpack.io/com/github/Slimefun-Addon-Community/extrautils/73e76ac06c/extrautils-73e76ac06c.jar (24 kB at 137 kB/s)
+[INFO] Downloading from CodeMC: https://repo.codemc.org/repository/maven-public/com/gmail/nossr50/mcMMO/mcMMO/2.1.149/mcMMO-2.1.149.jar
+[INFO] Downloading from CodeMC: https://repo.codemc.org/repository/maven-public/fr/neatmonster/nocheatplus/3.16.1-SNAPSHOT/nocheatplus-3.16.1-SNAPSHOT.jar
+[INFO] Downloaded from CodeMC: https://repo.codemc.org/repository/maven-public/com/gmail/nossr50/mcMMO/mcMMO/2.1.149/mcMMO-2.1.149.jar (2.2 MB at 1.3 MB/s)
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  30.531 s
+[INFO] Finished at: 2022-04-11T07:43:07Z
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal on project FluffyMachines: Could not resolve dependencies for project io.ncbpfluffybear:FluffyMachines:jar:DEV - 112 (git 9dd847e9): Could not find artifact fr.neatmonster:nocheatplus:jar:3.16.1-SNAPSHOT in CodeMC (https://repo.codemc.org/repository/maven-public) -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/DependencyResolutionException
