@@ -1,0 +1,82 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------------------< me.apeiros:AlchimiaVitae >----------------------
+[INFO] Building AlchimiaVitae DEV - 20 (git 6afe2919)
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] Downloading from maven-snapshots: https://repository.apache.org/content/repositories/snapshots/org/apache/maven/plugins/maven-clean-plugin/2.5/maven-clean-plugin-2.5.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-clean-plugin/2.5/maven-clean-plugin-2.5.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-clean-plugin/2.5/maven-clean-plugin-2.5.pom (3.9 kB at 25 kB/s)
+[INFO] Downloading from maven-snapshots: https://repository.apache.org/content/repositories/snapshots/org/apache/maven/plugins/maven-plugins/22/maven-plugins-22.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/22/maven-plugins-22.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/22/maven-plugins-22.pom (13 kB at 522 kB/s)
+[INFO] Downloading from maven-snapshots: https://repository.apache.org/content/repositories/snapshots/org/apache/maven/maven-parent/21/maven-parent-21.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/21/maven-parent-21.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/21/maven-parent-21.pom (26 kB at 712 kB/s)
+[INFO] Downloading from maven-snapshots: https://repository.apache.org/content/repositories/snapshots/org/apache/apache/10/apache-10.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/apache/10/apache-10.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/apache/10/apache-10.pom (15 kB at 643 kB/s)
+[INFO] Downloading from maven-snapshots: https://repository.apache.org/content/repositories/snapshots/org/apache/maven/plugins/maven-clean-plugin/2.5/maven-clean-plugin-2.5.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-clean-plugin/2.5/maven-clean-plugin-2.5.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-clean-plugin/2.5/maven-clean-plugin-2.5.jar (25 kB at 1.1 MB/s)
+[INFO] Downloading from maven-snapshots: https://repository.apache.org/content/repositories/snapshots/org/apache/maven/plugins/maven-resources-plugin/2.6/maven-resources-plugin-2.6.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-resources-plugin/2.6/maven-resources-plugin-2.6.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-resources-plugin/2.6/maven-resources-plugin-2.6.pom (8.1 kB at 369 kB/s)
+[INFO] Downloading from maven-snapshots: https://repository.apache.org/content/repositories/snapshots/org/apache/maven/plugins/maven-plugins/23/maven-plugins-23.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/23/maven-plugins-23.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/23/maven-plugins-23.pom (9.2 kB at 383 kB/s)
+[INFO] Downloading from maven-snapshots: https://repository.apache.org/content/repositories/snapshots/org/apache/maven/maven-parent/22/maven-parent-22.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/22/maven-parent-22.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/22/maven-parent-22.pom (30 kB at 1.2 MB/s)
+[INFO] Downloading from maven-snapshots: https://repository.apache.org/content/repositories/snapshots/org/apache/apache/11/apache-11.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/apache/11/apache-11.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/apache/11/apache-11.pom (15 kB at 673 kB/s)
+[INFO] Downloading from maven-snapshots: https://repository.apache.org/content/repositories/snapshots/org/apache/maven/plugins/maven-resources-plugin/2.6/maven-resources-plugin-2.6.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-resources-plugin/2.6/maven-resources-plugin-2.6.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-resources-plugin/2.6/maven-resources-plugin-2.6.jar (30 kB at 1.3 MB/s)
+[INFO] Downloading from maven-snapshots: https://repository.apache.org/content/repositories/snapshots/org/apache/maven/plugins/maven-compiler-plugin/3.8.1/maven-compiler-plugin-3.8.1.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-compiler-plugin/3.8.1/maven-compiler-plugin-3.8.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-compiler-plugin/3.8.1/maven-compiler-plugin-3.8.1.pom (12 kB at 304 kB/s)
+[INFO] Downloading from maven-snapshots: https://repository.apache.org/content/repositories/snapshots/org/apache/maven/plugins/maven-plugins/33/maven-plugins-33.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/33/maven-plugins-33.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/33/maven-plugins-33.pom (11 kB at 132 kB/s)
+[INFO] Downloading from maven-snapshots: https://repository.apache.org/content/repositories/snapshots/org/apache/maven/maven-parent/33/maven-parent-33.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/33/maven-parent-33.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/33/maven-parent-33.pom (44 kB at 1.9 MB/s)
+[INFO] Downloading from maven-snapshots: https://repository.apache.org/content/repositories/snapshots/org/apache/apache/21/apache-21.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/apache/21/apache-21.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/apache/21/apache-21.pom (17 kB at 855 kB/s)
+[INFO] Downloading from maven-snapshots: https://repository.apache.org/content/repositories/snapshots/org/apache/maven/plugins/maven-compiler-plugin/3.8.1/maven-compiler-plugin-3.8.1.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-compiler-plugin/3.8.1/maven-compiler-plugin-3.8.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-compiler-plugin/3.8.1/maven-compiler-plugin-3.8.1.jar (62 kB at 1.9 MB/s)
+[INFO] Downloading from maven-snapshots: https://repository.apache.org/content/repositories/snapshots/org/apache/maven/plugins/maven-surefire-plugin/2.12.4/maven-surefire-plugin-2.12.4.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/2.12.4/maven-surefire-plugin-2.12.4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/2.12.4/maven-surefire-plugin-2.12.4.pom (10 kB at 349 kB/s)
+[INFO] Downloading from maven-snapshots: https://repository.apache.org/content/repositories/snapshots/org/apache/maven/surefire/surefire/2.12.4/surefire-2.12.4.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire/2.12.4/surefire-2.12.4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire/2.12.4/surefire-2.12.4.pom (14 kB at 363 kB/s)
+[INFO] Downloading from maven-snapshots: https://repository.apache.org/content/repositories/snapshots/org/apache/maven/plugins/maven-surefire-plugin/2.12.4/maven-surefire-plugin-2.12.4.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/2.12.4/maven-surefire-plugin-2.12.4.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/2.12.4/maven-surefire-plugin-2.12.4.jar (30 kB at 544 kB/s)
+[INFO] Downloading from maven-snapshots: https://repository.apache.org/content/repositories/snapshots/org/apache/maven/plugins/maven-jar-plugin/2.4/maven-jar-plugin-2.4.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-jar-plugin/2.4/maven-jar-plugin-2.4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-jar-plugin/2.4/maven-jar-plugin-2.4.pom (5.8 kB at 292 kB/s)
+[INFO] Downloading from maven-snapshots: https://repository.apache.org/content/repositories/snapshots/org/apache/maven/plugins/maven-jar-plugin/2.4/maven-jar-plugin-2.4.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-jar-plugin/2.4/maven-jar-plugin-2.4.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-jar-plugin/2.4/maven-jar-plugin-2.4.jar (34 kB at 1.2 MB/s)
+[INFO] Downloading from maven-snapshots: https://repository.apache.org/content/repositories/snapshots/org/apache/maven/plugins/maven-shade-plugin/3.3.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from maven-snapshots: https://repository.apache.org/content/repositories/snapshots/org/apache/maven/plugins/maven-shade-plugin/3.3.0-SNAPSHOT/maven-shade-plugin-3.3.0-SNAPSHOT.pom
+[WARNING] The POM for org.apache.maven.plugins:maven-shade-plugin:jar:3.3.0-SNAPSHOT is missing, no dependency information available
+[INFO] Downloading from maven-snapshots: https://repository.apache.org/content/repositories/snapshots/org/apache/maven/plugins/maven-shade-plugin/3.3.0-SNAPSHOT/maven-shade-plugin-3.3.0-SNAPSHOT.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  5.617 s
+[INFO] Finished at: 2022-05-03T02:14:42Z
+[INFO] ------------------------------------------------------------------------
+[ERROR] Plugin org.apache.maven.plugins:maven-shade-plugin:3.3.0-SNAPSHOT or one of its dependencies could not be resolved: Could not find artifact org.apache.maven.plugins:maven-shade-plugin:jar:3.3.0-SNAPSHOT in maven-snapshots (https://repository.apache.org/content/repositories/snapshots/) -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/PluginResolutionException
