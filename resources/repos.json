@@ -1480,5 +1480,39 @@
                 "1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/Slimefun4/stable/#30\">RC-30 or higher</a>"
             }
         }
+    },
+    "TheSilentPro/SlimeBot:master": {
+        "sonar": {
+            "enabled": false
+        },
+        "options": {
+            "prefix": "Build",
+            "abandoned": false,
+            "createJar": true
+        },
+        "dependencies": {
+            "Slimefun Version": {
+                "1": "RC-30 or higher",
+                "4": "RC-31 or higher"
+            }
+        }
+    },    
+    "RelativoBR/SupremeExpansion:main": {
+        "sonar": {
+            "enabled": false
+        },
+        "options": {
+            "prefix": "DEV",
+            "abandoned": false,
+            "createJar": true
+        },
+        "dependencies": {
+            "Minecraft Version(s)": {
+                "1": "1.17.x,1.18.x"
+            },
+            "Slimefun Version": {
+                "1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/Slimefun4/stable/#31\">RC-31 or higher</a>"
+            }
+        }
     }
 }
