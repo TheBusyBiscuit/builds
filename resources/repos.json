@@ -1180,19 +1180,21 @@
         "dependencies": {
             "Java Version": {
                 "1": "Java 11",
-                "19": "Java 17"
+                "19": "Java 17",
+                "21": "Java 16 or Java 17"
             },
             "Minecraft Version(s)": {
                 "1": "1.16.x",
-                "19": "1.18.2"
+                "19": "1.18.2",
+                "21": "1.17.x and up"
             },
             "Paper Version": {
                 "1": "Not required",
-                "19": "<a class=\"link_info\" href=\"https://papermc.io/api/v2/projects/paper/versions/1.18.2/builds/252/downloads/paper-1.18.2-252.jar\">Build 252+</a>"
+                "19": "<a class=\"link_info\" href=\"https://papermc.io/api/v2/projects/paper/versions/1.18.2/builds/252/downloads/paper-1.18.2-252.jar\">1.18.2 build 252 and up</a>",
+                "21": "Not required"
             },
             "Slimefun Version": {
-                "1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/Slimefun4/stable/#28\">RC-28</a>",
-                "19": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/Slimefun4/stable/#30\">RC-30</a>"
+                "1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/Slimefun4/stable/#28\">RC-28</a>"
             }
         }
     },
