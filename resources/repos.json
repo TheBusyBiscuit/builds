@@ -1523,20 +1523,18 @@
             }
         }
     }
-}
- // ...
-    // Replace this with your username, repo and branch you wish to publish. For example: AwesomeUser/CoolAddon:main
+
+ 
     "JasperChaseTOQ/BuildersKit:Master": {
-        // Some repositories support the usage of sonar-scanner, custom repositories cannot have this feature though (yet)
+
         "sonar": {
             "enabled": false
         },
-        // What the builds will be prefixed with. "DEV" would make builds like "CoolAddon - DEV 1 (githash)"
+
         "options": {
             "prefix": "DEV 1"
         },
-        // What your addon supports/depends on. The number key indicates the minium build.
-        // You can list any text or even links here.
+      
         "dependencies": {
             "Minecraft Version(s)": {
                 "1": "1.13.x, 1.14.x, 1.15.x, 1.16.x"
