@@ -1526,15 +1526,12 @@
         }
     },
     "JasperChaseTOQ/CompressionCraft:Master": {
-        // Some repositories support the usage of sonar-scanner, custom repositories cannot have this feature though (yet)
         "sonar": {
             "enabled": false
         },
-        // What the builds will be prefixed with. "DEV" would make builds like "CoolAddon - DEV 1 (githash)"
         "options": {
             "prefix": "DEV"
         },
-    
         "dependencies": {
             "Minecraft Version(s)": {
                 "1": "1.18x,1.19x"
@@ -1543,8 +1540,6 @@
             "Slimefun Version": {
                 "1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/Slimefun4/master/#600\">RC-32 or higher</a>"
             }
-        },
+        }
     }
 }
-
-
