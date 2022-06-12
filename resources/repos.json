@@ -1534,7 +1534,7 @@
         },
         "dependencies": {
             "Minecraft Version(s)": {
-                "1": "1.18x,1.19x"
+                "1": "1.18x"
             },
             },
             "Slimefun Version": {
