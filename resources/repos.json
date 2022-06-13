@@ -1561,5 +1561,22 @@
                 "1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/Slimefun4/stable/#31\">RC-31 or higher</a>"
             }
         }
+    },
+    "JasperChaseTOQ/CompressionCraft:Master": {
+        "sonar": {
+            "enabled": false
+        },
+        "options": {
+            "prefix": "DEV"
+        },
+        "dependencies": {
+            "Minecraft Version(s)": {
+                "1": "1.18x"
+            },
+            },
+            "Slimefun Version": {
+                "1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/Slimefun4/Stable/#31\">RC-31 or higher</a>"
+            }
+        }
     }
 }
