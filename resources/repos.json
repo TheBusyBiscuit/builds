@@ -1455,6 +1455,25 @@
             }
         }
     },
+    "FN-FAL113/RelicsOfCthonia:main": {
+        "sonar": {
+            "enabled": false
+        },
+        "options": {
+            "prefix": "DEV",
+            "abandoned": false,
+            "createJar": true,
+            "ignoreTags": true
+        },
+        "dependencies": {
+            "Minecraft Version(s)": {
+                "1": "1.16.5, 1.17.x, 1.18.x, 1.19.x"
+            },
+            "Slimefun Version": {
+                "1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/Slimefun4/master/#980\">RC-31 or latest dev builds</a>"
+            }
+        }
+    },
      "lucasGithuber/Element-Manipulation:master": {
         "sonar": {
             "enabled": false
