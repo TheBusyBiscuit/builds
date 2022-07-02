@@ -1598,7 +1598,6 @@
             }
         }
     },
-
     "TheRealEzCoins/MiniBlocks:master": {
       "sonar": {
             "enabled": false
