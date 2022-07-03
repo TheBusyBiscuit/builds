@@ -999,10 +999,12 @@
         },
         "dependencies": {
             "Minecraft Version(s)": {
+                "166": "1.19.x",
                 "133": "1.17.x",
                 "1": "1.14.x, 1.15.x, 1.16.x"
             },
             "Slimefun Version": {
+                "166": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/Slimefun4/master/#1015\">DEV #1015</a>"
                 "133": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/Slimefun4/stable/#28\">RC-28</a>",
                 "1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/Slimefun4/stable/#18\">RC-18</a>"
             }
