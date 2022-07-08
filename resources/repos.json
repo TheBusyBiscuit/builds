@@ -1598,7 +1598,7 @@
             }
         }
     },
-        "JasperChaseTOQ/DyeBench:master": {
+    "JasperChaseTOQ/DyeBench:master": {
         "sonar": {
             "enabled": false
         },
