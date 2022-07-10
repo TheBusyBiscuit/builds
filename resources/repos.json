@@ -1652,23 +1652,5 @@
                 "1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/Slimefun4/stable/#31\">RC-31 or higher</a>"
             }
         }
-    },
-    "TheRealEzCoins/MiniBlocks:master": {
-        "sonar": {
-            "enabled": false
-        },
-        "options": {
-            "prefix": "DEV",
-            "abandoned": false,
-            "createJar": true
-        },
-        "dependencies": {
-            "Minecraft Version(s)": {
-                "1": "1.18.x, 1.19x"
-            },
-            "Slimefun Version": {
-                "1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/Slimefun4/stable/#32\">RC-31 or higher</a>"
-            }
-        }
     }
 }
