@@ -20,7 +20,7 @@ jobs:
         ref: gh-pages
 
     - name: Setting up node.js
-      uses: actions/setup-node@v3.5.0
+      uses: actions/setup-node@v3.5.1
       with:
         node-version: '16.6.0'
 
