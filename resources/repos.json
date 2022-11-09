@@ -557,9 +557,9 @@
             "abandoned": false,
             "createJar": true
         },
-        "dependencies": {,
+        "dependencies": {
             "Java Version": {
-                "10": "16+",
+                "19": "16+",
                 "1": "8+"
             }
             "Minecraft Version(s)": {
