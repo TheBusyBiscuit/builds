@@ -1,0 +1,581 @@
+[INFO] Scanning for projects...
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-compiler-plugin/3.10.1/maven-compiler-plugin-3.10.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-compiler-plugin/3.10.1/maven-compiler-plugin-3.10.1.pom (13 kB at 43 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/34/maven-plugins-34.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/34/maven-plugins-34.pom (11 kB at 763 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/34/maven-parent-34.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/34/maven-parent-34.pom (43 kB at 1.2 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/apache/23/apache-23.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/apache/23/apache-23.pom (18 kB at 877 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-compiler-plugin/3.10.1/maven-compiler-plugin-3.10.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-compiler-plugin/3.10.1/maven-compiler-plugin-3.10.1.jar (62 kB at 2.8 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-source-plugin/3.2.1/maven-source-plugin-3.2.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-source-plugin/3.2.1/maven-source-plugin-3.2.1.pom (6.9 kB at 692 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/33/maven-plugins-33.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/33/maven-plugins-33.pom (11 kB at 763 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/33/maven-parent-33.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/33/maven-parent-33.pom (44 kB at 1.7 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/apache/21/apache-21.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/apache/21/apache-21.pom (17 kB at 1.2 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-source-plugin/3.2.1/maven-source-plugin-3.2.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-source-plugin/3.2.1/maven-source-plugin-3.2.1.jar (32 kB at 2.1 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/3.0.0-M7/maven-surefire-plugin-3.0.0-M7.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/3.0.0-M7/maven-surefire-plugin-3.0.0-M7.pom (7.2 kB at 555 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire/3.0.0-M7/surefire-3.0.0-M7.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire/3.0.0-M7/surefire-3.0.0-M7.pom (22 kB at 2.0 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/36/maven-parent-36.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/36/maven-parent-36.pom (45 kB at 2.3 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/apache/26/apache-26.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/apache/26/apache-26.pom (21 kB at 501 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/3.0.0-M7/maven-surefire-plugin-3.0.0-M7.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/3.0.0-M7/maven-surefire-plugin-3.0.0-M7.jar (44 kB at 2.9 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/sonarsource/scanner/maven/sonar-maven-plugin/3.9.1.2184/sonar-maven-plugin-3.9.1.2184.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/sonarsource/scanner/maven/sonar-maven-plugin/3.9.1.2184/sonar-maven-plugin-3.9.1.2184.pom (12 kB at 551 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/sonarsource/parent/parent/59.0.29/parent-59.0.29.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/sonarsource/parent/parent/59.0.29/parent-59.0.29.pom (32 kB at 2.4 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/sonarsource/scanner/maven/sonar-maven-plugin/3.9.1.2184/sonar-maven-plugin-3.9.1.2184.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/sonarsource/scanner/maven/sonar-maven-plugin/3.9.1.2184/sonar-maven-plugin-3.9.1.2184.jar (50 kB at 2.8 MB/s)
+[INFO] 
+[INFO] --------------------< com.github.slimefun:Slimefun >--------------------
+[INFO] Building Slimefun DEV - 1036 (git 83e8eff6)
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jacoco/jacoco-maven-plugin/0.8.8/jacoco-maven-plugin-0.8.8.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jacoco/jacoco-maven-plugin/0.8.8/jacoco-maven-plugin-0.8.8.pom (3.8 kB at 379 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jacoco/org.jacoco.build/0.8.8/org.jacoco.build-0.8.8.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jacoco/org.jacoco.build/0.8.8/org.jacoco.build-0.8.8.pom (44 kB at 2.6 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jacoco/jacoco-maven-plugin/0.8.8/jacoco-maven-plugin-0.8.8.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jacoco/jacoco-maven-plugin/0.8.8/jacoco-maven-plugin-0.8.8.jar (56 kB at 3.1 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-clean-plugin/2.5/maven-clean-plugin-2.5.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-clean-plugin/2.5/maven-clean-plugin-2.5.pom (3.9 kB at 280 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/22/maven-plugins-22.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/22/maven-plugins-22.pom (13 kB at 931 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/21/maven-parent-21.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/21/maven-parent-21.pom (26 kB at 3.3 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/apache/10/apache-10.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/apache/10/apache-10.pom (15 kB at 1.2 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-clean-plugin/2.5/maven-clean-plugin-2.5.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-clean-plugin/2.5/maven-clean-plugin-2.5.jar (25 kB at 1.3 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-resources-plugin/2.6/maven-resources-plugin-2.6.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-resources-plugin/2.6/maven-resources-plugin-2.6.pom (8.1 kB at 369 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/23/maven-plugins-23.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/23/maven-plugins-23.pom (9.2 kB at 1.3 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/22/maven-parent-22.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/22/maven-parent-22.pom (30 kB at 2.5 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/apache/11/apache-11.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/apache/11/apache-11.pom (15 kB at 1.9 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-resources-plugin/2.6/maven-resources-plugin-2.6.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-resources-plugin/2.6/maven-resources-plugin-2.6.jar (30 kB at 2.3 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-jar-plugin/2.4/maven-jar-plugin-2.4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-jar-plugin/2.4/maven-jar-plugin-2.4.pom (5.8 kB at 449 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-jar-plugin/2.4/maven-jar-plugin-2.4.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-jar-plugin/2.4/maven-jar-plugin-2.4.jar (34 kB at 1.9 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-shade-plugin/3.4.1/maven-shade-plugin-3.4.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-shade-plugin/3.4.1/maven-shade-plugin-3.4.1.pom (13 kB at 677 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/37/maven-plugins-37.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/37/maven-plugins-37.pom (9.9 kB at 550 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/37/maven-parent-37.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/37/maven-parent-37.pom (46 kB at 3.8 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/apache/27/apache-27.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/apache/27/apache-27.pom (20 kB at 2.3 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-shade-plugin/3.4.1/maven-shade-plugin-3.4.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-shade-plugin/3.4.1/maven-shade-plugin-3.4.1.jar (143 kB at 5.3 MB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/spigotmc/spigot-api/1.19-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from paper-repo: https://papermc.io/repo/repository/maven-public/org/spigotmc/spigot-api/1.19-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/spigotmc/spigot-api/1.19-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from worldedit-repo: https://maven.enginehub.org/repo/org/spigotmc/spigot-api/1.19-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from placeholderapi-repo: https://repo.extendedclip.com/content/repositories/placeholderapi/org/spigotmc/spigot-api/1.19-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloaded from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/spigotmc/spigot-api/1.19-R0.1-SNAPSHOT/maven-metadata.xml (1.4 kB at 4.8 kB/s)
+[INFO] Downloading from mcmmo-repo: https://nexus.neetgames.com/repository/maven-public/org/spigotmc/spigot-api/1.19-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloaded from worldedit-repo: https://maven.enginehub.org/repo/org/spigotmc/spigot-api/1.19-R0.1-SNAPSHOT/maven-metadata.xml (1.4 kB at 4.4 kB/s)
+[INFO] Downloading from walshy-public: https://repo.walshy.dev/public/org/spigotmc/spigot-api/1.19-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from codemc-repo: https://repo.codemc.io/repository/maven-public/org/spigotmc/spigot-api/1.19-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloaded from paper-repo: https://papermc.io/repo/repository/maven-public/org/spigotmc/spigot-api/1.19-R0.1-SNAPSHOT/maven-metadata.xml (1.4 kB at 1.3 kB/s)
+[WARNING] Could not transfer metadata org.spigotmc:spigot-api:1.19-R0.1-SNAPSHOT/maven-metadata.xml from/to codemc-repo (https://repo.codemc.io/repository/maven-public/): transfer failed for https://repo.codemc.io/repository/maven-public/org/spigotmc/spigot-api/1.19-R0.1-SNAPSHOT/maven-metadata.xml
+[WARNING] org.spigotmc:spigot-api:1.19-R0.1-SNAPSHOT/maven-metadata.xmlfailed to transfer from https://repo.codemc.io/repository/maven-public/ during a previous attempt. This failure was cached in the local repository and resolution will not be reattempted until the update interval of codemc-repo has elapsed or updates are forced. Original error: Could not transfer metadata org.spigotmc:spigot-api:1.19-R0.1-SNAPSHOT/maven-metadata.xml from/to codemc-repo (https://repo.codemc.io/repository/maven-public/): transfer failed for https://repo.codemc.io/repository/maven-public/org/spigotmc/spigot-api/1.19-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/spigotmc/spigot-api/1.19-R0.1-SNAPSHOT/spigot-api-1.19-R0.1-20220725.090125-47.pom
+[INFO] Downloaded from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/spigotmc/spigot-api/1.19-R0.1-SNAPSHOT/spigot-api-1.19-R0.1-20220725.090125-47.pom (10 kB at 31 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/google/guava/guava/31.0.1-jre/guava-31.0.1-jre.pom
+[INFO] Downloading from paper-repo: https://papermc.io/repo/repository/maven-public/com/google/guava/guava/31.0.1-jre/guava-31.0.1-jre.pom
+[INFO] Downloaded from paper-repo: https://papermc.io/repo/repository/maven-public/com/google/guava/guava/31.0.1-jre/guava-31.0.1-jre.pom (11 kB at 25 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/google/guava/guava-parent/31.0.1-jre/guava-parent-31.0.1-jre.pom
+[INFO] Downloading from paper-repo: https://papermc.io/repo/repository/maven-public/com/google/guava/guava-parent/31.0.1-jre/guava-parent-31.0.1-jre.pom
+[INFO] Downloaded from paper-repo: https://papermc.io/repo/repository/maven-public/com/google/guava/guava-parent/31.0.1-jre/guava-parent-31.0.1-jre.pom (14 kB at 32 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.pom
+[INFO] Downloading from paper-repo: https://papermc.io/repo/repository/maven-public/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.pom
+[INFO] Downloaded from paper-repo: https://papermc.io/repo/repository/maven-public/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.pom (2.4 kB at 5.7 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/google/guava/guava-parent/26.0-android/guava-parent-26.0-android.pom
+[INFO] Downloading from paper-repo: https://papermc.io/repo/repository/maven-public/com/google/guava/guava-parent/26.0-android/guava-parent-26.0-android.pom
+[INFO] Downloaded from paper-repo: https://papermc.io/repo/repository/maven-public/com/google/guava/guava-parent/26.0-android/guava-parent-26.0-android.pom (10 kB at 24 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/sonatype/oss/oss-parent/9/oss-parent-9.pom
+[INFO] Downloading from paper-repo: https://papermc.io/repo/repository/maven-public/org/sonatype/oss/oss-parent/9/oss-parent-9.pom
+[INFO] Downloaded from paper-repo: https://papermc.io/repo/repository/maven-public/org/sonatype/oss/oss-parent/9/oss-parent-9.pom (6.6 kB at 16 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.pom
+[INFO] Downloading from paper-repo: https://papermc.io/repo/repository/maven-public/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.pom
+[INFO] Downloaded from paper-repo: https://papermc.io/repo/repository/maven-public/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.pom (2.3 kB at 5.3 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.pom
+[INFO] Downloading from paper-repo: https://papermc.io/repo/repository/maven-public/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.pom
+[INFO] Downloaded from paper-repo: https://papermc.io/repo/repository/maven-public/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.pom (4.3 kB at 10.0 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/sonatype/oss/oss-parent/7/oss-parent-7.pom
+[INFO] Downloading from paper-repo: https://papermc.io/repo/repository/maven-public/org/sonatype/oss/oss-parent/7/oss-parent-7.pom
+[INFO] Downloaded from paper-repo: https://papermc.io/repo/repository/maven-public/org/sonatype/oss/oss-parent/7/oss-parent-7.pom (4.8 kB at 10 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/checkerframework/checker-qual/3.12.0/checker-qual-3.12.0.pom
+[INFO] Downloading from paper-repo: https://papermc.io/repo/repository/maven-public/org/checkerframework/checker-qual/3.12.0/checker-qual-3.12.0.pom
+[INFO] Downloaded from paper-repo: https://papermc.io/repo/repository/maven-public/org/checkerframework/checker-qual/3.12.0/checker-qual-3.12.0.pom (2.1 kB at 5.0 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/google/errorprone/error_prone_annotations/2.7.1/error_prone_annotations-2.7.1.pom
+[INFO] Downloading from paper-repo: https://papermc.io/repo/repository/maven-public/com/google/errorprone/error_prone_annotations/2.7.1/error_prone_annotations-2.7.1.pom
+[INFO] Downloaded from paper-repo: https://papermc.io/repo/repository/maven-public/com/google/errorprone/error_prone_annotations/2.7.1/error_prone_annotations-2.7.1.pom (2.1 kB at 3.9 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/google/errorprone/error_prone_parent/2.7.1/error_prone_parent-2.7.1.pom
+[INFO] Downloading from paper-repo: https://papermc.io/repo/repository/maven-public/com/google/errorprone/error_prone_parent/2.7.1/error_prone_parent-2.7.1.pom
+[INFO] Downloaded from paper-repo: https://papermc.io/repo/repository/maven-public/com/google/errorprone/error_prone_parent/2.7.1/error_prone_parent-2.7.1.pom (7.0 kB at 11 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.pom
+[INFO] Downloading from paper-repo: https://papermc.io/repo/repository/maven-public/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.pom
+[INFO] Downloaded from paper-repo: https://papermc.io/repo/repository/maven-public/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.pom (2.8 kB at 5.4 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/google/code/gson/gson/2.8.9/gson-2.8.9.pom
+[INFO] Downloading from paper-repo: https://papermc.io/repo/repository/maven-public/com/google/code/gson/gson/2.8.9/gson-2.8.9.pom
+[INFO] Downloaded from paper-repo: https://papermc.io/repo/repository/maven-public/com/google/code/gson/gson/2.8.9/gson-2.8.9.pom (6.3 kB at 15 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/google/code/gson/gson-parent/2.8.9/gson-parent-2.8.9.pom
+[INFO] Downloading from paper-repo: https://papermc.io/repo/repository/maven-public/com/google/code/gson/gson-parent/2.8.9/gson-parent-2.8.9.pom
+[INFO] Downloaded from paper-repo: https://papermc.io/repo/repository/maven-public/com/google/code/gson/gson-parent/2.8.9/gson-parent-2.8.9.pom (4.7 kB at 11 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/net/md-5/bungeecord-chat/1.16-R0.4/bungeecord-chat-1.16-R0.4.pom
+[INFO] Downloading from paper-repo: https://papermc.io/repo/repository/maven-public/net/md-5/bungeecord-chat/1.16-R0.4/bungeecord-chat-1.16-R0.4.pom
+[INFO] Downloaded from paper-repo: https://papermc.io/repo/repository/maven-public/net/md-5/bungeecord-chat/1.16-R0.4/bungeecord-chat-1.16-R0.4.pom (978 B at 2.4 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/net/md-5/bungeecord-parent/1.16-R0.4/bungeecord-parent-1.16-R0.4.pom
+[INFO] Downloading from paper-repo: https://papermc.io/repo/repository/maven-public/net/md-5/bungeecord-parent/1.16-R0.4/bungeecord-parent-1.16-R0.4.pom
+[INFO] Downloaded from paper-repo: https://papermc.io/repo/repository/maven-public/net/md-5/bungeecord-parent/1.16-R0.4/bungeecord-parent-1.16-R0.4.pom (10 kB at 24 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/google/code/gson/gson/2.8.0/gson-2.8.0.pom
+[INFO] Downloading from paper-repo: https://papermc.io/repo/repository/maven-public/com/google/code/gson/gson/2.8.0/gson-2.8.0.pom
+[INFO] Downloaded from paper-repo: https://papermc.io/repo/repository/maven-public/com/google/code/gson/gson/2.8.0/gson-2.8.0.pom (1.4 kB at 3.5 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/google/code/gson/gson-parent/2.8.0/gson-parent-2.8.0.pom
+[INFO] Downloading from paper-repo: https://papermc.io/repo/repository/maven-public/com/google/code/gson/gson-parent/2.8.0/gson-parent-2.8.0.pom
+[INFO] Downloaded from paper-repo: https://papermc.io/repo/repository/maven-public/com/google/code/gson/gson-parent/2.8.0/gson-parent-2.8.0.pom (3.5 kB at 8.5 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/google/guava/guava/21.0/guava-21.0.pom
+[INFO] Downloading from paper-repo: https://papermc.io/repo/repository/maven-public/com/google/guava/guava/21.0/guava-21.0.pom
+[INFO] Downloaded from paper-repo: https://papermc.io/repo/repository/maven-public/com/google/guava/guava/21.0/guava-21.0.pom (7.0 kB at 17 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/google/guava/guava-parent/21.0/guava-parent-21.0.pom
+[INFO] Downloading from paper-repo: https://papermc.io/repo/repository/maven-public/com/google/guava/guava-parent/21.0/guava-parent-21.0.pom
+[INFO] Downloaded from paper-repo: https://papermc.io/repo/repository/maven-public/com/google/guava/guava-parent/21.0/guava-parent-21.0.pom (9.7 kB at 23 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/yaml/snakeyaml/1.30/snakeyaml-1.30.pom
+[INFO] Downloading from paper-repo: https://papermc.io/repo/repository/maven-public/org/yaml/snakeyaml/1.30/snakeyaml-1.30.pom
+[INFO] Downloaded from paper-repo: https://papermc.io/repo/repository/maven-public/org/yaml/snakeyaml/1.30/snakeyaml-1.30.pom (37 kB at 61 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/io/github/baked-libs/dough-api/1.2.0/dough-api-1.2.0.pom
+[INFO] Downloading from paper-repo: https://papermc.io/repo/repository/maven-public/io/github/baked-libs/dough-api/1.2.0/dough-api-1.2.0.pom
+[INFO] Downloaded from paper-repo: https://papermc.io/repo/repository/maven-public/io/github/baked-libs/dough-api/1.2.0/dough-api-1.2.0.pom (17 kB at 40 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/io/github/baked-libs/dough/1.2.0/dough-1.2.0.pom
+[INFO] Downloading from paper-repo: https://papermc.io/repo/repository/maven-public/io/github/baked-libs/dough/1.2.0/dough-1.2.0.pom
+[INFO] Downloaded from paper-repo: https://papermc.io/repo/repository/maven-public/io/github/baked-libs/dough/1.2.0/dough-1.2.0.pom (11 kB at 26 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/io/papermc/paperlib/1.0.7/paperlib-1.0.7.pom
+[INFO] Downloading from paper-repo: https://papermc.io/repo/repository/maven-public/io/papermc/paperlib/1.0.7/paperlib-1.0.7.pom
+[INFO] Downloaded from paper-repo: https://papermc.io/repo/repository/maven-public/io/papermc/paperlib/1.0.7/paperlib-1.0.7.pom (1.3 kB at 3.1 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/konghq/unirest-java/3.13.11/unirest-java-3.13.11.pom
+[INFO] Downloading from paper-repo: https://papermc.io/repo/repository/maven-public/com/konghq/unirest-java/3.13.11/unirest-java-3.13.11.pom
+[INFO] Downloaded from paper-repo: https://papermc.io/repo/repository/maven-public/com/konghq/unirest-java/3.13.11/unirest-java-3.13.11.pom (4.2 kB at 9.9 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/konghq/unirest-java-parent/3.13.11/unirest-java-parent-3.13.11.pom
+[INFO] Downloading from paper-repo: https://papermc.io/repo/repository/maven-public/com/konghq/unirest-java-parent/3.13.11/unirest-java-parent-3.13.11.pom
+[INFO] Downloaded from paper-repo: https://papermc.io/repo/repository/maven-public/com/konghq/unirest-java-parent/3.13.11/unirest-java-parent-3.13.11.pom (19 kB at 46 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.pom
+[INFO] Downloading from paper-repo: https://papermc.io/repo/repository/maven-public/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.pom
+[INFO] Downloaded from paper-repo: https://papermc.io/repo/repository/maven-public/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.pom (6.6 kB at 16 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/apache/httpcomponents/httpcomponents-client/4.5.13/httpcomponents-client-4.5.13.pom
+[INFO] Downloading from paper-repo: https://papermc.io/repo/repository/maven-public/org/apache/httpcomponents/httpcomponents-client/4.5.13/httpcomponents-client-4.5.13.pom
+[INFO] Downloaded from paper-repo: https://papermc.io/repo/repository/maven-public/org/apache/httpcomponents/httpcomponents-client/4.5.13/httpcomponents-client-4.5.13.pom (16 kB at 39 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/apache/httpcomponents/httpcomponents-parent/11/httpcomponents-parent-11.pom
+[INFO] Downloading from paper-repo: https://papermc.io/repo/repository/maven-public/org/apache/httpcomponents/httpcomponents-parent/11/httpcomponents-parent-11.pom
+[INFO] Downloaded from paper-repo: https://papermc.io/repo/repository/maven-public/org/apache/httpcomponents/httpcomponents-parent/11/httpcomponents-parent-11.pom (35 kB at 84 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.pom
+[INFO] Downloading from paper-repo: https://papermc.io/repo/repository/maven-public/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.pom
+[INFO] Downloaded from paper-repo: https://papermc.io/repo/repository/maven-public/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.pom (5.0 kB at 12 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/apache/httpcomponents/httpcomponents-core/4.4.13/httpcomponents-core-4.4.13.pom
+[INFO] Downloading from paper-repo: https://papermc.io/repo/repository/maven-public/org/apache/httpcomponents/httpcomponents-core/4.4.13/httpcomponents-core-4.4.13.pom
+[INFO] Downloaded from paper-repo: https://papermc.io/repo/repository/maven-public/org/apache/httpcomponents/httpcomponents-core/4.4.13/httpcomponents-core-4.4.13.pom (13 kB at 32 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/commons-logging/commons-logging/1.2/commons-logging-1.2.pom
+[INFO] Downloading from paper-repo: https://papermc.io/repo/repository/maven-public/commons-logging/commons-logging/1.2/commons-logging-1.2.pom
+[INFO] Downloaded from paper-repo: https://papermc.io/repo/repository/maven-public/commons-logging/commons-logging/1.2/commons-logging-1.2.pom (19 kB at 46 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/apache/commons/commons-parent/34/commons-parent-34.pom
+[INFO] Downloading from paper-repo: https://papermc.io/repo/repository/maven-public/org/apache/commons/commons-parent/34/commons-parent-34.pom
+[INFO] Downloaded from paper-repo: https://papermc.io/repo/repository/maven-public/org/apache/commons/commons-parent/34/commons-parent-34.pom (56 kB at 135 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/apache/apache/13/apache-13.pom
+[INFO] Downloading from paper-repo: https://papermc.io/repo/repository/maven-public/org/apache/apache/13/apache-13.pom
+[INFO] Downloaded from paper-repo: https://papermc.io/repo/repository/maven-public/org/apache/apache/13/apache-13.pom (14 kB at 34 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/commons-codec/commons-codec/1.11/commons-codec-1.11.pom
+[INFO] Downloading from paper-repo: https://papermc.io/repo/repository/maven-public/commons-codec/commons-codec/1.11/commons-codec-1.11.pom
+[INFO] Downloaded from paper-repo: https://papermc.io/repo/repository/maven-public/commons-codec/commons-codec/1.11/commons-codec-1.11.pom (14 kB at 33 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/apache/commons/commons-parent/42/commons-parent-42.pom
+[INFO] Downloading from paper-repo: https://papermc.io/repo/repository/maven-public/org/apache/commons/commons-parent/42/commons-parent-42.pom
+[INFO] Downloaded from paper-repo: https://papermc.io/repo/repository/maven-public/org/apache/commons/commons-parent/42/commons-parent-42.pom (68 kB at 154 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/apache/apache/18/apache-18.pom
+[INFO] Downloading from paper-repo: https://papermc.io/repo/repository/maven-public/org/apache/apache/18/apache-18.pom
+[INFO] Downloaded from paper-repo: https://papermc.io/repo/repository/maven-public/org/apache/apache/18/apache-18.pom (16 kB at 38 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.pom
+[INFO] Downloading from paper-repo: https://papermc.io/repo/repository/maven-public/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.pom
+[INFO] Downloaded from paper-repo: https://papermc.io/repo/repository/maven-public/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.pom (5.2 kB at 13 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/apache/httpcomponents/httpcore-nio/4.4.13/httpcore-nio-4.4.13.pom
+[INFO] Downloading from paper-repo: https://papermc.io/repo/repository/maven-public/org/apache/httpcomponents/httpcore-nio/4.4.13/httpcore-nio-4.4.13.pom
+[INFO] Downloaded from paper-repo: https://papermc.io/repo/repository/maven-public/org/apache/httpcomponents/httpcore-nio/4.4.13/httpcore-nio-4.4.13.pom (5.5 kB at 13 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/apache/httpcomponents/httpasyncclient/4.1.5/httpasyncclient-4.1.5.pom
+[INFO] Downloading from paper-repo: https://papermc.io/repo/repository/maven-public/org/apache/httpcomponents/httpasyncclient/4.1.5/httpasyncclient-4.1.5.pom
+[INFO] Downloaded from paper-repo: https://papermc.io/repo/repository/maven-public/org/apache/httpcomponents/httpasyncclient/4.1.5/httpasyncclient-4.1.5.pom (5.9 kB at 13 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/apache/httpcomponents/httpcomponents-asyncclient/4.1.5/httpcomponents-asyncclient-4.1.5.pom
+[INFO] Downloading from paper-repo: https://papermc.io/repo/repository/maven-public/org/apache/httpcomponents/httpcomponents-asyncclient/4.1.5/httpcomponents-asyncclient-4.1.5.pom
+[INFO] Downloaded from paper-repo: https://papermc.io/repo/repository/maven-public/org/apache/httpcomponents/httpcomponents-asyncclient/4.1.5/httpcomponents-asyncclient-4.1.5.pom (10 kB at 23 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/commons-codec/commons-codec/1.15/commons-codec-1.15.pom
+[INFO] Downloading from paper-repo: https://papermc.io/repo/repository/maven-public/commons-codec/commons-codec/1.15/commons-codec-1.15.pom
+[INFO] Downloaded from paper-repo: https://papermc.io/repo/repository/maven-public/commons-codec/commons-codec/1.15/commons-codec-1.15.pom (15 kB at 34 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/apache/commons/commons-parent/52/commons-parent-52.pom
+[INFO] Downloading from paper-repo: https://papermc.io/repo/repository/maven-public/org/apache/commons/commons-parent/52/commons-parent-52.pom
+[INFO] Downloaded from paper-repo: https://papermc.io/repo/repository/maven-public/org/apache/commons/commons-parent/52/commons-parent-52.pom (79 kB at 191 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/junit/jupiter/junit-jupiter/5.9.1/junit-jupiter-5.9.1.pom
+[INFO] Downloading from paper-repo: https://papermc.io/repo/repository/maven-public/org/junit/jupiter/junit-jupiter/5.9.1/junit-jupiter-5.9.1.pom
+[INFO] Downloaded from paper-repo: https://papermc.io/repo/repository/maven-public/org/junit/jupiter/junit-jupiter/5.9.1/junit-jupiter-5.9.1.pom (3.2 kB at 7.7 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/junit/junit-bom/5.9.1/junit-bom-5.9.1.pom
+[INFO] Downloading from paper-repo: https://papermc.io/repo/repository/maven-public/org/junit/junit-bom/5.9.1/junit-bom-5.9.1.pom
+[INFO] Downloaded from paper-repo: https://papermc.io/repo/repository/maven-public/org/junit/junit-bom/5.9.1/junit-bom-5.9.1.pom (5.6 kB at 13 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/junit/jupiter/junit-jupiter-api/5.9.1/junit-jupiter-api-5.9.1.pom
+[INFO] Downloading from paper-repo: https://papermc.io/repo/repository/maven-public/org/junit/jupiter/junit-jupiter-api/5.9.1/junit-jupiter-api-5.9.1.pom
+[INFO] Downloaded from paper-repo: https://papermc.io/repo/repository/maven-public/org/junit/jupiter/junit-jupiter-api/5.9.1/junit-jupiter-api-5.9.1.pom (3.2 kB at 7.8 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.pom
+[INFO] Downloading from paper-repo: https://papermc.io/repo/repository/maven-public/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.pom
+[INFO] Downloaded from paper-repo: https://papermc.io/repo/repository/maven-public/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.pom (1.7 kB at 4.1 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/junit/platform/junit-platform-commons/1.9.1/junit-platform-commons-1.9.1.pom
+[INFO] Downloading from paper-repo: https://papermc.io/repo/repository/maven-public/org/junit/platform/junit-platform-commons/1.9.1/junit-platform-commons-1.9.1.pom
+[INFO] Downloaded from paper-repo: https://papermc.io/repo/repository/maven-public/org/junit/platform/junit-platform-commons/1.9.1/junit-platform-commons-1.9.1.pom (2.8 kB at 6.9 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.pom
+[INFO] Downloading from paper-repo: https://papermc.io/repo/repository/maven-public/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.pom
+[INFO] Downloaded from paper-repo: https://papermc.io/repo/repository/maven-public/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.pom (1.5 kB at 3.7 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/junit/jupiter/junit-jupiter-params/5.9.1/junit-jupiter-params-5.9.1.pom
+[INFO] Downloading from paper-repo: https://papermc.io/repo/repository/maven-public/org/junit/jupiter/junit-jupiter-params/5.9.1/junit-jupiter-params-5.9.1.pom
+[INFO] Downloaded from paper-repo: https://papermc.io/repo/repository/maven-public/org/junit/jupiter/junit-jupiter-params/5.9.1/junit-jupiter-params-5.9.1.pom (3.0 kB at 7.4 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/junit/jupiter/junit-jupiter-engine/5.9.1/junit-jupiter-engine-5.9.1.pom
+[INFO] Downloading from paper-repo: https://papermc.io/repo/repository/maven-public/org/junit/jupiter/junit-jupiter-engine/5.9.1/junit-jupiter-engine-5.9.1.pom
+[INFO] Downloaded from paper-repo: https://papermc.io/repo/repository/maven-public/org/junit/jupiter/junit-jupiter-engine/5.9.1/junit-jupiter-engine-5.9.1.pom (3.2 kB at 7.4 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/junit/platform/junit-platform-engine/1.9.1/junit-platform-engine-1.9.1.pom
+[INFO] Downloading from paper-repo: https://papermc.io/repo/repository/maven-public/org/junit/platform/junit-platform-engine/1.9.1/junit-platform-engine-1.9.1.pom
+[INFO] Downloaded from paper-repo: https://papermc.io/repo/repository/maven-public/org/junit/platform/junit-platform-engine/1.9.1/junit-platform-engine-1.9.1.pom (3.2 kB at 7.5 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/mockito/mockito-core/4.11.0/mockito-core-4.11.0.pom
+[INFO] Downloading from paper-repo: https://papermc.io/repo/repository/maven-public/org/mockito/mockito-core/4.11.0/mockito-core-4.11.0.pom
+[INFO] Downloaded from paper-repo: https://papermc.io/repo/repository/maven-public/org/mockito/mockito-core/4.11.0/mockito-core-4.11.0.pom (2.5 kB at 6.1 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/net/bytebuddy/byte-buddy/1.12.19/byte-buddy-1.12.19.pom
+[INFO] Downloading from paper-repo: https://papermc.io/repo/repository/maven-public/net/bytebuddy/byte-buddy/1.12.19/byte-buddy-1.12.19.pom
+[INFO] Downloaded from paper-repo: https://papermc.io/repo/repository/maven-public/net/bytebuddy/byte-buddy/1.12.19/byte-buddy-1.12.19.pom (16 kB at 38 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/net/bytebuddy/byte-buddy-parent/1.12.19/byte-buddy-parent-1.12.19.pom
+[INFO] Downloading from paper-repo: https://papermc.io/repo/repository/maven-public/net/bytebuddy/byte-buddy-parent/1.12.19/byte-buddy-parent-1.12.19.pom
+[INFO] Downloaded from paper-repo: https://papermc.io/repo/repository/maven-public/net/bytebuddy/byte-buddy-parent/1.12.19/byte-buddy-parent-1.12.19.pom (58 kB at 142 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/net/bytebuddy/byte-buddy-agent/1.12.19/byte-buddy-agent-1.12.19.pom
+[INFO] Downloading from paper-repo: https://papermc.io/repo/repository/maven-public/net/bytebuddy/byte-buddy-agent/1.12.19/byte-buddy-agent-1.12.19.pom
+[INFO] Downloaded from paper-repo: https://papermc.io/repo/repository/maven-public/net/bytebuddy/byte-buddy-agent/1.12.19/byte-buddy-agent-1.12.19.pom (10 kB at 26 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/objenesis/objenesis/3.3/objenesis-3.3.pom
+[INFO] Downloading from paper-repo: https://papermc.io/repo/repository/maven-public/org/objenesis/objenesis/3.3/objenesis-3.3.pom
+[INFO] Downloaded from paper-repo: https://papermc.io/repo/repository/maven-public/org/objenesis/objenesis/3.3/objenesis-3.3.pom (3.0 kB at 7.3 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/objenesis/objenesis-parent/3.3/objenesis-parent-3.3.pom
+[INFO] Downloading from paper-repo: https://papermc.io/repo/repository/maven-public/org/objenesis/objenesis-parent/3.3/objenesis-parent-3.3.pom
+[INFO] Downloaded from paper-repo: https://papermc.io/repo/repository/maven-public/org/objenesis/objenesis-parent/3.3/objenesis-parent-3.3.pom (19 kB at 44 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/github/seeseemelk/MockBukkit-v1.18/2.0.0/MockBukkit-v1.18-2.0.0.pom
+[INFO] Downloading from paper-repo: https://papermc.io/repo/repository/maven-public/com/github/seeseemelk/MockBukkit-v1.18/2.0.0/MockBukkit-v1.18-2.0.0.pom
+[INFO] Downloaded from paper-repo: https://papermc.io/repo/repository/maven-public/com/github/seeseemelk/MockBukkit-v1.18/2.0.0/MockBukkit-v1.18-2.0.0.pom (3.1 kB at 7.5 kB/s)
+[INFO] Downloading from paper-repo: https://papermc.io/repo/repository/maven-public/io/papermc/paper/paper-api/1.18.2-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from jitpack.io: https://jitpack.io/io/papermc/paper/paper-api/1.18.2-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/io/papermc/paper/paper-api/1.18.2-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from worldedit-repo: https://maven.enginehub.org/repo/io/papermc/paper/paper-api/1.18.2-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from placeholderapi-repo: https://repo.extendedclip.com/content/repositories/placeholderapi/io/papermc/paper/paper-api/1.18.2-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from mcmmo-repo: https://nexus.neetgames.com/repository/maven-public/io/papermc/paper/paper-api/1.18.2-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from walshy-public: https://repo.walshy.dev/public/io/papermc/paper/paper-api/1.18.2-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloaded from worldedit-repo: https://maven.enginehub.org/repo/io/papermc/paper/paper-api/1.18.2-R0.1-SNAPSHOT/maven-metadata.xml (1.4 kB at 6.6 kB/s)
+[INFO] Downloading from codemc-repo: https://repo.codemc.io/repository/maven-public/io/papermc/paper/paper-api/1.18.2-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloaded from paper-repo: https://papermc.io/repo/repository/maven-public/io/papermc/paper/paper-api/1.18.2-R0.1-SNAPSHOT/maven-metadata.xml (1.4 kB at 3.4 kB/s)
+[WARNING] Could not transfer metadata io.papermc.paper:paper-api:1.18.2-R0.1-SNAPSHOT/maven-metadata.xml from/to codemc-repo (https://repo.codemc.io/repository/maven-public/): transfer failed for https://repo.codemc.io/repository/maven-public/io/papermc/paper/paper-api/1.18.2-R0.1-SNAPSHOT/maven-metadata.xml
+[WARNING] io.papermc.paper:paper-api:1.18.2-R0.1-SNAPSHOT/maven-metadata.xmlfailed to transfer from https://repo.codemc.io/repository/maven-public/ during a previous attempt. This failure was cached in the local repository and resolution will not be reattempted until the update interval of codemc-repo has elapsed or updates are forced. Original error: Could not transfer metadata io.papermc.paper:paper-api:1.18.2-R0.1-SNAPSHOT/maven-metadata.xml from/to codemc-repo (https://repo.codemc.io/repository/maven-public/): transfer failed for https://repo.codemc.io/repository/maven-public/io/papermc/paper/paper-api/1.18.2-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/io/papermc/paper/paper-api/1.18.2-R0.1-SNAPSHOT/paper-api-1.18.2-R0.1-20220920.010157-167.pom
+[INFO] Downloading from paper-repo: https://papermc.io/repo/repository/maven-public/io/papermc/paper/paper-api/1.18.2-R0.1-SNAPSHOT/paper-api-1.18.2-R0.1-20220920.010157-167.pom
+[INFO] Downloaded from paper-repo: https://papermc.io/repo/repository/maven-public/io/papermc/paper/paper-api/1.18.2-R0.1-SNAPSHOT/paper-api-1.18.2-R0.1-20220920.010157-167.pom (4.4 kB at 8.9 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/net/kyori/adventure-bom/4.11.0/adventure-bom-4.11.0.pom
+[INFO] Downloading from paper-repo: https://papermc.io/repo/repository/maven-public/net/kyori/adventure-bom/4.11.0/adventure-bom-4.11.0.pom
+[INFO] Downloaded from paper-repo: https://papermc.io/repo/repository/maven-public/net/kyori/adventure-bom/4.11.0/adventure-bom-4.11.0.pom (4.6 kB at 11 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/commons-lang/commons-lang/2.6/commons-lang-2.6.pom
+[INFO] Downloading from paper-repo: https://papermc.io/repo/repository/maven-public/commons-lang/commons-lang/2.6/commons-lang-2.6.pom
+[INFO] Downloaded from paper-repo: https://papermc.io/repo/repository/maven-public/commons-lang/commons-lang/2.6/commons-lang-2.6.pom (17 kB at 29 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/apache/commons/commons-parent/17/commons-parent-17.pom
+[INFO] Downloading from paper-repo: https://papermc.io/repo/repository/maven-public/org/apache/commons/commons-parent/17/commons-parent-17.pom
+[INFO] Downloaded from paper-repo: https://papermc.io/repo/repository/maven-public/org/apache/commons/commons-parent/17/commons-parent-17.pom (31 kB at 51 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/apache/apache/7/apache-7.pom
+[INFO] Downloading from paper-repo: https://papermc.io/repo/repository/maven-public/org/apache/apache/7/apache-7.pom
+[INFO] Downloaded from paper-repo: https://papermc.io/repo/repository/maven-public/org/apache/apache/7/apache-7.pom (14 kB at 32 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/net/md-5/bungeecord-chat/1.16-R0.4-deprecated+build.6/bungeecord-chat-1.16-R0.4-deprecated+build.6.pom
+[INFO] Downloading from paper-repo: https://papermc.io/repo/repository/maven-public/net/md-5/bungeecord-chat/1.16-R0.4-deprecated+build.6/bungeecord-chat-1.16-R0.4-deprecated+build.6.pom
+[INFO] Downloaded from paper-repo: https://papermc.io/repo/repository/maven-public/net/md-5/bungeecord-chat/1.16-R0.4-deprecated+build.6/bungeecord-chat-1.16-R0.4-deprecated+build.6.pom (1.2 kB at 2.7 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/google/code/gson/gson/2.8.8/gson-2.8.8.pom
+[INFO] Downloading from paper-repo: https://papermc.io/repo/repository/maven-public/com/google/code/gson/gson/2.8.8/gson-2.8.8.pom
+[INFO] Downloaded from paper-repo: https://papermc.io/repo/repository/maven-public/com/google/code/gson/gson/2.8.8/gson-2.8.8.pom (6.0 kB at 15 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/google/code/gson/gson-parent/2.8.8/gson-parent-2.8.8.pom
+[INFO] Downloading from paper-repo: https://papermc.io/repo/repository/maven-public/com/google/code/gson/gson-parent/2.8.8/gson-parent-2.8.8.pom
+[INFO] Downloaded from paper-repo: https://papermc.io/repo/repository/maven-public/com/google/code/gson/gson-parent/2.8.8/gson-parent-2.8.8.pom (4.6 kB at 10 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.pom
+[INFO] Downloading from paper-repo: https://papermc.io/repo/repository/maven-public/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.pom
+[INFO] Downloaded from paper-repo: https://papermc.io/repo/repository/maven-public/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.pom (3.5 kB at 8.1 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/it/unimi/dsi/fastutil/8.5.6/fastutil-8.5.6.pom
+[INFO] Downloading from paper-repo: https://papermc.io/repo/repository/maven-public/it/unimi/dsi/fastutil/8.5.6/fastutil-8.5.6.pom
+[INFO] Downloaded from paper-repo: https://papermc.io/repo/repository/maven-public/it/unimi/dsi/fastutil/8.5.6/fastutil-8.5.6.pom (1.5 kB at 3.6 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/apache/logging/log4j/log4j-api/2.17.1/log4j-api-2.17.1.pom
+[INFO] Downloading from paper-repo: https://papermc.io/repo/repository/maven-public/org/apache/logging/log4j/log4j-api/2.17.1/log4j-api-2.17.1.pom
+[INFO] Downloaded from paper-repo: https://papermc.io/repo/repository/maven-public/org/apache/logging/log4j/log4j-api/2.17.1/log4j-api-2.17.1.pom (14 kB at 32 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/apache/logging/log4j/log4j/2.17.1/log4j-2.17.1.pom
+[INFO] Downloading from paper-repo: https://papermc.io/repo/repository/maven-public/org/apache/logging/log4j/log4j/2.17.1/log4j-2.17.1.pom
+[INFO] Downloaded from paper-repo: https://papermc.io/repo/repository/maven-public/org/apache/logging/log4j/log4j/2.17.1/log4j-2.17.1.pom (69 kB at 110 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/apache/logging/logging-parent/3/logging-parent-3.pom
+[INFO] Downloading from paper-repo: https://papermc.io/repo/repository/maven-public/org/apache/logging/logging-parent/3/logging-parent-3.pom
+[INFO] Downloaded from paper-repo: https://papermc.io/repo/repository/maven-public/org/apache/logging/logging-parent/3/logging-parent-3.pom (3.1 kB at 7.1 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/slf4j/slf4j-api/1.8.0-beta4/slf4j-api-1.8.0-beta4.pom
+[INFO] Downloading from paper-repo: https://papermc.io/repo/repository/maven-public/org/slf4j/slf4j-api/1.8.0-beta4/slf4j-api-1.8.0-beta4.pom
+[INFO] Downloaded from paper-repo: https://papermc.io/repo/repository/maven-public/org/slf4j/slf4j-api/1.8.0-beta4/slf4j-api-1.8.0-beta4.pom (1.7 kB at 1.6 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/slf4j/slf4j-parent/1.8.0-beta4/slf4j-parent-1.8.0-beta4.pom
+[INFO] Downloading from paper-repo: https://papermc.io/repo/repository/maven-public/org/slf4j/slf4j-parent/1.8.0-beta4/slf4j-parent-1.8.0-beta4.pom
+[INFO] Downloaded from paper-repo: https://papermc.io/repo/repository/maven-public/org/slf4j/slf4j-parent/1.8.0-beta4/slf4j-parent-1.8.0-beta4.pom (17 kB at 28 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/net/kyori/adventure-api/4.11.0/adventure-api-4.11.0.pom
+[INFO] Downloading from paper-repo: https://papermc.io/repo/repository/maven-public/net/kyori/adventure-api/4.11.0/adventure-api-4.11.0.pom
+[INFO] Downloaded from paper-repo: https://papermc.io/repo/repository/maven-public/net/kyori/adventure-api/4.11.0/adventure-api-4.11.0.pom (3.5 kB at 8.4 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/net/kyori/adventure-key/4.11.0/adventure-key-4.11.0.pom
+[INFO] Downloading from paper-repo: https://papermc.io/repo/repository/maven-public/net/kyori/adventure-key/4.11.0/adventure-key-4.11.0.pom
+[INFO] Downloaded from paper-repo: https://papermc.io/repo/repository/maven-public/net/kyori/adventure-key/4.11.0/adventure-key-4.11.0.pom (3.3 kB at 7.9 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/net/kyori/examination-api/1.3.0/examination-api-1.3.0.pom
+[INFO] Downloading from paper-repo: https://papermc.io/repo/repository/maven-public/net/kyori/examination-api/1.3.0/examination-api-1.3.0.pom
+[INFO] Downloaded from paper-repo: https://papermc.io/repo/repository/maven-public/net/kyori/examination-api/1.3.0/examination-api-1.3.0.pom (2.1 kB at 5.0 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/net/kyori/examination-string/1.3.0/examination-string-1.3.0.pom
+[INFO] Downloading from paper-repo: https://papermc.io/repo/repository/maven-public/net/kyori/examination-string/1.3.0/examination-string-1.3.0.pom
+[INFO] Downloaded from paper-repo: https://papermc.io/repo/repository/maven-public/net/kyori/examination-string/1.3.0/examination-string-1.3.0.pom (2.1 kB at 5.0 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/net/kyori/adventure-text-minimessage/4.11.0/adventure-text-minimessage-4.11.0.pom
+[INFO] Downloading from paper-repo: https://papermc.io/repo/repository/maven-public/net/kyori/adventure-text-minimessage/4.11.0/adventure-text-minimessage-4.11.0.pom
+[INFO] Downloaded from paper-repo: https://papermc.io/repo/repository/maven-public/net/kyori/adventure-text-minimessage/4.11.0/adventure-text-minimessage-4.11.0.pom (3.0 kB at 7.0 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/net/kyori/adventure-text-serializer-gson/4.11.0/adventure-text-serializer-gson-4.11.0.pom
+[INFO] Downloading from paper-repo: https://papermc.io/repo/repository/maven-public/net/kyori/adventure-text-serializer-gson/4.11.0/adventure-text-serializer-gson-4.11.0.pom
+[INFO] Downloaded from paper-repo: https://papermc.io/repo/repository/maven-public/net/kyori/adventure-text-serializer-gson/4.11.0/adventure-text-serializer-gson-4.11.0.pom (3.1 kB at 7.6 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/net/kyori/adventure-text-serializer-legacy/4.11.0/adventure-text-serializer-legacy-4.11.0.pom
+[INFO] Downloading from paper-repo: https://papermc.io/repo/repository/maven-public/net/kyori/adventure-text-serializer-legacy/4.11.0/adventure-text-serializer-legacy-4.11.0.pom
+[INFO] Downloaded from paper-repo: https://papermc.io/repo/repository/maven-public/net/kyori/adventure-text-serializer-legacy/4.11.0/adventure-text-serializer-legacy-4.11.0.pom (2.9 kB at 7.1 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/net/kyori/adventure-text-serializer-plain/4.11.0/adventure-text-serializer-plain-4.11.0.pom
+[INFO] Downloading from paper-repo: https://papermc.io/repo/repository/maven-public/net/kyori/adventure-text-serializer-plain/4.11.0/adventure-text-serializer-plain-4.11.0.pom
+[INFO] Downloaded from paper-repo: https://papermc.io/repo/repository/maven-public/net/kyori/adventure-text-serializer-plain/4.11.0/adventure-text-serializer-plain-4.11.0.pom (2.9 kB at 7.1 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/net/kyori/adventure-text-logger-slf4j/4.11.0/adventure-text-logger-slf4j-4.11.0.pom
+[INFO] Downloading from paper-repo: https://papermc.io/repo/repository/maven-public/net/kyori/adventure-text-logger-slf4j/4.11.0/adventure-text-logger-slf4j-4.11.0.pom
+[INFO] Downloaded from paper-repo: https://papermc.io/repo/repository/maven-public/net/kyori/adventure-text-logger-slf4j/4.11.0/adventure-text-logger-slf4j-4.11.0.pom (3.1 kB at 7.4 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.pom
+[INFO] Downloading from paper-repo: https://papermc.io/repo/repository/maven-public/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.pom
+[INFO] Downloaded from paper-repo: https://papermc.io/repo/repository/maven-public/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.pom (2.7 kB at 6.6 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/slf4j/slf4j-parent/1.7.36/slf4j-parent-1.7.36.pom
+[INFO] Downloading from paper-repo: https://papermc.io/repo/repository/maven-public/org/slf4j/slf4j-parent/1.7.36/slf4j-parent-1.7.36.pom
+[INFO] Downloaded from paper-repo: https://papermc.io/repo/repository/maven-public/org/slf4j/slf4j-parent/1.7.36/slf4j-parent-1.7.36.pom (14 kB at 34 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/checkerframework/checker-qual/3.21.0/checker-qual-3.21.0.pom
+[INFO] Downloading from paper-repo: https://papermc.io/repo/repository/maven-public/org/checkerframework/checker-qual/3.21.0/checker-qual-3.21.0.pom
+[INFO] Downloaded from paper-repo: https://papermc.io/repo/repository/maven-public/org/checkerframework/checker-qual/3.21.0/checker-qual-3.21.0.pom (2.1 kB at 5.1 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/ow2/asm/asm/9.2/asm-9.2.pom
+[INFO] Downloading from paper-repo: https://papermc.io/repo/repository/maven-public/org/ow2/asm/asm/9.2/asm-9.2.pom
+[INFO] Downloaded from paper-repo: https://papermc.io/repo/repository/maven-public/org/ow2/asm/asm/9.2/asm-9.2.pom (2.4 kB at 5.8 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/ow2/ow2/1.5/ow2-1.5.pom
+[INFO] Downloading from paper-repo: https://papermc.io/repo/repository/maven-public/org/ow2/ow2/1.5/ow2-1.5.pom
+[INFO] Downloaded from paper-repo: https://papermc.io/repo/repository/maven-public/org/ow2/ow2/1.5/ow2-1.5.pom (11 kB at 27 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/ow2/asm/asm-commons/9.2/asm-commons-9.2.pom
+[INFO] Downloading from paper-repo: https://papermc.io/repo/repository/maven-public/org/ow2/asm/asm-commons/9.2/asm-commons-9.2.pom
+[INFO] Downloaded from paper-repo: https://papermc.io/repo/repository/maven-public/org/ow2/asm/asm-commons/9.2/asm-commons-9.2.pom (3.0 kB at 7.2 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/ow2/asm/asm-tree/9.2/asm-tree-9.2.pom
+[INFO] Downloading from paper-repo: https://papermc.io/repo/repository/maven-public/org/ow2/asm/asm-tree/9.2/asm-tree-9.2.pom
+[INFO] Downloaded from paper-repo: https://papermc.io/repo/repository/maven-public/org/ow2/asm/asm-tree/9.2/asm-tree-9.2.pom (2.6 kB at 6.3 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/ow2/asm/asm-analysis/9.2/asm-analysis-9.2.pom
+[INFO] Downloading from paper-repo: https://papermc.io/repo/repository/maven-public/org/ow2/asm/asm-analysis/9.2/asm-analysis-9.2.pom
+[INFO] Downloaded from paper-repo: https://papermc.io/repo/repository/maven-public/org/ow2/asm/asm-analysis/9.2/asm-analysis-9.2.pom (2.6 kB at 6.4 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/junit/jupiter/junit-jupiter/5.8.2/junit-jupiter-5.8.2.pom
+[INFO] Downloading from paper-repo: https://papermc.io/repo/repository/maven-public/org/junit/jupiter/junit-jupiter/5.8.2/junit-jupiter-5.8.2.pom
+[INFO] Downloaded from paper-repo: https://papermc.io/repo/repository/maven-public/org/junit/jupiter/junit-jupiter/5.8.2/junit-jupiter-5.8.2.pom (3.2 kB at 7.8 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/junit/junit-bom/5.8.2/junit-bom-5.8.2.pom
+[INFO] Downloading from paper-repo: https://papermc.io/repo/repository/maven-public/org/junit/junit-bom/5.8.2/junit-bom-5.8.2.pom
+[INFO] Downloaded from paper-repo: https://papermc.io/repo/repository/maven-public/org/junit/junit-bom/5.8.2/junit-bom-5.8.2.pom (5.6 kB at 14 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/junit/jupiter/junit-jupiter-api/5.8.2/junit-jupiter-api-5.8.2.pom
+[INFO] Downloading from paper-repo: https://papermc.io/repo/repository/maven-public/org/junit/jupiter/junit-jupiter-api/5.8.2/junit-jupiter-api-5.8.2.pom
+[INFO] Downloaded from paper-repo: https://papermc.io/repo/repository/maven-public/org/junit/jupiter/junit-jupiter-api/5.8.2/junit-jupiter-api-5.8.2.pom (3.2 kB at 7.7 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/junit/platform/junit-platform-commons/1.8.2/junit-platform-commons-1.8.2.pom
+[INFO] Downloading from paper-repo: https://papermc.io/repo/repository/maven-public/org/junit/platform/junit-platform-commons/1.8.2/junit-platform-commons-1.8.2.pom
+[INFO] Downloaded from paper-repo: https://papermc.io/repo/repository/maven-public/org/junit/platform/junit-platform-commons/1.8.2/junit-platform-commons-1.8.2.pom (2.8 kB at 6.9 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/junit/jupiter/junit-jupiter-params/5.8.2/junit-jupiter-params-5.8.2.pom
+[INFO] Downloading from paper-repo: https://papermc.io/repo/repository/maven-public/org/junit/jupiter/junit-jupiter-params/5.8.2/junit-jupiter-params-5.8.2.pom
+[INFO] Downloaded from paper-repo: https://papermc.io/repo/repository/maven-public/org/junit/jupiter/junit-jupiter-params/5.8.2/junit-jupiter-params-5.8.2.pom (3.0 kB at 7.3 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/junit/jupiter/junit-jupiter-engine/5.8.2/junit-jupiter-engine-5.8.2.pom
+[INFO] Downloading from paper-repo: https://papermc.io/repo/repository/maven-public/org/junit/jupiter/junit-jupiter-engine/5.8.2/junit-jupiter-engine-5.8.2.pom
+[INFO] Downloaded from paper-repo: https://papermc.io/repo/repository/maven-public/org/junit/jupiter/junit-jupiter-engine/5.8.2/junit-jupiter-engine-5.8.2.pom (3.2 kB at 7.7 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/junit/platform/junit-platform-engine/1.8.2/junit-platform-engine-1.8.2.pom
+[INFO] Downloading from paper-repo: https://papermc.io/repo/repository/maven-public/org/junit/platform/junit-platform-engine/1.8.2/junit-platform-engine-1.8.2.pom
+[INFO] Downloaded from paper-repo: https://papermc.io/repo/repository/maven-public/org/junit/platform/junit-platform-engine/1.8.2/junit-platform-engine-1.8.2.pom (3.2 kB at 7.8 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/hamcrest/hamcrest-library/2.2/hamcrest-library-2.2.pom
+[INFO] Downloading from paper-repo: https://papermc.io/repo/repository/maven-public/org/hamcrest/hamcrest-library/2.2/hamcrest-library-2.2.pom
+[INFO] Downloaded from paper-repo: https://papermc.io/repo/repository/maven-public/org/hamcrest/hamcrest-library/2.2/hamcrest-library-2.2.pom (1.4 kB at 3.4 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/hamcrest/hamcrest-core/2.2/hamcrest-core-2.2.pom
+[INFO] Downloading from paper-repo: https://papermc.io/repo/repository/maven-public/org/hamcrest/hamcrest-core/2.2/hamcrest-core-2.2.pom
+[INFO] Downloaded from paper-repo: https://papermc.io/repo/repository/maven-public/org/hamcrest/hamcrest-core/2.2/hamcrest-core-2.2.pom (1.4 kB at 3.3 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/hamcrest/hamcrest/2.2/hamcrest-2.2.pom
+[INFO] Downloading from paper-repo: https://papermc.io/repo/repository/maven-public/org/hamcrest/hamcrest/2.2/hamcrest-2.2.pom
+[INFO] Downloaded from paper-repo: https://papermc.io/repo/repository/maven-public/org/hamcrest/hamcrest/2.2/hamcrest-2.2.pom (1.1 kB at 2.8 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/commons-io/commons-io/2.11.0/commons-io-2.11.0.pom
+[INFO] Downloading from paper-repo: https://papermc.io/repo/repository/maven-public/commons-io/commons-io/2.11.0/commons-io-2.11.0.pom
+[INFO] Downloaded from paper-repo: https://papermc.io/repo/repository/maven-public/commons-io/commons-io/2.11.0/commons-io-2.11.0.pom (20 kB at 47 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/junit/junit-bom/5.7.2/junit-bom-5.7.2.pom
+[INFO] Downloading from paper-repo: https://papermc.io/repo/repository/maven-public/org/junit/junit-bom/5.7.2/junit-bom-5.7.2.pom
+[INFO] Downloaded from paper-repo: https://papermc.io/repo/repository/maven-public/org/junit/junit-bom/5.7.2/junit-bom-5.7.2.pom (5.1 kB at 12 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/apache/maven/maven-resolver-provider/3.8.5/maven-resolver-provider-3.8.5.pom
+[INFO] Downloading from paper-repo: https://papermc.io/repo/repository/maven-public/org/apache/maven/maven-resolver-provider/3.8.5/maven-resolver-provider-3.8.5.pom
+[INFO] Downloaded from paper-repo: https://papermc.io/repo/repository/maven-public/org/apache/maven/maven-resolver-provider/3.8.5/maven-resolver-provider-3.8.5.pom (4.2 kB at 10 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/apache/maven/maven/3.8.5/maven-3.8.5.pom
+[INFO] Downloading from paper-repo: https://papermc.io/repo/repository/maven-public/org/apache/maven/maven/3.8.5/maven-3.8.5.pom
+[INFO] Downloaded from paper-repo: https://papermc.io/repo/repository/maven-public/org/apache/maven/maven/3.8.5/maven-3.8.5.pom (27 kB at 66 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/apache/maven/maven-parent/35/maven-parent-35.pom
+[INFO] Downloading from paper-repo: https://papermc.io/repo/repository/maven-public/org/apache/maven/maven-parent/35/maven-parent-35.pom
+[INFO] Downloaded from paper-repo: https://papermc.io/repo/repository/maven-public/org/apache/maven/maven-parent/35/maven-parent-35.pom (45 kB at 110 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/apache/apache/25/apache-25.pom
+[INFO] Downloading from paper-repo: https://papermc.io/repo/repository/maven-public/org/apache/apache/25/apache-25.pom
+[INFO] Downloaded from paper-repo: https://papermc.io/repo/repository/maven-public/org/apache/apache/25/apache-25.pom (21 kB at 50 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/apache/maven/maven-model/3.8.5/maven-model-3.8.5.pom
+[INFO] Downloading from paper-repo: https://papermc.io/repo/repository/maven-public/org/apache/maven/maven-model/3.8.5/maven-model-3.8.5.pom
+[INFO] Downloaded from paper-repo: https://papermc.io/repo/repository/maven-public/org/apache/maven/maven-model/3.8.5/maven-model-3.8.5.pom (2.8 kB at 6.8 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/codehaus/plexus/plexus-utils/3.3.0/plexus-utils-3.3.0.pom
+[INFO] Downloading from paper-repo: https://papermc.io/repo/repository/maven-public/org/codehaus/plexus/plexus-utils/3.3.0/plexus-utils-3.3.0.pom
+[INFO] Downloaded from paper-repo: https://papermc.io/repo/repository/maven-public/org/codehaus/plexus/plexus-utils/3.3.0/plexus-utils-3.3.0.pom (5.2 kB at 13 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/codehaus/plexus/plexus/5.1/plexus-5.1.pom
+[INFO] Downloading from paper-repo: https://papermc.io/repo/repository/maven-public/org/codehaus/plexus/plexus/5.1/plexus-5.1.pom
+[INFO] Downloaded from paper-repo: https://papermc.io/repo/repository/maven-public/org/codehaus/plexus/plexus/5.1/plexus-5.1.pom (23 kB at 54 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/apache/maven/maven-model-builder/3.8.5/maven-model-builder-3.8.5.pom
+[INFO] Downloading from paper-repo: https://papermc.io/repo/repository/maven-public/org/apache/maven/maven-model-builder/3.8.5/maven-model-builder-3.8.5.pom
+[INFO] Downloaded from paper-repo: https://papermc.io/repo/repository/maven-public/org/apache/maven/maven-model-builder/3.8.5/maven-model-builder-3.8.5.pom (3.4 kB at 8.2 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/codehaus/plexus/plexus-interpolation/1.26/plexus-interpolation-1.26.pom
+[INFO] Downloading from paper-repo: https://papermc.io/repo/repository/maven-public/org/codehaus/plexus/plexus-interpolation/1.26/plexus-interpolation-1.26.pom
+[INFO] Downloaded from paper-repo: https://papermc.io/repo/repository/maven-public/org/codehaus/plexus/plexus-interpolation/1.26/plexus-interpolation-1.26.pom (2.7 kB at 6.5 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/javax/inject/javax.inject/1/javax.inject-1.pom
+[INFO] Downloading from paper-repo: https://papermc.io/repo/repository/maven-public/javax/inject/javax.inject/1/javax.inject-1.pom
+[INFO] Downloaded from paper-repo: https://papermc.io/repo/repository/maven-public/javax/inject/javax.inject/1/javax.inject-1.pom (612 B at 1.5 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/apache/maven/maven-artifact/3.8.5/maven-artifact-3.8.5.pom
+[INFO] Downloading from paper-repo: https://papermc.io/repo/repository/maven-public/org/apache/maven/maven-artifact/3.8.5/maven-artifact-3.8.5.pom
+[INFO] Downloaded from paper-repo: https://papermc.io/repo/repository/maven-public/org/apache/maven/maven-artifact/3.8.5/maven-artifact-3.8.5.pom (2.4 kB at 5.9 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/apache/commons/commons-lang3/3.8.1/commons-lang3-3.8.1.pom
+[INFO] Downloading from paper-repo: https://papermc.io/repo/repository/maven-public/org/apache/commons/commons-lang3/3.8.1/commons-lang3-3.8.1.pom
+[INFO] Downloaded from paper-repo: https://papermc.io/repo/repository/maven-public/org/apache/commons/commons-lang3/3.8.1/commons-lang3-3.8.1.pom (28 kB at 69 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/apache/commons/commons-parent/47/commons-parent-47.pom
+[INFO] Downloading from paper-repo: https://papermc.io/repo/repository/maven-public/org/apache/commons/commons-parent/47/commons-parent-47.pom
+[INFO] Downloaded from paper-repo: https://papermc.io/repo/repository/maven-public/org/apache/commons/commons-parent/47/commons-parent-47.pom (78 kB at 188 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/apache/apache/19/apache-19.pom
+[INFO] Downloading from paper-repo: https://papermc.io/repo/repository/maven-public/org/apache/apache/19/apache-19.pom
+[INFO] Downloaded from paper-repo: https://papermc.io/repo/repository/maven-public/org/apache/apache/19/apache-19.pom (15 kB at 37 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/apache/maven/maven-builder-support/3.8.5/maven-builder-support-3.8.5.pom
+[INFO] Downloading from paper-repo: https://papermc.io/repo/repository/maven-public/org/apache/maven/maven-builder-support/3.8.5/maven-builder-support-3.8.5.pom
+[INFO] Downloaded from paper-repo: https://papermc.io/repo/repository/maven-public/org/apache/maven/maven-builder-support/3.8.5/maven-builder-support-3.8.5.pom (1.4 kB at 3.5 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/eclipse/sisu/org.eclipse.sisu.inject/0.3.5/org.eclipse.sisu.inject-0.3.5.pom
+[INFO] Downloading from paper-repo: https://papermc.io/repo/repository/maven-public/org/eclipse/sisu/org.eclipse.sisu.inject/0.3.5/org.eclipse.sisu.inject-0.3.5.pom
+[INFO] Downloaded from paper-repo: https://papermc.io/repo/repository/maven-public/org/eclipse/sisu/org.eclipse.sisu.inject/0.3.5/org.eclipse.sisu.inject-0.3.5.pom (2.6 kB at 6.4 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/eclipse/sisu/sisu-inject/0.3.5/sisu-inject-0.3.5.pom
+[INFO] Downloading from paper-repo: https://papermc.io/repo/repository/maven-public/org/eclipse/sisu/sisu-inject/0.3.5/sisu-inject-0.3.5.pom
+[INFO] Downloaded from paper-repo: https://papermc.io/repo/repository/maven-public/org/eclipse/sisu/sisu-inject/0.3.5/sisu-inject-0.3.5.pom (14 kB at 34 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/apache/maven/maven-repository-metadata/3.8.5/maven-repository-metadata-3.8.5.pom
+[INFO] Downloading from paper-repo: https://papermc.io/repo/repository/maven-public/org/apache/maven/maven-repository-metadata/3.8.5/maven-repository-metadata-3.8.5.pom
+[INFO] Downloaded from paper-repo: https://papermc.io/repo/repository/maven-public/org/apache/maven/maven-repository-metadata/3.8.5/maven-repository-metadata-3.8.5.pom (2.1 kB at 5.2 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/apache/maven/resolver/maven-resolver-api/1.6.3/maven-resolver-api-1.6.3.pom
+[INFO] Downloading from paper-repo: https://papermc.io/repo/repository/maven-public/org/apache/maven/resolver/maven-resolver-api/1.6.3/maven-resolver-api-1.6.3.pom
+[INFO] Downloaded from paper-repo: https://papermc.io/repo/repository/maven-public/org/apache/maven/resolver/maven-resolver-api/1.6.3/maven-resolver-api-1.6.3.pom (2.6 kB at 6.4 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/apache/maven/resolver/maven-resolver/1.6.3/maven-resolver-1.6.3.pom
+[INFO] Downloading from paper-repo: https://papermc.io/repo/repository/maven-public/org/apache/maven/resolver/maven-resolver/1.6.3/maven-resolver-1.6.3.pom
+[INFO] Downloaded from paper-repo: https://papermc.io/repo/repository/maven-public/org/apache/maven/resolver/maven-resolver/1.6.3/maven-resolver-1.6.3.pom (19 kB at 46 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/apache/maven/resolver/maven-resolver-spi/1.6.3/maven-resolver-spi-1.6.3.pom
+[INFO] Downloading from paper-repo: https://papermc.io/repo/repository/maven-public/org/apache/maven/resolver/maven-resolver-spi/1.6.3/maven-resolver-spi-1.6.3.pom
+[INFO] Downloaded from paper-repo: https://papermc.io/repo/repository/maven-public/org/apache/maven/resolver/maven-resolver-spi/1.6.3/maven-resolver-spi-1.6.3.pom (2.7 kB at 6.5 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/apache/maven/resolver/maven-resolver-util/1.6.3/maven-resolver-util-1.6.3.pom
+[INFO] Downloading from paper-repo: https://papermc.io/repo/repository/maven-public/org/apache/maven/resolver/maven-resolver-util/1.6.3/maven-resolver-util-1.6.3.pom
+[INFO] Downloaded from paper-repo: https://papermc.io/repo/repository/maven-public/org/apache/maven/resolver/maven-resolver-util/1.6.3/maven-resolver-util-1.6.3.pom (2.8 kB at 6.8 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/apache/maven/resolver/maven-resolver-impl/1.6.3/maven-resolver-impl-1.6.3.pom
+[INFO] Downloading from paper-repo: https://papermc.io/repo/repository/maven-public/org/apache/maven/resolver/maven-resolver-impl/1.6.3/maven-resolver-impl-1.6.3.pom
+[INFO] Downloaded from paper-repo: https://papermc.io/repo/repository/maven-public/org/apache/maven/resolver/maven-resolver-impl/1.6.3/maven-resolver-impl-1.6.3.pom (4.2 kB at 10 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.pom
+[INFO] Downloading from paper-repo: https://papermc.io/repo/repository/maven-public/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.pom
+[INFO] Downloaded from paper-repo: https://papermc.io/repo/repository/maven-public/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.pom (3.8 kB at 9.2 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/slf4j/slf4j-parent/1.7.30/slf4j-parent-1.7.30.pom
+[INFO] Downloading from paper-repo: https://papermc.io/repo/repository/maven-public/org/slf4j/slf4j-parent/1.7.30/slf4j-parent-1.7.30.pom
+[INFO] Downloaded from paper-repo: https://papermc.io/repo/repository/maven-public/org/slf4j/slf4j-parent/1.7.30/slf4j-parent-1.7.30.pom (14 kB at 34 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/apache/maven/resolver/maven-resolver-connector-basic/1.8.0/maven-resolver-connector-basic-1.8.0.pom
+[INFO] Downloading from paper-repo: https://papermc.io/repo/repository/maven-public/org/apache/maven/resolver/maven-resolver-connector-basic/1.8.0/maven-resolver-connector-basic-1.8.0.pom
+[INFO] Downloaded from paper-repo: https://papermc.io/repo/repository/maven-public/org/apache/maven/resolver/maven-resolver-connector-basic/1.8.0/maven-resolver-connector-basic-1.8.0.pom (4.2 kB at 10 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/apache/maven/resolver/maven-resolver/1.8.0/maven-resolver-1.8.0.pom
+[INFO] Downloading from paper-repo: https://papermc.io/repo/repository/maven-public/org/apache/maven/resolver/maven-resolver/1.8.0/maven-resolver-1.8.0.pom
+[INFO] Downloaded from paper-repo: https://papermc.io/repo/repository/maven-public/org/apache/maven/resolver/maven-resolver/1.8.0/maven-resolver-1.8.0.pom (21 kB at 50 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/apache/maven/resolver/maven-resolver-api/1.8.0/maven-resolver-api-1.8.0.pom
+[INFO] Downloading from paper-repo: https://papermc.io/repo/repository/maven-public/org/apache/maven/resolver/maven-resolver-api/1.8.0/maven-resolver-api-1.8.0.pom
+[INFO] Downloaded from paper-repo: https://papermc.io/repo/repository/maven-public/org/apache/maven/resolver/maven-resolver-api/1.8.0/maven-resolver-api-1.8.0.pom (2.6 kB at 6.3 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/apache/maven/resolver/maven-resolver-spi/1.8.0/maven-resolver-spi-1.8.0.pom
+[INFO] Downloading from paper-repo: https://papermc.io/repo/repository/maven-public/org/apache/maven/resolver/maven-resolver-spi/1.8.0/maven-resolver-spi-1.8.0.pom
+[INFO] Downloaded from paper-repo: https://papermc.io/repo/repository/maven-public/org/apache/maven/resolver/maven-resolver-spi/1.8.0/maven-resolver-spi-1.8.0.pom (2.7 kB at 6.5 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/apache/maven/resolver/maven-resolver-util/1.8.0/maven-resolver-util-1.8.0.pom
+[INFO] Downloading from paper-repo: https://papermc.io/repo/repository/maven-public/org/apache/maven/resolver/maven-resolver-util/1.8.0/maven-resolver-util-1.8.0.pom
+[INFO] Downloaded from paper-repo: https://papermc.io/repo/repository/maven-public/org/apache/maven/resolver/maven-resolver-util/1.8.0/maven-resolver-util-1.8.0.pom (2.8 kB at 6.7 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/apache/maven/resolver/maven-resolver-transport-http/1.8.0/maven-resolver-transport-http-1.8.0.pom
+[INFO] Downloading from paper-repo: https://papermc.io/repo/repository/maven-public/org/apache/maven/resolver/maven-resolver-transport-http/1.8.0/maven-resolver-transport-http-1.8.0.pom
+[INFO] Downloaded from paper-repo: https://papermc.io/repo/repository/maven-public/org/apache/maven/resolver/maven-resolver-transport-http/1.8.0/maven-resolver-transport-http-1.8.0.pom (5.8 kB at 14 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/apache/httpcomponents/httpcore/4.4.15/httpcore-4.4.15.pom
+[INFO] Downloading from paper-repo: https://papermc.io/repo/repository/maven-public/org/apache/httpcomponents/httpcore/4.4.15/httpcore-4.4.15.pom
+[INFO] Downloaded from paper-repo: https://papermc.io/repo/repository/maven-public/org/apache/httpcomponents/httpcore/4.4.15/httpcore-4.4.15.pom (5.0 kB at 12 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/apache/httpcomponents/httpcomponents-core/4.4.15/httpcomponents-core-4.4.15.pom
+[INFO] Downloading from paper-repo: https://papermc.io/repo/repository/maven-public/org/apache/httpcomponents/httpcomponents-core/4.4.15/httpcomponents-core-4.4.15.pom
+[INFO] Downloaded from paper-repo: https://papermc.io/repo/repository/maven-public/org/apache/httpcomponents/httpcomponents-core/4.4.15/httpcomponents-core-4.4.15.pom (13 kB at 30 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/slf4j/jcl-over-slf4j/1.7.36/jcl-over-slf4j-1.7.36.pom
+[INFO] Downloading from paper-repo: https://papermc.io/repo/repository/maven-public/org/slf4j/jcl-over-slf4j/1.7.36/jcl-over-slf4j-1.7.36.pom
+[INFO] Downloaded from paper-repo: https://papermc.io/repo/repository/maven-public/org/slf4j/jcl-over-slf4j/1.7.36/jcl-over-slf4j-1.7.36.pom (1.2 kB at 2.8 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/sk89q/worldedit/worldedit-core/7.2.12/worldedit-core-7.2.12.pom
+[INFO] Downloading from paper-repo: https://papermc.io/repo/repository/maven-public/com/sk89q/worldedit/worldedit-core/7.2.12/worldedit-core-7.2.12.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/sk89q/worldedit/worldedit-core/7.2.12/worldedit-core-7.2.12.pom
+[INFO] Downloading from worldedit-repo: https://maven.enginehub.org/repo/com/sk89q/worldedit/worldedit-core/7.2.12/worldedit-core-7.2.12.pom
+[INFO] Downloaded from worldedit-repo: https://maven.enginehub.org/repo/com/sk89q/worldedit/worldedit-core/7.2.12/worldedit-core-7.2.12.pom (3.3 kB at 7.3 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/sk89q/worldedit/worldedit-bukkit/7.2.12/worldedit-bukkit-7.2.12.pom
+[INFO] Downloading from paper-repo: https://papermc.io/repo/repository/maven-public/com/sk89q/worldedit/worldedit-bukkit/7.2.12/worldedit-bukkit-7.2.12.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/sk89q/worldedit/worldedit-bukkit/7.2.12/worldedit-bukkit-7.2.12.pom
+[INFO] Downloading from worldedit-repo: https://maven.enginehub.org/repo/com/sk89q/worldedit/worldedit-bukkit/7.2.12/worldedit-bukkit-7.2.12.pom
+[INFO] Downloaded from worldedit-repo: https://maven.enginehub.org/repo/com/sk89q/worldedit/worldedit-bukkit/7.2.12/worldedit-bukkit-7.2.12.pom (2.3 kB at 9.8 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/gmail/nossr50/mcMMO/mcMMO/2.1.217/mcMMO-2.1.217.pom
+[INFO] Downloading from paper-repo: https://papermc.io/repo/repository/maven-public/com/gmail/nossr50/mcMMO/mcMMO/2.1.217/mcMMO-2.1.217.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/gmail/nossr50/mcMMO/mcMMO/2.1.217/mcMMO-2.1.217.pom
+[INFO] Downloading from worldedit-repo: https://maven.enginehub.org/repo/com/gmail/nossr50/mcMMO/mcMMO/2.1.217/mcMMO-2.1.217.pom
+[INFO] Downloading from placeholderapi-repo: https://repo.extendedclip.com/content/repositories/placeholderapi/com/gmail/nossr50/mcMMO/mcMMO/2.1.217/mcMMO-2.1.217.pom
+[INFO] Downloading from mcmmo-repo: https://nexus.neetgames.com/repository/maven-public/com/gmail/nossr50/mcMMO/mcMMO/2.1.217/mcMMO-2.1.217.pom
+[INFO] Downloaded from mcmmo-repo: https://nexus.neetgames.com/repository/maven-public/com/gmail/nossr50/mcMMO/mcMMO/2.1.217/mcMMO-2.1.217.pom (12 kB at 76 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/me/clip/placeholderapi/2.11.2/placeholderapi-2.11.2.pom
+[INFO] Downloading from paper-repo: https://papermc.io/repo/repository/maven-public/me/clip/placeholderapi/2.11.2/placeholderapi-2.11.2.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/me/clip/placeholderapi/2.11.2/placeholderapi-2.11.2.pom
+[INFO] Downloading from worldedit-repo: https://maven.enginehub.org/repo/me/clip/placeholderapi/2.11.2/placeholderapi-2.11.2.pom
+[INFO] Downloading from placeholderapi-repo: https://repo.extendedclip.com/content/repositories/placeholderapi/me/clip/placeholderapi/2.11.2/placeholderapi-2.11.2.pom
+[INFO] Downloaded from placeholderapi-repo: https://repo.extendedclip.com/content/repositories/placeholderapi/me/clip/placeholderapi/2.11.2/placeholderapi-2.11.2.pom (962 B at 5.2 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/me/minebuilders/clearlag-core/3.1.6/clearlag-core-3.1.6.pom
+[INFO] Downloading from paper-repo: https://papermc.io/repo/repository/maven-public/me/minebuilders/clearlag-core/3.1.6/clearlag-core-3.1.6.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/me/minebuilders/clearlag-core/3.1.6/clearlag-core-3.1.6.pom
+[INFO] Downloading from worldedit-repo: https://maven.enginehub.org/repo/me/minebuilders/clearlag-core/3.1.6/clearlag-core-3.1.6.pom
+[INFO] Downloading from placeholderapi-repo: https://repo.extendedclip.com/content/repositories/placeholderapi/me/minebuilders/clearlag-core/3.1.6/clearlag-core-3.1.6.pom
+[INFO] Downloading from mcmmo-repo: https://nexus.neetgames.com/repository/maven-public/me/minebuilders/clearlag-core/3.1.6/clearlag-core-3.1.6.pom
+[INFO] Downloading from walshy-public: https://repo.walshy.dev/public/me/minebuilders/clearlag-core/3.1.6/clearlag-core-3.1.6.pom
+[INFO] Downloaded from walshy-public: https://repo.walshy.dev/public/me/minebuilders/clearlag-core/3.1.6/clearlag-core-3.1.6.pom (401 B at 561 B/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/github/LoneDev6/itemsadder-api/3.2.5/itemsadder-api-3.2.5.pom
+[INFO] Downloading from paper-repo: https://papermc.io/repo/repository/maven-public/com/github/LoneDev6/itemsadder-api/3.2.5/itemsadder-api-3.2.5.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/github/LoneDev6/itemsadder-api/3.2.5/itemsadder-api-3.2.5.pom
+[INFO] Downloaded from jitpack.io: https://jitpack.io/com/github/LoneDev6/itemsadder-api/3.2.5/itemsadder-api-3.2.5.pom (2.4 kB at 9.6 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/net/imprex/orebfuscator-api/5.3.0/orebfuscator-api-5.3.0.pom
+[INFO] Downloading from paper-repo: https://papermc.io/repo/repository/maven-public/net/imprex/orebfuscator-api/5.3.0/orebfuscator-api-5.3.0.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/net/imprex/orebfuscator-api/5.3.0/orebfuscator-api-5.3.0.pom
+[INFO] Downloading from worldedit-repo: https://maven.enginehub.org/repo/net/imprex/orebfuscator-api/5.3.0/orebfuscator-api-5.3.0.pom
+[INFO] Downloading from placeholderapi-repo: https://repo.extendedclip.com/content/repositories/placeholderapi/net/imprex/orebfuscator-api/5.3.0/orebfuscator-api-5.3.0.pom
+[INFO] Downloading from mcmmo-repo: https://nexus.neetgames.com/repository/maven-public/net/imprex/orebfuscator-api/5.3.0/orebfuscator-api-5.3.0.pom
+[INFO] Downloading from walshy-public: https://repo.walshy.dev/public/net/imprex/orebfuscator-api/5.3.0/orebfuscator-api-5.3.0.pom
+[INFO] Downloading from codemc-repo: https://repo.codemc.io/repository/maven-public/net/imprex/orebfuscator-api/5.3.0/orebfuscator-api-5.3.0.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/net/imprex/orebfuscator-api/5.3.0/orebfuscator-api-5.3.0.pom
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Skipping Slimefun
+[INFO] This project has been banned from the build due to previous failures.
+[INFO] ------------------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  07:54 min
+[INFO] Finished at: 2023-01-05T00:55:44Z
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal on project Slimefun: Could not resolve dependencies for project com.github.slimefun:Slimefun:jar:DEV - 1036 (git 83e8eff6): Failed to collect dependencies at net.imprex:orebfuscator-api:jar:5.3.0: Failed to read artifact descriptor for net.imprex:orebfuscator-api:jar:5.3.0: Could not transfer artifact net.imprex:orebfuscator-api:pom:5.3.0 from/to codemc-repo (https://repo.codemc.io/repository/maven-public/): transfer failed for https://repo.codemc.io/repository/maven-public/net/imprex/orebfuscator-api/5.3.0/orebfuscator-api-5.3.0.pom: Connect to repo.codemc.io:443 [repo.codemc.io/45.141.57.117] failed: Connection timed out -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/DependencyResolutionException
