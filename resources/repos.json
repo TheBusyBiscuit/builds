@@ -1703,7 +1703,6 @@
             }
         }
     },
-
     "CAPS123987/SmallSpace:master": {
         "sonar": {
             "enabled": false
@@ -1720,5 +1719,4 @@
             },
         }
     }
-}
 }
