@@ -1708,7 +1708,9 @@
             "enabled": false
         },
         "options": {
-            "prefix": "DEV"
+            "prefix": "DEV",
+            "abandoned": false,
+            "createJar": true
         },
         "dependencies": {
             "Minecraft Version(s)": {
