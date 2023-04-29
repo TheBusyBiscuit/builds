@@ -15,12 +15,12 @@ jobs:
 
     steps:
     - name: Checking out Repository
-      uses: actions/checkout@v3.0.2
+      uses: actions/checkout@v3.3.0
       with:
         ref: gh-pages
 
     - name: Setting up node.js
-      uses: actions/setup-node@v3.4.1
+      uses: actions/setup-node@v3.6.0
       with:
         node-version: '16.6.0'
 
@@ -31,7 +31,7 @@ jobs:
       run: npm run formatter
 
     - name: Auto Commit
-      uses: stefanzweifel/git-auto-commit-action@v4.13.1
+      uses: stefanzweifel/git-auto-commit-action@v4.16.0
       with: 
         commit_message: "Auto-Formatter"
         branch: ${{ github.ref }}

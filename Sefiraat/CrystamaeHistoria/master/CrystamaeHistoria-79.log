@@ -1,0 +1,333 @@
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for io.github.sefiraat.crystamaehistoria:CrystamaeHistoria:jar:DEV - 79 (git da54bb2c)
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ line 1, column 3244
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] 
+[INFO] -------< io.github.sefiraat.crystamaehistoria:CrystamaeHistoria >-------
+[INFO] Building CrystamaeHistoria DEV - 79 (git da54bb2c)
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] Downloading from mcmmo-repo: https://nexus.neetgames.com/repository/maven-public/io/papermc/paper/paper-api/1.19-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from jitpack.io: https://jitpack.io/io/papermc/paper/paper-api/1.19-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from jeff-media-public: https://hub.jeff-media.com/nexus/repository/jeff-media-public/io/papermc/paper/paper-api/1.19-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/io/papermc/paper/paper-api/1.19-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from sefi-central: https://sefiraat.jfrog.io/artifactory/default-maven-local/io/papermc/paper/paper-api/1.19-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from bg-repo: https://repo.bg-software.com/repository/api/io/papermc/paper/paper-api/1.19-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from rosewood-repo: https://repo.rosewooddev.io/repository/public/io/papermc/paper/paper-api/1.19-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/io/papermc/paper/paper-api/1.19-R0.1-SNAPSHOT/maven-metadata.xml (1.4 kB at 1.6 kB/s)
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/io/papermc/paper/paper-api/1.19-R0.1-SNAPSHOT/paper-api-1.19-R0.1-20220725.172700-79.pom
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/io/papermc/paper/paper-api/1.19-R0.1-SNAPSHOT/paper-api-1.19-R0.1-20220725.172700-79.pom (4.2 kB at 15 kB/s)
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/net/kyori/adventure-bom/4.11.0/adventure-bom-4.11.0.pom
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/net/kyori/adventure-bom/4.11.0/adventure-bom-4.11.0.pom (4.6 kB at 17 kB/s)
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/com/google/guava/guava/31.0.1-jre/guava-31.0.1-jre.pom
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/com/google/guava/guava/31.0.1-jre/guava-31.0.1-jre.pom (0 B at 0 B/s)
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/com/google/guava/guava-parent/31.0.1-jre/guava-parent-31.0.1-jre.pom
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/com/google/guava/guava-parent/31.0.1-jre/guava-parent-31.0.1-jre.pom (0 B at 0 B/s)
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.pom
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.pom (0 B at 0 B/s)
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/com/google/guava/guava-parent/26.0-android/guava-parent-26.0-android.pom
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/com/google/guava/guava-parent/26.0-android/guava-parent-26.0-android.pom (0 B at 0 B/s)
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/org/sonatype/oss/oss-parent/9/oss-parent-9.pom
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/org/sonatype/oss/oss-parent/9/oss-parent-9.pom (0 B at 0 B/s)
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.pom
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.pom (0 B at 0 B/s)
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.pom
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.pom (0 B at 0 B/s)
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/org/sonatype/oss/oss-parent/7/oss-parent-7.pom
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/org/sonatype/oss/oss-parent/7/oss-parent-7.pom (0 B at 0 B/s)
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/org/checkerframework/checker-qual/3.12.0/checker-qual-3.12.0.pom
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/org/checkerframework/checker-qual/3.12.0/checker-qual-3.12.0.pom (0 B at 0 B/s)
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/com/google/errorprone/error_prone_annotations/2.7.1/error_prone_annotations-2.7.1.pom
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/com/google/errorprone/error_prone_annotations/2.7.1/error_prone_annotations-2.7.1.pom (0 B at 0 B/s)
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/com/google/errorprone/error_prone_parent/2.7.1/error_prone_parent-2.7.1.pom
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/com/google/errorprone/error_prone_parent/2.7.1/error_prone_parent-2.7.1.pom (0 B at 0 B/s)
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.pom
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.pom (0 B at 0 B/s)
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/com/google/code/gson/gson/2.8.9/gson-2.8.9.pom
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/com/google/code/gson/gson/2.8.9/gson-2.8.9.pom (0 B at 0 B/s)
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/com/google/code/gson/gson-parent/2.8.9/gson-parent-2.8.9.pom
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/com/google/code/gson/gson-parent/2.8.9/gson-parent-2.8.9.pom (0 B at 0 B/s)
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/net/md-5/bungeecord-chat/1.16-R0.4-deprecated+build.6/bungeecord-chat-1.16-R0.4-deprecated+build.6.pom
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/net/md-5/bungeecord-chat/1.16-R0.4-deprecated+build.6/bungeecord-chat-1.16-R0.4-deprecated+build.6.pom (1.2 kB at 4.3 kB/s)
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/com/google/code/gson/gson/2.8.8/gson-2.8.8.pom
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/com/google/code/gson/gson/2.8.8/gson-2.8.8.pom (6.0 kB at 22 kB/s)
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/com/google/code/gson/gson-parent/2.8.8/gson-parent-2.8.8.pom
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/com/google/code/gson/gson-parent/2.8.8/gson-parent-2.8.8.pom (4.6 kB at 17 kB/s)
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/com/google/guava/guava/21.0/guava-21.0.pom
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/com/google/guava/guava/21.0/guava-21.0.pom (0 B at 0 B/s)
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/com/google/guava/guava-parent/21.0/guava-parent-21.0.pom
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/com/google/guava/guava-parent/21.0/guava-parent-21.0.pom (0 B at 0 B/s)
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/org/yaml/snakeyaml/1.30/snakeyaml-1.30.pom
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/org/yaml/snakeyaml/1.30/snakeyaml-1.30.pom (0 B at 0 B/s)
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.pom
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.pom (3.5 kB at 13 kB/s)
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/it/unimi/dsi/fastutil/8.5.6/fastutil-8.5.6.pom
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/it/unimi/dsi/fastutil/8.5.6/fastutil-8.5.6.pom (1.5 kB at 5.7 kB/s)
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/org/apache/logging/log4j/log4j-api/2.17.1/log4j-api-2.17.1.pom
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/org/apache/logging/log4j/log4j-api/2.17.1/log4j-api-2.17.1.pom (14 kB at 51 kB/s)
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/org/apache/logging/log4j/log4j/2.17.1/log4j-2.17.1.pom
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/org/apache/logging/log4j/log4j/2.17.1/log4j-2.17.1.pom (69 kB at 174 kB/s)
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/org/apache/logging/logging-parent/3/logging-parent-3.pom
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/org/apache/logging/logging-parent/3/logging-parent-3.pom (3.1 kB at 12 kB/s)
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/org/slf4j/slf4j-api/1.8.0-beta4/slf4j-api-1.8.0-beta4.pom
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/org/slf4j/slf4j-api/1.8.0-beta4/slf4j-api-1.8.0-beta4.pom (1.7 kB at 6.2 kB/s)
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/org/slf4j/slf4j-parent/1.8.0-beta4/slf4j-parent-1.8.0-beta4.pom
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/org/slf4j/slf4j-parent/1.8.0-beta4/slf4j-parent-1.8.0-beta4.pom (17 kB at 64 kB/s)
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/net/kyori/adventure-api/4.11.0/adventure-api-4.11.0.pom
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/net/kyori/adventure-api/4.11.0/adventure-api-4.11.0.pom (3.5 kB at 13 kB/s)
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/net/kyori/adventure-key/4.11.0/adventure-key-4.11.0.pom
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/net/kyori/adventure-key/4.11.0/adventure-key-4.11.0.pom (3.3 kB at 12 kB/s)
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/net/kyori/examination-api/1.3.0/examination-api-1.3.0.pom
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/net/kyori/examination-api/1.3.0/examination-api-1.3.0.pom (2.1 kB at 7.6 kB/s)
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/org/jetbrains/annotations/22.0.0/annotations-22.0.0.pom
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/org/jetbrains/annotations/22.0.0/annotations-22.0.0.pom (1.3 kB at 4.9 kB/s)
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/net/kyori/examination-string/1.3.0/examination-string-1.3.0.pom
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/net/kyori/examination-string/1.3.0/examination-string-1.3.0.pom (2.1 kB at 7.8 kB/s)
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/org/jetbrains/annotations/23.0.0/annotations-23.0.0.pom
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/org/jetbrains/annotations/23.0.0/annotations-23.0.0.pom (1.4 kB at 5.0 kB/s)
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/net/kyori/adventure-text-minimessage/4.11.0/adventure-text-minimessage-4.11.0.pom
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/net/kyori/adventure-text-minimessage/4.11.0/adventure-text-minimessage-4.11.0.pom (3.0 kB at 11 kB/s)
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/net/kyori/adventure-text-serializer-gson/4.11.0/adventure-text-serializer-gson-4.11.0.pom
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/net/kyori/adventure-text-serializer-gson/4.11.0/adventure-text-serializer-gson-4.11.0.pom (3.1 kB at 12 kB/s)
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/com/google/code/gson/gson/2.8.0/gson-2.8.0.pom
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/com/google/code/gson/gson/2.8.0/gson-2.8.0.pom (0 B at 0 B/s)
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/com/google/code/gson/gson-parent/2.8.0/gson-parent-2.8.0.pom
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/com/google/code/gson/gson-parent/2.8.0/gson-parent-2.8.0.pom (0 B at 0 B/s)
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/net/kyori/adventure-text-serializer-legacy/4.11.0/adventure-text-serializer-legacy-4.11.0.pom
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/net/kyori/adventure-text-serializer-legacy/4.11.0/adventure-text-serializer-legacy-4.11.0.pom (2.9 kB at 11 kB/s)
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/net/kyori/adventure-text-serializer-plain/4.11.0/adventure-text-serializer-plain-4.11.0.pom
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/net/kyori/adventure-text-serializer-plain/4.11.0/adventure-text-serializer-plain-4.11.0.pom (2.9 kB at 11 kB/s)
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/net/kyori/adventure-text-logger-slf4j/4.11.0/adventure-text-logger-slf4j-4.11.0.pom
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/net/kyori/adventure-text-logger-slf4j/4.11.0/adventure-text-logger-slf4j-4.11.0.pom (3.1 kB at 11 kB/s)
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/org/checkerframework/checker-qual/3.21.0/checker-qual-3.21.0.pom
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/org/checkerframework/checker-qual/3.21.0/checker-qual-3.21.0.pom (2.1 kB at 7.8 kB/s)
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/org/ow2/asm/asm/9.2/asm-9.2.pom
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/org/ow2/asm/asm/9.2/asm-9.2.pom (2.4 kB at 8.9 kB/s)
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/org/ow2/ow2/1.5/ow2-1.5.pom
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/org/ow2/ow2/1.5/ow2-1.5.pom (11 kB at 41 kB/s)
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/org/ow2/asm/asm-commons/9.2/asm-commons-9.2.pom
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/org/ow2/asm/asm-commons/9.2/asm-commons-9.2.pom (3.0 kB at 11 kB/s)
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/org/ow2/asm/asm-tree/9.2/asm-tree-9.2.pom
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/org/ow2/asm/asm-tree/9.2/asm-tree-9.2.pom (2.6 kB at 9.7 kB/s)
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/org/ow2/asm/asm-analysis/9.2/asm-analysis-9.2.pom
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/org/ow2/asm/asm-analysis/9.2/asm-analysis-9.2.pom (2.6 kB at 9.9 kB/s)
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/org/bstats/bstats-bukkit/3.0.0/bstats-bukkit-3.0.0.pom
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/org/bstats/bstats-bukkit/3.0.0/bstats-bukkit-3.0.0.pom (0 B at 0 B/s)
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/org/bstats/bstats-base/3.0.0/bstats-base-3.0.0.pom
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/org/bstats/bstats-base/3.0.0/bstats-base-3.0.0.pom (0 B at 0 B/s)
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/com/google/code/findbugs/annotations/3.0.1u2/annotations-3.0.1u2.pom
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/com/google/code/findbugs/annotations/3.0.1u2/annotations-3.0.1u2.pom (0 B at 0 B/s)
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/net/jcip/jcip-annotations/1.0/jcip-annotations-1.0.pom
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/net/jcip/jcip-annotations/1.0/jcip-annotations-1.0.pom (491 B at 1.7 kB/s)
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/com/google/code/findbugs/jsr305/3.0.1/jsr305-3.0.1.pom
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/com/google/code/findbugs/jsr305/3.0.1/jsr305-3.0.1.pom (4.3 kB at 16 kB/s)
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/org/projectlombok/lombok/1.18.24/lombok-1.18.24.pom
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/org/projectlombok/lombok/1.18.24/lombok-1.18.24.pom (1.5 kB at 5.0 kB/s)
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/de/jeff_media/MorePersistentDataTypes/1.0.0/MorePersistentDataTypes-1.0.0.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/de/jeff_media/MorePersistentDataTypes/1.0.0/MorePersistentDataTypes-1.0.0.pom
+[INFO] Downloading from mcmmo-repo: https://nexus.neetgames.com/repository/maven-public/de/jeff_media/MorePersistentDataTypes/1.0.0/MorePersistentDataTypes-1.0.0.pom
+[INFO] Downloading from jeff-media-public: https://hub.jeff-media.com/nexus/repository/jeff-media-public/de/jeff_media/MorePersistentDataTypes/1.0.0/MorePersistentDataTypes-1.0.0.pom
+[INFO] Downloaded from jeff-media-public: https://hub.jeff-media.com/nexus/repository/jeff-media-public/de/jeff_media/MorePersistentDataTypes/1.0.0/MorePersistentDataTypes-1.0.0.pom (4.8 kB at 13 kB/s)
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/com/github/TheBusyBiscuit/ExoticGarden/a2c4b6d/ExoticGarden-a2c4b6d.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/github/TheBusyBiscuit/ExoticGarden/a2c4b6d/ExoticGarden-a2c4b6d.pom
+[INFO] Downloaded from jitpack.io: https://jitpack.io/com/github/TheBusyBiscuit/ExoticGarden/a2c4b6d/ExoticGarden-a2c4b6d.pom (3.5 kB at 29 kB/s)
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/com/gmail/nossr50/mcMMO/mcMMO/2.1.217/mcMMO-2.1.217.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/gmail/nossr50/mcMMO/mcMMO/2.1.217/mcMMO-2.1.217.pom
+[INFO] Downloading from mcmmo-repo: https://nexus.neetgames.com/repository/maven-public/com/gmail/nossr50/mcMMO/mcMMO/2.1.217/mcMMO-2.1.217.pom
+[INFO] Downloaded from mcmmo-repo: https://nexus.neetgames.com/repository/maven-public/com/gmail/nossr50/mcMMO/mcMMO/2.1.217/mcMMO-2.1.217.pom (12 kB at 70 kB/s)
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/com/elmakers/mine/bukkit/EffectLib/9.4/EffectLib-9.4.pom
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/com/elmakers/mine/bukkit/EffectLib/9.4/EffectLib-9.4.pom (5.4 kB at 20 kB/s)
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/com/bgsoftware/WildStackerAPI/2022.6/WildStackerAPI-2022.6.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/bgsoftware/WildStackerAPI/2022.6/WildStackerAPI-2022.6.pom
+[INFO] Downloading from mcmmo-repo: https://nexus.neetgames.com/repository/maven-public/com/bgsoftware/WildStackerAPI/2022.6/WildStackerAPI-2022.6.pom
+[INFO] Downloading from jeff-media-public: https://hub.jeff-media.com/nexus/repository/jeff-media-public/com/bgsoftware/WildStackerAPI/2022.6/WildStackerAPI-2022.6.pom
+[INFO] Downloading from sefi-central: https://sefiraat.jfrog.io/artifactory/default-maven-local/com/bgsoftware/WildStackerAPI/2022.6/WildStackerAPI-2022.6.pom
+[INFO] Downloading from bg-repo: https://repo.bg-software.com/repository/api/com/bgsoftware/WildStackerAPI/2022.6/WildStackerAPI-2022.6.pom
+[INFO] Downloaded from bg-repo: https://repo.bg-software.com/repository/api/com/bgsoftware/WildStackerAPI/2022.6/WildStackerAPI-2022.6.pom (760 B at 1.8 kB/s)
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/dev/rosewood/rosestacker/1.5.1/rosestacker-1.5.1.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/dev/rosewood/rosestacker/1.5.1/rosestacker-1.5.1.pom
+[INFO] Downloading from mcmmo-repo: https://nexus.neetgames.com/repository/maven-public/dev/rosewood/rosestacker/1.5.1/rosestacker-1.5.1.pom
+[INFO] Downloading from jeff-media-public: https://hub.jeff-media.com/nexus/repository/jeff-media-public/dev/rosewood/rosestacker/1.5.1/rosestacker-1.5.1.pom
+[INFO] Downloading from sefi-central: https://sefiraat.jfrog.io/artifactory/default-maven-local/dev/rosewood/rosestacker/1.5.1/rosestacker-1.5.1.pom
+[INFO] Downloading from bg-repo: https://repo.bg-software.com/repository/api/dev/rosewood/rosestacker/1.5.1/rosestacker-1.5.1.pom
+[INFO] Downloading from rosewood-repo: https://repo.rosewooddev.io/repository/public/dev/rosewood/rosestacker/1.5.1/rosestacker-1.5.1.pom
+[INFO] Downloaded from rosewood-repo: https://repo.rosewooddev.io/repository/public/dev/rosewood/rosestacker/1.5.1/rosestacker-1.5.1.pom (438 B at 2.6 kB/s)
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/com/github/Sefiraat/Netheopoiesis/8d1af6c570/Netheopoiesis-8d1af6c570.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/github/Sefiraat/Netheopoiesis/8d1af6c570/Netheopoiesis-8d1af6c570.pom
+[INFO] Downloaded from jitpack.io: https://jitpack.io/com/github/Sefiraat/Netheopoiesis/8d1af6c570/Netheopoiesis-8d1af6c570.pom (5.1 kB at 138 kB/s)
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/io/papermc/paper/paper-api/1.19-R0.1-SNAPSHOT/paper-api-1.19-R0.1-20220725.172700-79.jar
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/com/google/guava/guava/31.0.1-jre/guava-31.0.1-jre.jar
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/com/google/errorprone/error_prone_annotations/2.7.1/error_prone_annotations-2.7.1.jar
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/com/google/guava/guava/31.0.1-jre/guava-31.0.1-jre.jar (0 B at 0 B/s)
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar (0 B at 0 B/s)
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/com/google/code/gson/gson/2.8.9/gson-2.8.9.jar
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar (0 B at 0 B/s)
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/net/md-5/bungeecord-chat/1.16-R0.4-deprecated+build.6/bungeecord-chat-1.16-R0.4-deprecated+build.6.jar
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar (0 B at 0 B/s)
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/org/yaml/snakeyaml/1.30/snakeyaml-1.30.jar
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/com/google/errorprone/error_prone_annotations/2.7.1/error_prone_annotations-2.7.1.jar (0 B at 0 B/s)
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.jar
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/com/google/code/gson/gson/2.8.9/gson-2.8.9.jar (0 B at 0 B/s)
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/it/unimi/dsi/fastutil/8.5.6/fastutil-8.5.6.jar
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/org/yaml/snakeyaml/1.30/snakeyaml-1.30.jar (0 B at 0 B/s)
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/org/apache/logging/log4j/log4j-api/2.17.1/log4j-api-2.17.1.jar
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/io/papermc/paper/paper-api/1.19-R0.1-SNAPSHOT/paper-api-1.19-R0.1-20220725.172700-79.jar (1.8 MB at 5.8 MB/s)
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/org/slf4j/slf4j-api/1.8.0-beta4/slf4j-api-1.8.0-beta4.jar
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/org/slf4j/slf4j-api/1.8.0-beta4/slf4j-api-1.8.0-beta4.jar (44 kB at 83 kB/s)
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/net/kyori/adventure-api/4.11.0/adventure-api-4.11.0.jar
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/net/md-5/bungeecord-chat/1.16-R0.4-deprecated+build.6/bungeecord-chat-1.16-R0.4-deprecated+build.6.jar (151 kB at 234 kB/s)
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/net/kyori/adventure-key/4.11.0/adventure-key-4.11.0.jar
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.jar (24 kB at 33 kB/s)
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/net/kyori/examination-api/1.3.0/examination-api-1.3.0.jar
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/net/kyori/adventure-api/4.11.0/adventure-api-4.11.0.jar (318 kB at 411 kB/s)
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/net/kyori/examination-string/1.3.0/examination-string-1.3.0.jar
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/org/apache/logging/log4j/log4j-api/2.17.1/log4j-api-2.17.1.jar (302 kB at 352 kB/s)
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/org/jetbrains/annotations/23.0.0/annotations-23.0.0.jar
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/it/unimi/dsi/fastutil/8.5.6/fastutil-8.5.6.jar (24 MB at 27 MB/s)
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/net/kyori/adventure-text-minimessage/4.11.0/adventure-text-minimessage-4.11.0.jar
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/net/kyori/adventure-key/4.11.0/adventure-key-4.11.0.jar (8.4 kB at 9.4 kB/s)
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/net/kyori/adventure-text-serializer-gson/4.11.0/adventure-text-serializer-gson-4.11.0.jar
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/net/kyori/examination-api/1.3.0/examination-api-1.3.0.jar (23 kB at 24 kB/s)
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/net/kyori/adventure-text-serializer-legacy/4.11.0/adventure-text-serializer-legacy-4.11.0.jar
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/net/kyori/examination-string/1.3.0/examination-string-1.3.0.jar (13 kB at 13 kB/s)
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/net/kyori/adventure-text-serializer-plain/4.11.0/adventure-text-serializer-plain-4.11.0.jar
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/org/jetbrains/annotations/23.0.0/annotations-23.0.0.jar (29 kB at 27 kB/s)
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/net/kyori/adventure-text-logger-slf4j/4.11.0/adventure-text-logger-slf4j-4.11.0.jar
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/net/kyori/adventure-text-minimessage/4.11.0/adventure-text-minimessage-4.11.0.jar (150 kB at 133 kB/s)
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/org/checkerframework/checker-qual/3.21.0/checker-qual-3.21.0.jar
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/net/kyori/adventure-text-serializer-gson/4.11.0/adventure-text-serializer-gson-4.11.0.jar (39 kB at 34 kB/s)
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/org/ow2/asm/asm/9.2/asm-9.2.jar
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/net/kyori/adventure-text-serializer-legacy/4.11.0/adventure-text-serializer-legacy-4.11.0.jar (24 kB at 19 kB/s)
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/org/ow2/asm/asm-commons/9.2/asm-commons-9.2.jar
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/net/kyori/adventure-text-serializer-plain/4.11.0/adventure-text-serializer-plain-4.11.0.jar (13 kB at 10 kB/s)
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/org/ow2/asm/asm-tree/9.2/asm-tree-9.2.jar
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/net/kyori/adventure-text-logger-slf4j/4.11.0/adventure-text-logger-slf4j-4.11.0.jar (20 kB at 15 kB/s)
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/org/ow2/asm/asm-analysis/9.2/asm-analysis-9.2.jar
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/org/checkerframework/checker-qual/3.21.0/checker-qual-3.21.0.jar (222 kB at 162 kB/s)
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/org/bstats/bstats-bukkit/3.0.0/bstats-bukkit-3.0.0.jar
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/org/ow2/asm/asm/9.2/asm-9.2.jar (122 kB at 89 kB/s)
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/org/bstats/bstats-base/3.0.0/bstats-base-3.0.0.jar
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/org/ow2/asm/asm-commons/9.2/asm-commons-9.2.jar (73 kB at 49 kB/s)
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/com/google/code/findbugs/annotations/3.0.1u2/annotations-3.0.1u2.jar
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/org/bstats/bstats-bukkit/3.0.0/bstats-bukkit-3.0.0.jar (0 B at 0 B/s)
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/net/jcip/jcip-annotations/1.0/jcip-annotations-1.0.jar
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/org/bstats/bstats-base/3.0.0/bstats-base-3.0.0.jar (0 B at 0 B/s)
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/com/google/code/findbugs/jsr305/3.0.1/jsr305-3.0.1.jar
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/org/ow2/asm/asm-tree/9.2/asm-tree-9.2.jar (53 kB at 35 kB/s)
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/org/projectlombok/lombok/1.18.24/lombok-1.18.24.jar
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/org/ow2/asm/asm-analysis/9.2/asm-analysis-9.2.jar (34 kB at 22 kB/s)
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/de/jeff_media/MorePersistentDataTypes/1.0.0/MorePersistentDataTypes-1.0.0.jar
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/com/google/code/findbugs/annotations/3.0.1u2/annotations-3.0.1u2.jar (0 B at 0 B/s)
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/com/github/TheBusyBiscuit/ExoticGarden/a2c4b6d/ExoticGarden-a2c4b6d.jar
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/com/gmail/nossr50/mcMMO/mcMMO/2.1.217/mcMMO-2.1.217.jar
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/net/jcip/jcip-annotations/1.0/jcip-annotations-1.0.jar (2.3 kB at 1.3 kB/s)
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/com/elmakers/mine/bukkit/EffectLib/9.4/EffectLib-9.4.jar
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/com/bgsoftware/WildStackerAPI/2022.6/WildStackerAPI-2022.6.jar
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/com/google/code/findbugs/jsr305/3.0.1/jsr305-3.0.1.jar (20 kB at 12 kB/s)
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/dev/rosewood/rosestacker/1.5.1/rosestacker-1.5.1.jar
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/org/projectlombok/lombok/1.18.24/lombok-1.18.24.jar (2.0 MB at 1.1 MB/s)
+[INFO] Downloading from papermc: https://papermc.io/repo/repository/maven-public/com/github/Sefiraat/Netheopoiesis/8d1af6c570/Netheopoiesis-8d1af6c570.jar
+[INFO] Downloaded from papermc: https://papermc.io/repo/repository/maven-public/com/elmakers/mine/bukkit/EffectLib/9.4/EffectLib-9.4.jar (211 kB at 106 kB/s)
+[INFO] Downloading from jitpack.io: https://jitpack.io/de/jeff_media/MorePersistentDataTypes/1.0.0/MorePersistentDataTypes-1.0.0.jar
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/github/TheBusyBiscuit/ExoticGarden/a2c4b6d/ExoticGarden-a2c4b6d.jar
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/gmail/nossr50/mcMMO/mcMMO/2.1.217/mcMMO-2.1.217.jar
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/bgsoftware/WildStackerAPI/2022.6/WildStackerAPI-2022.6.jar
+[INFO] Downloading from jitpack.io: https://jitpack.io/dev/rosewood/rosestacker/1.5.1/rosestacker-1.5.1.jar
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/github/Sefiraat/Netheopoiesis/8d1af6c570/Netheopoiesis-8d1af6c570.jar
+[INFO] Downloaded from jitpack.io: https://jitpack.io/com/github/TheBusyBiscuit/ExoticGarden/a2c4b6d/ExoticGarden-a2c4b6d.jar (131 kB at 1.0 MB/s)
+[INFO] Downloaded from jitpack.io: https://jitpack.io/com/github/Sefiraat/Netheopoiesis/8d1af6c570/Netheopoiesis-8d1af6c570.jar (892 kB at 5.3 MB/s)
+[INFO] Downloading from mcmmo-repo: https://nexus.neetgames.com/repository/maven-public/de/jeff_media/MorePersistentDataTypes/1.0.0/MorePersistentDataTypes-1.0.0.jar
+[INFO] Downloading from mcmmo-repo: https://nexus.neetgames.com/repository/maven-public/com/gmail/nossr50/mcMMO/mcMMO/2.1.217/mcMMO-2.1.217.jar
+[INFO] Downloading from mcmmo-repo: https://nexus.neetgames.com/repository/maven-public/com/bgsoftware/WildStackerAPI/2022.6/WildStackerAPI-2022.6.jar
+[INFO] Downloading from mcmmo-repo: https://nexus.neetgames.com/repository/maven-public/dev/rosewood/rosestacker/1.5.1/rosestacker-1.5.1.jar
+[INFO] Downloaded from mcmmo-repo: https://nexus.neetgames.com/repository/maven-public/com/gmail/nossr50/mcMMO/mcMMO/2.1.217/mcMMO-2.1.217.jar (2.9 MB at 2.9 MB/s)
+[INFO] Downloading from jeff-media-public: https://hub.jeff-media.com/nexus/repository/jeff-media-public/de/jeff_media/MorePersistentDataTypes/1.0.0/MorePersistentDataTypes-1.0.0.jar
+[INFO] Downloading from jeff-media-public: https://hub.jeff-media.com/nexus/repository/jeff-media-public/com/bgsoftware/WildStackerAPI/2022.6/WildStackerAPI-2022.6.jar
+[INFO] Downloading from jeff-media-public: https://hub.jeff-media.com/nexus/repository/jeff-media-public/dev/rosewood/rosestacker/1.5.1/rosestacker-1.5.1.jar
+[INFO] Downloaded from jeff-media-public: https://hub.jeff-media.com/nexus/repository/jeff-media-public/de/jeff_media/MorePersistentDataTypes/1.0.0/MorePersistentDataTypes-1.0.0.jar (23 kB at 84 kB/s)
+[INFO] Downloading from sefi-central: https://sefiraat.jfrog.io/artifactory/default-maven-local/com/bgsoftware/WildStackerAPI/2022.6/WildStackerAPI-2022.6.jar
+[INFO] Downloading from sefi-central: https://sefiraat.jfrog.io/artifactory/default-maven-local/dev/rosewood/rosestacker/1.5.1/rosestacker-1.5.1.jar
+[INFO] Downloading from bg-repo: https://repo.bg-software.com/repository/api/com/bgsoftware/WildStackerAPI/2022.6/WildStackerAPI-2022.6.jar
+[INFO] Downloading from bg-repo: https://repo.bg-software.com/repository/api/dev/rosewood/rosestacker/1.5.1/rosestacker-1.5.1.jar
+[INFO] Downloaded from bg-repo: https://repo.bg-software.com/repository/api/com/bgsoftware/WildStackerAPI/2022.6/WildStackerAPI-2022.6.jar (41 kB at 69 kB/s)
+[INFO] Downloading from rosewood-repo: https://repo.rosewooddev.io/repository/public/dev/rosewood/rosestacker/1.5.1/rosestacker-1.5.1.jar
+[INFO] Downloaded from rosewood-repo: https://repo.rosewooddev.io/repository/public/dev/rosewood/rosestacker/1.5.1/rosestacker-1.5.1.jar (979 kB at 2.0 MB/s)
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ CrystamaeHistoria ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ CrystamaeHistoria ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 18 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ CrystamaeHistoria ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 255 source files to /home/runner/work/builds/builds/Sefiraat/CrystamaeHistoria/master/files/target/classes
+[WARNING] /home/runner/work/builds/builds/Sefiraat/CrystamaeHistoria/master/files/src/main/java/io/github/sefiraat/crystamaehistoria/magic/spells/core/Spell.java: Some input files use or override a deprecated API.
+[WARNING] /home/runner/work/builds/builds/Sefiraat/CrystamaeHistoria/master/files/src/main/java/io/github/sefiraat/crystamaehistoria/magic/spells/core/Spell.java: Recompile with -Xlint:deprecation for details.
+[WARNING] /home/runner/work/builds/builds/Sefiraat/CrystamaeHistoria/master/files/src/main/java/io/github/sefiraat/crystamaehistoria/utils/SpellUtils.java: Some input files use or override a deprecated API that is marked for removal.
+[WARNING] /home/runner/work/builds/builds/Sefiraat/CrystamaeHistoria/master/files/src/main/java/io/github/sefiraat/crystamaehistoria/utils/SpellUtils.java: Recompile with -Xlint:removal for details.
+[WARNING] /home/runner/work/builds/builds/Sefiraat/CrystamaeHistoria/master/files/src/main/java/io/github/sefiraat/crystamaehistoria/utils/mobgoals/AbstractGoal.java: Some input files use unchecked or unsafe operations.
+[WARNING] /home/runner/work/builds/builds/Sefiraat/CrystamaeHistoria/master/files/src/main/java/io/github/sefiraat/crystamaehistoria/utils/mobgoals/AbstractGoal.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ CrystamaeHistoria ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/runner/work/builds/builds/Sefiraat/CrystamaeHistoria/master/files/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ CrystamaeHistoria ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ CrystamaeHistoria ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ CrystamaeHistoria ---
+[INFO] Building jar: /home/runner/work/builds/builds/Sefiraat/CrystamaeHistoria/master/files/target/CrystamaeHistoria-79.jar
+[INFO] 
+[INFO] --- maven-shade-plugin:3.4.1:shade (default) @ CrystamaeHistoria ---
+[INFO] Including org.bstats:bstats-bukkit:jar:3.0.0 in the shaded jar.
+[INFO] Including org.bstats:bstats-base:jar:3.0.0 in the shaded jar.
+[INFO] Including com.google.code.findbugs:annotations:jar:3.0.1u2 in the shaded jar.
+[INFO] Including net.jcip:jcip-annotations:jar:1.0 in the shaded jar.
+[INFO] Including com.google.code.findbugs:jsr305:jar:3.0.1 in the shaded jar.
+[INFO] Including de.jeff_media:MorePersistentDataTypes:jar:1.0.0 in the shaded jar.
+[INFO] Including com.elmakers.mine.bukkit:EffectLib:jar:9.4 in the shaded jar.
+[INFO] Including io.github.mooy1:InfinityLib:jar:7e03c79 in the shaded jar.
+[INFO] Dependency-reduced POM written at: /home/runner/work/builds/builds/Sefiraat/CrystamaeHistoria/master/files/dependency-reduced-pom.xml
+[WARNING] annotations-3.0.1u2.jar, jsr305-3.0.1.jar define 37 overlapping classes and resources: 
+[WARNING]   - META-INF/maven/com.google.code.findbugs/jsr305/pom.properties
+[WARNING]   - META-INF/maven/com.google.code.findbugs/jsr305/pom.xml
+[WARNING]   - javax.annotation.CheckForNull
+[WARNING]   - javax.annotation.CheckForSigned
+[WARNING]   - javax.annotation.CheckReturnValue
+[WARNING]   - javax.annotation.Detainted
+[WARNING]   - javax.annotation.MatchesPattern
+[WARNING]   - javax.annotation.MatchesPattern$Checker
+[WARNING]   - javax.annotation.Nonnegative
+[WARNING]   - javax.annotation.Nonnegative$Checker
+[WARNING]   - 27 more...
+[WARNING] annotations-3.0.1u2.jar, jcip-annotations-1.0.jar define 4 overlapping classes: 
+[WARNING]   - net.jcip.annotations.GuardedBy
+[WARNING]   - net.jcip.annotations.Immutable
+[WARNING]   - net.jcip.annotations.NotThreadSafe
+[WARNING]   - net.jcip.annotations.ThreadSafe
+[WARNING] maven-shade-plugin has detected that some class files are
+[WARNING] present in two or more JARs. When this happens, only one
+[WARNING] single version of the class is copied to the uber jar.
+[WARNING] Usually this is not harmful and you can skip these warnings,
+[WARNING] otherwise try to manually exclude artifacts based on
+[WARNING] mvn dependency:tree -Ddetail=true and the above output.
+[WARNING] See https://maven.apache.org/plugins/maven-shade-plugin/
+[INFO] Replacing original artifact with shaded artifact.
+[INFO] Replacing /home/runner/work/builds/builds/Sefiraat/CrystamaeHistoria/master/files/target/CrystamaeHistoria-79.jar with /home/runner/work/builds/builds/Sefiraat/CrystamaeHistoria/master/files/target/CrystamaeHistoria-DEV - 79 (git da54bb2c)-shaded.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  30.324 s
+[INFO] Finished at: 2023-02-17T19:16:06Z
+[INFO] ------------------------------------------------------------------------
