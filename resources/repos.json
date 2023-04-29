@@ -1667,6 +1667,24 @@
             }
         }
     },
+    "SchnTgaiSpock/Gastronomicon:master": {
+        "sonar": {
+            "enabled": false
+        },
+        "options": {
+            "prefix": "DEV",
+            "abandoned": false,
+            "createJar": true
+        },
+        "dependencies": {
+            "Minecraft Version(s)": {
+                "1": "1.17.x - 1.19.x"
+            },
+            "Slimefun Version": {
+                "1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/Slimefun4/stable/#33\">RC-33 or higher</a>"
+            }
+        }
+    },
     "TheRealEzCoins/MiniBlocks:master": {
         "sonar": {
             "enabled": false
