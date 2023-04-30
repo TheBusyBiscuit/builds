@@ -1405,6 +1405,24 @@
             }
         }
     },
+    "Sefiraat/Cultivation:main": {
+        "sonar": {
+            "enabled": false
+        },
+        "options": {
+            "prefix": "DEV",
+            "abandoned": false,
+            "createJar": true
+        },
+        "dependencies": {
+            "Minecraft Version(s)": {
+                "1": "1.19.4"
+            },
+            "Slimefun Version": {
+                "1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/Slimefun4/master/#1039\">dev #1039</a>"
+            }
+        }
+    },
     "WalshyDev/SFMobDrops:main": {
         "sonar": {
             "enabled": false
