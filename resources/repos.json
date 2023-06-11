@@ -1774,5 +1774,23 @@
                 "1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/Slimefun4/stable/#28\">RC-28 or higher</a>"
             }
         }
+    },
+    "ybw0014/VillagerTrade:master": {
+        "sonar": {
+            "enabled": false
+        },
+        "options": {
+            "prefix": "DEV",
+            "abandoned": false,
+            "createJar": true
+        },
+        "dependencies": {
+            "Minecraft Version(s)": {
+                "1": "1.16.5 - 1.20.X"
+            },
+            "Slimefun Version": {
+                "1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/Slimefun4/stable/#33\">RC-33 or higher</a>"
+            }
+        }
     }
 }
