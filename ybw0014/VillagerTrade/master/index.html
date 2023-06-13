@@ -1,0 +1,218 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>Repo Server</title>
+    <link id="favicon" rel="shortcut icon" type="image/png" href="https://thebusybiscuit.github.io/builds/resources/favicon.png">
+
+    <link rel="stylesheet" href="https://thebusybiscuit.github.io/builds/resources/style.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans:400,700" rel="stylesheet">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://thebusybiscuit.github.io/builds/src/frontend.js"></script>
+</head>
+
+<body owner="ybw0014" repository="VillagerTrade" branch="master">
+    <div class="header">
+        <a class="link_main" href="https://thebusybiscuit.github.io/builds/">
+            <img class="back_arrow" alt="go back" src="https://cdnjs.cloudflare.com/ajax/libs/octicons/8.5.0/svg/arrow-left.svg">
+            <span style="padding-left: 12px;"> Back to all Repositories</span>
+        </a>
+    </div>
+
+    <!-- Badge Link Overlay -->
+    <div class="overlay" style="display: none;">
+        <div class="badge_box">
+            <button id="close_badge" class="close_badge_button">
+                <img style="height: 16px; padding-top: 4px;" alt="close" src="https://cdnjs.cloudflare.com/ajax/libs/octicons/8.5.0/svg/x.svg" />
+            </button>
+
+            <div class="badge" style="margin-top: 12px;">
+                <img alt="status badge" src="badge.svg" />
+            </div>
+
+            <!-- HTML -->
+            <div style="padding: 2px; margin-top: 6px;">
+                <div style="font-weight: bold;">HTML</div>
+                <input class="badge_url" type="text" id="badge_html" readonly />
+                <button id="copy_html" style="padding-bottom: 5px;">
+                    <img style="height: 16px; padding-top: 4px;" alt="link" src="https://cdnjs.cloudflare.com/ajax/libs/octicons/8.5.0/svg/clippy.svg" />
+                </button>
+            </div>
+
+            <!-- Markdown -->
+            <div style="padding: 2px;">
+                <div style="font-weight: bold;">Markdown</div>
+                <input class="badge_url" type="text" id="badge_markdown" readonly />
+                <button id="copy_markdown" style="padding-bottom: 5px;">
+                    <img style="height: 16px; padding-top: 4px;" alt="link" src="https://cdnjs.cloudflare.com/ajax/libs/octicons/8.5.0/svg/clippy.svg" />
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class="page">
+        <div class="box sidebar">
+            <div class="sidebar_content">
+                <span class="info_header">Project Info</span>
+
+                <div class="sidebar_info">
+                    <div class="info_repo">
+                        <table class="info_table">
+                            <tr class="project_info">
+                                <td class="icon">
+                                    <img class="icon" alt="repository" src="https://cdnjs.cloudflare.com/ajax/libs/octicons/8.5.0/svg/repo.svg">
+                                </td>
+                                <td class="info_label">
+                                    <a class="link_info" href="https://github.com/ybw0014/VillagerTrade/tree/master">GitHub Repository</a>
+                                </td>
+                            </tr>
+                            <tr class="project_info">
+                                <td class="icon">
+                                    <img class="icon" alt="bug tracker" src="https://cdnjs.cloudflare.com/ajax/libs/octicons/8.5.0/svg/bug.svg">
+                                </td>
+                                <td class="info_label">
+                                    <a class="link_info" href="https://github.com/ybw0014/VillagerTrade/issues">Issues Tracker</a>
+                                </td>
+                            </tr>
+                            <tr class="project_info">
+                                <td class="icon">
+                                    <img class="icon" alt="last successful build" src="https://cdnjs.cloudflare.com/ajax/libs/octicons/8.5.0/svg/checklist.svg">
+                                </td>
+                                <td class="info_label">
+                                    <a id="link_last_successful_build" class="trigger link_info">
+                                        Last successful build
+                                    </a>
+                                </td>
+                            </tr>
+                            <tr class="project_info">
+                                <td class="icon">
+                                    <img class="icon" alt="build status" src="https://cdnjs.cloudflare.com/ajax/libs/octicons/8.5.0/svg/file-media.svg">
+                                </td>
+                                <td class="info_label">
+                                    <div class="badge_table">
+                                        <img id="badge_click" alt="status badge" src="badge.svg">
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+                        <div style="height: 2px;"></div>
+                    </div>
+                </div>
+
+                <span class="info_header build_header">Builds</span>
+
+                <div class="sidebar_builds">
+                    <div class="container_builds">
+                        <div id="buildlist" class="builds">
+                            <img style="width: 20px;" class="loading" alt="loading" src="https://cdnjs.cloudflare.com/ajax/libs/octicons/8.5.0/svg/sync.svg" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="content">
+            <div class="current">
+                <div class="current_header">
+                    <svg id="current_icon" class="current_icon"></svg>
+                    <div id="current_status" class="current_status">
+                        <img style="width: 20px;" class="loading" alt="loading" src="https://cdnjs.cloudflare.com/ajax/libs/octicons/8.5.0/svg/sync.svg" />
+                    </div>
+                </div>
+
+                <div id="current_name" class="current_name">
+                    <img style="width: 20px;" class="loading" alt="loading" src="https://cdnjs.cloudflare.com/ajax/libs/octicons/8.5.0/svg/sync.svg" />
+                </div>
+                <div class="current_body">
+                    <br>
+                    <table id="infobox" class="info_table current_info">
+                        <tr id="download_section">
+                            <td class="icon">
+                                <img class="icon" alt="download" src="https://cdnjs.cloudflare.com/ajax/libs/octicons/8.5.0/svg/cloud-download.svg">
+                            </td>
+                            <td class="info_table_middle">Download (.jar)</td>
+                            <td>
+                                <a id="current_download_jar" class="link_info" target="_blank" href="/VillagerTrade-${current_build}.jar">
+                                    <img style="width: 20px;" class="loading" alt="loading" src="https://cdnjs.cloudflare.com/ajax/libs/octicons/8.5.0/svg/sync.svg" />
+                                </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="icon">
+                                <img class="icon" alt="log file" src="https://cdnjs.cloudflare.com/ajax/libs/octicons/8.5.0/svg/file.svg">
+                            </td>
+                            <td class="info_table_middle">Build Log</td>
+                            <td>
+                                <a id="current_download_log" class="link_info" target="_blank" href="/VillagerTrade-${current_build}.log">
+                                    <img style="width: 20px;" class="loading" alt="loading" src="https://cdnjs.cloudflare.com/ajax/libs/octicons/8.5.0/svg/sync.svg" />
+                                </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="icon">
+                                <img class="icon" alt="source code" src="https://cdnjs.cloudflare.com/ajax/libs/octicons/8.5.0/svg/code.svg">
+                            </td>
+                            <td class="info_table_middle">Source Code</td>
+                            <td>
+                                <a id="current_tree" class="link_info" href="https://github.com/ybw0014/VillagerTrade/tree/${current_commit}">GitHub</a>
+                            </td>
+                        </tr>
+                        <tr id="license_section">
+                            <td class="icon">
+                                <img class="icon" alt="license" src="https://cdnjs.cloudflare.com/ajax/libs/octicons/8.5.0/svg/law.svg">
+                            </td>
+                            <td class="info_table_middle">License</td>
+                            <td>
+                                <a id="current_license" class="link_info" href="${current_license_url}">
+                                    <img style="width: 20px;" class="loading" alt="loading" src="https://cdnjs.cloudflare.com/ajax/libs/octicons/8.5.0/svg/sync.svg" />
+                                </a>
+                            </td>
+                        </tr>
+                        <tr id="tag_section">
+                            <td class="icon">
+                                <img class="icon" alt="version" src="https://cdnjs.cloudflare.com/ajax/libs/octicons/8.5.0/svg/tag.svg">
+                            </td>
+                            <td class="info_table_middle">Release / Tag</td>
+                            <td>
+                                <a id="current_tag" class="link_info" href="${current_tag_url}">
+                                    <img style="width: 20px;" class="loading" alt="loading" src="https://cdnjs.cloudflare.com/ajax/libs/octicons/8.5.0/svg/sync.svg" />
+                                </a>
+                            </td>
+                        </tr>
+                    </table>
+                    <br>
+                    <div id="dependency_section" style="display: none;">
+                        <br>
+                        <div class="current_name">Required Dependencies</div>
+                        <br>
+                        <table id="dependencies" class="info_table current_info"></table>
+                        <br>
+                    </div>
+
+                    <div class="current_commit">
+                        <div class="current_commit_header">
+                            <img id="current_commit_avatar" class="current_commit_avatar" alt="avatar" />
+                            <div id="current_commit_committer" class="current_commit_text current_commit_committer">
+                                <img style="width: 20px;" class="loading" alt="loading" src="https://cdnjs.cloudflare.com/ajax/libs/octicons/8.5.0/svg/sync.svg" />
+                            </div>
+                            <div class="current_commit_text">
+                                &nbsp;commited on&nbsp;
+                            </div>
+                            <div id="current_commit_date" class="current_commit_text current_commit_date">
+                                <img style="width: 20px;" class="loading" alt="loading" src="https://cdnjs.cloudflare.com/ajax/libs/octicons/8.5.0/svg/sync.svg" />
+                            </div>
+                            <a id="current_commit" class="current_commit_text link_info">
+                                <img style="width: 20px;" class="loading" alt="loading" src="https://cdnjs.cloudflare.com/ajax/libs/octicons/8.5.0/svg/sync.svg" />
+                            </a>
+                        </div>
+                        <div id="current_commit_message" class="current_commit_bottom">
+                            <img style="width: 20px;" class="loading" alt="loading" src="https://cdnjs.cloudflare.com/ajax/libs/octicons/8.5.0/svg/sync.svg" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
