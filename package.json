@@ -35,7 +35,7 @@
         "mocha-multi-reporters": "1.5.1",
         "mocha-sonarqube-reporter": "1.0.2",
         "nyc": "15.1.0",
-        "standard": "17.0.0"
+        "standard": "17.1.0"
     },
     "standard": {
         "ignore": [
