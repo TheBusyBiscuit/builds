@@ -430,7 +430,7 @@
             }
         }
     },
-    "TheBusyBiscuit/ExtraHeads:master": {
+    "Slimefun-Addon-Community/ExtraHeads:master": {
         "sonar": {
             "enabled": true,
             "organization": "thebusybiscuit-github",
@@ -438,6 +438,7 @@
             "host-url": "https://sonarcloud.io"
         },
         "options": {
+            "custom_directory": "TheBusyBiscuit/MobCapturer/master",
             "prefix": "DEV",
             "abandoned": false,
             "createJar": true
