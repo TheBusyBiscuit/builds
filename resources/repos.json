@@ -561,10 +561,17 @@
             "createJar": true
         },
         "dependencies": {
+            "Java Version": {
+                "19": "16+",
+                "1": "8+"
+            },
             "Minecraft Version(s)": {
+                "19": "1.16+",
+                "18": "1.15+",
                 "1": "1.15.x, 1.16.x"
             },
             "Slimefun Version": {
+                "19": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/Slimefun4/master/#1025\">dev #1025</a> or later",
                 "10": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/Slimefun4/master/#600\">dev #600</a> or later",
                 "1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/Slimefun4/master/#439\">dev #439</a>"
             }
