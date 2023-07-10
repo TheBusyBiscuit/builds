@@ -438,7 +438,7 @@
             "host-url": "https://sonarcloud.io"
         },
         "options": {
-            "custom_directory": "TheBusyBiscuit/MobCapturer/master",
+            "custom_directory": "TheBusyBiscuit/ExtraHeads/master",
             "prefix": "DEV",
             "abandoned": false,
             "createJar": true
