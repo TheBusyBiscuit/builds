@@ -1,0 +1,45 @@
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for me.pranavverma:AdvancedTech:jar:STABLE - 1 (git 1fdd1163)
+[WARNING] 'dependencies.dependency.version' for org.projectlombok:lombok:jar is either LATEST or RELEASE (both of them are being deprecated) @ line 1, column 3113
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] 
+[INFO] --------------------< me.pranavverma:AdvancedTech >---------------------
+[INFO] Building AdvancedTech STABLE - 1 (git 1fdd1163)
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ AdvancedTech ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ AdvancedTech ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ AdvancedTech ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 17 source files to /home/runner/work/builds/builds/PranavVerma-droid/AdvancedTech/stable/files/target/classes
+[WARNING] /home/runner/work/builds/builds/PranavVerma-droid/AdvancedTech/stable/files/src/main/java/me/pranavverma/advancedtech/items/resources/commanders/command_hub/command_hub.java: /home/runner/work/builds/builds/PranavVerma-droid/AdvancedTech/stable/files/src/main/java/me/pranavverma/advancedtech/items/resources/commanders/command_hub/command_hub.java uses or overrides a deprecated API.
+[WARNING] /home/runner/work/builds/builds/PranavVerma-droid/AdvancedTech/stable/files/src/main/java/me/pranavverma/advancedtech/items/resources/commanders/command_hub/command_hub.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ AdvancedTech ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/runner/work/builds/builds/PranavVerma-droid/AdvancedTech/stable/files/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ AdvancedTech ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ AdvancedTech ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ AdvancedTech ---
+[INFO] Building jar: /home/runner/work/builds/builds/PranavVerma-droid/AdvancedTech/stable/files/target/AdvancedTech-1.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  3.660 s
+[INFO] Finished at: 2023-07-11T19:05:15Z
+[INFO] ------------------------------------------------------------------------
