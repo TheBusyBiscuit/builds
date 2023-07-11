@@ -1803,7 +1803,7 @@
             }
         }
     },
-        "PranavVerma-droid/AdvancedTech:master": {
+    "PranavVerma-droid/AdvancedTech:dev": {
         "sonar": {
             "enabled": false
         },
@@ -1820,5 +1820,23 @@
                 "1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/Slimefun4/stable/#33\">RC-33 or higher</a>"
             }
         }
-    }  
+    },
+    "PranavVerma-droid/AdvancedTech:stable": {
+        "sonar": {
+            "enabled": false
+        },
+        "options": {
+            "prefix": "STABLE",
+            "abandoned": false,
+            "createJar": true
+        },
+        "dependencies": {
+            "Minecraft Version(s)": {
+                "1": "1.19.4 - 1.20.X"
+            },
+            "Slimefun Version": {
+                "1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/Slimefun4/stable/#33\">RC-33 or higher</a>"
+            }
+        }
+    }
 }
