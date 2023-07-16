@@ -1,0 +1,293 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------------< io.github.sefiraat:EMCTech >---------------------
+[INFO] Building EMCTech DEV - 4 (git 3239b7a1)
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-clean-plugin/2.5/maven-clean-plugin-2.5.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-clean-plugin/2.5/maven-clean-plugin-2.5.pom (3.9 kB at 16 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/22/maven-plugins-22.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/22/maven-plugins-22.pom (13 kB at 435 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/21/maven-parent-21.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/21/maven-parent-21.pom (26 kB at 909 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/apache/10/apache-10.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/apache/10/apache-10.pom (15 kB at 643 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-clean-plugin/2.5/maven-clean-plugin-2.5.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-clean-plugin/2.5/maven-clean-plugin-2.5.jar (25 kB at 1.1 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-resources-plugin/2.6/maven-resources-plugin-2.6.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-resources-plugin/2.6/maven-resources-plugin-2.6.pom (8.1 kB at 386 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/23/maven-plugins-23.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/23/maven-plugins-23.pom (9.2 kB at 354 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/22/maven-parent-22.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/22/maven-parent-22.pom (30 kB at 1.1 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/apache/11/apache-11.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/apache/11/apache-11.pom (15 kB at 529 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-resources-plugin/2.6/maven-resources-plugin-2.6.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-resources-plugin/2.6/maven-resources-plugin-2.6.jar (30 kB at 1.1 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-compiler-plugin/3.10.1/maven-compiler-plugin-3.10.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-compiler-plugin/3.10.1/maven-compiler-plugin-3.10.1.pom (13 kB at 548 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/34/maven-plugins-34.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/34/maven-plugins-34.pom (11 kB at 427 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/34/maven-parent-34.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/34/maven-parent-34.pom (43 kB at 1.5 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/apache/23/apache-23.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/apache/23/apache-23.pom (18 kB at 682 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-compiler-plugin/3.10.1/maven-compiler-plugin-3.10.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-compiler-plugin/3.10.1/maven-compiler-plugin-3.10.1.jar (62 kB at 2.2 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/2.12.4/maven-surefire-plugin-2.12.4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/2.12.4/maven-surefire-plugin-2.12.4.pom (10 kB at 436 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire/2.12.4/surefire-2.12.4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire/2.12.4/surefire-2.12.4.pom (14 kB at 690 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/2.12.4/maven-surefire-plugin-2.12.4.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/2.12.4/maven-surefire-plugin-2.12.4.jar (30 kB at 1.5 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-jar-plugin/2.4/maven-jar-plugin-2.4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-jar-plugin/2.4/maven-jar-plugin-2.4.pom (5.8 kB at 278 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-jar-plugin/2.4/maven-jar-plugin-2.4.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-jar-plugin/2.4/maven-jar-plugin-2.4.jar (34 kB at 1.5 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-shade-plugin/3.3.0/maven-shade-plugin-3.3.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-shade-plugin/3.3.0/maven-shade-plugin-3.3.0.pom (13 kB at 362 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-shade-plugin/3.3.0/maven-shade-plugin-3.3.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-shade-plugin/3.3.0/maven-shade-plugin-3.3.0.jar (141 kB at 4.7 MB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/spigotmc/spigot-api/1.19-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/spigotmc/spigot-api/1.19-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from sefi-central: https://sefiraat.jfrog.io/artifactory/default-maven-local/org/spigotmc/spigot-api/1.19-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from aikar: https://repo.aikar.co/content/groups/aikar/org/spigotmc/spigot-api/1.19-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloaded from aikar: https://repo.aikar.co/content/groups/aikar/org/spigotmc/spigot-api/1.19-R0.1-SNAPSHOT/maven-metadata.xml (1.4 kB at 3.3 kB/s)
+[INFO] Downloading from placeholderapi: https://repo.extendedclip.com/content/repositories/placeholderapi/org/spigotmc/spigot-api/1.19-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloaded from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/spigotmc/spigot-api/1.19-R0.1-SNAPSHOT/maven-metadata.xml (1.4 kB at 2.7 kB/s)
+[WARNING] Checksum validation failed, expected <!DOCTYPE but is 49d1923b3cbcd34f3d43114ff27b62e8fae7e6fe from sefi-central for https://sefiraat.jfrog.io/artifactory/default-maven-local/org/spigotmc/spigot-api/1.19-R0.1-SNAPSHOT/maven-metadata.xml
+[WARNING] Could not validate integrity of download from https://sefiraat.jfrog.io/artifactory/default-maven-local/org/spigotmc/spigot-api/1.19-R0.1-SNAPSHOT/maven-metadata.xml
+org.eclipse.aether.transfer.ChecksumFailureException: Checksum validation failed, expected <!DOCTYPE but is 49d1923b3cbcd34f3d43114ff27b62e8fae7e6fe
+    at org.eclipse.aether.connector.basic.ChecksumValidator.validateExternalChecksums (ChecksumValidator.java:174)
+    at org.eclipse.aether.connector.basic.ChecksumValidator.validate (ChecksumValidator.java:103)
+    at org.eclipse.aether.connector.basic.BasicRepositoryConnector$GetTaskRunner.runTask (BasicRepositoryConnector.java:460)
+    at org.eclipse.aether.connector.basic.BasicRepositoryConnector$TaskRunner.run (BasicRepositoryConnector.java:364)
+    at org.eclipse.aether.util.concurrency.RunnableErrorForwarder$1.run (RunnableErrorForwarder.java:75)
+    at org.eclipse.aether.connector.basic.BasicRepositoryConnector$DirectExecutor.execute (BasicRepositoryConnector.java:628)
+    at org.eclipse.aether.connector.basic.BasicRepositoryConnector.get (BasicRepositoryConnector.java:235)
+    at org.eclipse.aether.internal.impl.DefaultMetadataResolver$ResolveTask.run (DefaultMetadataResolver.java:586)
+    at org.eclipse.aether.util.concurrency.RunnableErrorForwarder$1.run (RunnableErrorForwarder.java:75)
+    at java.util.concurrent.ThreadPoolExecutor.runWorker (ThreadPoolExecutor.java:1136)
+    at java.util.concurrent.ThreadPoolExecutor$Worker.run (ThreadPoolExecutor.java:635)
+    at java.lang.Thread.run (Thread.java:833)
+[WARNING] Checksum validation failed, expected <!DOCTYPE but is 49d1923b3cbcd34f3d43114ff27b62e8fae7e6fe from sefi-central for https://sefiraat.jfrog.io/artifactory/default-maven-local/org/spigotmc/spigot-api/1.19-R0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloaded from sefi-central: https://sefiraat.jfrog.io/artifactory/default-maven-local/org/spigotmc/spigot-api/1.19-R0.1-SNAPSHOT/maven-metadata.xml (11 kB at 12 kB/s)
+[WARNING] The metadata /home/runner/.m2/repository/org/spigotmc/spigot-api/1.19-R0.1-SNAPSHOT/maven-metadata-sefi-central.xml is invalid: entity reference name can not contain character =' (position: END_TAG seen ...s://fonts.googleapis.com/css?family=Open+Sans:400,700,800&display=... @1:326) 
+[WARNING] The metadata /home/runner/.m2/repository/org/spigotmc/spigot-api/1.19-R0.1-SNAPSHOT/maven-metadata-sefi-central.xml is invalid: entity reference name can not contain character =' (position: END_TAG seen ...s://fonts.googleapis.com/css?family=Open+Sans:400,700,800&display=... @1:326) 
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/spigotmc/spigot-api/1.19-R0.1-SNAPSHOT/spigot-api-1.19-R0.1-20220725.090125-47.pom
+[INFO] Downloaded from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/spigotmc/spigot-api/1.19-R0.1-SNAPSHOT/spigot-api-1.19-R0.1-20220725.090125-47.pom (10 kB at 50 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/google/guava/guava/31.0.1-jre/guava-31.0.1-jre.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/google/guava/guava/31.0.1-jre/guava-31.0.1-jre.pom
+[INFO] Downloading from sefi-central: https://sefiraat.jfrog.io/artifactory/default-maven-local/com/google/guava/guava/31.0.1-jre/guava-31.0.1-jre.pom
+[INFO] Downloading from aikar: https://repo.aikar.co/content/groups/aikar/com/google/guava/guava/31.0.1-jre/guava-31.0.1-jre.pom
+[INFO] Downloaded from aikar: https://repo.aikar.co/content/groups/aikar/com/google/guava/guava/31.0.1-jre/guava-31.0.1-jre.pom (11 kB at 74 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/google/guava/guava-parent/31.0.1-jre/guava-parent-31.0.1-jre.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/google/guava/guava-parent/31.0.1-jre/guava-parent-31.0.1-jre.pom
+[INFO] Downloading from sefi-central: https://sefiraat.jfrog.io/artifactory/default-maven-local/com/google/guava/guava-parent/31.0.1-jre/guava-parent-31.0.1-jre.pom
+[INFO] Downloading from aikar: https://repo.aikar.co/content/groups/aikar/com/google/guava/guava-parent/31.0.1-jre/guava-parent-31.0.1-jre.pom
+[INFO] Downloaded from aikar: https://repo.aikar.co/content/groups/aikar/com/google/guava/guava-parent/31.0.1-jre/guava-parent-31.0.1-jre.pom (14 kB at 93 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.pom
+[INFO] Downloading from sefi-central: https://sefiraat.jfrog.io/artifactory/default-maven-local/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.pom
+[INFO] Downloading from aikar: https://repo.aikar.co/content/groups/aikar/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.pom
+[INFO] Downloaded from aikar: https://repo.aikar.co/content/groups/aikar/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.pom (2.4 kB at 16 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/google/guava/guava-parent/26.0-android/guava-parent-26.0-android.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/google/guava/guava-parent/26.0-android/guava-parent-26.0-android.pom
+[INFO] Downloading from sefi-central: https://sefiraat.jfrog.io/artifactory/default-maven-local/com/google/guava/guava-parent/26.0-android/guava-parent-26.0-android.pom
+[INFO] Downloading from aikar: https://repo.aikar.co/content/groups/aikar/com/google/guava/guava-parent/26.0-android/guava-parent-26.0-android.pom
+[INFO] Downloaded from aikar: https://repo.aikar.co/content/groups/aikar/com/google/guava/guava-parent/26.0-android/guava-parent-26.0-android.pom (10 kB at 69 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/sonatype/oss/oss-parent/9/oss-parent-9.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/sonatype/oss/oss-parent/9/oss-parent-9.pom
+[INFO] Downloading from sefi-central: https://sefiraat.jfrog.io/artifactory/default-maven-local/org/sonatype/oss/oss-parent/9/oss-parent-9.pom
+[INFO] Downloading from aikar: https://repo.aikar.co/content/groups/aikar/org/sonatype/oss/oss-parent/9/oss-parent-9.pom
+[INFO] Downloaded from aikar: https://repo.aikar.co/content/groups/aikar/org/sonatype/oss/oss-parent/9/oss-parent-9.pom (6.3 kB at 42 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.pom
+[INFO] Downloading from sefi-central: https://sefiraat.jfrog.io/artifactory/default-maven-local/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.pom
+[INFO] Downloading from aikar: https://repo.aikar.co/content/groups/aikar/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.pom
+[INFO] Downloaded from aikar: https://repo.aikar.co/content/groups/aikar/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.pom (2.3 kB at 15 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.pom
+[INFO] Downloading from sefi-central: https://sefiraat.jfrog.io/artifactory/default-maven-local/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.pom
+[INFO] Downloading from aikar: https://repo.aikar.co/content/groups/aikar/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.pom
+[INFO] Downloaded from aikar: https://repo.aikar.co/content/groups/aikar/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.pom (4.3 kB at 29 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/sonatype/oss/oss-parent/7/oss-parent-7.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/sonatype/oss/oss-parent/7/oss-parent-7.pom
+[INFO] Downloading from sefi-central: https://sefiraat.jfrog.io/artifactory/default-maven-local/org/sonatype/oss/oss-parent/7/oss-parent-7.pom
+[INFO] Downloading from aikar: https://repo.aikar.co/content/groups/aikar/org/sonatype/oss/oss-parent/7/oss-parent-7.pom
+[INFO] Downloaded from aikar: https://repo.aikar.co/content/groups/aikar/org/sonatype/oss/oss-parent/7/oss-parent-7.pom (4.6 kB at 31 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/checkerframework/checker-qual/3.12.0/checker-qual-3.12.0.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/checkerframework/checker-qual/3.12.0/checker-qual-3.12.0.pom
+[INFO] Downloading from sefi-central: https://sefiraat.jfrog.io/artifactory/default-maven-local/org/checkerframework/checker-qual/3.12.0/checker-qual-3.12.0.pom
+[INFO] Downloading from aikar: https://repo.aikar.co/content/groups/aikar/org/checkerframework/checker-qual/3.12.0/checker-qual-3.12.0.pom
+[INFO] Downloaded from aikar: https://repo.aikar.co/content/groups/aikar/org/checkerframework/checker-qual/3.12.0/checker-qual-3.12.0.pom (2.1 kB at 14 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/google/errorprone/error_prone_annotations/2.7.1/error_prone_annotations-2.7.1.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/google/errorprone/error_prone_annotations/2.7.1/error_prone_annotations-2.7.1.pom
+[INFO] Downloading from sefi-central: https://sefiraat.jfrog.io/artifactory/default-maven-local/com/google/errorprone/error_prone_annotations/2.7.1/error_prone_annotations-2.7.1.pom
+[INFO] Downloading from aikar: https://repo.aikar.co/content/groups/aikar/com/google/errorprone/error_prone_annotations/2.7.1/error_prone_annotations-2.7.1.pom
+[INFO] Downloaded from aikar: https://repo.aikar.co/content/groups/aikar/com/google/errorprone/error_prone_annotations/2.7.1/error_prone_annotations-2.7.1.pom (2.1 kB at 11 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/google/errorprone/error_prone_parent/2.7.1/error_prone_parent-2.7.1.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/google/errorprone/error_prone_parent/2.7.1/error_prone_parent-2.7.1.pom
+[INFO] Downloading from sefi-central: https://sefiraat.jfrog.io/artifactory/default-maven-local/com/google/errorprone/error_prone_parent/2.7.1/error_prone_parent-2.7.1.pom
+[INFO] Downloading from aikar: https://repo.aikar.co/content/groups/aikar/com/google/errorprone/error_prone_parent/2.7.1/error_prone_parent-2.7.1.pom
+[INFO] Downloaded from aikar: https://repo.aikar.co/content/groups/aikar/com/google/errorprone/error_prone_parent/2.7.1/error_prone_parent-2.7.1.pom (7.0 kB at 47 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.pom
+[INFO] Downloading from sefi-central: https://sefiraat.jfrog.io/artifactory/default-maven-local/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.pom
+[INFO] Downloading from aikar: https://repo.aikar.co/content/groups/aikar/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.pom
+[INFO] Downloaded from aikar: https://repo.aikar.co/content/groups/aikar/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.pom (2.8 kB at 19 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/google/code/gson/gson/2.8.9/gson-2.8.9.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/google/code/gson/gson/2.8.9/gson-2.8.9.pom
+[INFO] Downloading from sefi-central: https://sefiraat.jfrog.io/artifactory/default-maven-local/com/google/code/gson/gson/2.8.9/gson-2.8.9.pom
+[INFO] Downloading from aikar: https://repo.aikar.co/content/groups/aikar/com/google/code/gson/gson/2.8.9/gson-2.8.9.pom
+[INFO] Downloaded from aikar: https://repo.aikar.co/content/groups/aikar/com/google/code/gson/gson/2.8.9/gson-2.8.9.pom (6.3 kB at 43 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/google/code/gson/gson-parent/2.8.9/gson-parent-2.8.9.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/google/code/gson/gson-parent/2.8.9/gson-parent-2.8.9.pom
+[INFO] Downloading from sefi-central: https://sefiraat.jfrog.io/artifactory/default-maven-local/com/google/code/gson/gson-parent/2.8.9/gson-parent-2.8.9.pom
+[INFO] Downloading from aikar: https://repo.aikar.co/content/groups/aikar/com/google/code/gson/gson-parent/2.8.9/gson-parent-2.8.9.pom
+[INFO] Downloaded from aikar: https://repo.aikar.co/content/groups/aikar/com/google/code/gson/gson-parent/2.8.9/gson-parent-2.8.9.pom (4.7 kB at 32 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/net/md-5/bungeecord-chat/1.16-R0.4/bungeecord-chat-1.16-R0.4.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/net/md-5/bungeecord-chat/1.16-R0.4/bungeecord-chat-1.16-R0.4.pom
+[INFO] Downloading from sefi-central: https://sefiraat.jfrog.io/artifactory/default-maven-local/net/md-5/bungeecord-chat/1.16-R0.4/bungeecord-chat-1.16-R0.4.pom
+[INFO] Downloading from aikar: https://repo.aikar.co/content/groups/aikar/net/md-5/bungeecord-chat/1.16-R0.4/bungeecord-chat-1.16-R0.4.pom
+[INFO] Downloaded from aikar: https://repo.aikar.co/content/groups/aikar/net/md-5/bungeecord-chat/1.16-R0.4/bungeecord-chat-1.16-R0.4.pom (978 B at 6.5 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/net/md-5/bungeecord-parent/1.16-R0.4/bungeecord-parent-1.16-R0.4.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/net/md-5/bungeecord-parent/1.16-R0.4/bungeecord-parent-1.16-R0.4.pom
+[INFO] Downloading from sefi-central: https://sefiraat.jfrog.io/artifactory/default-maven-local/net/md-5/bungeecord-parent/1.16-R0.4/bungeecord-parent-1.16-R0.4.pom
+[INFO] Downloading from aikar: https://repo.aikar.co/content/groups/aikar/net/md-5/bungeecord-parent/1.16-R0.4/bungeecord-parent-1.16-R0.4.pom
+[INFO] Downloaded from aikar: https://repo.aikar.co/content/groups/aikar/net/md-5/bungeecord-parent/1.16-R0.4/bungeecord-parent-1.16-R0.4.pom (10 kB at 70 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/google/code/gson/gson/2.8.0/gson-2.8.0.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/google/code/gson/gson/2.8.0/gson-2.8.0.pom
+[INFO] Downloading from sefi-central: https://sefiraat.jfrog.io/artifactory/default-maven-local/com/google/code/gson/gson/2.8.0/gson-2.8.0.pom
+[INFO] Downloading from aikar: https://repo.aikar.co/content/groups/aikar/com/google/code/gson/gson/2.8.0/gson-2.8.0.pom
+[INFO] Downloaded from aikar: https://repo.aikar.co/content/groups/aikar/com/google/code/gson/gson/2.8.0/gson-2.8.0.pom (1.4 kB at 10.0 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/google/code/gson/gson-parent/2.8.0/gson-parent-2.8.0.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/google/code/gson/gson-parent/2.8.0/gson-parent-2.8.0.pom
+[INFO] Downloading from sefi-central: https://sefiraat.jfrog.io/artifactory/default-maven-local/com/google/code/gson/gson-parent/2.8.0/gson-parent-2.8.0.pom
+[INFO] Downloading from aikar: https://repo.aikar.co/content/groups/aikar/com/google/code/gson/gson-parent/2.8.0/gson-parent-2.8.0.pom
+[INFO] Downloaded from aikar: https://repo.aikar.co/content/groups/aikar/com/google/code/gson/gson-parent/2.8.0/gson-parent-2.8.0.pom (3.5 kB at 24 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/google/guava/guava/21.0/guava-21.0.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/google/guava/guava/21.0/guava-21.0.pom
+[INFO] Downloading from sefi-central: https://sefiraat.jfrog.io/artifactory/default-maven-local/com/google/guava/guava/21.0/guava-21.0.pom
+[INFO] Downloading from aikar: https://repo.aikar.co/content/groups/aikar/com/google/guava/guava/21.0/guava-21.0.pom
+[INFO] Downloaded from aikar: https://repo.aikar.co/content/groups/aikar/com/google/guava/guava/21.0/guava-21.0.pom (7.0 kB at 45 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/google/guava/guava-parent/21.0/guava-parent-21.0.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/google/guava/guava-parent/21.0/guava-parent-21.0.pom
+[INFO] Downloading from sefi-central: https://sefiraat.jfrog.io/artifactory/default-maven-local/com/google/guava/guava-parent/21.0/guava-parent-21.0.pom
+[INFO] Downloading from aikar: https://repo.aikar.co/content/groups/aikar/com/google/guava/guava-parent/21.0/guava-parent-21.0.pom
+[INFO] Downloaded from aikar: https://repo.aikar.co/content/groups/aikar/com/google/guava/guava-parent/21.0/guava-parent-21.0.pom (9.7 kB at 59 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/yaml/snakeyaml/1.30/snakeyaml-1.30.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/yaml/snakeyaml/1.30/snakeyaml-1.30.pom
+[INFO] Downloading from sefi-central: https://sefiraat.jfrog.io/artifactory/default-maven-local/org/yaml/snakeyaml/1.30/snakeyaml-1.30.pom
+[INFO] Downloading from aikar: https://repo.aikar.co/content/groups/aikar/org/yaml/snakeyaml/1.30/snakeyaml-1.30.pom
+[INFO] Downloaded from aikar: https://repo.aikar.co/content/groups/aikar/org/yaml/snakeyaml/1.30/snakeyaml-1.30.pom (37 kB at 177 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/github/Slimefun/Slimefun4/b8f7dc/Slimefun4-b8f7dc.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/github/Slimefun/Slimefun4/b8f7dc/Slimefun4-b8f7dc.pom
+[INFO] Downloaded from jitpack.io: https://jitpack.io/com/github/Slimefun/Slimefun4/b8f7dc/Slimefun4-b8f7dc.pom (14 kB at 19 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/bstats/bstats-bukkit/3.0.0/bstats-bukkit-3.0.0.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/bstats/bstats-bukkit/3.0.0/bstats-bukkit-3.0.0.pom
+[INFO] Downloading from sefi-central: https://sefiraat.jfrog.io/artifactory/default-maven-local/org/bstats/bstats-bukkit/3.0.0/bstats-bukkit-3.0.0.pom
+[INFO] Downloading from aikar: https://repo.aikar.co/content/groups/aikar/org/bstats/bstats-bukkit/3.0.0/bstats-bukkit-3.0.0.pom
+[INFO] Downloaded from aikar: https://repo.aikar.co/content/groups/aikar/org/bstats/bstats-bukkit/3.0.0/bstats-bukkit-3.0.0.pom (1.7 kB at 12 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/bstats/bstats-base/3.0.0/bstats-base-3.0.0.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/bstats/bstats-base/3.0.0/bstats-base-3.0.0.pom
+[INFO] Downloading from sefi-central: https://sefiraat.jfrog.io/artifactory/default-maven-local/org/bstats/bstats-base/3.0.0/bstats-base-3.0.0.pom
+[INFO] Downloading from aikar: https://repo.aikar.co/content/groups/aikar/org/bstats/bstats-base/3.0.0/bstats-base-3.0.0.pom
+[INFO] Downloaded from aikar: https://repo.aikar.co/content/groups/aikar/org/bstats/bstats-base/3.0.0/bstats-base-3.0.0.pom (1.5 kB at 10 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/google/code/findbugs/annotations/3.0.1u2/annotations-3.0.1u2.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/google/code/findbugs/annotations/3.0.1u2/annotations-3.0.1u2.pom
+[INFO] Downloading from sefi-central: https://sefiraat.jfrog.io/artifactory/default-maven-local/com/google/code/findbugs/annotations/3.0.1u2/annotations-3.0.1u2.pom
+[INFO] Downloading from aikar: https://repo.aikar.co/content/groups/aikar/com/google/code/findbugs/annotations/3.0.1u2/annotations-3.0.1u2.pom
+[INFO] Downloaded from aikar: https://repo.aikar.co/content/groups/aikar/com/google/code/findbugs/annotations/3.0.1u2/annotations-3.0.1u2.pom (7.0 kB at 48 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/net/jcip/jcip-annotations/1.0/jcip-annotations-1.0.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/net/jcip/jcip-annotations/1.0/jcip-annotations-1.0.pom
+[INFO] Downloading from sefi-central: https://sefiraat.jfrog.io/artifactory/default-maven-local/net/jcip/jcip-annotations/1.0/jcip-annotations-1.0.pom
+[INFO] Downloading from aikar: https://repo.aikar.co/content/groups/aikar/net/jcip/jcip-annotations/1.0/jcip-annotations-1.0.pom
+[INFO] Downloaded from aikar: https://repo.aikar.co/content/groups/aikar/net/jcip/jcip-annotations/1.0/jcip-annotations-1.0.pom (491 B at 3.3 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/google/code/findbugs/jsr305/3.0.1/jsr305-3.0.1.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/google/code/findbugs/jsr305/3.0.1/jsr305-3.0.1.pom
+[INFO] Downloading from sefi-central: https://sefiraat.jfrog.io/artifactory/default-maven-local/com/google/code/findbugs/jsr305/3.0.1/jsr305-3.0.1.pom
+[INFO] Downloading from aikar: https://repo.aikar.co/content/groups/aikar/com/google/code/findbugs/jsr305/3.0.1/jsr305-3.0.1.pom
+[INFO] Downloaded from aikar: https://repo.aikar.co/content/groups/aikar/com/google/code/findbugs/jsr305/3.0.1/jsr305-3.0.1.pom (4.3 kB at 29 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/io/github/sefiraat/SefiLib/0.1.0/SefiLib-0.1.0.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/io/github/sefiraat/SefiLib/0.1.0/SefiLib-0.1.0.pom
+[INFO] Downloading from sefi-central: https://sefiraat.jfrog.io/artifactory/default-maven-local/io/github/sefiraat/SefiLib/0.1.0/SefiLib-0.1.0.pom
+[INFO] Downloading from aikar: https://repo.aikar.co/content/groups/aikar/io/github/sefiraat/SefiLib/0.1.0/SefiLib-0.1.0.pom
+[INFO] Downloading from placeholderapi: https://repo.extendedclip.com/content/repositories/placeholderapi/io/github/sefiraat/SefiLib/0.1.0/SefiLib-0.1.0.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/github/sefiraat/SefiLib/0.1.0/SefiLib-0.1.0.pom
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/co/aikar/acf-paper/0.5.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from jitpack.io: https://jitpack.io/co/aikar/acf-paper/0.5.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from sefi-central: https://sefiraat.jfrog.io/artifactory/default-maven-local/co/aikar/acf-paper/0.5.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from aikar: https://repo.aikar.co/content/groups/aikar/co/aikar/acf-paper/0.5.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from placeholderapi: https://repo.extendedclip.com/content/repositories/placeholderapi/co/aikar/acf-paper/0.5.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloaded from aikar: https://repo.aikar.co/content/groups/aikar/co/aikar/acf-paper/0.5.1-SNAPSHOT/maven-metadata.xml (985 B at 6.6 kB/s)
+[WARNING] Could not transfer metadata co.aikar:acf-paper:0.5.1-SNAPSHOT/maven-metadata.xml from/to sefi-central (https://sefiraat.jfrog.io/artifactory/default-maven-local): transfer failed for https://sefiraat.jfrog.io/artifactory/default-maven-local/co/aikar/acf-paper/0.5.1-SNAPSHOT/maven-metadata.xml, status: 409 Conflict
+[WARNING] co.aikar:acf-paper:0.5.1-SNAPSHOT/maven-metadata.xmlfailed to transfer from https://sefiraat.jfrog.io/artifactory/default-maven-local during a previous attempt. This failure was cached in the local repository and resolution will not be reattempted until the update interval of sefi-central has elapsed or updates are forced. Original error: Could not transfer metadata co.aikar:acf-paper:0.5.1-SNAPSHOT/maven-metadata.xml from/to sefi-central (https://sefiraat.jfrog.io/artifactory/default-maven-local): transfer failed for https://sefiraat.jfrog.io/artifactory/default-maven-local/co/aikar/acf-paper/0.5.1-SNAPSHOT/maven-metadata.xml, status: 409 Conflict
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/co/aikar/acf-paper/0.5.1-SNAPSHOT/acf-paper-0.5.1-20230626.231109-27.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/co/aikar/acf-paper/0.5.1-SNAPSHOT/acf-paper-0.5.1-20230626.231109-27.pom
+[INFO] Downloading from sefi-central: https://sefiraat.jfrog.io/artifactory/default-maven-local/co/aikar/acf-paper/0.5.1-SNAPSHOT/acf-paper-0.5.1-20230626.231109-27.pom
+[INFO] Downloading from aikar: https://repo.aikar.co/content/groups/aikar/co/aikar/acf-paper/0.5.1-SNAPSHOT/acf-paper-0.5.1-20230626.231109-27.pom
+[INFO] Downloaded from aikar: https://repo.aikar.co/content/groups/aikar/co/aikar/acf-paper/0.5.1-SNAPSHOT/acf-paper-0.5.1-20230626.231109-27.pom (4.0 kB at 27 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/co/aikar/acf-parent/0.5.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from sefi-central: https://sefiraat.jfrog.io/artifactory/default-maven-local/co/aikar/acf-parent/0.5.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from aikar: https://repo.aikar.co/content/groups/aikar/co/aikar/acf-parent/0.5.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from jitpack.io: https://jitpack.io/co/aikar/acf-parent/0.5.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from placeholderapi: https://repo.extendedclip.com/content/repositories/placeholderapi/co/aikar/acf-parent/0.5.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloaded from aikar: https://repo.aikar.co/content/groups/aikar/co/aikar/acf-parent/0.5.1-SNAPSHOT/maven-metadata.xml (597 B at 3.6 kB/s)
+[WARNING] Could not transfer metadata co.aikar:acf-parent:0.5.1-SNAPSHOT/maven-metadata.xml from/to sefi-central (https://sefiraat.jfrog.io/artifactory/default-maven-local): transfer failed for https://sefiraat.jfrog.io/artifactory/default-maven-local/co/aikar/acf-parent/0.5.1-SNAPSHOT/maven-metadata.xml, status: 409 Conflict
+[INFO] Downloading from aikar: https://repo.aikar.co/content/groups/aikar/co/aikar/acf-parent/0.5.1-SNAPSHOT/acf-parent-0.5.1-20230626.231109-29.pom
+[INFO] Downloaded from aikar: https://repo.aikar.co/content/groups/aikar/co/aikar/acf-parent/0.5.1-SNAPSHOT/acf-parent-0.5.1-20230626.231109-29.pom (8.4 kB at 56 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/github/simplix-softworks/SimplixStorage/3.2.5/SimplixStorage-3.2.5.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/github/simplix-softworks/SimplixStorage/3.2.5/SimplixStorage-3.2.5.pom
+[INFO] Downloaded from jitpack.io: https://jitpack.io/com/github/simplix-softworks/SimplixStorage/3.2.5/SimplixStorage-3.2.5.pom (6.6 kB at 153 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/esotericsoftware/yamlbeans/yamlbeans/1.15/yamlbeans-1.15.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/esotericsoftware/yamlbeans/yamlbeans/1.15/yamlbeans-1.15.pom
+[INFO] Downloading from sefi-central: https://sefiraat.jfrog.io/artifactory/default-maven-local/com/esotericsoftware/yamlbeans/yamlbeans/1.15/yamlbeans-1.15.pom
+[INFO] Downloading from aikar: https://repo.aikar.co/content/groups/aikar/com/esotericsoftware/yamlbeans/yamlbeans/1.15/yamlbeans-1.15.pom
+[INFO] Downloaded from aikar: https://repo.aikar.co/content/groups/aikar/com/esotericsoftware/yamlbeans/yamlbeans/1.15/yamlbeans-1.15.pom (6.2 kB at 41 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/json/json/20210307/json-20210307.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/json/json/20210307/json-20210307.pom
+[INFO] Downloading from sefi-central: https://sefiraat.jfrog.io/artifactory/default-maven-local/org/json/json/20210307/json-20210307.pom
+[INFO] Downloading from aikar: https://repo.aikar.co/content/groups/aikar/org/json/json/20210307/json-20210307.pom
+[INFO] Downloaded from aikar: https://repo.aikar.co/content/groups/aikar/org/json/json/20210307/json-20210307.pom (7.8 kB at 49 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/jetbrains/annotations/22.0.0/annotations-22.0.0.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/jetbrains/annotations/22.0.0/annotations-22.0.0.pom
+[INFO] Downloading from sefi-central: https://sefiraat.jfrog.io/artifactory/default-maven-local/org/jetbrains/annotations/22.0.0/annotations-22.0.0.pom
+[INFO] Downloading from aikar: https://repo.aikar.co/content/groups/aikar/org/jetbrains/annotations/22.0.0/annotations-22.0.0.pom
+[INFO] Downloaded from aikar: https://repo.aikar.co/content/groups/aikar/org/jetbrains/annotations/22.0.0/annotations-22.0.0.pom (1.3 kB at 9.1 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/io/github/sefiraat/networks/MODIFIED_1.0.7/networks-MODIFIED_1.0.7.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/io/github/sefiraat/networks/MODIFIED_1.0.7/networks-MODIFIED_1.0.7.pom
+[INFO] Downloading from sefi-central: https://sefiraat.jfrog.io/artifactory/default-maven-local/io/github/sefiraat/networks/MODIFIED_1.0.7/networks-MODIFIED_1.0.7.pom
+[INFO] Downloading from aikar: https://repo.aikar.co/content/groups/aikar/io/github/sefiraat/networks/MODIFIED_1.0.7/networks-MODIFIED_1.0.7.pom
+[INFO] Downloading from placeholderapi: https://repo.extendedclip.com/content/repositories/placeholderapi/io/github/sefiraat/networks/MODIFIED_1.0.7/networks-MODIFIED_1.0.7.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/github/sefiraat/networks/MODIFIED_1.0.7/networks-MODIFIED_1.0.7.pom
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/github/Sefiraat/DankTech2/d2465ae845/DankTech2-d2465ae845.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/github/Sefiraat/DankTech2/d2465ae845/DankTech2-d2465ae845.pom
+[INFO] Downloaded from jitpack.io: https://jitpack.io/com/github/Sefiraat/DankTech2/d2465ae845/DankTech2-d2465ae845.pom (5.0 kB at 26 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/github/Mooy1/InfinityExpansion/1e83e7afa0/InfinityExpansion-1e83e7afa0.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/github/Mooy1/InfinityExpansion/1e83e7afa0/InfinityExpansion-1e83e7afa0.pom
+[INFO] Downloaded from jitpack.io: https://jitpack.io/com/github/Mooy1/InfinityExpansion/1e83e7afa0/InfinityExpansion-1e83e7afa0.pom (5.4 kB at 8.8 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/me/clip/placeholderapi/2.11.1/placeholderapi-2.11.1.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/me/clip/placeholderapi/2.11.1/placeholderapi-2.11.1.pom
+[INFO] Downloading from sefi-central: https://sefiraat.jfrog.io/artifactory/default-maven-local/me/clip/placeholderapi/2.11.1/placeholderapi-2.11.1.pom
+[INFO] Downloading from aikar: https://repo.aikar.co/content/groups/aikar/me/clip/placeholderapi/2.11.1/placeholderapi-2.11.1.pom
+[INFO] Downloading from placeholderapi: https://repo.extendedclip.com/content/repositories/placeholderapi/me/clip/placeholderapi/2.11.1/placeholderapi-2.11.1.pom
+[INFO] Downloaded from placeholderapi: https://repo.extendedclip.com/content/repositories/placeholderapi/me/clip/placeholderapi/2.11.1/placeholderapi-2.11.1.pom (962 B at 5.4 kB/s)
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/jetbrains/annotations/19.0.0/annotations-19.0.0.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/org/jetbrains/annotations/19.0.0/annotations-19.0.0.pom
+[INFO] Downloading from sefi-central: https://sefiraat.jfrog.io/artifactory/default-maven-local/org/jetbrains/annotations/19.0.0/annotations-19.0.0.pom
+[INFO] Downloading from aikar: https://repo.aikar.co/content/groups/aikar/org/jetbrains/annotations/19.0.0/annotations-19.0.0.pom
+[INFO] Downloaded from aikar: https://repo.aikar.co/content/groups/aikar/org/jetbrains/annotations/19.0.0/annotations-19.0.0.pom (1.4 kB at 9.1 kB/s)
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  24.177 s
+[INFO] Finished at: 2023-07-16T08:53:28Z
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal on project EMCTech: Could not resolve dependencies for project io.github.sefiraat:EMCTech:jar:DEV - 4 (git 3239b7a1): Failed to collect dependencies at io.github.sefiraat:SefiLib:jar:0.1.0: Failed to read artifact descriptor for io.github.sefiraat:SefiLib:jar:0.1.0: Could not transfer artifact io.github.sefiraat:SefiLib:pom:0.1.0 from/to sefi-central (https://sefiraat.jfrog.io/artifactory/default-maven-local): transfer failed for https://sefiraat.jfrog.io/artifactory/default-maven-local/io/github/sefiraat/SefiLib/0.1.0/SefiLib-0.1.0.pom, status: 409 Conflict -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/DependencyResolutionException
