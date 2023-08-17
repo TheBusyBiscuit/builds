@@ -25,7 +25,7 @@ jobs:
         architecture: x64
 
     - name: Setting up node.js
-      uses: actions/setup-node@v3.7.0
+      uses: actions/setup-node@v3.8.1
       with:
         node-version: '16.6.0'
 
