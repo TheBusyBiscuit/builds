@@ -1839,4 +1839,22 @@
             }
         }
     }
+    "LordIdra/Quaptics:master": {
+        "sonar": {
+            "enabled": false
+        },
+        "options": {
+            "prefix": "DEV",
+            "abandoned": false,
+            "createJar": true
+        },
+        "dependencies": {
+            "Minecraft Version(s)": {
+                "1": "1.19.4 - 1.20.X"
+            },
+            "Slimefun Version": {
+                "1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/Slimefun4/stable/#33\">RC-33 or higher</a>"
+            }
+        }
+    }
 }
