@@ -1838,7 +1838,7 @@
                 "1": "<a class=\"link_info\" href=\"/builds/TheBusyBiscuit/Slimefun4/stable/#33\">RC-33 or higher</a>"
             }
         }
-    }
+    },
     "LordIdra/Quaptics:master": {
         "sonar": {
             "enabled": false
