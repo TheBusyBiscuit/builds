@@ -24,7 +24,7 @@ jobs:
         directory: 'resources'
 
     - name: Auto committing minified files
-      uses: stefanzweifel/git-auto-commit-action@v4.16.0
+      uses: stefanzweifel/git-auto-commit-action@v5.0.0
       with: 
         repository: 'resources'
         commit_message: "Automatically minified resources directory"
