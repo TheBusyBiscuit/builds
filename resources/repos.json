@@ -1558,6 +1558,7 @@
         },
         "options": {
             "prefix": "DEV",
+            "custom_directory": "qwertyuioplkjhgfd/SlimefunAdvancements/main",
             "abandoned": false,
             "createJar": true
         },
